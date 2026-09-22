@@ -1291,3 +1291,30 @@ FABRICA MUEBLES/
 │   └── README.md                    ← el detalle de cada uno
 └── referencia/                      ← los archivos de Bluen: el oráculo real
 ```
+
+## 15.9 · Git
+
+El proyecto está en un repositorio git **local**, en la misma carpeta. Primer
+commit `7187c7b`, 476 archivos, 22/09/2026.
+
+```
+cd "~/Documents/Claude/Projects/FABRICA MUEBLES"
+git log --oneline          # historial
+git status                 # qué cambió
+git diff                   # ver los cambios antes de guardar
+git add -A && git commit -m "lo que hice"
+```
+
+Está todo adentro, incluidas las carpetas `referencia/` y `PENDRIVE/`: pesan poco
+y la de referencia es el oráculo contra el que se valida todo, así que conviene
+que viaje con el código.
+
+**Queda afuera** (`.gitignore`): `.DS_Store`, los `__pycache__`, y
+`fusion/_descartes/`, que son las carpetas de exportaciones de prueba viejas que
+se apartaron al ordenar.
+
+**Todavía no hay remoto.** Si se quiere respaldo fuera de la Mac hay que crear un
+repo en GitHub o similar y agregarlo con `git remote add origin ...`.
+
+> Nota: git necesita borrar sus propios temporales (`index.lock`, `tmp_obj_*`).
+> Si alguna vez se traba con "Operation not permitted", es eso.
