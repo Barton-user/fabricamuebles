@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Hoja de campo — SKH-612HS · PRUEBA 1</title>
+<style>
+  @page { size: A4; margin: 12mm 12mm 10mm 12mm; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+         font-size: 9.3pt; line-height: 1.32; color: #000; margin: 0; }
+  h1 { font-size: 15pt; margin: 0 0 1mm; letter-spacing: -.01em; }
+  .sub { font-size: 8.5pt; color: #444; margin: 0 0 4mm; }
+  h2 { font-size: 10.5pt; margin: 4mm 0 1.5mm; padding: 1mm 2mm;
+       background: #000; color: #fff; }
+  h2 .n { display: inline-block; width: 6mm; }
+  h3 { font-size: 9.5pt; margin: 3mm 0 1mm; }
+  p  { margin: 0 0 1.5mm; }
+  ol, ul { margin: 0 0 2mm; padding-left: 5mm; }
+  li { margin-bottom: .8mm; }
+  table { width: 100%; border-collapse: collapse; margin: 1.5mm 0 2.5mm;
+          font-size: 8.7pt; }
+  th, td { border: .4pt solid #000; padding: 1mm 1.5mm; text-align: left;
+           vertical-align: top; }
+  th { background: #e8e8e8; font-weight: 600; }
+  td.c, th.c { text-align: center; }
+  .fill { background: #fbf7d0; }
+  .box { border: .8pt solid #000; padding: 2mm 2.5mm; margin: 2mm 0; }
+  .warn { border-left: 2.5mm solid #000; padding: 1.5mm 0 1.5mm 2.5mm;
+          margin: 2mm 0; background: #f2f2f2; }
+  .rule { border: none; border-top: .4pt solid #999; margin: 3mm 0; }
+  .two { display: flex; gap: 5mm; }
+  .two > * { flex: 1; }
+  .stop { font-weight: 700; text-transform: uppercase; }
+  .page2 { page-break-before: always; }
+  .lines div { border-bottom: .4pt solid #999; height: 5.5mm; }
+  svg { width: 100%; height: auto; }
+  .cap { font-size: 8pt; color: #444; text-align: center; margin-top: 1mm; }
+  code { font-family: "SF Mono", Menlo, monospace; font-size: 8.5pt; }
+  .chk { font-size: 11pt; }
+</style>
+</head>
+<body>
+
+<h1>SKH-612HS — Hoja de campo</h1>
+<p class="sub">Primera prueba · PRUEBA 1 (orden 260625-20) · pieza <strong>9441838670057</strong> — techo 400 × 600 × 18 mm<br>
+Archivos: carpeta <code>etapa2/salida/PRUEBA1/</code> en el pendrive — BAN / MPR / XML1 / XML3</p>
+
+<div class="box">
+  <strong>Llevar:</strong>
+  <span class="chk">☐</span> pendrive con la carpeta entera &nbsp;
+  <span class="chk">☐</span> calibre &nbsp;
+  <span class="chk">☐</span> recorte 400 × 600 × 18 mm &nbsp;
+  <span class="chk">☐</span> esta hoja + <code>HOJAS_VERIFICACION.html</code> impresas &nbsp;
+  <span class="chk">☐</span> celular (fotos de pantalla)
+</div>
+
+<h2><span class="n">1</span>Encendido</h2>
+<ol>
+  <li>Encender <strong>equipo</strong> y <strong>vacío</strong>.</li>
+  <li><strong>COMPUTER START</strong> en el panel → esperar que la PC industrial arranque <strong>por completo</strong>.</li>
+  <li><strong>POWER</strong> → esperar <strong>~1 minuto</strong>.</li>
+  <li>Doble clic en <strong>CncMon32</strong> → verificar estado <strong>“ready”</strong> (la alarma no debe titilar) → minimizar.</li>
+  <li>Doble clic en <strong>HHcnc</strong>.</li>
+</ol>
+<p><em>Apagado:</em> cerrar HHcnc → CncMon32 → apagar la PC normalmente → recién ahí cortar la energía.
+<strong>Entre apagado y encendido, más de 60 segundos.</strong></p>
+<p><em>Idioma:</em> HHcnc → botón <strong>(S)</strong> en el área de proceso → system settings → language.
+CncMon32 → F8 → F3 → F5 → parámetro <strong>3209 = 0</strong> (inglés).</p>
+
+<h2><span class="n">2</span>Qué formato lee HHcnc &nbsp;— el paso clave, y es gratis</h2>
+<p>Abrir el diálogo de <strong>importar archivo/directorio</strong> y mirar el <strong>filtro de tipos de archivo</strong>.
+<strong>Sacar captura.</strong> Si acepta varios, probar en este orden: <strong>BAN → MPR → XML1 → XML3</strong>.</p>
+<table>
+  <tr><th style="width:38%">Anotar</th><th class="fill">&nbsp;</th></tr>
+  <tr><td>Extensiones que ofrece el filtro</td><td class="fill" style="height:8mm">&nbsp;</td></tr>
+  <tr><td>Carpeta que terminó abriendo</td><td class="fill" style="height:8mm">&nbsp;</td></tr>
+  <tr><td>Ruta donde HHcnc busca los programas</td><td class="fill" style="height:8mm">&nbsp;</td></tr>
+</table>
+
+<h2><span class="n">3</span>Knife Library — mechas físicas vs. tabla</h2>
+<p>Botón en el área de proceso de HHcnc (o menú <strong>S</strong> / 系统设置). Anotar qué <strong>número de herramienta</strong>
+tiene cada diámetro. Regla: al cambiar una mecha física, actualizar su diámetro en la tabla.</p>
+<table>
+  <tr>
+    <th class="c" style="width:16%">Tipo</th><th class="c" style="width:8%">Ø</th>
+    <th class="c" style="width:12%">Prof.</th><th class="c" style="width:9%">Cant.</th>
+    <th style="width:26%">Uso</th>
+    <th class="c fill" style="width:14%">Nº herram.</th>
+    <th class="c fill" style="width:15%">¿Instalada?</th>
+  </tr>
+  <tr><td>Vertical</td><td class="c">6</td><td class="c">3</td><td class="c">16</td><td>tornillo de bisagra</td><td class="fill"></td><td class="fill"></td></tr>
+  <tr><td>Vertical</td><td class="c"><strong>10</strong></td><td class="c"><strong>11</strong></td><td class="c">20</td><td>tres-en-uno, pre-embedded &nbsp;<strong>← prueba</strong></td><td class="fill"></td><td class="fill"></td></tr>
+  <tr><td>Vertical</td><td class="c">15</td><td class="c">13,5</td><td class="c">20</td><td>tres-en-uno, excéntrica</td><td class="fill"></td><td class="fill"></td></tr>
+  <tr><td>Vertical</td><td class="c">35</td><td class="c">13</td><td class="c">4</td><td>cazoleta de bisagra</td><td class="fill"></td><td class="fill"></td></tr>
+  <tr><td>Horizontal</td><td class="c">8</td><td class="c">33</td><td class="c">20</td><td>tres-en-uno, varilla</td><td class="fill"></td><td class="fill"></td></tr>
+  <tr><td>Fresa ranurar</td><td class="c"><strong>6</strong></td><td class="c"><strong>6</strong></td><td class="c">4 ran.</td><td>ranura de fondo &nbsp;<strong>← prueba</strong></td><td class="fill"></td><td class="fill"></td></tr>
+  <tr><td>Fresa ranurar</td><td class="c"><strong>9</strong></td><td class="c"><strong>9</strong></td><td class="c">1 ran.</td><td>ranura de luz &nbsp;<strong>← prueba</strong></td><td class="fill"></td><td class="fill"></td></tr>
+</table>
+<p style="font-size:8.5pt"><strong>Para la pieza de prueba alcanza con Ø10 vertical + fresa Ø6 + fresa Ø9.</strong>
+El resto hace falta para producir PRUEBA 1 completa.</p>
+
+<div class="warn">
+<strong>Antes de mecanizar:</strong> cargar el programa <strong>a mano</strong> (todavía no hay etiqueta con ese código)
+y <strong>verificar el dibujo en pantalla</strong>. Tienen que verse 4 agujeros en la cara,
+1 ranura a lo largo y 1 ranura de 9 mm en la cara B.
+<span class="stop">Si el dibujo no coincide, parar ahí.</span><br>
+Botón verde <strong>dos veces</strong>: la primera deja la máquina esperando la pieza, la segunda mecaniza.
+Que no haya nadie cerca.
+</div>
+
+<!-- ================= PÁGINA 2 ================= -->
+<div class="page2"></div>
+
+<h1 style="font-size:13pt">Pieza 9441838670057 — techo 400 × 600 × 18</h1>
+<p class="sub">Todas las cotas desde los bordes de la <strong>pieza terminada</strong>, a <strong>centro</strong> de agujero / ranura.</p>
+
+<div class="two">
+<div>
+<svg viewBox="-95 -62 575 875" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="hatch" width="10" height="10" patternTransform="rotate(45)"
+             patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#000" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <!-- contorno -->
+  <rect x="0" y="0" width="400" height="600" fill="none" stroke="#000" stroke-width="2.4"/>
+
+  <!-- ranura 9 x 9  CARA B  (X = 304,5) -->
+  <rect x="300" y="0" width="9" height="600" fill="url(#hatch)" stroke="#000"
+        stroke-width="1.6" stroke-dasharray="11 7"/>
+  <!-- ranura 6 x 6  CARA A  (X = 372,5) -->
+  <rect x="369.5" y="0" width="6" height="600" fill="#b8b8b8" stroke="#000" stroke-width="1.4"/>
+
+  <!-- 4 x O10 prof 11, cara A -->
+  <g fill="#fff" stroke="#000" stroke-width="2.2">
+    <circle cx="40" cy="9" r="5"/><circle cx="360" cy="9" r="5"/>
+    <circle cx="40" cy="591" r="5"/><circle cx="360" cy="591" r="5"/>
+  </g>
+
+  <!-- rotulos internos -->
+  <g font-family="Helvetica, Arial" font-size="19" text-anchor="middle">
+    <text x="200" y="296" font-size="23" font-weight="bold">400 x 600</text>
+    <text x="200" y="324">esp. 18</text>
+    <text x="337" y="480" font-size="17">ran. 9 (B)</text>
+    <text x="337" y="504" font-size="17">ran. 6 (A)</text>
+    <line x1="309" y1="474" x2="300" y2="474" stroke="#000" stroke-width="1"/>
+    <line x1="376" y1="498" x2="369" y2="498" stroke="#000" stroke-width="1"/>
+  </g>
+
+  <!-- cota superior: ranura 6 -->
+  <g stroke="#000" stroke-width="1.1" font-family="Helvetica, Arial" font-size="19" text-anchor="middle">
+    <line x1="0" y1="-26" x2="372.5" y2="-26"/>
+    <line x1="0" y1="-36" x2="0" y2="-16"/>
+    <line x1="372.5" y1="-36" x2="372.5" y2="-16"/>
+    <text x="186" y="-42" stroke="none">372,5  ranura 6 (cara A)</text>
+  </g>
+
+  <!-- cotas inferiores -->
+  <g stroke="#000" stroke-width="1.1" font-family="Helvetica, Arial" font-size="19" text-anchor="middle">
+    <line x1="0" y1="642" x2="40" y2="642"/>
+    <line x1="0" y1="632" x2="0" y2="652"/><line x1="40" y1="632" x2="40" y2="652"/>
+    <text x="20" y="670" stroke="none">40</text>
+
+    <line x1="0" y1="700" x2="304.5" y2="700"/>
+    <line x1="0" y1="690" x2="0" y2="710"/><line x1="304.5" y1="690" x2="304.5" y2="710"/>
+    <text x="152" y="728" stroke="none">304,5  ranura 9 (cara B)</text>
+
+    <line x1="0" y1="758" x2="360" y2="758"/>
+    <line x1="0" y1="748" x2="0" y2="768"/><line x1="360" y1="748" x2="360" y2="768"/>
+    <text x="180" y="786" stroke="none">360</text>
+  </g>
+
+  <!-- cotas izquierda -->
+  <g stroke="#000" stroke-width="1.1" font-family="Helvetica, Arial" font-size="19">
+    <line x1="-22" y1="0" x2="-22" y2="9"/>
+    <line x1="-32" y1="0" x2="-12" y2="0"/><line x1="-32" y1="9" x2="-12" y2="9"/>
+    <text x="-38" y="26" stroke="none" text-anchor="end">9</text>
+
+    <line x1="-62" y1="0" x2="-62" y2="591"/>
+    <line x1="-72" y1="0" x2="-52" y2="0"/><line x1="-72" y1="591" x2="-52" y2="591"/>
+    <text x="-70" y="300" stroke="none" text-anchor="middle"
+          transform="rotate(-90 -70 300)">591</text>
+  </g>
+</svg>
+<p class="cap">Vista de <strong>cara A</strong> &middot; cotas a centro, desde los bordes.<br>Gris lleno = ranura 6&times;6 en cara A &middot; rayado punteado = ranura 9&times;9 en <strong>cara B</strong> &middot; c&iacute;rculos = &Oslash;10 prof. 11 en cara A.</p>
+</div>
+
+<div>
+<h3>Medir con calibre</h3>
+<table>
+  <tr><th style="width:50%">Qué</th><th class="c" style="width:22%">Esperado</th><th class="c fill" style="width:28%">Medido</th></tr>
+  <tr><td colspan="3" style="background:#e8e8e8"><strong>4 × Ø10 (cara A)</strong></td></tr>
+  <tr><td>X — desde el borde de 400</td><td class="c"><strong>40</strong> y <strong>360</strong></td><td class="fill"></td></tr>
+  <tr><td>Y — desde el borde de 600</td><td class="c"><strong>9</strong> y <strong>591</strong></td><td class="fill"></td></tr>
+  <tr><td>Diámetro</td><td class="c">10,0</td><td class="fill"></td></tr>
+  <tr><td>Profundidad</td><td class="c"><strong>11</strong></td><td class="fill"></td></tr>
+  <tr><td colspan="3" style="background:#e8e8e8"><strong>Ranura 6 × 6 — cara A</strong></td></tr>
+  <tr><td>X al centro, desde el borde de 400</td><td class="c"><strong>372,5</strong></td><td class="fill"></td></tr>
+  <tr><td>Ancho × profundidad</td><td class="c">6 × 6</td><td class="fill"></td></tr>
+  <tr><td>Largo</td><td class="c">cruza los 600</td><td class="fill"></td></tr>
+  <tr><td colspan="3" style="background:#e8e8e8"><strong>Ranura 9 × 9 — cara B</strong></td></tr>
+  <tr><td>X al centro, desde el borde de 400</td><td class="c"><strong>304,5</strong></td><td class="fill"></td></tr>
+  <tr><td>Ancho × profundidad</td><td class="c">9 × 9</td><td class="fill"></td></tr>
+  <tr><td colspan="3" style="background:#e8e8e8"><strong>La pieza</strong></td></tr>
+  <tr><td>Medida real del recorte</td><td class="c">400 × 600</td><td class="fill"></td></tr>
+  <tr><td>Espesor</td><td class="c">18</td><td class="fill"></td></tr>
+</table>
+
+<div class="warn" style="font-size:8.5pt">
+<strong>Ojo:</strong> la sección 5 de <code>CONTEXTO.md</code> decía X = 42 / 362 e Y = 11 / 593.
+<strong>Está mal</strong> — esos salen del marco de la placa nesteada. Valen los de esta hoja.
+</div>
+</div>
+</div>
+
+<h2><span class="n">4</span>Cómo interpretar el resultado</h2>
+<table>
+  <tr><th style="width:30%">Si pasa esto…</th><th>Qué significa y qué hacer</th></tr>
+  <tr><td><strong>Todo coincide</strong></td><td>Máquina y formato validados. Anotar qué formato quedó y seguir con el resto de las piezas.</td></tr>
+  <tr><td><strong>Correcto pero espejado</strong><br><span style="font-size:8pt">(ej. los Ø10 a 360/40 contados desde el borde opuesto)</span></td>
+      <td>Problema de mirroring, no rompe nada. Se corrige con la orientación de carga, o con
+      <code>Plank Placement Method</code> / <code>Five/Six-Sided Drill Slot or Special Placement Direction</code>,
+      o <code>ModusMirror</code> / <code>VIEW="NOMIRROR"</code> en el MPR. <strong>Anotar exactamente cómo salió espejado.</strong></td></tr>
+  <tr><td><strong>Diámetros o profundidades mal</strong></td><td>La tabla del Knife Library no coincide con las mechas físicas. Volver al punto 3.</td></tr>
+  <tr><td><strong>No abre el archivo</strong></td><td>Formato equivocado. Probar la carpeta siguiente: BAN → MPR → XML1 → XML3.</td></tr>
+  <tr><td><strong>Pide una pieza más chica / no agarra</strong></td><td>Los archivos llevan la medida <strong>terminada</strong> (400 × 600), no la de corte. Anotar si la máquina espera la pieza ya canteada o si compensa.</td></tr>
+</table>
+
+<h2><span class="n">5</span>Errores frecuentes del control</h2>
+<table>
+  <tr><th class="c" style="width:16%">Código</th><th>Causa y solución</th></tr>
+  <tr><td class="c"><strong>E03</strong></td><td>Empujador fuera del origen de carga → botón <strong>MatRes</strong> en manual, o la placa está mal orientada / demasiado metida.</td></tr>
+  <tr><td class="c"><strong>E08 / Er17-1</strong></td><td>Sobrecarga del servo del empujador (drive INVT DA200), <strong>no</strong> es un servo roto. Placa cruzada o material trabado. Cortar energía general 1 minuto. Si el puente queda torcido, <strong>escuadrarlo antes de seguir</strong>.</td></tr>
+  <tr><td class="c"><strong>E16</strong></td><td>Carro fuera de origen → Alarma Off + VolOrig completo.</td></tr>
+  <tr><td class="c">—</td><td>Las alarmas <strong>activas</strong> están en la franja roja de abajo; la pantalla “alarma” es sólo el catálogo de códigos.</td></tr>
+</table>
+
+<h2><span class="n">6</span>Notas del día</h2>
+<div class="lines">
+  <div></div><div></div><div></div><div></div>
+</div>
+
+</body>
+</html>

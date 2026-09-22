@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9441838670071" plateNickName="PRUEBA 1_00-Doble c/spar01_Right board01" width="741.83" depth="400.00" height="18.00" barCode="9441838670071" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="0" bandingFront="0" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(360.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(40.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(9.00,691.83,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(329.00,311.92,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(41.00,311.92,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(360.00,632.83,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(40.00,632.83,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(391.00,691.83,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(20.00,83.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(52.00,565.33,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(20.00,565.33,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(52.00,83.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(40.00,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(360.00,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+    </Holes>
+    <Slottings>
+        <Slotting positionSide="1" slottingStartX="372.50" slottingStartY="0.00" slottingStartZ="0.000" slottingEndX="372.50" slottingEndY="628.98" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="6.00"/>
+    </Slottings>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,741.83,18.00)" endPoint="(400.00,741.83,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(400.00,741.83,18.00)" endPoint="(400.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(400.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,741.83,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

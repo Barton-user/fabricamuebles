@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+._*
+
+# carpetas de descarte de pruebas de Fusion
+fusion/_descartes/
+
+# Python
+__pycache__/
+*.pyc

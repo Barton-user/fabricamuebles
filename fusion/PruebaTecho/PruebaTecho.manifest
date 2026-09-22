@@ -1,0 +1,11 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "script",
+    "id": "com.leitencom.fabricamuebles.pruebatecho",
+    "author": "FABRICA MUEBLES",
+    "description": { "": "Modela el techo de PRUEBA 1 para validar el camino Fusion -> maquina." },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

@@ -1,0 +1,23 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/22 pm 9:41:40" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="564.00" Height="400.00" PlaneSize="1" Grain="2" Thickness="18" Material="multilaminado" EdgeFBLR="0,0,0,0" Name="Techo" Code="7300000000003">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="564.00 0.00 0"/>
+        <Point Value="564.00 400.00 0"/>
+        <Point Value="0.00 400.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="531.00 50.00 0" End="531.00 50.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="531.00 200.00 0" End="531.00 200.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="531.00 350.00 0" End="531.00 350.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 50.00 0" End="33.00 50.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 200.00 0" End="33.00 200.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 350.00 0" End="33.00 350.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="564.00 350.00 -9.00" End="531.00 350.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="564.00 200.00 -9.00" End="531.00 200.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="564.00 50.00 -9.00" End="531.00 50.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 350.00 -9.00" End="33.00 350.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 200.00 -9.00" End="33.00 200.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 50.00 -9.00" End="33.00 50.00 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

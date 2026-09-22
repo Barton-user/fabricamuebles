@@ -1,0 +1,27 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/16 pm 2:49:37" Source="柜柜软件" SourceType="BAN">
+<Plane Width="350.00" Hight="364.00" Code1="" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,1" Name="主卧_地柜A_横隔板01" Code="6893155441415">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="350.00 0.00 0"/>
+        <Point Value="350.00 364.00 0"/>
+        <Point Value="0.00 364.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="286.00 331.00 0" End="286.00 331.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="64.00 331.00 0" End="64.00 331.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="286.00 33.00 0" End="286.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="64.00 33.00 0" End="64.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="286.00 205.00 0" End="286.00 205.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="64.00 205.00 0" End="64.00 205.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="286.00 205.00 -18.00" End="286.00 205.00 -6.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="64.00 205.00 -18.00" End="64.00 205.00 -6.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="286.00 364.00 -9.00" End="286.00 330.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="64.00 364.00 -9.00" End="64.00 330.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="286.00 0.00 -9.00" End="286.00 34.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="64.00 0.00 -9.00" End="64.00 34.00 -9.00"/>
+    <SlotL Name="" Face="B" Start="329.50 201.15 -12.00" End="329.50 0.00 -12.00" Width="6.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="329.50 201.15 -6.00" End="329.50 0.00 -6.00" Width="6.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="329.50 364.00 -6.00" End="329.50 208.85 -6.00" Width="6.00" IsCuted="0"/>
+    <SlotL Name="" Face="B" Start="329.50 364.00 -12.00" End="329.50 208.85 -12.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

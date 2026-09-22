@@ -1,0 +1,17 @@
+
+=== (Unsaved) / P1_CONTORNO ===
+  cilindro R=60.0 ignorado: radio mayor a 40
+  contorno irregular: 10 vertices (9 rectas, 1 arcos)
+    (0.00, 540.00)  arco 90.00 grados
+    (0.00, 0.00)
+    (320.00, 0.00)
+    (400.00, 80.00)
+    (400.00, 600.00)
+    (250.00, 600.00)
+    (250.00, 550.00)
+    (150.00, 550.00)
+    (150.00, 600.00)
+    (60.00, 600.00)
+
+=== (Unsaved) / P2_RANURA_CANTO ===
+  RANURA DE CANTO en L: 6.0 de ancho x 12.0 de profundidad, a 6.0 de la cara B, corre 500.0 mm

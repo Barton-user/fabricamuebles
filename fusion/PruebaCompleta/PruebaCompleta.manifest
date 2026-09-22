@@ -1,0 +1,11 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "script",
+    "id": "com.leitencom.fabricamuebles.pruebacompleta",
+    "author": "FABRICA MUEBLES",
+    "description": { "": "Modela las 10 piezas de PRUEBA 1 para validar el extractor a fondo." },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

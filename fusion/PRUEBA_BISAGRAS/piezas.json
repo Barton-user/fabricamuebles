@@ -1,0 +1,394 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "BISAGRAS",
+  "cliente": "",
+  "direccion": "PRUEBA",
+  "ambiente": "BISAGRAS",
+  "piezas": [
+    {
+      "codigo": "7300000000001",
+      "nombre": "Lateral izq",
+      "ancho": 400.0,
+      "alto": 700.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "",
+      "textura": "p",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 20.0,
+          "y": 595.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 105.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 105.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 595.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 50.0,
+          "y": 691.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 200.0,
+          "y": 691.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 350.0,
+          "y": 691.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7300000000002",
+      "nombre": "Lateral der",
+      "ancho": 400.0,
+      "alto": 700.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "",
+      "textura": "p",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 20.0,
+          "y": 595.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "B"
+        },
+        {
+          "x": 52.0,
+          "y": 105.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "B"
+        },
+        {
+          "x": 20.0,
+          "y": 105.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "B"
+        },
+        {
+          "x": 52.0,
+          "y": 595.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "B"
+        },
+        {
+          "x": 50.0,
+          "y": 691.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 200.0,
+          "y": 691.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 350.0,
+          "y": 691.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7300000000003",
+      "nombre": "Techo",
+      "ancho": 564.0,
+      "alto": 400.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "",
+      "textura": "p",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 531.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 531.0,
+          "y": 200.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 531.0,
+          "y": 350.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 200.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 350.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 564.0,
+          "y": 350.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 564.0,
+          "y": 200.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 564.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 0.0,
+          "y": 350.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        },
+        {
+          "x": 0.0,
+          "y": 200.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        },
+        {
+          "x": 0.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7300000000004",
+      "nombre": "Puerta izq",
+      "ancho": 298.0,
+      "alto": 690.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "",
+      "textura": "p",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 22.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 590.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 566.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 124.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 76.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 614.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7300000000005",
+      "nombre": "Puerta der",
+      "ancho": 298.0,
+      "alto": 690.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "",
+      "textura": "p",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 275.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 275.5,
+          "y": 590.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 261.0,
+          "y": 566.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 261.0,
+          "y": 124.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 261.0,
+          "y": 76.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 261.0,
+          "y": 614.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

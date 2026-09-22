@@ -1,0 +1,17 @@
+CARPETAS DE ESTE PENDRIVE
+=========================
+
+1_DESDE_GUIGUI   Las 10 piezas de PRUEBA 1 generadas a partir del JSON de GuiGui.
+                 Es el juego de control: sabemos que estos numeros son los que
+                 GuiGui manda hoy a la maquina.
+
+2_DESDE_FUSION   LAS MISMAS 10 PIEZAS, modeladas en Fusion y exportadas sin tocar
+                 GuiGui en ningun momento. Este es el juego que hay que probar.
+
+3_PIEZA_CURVA    Un lateral de 350x500 con redondeo R50, modelado en Fusion.
+                 Sirve para ver si la maquina hace bien un contorno curvo.
+                 Los cuatro formatos salieron IDENTICOS a los de Bluen.
+
+Los dos primeros juegos son iguales en TODA la geometria. Difieren solo en el
+atributo de cantos de las dos fascia boards (9441838670156 y 9441838670163).
+Ver la hoja de campo.

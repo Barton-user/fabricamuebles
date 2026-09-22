@@ -1,0 +1,92 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/22 pm 9:33:00" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="350.00" Height="500.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,1" Name="主卧_地柜A_左立板01" Code="6893155441217">
+    <Outline>
+        <Point Value="0.00 450.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="350.00 0.00 0"/>
+        <Point Value="350.00 500.00 0"/>
+        <Point Value="50.00 500.00 0"/>
+        <Point Value="48.89 499.99 0"/>
+        <Point Value="47.79 499.95 0"/>
+        <Point Value="46.68 499.89 0"/>
+        <Point Value="45.58 499.80 0"/>
+        <Point Value="44.48 499.69 0"/>
+        <Point Value="43.38 499.56 0"/>
+        <Point Value="42.29 499.40 0"/>
+        <Point Value="41.20 499.22 0"/>
+        <Point Value="40.11 499.01 0"/>
+        <Point Value="39.03 498.78 0"/>
+        <Point Value="37.95 498.53 0"/>
+        <Point Value="36.88 498.25 0"/>
+        <Point Value="35.82 497.95 0"/>
+        <Point Value="34.76 497.62 0"/>
+        <Point Value="33.71 497.27 0"/>
+        <Point Value="32.67 496.90 0"/>
+        <Point Value="31.63 496.51 0"/>
+        <Point Value="30.61 496.09 0"/>
+        <Point Value="29.60 495.65 0"/>
+        <Point Value="28.59 495.18 0"/>
+        <Point Value="27.60 494.70 0"/>
+        <Point Value="26.61 494.19 0"/>
+        <Point Value="25.64 493.67 0"/>
+        <Point Value="24.68 493.12 0"/>
+        <Point Value="23.73 492.55 0"/>
+        <Point Value="22.80 491.95 0"/>
+        <Point Value="21.88 491.34 0"/>
+        <Point Value="20.97 490.71 0"/>
+        <Point Value="20.08 490.06 0"/>
+        <Point Value="19.20 489.39 0"/>
+        <Point Value="18.33 488.69 0"/>
+        <Point Value="17.49 487.98 0"/>
+        <Point Value="16.65 487.26 0"/>
+        <Point Value="15.84 486.51 0"/>
+        <Point Value="15.04 485.74 0"/>
+        <Point Value="14.26 484.96 0"/>
+        <Point Value="13.49 484.16 0"/>
+        <Point Value="12.74 483.35 0"/>
+        <Point Value="12.02 482.51 0"/>
+        <Point Value="11.31 481.67 0"/>
+        <Point Value="10.61 480.80 0"/>
+        <Point Value="9.94 479.92 0"/>
+        <Point Value="9.29 479.03 0"/>
+        <Point Value="8.66 478.12 0"/>
+        <Point Value="8.05 477.20 0"/>
+        <Point Value="7.45 476.27 0"/>
+        <Point Value="6.88 475.32 0"/>
+        <Point Value="6.33 474.36 0"/>
+        <Point Value="5.81 473.39 0"/>
+        <Point Value="5.30 472.40 0"/>
+        <Point Value="4.82 471.41 0"/>
+        <Point Value="4.35 470.40 0"/>
+        <Point Value="3.91 469.39 0"/>
+        <Point Value="3.49 468.37 0"/>
+        <Point Value="3.10 467.33 0"/>
+        <Point Value="2.73 466.29 0"/>
+        <Point Value="2.38 465.24 0"/>
+        <Point Value="2.05 464.18 0"/>
+        <Point Value="1.75 463.12 0"/>
+        <Point Value="1.47 462.05 0"/>
+        <Point Value="1.22 460.97 0"/>
+        <Point Value="0.99 459.89 0"/>
+        <Point Value="0.78 458.80 0"/>
+        <Point Value="0.60 457.71 0"/>
+        <Point Value="0.44 456.62 0"/>
+        <Point Value="0.31 455.52 0"/>
+        <Point Value="0.20 454.42 0"/>
+        <Point Value="0.11 453.32 0"/>
+        <Point Value="0.05 452.21 0"/>
+        <Point Value="0.01 451.11 0"/>
+        <Point Value="0.00 450.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="286.00 200.00 0" End="286.00 200.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="286.00 391.00 0" End="286.00 391.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="64.00 9.00 0" End="64.00 9.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="341.00 462.50 0" End="341.00 462.50 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="286.00 9.00 0" End="286.00 9.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="341.00 437.50 0" End="341.00 437.50 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="64.00 391.00 0" End="64.00 391.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="64.00 200.00 0" End="64.00 200.00 -12.00"/>
+    <SlotL Name="" Face="A" Start="329.50 203.85 -6.00" End="329.50 387.15 -6.00" Width="6.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="329.50 12.85 -6.00" End="329.50 196.15 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

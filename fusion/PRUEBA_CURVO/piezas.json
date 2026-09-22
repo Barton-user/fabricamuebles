@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "REF",
+  "cliente": "",
+  "direccion": "REF",
+  "ambiente": "REF",
+  "piezas": [
+    {
+      "codigo": "6893155441217",
+      "nombre": "主卧_地柜A_左立板01",
+      "ancho": 350.0,
+      "alto": 500.0,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "",
+      "textura": "ref",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 286.0,
+          "y": 200.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 286.0,
+          "y": 391.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 64.0,
+          "y": 9.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 341.0,
+          "y": 462.5,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 286.0,
+          "y": 9.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 341.0,
+          "y": 437.5,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 64.0,
+          "y": 391.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 64.0,
+          "y": 200.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 329.5,
+          "y1": 203.85,
+          "x2": 329.5,
+          "y2": 387.15,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        },
+        {
+          "x1": 329.5,
+          "y1": 12.85,
+          "x2": 329.5,
+          "y2": 196.15,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": [
+        {
+          "x": 0.0,
+          "y": 450.0,
+          "arco": 90.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "arco": 0.0
+        },
+        {
+          "x": 350.0,
+          "y": 0.0,
+          "arco": 0.0
+        },
+        {
+          "x": 350.0,
+          "y": 500.0,
+          "arco": 0.0
+        },
+        {
+          "x": 50.0,
+          "y": 500.0,
+          "arco": 0.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+
+=== (Unsaved) / 6893155441217 ===
+  agujero vertical  O10.0 prof 12.0  cara A  en (286.0, 200.0)
+  agujero vertical  O10.0 prof 12.0  cara A  en (286.0, 391.0)
+  agujero vertical  O10.0 prof 12.0  cara A  en (64.0, 9.0)
+  agujero vertical  O10.0 prof 12.0  cara A  en (341.0, 462.5)
+  agujero vertical  O10.0 prof 12.0  cara A  en (286.0, 9.0)
+  agujero vertical  O10.0 prof 12.0  cara A  en (341.0, 437.5)
+  agujero vertical  O10.0 prof 12.0  cara A  en (64.0, 391.0)
+  agujero vertical  O10.0 prof 12.0  cara A  en (64.0, 200.0)
+  cilindro R=50.0 ignorado: radio mayor a 40
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  ranura 6.0 x 6.0  cara A  de (329.5, 203.9) a (329.5, 387.2)
+  ranura 6.0 x 6.0  cara A  de (329.5, 12.9) a (329.5, 196.2)
+  contorno irregular: 5 vertices (4 rectas, 1 arcos)
+    (0.00, 450.00)  arco 90.00 grados
+    (0.00, 0.00)
+    (350.00, 0.00)
+    (350.00, 500.00)
+    (50.00, 500.00)

@@ -1,0 +1,17 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/22 pm 9:33:00" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="400.00" Height="600.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,0" Name="PRUEBA 1_00-Doble c/spar01_Roof plate01" Code="9441838670057">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="400.00 0.00 0"/>
+        <Point Value="400.00 600.00 0"/>
+        <Point Value="0.00 600.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="360.00 591.00 0" End="360.00 591.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="40.00 9.00 0" End="40.00 9.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="360.00 9.00 0" End="360.00 9.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="40.00 591.00 0" End="40.00 591.00 -11.00"/>
+    <SlotL Name="" Face="B" Start="304.50 0.00 -9.00" End="304.50 600.00 -9.00" Width="9.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="372.50 12.85 -6.00" End="372.50 587.15 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

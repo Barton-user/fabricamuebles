@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>160.00</PanelLength>
+        <PanelWidth>183.00</PanelWidth>
+        <PanelThickness>5.00</PanelThickness>
+        <PanelName>主卧_地柜A_背板04</PanelName>
+        <Params>
+            <Param Key="L" Value="160.00" Comment="板长"/>
+            <Param Key="W" Value="183.00" Comment="板宽"/>
+            <Param Key="T" Value="5.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

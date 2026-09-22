@@ -1,0 +1,19 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/21 am 12:02:39" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="370.00" Height="564.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="0,0,0,1" Name="PRUEBA 1_00-Doble c/spar01_Partition02" Code="9441838670125">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="370.00 0.00 0"/>
+        <Point Value="370.00 564.00 0"/>
+        <Point Value="0.00 564.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="41.00 33.00 0" End="41.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="329.00 33.00 0" End="329.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="41.00 531.00 0" End="41.00 531.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="329.00 531.00 0" End="329.00 531.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="41.00 0.00 -9.00" End="41.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="329.00 0.00 -9.00" End="329.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="41.00 564.00 -9.00" End="41.00 531.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="329.00 564.00 -9.00" End="329.00 531.00 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

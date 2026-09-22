@@ -1,0 +1,85 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>297.00</PanelLength>
+        <PanelWidth>681.83</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>PRUEBA 1_00-Doble c/spar01_Cabinet door01_Double open right01</PanelName>
+        <Params>
+            <Param Key="L" Value="297.00" Comment="板长"/>
+            <Param Key="W" Value="681.83" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>274.50</X1>
+        <Y1>581.83</Y1>
+        <Depth>13.00</Depth>
+        <Diameter>35.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>274.50</X1>
+        <Y1>100.00</Y1>
+        <Depth>13.00</Depth>
+        <Diameter>35.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>76.00</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>605.83</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>557.83</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>124.00</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+</KDTPanelFormat>

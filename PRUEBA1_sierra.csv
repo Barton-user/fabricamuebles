@@ -1,0 +1,11 @@
+Barcode,PartName,Qty,FinLength,FinWidth,Thickness,Material,Remarks,OrderNo,FrontEdge,BackEdge,LeftEdge,RightEdge,CutLength,CutWidth,Customer
+9441838670057,00-Doble c/spar01_Roof plate01,1,600.0,400.0,18.0,多层实木 13玛雅灰,有孔槽,260625-20,1,1,0,1,599.0,398.0,PRUEBA
+9441838670064,00-Doble c/spar01_Left board01,1,741.83,400.0,18.0,多层实木 13玛雅灰,有孔槽,260625-20,0,0,0,1,740.8,400.0,PRUEBA
+9441838670071,00-Doble c/spar01_Right board01,1,741.83,400.0,18.0,多层实木 13玛雅灰,有孔槽,260625-20,0,0,0,1,740.8,400.0,PRUEBA
+9441838670088,00-Doble c/spar01_Cabinet door01_Double left01,1,681.83,297.0,18.0,多层实木 04拉丝胡桃,有孔,260625-20,1,1,1,1,679.8,295.0,PRUEBA
+9441838670101,00-Doble c/spar01_Cabinet door01_Double open right01,1,681.83,297.0,18.0,多层实木 04拉丝胡桃,有孔,260625-20,1,1,1,1,679.8,295.0,PRUEBA
+9441838670125,00-Doble c/spar01_Partition02,1,564.0,370.0,18.0,多层实木 13玛雅灰,有孔,260625-20,0,0,0,1,563.0,370.0,PRUEBA
+9441838670132,00-Doble c/spar01_Partition01,1,564.0,400.0,18.0,多层实木 13玛雅灰,有孔槽,260625-20,0,0,0,1,563.0,400.0,PRUEBA
+9441838670149,00-Doble c/spar01_Back panel01,1,633.83,574.0,5.0,装饰板 d02白麻面,无,260625-20,0,0,0,0,633.8,574.0,PRUEBA
+9441838670156,00-Doble c/spar01_Fascia board02_Vertical Partition01,1,100.0,564.0,18.0,多层实木 13玛雅灰,有孔,260625-20,0,1,0,0,100.0,563.0,PRUEBA
+9441838670163,00-Doble c/spar01_Fascia board01_Vertical Partition01,1,100.0,564.0,18.0,多层实木 13玛雅灰,有孔,260625-20,0,1,0,0,100.0,563.0,PRUEBA

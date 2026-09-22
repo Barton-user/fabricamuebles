@@ -1,0 +1,17 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/22 pm 9:41:40" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="298.00" Height="690.00" PlaneSize="1" Grain="2" Thickness="18" Material="multilaminado" EdgeFBLR="0,0,0,0" Name="Puerta der" Code="7300000000005">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="298.00 0.00 0"/>
+        <Point Value="298.00 690.00 0"/>
+        <Point Value="0.00 690.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="275.50 100.00 0" End="275.50 100.00 -13.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="275.50 590.00 0" End="275.50 590.00 -13.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="261.00 566.00 0" End="261.00 566.00 -3.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="261.00 124.00 0" End="261.00 124.00 -3.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="261.00 76.00 0" End="261.00 76.00 -3.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="261.00 614.00 0" End="261.00 614.00 -3.00"/>
+</Plane>
+</MicroDrawBan_XML>

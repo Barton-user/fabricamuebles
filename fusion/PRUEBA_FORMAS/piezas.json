@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "FORMAS-01",
+  "cliente": "",
+  "direccion": "PRUEBA",
+  "ambiente": "FORMAS",
+  "piezas": [
+    {
+      "codigo": "9000000000001",
+      "nombre": "P1_CONTORNO",
+      "ancho": 400.0,
+      "alto": 600.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "PRUEBA-FORMAS",
+      "textura": "prueba",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": [
+        {
+          "x": 0.0,
+          "y": 540.0,
+          "arco": 90.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "arco": 0.0
+        },
+        {
+          "x": 320.0,
+          "y": 0.0,
+          "arco": 0.0
+        },
+        {
+          "x": 400.0,
+          "y": 80.0,
+          "arco": 0.0
+        },
+        {
+          "x": 400.0,
+          "y": 600.0,
+          "arco": 0.0
+        },
+        {
+          "x": 250.0,
+          "y": 600.0,
+          "arco": 0.0
+        },
+        {
+          "x": 250.0,
+          "y": 550.0,
+          "arco": 0.0
+        },
+        {
+          "x": 150.0,
+          "y": 550.0,
+          "arco": 0.0
+        },
+        {
+          "x": 150.0,
+          "y": 600.0,
+          "arco": 0.0
+        },
+        {
+          "x": 60.0,
+          "y": 600.0,
+          "arco": 0.0
+        }
+      ]
+    },
+    {
+      "codigo": "9000000000002",
+      "nombre": "P2_RANURA_CANTO",
+      "ancho": 300.0,
+      "alto": 500.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "PRUEBA-FORMAS",
+      "textura": "prueba",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [
+        {
+          "canto": "L",
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 0.0,
+          "y2": 500.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "z_desde_b": 6.0,
+          "largo": 500.0
+        }
+      ],
+      "contorno": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+
+=== Lateral izq / 7200000000001 ===
+  agujero vertical  O10.0 prof 12.0  cara A  en (50.0, 359.0)
+  agujero vertical  O10.0 prof 12.0  cara A  en (350.0, 359.0)
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 10.0 x 10.0 ignorada: no parece ranura
+
+=== Lateral der / 7200000000002 ===
+  agujero vertical  O10.0 prof 12.0  cara B  en (50.0, 359.0)
+  agujero vertical  O10.0 prof 12.0  cara B  en (350.0, 359.0)
+  cara plana en z=-6.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-6.00 de 10.0 x 10.0 ignorada: no parece ranura
+
+=== Estante / 7200000000003 ===
+  (O8.0: medido 26.7, se usa 34.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 34.0  canto R  en (564.0, 350.0) z=9.0
+  (O8.0: medido 26.7, se usa 34.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 34.0  canto R  en (564.0, 50.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 50.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 350.0)
+  (O8.0: medido 26.7, se usa 34.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 34.0  canto L  en (0.0, 350.0) z=9.0
+  (O8.0: medido 26.7, se usa 34.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 34.0  canto L  en (0.0, 50.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 50.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 350.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura

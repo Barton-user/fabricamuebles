@@ -1,0 +1,531 @@
+# -*- coding: utf-8 -*-
+"""
+Exportar Piezas — script de Autodesk Fusion para FABRICA MUEBLES.
+
+Recorre el diseno abierto, reconoce las placas y exporta `piezas.json`, el
+esquema neutro que despues consume el generador de `etapa2/` para producir
+.ban / .mpr / XML1 / XML3 / lista de corte.
+
+COMO LEE LA GEOMETRIA
+---------------------
+No lee el arbol de operaciones: lee el SOLIDO. Busca caras cilindricas
+(agujeros) y caras planas intermedias (ranuras). Por eso no importa como
+modelaste el agujero — con la herramienta Agujero, con un corte extruido o
+con lo que sea.
+
+    cilindro completo, eje en Z         ->  agujero vertical
+    cilindro completo, eje en el plano  ->  agujero horizontal (por el canto)
+    cilindro parcial                    ->  redondeo del contorno, se ignora
+    cara plana entre las dos caras      ->  fondo de ranura
+
+MARCO DE COORDENADAS
+--------------------
+El marco de la PIEZA (no el del ensamble). Se toma la caja envolvente del
+cuerpo: el espesor es la dimension menor, la cara A es la de Z mayor, y el
+origen queda en la esquina inferior izquierda. Eso coincide exactamente con el
+marco del archivo de maquina, asi que no hay ninguna conversion que pueda
+salir espejada.
+
+Si algo no sale como esperabas, mira `diagnostico.txt`: registra cada cara que
+examino y por que la clasifico asi.
+"""
+
+import json
+import math
+import os
+import traceback
+
+import adsk.core
+import adsk.fusion
+
+GRUPO_ATTR = "FabricaMuebles"
+CM_A_MM = 10.0
+
+# Carpeta del generador. Se puede pisar con el atributo RUTA_ETAPA2 del mueble.
+RUTA_ETAPA2 = os.path.expanduser(
+    "~/Documents/Claude/Projects/FABRICA MUEBLES/etapa2")
+
+TOL = 0.05          # mm — tolerancia general
+R_MAX_AGUJERO = 40.0  # mm — radio por encima del cual no se considera agujero
+COMPLETITUD_MIN = 0.55  # fraccion de cilindro completo para contar como agujero
+RANURA_ASPECTO_MIN = 2.0   # largo / ancho minimo de una ranura
+RANURA_LARGO_MIN = 20.0    # mm
+
+# Profundidad real del agujero de canto segun diametro.
+#
+# POR QUE HACE FALTA: cuando la varilla de un tres-en-uno desemboca en la
+# excentrica O15, el solido terminado YA NO GUARDA la profundidad con la que se
+# taladro — la cara cilindrica queda cortada por el otro agujero. La geometria
+# sola no puede recuperar ese dato. Como el vocabulario de herrajes es fijo, se
+# resuelve con esta tabla: si lo medido es MENOR que lo de tabla, se usa tabla y
+# queda anotado en el diagnostico. Si es mayor o no hay entrada, manda lo medido.
+PROFUNDIDAD_CANTO = {8.0: 33.0}
+TOL_DIAMETRO = 0.3
+
+_log = []
+
+
+def log(msg):
+    _log.append(str(msg))
+
+
+# --------------------------------------------------------------------------- #
+#  utilidades de geometria
+# --------------------------------------------------------------------------- #
+
+def mm(v):
+    return v * CM_A_MM
+
+
+def attr(objeto, nombre, defecto=""):
+    try:
+        a = objeto.attributes.itemByName(GRUPO_ATTR, nombre)
+        return a.value if a and a.value not in (None, "") else defecto
+    except Exception:
+        return defecto
+
+
+def attr2(body, comp, nombre, defecto=""):
+    """Los datos pueden estar en el CUERPO o en el COMPONENTE; gana el cuerpo.
+
+    Asi un documento con varias placas como cuerpos sueltos funciona igual que
+    uno con un componente por placa."""
+    v = attr(body, nombre, "")
+    return v if v not in (None, "") else attr(comp, nombre, defecto)
+
+
+def num(v, defecto=0.0):
+    try:
+        return float(str(v).replace(",", "."))
+    except (TypeError, ValueError):
+        return defecto
+
+
+class Marco(object):
+    """Convierte del espacio del componente al marco de la pieza."""
+
+    def __init__(self, bbox):
+        p0, p1 = bbox.minPoint, bbox.maxPoint
+        dx, dy, dz = mm(p1.x - p0.x), mm(p1.y - p0.y), mm(p1.z - p0.z)
+        self.espesor = min(dx, dy, dz)
+        if self.espesor != dz:
+            raise ValueError(
+                "el espesor no esta sobre Z (medidas %.1f x %.1f x %.1f). "
+                "La placa tiene que estar acostada: boceto en XY, extruir en Z."
+                % (dx, dy, dz))
+        self.ancho, self.alto = dx, dy
+        self.x0, self.y0 = mm(p0.x), mm(p0.y)
+        self.z_cara_a = mm(p1.z)          # cara A = Z mayor
+
+    def x(self, vx):
+        return mm(vx) - self.x0
+
+    def y(self, vy):
+        return mm(vy) - self.y0
+
+    def z(self, vz):
+        """0 en la cara A, negativo hacia adentro."""
+        return mm(vz) - self.z_cara_a
+
+    def canto_de(self, x, y):
+        if abs(x) <= 0.6:
+            return "L"
+        if abs(x - self.ancho) <= 0.6:
+            return "R"
+        if abs(y) <= 0.6:
+            return "D"
+        if abs(y - self.alto) <= 0.6:
+            return "U"
+        return None
+
+
+def eje_principal(v):
+    """Devuelve 'Z' si el vector es paralelo a Z, 'XY' si esta en el plano, si no None."""
+    n = math.sqrt(v.x ** 2 + v.y ** 2 + v.z ** 2)
+    if n == 0:
+        return None
+    x, y, z = abs(v.x) / n, abs(v.y) / n, abs(v.z) / n
+    if z > 0.999:
+        return "Z"
+    if z < 0.001:
+        return "XY"
+    return None
+
+
+# --------------------------------------------------------------------------- #
+#  reconocimiento de operaciones
+# --------------------------------------------------------------------------- #
+
+def leer_agujeros(body, marco):
+    verticales, horizontales = [], []
+    for i in range(body.faces.count):
+        face = body.faces.item(i)
+        geo = face.geometry
+        if geo.surfaceType != adsk.core.SurfaceTypes.CylinderSurfaceType:
+            continue
+        cyl = adsk.core.Cylinder.cast(geo)
+        if cyl is None:
+            continue
+        radio = mm(cyl.radius)
+        bb = face.boundingBox
+        eje = eje_principal(cyl.axis)
+
+        if radio > R_MAX_AGUJERO:
+            log("  cilindro R=%.1f ignorado: radio mayor a %.0f" % (radio, R_MAX_AGUJERO))
+            continue
+        if eje is None:
+            log("  cilindro R=%.1f ignorado: eje oblicuo" % radio)
+            continue
+
+        # alto del cilindro sobre su eje
+        if eje == "Z":
+            alto = mm(bb.maxPoint.z - bb.minPoint.z)
+        else:
+            ax, ay = abs(cyl.axis.x), abs(cyl.axis.y)
+            alto = (mm(bb.maxPoint.x - bb.minPoint.x) if ax > ay
+                    else mm(bb.maxPoint.y - bb.minPoint.y))
+        if alto <= TOL:
+            continue
+
+        # un agujero es un cilindro (casi) completo; un redondeo de esquina no
+        area_completa = 2 * math.pi * radio * alto
+        completitud = (mm(mm(face.area)) / area_completa) if area_completa > 0 else 0.0
+        if completitud < COMPLETITUD_MIN:
+            log("  cilindro R=%.1f alto=%.1f ignorado: %.0f%% de cilindro (redondeo)"
+                % (radio, alto, completitud * 100))
+            continue
+
+        if eje == "Z":
+            x, y = marco.x(cyl.origin.x), marco.y(cyl.origin.y)
+            z_sup, z_inf = marco.z(bb.maxPoint.z), marco.z(bb.minPoint.z)
+            # cara A si el agujero arranca arriba; cara B si arranca abajo
+            if abs(z_sup) <= TOL:
+                cara, prof = "A", abs(z_inf)
+            elif abs(z_inf + marco.espesor) <= TOL:
+                cara, prof = "B", abs(z_sup + marco.espesor)
+            else:
+                log("  cilindro vertical R=%.1f en z=[%.2f,%.2f] ignorado: "
+                    "no arranca en ninguna cara" % (radio, z_inf, z_sup))
+                continue
+            verticales.append({"x": round(x, 2), "y": round(y, 2),
+                               "diametro": round(radio * 2, 2),
+                               "profundidad": round(prof, 2), "cara": cara})
+            log("  agujero vertical  O%.1f prof %.1f  cara %s  en (%.1f, %.1f)"
+                % (radio * 2, prof, cara, x, y))
+        else:
+            # extremos del eje dentro de la caja de la cara
+            if abs(cyl.axis.x) > abs(cyl.axis.y):
+                p_a = (marco.x(bb.minPoint.x), marco.y(cyl.origin.y))
+                p_b = (marco.x(bb.maxPoint.x), marco.y(cyl.origin.y))
+            else:
+                p_a = (marco.x(cyl.origin.x), marco.y(bb.minPoint.y))
+                p_b = (marco.x(cyl.origin.x), marco.y(bb.maxPoint.y))
+            canto_a = marco.canto_de(*p_a)
+            canto_b = marco.canto_de(*p_b)
+            if canto_a and not canto_b:
+                entrada, canto = p_a, canto_a
+            elif canto_b and not canto_a:
+                entrada, canto = p_b, canto_b
+            elif canto_a and canto_b:
+                log("  cilindro horizontal R=%.1f ignorado: pasante de canto a canto "
+                    "(no soportado todavia)" % radio)
+                continue
+            else:
+                log("  cilindro horizontal R=%.1f ignorado: no toca ningun canto" % radio)
+                continue
+            z = -marco.z(cyl.origin.z)
+            diam = radio * 2
+            prof = alto
+            for d_tabla, p_tabla in PROFUNDIDAD_CANTO.items():
+                if abs(diam - d_tabla) <= TOL_DIAMETRO and alto < p_tabla - 0.1:
+                    prof = p_tabla
+                    log("  (O%.1f: medido %.1f, se usa %.1f de tabla — el agujero "
+                        "desemboca en otro)" % (diam, alto, p_tabla))
+                    break
+            horizontales.append({"x": round(entrada[0], 2), "y": round(entrada[1], 2),
+                                 "z": round(z, 2), "diametro": round(diam, 2),
+                                 "profundidad": round(prof, 2), "canto": canto})
+            log("  agujero de canto  O%.1f prof %.1f  canto %s  en (%.1f, %.1f) z=%.1f"
+                % (diam, prof, canto, entrada[0], entrada[1], z))
+    return verticales, horizontales
+
+
+def _material_arriba(body, punto_cm, eps_cm=0.02):
+    """True si hay material justo por encima del punto (o None si no se puede saber)."""
+    try:
+        p = adsk.core.Point3D.create(punto_cm.x, punto_cm.y, punto_cm.z + eps_cm)
+        cont = body.pointContainment(p)
+        return cont == adsk.fusion.PointContainment.PointInsidePointContainment
+    except Exception:
+        return None
+
+
+def leer_ranuras(body, marco):
+    ranuras = []
+    for i in range(body.faces.count):
+        face = body.faces.item(i)
+        if face.geometry.surfaceType != adsk.core.SurfaceTypes.PlaneSurfaceType:
+            continue
+        bb = face.boundingBox
+        zt, zb = marco.z(bb.maxPoint.z), marco.z(bb.minPoint.z)
+        if abs(zt - zb) > TOL:
+            continue                      # no es horizontal
+        z = zt
+        if abs(z) <= TOL or abs(z + marco.espesor) <= TOL:
+            continue                      # es la cara A o la cara B de la placa
+        dx = mm(bb.maxPoint.x - bb.minPoint.x)
+        dy = mm(bb.maxPoint.y - bb.minPoint.y)
+        largo, ancho = max(dx, dy), min(dx, dy)
+        if ancho <= TOL or largo < RANURA_LARGO_MIN or largo / ancho < RANURA_ASPECTO_MIN:
+            log("  cara plana en z=%.2f de %.1f x %.1f ignorada: no parece ranura"
+                % (z, dx, dy))
+            continue
+
+        arriba = _material_arriba(body, face.pointOnFace)
+        if arriba is None:
+            cara = "A" if (marco.espesor + z) > abs(z) else "B"
+            log("  (sin test de contencion; cara deducida por profundidad)")
+        else:
+            cara = "B" if arriba else "A"
+        prof = abs(z) if cara == "A" else abs(marco.espesor + z)
+
+        x0, y0 = marco.x(bb.minPoint.x), marco.y(bb.minPoint.y)
+        x1, y1 = marco.x(bb.maxPoint.x), marco.y(bb.maxPoint.y)
+        if dx >= dy:                       # ranura a lo largo de X
+            ejey = (y0 + y1) / 2.0
+            p1, p2 = (x0, ejey), (x1, ejey)
+        else:
+            ejex = (x0 + x1) / 2.0
+            p1, p2 = (ejex, y0), (ejex, y1)
+        ranuras.append({"x1": round(p1[0], 2), "y1": round(p1[1], 2),
+                        "x2": round(p2[0], 2), "y2": round(p2[1], 2),
+                        "ancho": round(ancho, 2), "profundidad": round(prof, 2),
+                        "cara": cara})
+        log("  ranura %.1f x %.1f  cara %s  de (%.1f, %.1f) a (%.1f, %.1f)"
+            % (ancho, prof, cara, p1[0], p1[1], p2[0], p2[1]))
+    return ranuras
+
+
+# --------------------------------------------------------------------------- #
+#  recorrido del diseno
+# --------------------------------------------------------------------------- #
+
+def es_placa(objeto):
+    t = str(attr(objeto, "TIPO", "")).strip().upper()
+    if t:
+        return t == "PLACA"
+    return None      # sin marcar: se decide por la geometria
+
+
+def pieza_de(body, comp, cantidad, solo_del_cuerpo=False):
+    marco = Marco(body.boundingBox)
+    verticales, horizontales = leer_agujeros(body, marco)
+    ranuras = leer_ranuras(body, marco)
+    # Con varios cuerpos en el mismo componente, el codigo y el nombre TIENEN que
+    # salir del cuerpo: heredarlos del componente daria el mismo codigo a todos.
+    ident = (lambda n, d="": str(attr(body, n, d))) if solo_del_cuerpo else \
+            (lambda n, d="": str(attr2(body, comp, n, d)))
+    return {
+        "codigo": ident("CODIGO"),
+        "nombre": ident("NOMBRE") or body.name,
+        "ancho": round(marco.ancho, 2),
+        "alto": round(marco.alto, 2),
+        "espesor": round(marco.espesor, 2),
+        "material": str(attr2(body, comp, "MATERIAL", "")),
+        "mueble": str(attr2(body, comp, "MUEBLE", "")),
+        "textura": str(attr2(body, comp, "TEXTURA", "")),
+        "veta": str(attr2(body, comp, "VETA", "VERTICAL")).upper(),
+        "cantidad": cantidad,
+        "canto_abajo": num(attr2(body, comp, "CANTO_ABAJO", 0)),
+        "canto_arriba": num(attr2(body, comp, "CANTO_ARRIBA", 0)),
+        "canto_izq": num(attr2(body, comp, "CANTO_IZQ", 0)),
+        "canto_der": num(attr2(body, comp, "CANTO_DER", 0)),
+        "agujeros": verticales,
+        "agujeros_canto": horizontales,
+        "ranuras": ranuras,
+    }
+
+
+def hay_marcados(design):
+    """True si algun cuerpo del diseno esta marcado TIPO=PLACA."""
+    root = design.rootComponent
+    comps = [root] + [root.allOccurrences.item(i).component
+                      for i in range(root.allOccurrences.count)]
+    for comp in comps:
+        for j in range(comp.bRepBodies.count):
+            if str(attr(comp.bRepBodies.item(j), "TIPO", "")).strip().upper() == "PLACA":
+                return True
+    return False
+
+
+def recolectar(design):
+    root = design.rootComponent
+    piezas, saltadas = [], []
+    # Si hay cuerpos marcados a proposito, se ignora todo lo demas. Evita que
+    # cuerpos sueltos (herramientas de corte, restos) entren como placas.
+    solo_marcados = hay_marcados(design)
+
+    cantidades = {}
+    for i in range(root.allOccurrences.count):
+        occ = root.allOccurrences.item(i)
+        if occ.isLightBulbOn:
+            cantidades[occ.component.id] = cantidades.get(occ.component.id, 0) + 1
+
+    vistos = set()
+    componentes = [(root, 1)]
+    for i in range(root.allOccurrences.count):
+        c = root.allOccurrences.item(i).component
+        if c.id not in vistos:
+            vistos.add(c.id)
+            componentes.append((c, cantidades.get(c.id, 1)))
+
+    for comp, cantidad in componentes:
+        marcado = es_placa(comp)
+        if marcado is False:
+            saltadas.append("%s — marcada TIPO distinto de PLACA" % comp.name)
+            continue
+        for j in range(comp.bRepBodies.count):
+            body = comp.bRepBodies.item(j)
+            if not body.isSolid or not body.isVisible:
+                continue
+            marca = es_placa(body)
+            if marca is False or (solo_marcados and marca is not True):
+                saltadas.append("%s / %s — no esta marcado como PLACA"
+                                % (comp.name, body.name))
+                continue
+            log("")
+            log("=== %s / %s ===" % (comp.name, body.name))
+            try:
+                piezas.append(pieza_de(body, comp, cantidad,
+                                       solo_del_cuerpo=comp.bRepBodies.count > 1))
+            except ValueError as e:
+                saltadas.append("%s / %s — %s" % (comp.name, body.name, e))
+                log("  SALTADA: %s" % e)
+            except Exception as e:
+                saltadas.append("%s / %s — error: %s" % (comp.name, body.name, e))
+                log("  ERROR: %s" % traceback.format_exc())
+    return piezas, saltadas
+
+
+def escribir_lanzador(carpeta, etapa2):
+    """Deja un .command para doble clic, con las rutas ya resueltas."""
+    guion = """#!/bin/bash
+# Generado por ExportarPiezas. Doble clic para producir los archivos de maquina.
+cd "%s" || { echo "No encuentro el generador en %s"; read -n1; exit 1; }
+SALIDA="%s/salida"
+python3 exportar.py "%s/piezas.json" -o "$SALIDA" || { read -n1; exit 1; }
+python3 listacorte.py "%s/piezas.json" -o "$SALIDA"
+python3 hojas.py "%s/piezas.json" -o "$SALIDA/HOJAS_VERIFICACION.html"
+echo
+echo "Listo. Todo en: $SALIDA"
+open "$SALIDA"
+echo "Apreta una tecla para cerrar."
+read -n1
+""" % (etapa2, etapa2, carpeta, carpeta, carpeta, carpeta)
+    ruta = os.path.join(carpeta, "GENERAR ARCHIVOS.command")
+    with open(ruta, "w") as fh:
+        fh.write(guion)
+    try:
+        os.chmod(ruta, 0o755)
+    except Exception:
+        pass
+    log("lanzador escrito: %s  (generador en %s)" % (ruta, etapa2))
+
+
+# --------------------------------------------------------------------------- #
+
+def run(context):
+    ui = None
+    try:
+        app = adsk.core.Application.get()
+        ui = app.userInterface
+        design = adsk.fusion.Design.cast(app.activeProduct)
+        if not design:
+            ui.messageBox("Abri un diseno de Fusion antes de correr el script.")
+            return
+
+        dlg = ui.createFolderDialog()
+        dlg.title = "Donde guardo piezas.json"
+        if dlg.showDialog() != adsk.core.DialogResults.DialogOK:
+            return
+        carpeta = dlg.folder
+
+        del _log[:]
+        log("Exportar Piezas — %s" % design.parentDocument.name)
+        piezas, saltadas = recolectar(design)
+
+        # Red de seguridad: dos placas con el mismo codigo de barras mandarian
+        # el programa equivocado a la maquina. Se avisa fuerte y no se exporta.
+        vistos = {}
+        duplicados = []
+        for p in piezas:
+            c = p["codigo"]
+            if not c:
+                continue
+            if c in vistos:
+                duplicados.append("%s  (%s  y  %s)" % (c, vistos[c], p["nombre"]))
+            else:
+                vistos[c] = p["nombre"]
+        if duplicados:
+            log("")
+            log("CODIGOS DE BARRAS REPETIDOS:")
+            for d in duplicados:
+                log("  " + d)
+            with open(os.path.join(carpeta, "diagnostico.txt"), "w") as fh:
+                fh.write("\n".join(_log))
+            ui.messageBox(
+                "No exporto: hay codigos de barras repetidos.\n\n  %s\n\n"
+                "Dos placas con el mismo codigo hacen que la perforadora tome el "
+                "programa equivocado.\n\nLo mas probable es que el documento tenga "
+                "cuerpos de una corrida anterior. Proba en un documento nuevo y "
+                "vacio.\n\nEl detalle esta en diagnostico.txt"
+                % "\n  ".join(duplicados), "Exportar Piezas")
+            return
+
+        datos = {
+            "version": 1,
+            "origen": "fusion",
+            "documento": design.parentDocument.name,
+            "orden": str(attr(design.rootComponent, "ORDEN", "")),
+            "cliente": str(attr(design.rootComponent, "CLIENTE", "")),
+            "direccion": str(attr(design.rootComponent, "DIRECCION", "")
+                             or attr(design.rootComponent, "PROYECTO", "")),
+            "ambiente": str(attr(design.rootComponent, "AMBIENTE", "")),
+            "piezas": piezas,
+        }
+        ruta = os.path.join(carpeta, "piezas.json")
+        with open(ruta, "w") as fh:
+            json.dump(datos, fh, ensure_ascii=False, indent=2)
+
+        etapa2 = str(attr(design.rootComponent, "RUTA_ETAPA2", "")) or RUTA_ETAPA2
+        escribir_lanzador(carpeta, etapa2)
+
+        log("")
+        log("%d piezas exportadas" % len(piezas))
+        for s in saltadas:
+            log("SALTADA: %s" % s)
+        with open(os.path.join(carpeta, "diagnostico.txt"), "w") as fh:
+            fh.write("\n".join(_log))
+
+        resumen = "\n".join(
+            "  %s   %g x %g x %g   %d agujeros, %d de canto, %d ranuras"
+            % (p["nombre"], p["ancho"], p["alto"], p["espesor"],
+               len(p["agujeros"]), len(p["agujeros_canto"]), len(p["ranuras"]))
+            for p in piezas) or "  (ninguna)"
+        aviso = ("\n\nSALTADAS:\n  " + "\n  ".join(saltadas)) if saltadas else ""
+        # Trampa clasica: apenas UNA pieza queda marcada TIPO=PLACA, el resto se
+        # ignora. Conviene decirlo con todas las letras y no solo listarlas.
+        if any("no esta marcado como PLACA" in s_ for s_ in saltadas):
+            aviso += ("\n\nOJO: hay piezas marcadas y piezas sin marcar. Cuando "
+                      "hay al menos una marcada, las que NO lo estan se ignoran.\n"
+                      "Marca TODAS las placas con MarcarPlaca, o ninguna.")
+        ui.messageBox("%d piezas → piezas.json\n\n%s%s\n\n"
+                      "Ahora doble clic en GENERAR ARCHIVOS.command, en la misma "
+                      "carpeta, y quedan los cuatro formatos, la lista de corte y "
+                      "las hojas de verificacion.\n\n"
+                      "El detalle de cada cara examinada esta en diagnostico.txt"
+                      % (len(piezas), resumen, aviso), "Exportar Piezas")
+
+    except Exception:
+        if ui:
+            ui.messageBox("Fallo:\n%s" % traceback.format_exc(), "Exportar Piezas")

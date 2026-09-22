@@ -1,0 +1,86 @@
+
+=== Lateral izq / 7300000000001 ===
+  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 595.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 105.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 105.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 595.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (50.0, 691.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (200.0, 691.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (350.0, 691.0)
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+
+=== Lateral der / 7300000000002 ===
+  agujero vertical  O6.0 prof 3.0  cara B  en (20.0, 595.0)
+  agujero vertical  O6.0 prof 3.0  cara B  en (52.0, 105.0)
+  agujero vertical  O6.0 prof 3.0  cara B  en (20.0, 105.0)
+  agujero vertical  O6.0 prof 3.0  cara B  en (52.0, 595.0)
+  agujero vertical  O10.0 prof 11.0  cara B  en (50.0, 691.0)
+  agujero vertical  O10.0 prof 11.0  cara B  en (200.0, 691.0)
+  agujero vertical  O10.0 prof 11.0  cara B  en (350.0, 691.0)
+  cara plana en z=-15.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-15.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-15.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-15.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-7.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-7.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-7.00 de 10.0 x 10.0 ignorada: no parece ranura
+
+=== Techo / 7300000000003 ===
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 350.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 200.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 50.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 50.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 200.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 350.0)
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 350.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 200.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 50.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 50.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 200.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 350.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+
+=== Puerta izq / 7300000000004 ===
+  agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
+  agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 590.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 566.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 124.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 614.0)
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+
+=== Puerta der / 7300000000005 ===
+  agujero vertical  O35.0 prof 13.0  cara A  en (275.5, 100.0)
+  agujero vertical  O35.0 prof 13.0  cara A  en (275.5, 590.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (261.0, 566.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (261.0, 124.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (261.0, 76.0)
+  agujero vertical  O6.0 prof 3.0  cara A  en (261.0, 614.0)
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura

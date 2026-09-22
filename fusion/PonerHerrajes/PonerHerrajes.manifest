@@ -1,0 +1,11 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "script",
+    "id": "com.leitencom.fabricamuebles.ponerherrajes",
+    "author": "FABRICA MUEBLES",
+    "description": { "": "Encuentra las uniones del mueble y pone los agujeros de los herrajes." },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

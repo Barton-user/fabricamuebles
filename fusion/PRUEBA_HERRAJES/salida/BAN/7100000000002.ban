@@ -1,0 +1,17 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/22 pm 9:31:18" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="400.00" Height="700.00" PlaneSize="1" Grain="2" Thickness="18" Material="multilaminado" EdgeFBLR="0,0,0,0" Name="Lateral der" Code="7100000000002">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="400.00 0.00 0"/>
+        <Point Value="400.00 700.00 0"/>
+        <Point Value="0.00 700.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="50.00 691.00 -18.00" End="50.00 691.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="200.00 691.00 -18.00" End="200.00 691.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="350.00 691.00 -18.00" End="350.00 691.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="50.00 359.00 -18.00" End="50.00 359.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="200.00 359.00 -18.00" End="200.00 359.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="350.00 359.00 -18.00" End="350.00 359.00 -7.00"/>
+</Plane>
+</MicroDrawBan_XML>

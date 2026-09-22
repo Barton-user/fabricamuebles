@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "260625-20",
+  "cliente": "",
+  "proyecto": "PRUEBA",
+  "ambiente": "PRUEBA 1",
+  "piezas": [
+    {
+      "codigo": "9441838670057",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Roof plate01",
+      "ancho": 400.0,
+      "alto": 600.0,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 40.0,
+          "y": 591.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 9.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 9.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 591.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 304.5,
+          "y1": 0.0,
+          "x2": 304.5,
+          "y2": 600.0,
+          "ancho": 9.0,
+          "profundidad": 9.0,
+          "cara": "B"
+        },
+        {
+          "x1": 372.5,
+          "y1": 12.85,
+          "x2": 372.5,
+          "y2": 587.15,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ]
+    }
+  ]
+}

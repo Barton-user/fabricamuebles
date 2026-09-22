@@ -1,0 +1,87 @@
+PRUEBA 1  ·  orden 260625-20  ·  archivos para la perforadora SKH-612HS
+========================================================================
+Generados desde el JSON de produccion de GuiGui, sin pasar por su exportador.
+Contienen los agujeros verticales y las ranuras que los .ban de GuiGui perdian.
+
+QUE LLEVAR
+----------
+Esta carpeta entera. Son cuatro formatos del MISMO mecanizado:
+
+  BAN/    MicroDrawBan XML 3.0   (.ban)   <- el mas probable
+  MPR/    WoodWOP / Homag        (.mpr)
+  XML1/   formato "Plate"        (.xml)
+  XML3/   formato KDT            (.xml)
+
+Ademas:  calibre  ·  un recorte de 18 mm  ·  el plano
+         referencia/试生产样品柜_主卧/BluenNC/Trial production sample cabinet
+         sample picture/Plate hole and slot diagram.pdf  impreso
+
+PASO 1 — QUE FORMATO LEE HHcnc   (el paso mas importante, y es gratis)
+----------------------------------------------------------------------
+En HHcnc, abrir el dialogo de importar archivo/directorio y mirar el FILTRO DE
+TIPOS DE ARCHIVO. Ahi se ve si acepta .ban, .mpr, .xml o varios.
+SACAR CAPTURA. Eso define todo lo que sigue.
+
+Si abre varios, probar en este orden:  BAN -> MPR -> XML1 -> XML3
+
+PASO 2 — KNIFE LIBRARY
+----------------------
+Comparar la tabla contra las mechas fisicas y anotar que numero de herramienta
+tiene cada diametro. Para PRUEBA 1 hacen falta:
+
+   vertical   Ø6   prof 3      x16
+   vertical   Ø10  prof 11     x20
+   vertical   Ø15  prof 13,5   x20
+   vertical   Ø35  prof 13     x4
+   horizontal Ø8   prof 33     x20
+   fresa      Ø6   prof 6      x4  ranuras
+   fresa      Ø9   prof 9      x1  ranura
+
+PASO 3 — PRIMERA PIEZA:  9441838670057  (techo, 400 x 600 x 18)
+----------------------------------------------------------------
+Cortar un recorte de 400 x 600 de 18 mm.
+Cargar el programa A MANO (todavia no hay etiqueta con ese codigo).
+VERIFICAR EL DIBUJO EN PANTALLA ANTES DE TOCAR NADA:
+   4 agujeros en la cara, 1 ranura a lo largo, 1 ranura de 9 mm en la cara B.
+Si el dibujo no coincide, PARAR.
+
+Boton verde dos veces: la primera deja la maquina esperando la pieza, la
+segunda mecaniza. Que no haya nadie cerca.
+
+PASO 4 — MEDIR CON CALIBRE
+--------------------------
+   4 x Ø10   desde el borde de 400 ....  X = 40 y 360
+             desde el borde de 600 ....  Y = 9 y 591
+             profundidad .............   11 mm
+   ranura 6x6 ............. a X = 372,5 , cruza los 600
+   ranura 9x9 (cara B) .... a X = 304,5 , cruza los 600
+
+   >>> OJO: CONTEXTO.md seccion 5 dice X = 42 y 362, Y = 11 y 593.
+       Esta MAL: esos numeros son del marco de la placa nesteada.
+       Los correctos son los de arriba.
+
+COMO INTERPRETAR
+----------------
+Todo coincide .............. maquina y formato validados. A producir.
+Correcto pero espejado ..... orientacion de carga, o los parametros
+                             Plank Placement Method / ModusMirror.
+Diametros o prof. mal ...... la tabla del Knife Library no coincide con las
+                             mechas fisicas. Volver al paso 2.
+No abre el archivo ......... formato equivocado. Probar la carpeta siguiente.
+
+ARCHIVOS POR PIEZA
+------------------
+9441838670057  400 x 600     techo             4 AgV   0 AgH   2 ranuras  +K
+9441838670064  400 x 741,83  lateral izq      12 AgV   2 AgH   1 ranura
+9441838670071  400 x 741,83  lateral der      12 AgV   2 AgH   1 ranura
+9441838670088  297 x 681,83  puerta izq        6 AgV   0 AgH   0
+9441838670101  297 x 681,83  puerta der        6 AgV   0 AgH   0
+9441838670125  370 x 564     Partition02       4 AgV   4 AgH   0
+9441838670132  400 x 564     Partition01       8 AgV   4 AgH   1 ranura  +K
+9441838670149  574 x 633,83  fondo 5 mm        sin mecanizado (no va a la perforadora)
+9441838670156  100 x 564     fascia 02         4 AgV   4 AgH   0
+9441838670163  100 x 564     fascia 01         4 AgV   4 AgH   0
+
+"+K" = la pieza tiene mecanizado en la cara trasera y en MPR lleva un segundo
+programa con sufijo K, para la segunda sujecion. En BAN, XML1 y XML3 la cara
+trasera va dentro del mismo archivo.

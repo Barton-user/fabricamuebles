@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2022/04/06 下午 6:19:48" Source="柜柜软件" SourceType="BAN">
+<Plane Width="574" Hight="633.83" Code1="" PlaneSize="1" Grain="2" Thickness="5.0" Material="颗粒板" EdgeFBLR="0.0,0.0,0.0,0.0" Name="Back panel01" Code="9441838670149">
+    <Outline>
+        <Point Value="0 633.83 0"/>
+        <Point Value="574.0 633.83 0"/>
+        <Point Value="574.0 0 0"/>
+        <Point Value="0 0 0"/>
+        <Point Value="0 633.83 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

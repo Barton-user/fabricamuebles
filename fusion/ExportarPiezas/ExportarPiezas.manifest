@@ -1,0 +1,11 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "script",
+    "id": "com.leitencom.fabricamuebles.exportarpiezas",
+    "author": "FABRICA MUEBLES",
+    "description": { "": "Exporta las placas del diseno a piezas.json para el generador de archivos de maquina." },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

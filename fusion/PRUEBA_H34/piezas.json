@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "H34",
+  "cliente": "",
+  "direccion": "PRUEBA",
+  "ambiente": "H34",
+  "piezas": [
+    {
+      "codigo": "7200000000001",
+      "nombre": "Lateral izq",
+      "ancho": 400.0,
+      "alto": 700.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "",
+      "textura": "p",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 50.0,
+          "y": 359.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 350.0,
+          "y": 359.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7200000000002",
+      "nombre": "Lateral der",
+      "ancho": 400.0,
+      "alto": 700.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "",
+      "textura": "p",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 50.0,
+          "y": 359.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 350.0,
+          "y": 359.0,
+          "diametro": 10.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7200000000003",
+      "nombre": "Estante",
+      "ancho": 564.0,
+      "alto": 400.0,
+      "espesor": 18.0,
+      "material": "multilaminado",
+      "mueble": "",
+      "textura": "p",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 531.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 531.0,
+          "y": 350.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 350.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 564.0,
+          "y": 350.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 34.0,
+          "canto": "R"
+        },
+        {
+          "x": 564.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 34.0,
+          "canto": "R"
+        },
+        {
+          "x": 0.0,
+          "y": 350.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 34.0,
+          "canto": "L"
+        },
+        {
+          "x": 0.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 34.0,
+          "canto": "L"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

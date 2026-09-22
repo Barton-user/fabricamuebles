@@ -1,0 +1,27 @@
+[H\Left:0;Bottom:0;Right:0;Top:0
+VERSION="4.0 Alpha"
+VIEW="NOMIRROR"
+OP="1"
+FM="1"
+FW="800"
+HP="1"
+UP="0"
+GX="1"
+DW="0"
+ModusMirror="1"
+
+<100 \WerkStck\
+LA="400"
+BR="700"
+DI="18"
+FNX="0"
+FNY="0"
+RNX="0"
+RNY="0"
+RNZ="0"
+AX="0"
+AY="0"
+
+<101 \Kommentar\
+KM="Lateral der"
+!

@@ -1,0 +1,12 @@
+<MicroDrawBan_XML Version="3.0" Time="2022/04/06 下午 6:19:48" Source="柜柜软件" SourceType="BAN">
+<Plane Width="350" Hight="500" Code1="" PlaneSize="1" Grain="2" Thickness="18.0" Material="颗粒板" EdgeFBLR="1.0,1.0,1.0,1.0" Name="左立板01" Code="6893155441217">
+    <Outline>
+        <Point Value="350.0 0 0"/>
+        <Point Value="350.0 500.0 0"/>
+        <Point Value="50.0 500.0 0"/>
+        <Point Value="0 450.0 0"/>
+        <Point Value="0 0 0"/>
+        <Point Value="350.0 0 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

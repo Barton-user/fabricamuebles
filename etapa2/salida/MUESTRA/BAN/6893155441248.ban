@@ -1,0 +1,23 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/21 am 12:02:39" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="350.00" Height="500.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,1" Name="主卧_地柜A_右立板01" Code="6893155441248">
+    <Outline>
+        <Point Value="0.00 50.00 0"/>
+        <Point Value="50.00 50.00 0"/>
+        <Point Value="50.00 0.00 0"/>
+        <Point Value="350.00 0.00 0"/>
+        <Point Value="350.00 500.00 0"/>
+        <Point Value="0.00 500.00 0"/>
+        <Point Value="0.00 50.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="341.00 62.50 0" End="341.00 62.50 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="341.00 37.50 0" End="341.00 37.50 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="286.00 491.00 0" End="286.00 491.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="64.00 491.00 0" End="64.00 491.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="286.00 109.00 0" End="286.00 109.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="64.00 109.00 0" End="64.00 109.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="286.00 300.00 0" End="286.00 300.00 -12.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="64.00 300.00 0" End="64.00 300.00 -12.00"/>
+    <SlotL Name="" Face="A" Start="329.50 303.85 -6.00" End="329.50 487.15 -6.00" Width="6.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="329.50 112.85 -6.00" End="329.50 296.15 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

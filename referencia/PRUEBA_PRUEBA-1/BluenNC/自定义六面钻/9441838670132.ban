@@ -1,0 +1,15 @@
+<MicroDrawBan_XML Version="3.0" Time="2022/04/06 下午 6:19:48" Source="柜柜软件" SourceType="BAN">
+<Plane Width="400" Hight="564" Code1="" PlaneSize="1" Grain="2" Thickness="18.0" Material="颗粒板" EdgeFBLR="0.0,0.0,0.0,1.0" Name="Partition01" Code="9441838670132">
+    <Outline>
+        <Point Value="0 564.0 0"/>
+        <Point Value="400.0 564.0 0"/>
+        <Point Value="400.0 0 0"/>
+        <Point Value="0 0 0"/>
+        <Point Value="0 564.0 0"/>
+    </Outline>
+    <HoleH Name="" Diameter="8.0" IsCuted="0" Face="U" Start="40.0 564.0 -9.0" End="40.0 531.0 -9.0"/>
+    <HoleH Name="" Diameter="8.0" IsCuted="0" Face="U" Start="360.0 564.0 -9.0" End="360.0 531.0 -9.0"/>
+    <HoleH Name="" Diameter="8.0" IsCuted="0" Face="D" Start="40.0 0.0 -9.0" End="40.0 33.0 -9.0"/>
+    <HoleH Name="" Diameter="8.0" IsCuted="0" Face="D" Start="360.0 0.0 -9.0" End="360.0 33.0 -9.0"/>
+</Plane>
+</MicroDrawBan_XML>

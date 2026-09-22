@@ -1,0 +1,11 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "script",
+    "id": "com.leitencom.fabricamuebles.marcarplaca",
+    "author": "FABRICA MUEBLES",
+    "description": { "": "Marca material, veta y cantos en los componentes seleccionados." },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

@@ -1,0 +1,17 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/21 am 12:02:39" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="297.00" Height="681.83" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,1" Name="PRUEBA 1_00-Doble c/spar01_Cabinet door01_Double left01" Code="9441838670088">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="297.00 0.00 0"/>
+        <Point Value="297.00 681.83 0"/>
+        <Point Value="0.00 681.83 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="22.50 581.83 0" End="22.50 581.83 -13.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="37.00 557.83 0" End="37.00 557.83 -3.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="37.00 605.83 0" End="37.00 605.83 -3.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="22.50 100.00 0" End="22.50 100.00 -13.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="37.00 76.00 0" End="37.00 76.00 -3.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="37.00 124.00 0" End="37.00 124.00 -3.00"/>
+</Plane>
+</MicroDrawBan_XML>

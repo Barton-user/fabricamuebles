@@ -1,0 +1,23 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/16 pm 2:49:37" Source="柜柜软件" SourceType="BAN">
+<Plane Width="100.00" Height="364.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木已删除" EdgeFBLR="0.5,0.5,0.5,0.5" Name="主卧_地柜A_背板05" Code="6893155441941">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="100.00 0.00 0"/>
+        <Point Value="100.00 364.00 0"/>
+        <Point Value="0.00 364.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="62.50 331.00 0" End="62.50 331.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="37.50 331.00 0" End="37.50 331.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="62.50 33.00 0" End="62.50 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="37.50 33.00 0" End="37.50 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="67.00 300.00 0" End="67.00 300.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="67.00 64.00 0" End="67.00 64.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="62.50 364.00 -9.00" End="62.50 330.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="37.50 364.00 -9.00" End="37.50 330.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="62.50 0.00 -9.00" End="62.50 34.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="37.50 0.00 -9.00" End="37.50 34.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="100.00 300.00 -9.00" End="66.00 300.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="100.00 64.00 -9.00" End="66.00 64.00 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

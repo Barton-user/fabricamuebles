@@ -1,0 +1,16 @@
+Exportar Piezas — Untitled
+
+=== (Unsaved) / Roof plate01 ===
+  agujero vertical  O10.0 prof 11.0  cara A  en (40.0, 591.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (360.0, 9.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (40.0, 9.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (360.0, 591.0)
+  ranura 9.0 x 9.0  cara B  de (304.5, 0.0) a (304.5, 600.0)
+  ranura 6.0 x 6.0  cara A  de (372.5, 12.8) a (372.5, 587.2)
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+lanzador escrito: /Users/patriciokeogan/Documents/Claude/Projects/FABRICA MUEBLES/fusion/ExportarPiezas/GENERAR ARCHIVOS.command  (generador en /Users/patriciokeogan/Documents/Claude/Projects/FABRICA MUEBLES/etapa2)
+
+1 piezas exportadas

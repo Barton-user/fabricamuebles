@@ -1,0 +1,865 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "260625-20",
+  "cliente": "",
+  "direccion": "PRUEBA",
+  "ambiente": "PRUEBA 1",
+  "piezas": [
+    {
+      "codigo": "9441838670057",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Roof plate01",
+      "ancho": 400.0,
+      "alto": 600.0,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 360.0,
+          "y": 591.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 9.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 9.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 591.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 304.5,
+          "y1": 0.0,
+          "x2": 304.5,
+          "y2": 600.0,
+          "ancho": 9.0,
+          "profundidad": 9.0,
+          "cara": "B"
+        },
+        {
+          "x1": 372.5,
+          "y1": 12.85,
+          "x2": 372.5,
+          "y2": 587.15,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670064",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Left board01",
+      "ancho": 400.0,
+      "alto": 741.83,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 360.0,
+          "y": 708.83,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 708.83,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 9.0,
+          "y": 50.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 329.0,
+          "y": 429.91,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 41.0,
+          "y": 429.91,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 109.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 109.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 391.0,
+          "y": 50.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 658.33,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 176.5,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 176.5,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 658.33,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 40.0,
+          "y": 741.83,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 360.0,
+          "y": 741.83,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 372.5,
+          "y1": 112.85,
+          "x2": 372.5,
+          "y2": 741.83,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670071",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Right board01",
+      "ancho": 400.0,
+      "alto": 741.83,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 360.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 9.0,
+          "y": 691.83,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 329.0,
+          "y": 311.92,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 41.0,
+          "y": 311.92,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 632.83,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 632.83,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 391.0,
+          "y": 691.83,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 83.5,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 565.33,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 565.33,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 83.5,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 40.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 360.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 372.5,
+          "y1": 0.0,
+          "x2": 372.5,
+          "y2": 628.98,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670088",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Cabinet door01_Double left01",
+      "ancho": 297.0,
+      "alto": 681.83,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "04拉丝胡桃",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 22.5,
+          "y": 581.83,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 76.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 605.83,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 557.83,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 124.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670101",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Cabinet door01_Double open right01",
+      "ancho": 297.0,
+      "alto": 681.83,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "04拉丝胡桃",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 274.5,
+          "y": 581.83,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 274.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 260.0,
+          "y": 76.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 260.0,
+          "y": 605.83,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 260.0,
+          "y": 557.83,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 260.0,
+          "y": 124.0,
+          "diametro": 6.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670125",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Partition02",
+      "ancho": 370.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 41.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 329.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 41.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 329.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 329.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 41.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 329.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 41.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670132",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Partition01",
+      "ancho": 400.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 40.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 360.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 40.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 360.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 9.0,
+          "y": 42.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 391.0,
+          "y": 522.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 391.0,
+          "y": 42.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 9.0,
+          "y": 522.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 360.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 40.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 360.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 40.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 27.5,
+          "y1": 0.0,
+          "x2": 27.5,
+          "y2": 564.0,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670149",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Back panel01",
+      "ancho": 574.0,
+      "alto": 633.83,
+      "espesor": 5.0,
+      "material": "装饰板",
+      "mueble": "00-Doble c/spar01",
+      "textura": "d02白麻面",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670156",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Fascia board02_Vertical Partition01",
+      "ancho": 100.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 33.0,
+          "y": 522.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 50.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 50.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 42.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 0.0,
+          "y": 42.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        },
+        {
+          "x": 0.0,
+          "y": 522.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        },
+        {
+          "x": 50.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 50.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9441838670163",
+      "nombre": "PRUEBA 1_00-Doble c/spar01_Fascia board01_Vertical Partition01",
+      "ancho": 100.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "多层实木",
+      "mueble": "00-Doble c/spar01",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 67.0,
+          "y": 522.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 50.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 50.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 67.0,
+          "y": 42.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 100.0,
+          "y": 42.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 100.0,
+          "y": 522.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 50.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 50.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}
