@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/22 pm 10:54:18" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="574.00" Height="633.83" PlaneSize="1" Grain="2" Thickness="5" Material="装饰板" EdgeFBLR="0,0,0,0" Name="PRUEBA 1_00-Doble c/spar01_Back panel01" Code="9441838670149">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="574.00 0.00 0"/>
+        <Point Value="574.00 633.83 0"/>
+        <Point Value="0.00 633.83 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

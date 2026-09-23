@@ -418,3 +418,128 @@ mandar un programa equivocado a la perforadora. El exportador se niega y lo dice
   correctos en la lista de corte. Ver abajo.
 - la dirección de veta de los dos frentes, **en AutoCUT**
 - medida terminada vs. medida de corte, **con calibre sobre la pieza real**
+
+---
+
+## `ArmarPrueba1` — el mueble armado, sin agujeros (22/09/2026)
+
+Hasta acá el camino Fusion se había probado con `PruebaCompleta`, que modela las
+10 placas **acostadas y con los agujeros ya puestos**, copiados del `.ban`. Eso
+valida el extractor, no el diseño. `ArmarPrueba1` hace lo otro: **el mueble
+armado en 3D, cada placa en su componente, ubicada con la ocurrencia, sin un
+solo agujero de herraje**. Los agujeros los pone `PonerHerrajes` mirando dónde
+quedó cada placa. Después `ExportarPiezas` y `etapa2/validar.py`.
+
+### Resultado
+
+| formato | contra `etapa2/salida/PRUEBA1/` |
+|---|---|
+| XML3 | **10/10 idénticos** |
+| BAN · XML1 | 8/10; las 2 diferencias son **sólo el flag de canto** de los dos zócalos |
+| MPR | 9/11; ídem |
+| lista de corte | 6/10 filas idénticas en las 19 columnas; puertas difieren sólo en el nombre (GuiGui las llama 双开左/右); zócalos: nombre, 长/宽 (pregunta 5 de `MAÑANA_EN_LA_MAQUINA.md`) y el flag de canto |
+
+**Los 80 agujeros de herraje (20 tres en uno × 3 + 4 bisagras × 5) salieron en
+el mismo lugar que en GuiGui, en las 10 piezas, sin copiar ninguna coordenada.**
+Las ranuras (fondo y LED) sí están modeladas a mano en `ArmarPrueba1`: son
+diseño, no herraje.
+
+La diferencia de cantos en los zócalos es la de siempre (§13 de CONTEXTO):
+GuiGui rota la pieza pero no rota el flag, y lo anota en F/B (los extremos que
+apoyan contra los laterales). Nosotros lo ponemos en el borde de abajo, que es
+el que se ve. Se deja así a propósito.
+
+### Lo que hubo que descubrir para que diera igual
+
+**GuiGui es mano izquierda y Y-arriba; Fusion es mano derecha y Z-arriba.**
+Mirando el frente del mueble en GuiGui, +X queda a la izquierda (el "Left
+board" tiene `anchor x=0`). La tabla `PIEZAS` está en un marco intermedio
+(`x = −x_guigui`, Y arriba, frente en −Z) y `mundo()` la lleva al de Fusion:
+`x = x_guigui, y = z_guigui, z = y_guigui`. El mueble queda parado, con el
+frente en −Y (la vista Front) y el zócalo en el piso. `EJE_ARRIBA = +Z`,
+`EJE_FRENTE = −Y`, que es además el default de `PonerHerrajes`.
+
+> Ojo con **"Ground to Parent"**: Fusion lo activa solo en cada componente
+> nuevo, y mientras está activo la ocurrencia ignora el `transform2` que se le
+> asigna (y al volver a activarlo restaura la posición vieja). Para reubicar
+> componentes por API hay que poner `isGroundToParent = False` primero.
+
+**Cuál cara es A.** Es la cara que GuiGui mecaniza, y sigue una regla física:
+la menos visible.
+
+| placa | cara A |
+|---|---|
+| horizontal (techo, piso, estante) | la de **abajo** — salvo el piso, que lleva la ranura del fondo arriba y GuiGui **da vuelta** la pieza para que la ranura quede en A; las excéntricas quedan en B |
+| laterales | la **interior** |
+| puertas | la **interior** (cazoletas) |
+| zócalo de adelante | la que mira **atrás** (interior) |
+| zócalo de atrás | la que mira **atrás** (exterior, contra la pared) |
+
+Y el marco (X, Y) de cada placa en `ArmarPrueba1.PIEZAS` se eligió para que
+coincida con el `.ban`: `ex`, `ey` en coordenadas Fusion, `ez = ex × ey`.
+
+**Los conectores caen en una grilla de 32 mm.** Medido sobre PRUEBA 1: mínimo
+40 mm desde cada extremo, separación el mayor múltiplo de 32 que entre,
+centrado. 400 → 40/360 (320 = 10×32), 370 → 41/329 (288 = 9×32),
+564 → 42/522 (480 = 15×32). Uniones de 100 mm (los zócalos contra los
+laterales) llevan **un** conector al medio.
+
+### Cambios en `PonerHerrajes`
+
+- `posiciones()` usa la grilla de 32 (`MARGEN_MIN = 40`, `PASO = 32`).
+- Cantidad **`auto`** (nueva opción por defecto): 1 si la unión mide ≤ 200 mm, si no 2.
+- **Cara de la excéntrica**: ya no va siempre en A. `cara_oculta()` la elige con
+  la regla de la tabla (abajo / atrás / hacia el centro del mueble). Para saber
+  qué es "arriba" y "atrás" lee `EJE_ARRIBA` / `EJE_FRENTE` del componente raíz
+  (`ArmarPrueba1` pone `+Y` / `−Z`; sin atributos asume Z arriba, frente −Y,
+  que es el default de Fusion).
+- `_cara_hacia()` ahora calcula dónde quedó la cara A con la matriz de la
+  ocurrencia. Antes suponía que A era siempre la coordenada mayor del mundo,
+  lo cual es falso apenas el Z local apunta al negativo de un eje — le habría
+  puesto la base de la bisagra en la cara de afuera del lateral izquierdo.
+- **`ROL`**: las placas marcadas `PUERTA` o `FONDO` (o de espesor < 8 mm) no
+  entran en las uniones. Sin eso aparecían 5 uniones falsas: el piso y el
+  estante "apoyan" contra las puertas y el estante contra el fondo.
+
+### Cómo se corrió
+
+No desde la interfaz de Fusion: desde Claude, por el MCP de Autodesk Fusion que
+está conectado en la Mac. Los scripts se cargan del disco con `importlib` y se
+llaman sus funciones sin diálogos (`AP.armar`, `PH.herrajear`,
+`PH.herrajear_bisagras`, `EP.recolectar`). Salida en `fusion/EXPORT_ENSAMBLE/`.
+
+> ⚠️ El ejecutor de scripts del MCP de Fusion tiene un **namespace persistente**:
+> si un script anterior definió `run()`, se vuelve a llamar en cada ejecución.
+> Definir siempre `def run(context=None): pass` al principio del script.
+
+### Cuerpos de herraje (22/09/2026, noche)
+
+`PonerHerrajes` ahora también **dibuja el herraje**, no sólo los agujeros:
+excéntrica Ø15, perno Ø8 y receptor Ø10 por cada tres en uno, y la bisagra
+completa (cazoleta, brazo, base sobre el lateral y sus dos tornillos). Son
+componentes —uno por tipo, reutilizado en cada posición— marcados
+`TIPO = HERRAJE` en el cuerpo y en el componente, con apariencia de aluminio.
+`ExportarPiezas` los saltea ("marcada TIPO distinto de PLACA") y el propio
+`PonerHerrajes` no los toma como placas: la validación contra el oráculo da
+exactamente lo mismo con o sin ellos.
+
+Son para la **documentación** (explotada, manual de armado, lista de herrajes
+por conteo de ocurrencias) y para el **visor**. Las formas son esquemáticas
+pero con los diámetros y profundidades reales; cuando tengamos el herraje de la
+casa en la mano se cambian las funciones `_forma_excentrica`, `_forma_perno`,
+`_forma_receptor` y `_forma_bisagra`, y todo lo demás sigue igual.
+`DIBUJAR_HERRAJES = False` los apaga.
+
+Marco de cada herraje: origen en la boca del agujero, Z hacia adentro de la
+placa (la bisagra: origen en el centro de la cazoleta, X hacia el centro de la
+puerta, Z hacia adentro de la puerta; la posición de la cara interior del
+lateral se calcula del ensamble: −6 mm para puerta de cubrimiento total con 1,5
+de luz).
+
+Dibujarlos destapó un bug más de `herrajear_bisagras`: `plano_lat` se tomaba
+como `wmax` si la cara era A, otra vez suponiendo que A es la coordenada mayor.
+Los agujeros salían bien de casualidad (esa coordenada sólo afecta la
+profundidad), pero la bisagra del lateral derecho caía 18 mm afuera. Ahora hay
+`_plano_cara(placa, cara)` y lo usan las dos cosas.
+
+Conteo en PRUEBA 1: 20 excéntricas, 20 pernos, 20 receptores, 4 bisagras.

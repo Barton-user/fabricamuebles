@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9441838670057" plateNickName="PRUEBA 1_00-Doble c/spar01_Roof plate01" width="600.00" depth="400.00" height="18.00" barCode="9441838670057" barCode1="">
+    <Bandings>
+        <Banding bandingBack="1" bandingRight="0" bandingFront="1" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(40.00,591.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(360.00,591.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(40.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(360.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+    </Holes>
+    <Slottings>
+        <Slotting positionSide="0" slottingStartX="304.50" slottingStartY="0.00" slottingStartZ="0.000" slottingEndX="304.50" slottingEndY="600.00" slottingEndZ="0.000" slottingWidth="9.00" slottingDepth="9.00"/>
+        <Slotting positionSide="1" slottingStartX="372.50" slottingStartY="12.85" slottingStartZ="0.000" slottingEndX="372.50" slottingEndY="587.15" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="6.00"/>
+    </Slottings>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,600.00,18.00)" endPoint="(400.00,600.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(400.00,600.00,18.00)" endPoint="(400.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(400.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,600.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

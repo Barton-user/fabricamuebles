@@ -1,9 +1,11 @@
 # FÁBRICA MUEBLES — Contexto técnico del proyecto
 
-_Última actualización: 16/09/2026 — armado con Claude durante la puesta en marcha de la línea._
+_Última actualización: 22/09/2026 — armado con Claude durante la puesta en marcha de la línea._
 
 > **Cómo retomar con Claude**: abrir un chat con esta carpeta conectada y decir
 > "leé CONTEXTO.md y seguimos desde el punto X".
+>
+> **Estado del proyecto → sección 15. Hoja de ruta (objetivo y etapas) → sección 16. MCP de GuiGui y modelos 3D bajados → sección 17.**
 
 ---
 
@@ -1175,6 +1177,7 @@ mandar los archivos a las máquinas directamente.
 | Agujeros verticales, de canto y ranuras de cara | ✅ |
 | `MarcarPlaca` — material, textura, veta, cantos y mueble por pieza | ✅ |
 | `PonerHerrajes` — 3 en 1 y bisagras, en las dos piezas de cada unión | ✅ |
+| **Mueble armado en Fusion sin agujeros → PonerHerrajes → máquina** (`ArmarPrueba1`, 22/09) | ✅ **80/80 agujeros iguales a GuiGui**, XML3 10/10; sólo difiere el flag de canto de los zócalos |
 | Hojas de verificación acotadas por pieza | ✅ |
 | Camino GuiGui (por si hay que volver atrás) | ✅ 41/41 |
 
@@ -1318,3 +1321,135 @@ repo en GitHub o similar y agregarlo con `git remote add origin ...`.
 
 > Nota: git necesita borrar sus propios temporales (`index.lock`, `tmp_obj_*`).
 > Si alguna vez se traba con "Operation not permitted", es eso.
+
+---
+
+# 16. HOJA DE RUTA — hacia dónde va todo esto
+
+_Agregado el 22/09/2026, después de definir el objetivo completo del proyecto._
+
+## 16.1 · El objetivo, en tres frases
+
+1. **Fabricar todo lo modelado en GuiGui**, camino 100 % funcional.
+2. **Modelar en Fusion y fabricar con nuestras máquinas**, camino 100 % funcional.
+3. **Tienda online** con ~10 modelos, visor y configurador 3D (medidas generales y
+   alguna opción, sin salir de la estandarización). Pedido confirmado y pagado →
+   se dispara toda la documentación del mueble.
+
+**"100 % funcional" significa siempre lo mismo**: programas de máquina + lista de
+corte + **etiquetas** + **manual de armado de 1-2 hojas** (los muebles se entregan
+desarmados). Ese conjunto se llama de acá en adelante el **paquete de producción**.
+
+## 16.2 · La idea que ordena todo: un motor, tres entradas
+
+No son tres caminos. `etapa2/` —el modelo `Panel` y sus escritores— **ya es el
+motor**. GuiGui (`guigui.py`) y Fusion (`fusion_json.py`) son dos formas de llenar
+`Panel`. La web va a ser la tercera. Todo lo que falta (etiquetas, manual, precios)
+se construye **una vez, sobre `Panel`**, y sirve para las tres entradas.
+
+Consecuencias:
+
+- **Camino 1 (GuiGui): no invertir más.** Está 41/41. Queda como respaldo. Lo que
+  le falta es lo mismo que le falta al camino 2, y se hace una sola vez.
+- **Camino 2 (Fusion) es la columna vertebral.** Se cierra sobre metal en la Etapa 0
+  y se estresa con muebles distintos después.
+- **Camino 3: el configurador NO depende de Fusion en tiempo de ejecución.** Fusion
+  es de escritorio y licenciado; correrlo en un servidor cuando entra un pedido es
+  caro y frágil. Cada uno de los 10 modelos será una **receta paramétrica en
+  código**: una función Python que, dadas medidas y opciones, devuelve la lista de
+  `Panel` con sus agujeros. Fusion sirve para **diseñar y validar** la receta (se
+  modela el mueble, se exporta, y `validar.py` compara contra lo que da la receta —
+  la misma metodología de oráculo de las secciones 13 y 14). El pedido → archivos
+  corre puro código, en segundos. El visor 3D dibuja a partir de la misma receta.
+- **El manual de armado sale casi gratis**: `PonerHerrajes` ya conoce el grafo de
+  uniones del mueble. De ahí se deriva el orden de armado y la vista explotada.
+
+## 16.3 · Las etapas
+
+| Etapa | Qué | Cuándo está terminada |
+|---|---|---|
+| **0 · Sobre metal** | `MAÑANA_EN_LA_MAQUINA.md`: formato de HHcnc, Fusion vs GuiGui, terminada vs corte, `EdgeFBLR`, veta en AutoCUT, herraje 33 vs 34 | Las 6 preguntas contestadas y anotadas acá |
+| **1 · Paquete de producción** | Generador propio de etiquetas con QR (hoy AutoCUT, con el código mal mapeado, §9); manual de armado generado en 1-2 hojas (explotada + pasos por unión + lista de herrajes); ranura de canto resuelta con la Sra. Tan; **fabricar y armar PRUEBA 1 completo** con ese paquete | Caminos 1 y 2 son 100 % funcionales según la definición de 16.1 |
+| **2 · Estresar Fusion** | 2-3 muebles distintos de cero: cajonera con correderas, algo con zócalo y patas, estantes regulables. Cada herraje nuevo entra a `PonerHerrajes` **medido**, como el 3 en 1 | Lista real de herrajes de la casa (que después es lista de precios y de compras) |
+| **3 · Recetas** | Los 10 modelos como código paramétrico con rangos permitidos y opciones; cada receta validada contra su modelo de Fusion; esquema propio de códigos de barras y nº de orden; costo por m² + herrajes. Sin web: un CLI que dice "modelo 4, 900×2100×450, 2 puertas" y devuelve el paquete | Los 10 modelos producen paquete completo desde la línea de comando |
+| **4 · Visor y configurador 3D** | Página con three.js que lee las mismas recetas, deja mover medidas dentro de los rangos, muestra mueble y precio en vivo. Sin carrito. Ya sirve para vender | Se configura y se ve cualquiera de los 10 modelos en el navegador |
+| **5 · Tienda y disparo** | Catálogo, carrito, pago (Mercado Pago), y al confirmarse: correr receta → paquete en carpeta de orden en la fábrica → aviso por mail. Panel interno mínimo de pedidos y estados | Un pedido pagado por un desconocido termina en un pendrive listo para la máquina |
+
+Las etapas 0-2 son de taller y código; 3-5 son de producto. **No empezar la 4 ni la
+5 antes de tener la 3**: el riesgo es terminar con un configurador lindo que no
+puede fabricar nada.
+
+## 16.4 · Antes de todo eso
+
+- **Remoto de git.** Repo privado en GitHub (o similar) y `git remote add origin`.
+  Hoy el único respaldo es esta Mac.
+- Decidir el herraje de la casa: **perno 33 o 34** (§15.5).
+- Verificar canto real y kerf real (§5) — condicionan la lista de corte.
+
+## 16.5 · Estado por etapa
+
+| Etapa | Estado |
+|---|---|
+| 0 | ⏳ se ejecuta 23/09/2026 |
+| 1 | ⬜ |
+| 2 | ⬜ |
+| 3 | ⬜ |
+| 4 | ⬜ |
+| 5 | ⬜ |
+
+> Actualizar esta tabla al cerrar cada etapa, y anotar en la sección que
+> corresponda qué se aprendió.
+
+---
+
+## 15.10 · Camino Fusion completo, probado como se va a usar (22/09/2026, noche)
+
+`fusion/ArmarPrueba1` modela PRUEBA 1 **armado**, sin ningún agujero de herraje,
+con las posiciones sacadas del `render.json` de GuiGui (§17). `PonerHerrajes`
+encontró las 12 uniones y puso los 20 tres en uno y las 4 bisagras solo.
+`validar.py` contra el oráculo: **XML3 10/10; BAN/XML1 8/10 y MPR 9/11, donde
+lo único distinto es el flag de canto de los dos zócalos** (la rareza de GuiGui
+de §13). Los 80 agujeros coinciden en las 10 piezas.
+
+Tres reglas de GuiGui que aparecieron y quedaron en el código
+(detalle en `fusion/README.md`, sección `ArmarPrueba1`):
+
+1. **Conectores en grilla de 32 mm**, mínimo 40 del extremo, centrados
+   (400 → 40/360, 370 → 41/329, 564 → 42/522); uniones ≤ 200 mm llevan uno.
+2. **La excéntrica va en la cara menos visible**: abajo en horizontales, atrás
+   en zócalos, hacia adentro en laterales. El piso es la excepción: GuiGui lo
+   da vuelta para que la ranura del fondo quede en A.
+3. **GuiGui es mano izquierda**: `x_fusion = −x_guigui`.
+
+Y dos correcciones a `PonerHerrajes`: `_cara_hacia` suponía que la cara A era
+siempre la coordenada mayor del mundo (falso), y faltaba excluir puertas y
+fondos de las uniones (`ROL`).
+
+**Herrajes dibujados.** `PonerHerrajes` pone además el cuerpo de cada herraje
+(excéntrica, perno, receptor, bisagra completa) como componentes `TIPO =
+HERRAJE`, para la explotada y el manual de armado. El exportador los ignora; la
+validación no cambia. El mueble queda parado (Z arriba, frente −Y).
+
+# 17. El MCP de GuiGui — explorado el 22/09/2026
+
+La pista de §7 y §12 dio resultado. Detalle completo en **`referencia/GUIGUI_MCP/LEEME.md`**
+y `tools.md`.
+
+- Endpoint: `POST http://127.0.0.1:8010/guigui-mcp` (Streamable HTTP, sin auth, sesión
+  por header `Mcp-Session-Id`). Sólo alcanzable desde la Mac; desde Claude se llega con
+  el **navegador integrado** de la app (el Chrome conectado es la PC Windows).
+- `project_search_order` devuelve, para cada habitación, la URL de un **`render.json`
+  público en Aliyun** con el **modelo 3D completo**: cada placa con posición (`anchor`,
+  `axis`, `vertices`), código de barras, agujeros/ranuras (mismo esquema que el
+  `Mass production.json`), cantos, material, veta y herrajes por placa.
+- Ya bajados a `referencia/GUIGUI_MCP/`: **PRUEBA 1**, **COCINA MLV** (14 gabinetes,
+  116 placas) y **Placard - malvinas** (87 placas). No hizo falta exportar nada a mano.
+- El MCP también permite **crear y editar muebles** (`design_create_model`,
+  `design_edit_model`, `cdesign_*`) y guardar. Queda como opción para automatizar
+  GuiGui mientras siga en uso; no se probó ninguna herramienta que escriba.
+- La API cambió 7 veces en 6 meses (ver changelog). Sirve para **extraer**, no para
+  apoyar producción encima.
+
+**Consecuencia para §16:** el `render.json` es la tercera entrada del motor y trae el
+armado, que al `Mass production.json` le faltaba. Con él se puede reconstruir el
+ensamble en Fusion y derivar el manual de armado sin adivinar posiciones.

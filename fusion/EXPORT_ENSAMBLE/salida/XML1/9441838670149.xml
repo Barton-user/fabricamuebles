@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9441838670149" plateNickName="PRUEBA 1_00-Doble c/spar01_Back panel01" width="633.83" depth="574.00" height="5.00" barCode="9441838670149" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="0" bandingFront="0" bandingLeft="0"/>
+    </Bandings>
+    <Holes/>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,633.83,5.00)" endPoint="(574.00,633.83,5.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(574.00,633.83,5.00)" endPoint="(574.00,0.00,5.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(574.00,0.00,5.00)" endPoint="(0.00,0.00,5.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,5.00)" endPoint="(0.00,633.83,5.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

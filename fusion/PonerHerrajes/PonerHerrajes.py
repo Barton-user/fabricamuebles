@@ -41,7 +41,9 @@ GRUPO = "FabricaMuebles"
 MM = 0.1                      # 1 mm en cm, que es la unidad interna de Fusion
 TOL = 0.05                    # cm — 0,5 mm
 SOLAPE_MIN = 20.0             # mm de contacto para considerar que hay union
-MARGEN = 50.0                 # mm del extremo al primer conector
+MARGEN_MIN = 40.0             # mm minimos del extremo al primer conector
+PASO = 32.0                   # mm: los conectores caen en una grilla de 32 (System 32)
+LARGO_UN_CONECTOR = 200.0     # mm: uniones mas cortas llevan un solo conector
 
 # --------------------------------------------------------------------------- #
 #  tabla de herrajes — medida sobre los archivos reales de Bluen
@@ -152,6 +154,10 @@ class Placa(object):
         self.comp = occ.component
         self.codigo = leer(body, "CODIGO") or body.name
         self.nombre = leer(body, "NOMBRE") or occ.component.name
+        # ROL: PUERTA / FONDO / (vacio = estructura). Las puertas y los fondos no
+        # llevan tres en uno aunque toquen otra placa. Un fondo se reconoce solo
+        # por el espesor si no esta marcado.
+        self.rol = str(leer(body, "ROL", "")).strip().upper()
 
         bb = body.boundingBox                     # en el marco del componente
         self.x0, self.y0 = bb.minPoint.x, bb.minPoint.y
@@ -159,6 +165,8 @@ class Placa(object):
         self.ancho = mm(bb.maxPoint.x - bb.minPoint.x)
         self.alto = mm(bb.maxPoint.y - bb.minPoint.y)
         self.espesor = mm(bb.maxPoint.z - bb.minPoint.z)
+        if not self.rol and self.espesor < 8.0:
+            self.rol = "FONDO"
 
         self.m = occ.transform2.copy()
         self.mi = occ.transform2.copy()
@@ -227,6 +235,8 @@ def uniones(placas):
         for b in placas:
             if a is b:
                 continue
+            if a.rol in ("PUERTA", "FONDO") or b.rol in ("PUERTA", "FONDO"):
+                continue                      # puertas y fondos no se herrajean
             u = b.eje_esp                     # el canto de A apoya sobre la cara de B
             if u == a.eje_esp:
                 continue                      # A esta en el mismo plano que B, no apoya
@@ -263,13 +273,75 @@ def punto_union(j, t):
     return p
 
 
-def posiciones(largo, cuantos, margen=MARGEN):
-    """Reparto de los conectores a lo largo de la union, en fracciones 0..1."""
+def posiciones(largo, cuantos, margen_min=MARGEN_MIN, paso=PASO):
+    """Reparto de los conectores a lo largo de la union, en fracciones 0..1.
+
+    Regla medida sobre PRUEBA 1 (uniones de 370, 400 y 564 mm, 2 conectores):
+    GuiGui deja como minimo 40 mm en cada extremo y separa los conectores un
+    multiplo de 32 mm, el mayor que entre, centrado en la union.
+
+        400 -> 40 / 360   (tramo 320 = 10 x 32)
+        370 -> 41 / 329   (tramo 288 =  9 x 32)
+        564 -> 42 / 522   (tramo 480 = 15 x 32)
+    """
     if cuantos <= 1:
         return [0.5]
-    m = min(margen, largo / 3.0)
-    a, b = m / largo, 1.0 - m / largo
-    return [a + (b - a) * i / (cuantos - 1.0) for i in range(cuantos)]
+    libre = largo - 2.0 * margen_min
+    if libre <= 0:
+        return [0.5]
+    tramo = paso * math.floor(libre / paso + 1e-9)
+    if tramo <= 0:
+        tramo = libre
+    m = (largo - tramo) / 2.0
+    return [(m + tramo * i / (cuantos - 1.0)) / largo for i in range(cuantos)]
+
+
+def cuantos_auto(largo):
+    """Cuantos conectores lleva una union, segun su largo (PRUEBA 1: 100 -> 1, 370..564 -> 2)."""
+    return 1 if largo <= LARGO_UN_CONECTOR else 2
+
+
+def orientacion(design):
+    """(eje_arriba, eje_frente) del mueble en el mundo: indice 0/1/2 y signo.
+
+    Se leen de los atributos EJE_ARRIBA / EJE_FRENTE del componente raiz
+    ("+Y", "-Z", ...). Sin atributos se asume la orientacion por defecto de
+    Fusion: Z arriba, el frente mirando a -Y.
+    """
+    def eje(txt, defecto):
+        txt = (txt or defecto).strip().upper()
+        signo = -1 if txt.startswith("-") else 1
+        letra = txt.lstrip("+-")[:1]
+        return ("XYZ".index(letra) if letra in "XYZ" else defecto_idx(defecto)), signo
+    def defecto_idx(d):
+        return "XYZ".index(d.lstrip("+-")[:1])
+    root = design.rootComponent
+    return (eje(leer(root, "EJE_ARRIBA"), "+Z"), eje(leer(root, "EJE_FRENTE"), "-Y"))
+
+
+def cara_oculta(placa, orient, centro):
+    """Cara de la placa donde va la excentrica: la menos visible.
+
+    Regla deducida de PRUEBA 1:
+      placa horizontal      -> la cara de ABAJO
+      placa de frente/atras -> la cara que mira hacia ATRAS
+      lateral / divisor     -> la cara que mira al CENTRO del mueble
+    """
+    (i_up, s_up), (i_fr, s_fr) = orient
+    t = placa.eje_esp
+    if t == i_up:
+        objetivo = placa.wmin[t] - 10.0 if s_up > 0 else placa.wmax[t] + 10.0
+    elif t == i_fr:
+        objetivo = placa.wmax[t] + 10.0 if s_fr < 0 else placa.wmin[t] - 10.0
+    else:
+        objetivo = centro[t]
+    return _cara_hacia(placa, objetivo)
+
+
+def centro_mueble(placas):
+    lo = [min(p.wmin[i] for p in placas) for i in range(3)]
+    hi = [max(p.wmax[i] for p in placas) for i in range(3)]
+    return [(lo[i] + hi[i]) / 2.0 for i in range(3)]
 
 
 # --------------------------------------------------------------------------- #
@@ -389,13 +461,216 @@ def agujero_canto(placa, pedidos, log):
     return len(pedidos)
 
 
+
+# --------------------------------------------------------------------------- #
+#  cuerpos de herraje
+# --------------------------------------------------------------------------- #
+#
+#  Ademas de los agujeros, se pone el herraje como componente: excentrica,
+#  perno y receptor del 3 en 1, y la bisagra completa (cazoleta, brazo, base y
+#  tornillos). Son para la documentacion (explotada, manual de armado) y para
+#  el visor: la maquina no los necesita. Van marcados TIPO = HERRAJE en el
+#  cuerpo y en el componente, asi ExportarPiezas y este mismo script los
+#  ignoran. Un componente por tipo de herraje, reutilizado en cada posicion.
+#
+#  Marco local de cada herraje: origen en la boca del agujero, Z hacia adentro
+#  de la placa. Las formas son simplificadas pero con las medidas reales de
+#  diametro y profundidad; el detalle fino se cambia en las funciones _forma_*.
+
+DIBUJAR_HERRAJES = True
+
+
+def _vec(placa, x, y, z):
+    """Vector del marco local de la placa -> mundo (sin traslacion), unitario."""
+    v = adsk.core.Vector3D.create(x, y, z)
+    v.transformBy(placa.m)
+    v.normalize()
+    return v
+
+
+def _p3(p):
+    return adsk.core.Point3D.create(p[0], p[1], p[2])
+
+
+def _mas(p, v, k):
+    return [p[0] + v.x * k, p[1] + v.y * k, p[2] + v.z * k]
+
+
+def _marco(origen, ez, ex_pista=None):
+    """Matrix3D con Z = ez y X = ex_pista proyectado (o cualquiera perpendicular)."""
+    z = ez.copy()
+    z.normalize()
+    if ex_pista is None or abs(ex_pista.dotProduct(z)) > 0.9:
+        ex_pista = adsk.core.Vector3D.create(1, 0, 0) if abs(z.x) < 0.9 \
+            else adsk.core.Vector3D.create(0, 1, 0)
+    k = ex_pista.dotProduct(z)
+    x = adsk.core.Vector3D.create(ex_pista.x - k * z.x, ex_pista.y - k * z.y,
+                                  ex_pista.z - k * z.z)
+    x.normalize()
+    y = z.crossProduct(x)
+    m = adsk.core.Matrix3D.create()
+    m.setWithCoordinateSystem(_p3(origen), x, y, z)
+    return m
+
+
+def _cil(tbm, p0, p1, d):
+    """Cilindro entre dos puntos (mm, marco local) de diametro d."""
+    return tbm.createCylinderOrCone(_p3([c * MM for c in p0]), d / 2.0 * MM,
+                                    _p3([c * MM for c in p1]), d / 2.0 * MM)
+
+
+def _caja(tbm, x0, x1, y0, y1, z0, z1):
+    c = adsk.core.Point3D.create((x0 + x1) / 2.0 * MM, (y0 + y1) / 2.0 * MM,
+                                 (z0 + z1) / 2.0 * MM)
+    obb = adsk.core.OrientedBoundingBox3D.create(
+        c, adsk.core.Vector3D.create(1, 0, 0), adsk.core.Vector3D.create(0, 1, 0),
+        abs(x1 - x0) * MM, abs(y1 - y0) * MM, abs(z1 - z0) * MM)
+    return tbm.createBox(obb)
+
+
+def _construir(comp, nombre_cuerpo, solidos):
+    """Mete los solidos temporales en el componente (un BaseFeature) y los une."""
+    base = comp.features.baseFeatures.add()
+    base.startEdit()
+    for sol in solidos:
+        comp.bRepBodies.add(sol, base)
+    base.finishEdit()
+    cuerpos = [comp.bRepBodies.item(i) for i in range(comp.bRepBodies.count)]
+    if len(cuerpos) > 1:
+        ci = comp.features.combineFeatures.createInput(
+            cuerpos[0], adsk.core.ObjectCollection.create())
+        for b in cuerpos[1:]:
+            ci.toolBodies.add(b)
+        ci.operation = adsk.fusion.FeatureOperations.JoinFeatureOperation
+        ci.isKeepToolBodies = False
+        comp.features.combineFeatures.add(ci)
+    metal = _apariencia_metal()
+    for i in range(comp.bRepBodies.count):
+        b = comp.bRepBodies.item(i)
+        b.name = nombre_cuerpo
+        b.attributes.add(GRUPO, "TIPO", "HERRAJE")
+        if metal is not None:
+            try:
+                b.appearance = metal
+            except Exception:
+                pass
+    comp.attributes.add(GRUPO, "TIPO", "HERRAJE")
+
+
+def _apariencia_metal():
+    """Una apariencia metalica de la biblioteca de Fusion, copiada al diseno. Si no hay, None."""
+    try:
+        app = adsk.core.Application.get()
+        design = adsk.fusion.Design.cast(app.activeProduct)
+        for j in range(design.appearances.count):
+            if design.appearances.item(j).name in ("Aluminum - Satin", "Steel - Satin"):
+                return design.appearances.item(j)
+        for i in range(app.materialLibraries.count):
+            lib = app.materialLibraries.item(i)
+            try:
+                aps = lib.appearances
+            except Exception:
+                continue
+            for j in range(aps.count):
+                a = aps.item(j)
+                if a.name in ("Aluminum - Satin", "Steel - Satin"):
+                    return design.appearances.addByCopy(a, a.name)
+    except Exception:
+        pass
+    return None
+
+
+def _forma_excentrica(tbm, cam):
+    d, prof = cam["d"] - 0.4, cam["prof"] - 0.5
+    return [_cil(tbm, (0, 0, 0), (0, 0, prof), d),
+            _cil(tbm, (0, 0, -0.8), (0, 0, 0), d)]          # borde que asoma
+
+
+def _forma_receptor(tbm, recibe):
+    return [_cil(tbm, (0, 0, 0), (0, 0, recibe["prof"] - 0.5), recibe["d"] - 0.4)]
+
+
+def _forma_perno(tbm, perno, recibe):
+    return [_cil(tbm, (0, 0, 0), (0, 0, perno["prof"] - 1.0), perno["d"] - 0.4),
+            _cil(tbm, (0, 0, -(recibe["prof"] - 2.0)), (0, 0, 0), 6.0)]
+
+
+def _forma_bisagra(tbm, dx_lat):
+    """Marco: origen en el centro de la cazoleta sobre la cara interior de la
+    puerta, X hacia el centro de la puerta, Z hacia adentro de la puerta.
+    dx_lat = donde queda la cara interior del lateral sobre X (negativo)."""
+    caz, tor, base = BISAGRA["cazoleta"], BISAGRA["tornillo"], BISAGRA["base"]
+    e = 2.0                                                   # chapa
+    z_brazo = -13.0                                           # altura del brazo sobre la puerta
+    solidos = [
+        _cil(tbm, (0, 0, 0), (0, 0, caz["prof"] - 0.5), caz["d"] - 0.4),   # cazoleta
+        _caja(tbm, -caz["d"] / 2.0, caz["d"] / 2.0, -9, 9, -e, 0),          # tapa de la cazoleta
+        _caja(tbm, dx_lat, 8, -7, 7, z_brazo, z_brazo + e * 2),             # brazo
+        _caja(tbm, dx_lat, dx_lat + e, -7, 7, z_brazo, -e),                 # bajada a la placa
+        _caja(tbm, dx_lat, dx_lat + e, -9, 9, -(base["desde_frente"][1] + 10),
+              z_brazo),                                                     # base sobre el lateral
+    ]
+    for dist in base["desde_frente"]:
+        solidos.append(_cil(tbm, (dx_lat - tor["prof"], 0, -dist),
+                            (dx_lat + e, 0, -dist), tor["d"] - 0.4))       # tornillos
+    return solidos
+
+
+def _herraje(nombre, matriz, forma, *args):
+    """Pone una ocurrencia del herraje `nombre` en `matriz`; lo modela la primera vez."""
+    design = adsk.fusion.Design.cast(adsk.core.Application.get().activeProduct)
+    root = design.rootComponent
+    comp = design.allComponents.itemByName(nombre)
+    if comp is not None and comp.bRepBodies.count:
+        return root.occurrences.addExistingComponent(comp, matriz)
+    occ = root.occurrences.addNewComponent(matriz)
+    comp = occ.component
+    comp.name = nombre
+    tbm = adsk.fusion.TemporaryBRepManager.get()
+    _construir(comp, nombre, forma(tbm, *args))
+    return occ
+
+
+def dibujar_3en1(a, b, pw, dir_in_a, cara_cam, herraje):
+    """Excentrica + perno en la placa que apoya, receptor en la que recibe."""
+    cam, perno, recibe = herraje["cam"], herraje["perno"], herraje["recibe"]
+    n_a = _vec(a, 0, 0, 1)                       # normal de la cara A de la que apoya
+    if cara_cam == "A":
+        sup = _mas(pw, n_a, a.espesor / 2.0 * MM)
+        z_cam = n_a.copy(); z_cam.scaleBy(-1.0)
+    else:
+        sup = _mas(pw, n_a, -a.espesor / 2.0 * MM)
+        z_cam = n_a
+    centro_cam = _mas(sup, dir_in_a, cam["desde_canto"] * MM)
+    _herraje("Excentrica O%g" % cam["d"], _marco(centro_cam, z_cam, dir_in_a),
+             _forma_excentrica, cam)
+    _herraje("Perno O%g x %g" % (perno["d"], perno["prof"]), _marco(pw, dir_in_a),
+             _forma_perno, perno, recibe)
+    hacia_b = dir_in_a.copy(); hacia_b.scaleBy(-1.0)
+    _herraje("Receptor O%g" % recibe["d"], _marco(pw, hacia_b), _forma_receptor, recibe)
+
+
+def dibujar_bisagra(puerta, lateral, pw, x_h, plano_lat, w):
+    """Bisagra completa: pw = punto del canto de la puerta a la altura de la bisagra."""
+    caz = BISAGRA["cazoleta"]
+    n_p = _vec(puerta, 0, 0, 1)                  # cara A de la puerta = la interior
+    sup = _mas(pw, n_p, puerta.espesor / 2.0 * MM)
+    centro = _mas(sup, x_h, caz["desde_canto"] * MM)
+    z_h = n_p.copy(); z_h.scaleBy(-1.0)
+    comp_w = [x_h.x, x_h.y, x_h.z][w]
+    dx_lat = mm((plano_lat - centro[w]) * (1.0 if comp_w > 0 else -1.0))
+    _herraje("Bisagra O%g base %g" % (caz["d"], round(dx_lat, 1)),
+             _marco(centro, z_h, x_h), _forma_bisagra, dx_lat)
+
 # --------------------------------------------------------------------------- #
 #  poner un 3 en 1 en una union
 # --------------------------------------------------------------------------- #
 
-def herrajear(j, herraje, cuantos, log):
+def herrajear(j, herraje, cuantos, log, cara_cam="A"):
     a, b = j["apoya"], j["recibe"]
     cam, perno, recibe = herraje["cam"], herraje["perno"], herraje["recibe"]
+    if cuantos is None or cuantos <= 0:
+        cuantos = cuantos_auto(j["largo"])
 
     cara_a, canto_a, en_b = [], [], []
     for t in posiciones(j["largo"], cuantos):
@@ -412,12 +687,18 @@ def herrajear(j, herraje, cuantos, log):
         canto_a.append((x, y, -a.espesor / 2.0, perno["d"], perno["prof"], canto))
         cx = x + dx * cam["desde_canto"]
         cy = y + dy * cam["desde_canto"]
-        cara_a.append((cx, cy, cam["d"], cam["prof"], "A"))
+        cara_a.append((cx, cy, cam["d"], cam["prof"], cara_cam))
 
         # --- la que recibe: O10 donde pega el perno ---
         bx, by, bz = b.a_local(pw)
         cara = "A" if abs(bz) < abs(bz + b.espesor) else "B"
         en_b.append((bx, by, recibe["d"], recibe["prof"], cara))
+
+        if DIBUJAR_HERRAJES:
+            try:
+                dibujar_3en1(a, b, pw, _vec(a, dx, dy, 0), cara_cam, herraje)
+            except Exception as e:
+                log("  aviso: no pude dibujar el herraje en (%.0f, %.0f): %s" % (x, y, e))
 
     # El O8 desemboca en el O15, asi que el B-Rep lo va a medir de menos.
     # Se deja escrito cuanto entra de verdad, para que ExportarPiezas no tenga
@@ -429,8 +710,8 @@ def herrajear(j, herraje, cuantos, log):
     n += agujero_cara(a, cara_a)
     n += agujero_canto(a, canto_a, log)
     n += agujero_cara(b, en_b)
-    log("  %s -> %s (canto %s): %d conectores, %d agujeros"
-        % (a.nombre, b.nombre, canto_a[0][5] if canto_a else "?",
+    log("  %s -> %s (canto %s, excentrica en cara %s): %d conectores, %d agujeros"
+        % (a.nombre, b.nombre, canto_a[0][5] if canto_a else "?", cara_cam,
            len(canto_a), n))
     return len(canto_a)
 
@@ -508,10 +789,10 @@ def run(context):
             ui,
             "%d uniones:\n\n%s\n\n"
             "Cuales herrajeo, que herraje y cuantos por union:\n"
-            "    todas | 1,3 | 1-4   |   %s   |   cantidad\n\n"
+            "    todas | 1,3 | 1-4   |   %s   |   auto o cantidad\n\n"
             "BISAGRAS: escribi  BISAGRAS | n de la puerta | n del lateral | cuantas"
             % (len(js), "\n".join(lineas), catalogo),
-            "Poner Herrajes", "todas | 3EN1-33 | 3")
+            "Poner Herrajes", "todas | 3EN1-33 | auto")
         if texto is None:
             return
 
@@ -564,20 +845,23 @@ def run(context):
                           % (clave, catalogo), "Poner Herrajes")
             return
         try:
-            cuantos = int(partes[2] or "3")
+            cuantos = 0 if (partes[2] or "auto").strip().lower() in ("auto", "") else int(partes[2])
         except ValueError:
             ui.messageBox("La cantidad tiene que ser un numero, vino '%s'."
                           % partes[2], "Poner Herrajes")
             return
-        if cuantos < 1:
-            ui.messageBox("La cantidad tiene que ser 1 o mas.", "Poner Herrajes")
+        if cuantos < 0:
+            ui.messageBox("La cantidad tiene que ser 'auto' o 1 o mas.", "Poner Herrajes")
             return
 
         registro = []
         total = 0
+        orient = orientacion(design)
+        centro = centro_mueble(placas)
         for i in idx:
             try:
-                total += herrajear(js[i], HERRAJES[clave], cuantos, registro.append)
+                total += herrajear(js[i], HERRAJES[clave], cuantos, registro.append,
+                                   cara_cam=cara_oculta(js[i]["apoya"], orient, centro))
             except Exception as e:
                 registro.append("  FALLO en la union %d: %s" % (i + 1, e))
 
@@ -596,11 +880,25 @@ def run(context):
 #  bisagras
 # --------------------------------------------------------------------------- #
 
-def _cara_hacia(placa, objetivo_w):
-    """De las dos caras de la placa, la que mira hacia objetivo_w."""
+def _plano_cara(placa, cara):
+    """Coordenada del mundo (sobre el eje del espesor) donde queda la cara A o B."""
     t = placa.eje_esp
-    return "A" if abs(placa.wmax[t] - objetivo_w) < abs(placa.wmin[t] - objetivo_w) \
-        else "B"
+    pa = adsk.core.Point3D.create(placa.x0, placa.y0, placa.zA)
+    pa.transformBy(placa.m)
+    wa = [pa.x, pa.y, pa.z][t]
+    wb = placa.wmin[t] if abs(wa - placa.wmax[t]) < abs(wa - placa.wmin[t]) else placa.wmax[t]
+    return wa if cara == "A" else wb
+
+
+def _cara_hacia(placa, objetivo_w):
+    """De las dos caras de la placa, la que mira hacia objetivo_w.
+
+    Se calcula donde quedo la cara A en el mundo con la matriz de la ocurrencia.
+    Suponer que A es siempre la de coordenada mayor es falso en cuanto el Z
+    local del componente apunta al negativo de un eje del mundo.
+    """
+    wa, wb = _plano_cara(placa, "A"), _plano_cara(placa, "B")
+    return "A" if abs(wa - objetivo_w) < abs(wb - objetivo_w) else "B"
 
 
 def herrajear_bisagras(puerta, lateral, cuantas, log):
@@ -621,7 +919,7 @@ def herrajear_bisagras(puerta, lateral, cuantas, log):
     # cara interna del lateral = la que mira al centro de la puerta
     centro_puerta_w = (puerta.wmin[w] + puerta.wmax[w]) / 2.0
     cara_lat = _cara_hacia(lateral, centro_puerta_w)
-    plano_lat = lateral.wmax[w] if cara_lat == "A" else lateral.wmin[w]
+    plano_lat = _plano_cara(lateral, cara_lat)
 
     # canto de la puerta donde van las bisagras = el mas cercano al lateral
     canto_w = min((puerta.wmin[w], puerta.wmax[w]),
@@ -666,6 +964,11 @@ def herrajear_bisagras(puerta, lateral, cuantas, log):
             en_puerta.append((tx + lx * signo * tor["a_lo_largo"],
                               ty + ly * signo * tor["a_lo_largo"],
                               tor["d"], tor["prof"], "A"))
+        if DIBUJAR_HERRAJES:
+            try:
+                dibujar_bisagra(puerta, lateral, pw, _vec(puerta, dx, dy, 0), plano_lat, w)
+            except Exception as e:
+                log("  aviso: no pude dibujar la bisagra a %.0f: %s" % (mm(alto), e))
 
         # --- lateral: los dos tornillos de la base ---
         lw = [0.0, 0.0, 0.0]
