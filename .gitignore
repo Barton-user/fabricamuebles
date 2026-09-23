@@ -8,3 +8,7 @@ fusion/_descartes/
 # Python
 __pycache__/
 *.pyc
+
+# respaldos
+*.bak
+*.pre_formas

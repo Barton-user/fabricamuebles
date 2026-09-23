@@ -167,6 +167,32 @@ tornillos salían **de 13 mm**: el Ø6 habría pasado de largo. Ahora agrupa por
 Lo encontró un chequeo automático que compara lo que sale contra el patrón medido
 en PRUEBA 1, no la lectura del código.
 
+#### Los herrajes en 3D
+
+Además de los agujeros, el script dibuja el herraje puesto. No es decoración:
+sirve para ver **si el brazo de la bisagra choca con un estante, si la puerta
+abre y si el perno llega**. Son cosas que en el archivo de máquina no se ven.
+
+| Herraje | Qué se modela |
+|---|---|
+| Excéntrica | tambor con pestaña, ranura de destornillador y el alojamiento lateral por donde entra la cabeza del perno |
+| Perno | rosca, vástago, cuello y cabeza de hongo |
+| Receptor | cuerpo con collar y el agujero roscado |
+| Bisagra | cazoleta con pestaña, ala con las dos orejas y sus tornillos avellanados, nudillo, brazo acodado, y placa de base con los ojales de regulación |
+
+**Van marcados `TIPO=HERRAJE`**, así que `ExportarPiezas` los saltea: no entran
+como placas ni ensucian la lista de corte. Verificado sobre el ensamble de las 10
+piezas — salen 10, ni una de más.
+
+> **Un error que apareció al detallarlos:** el ala de la bisagra medía 18 mm de
+> ancho pero los tornillos van a 14,5 mm del centro de la cazoleta, así que
+> quedaban **flotando fuera de la chapa**. Se ve a simple vista en cuanto el
+> herraje tiene forma de herraje; con un rectángulo liso no se notaba.
+
+Las medidas de los agujeros siguen saliendo de la tabla medida sobre los archivos
+reales. Los espesores de chapa y el codo del brazo son sólo para que se vea como
+lo que es.
+
 #### Cómo hay que modelar
 
 Cada placa, **un componente**, con la placa **acostada** adentro (boceto en XY,

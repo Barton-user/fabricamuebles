@@ -580,39 +580,184 @@ def _apariencia_metal():
     return None
 
 
+def _quitar(tbm, cuerpo, herramientas):
+    """Resta solidos temporales de otro. Sirve para ranuras y rebajes."""
+    for h in herramientas:
+        try:
+            tbm.booleanOperation(
+                cuerpo, h, adsk.fusion.BooleanTypes.DifferenceBooleanType)
+        except Exception:
+            pass
+    return cuerpo
+
+
+def _pastilla(tbm, largo, ancho, espesor, z0):
+    """Chapa de extremos redondeados, centrada en el origen, a lo largo de Y."""
+    r = ancho / 2.0
+    recto = largo / 2.0 - r
+    piezas = [_caja(tbm, -r, r, -recto, recto, z0, z0 + espesor)]
+    for signo in (-1.0, 1.0):
+        piezas.append(_cil(tbm, (0, signo * recto, z0),
+                           (0, signo * recto, z0 + espesor), ancho))
+    cuerpo = piezas[0]
+    for extra in piezas[1:]:
+        try:
+            tbm.booleanOperation(cuerpo, extra,
+                                 adsk.fusion.BooleanTypes.UnionBooleanType)
+        except Exception:
+            pass
+    return cuerpo
+
+
+def _tornillo(tbm, p0, p1, d_vastago, d_cabeza):
+    """Tornillo de cabeza avellanada: cono de cabeza mas vastago."""
+    import math
+    v = [p1[i] - p0[i] for i in range(3)]
+    largo = math.sqrt(sum(c * c for c in v)) or 1.0
+    u = [c / largo for c in v]
+    alto_cab = (d_cabeza - d_vastago) / 2.0
+    pc = [p0[i] + u[i] * alto_cab for i in range(3)]
+    cabeza = tbm.createCylinderOrCone(_p3([c * MM for c in p0]), d_cabeza / 2.0 * MM,
+                                      _p3([c * MM for c in pc]), d_vastago / 2.0 * MM)
+    vastago = _cil(tbm, pc, p1, d_vastago)
+    try:
+        tbm.booleanOperation(cabeza, vastago,
+                             adsk.fusion.BooleanTypes.UnionBooleanType)
+    except Exception:
+        return [cabeza, vastago]
+    return [cabeza]
+
+
+# --------------------------------------------------------------------------- #
+#  formas de cada herraje
+#
+#  Son para MIRAR, no para fabricar: sirven para ver si el herraje entra, si el
+#  brazo de la bisagra choca con un estante y si la puerta abre. Los agujeros —
+#  que es lo que va a la maquina — salen de la tabla de arriba, no de estos
+#  solidos. Por eso van marcados TIPO=HERRAJE y ExportarPiezas los saltea.
+# --------------------------------------------------------------------------- #
+
 def _forma_excentrica(tbm, cam):
+    """Excentrica de minifix: tambor con pestana, ranura de destornillador y el
+    alojamiento lateral por donde entra la cabeza del perno."""
     d, prof = cam["d"] - 0.4, cam["prof"] - 0.5
-    return [_cil(tbm, (0, 0, 0), (0, 0, prof), d),
-            _cil(tbm, (0, 0, -0.8), (0, 0, 0), d)]          # borde que asoma
+    cuerpo = _cil(tbm, (0, 0, 0), (0, 0, prof), d)
+    pestana = _cil(tbm, (0, 0, -0.8), (0, 0, 0.6), d + 0.8)
+    try:
+        tbm.booleanOperation(cuerpo, pestana,
+                             adsk.fusion.BooleanTypes.UnionBooleanType)
+    except Exception:
+        pass
+    # ranura del destornillador y hueco lateral del perno
+    _quitar(tbm, cuerpo, [
+        _caja(tbm, -d, d, -1.4, 1.4, -1.0, 1.6),
+        _cil(tbm, (-d, 0, prof / 2.0), (0.5, 0, prof / 2.0), 6.6),
+    ])
+    return [cuerpo]
 
 
 def _forma_receptor(tbm, recibe):
-    return [_cil(tbm, (0, 0, 0), (0, 0, recibe["prof"] - 0.5), recibe["d"] - 0.4)]
+    """Receptor: cuerpo estriado con collar, y el agujero roscado del perno."""
+    d, prof = recibe["d"] - 0.4, recibe["prof"] - 0.5
+    cuerpo = _cil(tbm, (0, 0, 0), (0, 0, prof), d)
+    collar = _cil(tbm, (0, 0, -1.2), (0, 0, 0.4), d + 1.0)
+    try:
+        tbm.booleanOperation(cuerpo, collar,
+                             adsk.fusion.BooleanTypes.UnionBooleanType)
+    except Exception:
+        pass
+    _quitar(tbm, cuerpo, [_cil(tbm, (0, 0, -2.0), (0, 0, prof - 1.5), 5.0)])
+    return [cuerpo]
 
 
 def _forma_perno(tbm, perno, recibe):
-    return [_cil(tbm, (0, 0, 0), (0, 0, perno["prof"] - 1.0), perno["d"] - 0.4),
-            _cil(tbm, (0, 0, -(recibe["prof"] - 2.0)), (0, 0, 0), 6.0)]
+    """Perno: cabeza de hongo que agarra la excentrica, vastago y rosca."""
+    d = perno["d"] - 0.4
+    largo = perno["prof"] - 1.0
+    rosca = recibe["prof"] - 2.0
+    cuerpo = _cil(tbm, (0, 0, 0), (0, 0, largo - 3.0), d)
+    partes = [
+        _cil(tbm, (0, 0, largo - 3.0), (0, 0, largo), 6.4),      # cuello
+        _cil(tbm, (0, 0, largo - 0.2), (0, 0, largo + 2.2), 9.4),  # cabeza
+        _cil(tbm, (0, 0, -rosca), (0, 0, 0), 5.6),                 # rosca
+    ]
+    for pz in partes:
+        try:
+            tbm.booleanOperation(cuerpo, pz,
+                                 adsk.fusion.BooleanTypes.UnionBooleanType)
+        except Exception:
+            pass
+    return [cuerpo]
+
+
+def _unir(tbm, cuerpo, piezas):
+    for pz in piezas:
+        try:
+            tbm.booleanOperation(cuerpo, pz,
+                                 adsk.fusion.BooleanTypes.UnionBooleanType)
+        except Exception:
+            pass
+    return cuerpo
 
 
 def _forma_bisagra(tbm, dx_lat):
-    """Marco: origen en el centro de la cazoleta sobre la cara interior de la
-    puerta, X hacia el centro de la puerta, Z hacia adentro de la puerta.
-    dx_lat = donde queda la cara interior del lateral sobre X (negativo)."""
+    """Bisagra de cazoleta completa.
+
+    Marco: origen en el centro de la cazoleta sobre la cara interior de la
+    puerta, X hacia el centro de la puerta, Y a lo largo del canto, Z hacia
+    adentro de la puerta. dx_lat = cara interior del lateral sobre X (negativo).
+
+    Las posiciones salen de BISAGRA, que esta medida sobre las 4 bisagras de
+    PRUEBA 1. Lo demas (espesores de chapa, codo del brazo) es para que se vea
+    como lo que es; no va a ninguna maquina.
+    """
     caz, tor, base = BISAGRA["cazoleta"], BISAGRA["tornillo"], BISAGRA["base"]
-    e = 2.0                                                   # chapa
-    z_brazo = -13.0                                           # altura del brazo sobre la puerta
-    solidos = [
-        _cil(tbm, (0, 0, 0), (0, 0, caz["prof"] - 0.5), caz["d"] - 0.4),   # cazoleta
-        _caja(tbm, -caz["d"] / 2.0, caz["d"] / 2.0, -9, 9, -e, 0),          # tapa de la cazoleta
-        _caja(tbm, dx_lat, 8, -7, 7, z_brazo, z_brazo + e * 2),             # brazo
-        _caja(tbm, dx_lat, dx_lat + e, -7, 7, z_brazo, -e),                 # bajada a la placa
-        _caja(tbm, dx_lat, dx_lat + e, -9, 9, -(base["desde_frente"][1] + 10),
-              z_brazo),                                                     # base sobre el lateral
-    ]
-    for dist in base["desde_frente"]:
-        solidos.append(_cil(tbm, (dx_lat - tor["prof"], 0, -dist),
-                            (dx_lat + e, 0, -dist), tor["d"] - 0.4))       # tornillos
+    e = 2.0                                        # chapa
+    x_tor = tor["adentro"]                         # 14,5: los tornillos del ala
+    y_tor = tor["a_lo_largo"]                      # 24: separacion a lo largo
+    solidos = []
+
+    # --- cazoleta ---
+    tambor = _cil(tbm, (0, 0, 0), (0, 0, caz["prof"] - 0.5), caz["d"] - 0.4)
+    _unir(tbm, tambor, [_cil(tbm, (0, 0, -0.6), (0, 0, 0.8), caz["d"] + 0.6)])
+    solidos.append(tambor)
+
+    # --- ala: NO va centrada en la cazoleta. Los tornillos estan 14,5 mm mas
+    #     adentro, asi que la chapa tiene que llegar hasta ahi. ---
+    ala = _caja(tbm, -caz["d"] / 2.0 + 1.0, x_tor + 6.0, -13, 13, -e, 0)
+    _unir(tbm, ala, [_cil(tbm, (x_tor, s * y_tor, -e), (x_tor, s * y_tor, 0), 13.0)
+                     for s in (-1.0, 1.0)])
+    _unir(tbm, ala, [_caja(tbm, x_tor - 6, x_tor + 6, -y_tor, y_tor, -e, 0)])
+    _quitar(tbm, ala, [_cil(tbm, (x_tor, s * y_tor, -e - 1), (x_tor, s * y_tor, 1), 5.2)
+                       for s in (-1.0, 1.0)])
+    solidos.append(ala)
+    for s in (-1.0, 1.0):
+        solidos += _tornillo(tbm, (x_tor, s * y_tor, -e - 1.3),
+                             (x_tor, s * y_tor, tor["prof"]), 3.6, 6.2)
+
+    # --- nudillo: el eje de giro, al costado de la cazoleta ---
+    solidos.append(_cil(tbm, (-4, -9, -7.0), (-4, 9, -7.0), 9.0))
+
+    # --- brazo acodado: del nudillo baja y corre hasta la placa ---
+    solidos.append(_caja(tbm, -7, 1, -5.5, 5.5, -13.0, -4.0))        # codo
+    canal = _caja(tbm, dx_lat + 3.0, 1, -5.5, 5.5, -22.0, -13.0)     # tramo largo
+    _quitar(tbm, canal, [_caja(tbm, dx_lat + 4.5, -0.5, -3.5, 3.5, -20.5, -14.5)])
+    solidos.append(canal)
+
+    # --- placa de base sobre el lateral ---
+    largo = base["desde_frente"][1] - base["desde_frente"][0] + 24.0
+    centro = -(base["desde_frente"][0] + base["desde_frente"][1]) / 2.0
+    placa = _caja(tbm, dx_lat, dx_lat + 3.0, -11, 11,
+                  centro - largo / 2.0, centro + largo / 2.0)
+    _quitar(tbm, placa, [_caja(tbm, dx_lat - 1, dx_lat + 4, -3.2, 3.2,
+                               -d - 4.5, -d + 4.5)
+                         for d in base["desde_frente"]])          # ojales de regulacion
+    solidos.append(placa)
+    solidos.append(_caja(tbm, dx_lat + 3.0, dx_lat + 9.0, -6.0, 6.0,
+                         centro - 9.0, centro + 9.0))             # cuerpo regulable
+    for d in base["desde_frente"]:
+        solidos += _tornillo(tbm, (dx_lat + 3.4, 0, -d),
+                             (dx_lat - tor["prof"], 0, -d), 4.0, 7.2)
     return solidos
 
 
