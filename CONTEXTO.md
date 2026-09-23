@@ -547,6 +547,13 @@ Materiales: `13玛雅灰 18mm` (gris, cuerpo), `04拉丝胡桃 18mm` (nogal cepi
 5. Knife Storage de la perforadora cargado con las 2 fresas de ranurar (Ø6 nº1, Ø9 nº2).
 6. **Mueble de muestra de Bluen ejecutado**, con archivos de referencia en los 8 formatos.
 7. Tablero resumen en FigJam: https://www.figma.com/board/0xeK22MK3OofuUNPr21bis
+   **Rearmado el 23/09/2026** con todo este documento: 14 secciones (LEEME, parque de máquinas,
+   hoja de ruta, mapa general con los dos caminos, camino con GuiGui, camino Fusion, qué archivo
+   va a qué máquina con ejemplos reales, sierra + AutoCUT, etiquetado, perforadora paso a paso con
+   árbol de alarmas y tabla de herramientas, router, cantos y armado, pendientes/preguntas HUAHUA,
+   referencia Bluen). Las 18 capturas que ya estaban en el tablero quedaron en sus secciones.
+   **Faltan las capturas de la SKH-612HS del 23/09** (PgDrillCam32, tabla de herramientas, revista):
+   no están guardadas en la carpeta; pegarlas en la sección 9 del tablero.
 
 ### ✅ RESUELTO (20/09/2026) — drill files incompletos
 
@@ -1316,8 +1323,8 @@ que viaje con el código.
 `fusion/_descartes/`, que son las carpetas de exportaciones de prueba viejas que
 se apartaron al ordenar.
 
-**Todavía no hay remoto.** Si se quiere respaldo fuera de la Mac hay que crear un
-repo en GitHub o similar y agregarlo con `git remote add origin ...`.
+**Remoto configurado**: `origin` → https://github.com/Barton-user/fabricamuebles.git
+(`main` sigue a `origin/main`). Al cierre de cada sesión: `git add -A && git commit -m "..." && git push`.
 
 > Nota: git necesita borrar sus propios temporales (`index.lock`, `tmp_obj_*`).
 > Si alguna vez se traba con "Operation not permitted", es eso.
@@ -1381,8 +1388,7 @@ puede fabricar nada.
 
 ## 16.4 · Antes de todo eso
 
-- **Remoto de git.** Repo privado en GitHub (o similar) y `git remote add origin`.
-  Hoy el único respaldo es esta Mac.
+- ~~**Remoto de git.**~~ ✅ Hecho: `origin` en GitHub (Barton-user/fabricamuebles).
 - Decidir el herraje de la casa: **perno 33 o 34** (§15.5).
 - Verificar canto real y kerf real (§5) — condicionan la lista de corte.
 
@@ -1453,3 +1459,402 @@ y `tools.md`.
 **Consecuencia para §16:** el `render.json` es la tercera entrada del motor y trae el
 armado, que al `Mass production.json` le faltaba. Con él se puede reconstruir el
 ensamble en Fusion y derivar el manual de armado sin adivinar posiciones.
+
+---
+
+## 15. 23/09/2026 — Primera sesión en la SKH-612HS
+
+### El software no se llama HHcnc
+
+En la PC industrial hay **CncMon32** y **PgDrillCam32**. El que opera la máquina es
+PgDrillCam32, cuyo título real es **`桦桦数控钻 MH2026_Drill 3.0.5.0`** (build 2025/12/15),
+marca **HUAHUA**. Tiene interfaz en español (botones Inglés / Chino / Español en el panel
+"Personalización automática").
+
+Layout: arriba pestañas Manual / Automático / Parámetro / Configuración / Mantenimiento,
+estado (Sin conexión / **Listo**), Iniciar / Pausa / Reiniciar / Simulación / alarma.
+Izquierda: "Personalización automática", "Tipos completados", "Cola".
+Derecha: campo **"Escanear código"** — acepta tipeo manual, no hace falta escanear.
+Barra de edición 2D: Generar, Guardar como, Nuevo, Acumulado, Ocultar proceso, Modificar,
+Desplazamiento, Rotar, **Voltear placa**, **Reflejar**, Doble placa.
+Columna de operaciones: Vertical, Horizontal, **Ranura**, Fresado de perfil, Acortar esquina,
+Rectángulo, Bisagra, Gripless, Lamello, Inclinado, Bisel, I. Rectangle.
+
+### ✅ RESUELTO — qué formato lee la máquina
+
+Panel "Tipos completados" → icono de carpeta → diálogo **"Cargar archivo"** → desplegable
+**"Formato"**. La lista completa:
+
+```
+formato final                              Formato de prohibición
+Formato final V2                           Formato de prohibición (ranura lateral SlotH)
+Formato de prohibición (ranura lat. SlotSid)  Formato Pytha DXF
+ByasBpp                                    formato PYXCAM
+Sesgo CIX                                  Formato SCM xxl
+YimuXml                                    Nueva generaciónXml        ← default
+Wei Lun Xml (Inicio 3D)                    Xml de nueva generación (fresado 3D)
+WeilonXml                                  Json de nueva generación
+WeilonXmlV2                                DXF de nueva generación
+formato Hisense                            Formato Wang Shi PDX
+Haomai MPR              ← nuestro MPR      estilo yuncheng
+HomagVHoleIgnoreZA
+KDTXml                  ← nuestro XML3
+```
+
+**Conclusión**: los dos formatos que validamos byte a byte contra Bluen están en la lista.
+
+| Nuestra carpeta | Opción del desplegable | Validación |
+|---|---|---|
+| `XML3/` | **KDTXml** | 12/12 byte a byte |
+| `MPR/` | **Haomai MPR** | 12/12 byte a byte (incl. archivos K) |
+
+**No existe opción `.ban`.** La carpeta `BAN/` no sirve para esta máquina, y la pelea con la
+plantilla `六面钻BAN洪德（贺耀）` de GuiGui era por un formato que esta perforadora ni lee.
+XML1 no tiene correspondencia obvia; los candidatos serían "Nueva generaciónXml" o alguno de
+los "formato final".
+
+### ⚠️ Las piezas del gris están mal cortadas
+
+La etiqueta del techo dice:
+
+```
+工程: 0203米格样柜电子锯文     ← nombre de otra orden, no 260625-20
+客户: PRUEBA
+材料: 多层实木 13玛雅灰
+部件: P01                      ← código de barras mal mapeado
+规格: 599 X 398
+```
+
+Medido con calibre: **599 × 398**. Confirmado.
+
+Las dos listas de corte (la de GuiGui y la nuestra) dicen **598 × 399**. La diferencia es
+exactamente lo que da si se invierte a qué lado pertenece cada bandera de canto:
+
+- correcto: `前`/`后` sobre el lado de 600 → 598 · `左`/`右` sobre el de 400 → 399
+- cruzado:  `前`/`后` sobre el lado de 400 → 398 · `左`/`右` sobre el de 600 → 599
+
+**AutoCUT quedó con el mapeo de las columnas de canto cruzado** en la "Coincidencia" de
+importación. Las 7 piezas del gris se cortaron con ese error y hay que volver a cortarlas
+antes de armar el mueble. Es el mismo problema de mapeo que ya estaba anotado para el código
+de barras (sección 9).
+
+Para confirmar en otra pieza — si da la columna derecha, está cruzado:
+
+| Pieza | Correcto | Cruzado |
+|---|---|---|
+| Partition02 | 564 × 369 | 563 × 370 |
+| Left / Right board | 741,83 × 399 | 740,83 × 400 |
+| Fascia | 99 × 564 | 100 × 563 |
+
+### Consecuencia para la prueba
+
+El programa está hecho sobre la medida **terminada 400 × 600**; la placa real mide 398 × 599.
+La pieza está 2 mm angosta y 1 mm corta respecto del marco del programa. Sirve igual como
+pieza de sacrificio: hay que medir cada agujero **desde los dos bordes opuestos** y anotar
+ambos valores, para deducir desde qué esquina referencia la máquina.
+
+### Archivos preparados
+
+`etapa2/salida/PRUEBA1/PARA_PENDRIVE/` — sólo la pieza de prueba (techo, 9441838670057)
+en los cuatro formatos, para copiar al pendrive.
+
+### Lo que se logró en la sesión del 23/09
+
+1. **Importación validada.** `Cargar archivo` → Formato **KDTXml** → ruta de la carpeta →
+   el archivo aparece en "Tipos completados" con la placa bien leída (400 × 600 × 18).
+   ⚠️ El desplegable arranca en **"Nueva generaciónXml"** y con ese no lee nada, sin dar
+   error: simplemente no lista archivos. Hay que cambiarlo a mano cada vez.
+2. **Doble clic en la fila** dibuja la pieza en "Edición 2D" y llena la tabla de operaciones.
+3. **El software rota la pieza**: la muestra como `600 × 400`, con el cartel
+   **`CCW Rotate 270°`** y una flecha grande que indica el sentido de carga.
+   Las coordenadas de la tabla ya vienen en ese marco rotado: el Ø10 que en el archivo está
+   en (360, 591) aparece como **(591, 360, 18)**.
+4. **Asignación de herramientas correcta**, sin tocar nada:
+
+   | Operación | Herramienta |
+   |---|---|
+   | Ø10 prof 11 en (591,360) y (9,360) | **T56** |
+   | Ø10 prof 11 en (591,40) y (9,40) | **T158** |
+   | Ranura 6 × 6 cara frente | **T187** |
+
+5. **La ranura de 9 × 9 de cara trasera la rechaza**: columna "Motivo no procesado" dice
+   **"Diámetro de herramienta demasiado grande"**. Destildando su casilla "Habilitar" y
+   apretando **Generar**, la cola pasa de "Error en conversión" (rojo) a
+   **"Procesamiento asignado"** (azul). Falta averiguar cuál es el ancho máximo de fresa
+   para ranura en cara trasera de esta máquina.
+
+### ❌ Donde quedó trabado
+
+Con el trabajo en "Procesamiento asignado" y el estado en **"Listo"**, tanto el botón físico
+de Start del panel como el botón **"Iniciar"** del software dan el mismo error, con alarma
+sonora:
+
+> **coordinate 71 — el procedimiento de tramitación no se especifica el nombre principal
+> del programa**
+
+(traducción rota de algo como 加工程序未指定主程序名 — "el programa de mecanizado no tiene
+nombre de programa principal").
+
+Cosas que se probaron y **no** lo destrabaron:
+
+- Homing completo desde CncMon32.
+- Escribir el código `9441838670057` en el campo **"Escanear código"** y dar Enter — el campo
+  lo acepta (no hace falta escanear) pero no cambia el estado de la cola.
+- Hacer clic en **"El usuario no ha iniciado sesión"** (abajo a la derecha) — no abre ningún
+  login, no hace nada.
+- Apretar "Automático" en la barra superior.
+
+**Aclaración**: los cinco botones de arriba (Manual / Automático / Parámetro / Configuración /
+Mantenimiento) **no son selectores de modo**, son menús desplegables. El rojo permanente de
+"Mantenimiento" es un **aviso de mantenimiento vencido**, no el modo activo.
+
+### Mantenimiento vencido
+
+Menú Mantenimiento → "Mantenimiento de equipos" → pestaña Drill: **las 12 tareas están
+vencidas**, último registro **2026-01-04**, tiempos restantes en rojo (−232 / −261).
+La primera (`水平油嘴`, picos de lubricación horizontales) pide recarga cada
+**120-150 h de trabajo del pack de mechas**, con aceite **ISOFLEX TOPAS L 32 N**.
+No bloquea la operación, pero hay que hacerlo y marcarlo en la columna "renovar".
+
+### Mecánica de carga (corregido)
+
+La placa **no** va apoyada contra la regla del lado del operador. Las que agarran son dos
+**pinzas neumáticas** montadas sobre una viga en el **lado opuesto** de la mesa perforada.
+Según la secuencia del manual, la primera pulsación del verde acerca las pinzas al frente y
+la máquina queda esperando la pieza; recién ahí se coloca. **No confirmado en la práctica**,
+porque nunca se llegó a arrancar el ciclo.
+
+### Preguntas pendientes para HUAHUA (agregar a la sección 11)
+
+6. Con un trabajo en estado "Procesamiento asignado" y la máquina en "Listo", ¿cuál es la
+   secuencia exacta para arrancar el ciclo? El error es "坐标71 / 加工程序未指定主程序名".
+7. ¿Hace falta iniciar sesión de usuario? El pie dice "El usuario no ha iniciado sesión" y
+   el clic no abre nada. ¿Usuario y contraseña?
+8. ¿Cuál es el ancho máximo de fresa para ranura en **cara trasera**? La de 9 mm la rechaza
+   por "diámetro de herramienta demasiado grande".
+9. ¿Se puede fijar **KDTXml** como formato por defecto del diálogo "Cargar archivo"?
+
+### ✅ DESTRABADO — la máquina mecanizó la primera pieza (23/09, ~02:00)
+
+El error `coordinate 71` era porque **las pinzas no estaban en posición de carga**. La
+secuencia correcta, confirmada en la práctica:
+
+1. Importar con **Formato = KDTXml** → doble clic en la fila → destildar la fila 5 →
+   **Generar** → la cola queda en "Procesamiento asignado".
+2. **Botón verde, primera pulsación**: las pinzas se acercan al frente, entra el aire, la
+   máquina queda esperando la pieza. *(Apretar Iniciar antes de esto da el error de
+   "programa principal".)*
+3. **Colocar la placa contra el tope**, del lado de las pinzas.
+4. **Botón verde, segunda pulsación**: las pinzas cierran, el tope se acomoda y mecaniza.
+
+**Alarma de medida**: con la placa de 398 y el programa de 400 salta
+`MLC 148 PLC — ancho de placa demasiado pequeño, r49,3`.
+Se resuelve con **Reiniciar** + destildar **"Detección de ancho"** en el panel
+"Personalización automática". Con la detección apagada la máquina toma los 400 nominales del
+programa, así que todo lo referido al borde lejano queda corrido los 2 mm de diferencia.
+
+**Resultado**: las 5 operaciones habilitadas salieron — los 4 Ø10 y la ranura de 6 × 6.
+Falta sólo la ranura de 9 × 9 de cara trasera, que es la que se había destildado.
+
+**Pendiente de medir con calibre** (no se completó esa noche): posiciones exactas y,
+sobre todo, si hay espejado — la ranura tiene que dar a **372,5** desde un borde de 398,
+no a 27,5.
+
+### Tabla de herramientas de la máquina — dónde está y qué tiene
+
+**Ruta**: menú **Parámetro** → pestaña **"Configuración de paquete de…"** → panel derecho
+**"Herramientas de corte generales"** (la otra pestaña es "cuerpo cruzado"). A la izquierda,
+el diagrama **"bolsa de taladro 1 / 2"** muestra la disposición física.
+
+Columnas: Nº · permitir · número de cuchillo · grupo · **diámetro** · **ancho de aserrado** ·
+tipo de herramienta · X · Y · desplazamiento X/Y.
+
+**Taladros verticales** (tipo `Z positivo` = cara frente, `Z negativo` = cara dorso):
+Ø5, Ø8, Ø10, Ø12, Ø15, Ø20. Taladros horizontales (`X±`, `Y±`): Ø8.
+
+**Husillos y sierras** (el bloque en X −24,5 / Y 388,8):
+
+| Tnn | Ø | Ancho | Tipo | Estado |
+|---|---|---|---|---|
+| 11 | 10 | 10 | husillo (X −25,4 / Y 80) | **cargada** — hizo la ranura de dorso |
+| 181 | 100,2 | 7 | sierra lateral | |
+| 182 | 9,8 | 9,8 | Lamello | |
+| 183 | 43,9 | 3 | hoja de sierra | |
+| 184 | 10 | 10 | husillo | **puesto VACÍO** |
+| 185 | 3,2 | 3,2 | husillo | |
+| 186 | 24 | 24 | — | **sin cargar** (lugar libre) |
+| 187 | 6 | 6 | husillo | **cargada** — hizo la ranura del frente |
+| 188 | 10 | 10 | husillo | |
+| 190 | 0 | 0 | — | |
+
+### ⚠️ Tres herramientas que faltan para producir PRUEBA 1
+
+| Falta | Para qué | Cómo se manifiesta |
+|---|---|---|
+| **Vertical Ø6 prof 3** | tornillos de bisagra (16 agujeros) | **crasheo del software**: `System.ArgumentOutOfRangeException: el índice estaba fuera del intervalo`. No avisa que falta la herramienta, se rompe. Hay Ø5 — habría que decidir si los tornillos van con Ø5. |
+| **Fresa de ranurar Ø9** | ranura de luz del techo | "Diámetro de herramienta demasiado grande". El ancho mínimo de ranura en **cara dorso** es ~10 (la fresa más chica disponible para esa cara). Con ancho 10 la acepta y asigna **T11**. |
+| **Cazoleta Ø35** | bisagras de las puertas (4) | No existe Ø35; el post planifica **fresado circular** con **T184**, cuyo puesto está vacío → alarma `MLC 142 · señal de sujeción del husillo anormal · r48,13` en pleno cambio de herramienta. |
+
+El puesto **186** está libre para cargar una fresa.
+
+### Otras alarmas y comportamientos vistos
+
+- `MLC 148 PLC — ancho de placa demasiado pequeño, r49,3`: la placa medida no coincide con la
+  del programa. Se saltea destildando **"Detección de ancho"** (y "Detección de longitud"
+  para el largo) en "Personalización automática".
+- El campo **"Escanear código"** define qué pieza sale; si queda el código viejo, arranca la
+  pieza vieja. La **cola** procesa en orden: hay que borrar los trabajos pendientes que no se
+  quieren, con "Eliminación".
+- Arriba, donde dice "Listo", puede aparecer **"Bloque individual"** en rojo = modo paso a
+  paso; si se frena entre movimientos, Iniciar de nuevo.
+- Cada pieza trae su propia rotación: el techo **CCW Rotate 270°** con flecha a la izquierda,
+  la puerta **CCW Rotate 90°** con flecha a la derecha. **No cargar de memoria.**
+- Un circulito rojo aparece fuera del contorno en el dibujo 2D de todas las piezas. Sin
+  identificar; probablemente el marcador de esquina de referencia.
+
+### Segunda pieza probada — puerta izquierda 9441838670088
+
+Importó bien (297 × 681,83 × 18). De sus 6 operaciones: las 2 de Ø35 fallan por lo de arriba,
+y las 4 de Ø6 crashean. **Cambiando los Ø6 a Ø5 el software las toma sin error.**
+
+Dato útil: la puerta no tiene orientación equivocada posible. Cargada girada 180°, las
+cazoletas caen en (274,5, 581,83) y (274,5, 100) — que son exactamente las coordenadas de la
+puerta derecha. La placa simplemente pasa a ser la otra puerta.
+
+### La revista de fresas — cómo es y cómo se numera
+
+Pantalla **Manual** (pestaña `612NS`): diagrama de los dos paquetes de mechas (Motor1 y
+Motor2), tabla de coordenadas de los 9 ejes (X, Y2, Z2, U, V, W, A, Y, Z), botonera de jog,
+y abajo cuatro botones grandes: **Modo de origen · Reinicio de engrase · Modo de cambio de
+herramienta · RESET**.
+
+Apretando **"Modo de cambio de herramienta"** (queda en verde) salen los tres
+**"Cilindro de revista de herramientas"** y la revista queda accesible.
+
+**Es una revista lineal de conos**, no pinzas en el husillo. Cada puesto tiene una horquilla
+amarilla y su asiento, rotulados `1号 … 8号`. Las fresas van montadas en cono y el husillo
+las toma de ahí.
+
+**Regla de numeración descubierta: `T18n` = puesto `n` de la revista.**
+
+| Tnn | Puesto | Ø | Estado observado |
+|---|---|---|---|
+| 184 | **4** | 10 | **VACÍO** — sólo la horquilla |
+| 185 | 5 | 3,2 | cono montado |
+| 186 | 6 | 24 | cono montado (la tabla lo daba "sin cargar" — revisar) |
+| 187 | 7 | 6 | cono montado, **funcionando** (hizo la ranura de 6) |
+| 188 | 8 | 10 | — |
+
+En la grilla T1…T9 de esa pantalla, **T1/T3/T5/T7/T9 salen con círculo rojo y T2/T4/T6/T8 en
+negro**. Pendiente confirmar si el rojo marca puesto ocupado.
+
+**Consecuencia**: la alarma `MLC 142 · señal de sujeción del husillo anormal · r48,13` al
+fresar la cazoleta Ø35 es simplemente que el puesto 4 está vacío. No falta comprar una
+máquina ni una herramienta exótica: falta **un cono con fresa para el puesto 4**.
+
+**Atajo**: se puede forzar otra fresa con el campo **"Asignar número"** del diálogo de la
+operación. Para la cazoleta Ø35 se puede usar la **187** (Ø6, puesto 7, montada) — fresa el
+círculo en más vueltas pero sale.
+
+### Instalación de herramientas (manual, sección 11.3)
+
+- Husillo **ER25**. Llave de fresa incluida en la caja de accesorios.
+- La fresa debe sobresalir **más de 45 mm**, idealmente lo mismo que la que se saca.
+- La profundidad se ajusta con el valor **"+Z"** de la herramienta en el almacén: más valor,
+  más profundo. Es común a las fresas de arriba y de abajo.
+- **Después de cambiar, corregir el diámetro en la tabla de herramientas**, o el software
+  sigue calculando con el viejo.
+- Mechas: prisionero bien trabado, altura de instalación ≤ 1 mm, nada de mechas gastadas, y
+  **prohibido poner una mecha de más de Ø10 en la herramienta Nº 1**.
+- Al terminar, llamar todas las herramientas y verificar que las puntas queden en el mismo
+  plano, **±1 mm**.
+- Velocidades por diámetro: Ø5/6/8 → 4500 · Ø10/12 → 1-4000 · Ø15 → 1-2200 · Ø20 → 1-1200.
+
+### Segunda parte de la noche (23/09, 02:00 – 02:30)
+
+**Se montó una fresa en el puesto 4.** Fresa espiral marcada `Ø20x70R 250710`, giro a derecha,
+montada en un cono vacío con **46 mm de voladizo** desde la cara de la tuerca (el manual pide
+>45). El cono se apoyó en la horquilla del puesto 4.
+
+También apareció una **fresa de disco `62211-4T 12.7*45*H3`**: mango 12,7 (1/2"), Ø45, 4 filos,
+**3 mm de espesor de ranura**. Coincide con la **T183** de la tabla (43,9 × 3). Es de ranurar de
+costado, **no puede hundirse**, así que no sirve para cazoletas — sí para ranuras de 3.
+
+#### La tabla de herramientas está protegida por contraseña
+
+Al intentar cambiar el diámetro de la T184 (de 10 a 20) el software **pide contraseña de
+fábrica**. No se puede editar ni desde la celda de la tabla (es de sólo lectura) ni desde el
+panel "Configuraciones de uso común" (pide seleccionar la herramienta en el diagrama, y ahí
+salta la contraseña).
+
+**Se le pidió la contraseña a la Sra. Tan por WeChat.** Es lo primero a destrabar.
+
+#### Truco para fresar sin la contraseña — compensación en el archivo
+
+Mientras la tabla diga que la T184 es de Ø10 y la fresa real sea de Ø20, se compensa pidiendo
+un diámetro más chico en la operación:
+
+```
+diámetro a pedir = diámetro real deseado − (Ø real de la fresa − Ø declarado en la tabla)
+para la cazoleta:  35 − (20 − 10) = 25
+```
+
+Razón: el software recorre un círculo de `pedido − declarado`. Pidiendo 25 recorre 25−10 = 15,
+y con la fresa real de 20 barriendo, el agujero sale 15 + 20 = **35**.
+
+**Sin verificar todavía** — hay que fresar un agujero en un recorte y medirlo con calibre. Si
+da 45, el software no compensa el radio y el truco no sirve.
+
+⚠️ El día que llegue la contraseña: corregir el diámetro de la T184 a 20 en la tabla y volver
+a pedir 35 en el archivo. El truco es un parche, no la solución.
+
+#### Otras cosas aprendidas
+
+- **El override de herramienta** ("Asignar nú" en el diálogo de la operación) abre el selector
+  **"Especificar herramienta"**, que sólo lista las herramientas válidas para ese tipo de
+  operación. El campo de texto es de sólo lectura: hay que **cliquear el ícono en el diagrama**.
+  La **T187 no aparece** para agujeros verticales de cara frente.
+- Forzar la **T188** para la cazoleta **es rechazado**: *"no se puede usar la herramienta
+  especificada para el procesamiento"*. En el diagrama la 188 está dibujada como herramienta
+  horizontal — no puede hundirse en la cara.
+- La tabla de operaciones tiene **dos columnas "Herramienta"**: la primera es la forzada por el
+  usuario, la segunda la que asigna el post. Hasta que no se aprieta Generar, la segunda
+  conserva la asignación vieja.
+- **Ojo al probar con un recorte de otra medida**: el techo de descarte mide 599 de largo y el
+  programa de la puerta está hecho sobre 681,83, así que la operación en X = 605,83 **cae fuera
+  de la placa**. Hay que destildar las filas cuyas coordenadas se salgan del recorte.
+- Los agujeros de bisagra **Ø6 cambiados a Ø5 se procesan sin problema**, con **T162**.
+
+#### Donde quedó esta vez
+
+Con el cono ya puesto en el puesto 4 y el trabajo asignado, al dar verde salta:
+
+> **"Se prohíbe el mecanizado cuando el husillo no está sujeto"**
+
+y antes de eso la placa quedó trabada adentro en el paso del cambio de herramienta, con el
+estado en "Listo" y la cola vaciándose sola.
+
+**Causa muy probable, sin confirmar**: quedó activo el **"Modo de cambio de herramienta"** de
+la pantalla Manual → 612NS. En ese modo el husillo queda liberado, así que el control se niega
+a mecanizar. Se le dijo al operador que lo apague y vuelva a Automático, pero se fue antes de
+probarlo.
+
+**Lo primero a hacer la próxima vez:**
+
+1. Manual → 612NS → **apagar "Modo de cambio de herramienta"** (que no quede en verde).
+2. Volver a Automático, mandar el trabajo, verde dos veces.
+3. Si vuelve a dar la misma alarma, no insistir: es configuración de máquina y va con Huahua.
+
+### Pendientes concretos al cierre del 23/09
+
+| # | Qué | Estado |
+|---|---|---|
+| 1 | Contraseña de la tabla de herramientas | pedida a la Sra. Tan |
+| 2 | Verificar el truco de compensación (pedir 25, medir 35) | sin probar |
+| 3 | Apagar el modo de cambio de herramienta y reintentar | sin probar |
+| 4 | Medir con calibre la primera pieza (techo) — ¿hay espejado? | **sin hacer** |
+| 5 | Corregir mapeo de cantos y de código de barras en AutoCUT | sin empezar |
+| 6 | Recortar las 7 piezas del gris con las medidas correctas | sin empezar |
+| 7 | Mecha vertical Ø6 (o pasar los tornillos de bisagra a Ø5) | a decidir |
+| 8 | Lubricación — 12 tareas vencidas desde 2026-01-04 | sin hacer |
+| 9 | Router: cargar T1 Ø6 en su almacén | sin empezar |
