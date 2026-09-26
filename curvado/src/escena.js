@@ -43,14 +43,34 @@ export class Escena {
     this.res = res; this.col = colores;
     if (!res || !res.L || !res.H) { this.grupo.clear(); return; }
     this.pts = seccion(res, Math.max(1, res.L / 600));
-    const contorno = this.pts.map((p) => new THREE.Vector2(p.x, p.z));
-    this.tris = THREE.ShapeUtils.triangulateShape(contorno, []);
+    // Tapas en franjas angostas a lo largo del desarrollo: cada franja va de la
+    // cara vista (z = 0) hasta la altura de material en ese x (t en la costilla,
+    // la piel en la ranura, rampa en la V). Así cada franja se dobla con su pedazo
+    // de pieza; una triangulación "libre" hace triángulos largos que al curvar
+    // cruzan por el medio.
+    const xs = [...new Set(this.pts.map((p) => +p.x.toFixed(4)))].sort((a, b) => a - b);
+    const topZ = (x) => {
+      let z = res.t;
+      for (const r of res.ranuras) {
+        const d = Math.abs(x - r.x), m = r.ancho / 2;
+        if (d >= m) continue;
+        z = Math.min(z, r.tipo === 'v' ? res.s + (res.t - res.s) * Math.max(0, (d - 0.3) / Math.max(1e-6, m - 0.3)) : res.s);
+      }
+      return z;
+    };
+    this.franjas = [];
+    for (let i = 0; i < xs.length - 1; i++) {
+      const a = xs[i], b = xs[i + 1];
+      if (b - a < 1e-6) continue;
+      const e = Math.min(1e-3, (b - a) / 4);
+      this.franjas.push([a, b, topZ(a + e), topZ(b - e)]);
+    }
     this.curvar(this.u ?? 1, encuadrar);
   }
 
   curvar(u, encuadrar = false) {
     this.u = u;
-    const res = this.res; if (!res || !this.pts) return;
+    const res = this.res; if (!res || !this.pts || !this.franjas) return;
     const f = cinematica(res, u);
     const P = this.pts.map((p) => f(p.x, p.z));
     const H = res.H;
@@ -60,9 +80,12 @@ export class Escena {
     const v = (q, y) => [q[0], y, -q[1]];
     const tri = (a, b, cc, color, vis) => { const P2 = vis ? posV : pos, C2 = vis ? colV : col; P2.push(...a, ...b, ...cc); for (let k = 0; k < 3; k++) C2.push(color.r, color.g, color.b); };
     // tapas (canto de arriba y de abajo de la pieza)
-    for (const [i, j, k] of this.tris) {
-      tri(v(P[i], 0), v(P[k], 0), v(P[j], 0), cCanto);
-      tri(v(P[i], H), v(P[j], H), v(P[k], H), cCanto);
+    for (const [a, b, za, zb] of this.franjas) {
+      const A0 = f(a, 0), B0 = f(b, 0), A1 = f(a, za), B1 = f(b, zb);
+      for (const y of [0, H]) {
+        tri(v(A0, y), v(B0, y), v(B1, y), cCanto);
+        tri(v(A0, y), v(B1, y), v(A1, y), cCanto);
+      }
     }
     // paredes
     const n = P.length;
