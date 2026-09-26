@@ -553,7 +553,18 @@ Materiales: `13玛雅灰 18mm` (gris, cuerpo), `04拉丝胡桃 18mm` (nogal cepi
    árbol de alarmas y tabla de herramientas, router, cantos y armado, pendientes/preguntas HUAHUA,
    referencia Bluen). Las 18 capturas que ya estaban en el tablero quedaron en sus secciones.
    **Faltan las capturas de la SKH-612HS del 23/09** (PgDrillCam32, tabla de herramientas, revista):
-   no están guardadas en la carpeta; pegarlas en la sección 9 del tablero.
+   no están guardadas en la carpeta; pegarlas en la sección F4 del tablero.
+   **24/09/2026**: el tablero quedó dividido en dos zonas. ZONA A · DISEÑO (izquierda, secciones
+   0-6, 12, 13) para el que diseña, hasta la carpeta del pedido. ZONA B · FÁBRICA (derecha) para el
+   que fabrica: F0 recorrido de la pieza, F1 doce CARTELES para imprimir (etiqueta, plano, sierra,
+   AutoCUT, perforadora encendido / ciclo / herramientas por posición / alarmas, cantos, armado,
+   mantenimiento, carpeta del pedido) y F2-F6 el detalle de cada máquina. El cartel 7 (herramientas
+   por posición) hay que actualizarlo cada vez que se cambia una fresa o mecha.
+   **24/09 (tarde)**: las 43 capturas de la sesión en la máquina están en `instructivo/capturas/`
+   (índice en `instructivo/INDICE.md`; copias reducidas a 1400 px en `instructivo/capturas_web/`, que son
+   las que están subidas al tablero). Todas están montadas: sección **F7 · Instructivo de la perforadora**
+   (11 capítulos, cada captura con qué se ve / qué enseña) y las clave repetidas dentro de los carteles
+   1, 6, 7 y 8. Los carteles 7 y 8 y la sección F4 ya reflejan la contraseña 520 y la T184 en Ø20.
 
 ### ✅ RESUELTO (20/09/2026) — drill files incompletos
 
@@ -692,6 +703,66 @@ fresado circular, chaflán, **Lamello** y **Locking**. Cubre todo lo que necesit
 ---
 
 ## 9. Operación de la sierra HP280 (probada)
+
+### 25/09/2026 — Sesión en la sierra: E13 y E06 resueltos, manual básico conseguido
+
+**Manuales que ahora tenemos** (guardados en `instructivo/manuales/`): *Basic operation of HuaHuaSAW V7
+software* (8 págs) y *Basic Operations of AUTOCUT10* (4 págs). El de la sierra no tiene sección de
+alarmas; sólo operación básica. El software del control se llama **HuaHuaSAW V7**.
+
+**Corte manual sin AutoCUT** — no hace falta contraseña, se hace en el menú `editar`:
+`VolOrig` → `MatRes` (los dos obligatorios) → `editar` → arriba a la derecha placa Length/Width/Thick/
+quantity (el ancho de placa se carga acá, NO en `parámetro`) → abajo "cutting length" + "quantity" →
+Add por cada medida → botón rojo confirm → pasa a `automático` → Saw.ON + VentInic → placa → verde.
+`Saw` = kerf 4,4; `Trim` = refilado por borde 5 (poner 0 si no se quiere perder). El menú `parámetro`
+pide contraseña que NO tenemos (520 de la perforadora no sirve; pedir a la Sra. Tan).
+
+**E13 "Alarma de límite de avance lateral"** — la torre del prensor lateral (la torre blanca con los
+manómetros, montada sobre la viga naranja del empujador, corre por un riel SHAC a lo largo de la viga)
+llegó al tope de su recorrido. En `E/S` se ve como **X36 "límite de avance de presión lateral"** en rojo.
+El sensor es el **inductivo de ABAJO de los dos que están en la escuadra a la izquierda de la torre**
+(LED rojo encendido = detectando); detecta la pletina blanca fija de la viga. Cómo se llegó: `AliLatDr`
+mandó la torre al tope (Pos Lat 1466 → 1821). Por qué no sale: el motor lateral (KM3) tiene freno, no se
+puede empujar a mano, y el PLC no deja moverlo mientras X36 esté activo → sin salida desde software.
+**Salida que funcionó**: hongo → desenroscar el inductivo de abajo → destrabar hongo → `Alarma Off` →
+`AliLatIz` (ahora sí se mueve) → alejarla 5-10 cm del tope → hongo → reponer el inductivo (1-2 mm de la
+pletina) → `VolOrig`. Botones relacionados: `AliLatIz`/`AliLatDr` mueven la torre lateral; `EmpTraExt/Ret`
+es el cilindro neumático Y16 (activarlo sin placa también da E13 hasta apagarlo); "Uso Lateral Stg" en
+`automático` activa/desactiva el uso del alineador pero NO borra la E13.
+
+**E06 "Anomalía motora"** — es **X24 "sobrecarga del motor"**: saltó un **relé térmico** del gabinete.
+Apareció al pedirle mover a la torre lateral atorada contra el tope. Los dos servodrivers INVT
+SV-DA200 (驱动1 / 驱动2, empujador y sierra) marcaban 00 = sanos. **Se resolvió rearmando el térmico
+de KM3** (contactor del motor del alineador lateral). El gabinete tiene KM1…KM8 con térmicos debajo de
+KM3, KM4/KM5 y KM6: cualquiera de ellos saltado da E06, así que ante E06 mirar primero los térmicos
+(botón de rearme) antes que los drivers. Cortar energía no lo resuelve.
+
+**CAUSA RAÍZ de E13 + E06 (25/09, tarde): secuencia de fases invertida.** El carro lateral (motor de
+contactor KM3, no servo) se movía al revés de lo que indicaban `AliLatIz`/`AliLatDr` y el dibujo de la
+pantalla. Por eso fue al tope equivocado (E13) y se sobrecargó (E06). La alimentación trifásica del taller
+tenía la secuencia R-S-T invertida respecto del cableado de fábrica. **Se invirtieron dos fases en la entrada
+general** y el lateral pasó a moverse bien. Afecta a TODOS los motores de contactor (hoja principal, incisor,
+ventilador, lateral); los servos INVT no. **Después de tocar la alimentación, verificar siempre el sentido de
+giro de la hoja contra la flecha antes de cortar.**
+
+**Arranque del ciclo automático — lo que aprendimos al cortar para Vicente (25/09):**
+- En `editar`, **Longitud = el lado que el empujador consume; Ancho = el largo de cada tira.** Tiras de
+  500 × 2440 de placa 1220 × 2440 → Longitud 1220, Ancho 2440, Longitud de corte 500 × Cantidad 2 → Añadir →
+  Confirmación. Sobrante 206,2.
+- **El botón verde no hace nada si la hoja no gira.** "Sierra ON" tiene que quedar como **"Sierra Arr"**
+  en rojo; "Flot St" como "Flot Stg". Los botones de la barra muestran el estado actual.
+- "1ra Cuch Paused" en rojo = pausa en el primer corte activada; tocándolo queda "1ra Cuch Pausa" azul.
+  "Pausa" es momentáneo (rojo sólo mientras se aprieta).
+- **"Niv Rep" = "Initial position" del manual, obligatorio en automático** antes del verde (no es lo mismo
+  que MatRes de manual).
+- Para verificar que el verde llega al PLC: `E/S` → **X22 "arranque automático"** se pone roja al apretarlo.
+- Capturas e índice completo: `instructivo/capturas/sierra/` + `INDICE_SIERRA.md` (50 archivos, S01–S32).
+
+**Otras alarmas vistas**: E12 "debe volver al origen" (normal tras emergencia → `VolOrig`); E20 =
+hongo apretado; E21 "fallo del interruptor fotoeléctrico" = cortina de luz interrumpida; E16 = carro
+sierra fuera de origen. La pantalla `alarma` resalta en rojo las activas y `E/S` muestra qué entrada
+las dispara — usar las dos juntas para diagnosticar.
+
 
 1. AutoCUT: Importar → "Importar varios materiales" → "Coincidencia" para mapear columnas.
    `开料长`/`开料宽` → **"Longitud/Ancho de apertura"**.
@@ -1302,6 +1373,19 @@ FABRICA MUEBLES/
 └── referencia/                      ← los archivos de Bluen: el oráculo real
 ```
 
+## 15.8-bis · Dos cosas de Fusion que cuestan caro
+
+**La posición de una placa no queda guardada sola.** En un diseño paramétrico,
+mover una ocurrencia es un cambio "sin capturar": la siguiente operación del timeline
+la devuelve al origen. El resultado es un mueble que se arma, se herraja, y termina con
+todas las placas apiladas en el origen y los herrajes flotando en el aire donde iban.
+Se arregla con `design.snapshots.add()` después de ubicar y antes de taladrar.
+
+**El ícono de ancla.** Una ocurrencia con `isGroundToParent = True` está clavada al
+origen y no se mueve hasta soltarla. Fusion ancla la primera sola.
+
+Las dos juntas explican por qué el primer mueble armado aparecía desarmado.
+
 ## 15.9 · Git
 
 El proyecto está en un repositorio git **local**, en la misma carpeta. Primer
@@ -1787,7 +1871,10 @@ fábrica**. No se puede editar ni desde la celda de la tabla (es de sólo lectur
 panel "Configuraciones de uso común" (pide seleccionar la herramienta en el diagrama, y ahí
 salta la contraseña).
 
-**Se le pidió la contraseña a la Sra. Tan por WeChat.** Es lo primero a destrabar.
+**CONTRASEÑA: `520`** — la pasó 桦桦唐玮民 (Huahua, Tang Weimin) por WeChat el 24/09.
+Sirve para entrar a editar la tabla de herramientas: se cliquea el ícono de la herramienta en
+el diagrama de la izquierda, se ingresa `520`, se editan diámetro y ancho en el panel
+"Configuraciones de uso común", y se guarda con **"almacenar herramientas"**.
 
 #### Truco para fresar sin la contraseña — compensación en el archivo
 
@@ -1849,8 +1936,8 @@ probarlo.
 
 | # | Qué | Estado |
 |---|---|---|
-| 1 | Contraseña de la tabla de herramientas | pedida a la Sra. Tan |
-| 2 | Verificar el truco de compensación (pedir 25, medir 35) | sin probar |
+| 1 | ~~Contraseña de la tabla de herramientas~~ | ✅ **520** |
+| 2 | ~~Verificar el truco de compensación~~ | ya no hace falta: la T184 quedó en Ø20 y el archivo pide 35 |
 | 3 | Apagar el modo de cambio de herramienta y reintentar | sin probar |
 | 4 | Medir con calibre la primera pieza (techo) — ¿hay espejado? | **sin hacer** |
 | 5 | Corregir mapeo de cantos y de código de barras en AutoCUT | sin empezar |
@@ -1858,3 +1945,629 @@ probarlo.
 | 7 | Mecha vertical Ø6 (o pasar los tornillos de bisagra a Ø5) | a decidir |
 | 8 | Lubricación — 12 tareas vencidas desde 2026-01-04 | sin hacer |
 | 9 | Router: cargar T1 Ø6 en su almacén | sin empezar |
+
+---
+
+## 16. Sesión del 24/09 — contraseña, cazoletas resueltas, y el husillo trabado
+
+### ✅ Contraseña de la tabla de herramientas: `520`
+
+La pasó **桦桦唐玮民 (Huahua, Tang Weimin)** por WeChat. Flujo para editar:
+
+**Parámetro → "Configuración de paquete de…" → cliquear el ícono de la herramienta en el
+diagrama de la izquierda → contraseña `520` → editar diámetro y ancho en el panel
+"Configuraciones de uso común" → guardar con "almacenar herramientas".**
+
+⚠️ La celda de la tabla es de **sólo lectura**; no se edita ahí. Y si no se selecciona primero
+la herramienta en el diagrama, sale el cartel *"Por favor seleccione la herramienta de edición"*.
+
+### ✅ Las cazoletas Ø35 — resueltas (post + calibración de Z)
+
+Se corrigió el **diámetro de la T184 de 10 a 20** (la fresa espiral Ø20 que se montó en el
+puesto 4). Con eso el post **resuelve el fresado circular de la cazoleta Ø35 solo**, sin
+override ni compensación: las dos filas salen con **Ø35, profundidad 13, cara frente, T184
+asignada, sin error**.
+
+El truco de compensación (pedir 25 para obtener 35) quedó como curiosidad documentada; ya no
+hace falta.
+
+Eso resolvió el **post** (que genere el programa sin error y con T184 asignada). Faltaba además
+calibrar el **`desplazamiento Z` de la T184 en `27`** para que la profundidad saliera bien — ver
+la sección "RESUELTO — la cazoleta Ø35: el husillo de fresa estaba descalibrado en Z".
+
+### ⚠️ El `.scx` guarda las ediciones y las devuelve al re-importar
+
+Al editar una operación, el software guarda la pieza como `.scx`. **Re-importar el mismo XML
+devuelve la versión editada, no el original.** Para volver al archivo limpio hay que **borrar
+primero la fila del panel "Tipos completados"**.
+
+Eso produjo el episodio más peligroso de la sesión: las cazoletas quedaron desdobladas en
+**4 operaciones de Ø20 profundidad 9,5, una por cara** — o sea **dos agujeros pasantes de Ø20**
+en la puerta en vez de dos cazoletas — y **la tabla estaba toda verde, sin un solo error**,
+con T2 y T153 asignadas. El software encontró herramientas y hacía exactamente lo pedido.
+
+> **Regla de oro para el operador: que no haya error NO significa que esté bien.**
+> Antes de dar verde, leer la tabla fila por fila y comparar cara, coordenada, profundidad y
+> diámetro contra el plano.
+
+### ✅ RESUELTO — el husillo vacío y la MLC 349
+
+**Síntoma**: el husillo de fresa queda **físicamente vacío** pero CncMon32 muestra arriba a la
+derecha **`T 187`** — el control tiene registrada una herramienta que no está. Al arrancar
+cualquier ciclo intenta devolverla, abre la mordaza, no encuentra nada, y cae en:
+
+> `MLC 349 — Se prohíbe el mecanizado cuando el husillo no está sujeto (R46.18)`
+
+**El interlock es global**: se probó con la pieza reducida a sólo agujeros de mecha (sin ninguna
+operación de fresado) y **también salta**. No se puede esquivar mecanizando otra cosa.
+
+**Origen**: en un cambio de herramienta fallido la máquina devuelve la herramienta que tenía y
+no logra tomar la nueva (por ejemplo porque el puesto está vacío). Queda el registro apuntando
+a una herramienta ausente. **Apagar y prender NO lo arregla** — no es un estado colgado, falta
+la herramienta físicamente.
+
+#### LA SOLUCIÓN: montar el cono a mano con el botón verde del cabezal
+
+**Hay un botón verde FÍSICO en el cabezal, al lado del husillo** — no está en ninguna pantalla
+del software ni del CNC, por eso no aparecía buscando entre los botones de la interfaz. Ése es
+el de sujeción de herramienta.
+
+Procedimiento: se apoya el cono en el husillo con la mano, bien asentado y calzando la muesca
+con las chavetas de arrastre, y **se aprieta ese botón verde del cabezal**. El husillo lo chupa
+y queda sujeto. La MLC 349 se limpia y la máquina mecaniza normalmente, cambios de herramienta
+incluidos.
+
+**Recomendación**: montar el cono del puesto que el control tiene registrado (si muestra T187,
+el del puesto 7) para que registro y realidad coincidan.
+
+#### Cómo leer las alarmas de verdad
+
+**CncMon32 → botón `alarma` → pestaña "Alertas existentes".** El mensaje que muestra MH2026 es
+la consecuencia; el listado del CNC es la causa. Son dos alarmas distintas y sólo se ve una
+por vez:
+
+| Alarma | Registro | Qué es |
+|---|---|---|
+| **MLC 348** | R46.17 | la máquina está en modo de cambio de herramienta |
+| **MLC 349** | R46.18 | se prohíbe el mecanizado con el husillo no sujeto |
+
+#### MLC 348 — modo de cambio de herramienta
+
+Es un **modo del CNC** (R46.17), no sólo un botón del software. En CncMon32 aparece en el menú
+de la izquierda como **"Cambio de cuchillo"**, y es un **interruptor**: se aprieta para entrar y
+**se aprieta de nuevo para salir**. No se sale eligiendo otro modo — apretar "automático" no
+hace nada mientras está puesto.
+
+Y mientras el botón "Modo de cambio de herramienta" de MH2026 (Manual → 612NS) esté en verde,
+**el software vuelve a poner el flag al arrancar**. Hay que apagarlo en **los dos** lados.
+
+#### Qué es realmente "Placa de sujeción del cortador"
+
+Ese botón de la pantalla 612NS **no acciona la mordaza del husillo**. Es la **campana de
+aspiración** — la "pollera" que rodea al router y baja para chupar la viruta durante el
+fresado. En el diagrama eléctrico figura como *"upper milling cutter supporting plate"*.
+Al apretarlo baja un cobertor; **no hace succión de sujeción de herramienta**.
+
+Su estado de reposo es **arriba**. Si queda accionada, la máquina **bloquea el arranque** con
+`MLC 129` (un cilindro no retornó). Apretarla limpia momentáneamente la MLC 349, pero el ciclo
+la vuelve a disparar.
+
+### ✅ RESUELTO — la cazoleta Ø35: el husillo de fresa estaba descalibrado en Z
+
+**`desplazamiento Z` de la T184 = `27`.** Ése es el número. Con eso la profundidad sale exacta.
+
+#### El síntoma
+
+Se pedía **Ø35 profundidad 13** sobre placa de 18 y salía **pasante y deformada** (26 × 32 en vez
+de 35 redondo), con el borde desgarrado.
+
+#### Cómo se encontró
+
+La clave fue un **test con tres cazoletas de profundidades distintas** en la misma corrida.
+Si la máquina las hacía todas iguales, la profundidad no la controlaba el programa; si salían
+distintas, sí. **Salieron distintas** — y separadas por la diferencia correcta. O sea que el
+programa manda, pero con un **offset constante**.
+
+Primera medición, con Z = 8,7, sobre **dos placas de 18 apiladas** (para poder medir lo que se
+pasaba de los 18):
+
+| Pedido | Real | Error |
+|---|---|---|
+| 13 | 18 + 15 = 33 | +20 |
+| 8 | 18 + 10 = 28 | +20 |
+| 3 | 18 + 3 = 21 | +18 |
+
+#### ⚠️ El signo está AL REVÉS de lo que dice el manual
+
+El manual (sección 11.3) dice *"the larger the value, the deeper the groove"*. **Es falso.**
+
+**Menos valor = MÁS profundo. Más valor = menos profundo.**
+
+Se comprobó a lo bruto: bajar el Z a `-11,3` hizo que la fresa se clavara hasta atravesar las
+dos placas apiladas (36 mm) y el husillo quedó trabado contra la madera — hubo que usar el paro
+de emergencia. **No repetir.**
+
+#### La calibración, en dos pasos y desde el lado seguro
+
+Regla de oro: **acercarse siempre desde arriba** (valores altos de Z = poco profundo). Errarle
+para poco profundo no rompe nada; errarle para profundo clava la fresa.
+
+| Z | Pedido 12 / 8 / 4 | Error |
+|---|---|---|
+| 31 | 7,7 / 4 / ~0 | −4,2 |
+| **27** | **12 / 7,6 / 4** | **≈ 0** |
+
+Con dos puntos la recta queda determinada: pendiente ≈ 1,08 (o sea prácticamente 1 mm de Z =
+1 mm de profundidad) y cruce por cero en 27,1. Coincide con la medición directa.
+
+**Fórmula para recalibrar cuando se cambie de fresa o de voladizo:**
+
+```
+Z nuevo = Z actual − (profundidad pedida − profundidad medida)
+```
+
+#### Un solo error explicaba los cuatro síntomas
+
+- **Profundidad de más**: pedías 13 y bajaba 33.
+- **Canaleta entre agujeros**: la altura de retracción también estaba corrida 20 mm, así que el
+  husillo "levantaba" a una cota que seguía estando dentro de la placa y **viajaba enterrado**,
+  abriendo una canaleta larga que unía los tres agujeros.
+- **Agujero ovalado (26 × 32) y borde desgarrado**: venía arrastrando.
+- **Marca circular de 85-90 mm en la superficie**: el frente del husillo bajaba hasta apoyarse
+  contra la placa. Esa marca fue la primera pista de que era un problema de referencia de Z.
+
+#### Procedimiento de prueba que sirvió (reutilizable)
+
+1. **Tres cazoletas de profundidades distintas en la misma corrida**, separadas en la placa —
+   así se distingue "offset constante" de "no controlado" en una sola pasada.
+2. **Dos placas apiladas** cuando se espera que atraviese, para poder medir el exceso.
+   ⚠️ Declarar el espesor real (36) en el archivo, nunca 18 con 36 cargados.
+3. **Una sola placa** cuando ya se está cerca, con profundidades chicas (4 / 8 / 12).
+4. Ubicar los agujeros **lejos de las pinzas** y de mecanizados anteriores.
+5. **Generar de nuevo** después de cada cambio en la tabla de herramientas — el código se arma
+   con el valor que había.
+
+Archivos de prueba usados: `9990000000037.xml` (36 mm) y `9990000000038.xml` (18 mm).
+
+### Calidad de corte — a tener en cuenta cuando se resuelva
+
+El borde de la cazoleta salió desgarrado. Tres causas, independientes de lo anterior:
+
+1. **Sale pasante**: al atravesar la melamina sin material atrás, el borde de salida revienta.
+   Se resuelve solo cuando la cazoleta sea ciega.
+2. **El avance está seteado para otra fresa.** En la fila de la T184, sección **"Ajuste de
+   velocidad"**, los valores vistos eran 10000 / 1000 / 500 y velocidad 5000 — configurados
+   para una fresa de Ø10. Una de Ø20 barre el doble por vuelta. **Hay que bajar el avance.**
+3. **Geometría de la fresa.** La montada es **espiral de corte ascendente** (`Ø20x70R`): levanta
+   la viruta hacia arriba y **arranca la melamina de la cara superior**. Para melamina
+   corresponde **corte descendente (downcut) o compresión**.
+
+### Datos sueltos de la sesión
+
+- El **selector de herramienta** ("Asignar nú" → "Especificar herramienta") **filtra por tipo
+  de operación**: para un agujero vertical de cara frente no ofrece la T187. El campo de texto
+  es de sólo lectura, hay que cliquear el ícono del diagrama.
+- Forzar la **T188** para la cazoleta es rechazado (*"no se puede usar la herramienta
+  especificada para el procesamiento"*): en el diagrama está dibujada como herramienta
+  horizontal, no puede hundirse en la cara.
+- La tabla de operaciones tiene **dos columnas "Herramienta"**: la primera es la forzada por el
+  usuario, la segunda la que asigna el post; la segunda no cambia hasta apretar Generar.
+- Los agujeros de bisagra **Ø6 pasados a Ø5 se procesan sin problema**, con **T162**.
+- **Al probar en un recorte más chico que la pieza del programa**, hay que destildar las
+  operaciones cuyas coordenadas caigan fuera de la placa (la puerta tiene una en X = 605,83 y
+  el recorte del techo mide 599 → taladraría al aire).
+- Los **marcadores del dibujo 2D** (dos rectángulos grises y un círculo rosa, fuera del
+  contorno) **no son mecanizados** — no figuran en la tabla. Probablemente las pinzas y la
+  esquina de referencia. Sin confirmar.
+- La **puerta no tiene orientación equivocada posible**: cargada girada 180°, las cazoletas
+  caen en las coordenadas exactas de la puerta derecha.
+
+### Material para el instructivo
+
+Carpeta **`instructivo/`**: 51 capturas con nombres descriptivos en `capturas/`, más
+`INDICE.md` con 13 capítulos que explican qué se ve y qué enseña cada una. Listo para montar
+el board en Figma.
+
+Falta capturar: la secuencia de encendido, las pinzas viniendo al frente después del primer
+verde, una cazoleta Ø35 terminada, y la primera pieza medida con calibre.
+
+---
+
+## 17. Respuestas de Huahua (24/09) y traducción real de la botonera
+
+### ✅ La salida hacia adelante existe y se elige con un botón
+
+Tang Weimin (桦桦唐玮民) mandó una captura con flecha roja a **前出料** y el texto
+*"这里可以选择前出料"* — "acá podés elegir salida adelante". Está en el panel
+**"Personalización automática"**, arriba a la izquierda de MH2026.
+
+### 🔑 Lo que de verdad dicen los botones de "Personalización automática"
+
+La traducción al español de ese panel es engañosa. Comparando con la captura en chino:
+
+| Etiqueta en español | Chino | Qué es de verdad |
+|---|---|---|
+| **"Descarg"** | 前出料 | **salida hacia ADELANTE** (la pieza vuelve a la mesa del operador) |
+| **"Después"** | 后出料 | **salida hacia atrás** |
+| **"todo despejado"** | 解除板宽板长警报 | **borra la alarma de medida de placa** (la MLC 148) |
+| "Detección de longitud" | 板长检测 | verificación de largo |
+| "Detección de ancho" | 板宽检测 | verificación de ancho |
+| "Encender el ventilador" | 曲用风机 | ventilador |
+| "Apantallamiento lateral" | 屏幕演示 | demo en pantalla |
+
+**Importante**: venía seleccionado **"Después"**, o sea salida hacia atrás. Por eso la máquina
+mandaba la pieza terminada al fondo en vez de devolverla.
+
+Y **"todo despejado" es la forma prolija de limpiar la alarma de medida** — mejor que destildar
+"Detección de longitud" y "Detección de ancho", que lo que hace es desactivar la verificación.
+
+### Instalación manual de herramienta: hay video
+
+Huahua mandó un **video de 0:55** con el texto *"看视频手动安装刀具"* — "mirá el video,
+instalación manual de herramienta". Confirma que el montaje a mano del cono es el procedimiento
+correcto. **Pendiente de ver y documentar paso por paso.**
+
+### Login
+
+A la pregunta del usuario y contraseña del login contestó **"密码 520"** — la misma clave que la
+tabla de herramientas. Candidato para el usuario: **`Admin`**, que es el que muestra CncMon32.
+**Sin confirmar.**
+
+### Preguntas mandadas el 24/09 y todavía sin respuesta
+
+Se le mandó un mensaje consolidado con 12 preguntas en 5 bloques:
+
+1. **La cazoleta Ø35** (6 preguntas): calibración de largo de fresa y en qué pantalla se hace;
+   si 46 mm de voladizo es demasiado; el procedimiento concreto de la sección 18 del manual
+   ("todas las puntas en el mismo plano ±1 mm"); por qué sale ovalada y dónde están los
+   parámetros de interpolación circular; si se puede agregar una mecha de Ø35 al paquete de
+   verticales; y dónde se cambia el avance de la T184.
+   Se le pasó la evidencia clave: **la marca circular de 85-90 mm en la superficie, concéntrica
+   con el agujero, que prueba que el husillo topó contra la placa** — o sea que la profundidad
+   la limita el tope mecánico y no el programa.
+2. **Cómo poner el registro de "herramienta actual en el husillo" en T0.**
+3. **La mecha vertical Ø6**: si se puede agregar, o si los tornillos de bisagra van con Ø5. Y el
+   aviso de que el software **crashea** (`System.ArgumentOutOfRangeException`) en vez de avisar
+   que falta la herramienta.
+4. **Ancho mínimo de ranura en cara trasera** (9 lo rechaza, 10 lo acepta).
+5. **Software**: KDTXml como formato por defecto; usuario del login; y cómo marcar el
+   mantenimiento como hecho.
+
+### ⚠️ El reloj de la PC industrial está mal
+
+Adelantado unas **13 horas**. Consecuencia práctica: **los timestamps de "Alertas históricas"
+de CncMon32 no sirven** para reconstruir en qué orden entraron las alarmas. Conviene ponerlo
+en hora.
+
+### Ventana horaria para hablar con Huahua
+
+China está **+11 h** respecto de Argentina. Su mañana de trabajo cae entre las **22:00 y las
+03:00 hora argentina** — que es cuando efectivamente contestaron. Escribirles a la tarde
+argentina es escribirles a la madrugada de ellos.
+
+---
+
+## 18. TAREA ABIERTA — Corregir el mapeo de AutoCUT (sierra HP280)
+
+> **Se trabaja en la PC de la sierra, no en la de la perforadora.** Quedó pendiente el 24/09
+> para una sesión aparte.
+
+### Contexto
+
+`AutoCUT` es el software de la **sierra HP280**: importa la lista de corte, optimiza el
+despiece, guarda el `.CUT` que carga el control de la sierra, e imprime las etiquetas en la
+**AIBAO**. Es el paso anterior a la perforadora en la cadena.
+
+Flujo actual (sección 9): **Importar → "Importar varios materiales" → "Coincidencia"** para
+mapear columnas → Optimizar → Guardar como `.CUT`.
+
+### Los dos errores a corregir
+
+**1. Las columnas de canto quedaron cruzadas → las piezas se cortan 1 mm mal en cada lado.**
+
+Nuestra lista ya trae `开料长` y `开料宽` **calculados y verificados** (10/10 contra el
+`开料清单.xls` de GuiGui). Para el techo: **598 × 399**. Pero las etiquetas salieron
+**599 × 398**, y las piezas se cortaron así.
+
+La diferencia es exactamente la que da al invertir a qué lado pertenece cada bandera de canto:
+
+```
+correcto: 前/后 sobre el lado de 600 → 598  ·  左/右 sobre el de 400 → 399
+cruzado:  前/后 sobre el lado de 400 → 398  ·  左/右 sobre el de 600 → 599
+```
+
+Confirmado con calibre en el techo (599 × 398) y con la etiqueta.
+
+**Objetivo**: que AutoCUT **tome `开料长` / `开料宽` tal cual y no vuelva a restar nada**. La
+cuenta del canto ya está hecha en nuestra lista; si AutoCUT la repite con su propia convención,
+se rompe.
+
+Para verificar en otra pieza — si da la columna derecha, sigue cruzado:
+
+| Pieza | Correcto | Cruzado |
+|---|---|---|
+| Partition02 | 564 × 369 | 563 × 370 |
+| Left / Right board | 741,83 × 399 | 740,83 × 400 |
+| Fascia | 99 × 564 | 100 × 563 |
+
+**2. El código de barras sale como `P01, P02…` en vez del código real.**
+
+La etiqueta del techo decía `部件: P01`. **La perforadora busca el archivo por ese código**, así
+que con `P01` el escaneo del QR no encuentra nada y hay que cargar el programa a mano (es lo
+que se viene haciendo). También el campo `工程` (proyecto) sale con el nombre de otra orden
+(`0203米格样柜电子锯文`) en vez de `260625-20`.
+
+⚠️ **Detalle a resolver**: nuestra columna `板件条码` trae el código **repetido con guiones
+bajos**, tal como lo emite GuiGui:
+`9441838670057_9441838670057_9441838670057K`. Si AutoCUT no lo parte solo, la etiqueta va a
+salir con todo ese texto.
+
+**Solución propuesta desde nuestro lado**: agregarle a `etapa2/listacorte.py` una **columna
+extra con el código limpio**, uno solo y sin sufijos, para mapear directo al campo de código de
+barras de AutoCUT. Pendiente de hacer.
+
+### Consecuencia pendiente
+
+Con el mapeo corregido hay que **volver a cortar las 7 piezas del gris** — las actuales están
+fuera de medida y no sirven para armar PRUEBA 1.
+
+### Qué hace falta para retomarla
+
+- Estar en la **PC de la sierra** con AutoCUT abierto.
+- Una captura de la pantalla de **"Coincidencia"** para ver qué campo de AutoCUT recibe cada
+  columna nuestra.
+- El archivo `etapa2/salida/PRUEBA1/lista_corte.csv` (o el `.xlsx`).
+
+
+### ⚠️ Lo que queda abierto del fresado (24/09, después de calibrar el Z)
+
+**1. Marca de entrada de la fresa.** En los fresados más profundos queda un **lóbulo que
+sobresale del círculo** en el punto donde la fresa baja y sale al contorno. Cuanto más profundo,
+más marcado — es deflexión de la herramienta al penetrar.
+
+*Para cazoletas de bisagra es cosmético*: queda tapado por la bisagra y, al sobresalir hacia
+afuera, no interfiere con el encastre del cuerpo de Ø35. No frena la producción.
+
+Qué probar: **bajar el avance de penetración** de la T184 (fila de la herramienta, sección
+"Ajuste de velocidad" — los valores vistos fueron 10000 / 1000 / 500; el más chico suele ser el
+de bajada). Eliminarlo del todo depende de la estrategia de entrada del post (si tiene arco de
+entrada o entra radial) — preguntado a Huahua.
+
+**2. La campana de aspiración no baja sola.** Tiene que descender **comandada por el programa**
+durante el fresado y no lo hace, así que **la viruta no se aspira**. No se puede forzar a mano:
+si se baja antes de arrancar, salta `MLC 129` y el ciclo queda bloqueado. Es otro ítem de puesta
+en marcha del husillo de fresa, igual que el Z. Preguntado a Huahua.
+
+**3. Corregir el manual.** La sección 11.3 dice *"the larger the value, the deeper the groove"*
+para el `+Z` de las fresas. **Es al revés.** Se le avisó a Huahua.
+
+---
+
+## 19. Mecha Ø35 para cazoletas — qué comprar (24/09/2026)
+
+### El problema
+
+La cazoleta la estamos fresando con la **fresa espiral Ø20 del puesto 4 (T184)**, interpolando
+un círculo. Sale mal: ovalada (30,16 × 32,7 pidiendo 35), con lóbulo de entrada, y el borde
+despeluchado. La solución de fondo es una **mecha Ø35 de cazoleta en el paquete de taladros
+verticales**, que hunde y sale — sin interpolar.
+
+### Especificación que hay que pedir
+
+| Dato | Valor |
+|---|---|
+| Diámetro | **35 mm** |
+| Vástago (mango) | **Ø10 mm**, con plano de fijación y prisionero |
+| Largo total | **70 mm** (hay de 57 también) |
+| Giro | **derecha o izquierda SEGÚN LA POSICIÓN** del paquete |
+| Tipo | **no pasante** (agujero ciego), 3 puntas |
+
+⚠️ **Los husillos del paquete de taladros alternan el giro** (uno horario, el siguiente
+antihorario). Si se compra la mano equivocada, la mecha **no corta**. Antes de comprar hay que
+saber **qué posición del paquete la va a alojar y con qué giro** — está preguntado a Huahua.
+
+⚠️ **NO sirve una mecha Forstner de ferretería** (las de tope, guía y llave hexagonal, $5.000 a
+$30.000). Son para taladro de mano o de banco: mango corto, sin plano de fijación, sin
+especificación de giro. No entran en el mandril de acople rápido del paquete.
+
+### Lo que hay en el mercado argentino (24/09/2026)
+
+**La línea correcta es Euro Hard, vendida por SOLUZIONE ACCESORIOS (tienda oficial ML,
+MercadoLíder Platinum, San Justo, Zona Oeste).** La descripción dice textualmente
+*"Brocas con filos de carburo de tungsteno, para agujereadoras múltiples y máquinas CNC"* y
+*"Vástago Ø10 para mandriles de acople rápido, con plano de fijación y prisionero de ajuste"*.
+Filos Widia, revestimiento PTFE. **Naranja = izquierda, negro = derecha.**
+
+| Modelo | Medida | Giro | Precio | Link |
+|---|---|---|---|---|
+| **EHBRO3570NPI** | 35 × 70 | **izquierda** | **$54.061** | https://www.mercadolibre.com.ar/broca-mecha-para-bisagras-no-pasante-35-mm-x-70-mm-izquierda/up/MLAU126621939 |
+| EHBRO4057NPD (código dudoso) | 35 × 57 | **derecha** | $52.861 | https://www.mercadolibre.com.ar/broca-mecha-para-bisagras-no-pasante-35-mm-x-57-mm-derecha/p/MLA2097192249 |
+
+> El código de la derecha dice `40` donde debería decir `35` — probable error de carga del
+> vendedor. **Preguntar antes de comprar** si es Ø35 y de qué largo.
+
+Alternativas más caras, misma familia (marca ITALIANA / FUL, "Mecha Fresa Para Madera Bisagra
+35x70mm Izquierda Widia HM"): **$73.238 a $82.628**. La Euro Hard es la misma cosa más barata.
+
+### Decisión
+
+**No comprar hasta que Huahua conteste** qué posición del paquete acepta la Ø35 y con qué giro.
+Si contestan "izquierda", la EHBRO3570NPI a $54.061 es la compra. Si contestan "derecha", hay
+que preguntarle a SOLUZIONE por la 35 × 70 derecha (debería existir como EHBRO3570NPD).
+
+### Mientras tanto — parche vigente
+
+Seguir fresando con la Ø20 del puesto 4, **declarando el diámetro de la T184 en 15,3** en la
+tabla de herramientas (dejando `ancho de aserrado` = 20 y `desplazamiento Z` = 27). Así los
+archivos siguen pidiendo 35 y la máquina compensa el déficit medido de ~4,7 en X.
+
+### 🔴 PENDIENTE ABIERTO — resolver el giro antes de comprar
+
+**Lo único que falta para apretar "Comprar" es saber si la mecha va a giro DERECHA o IZQUIERDA.**
+
+Depende de en qué posición del paquete de taladros verticales se monte: los husillos del
+paquete alternan el sentido de giro, uno sí y uno no. Si se compra la mano equivocada, la
+mecha gira al revés y **no corta**.
+
+Está preguntado a Huahua por WeChat. La pregunta concreta es:
+
+> ¿Qué posición del paquete de taladros verticales puede alojar una mecha de Ø35, y esa
+> posición gira a derecha o a izquierda? Vástago Ø10, largo 70 mm.
+
+**En cuanto contesten:**
+- Si dicen **izquierda** → comprar la **EHBRO3570NPI, $54.061**, link arriba.
+- Si dicen **derecha** → preguntarle a SOLUZIONE ACCESORIOS por la **35 × 70 derecha**; la que
+  tienen publicada es 35 × 57 y con el código dudoso (`EHBRO4057NPD`).
+
+---
+
+## 20. Lista completa de mechas que faltan (24/09/2026)
+
+### Lo que piden los archivos de PRUEBA 1
+
+Contados directamente sobre los 10 XML3 de `etapa2/salida/PRUEBA1/XML3/`:
+
+| Operación | Ø | Cantidad total | ¿Hay herramienta? |
+|---|---|---|---|
+| Agujero vertical | **6** | 16 | ❌ **NO** — hoy se hace con Ø5 (T162) |
+| Agujero vertical | 10 | 20 | ✅ sí |
+| Agujero vertical | 15 | 16 | ✅ sí |
+| Agujero vertical | **35** (cazoleta) | 4 | ❌ **NO** — hoy se fresa con la Ø20 del puesto 4 |
+| Agujero horizontal | 8 | 14 | ✅ sí |
+| Ranura (Line) | ancho 6 | 4 | ✅ T187 |
+| Ranura (Line) | ancho **9** | 1 | ⚠️ el mínimo en cara dorso es 10 → se cambió a 10, lo hace **T11** |
+
+**Taladros verticales que tiene la máquina hoy: Ø5, Ø8, Ø10, Ø12, Ø15, Ø20. Horizontales: Ø8.**
+
+### Entonces faltan DOS mechas, no una
+
+#### 1. Mecha vertical Ø6 — para los 16 tornillos de bisagra
+
+Misma línea Euro Hard, mismo vendedor (SOLUZIONE ACCESORIOS). Descripción idéntica:
+*"para agujereadoras múltiples y máquinas CNC"*, *"Vástago Ø10 para mandriles de acople rápido,
+con plano de fijación y prisionero de ajuste"*. Filos Widia, PTFE, 3 puntas, no pasante.
+
+| Modelo | Medida | Giro | Precio | Link |
+|---|---|---|---|---|
+| **EHBRO0670NPD** | 6 × 70 | **derecha** | **$27.855** | https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6-mm-x-70mm-derecha-p-placas-madera/up/MLAU126150590 |
+| — | 6 × 57 | **izquierda** | $27.855 | https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6mm-x-57mm-izquierda-p-placas-madera/up/MLAU126142924 |
+| — | 6 × 57 | derecha | $29.535 | https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6-mm-x-57mm-derecha-p-placas-madera/up/MLAU126317831 |
+
+> La 6 × 70 **izquierda** no apareció publicada. Si hace falta esa mano, preguntarle al vendedor.
+
+**Mismo problema de giro que la Ø35**: depende de qué posición del paquete la aloje. La
+pregunta a Huahua sirve para las dos — hay que pedir que contesten por ambas.
+
+**Mientras tanto el parche funciona**: los Ø6 pasados a Ø5 se procesan sin error con la T162.
+Se pierde apriete del tornillo de bisagra, pero mecaniza.
+
+#### 2. Cazoleta Ø35 — ver sección 19
+
+### Lo que NO hace falta comprar
+
+- **Fresa de ranurar Ø9**: no se compra, se cambia el diseño. El ancho mínimo de ranura en cara
+  dorso es 10 y la T11 (Ø10) ya la hace bien. Dejar las ranuras de dorso en 10 mm.
+- **Ø8 horizontal, Ø10, Ø15 verticales**: ya están montadas y funcionando.
+
+### Sigue pendiente aparte (otra máquina)
+
+- **Router: cargar T1 Ø6 en su almacén** — es el router, no la perforadora. Va en otra sesión.
+- **Fresa espiral Ø20 de repuesto** para el puesto 4: la que está hoy hace las cazoletas y se
+  va a gastar. No es urgente hasta que llegue la Ø35.
+
+### Resumen de la compra
+
+| Qué | Cuánto | Cuándo |
+|---|---|---|
+| Mecha Ø35 cazoleta (Euro Hard) | ~$54.000 | cuando Huahua diga el giro |
+| Mecha Ø6 vertical (Euro Hard) | ~$28.000 | cuando Huahua diga el giro |
+| **Total** | **~$82.000** | mismo vendedor, un solo envío |
+
+---
+
+## 18. 24/09/2026 (noche) — COCINA MLV armada en Fusion desde el `render.json`
+
+Nuevo script **`fusion/ArmarDesdeRender`**: lee el `render.json` de GuiGui (§17) y
+arma el ambiente completo en Fusion, con agujeros, ranuras, contornos, colores
+por textura y los herrajes dibujados (3 en 1, bisagras, correderas, tiras LED).
+COCINA MLV: 14 muebles, 128 placas, 930 herrajes, 15 s. Guardado en Fusion como
+`COCINA MLV` (carpeta `cocina`). Se leyó GuiGui por su MCP **solo lectura**
+(`project_search_order`); el `render.json` bajado es byte a byte el mismo del
+22/09 (`update_time` 2026-09-10 20:15:49).
+
+Lo importante quedó en `fusion/README.md`, sección `ArmarDesdeRender`:
+
+- **el marco de GuiGui descifrado** (`hdvDir`, `ocenter`, `side` de cara y de
+  canto, `lastCurve` espejado, `sslots`), verificado contra los 80 agujeros de
+  PRUEBA 1 y contra la propia geometría de la cocina;
+- **cajones, zócalos, tapas y uñeros vienen girados 180°** respecto de `hdvDir`;
+  no hay dato que lo diga, se decide por consistencia (perno ↔ receptor,
+  ranura ↔ fondo, cazoleta ↔ base). 290/294 pernos cierran; los 4 restantes son
+  los dos uñeros, que GuiGui dibuja con perno de los dos lados del encuentro;
+- dos trampas de la API: `addExistingComponent` compone la matriz con la de otra
+  ocurrencia (se asigna `transform2` sobre el proxy del root), y el diseño va en
+  modo directo.
+
+Pendiente: ejecutar `ExportarPiezas` sobre COCINA MLV y validar contra el
+`Mass production.json` de la cocina cuando lo tengamos (la cara A la elige el
+script: cara `side −1` de GuiGui, que no siempre es la que GuiGui mecaniza —
+ver README, es una diferencia de marco, no de geometría).
+
+### ⚠️ Aclaración importante sobre el giro (25/09) — la fresa que tenemos NO sirve de referencia
+
+La fresa que está montada en el **puesto 4** está grabada `Ø20x70R 250710` (captura
+`35_fresa_espiral_o20x70R.jpg`). La **R final significa Right = giro a derecha**. O sea: **el
+husillo de fresado ER25 gira a derecha.**
+
+**Pero eso no contesta la pregunta de las mechas.** Son dos cosas distintas:
+
+| | Fresa Ø20x70R (la que tenemos) | Mechas Ø35 y Ø6 (las que faltan) |
+|---|---|---|
+| Dónde va | husillo **ER25** de la revista de conos (puesto 4) | **paquete de taladros verticales** |
+| Mango | cilíndrico liso, lo aprieta la pinza ER25 | **Ø10 con plano de fijación y prisionero** |
+| Giro | el del husillo de fresado — **derecha** | el de **su posición del paquete**, que alterna |
+
+Los husillos del paquete de taladros **alternan el sentido uno sí y uno no**, y no tienen nada
+que ver con el husillo de fresado. Que la fresa sea derecha **no implica** que la posición del
+paquete donde vaya la Ø35 sea derecha.
+
+#### Cómo averiguarlo sin esperar a Huahua
+
+**Sacar una de las mechas verticales que ya están montadas y leer el grabado del mango.**
+Vienen marcadas con `L` / `R` (o `I` / `D`), y algunas marcas usan color: naranja = izquierda,
+negro = derecha (así las marca Euro Hard). Mirando dos mechas **vecinas** se confirma de una
+si el paquete alterna, y qué mano le toca a la posición libre.
+
+Pendiente de hacer en la máquina.
+
+### Contactos técnicos de Huahua (grupo de WeChat) — 25/09/2026
+
+| Nombre | Rol | Empresa | Contacto |
+|---|---|---|---|
+| **谭小姐 / 谭文舒** (Srta. Tan) | comercial / primera línea | Win-HUAHUA | el contacto habitual del grupo |
+| **周涛 (Zhou Tao)** | **técnico** | 昶盛机械制造有限公司 (Changsheng Machinery Manufacturing) | **139 2595 7559** |
+| **唐玮民 (Tang Weimin)** | técnico | 桦桦 (Huahua) | por el grupo |
+
+**Dato nuevo**: el fabricante detrás de la marca Huahua es **昶盛机械制造有限公司 — Changsheng
+Machinery Manufacturing Co., Ltd.** Los técnicos son de ahí, no de la comercial.
+
+**Estado de las preguntas al 25/09**: la Srta. Tan escaló las 12 preguntas, etiquetó a los dos
+técnicos y sumó a Zhou Tao al grupo. Zhou Tao confirmó: *"这个是上班以后处理"* — se resuelve
+apenas vuelvan del feriado (Festival del Medio Otoño). Esperar al lunes.
+
+---
+
+## 19. Curvado por ranuras — `curvado/` (26/09/2026)
+
+Página web (Vite + three.js, todo en el navegador, para Vercel) que diseña piezas curvadas
+por ranurado y saca los programas. Ver `curvado/README.md`.
+
+- Perfil en tramos (rectos + curvas R/ángulo, cara vista convexa o cóncava, radio sobre la cara vista).
+- Ranuras paralelas (cierran en convexa, abren en cóncava) o en V (solo router).
+- Exporta lista de corte AutoCUT (mismas columnas que `listacorte.py`), XML3 KDTXml + MPR para la
+  SKH-612HS y `.nc` Syntec para el router (dialecto GuiGui: Z0 mesa, Z38, CRLF).
+- Escritores JS validados byte a byte contra `etapa2/` (`python3 curvado/test/validar.py etapa2` → 6/6).
+- Perforadora: ranuras en cara A = placa con la **cara vista contra la mesa**; la profundidad se calcula con el
+  **espesor real** (Z0 en la cara). Router: fondo en **Z = piel** desde la mesa, exacto.
+- **A confirmar en el taller**: profundidad máxima del disco T183 (Ø43,9 × 3), herramientas reales del
+  router (T1 Ø6, ¿hay V?), mesa útil del router, y **probetas por material** para calibrar piel y radio mínimo.
