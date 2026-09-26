@@ -273,10 +273,10 @@ function resumen(res) {
       <div><b>${fx(corteL, 1)} × ${fx(corteH, 1)}</b><span>medida de corte sierra</span></div>
       <div><b>${res.ranuras.length}</b><span>ranuras · prof ${fx(res.profRanura, 2)} · ${res.esV ? `V ${fx(deg(res.beta))}°` : `ancho ${fx(res.w)}`}</span></div>
     </div>
-    <table><tr><th>Tramo</th><th>Largo</th><th>Ranuras</th><th>Paso</th><th>Costilla</th><th>Cierre</th><th>Flecha</th><th>Piel ε</th></tr>
+    <table><tr><th>Tramo</th><th>Largo</th><th title="ranuras (mínimo)">Ran.</th><th>Paso</th><th title="costilla">Cost.</th><th>Cierre</th><th title="flecha del facetado">Flecha</th><th title="estiramiento de la piel">ε piel</th></tr>
     ${res.tramos.map((t, i) => t.tipo === 'curva'
-      ? `<tr><td>Curva R${fx(t.R)} ${fx(t.angulo)}° ${t.convexa ? 'convexa' : 'cóncava'}</td><td>${fx(t.largo, 2)}</td><td>${t.N} <small>(mín ${t.Nmin})</small></td><td>${fx(t.paso, 2)}</td><td>${fx(t.costilla, 1)}</td><td>${t.convexa ? fx(t.cierre * 100, 0) + ' %' : 'abre'}</td><td>${fx(t.flecha, 2)}</td><td>${fx(t.eps, 2)} %</td></tr>`
-      : `<tr><td>${t.tipo === 'recto' ? 'Recto' : 'Sobrante'}</td><td>${fx(t.largo, 2)}</td><td colspan="6"></td></tr>`).join('')}
+      ? `<tr><td title="${t.convexa ? 'convexa' : 'cóncava'}">R${fx(t.R)} ${fx(t.angulo)}° ${t.convexa ? '⌒' : '⌣'}</td><td>${fx(t.largo, 1)}</td><td>${t.N} <small>(${t.Nmin})</small></td><td>${fx(t.paso, 2)}</td><td>${fx(t.costilla, 1)}</td><td>${t.convexa ? fx(t.cierre * 100, 0) + ' %' : 'abre'}</td><td>${fx(t.flecha, 2)}</td><td>${fx(t.eps, 2)}%</td></tr>`
+      : `<tr><td>${t.tipo === 'recto' ? 'Recto' : 'Sobrante'}</td><td>${fx(t.largo, 1)}</td><td colspan="6"></td></tr>`).join('')}
     </table>`;
   const orden = { error: 0, aviso: 1, info: 2 };
   $('avisos').innerHTML = [...res.avisos].sort((a, b) => orden[a.nivel] - orden[b.nivel]).map((a) => `<li class="${a.nivel}">${a.txt}</li>`).join('');
@@ -349,7 +349,7 @@ function exportes() {
     const errs = r && !r.ok && m !== 'sierra' ? r.avisos.filter((a) => a.nivel === 'error').map((a) => a.txt) : [];
     const prev = fs.find((x) => typeof x.data === 'string' && !x.name.endsWith('.svg'));
     return `<div class="exp ${fs.length ? '' : 'off'}"><h4>${titulo}</h4><p>${desc}</p>
-      ${errs.length ? `<p style="color:var(--err)">${errs.join('<br>')}</p>` : ''}
+      ${errs.length ? `<p class="err">${errs.join('<br>')}</p>` : ''}
       <div class="bs">${fs.map((x) => `<button class="chico" data-f="${x.name}">${x.name.split('/').pop()}</button>`).join('')}</div>
       ${prev ? `<pre class="mono">${prev.data.split(/\r?\n/).slice(0, 14).join('\n').replace(/</g, '&lt;')}\n…</pre>` : ''}</div>`;
   };
@@ -386,6 +386,20 @@ $('play').onclick = () => {
   };
   anim = requestAnimationFrame(paso);
 };
+
+// pestañas del formulario
+$('tabs').onclick = (e) => {
+  const t = e.target.dataset.t; if (!t) return;
+  st.tab = t; guardar();
+  document.querySelectorAll('#tabs button').forEach((b) => b.classList.toggle('on', b.dataset.t === t));
+  document.querySelectorAll('.tab-body section').forEach((s) => s.classList.toggle('on', s.dataset.tab === t));
+};
+if (st.tab) $('tabs').querySelector(`[data-t="${st.tab}"]`)?.click();
+
+// plano en grande
+const verPlano = () => { $('plano-grande').innerHTML = svgPlano(RES[st.maquina], datos, maqTxt(st.maquina, RES[st.maquina])); $('dlg-plano').showModal(); };
+$('ver-plano').onclick = verPlano;
+$('plano').onclick = verPlano;
 
 volcarForm();
 calc(true);

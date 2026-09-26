@@ -17,145 +17,148 @@
   </header>
 
   <main class="app">
-    <aside class="panel" id="form">
-      <section>
-        <h2>Pieza</h2>
-        <div class="g2">
-          <label>Nombre<input id="nombre" value="Frente mostrador curvo" /></label>
-          <label>Código de barras <span class="ayuda" title="Es el nombre del archivo de la perforadora">?</span>
-            <div class="fila"><input id="codigo" class="mono" /><button id="btn-codigo" class="chico" title="Código nuevo">↻</button></div></label>
-          <label>Orden<input id="orden" placeholder="260926-01" /></label>
-          <label>Cliente<input id="cliente" /></label>
-          <label>Mueble / módulo<input id="mueble" placeholder="Mostrador" /></label>
-          <label>Cantidad<input id="cantidad" type="number" min="1" value="1" /></label>
-        </div>
-      </section>
+    <!-- ============ IZQUIERDA: datos, en pestañas ============ -->
+    <aside class="panel col" id="form">
+      <nav class="tabs" id="tabs">
+        <button data-t="pieza">Pieza</button>
+        <button data-t="perfil" class="on">Perfil</button>
+        <button data-t="ranurado">Ranurado</button>
+        <button data-t="maquinas">Máquinas</button>
+      </nav>
 
-      <section>
-        <h2>Placa</h2>
-        <div class="g2">
-          <label>Material<select id="material"></select></label>
-          <label>Cara vista (color 3D)<select id="decor">
-            <option value="#f1f0ec">Blanco</option><option value="#c69a6b">Roble</option>
-            <option value="#6e4b34">Nogal</option><option value="#8e9194">Gris</option><option value="#2c2c2c">Negro</option></select></label>
-          <label>Espesor nominal<input id="espesor" type="number" step="0.1" value="18" /></label>
-          <label>Espesor real medido <span class="ayuda" title="La perforadora mide la profundidad desde la cara de arriba: con el espesor real la piel sale exacta">?</span><input id="espesorReal" type="number" step="0.05" value="18" /></label>
-          <label>Piel (lo que queda sin ranurar)<input id="piel" type="number" step="0.1" value="2" /></label>
-          <label>Alto de la pieza<input id="alto" type="number" step="0.5" value="900" /></label>
-          <label>Veta<select id="veta"><option value="1">A lo largo del desarrollo (横纹)</option><option value="2">A lo alto (竖纹)</option></select></label>
-          <label>Textura / color (lista)<input id="textura" value="Blanco" /></label>
-        </div>
-        <div class="cantos">
-          <span>Cantos (mm)</span>
-          <label>Arriba<input id="cArr" type="number" step="0.5" value="1" /></label>
-          <label>Abajo<input id="cAbj" type="number" step="0.5" value="1" /></label>
-          <label>Inicio<input id="cIzq" type="number" step="0.5" value="0" /></label>
-          <label>Fin<input id="cDer" type="number" step="0.5" value="0" /></label>
-        </div>
-      </section>
+      <div class="tab-body">
+        <section data-tab="pieza">
+          <h2>Pieza</h2>
+          <div class="g2">
+            <label>Nombre<input id="nombre" value="Frente mostrador curvo" /></label>
+            <label>Código de barras <span class="ayuda" title="Es el nombre del archivo de la perforadora">?</span>
+              <div class="fila"><input id="codigo" class="mono" /><button id="btn-codigo" class="chico" title="Código nuevo">↻</button></div></label>
+            <label>Orden<input id="orden" placeholder="260926-01" /></label>
+            <label>Cliente<input id="cliente" /></label>
+            <label>Mueble / módulo<input id="mueble" placeholder="Mostrador" /></label>
+            <label>Cantidad<input id="cantidad" type="number" min="1" value="1" /></label>
+            <label>Veta<select id="veta"><option value="1">A lo largo del desarrollo</option><option value="2">A lo alto</option></select></label>
+            <label>Textura (lista de corte)<input id="textura" value="Blanco" /></label>
+          </div>
+          <div class="cantos">
+            <span>Cantos</span>
+            <label>Arriba<input id="cArr" type="number" step="0.5" value="1" /></label>
+            <label>Abajo<input id="cAbj" type="number" step="0.5" value="1" /></label>
+            <label>Inicio<input id="cIzq" type="number" step="0.5" value="0" /></label>
+            <label>Fin<input id="cDer" type="number" step="0.5" value="0" /></label>
+          </div>
+        </section>
 
-      <section>
-        <h2>Perfil <small>medido sobre la cara vista</small></h2>
-        <div class="presets" id="presets"></div>
-        <div id="segs"></div>
-        <div class="fila">
-          <button id="add-recto" class="chico">+ Recto</button>
-          <button id="add-curva" class="chico">+ Curva</button>
-        </div>
-        <div class="g2">
-          <label>Sobrante al inicio<input id="sobIni" type="number" value="0" /></label>
-          <label>Sobrante al final<input id="sobFin" type="number" value="0" /></label>
-        </div>
-      </section>
+        <section data-tab="perfil" class="on">
+          <div class="g3">
+            <label>Material<select id="material"></select></label>
+            <label>Espesor<input id="espesor" type="number" step="0.1" value="18" /></label>
+            <label>Esp. real <span class="ayuda" title="La perforadora mide la profundidad desde la cara de arriba: con el espesor real la piel sale exacta">?</span><input id="espesorReal" type="number" step="0.05" value="18" /></label>
+            <label>Piel<input id="piel" type="number" step="0.1" value="2" /></label>
+            <label>Alto<input id="alto" type="number" step="0.5" value="900" /></label>
+            <label>Color vista<select id="decor">
+              <option value="#f1f0ec">Blanco</option><option value="#c69a6b">Roble</option>
+              <option value="#6e4b34">Nogal</option><option value="#8e9194">Gris</option><option value="#2c2c2c">Negro</option></select></label>
+          </div>
+          <h2 class="sep">Perfil <small>medido sobre la cara vista</small></h2>
+          <div class="presets" id="presets"></div>
+          <div id="segs" class="segs"></div>
+          <div class="fila">
+            <button id="add-recto" class="chico">+ Recto</button>
+            <button id="add-curva" class="chico">+ Curva</button>
+            <label class="inl">Sobr. ini<input id="sobIni" type="number" value="0" /></label>
+            <label class="inl">fin<input id="sobFin" type="number" value="0" /></label>
+          </div>
+        </section>
 
-      <section>
-        <h2>Ranurado</h2>
-        <div class="seg" id="maquina">
-          <button data-v="perforadora">Perforadora 6 caras</button>
-          <button data-v="router">Router</button>
-        </div>
-        <div class="seg" id="tipo">
-          <button data-v="paralela">Ranuras paralelas</button>
-          <button data-v="v">Ranuras en V (facetado)</button>
-        </div>
-        <div class="g2">
-          <label>Herramienta<select id="herr"></select></label>
-          <label id="lbl-cara">Cara en la perforadora<select id="caraPerf">
-            <option value="A">Arriba: husillos superiores (cara vista contra la mesa)</option>
-            <option value="B">Abajo: husillo inferior (cara vista arriba)</option></select></label>
-          <label>Cierre máximo por ranura <span class="ayuda" title="Qué fracción del ancho se cierra, como máximo, en las curvas convexas. Con 100 % las ranuras se tocan y la pieza toma el radio sola; menos deja margen">?</span><input id="cierre" type="number" min="30" max="100" value="90" /></label>
-          <label>Facetado máximo (flecha, mm)<input id="tol" type="number" step="0.05" value="0.2" /></label>
-          <label>Costilla mínima (mm)<input id="costilla" type="number" step="0.5" value="3" /></label>
-          <label>Paso<select id="modoPaso"><option value="auto">Automático</option><option value="fijo">Fijo</option></select></label>
-          <label id="lbl-paso">Paso fijo (mm)<input id="pasoFijo" type="number" step="0.5" value="15" /></label>
-        </div>
-      </section>
+        <section data-tab="ranurado">
+          <div class="seg" id="maquina">
+            <button data-v="perforadora">Perforadora 6 caras</button>
+            <button data-v="router">Router</button>
+          </div>
+          <div class="seg" id="tipo">
+            <button data-v="paralela">Ranuras paralelas</button>
+            <button data-v="v">En V (facetado)</button>
+          </div>
+          <div class="g2">
+            <label>Herramienta<select id="herr"></select></label>
+            <label id="lbl-cara">Cara en la perforadora<select id="caraPerf">
+              <option value="A">Arriba (vista contra la mesa)</option>
+              <option value="B">Abajo, husillo inferior</option></select></label>
+            <label>Cierre máx. % <span class="ayuda" title="Qué fracción del ancho se cierra, como máximo, en las curvas convexas. Con 100 % las ranuras se tocan y la pieza toma el radio sola">?</span><input id="cierre" type="number" min="30" max="100" value="90" /></label>
+            <label>Facetado máx. (mm)<input id="tol" type="number" step="0.05" value="0.2" /></label>
+            <label>Costilla mín. (mm)<input id="costilla" type="number" step="0.5" value="3" /></label>
+            <label>Paso<select id="modoPaso"><option value="auto">Automático</option><option value="fijo">Fijo</option></select></label>
+            <label id="lbl-paso">Paso fijo (mm)<input id="pasoFijo" type="number" step="0.5" value="15" /></label>
+          </div>
+        </section>
 
-      <details>
-        <summary>Herramientas de la perforadora</summary>
-        <div id="tab-perf" class="tabla-herr"></div>
-        <button id="add-hp" class="chico">+ herramienta</button>
-      </details>
-      <details>
-        <summary>Herramientas del router</summary>
-        <div id="tab-router" class="tabla-herr"></div>
-        <button id="add-hr" class="chico">+ herramienta</button>
-      </details>
-      <details>
-        <summary>Router: posición en la mesa y post</summary>
-        <div class="g2" id="cfg-router"></div>
-        <label>Encabezado<textarea id="ncHead" rows="4" class="mono"></textarea></label>
-        <label>Pie<textarea id="ncFoot" rows="3" class="mono"></textarea></label>
-        <p class="nota">Variables: {T} herramienta, {S} rpm, {nombre}, {zseg}. Los .nc de GuiGui no traen encabezado ni cambio de herramienta.</p>
-      </details>
-      <p class="nota pie">Los datos de herramientas y máquinas salen de CONTEXTO.md. Lo marcado "A CONFIRMAR" hay que verificarlo en el taller. Todo lo que cargues queda guardado en este navegador.</p>
+        <section data-tab="maquinas">
+          <details open>
+            <summary>Herramientas de la perforadora</summary>
+            <div id="tab-perf" class="tabla-herr"></div>
+            <button id="add-hp" class="chico">+ herramienta</button>
+          </details>
+          <details>
+            <summary>Herramientas del router</summary>
+            <div id="tab-router" class="tabla-herr"></div>
+            <button id="add-hr" class="chico">+ herramienta</button>
+          </details>
+          <details>
+            <summary>Router: mesa y post</summary>
+            <div class="g2" id="cfg-router"></div>
+            <label>Encabezado<textarea id="ncHead" rows="3" class="mono"></textarea></label>
+            <label>Pie<textarea id="ncFoot" rows="2" class="mono"></textarea></label>
+            <p class="nota">Variables: {T} {S} {nombre} {zseg}. Los .nc de GuiGui no traen encabezado.</p>
+          </details>
+          <p class="nota">Lo marcado "A CONFIRMAR" hay que verificarlo en el taller. Todo queda guardado en este navegador.</p>
+        </section>
+      </div>
     </aside>
 
-    <section class="vistas">
+    <!-- ============ CENTRO: 3D arriba, detalle y planta abajo ============ -->
+    <section class="col centro">
       <div class="card vista3d">
         <div class="card-t"><h3>3D</h3>
           <div class="ctrl">
             <button id="play" class="chico">▶ Curvar</button>
             <input id="u" type="range" min="0" max="100" value="100" />
             <span id="u-lbl" class="mono">100 %</span>
-            <button id="lado" class="chico" title="Ver del otro lado">⇄ lado</button>
+            <button id="lado" class="chico" title="Ver del otro lado">⇄</button>
             <button id="encuadrar" class="chico" title="Encuadrar">⤢</button>
           </div>
         </div>
         <div id="gl"></div>
         <div class="leyenda"><i style="background:var(--l-vista)" id="ley-vista"></i>cara vista <i style="background:#c0392b"></i>ranuras <i class="dash"></i>perfil objetivo <i style="background:#1f8a4c;border-radius:50%"></i>inicio</div>
       </div>
-
-      <div class="card">
-        <div class="card-t"><h3>Detalle de una ranura</h3>
-          <div class="ctrl"><label class="inl">Ranura <select id="selRan"></select></label></div>
+      <div class="abajo">
+        <div class="card">
+          <div class="card-t"><h3>Detalle de ranura</h3>
+            <div class="ctrl"><select id="selRan"></select></div>
+          </div>
+          <div id="detalle" class="detalle llena"></div>
         </div>
-        <div id="detalle" class="detalle"></div>
-      </div>
-
-      <div class="card">
-        <div class="card-t"><h3>Resumen</h3></div>
-        <div id="resumen"></div>
-        <ul id="avisos" class="avisos"></ul>
-      </div>
-
-      <div class="card">
-        <div class="card-t"><h3>Planta curvada</h3></div>
-        <div id="planta" class="planta"></div>
-      </div>
-
-      <div class="card ancho">
-        <div class="card-t"><h3>Plano de taller</h3>
-          <div class="ctrl"><button id="dl-plano" class="chico">Bajar SVG</button></div></div>
-        <div id="plano"></div>
-      </div>
-
-      <div class="card ancho">
-        <div class="card-t"><h3>Exportar</h3></div>
-        <div class="exportes" id="exportes"></div>
+        <div class="card">
+          <div class="card-t"><h3>Planta curvada</h3></div>
+          <div id="planta" class="planta llena"></div>
+        </div>
       </div>
     </section>
+
+    <!-- ============ DERECHA: números, plano, avisos, exportes ============ -->
+    <section class="col derecha">
+      <div class="card"><div id="resumen"></div></div>
+      <div class="card plano-card">
+        <div class="card-t"><h3>Plano de taller</h3>
+          <div class="ctrl"><button id="ver-plano" class="chico">Ver grande</button><button id="dl-plano" class="chico">SVG</button></div></div>
+        <div id="plano" class="llena"></div>
+      </div>
+      <div class="card avisos-card"><ul id="avisos" class="avisos"></ul></div>
+      <div class="card"><div class="exportes" id="exportes"></div></div>
+    </section>
   </main>
+
+  <dialog id="dlg-plano"><div id="plano-grande"></div><form method="dialog"><button class="chico">Cerrar</button></form></dialog>
   <script type="module" src="/src/main.js"></script>
 </body>
 </html>

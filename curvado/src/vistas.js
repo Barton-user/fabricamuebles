@@ -45,7 +45,7 @@ export function svgDetalle(res, idxRanura, u, col) {
   };
   const A = vista(flat), B = vista(bent);
   const W = ventana * 2, Hh = res.t * 3.2;
-  const sw = W / 420;
+  const sw = W / 260;
   const clip = (id) => `<clipPath id="${id}"><rect x="${-ventana}" y="${-res.t * 1.9}" width="${W}" height="${Hh}"/></clipPath>`;
   const phi = Math.abs(r.phi) * u;
   const h = res.t - res.s / 2;
@@ -62,7 +62,7 @@ export function svgDetalle(res, idxRanura, u, col) {
         <polygon points="${poly(pts2)}" fill="${col.nucleo}" stroke="var(--tinta)" stroke-width="${sw}" stroke-linejoin="round"/>
         <line x1="${-ventana}" y1="${0}" x2="${ventana}" y2="0" stroke="${col.vista}" stroke-width="${sw * 3}" opacity="0.0"/>
       </g>
-      <text x="${-ventana + sw * 8}" y="${-t * 1.9 + sw * 16}" font-size="${sw * 13}" class="lbl">${titulo}</text>
+      <text x="${ventana - sw * 8}" y="${-t * 1.9 + sw * 16}" font-size="${sw * 13}" class="lbl" text-anchor="end">${titulo}</text>
       ${extra}
     </svg>`;
   const exA = [
