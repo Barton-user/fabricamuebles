@@ -50,17 +50,25 @@ function volcarForm() {
   $('lbl-cara').style.display = st.maquina === 'perforadora' ? '' : 'none';
   $('lbl-paso').style.display = st.modoPaso === 'fijo' ? '' : 'none';
   $('ncHead').value = st.router.encabezado; $('ncFoot').value = st.router.pie;
-  segs(); herrSelect(); tablas(); cfgRouter();
+  segs(); herrSelect(); tablas(); cfgRouter(); syncSliders();
 }
+
+// deslizadores de la placa: mueven el número y el número los mueve a ellos
+document.querySelectorAll('input[type=range][data-for]').forEach((r) => {
+  const num = $(r.dataset.for);
+  r.addEventListener('input', () => { num.value = r.value; num.dispatchEvent(new Event('input')); });
+  num.addEventListener('input', () => { r.value = num.value; });
+});
+const syncSliders = () => document.querySelectorAll('input[type=range][data-for]').forEach((r) => { r.value = $(r.dataset.for).value; });
 
 CAMPOS.forEach((k) => $(k) && $(k).addEventListener('input', () => {
   const v = $(k).value;
   st[k] = NUM.has(k) ? parseFloat(v) : v;
-  if (k === 'material') { st.piel = MATERIALES[v].piel; $('piel').value = st.piel; }
+  if (k === 'material') { st.piel = MATERIALES[v].piel; $('piel').value = st.piel; syncSliders(); }
   if (k === 'espesor' && Math.abs(st.espesorReal - st.espesor) > 3) { st.espesorReal = st.espesor; $('espesorReal').value = st.espesor; }
   if (k === 'caraPerf') herrSelect();
   if (k === 'modoPaso') $('lbl-paso').style.display = st.modoPaso === 'fijo' ? '' : 'none';
-  calc(k === 'decor' ? false : ['espesor', 'alto', 'sobIni', 'sobFin', 'piel'].includes(k));
+  calc(false);
 }));
 $('btn-codigo').onclick = () => { st.codigo = nuevoCodigo(); $('codigo').value = st.codigo; calc(); };
 document.querySelectorAll('#maquina button').forEach((b) => b.onclick = () => { st.maquina = b.dataset.v; volcarForm(); calc(); });
@@ -71,29 +79,57 @@ $('add-curva').onclick = () => { st.segmentos.push({ tipo: 'curva', radio: 200, 
 $('ncHead').oninput = () => { st.router.encabezado = $('ncHead').value; calc(); };
 $('ncFoot').oninput = () => { st.router.pie = $('ncFoot').value; calc(); };
 
+const RANGOS = { largo: [0, 3000, 5], radio: [20, 1500, 5], angulo: [5, 360, 1] };
+const slRow = (lab, k, v, extra = '') => {
+  const [mn, mx, stp] = RANGOS[k] || [0, 60, 1];
+  return `<div class="sl"><span>${lab}</span><input type="range" data-k="${k}" min="${mn}" max="${mx}" step="${stp}" value="${v}"/><input data-k="${k}" type="number" value="${v}"/>${extra}</div>`;
+};
 function segs() {
   $('segs').innerHTML = st.segmentos.map((s, i) => `
     <div class="seg-row ${s.tipo}" data-i="${i}">
       <span class="num">${i + 1}</span>
       <div class="campos">${s.tipo === 'recto'
-        ? `<label>Recto · largo<input data-k="largo" type="number" value="${s.largo}"/></label><span></span><span></span><span></span>`
-        : `<label>Radio<input data-k="radio" type="number" value="${s.radio}"/></label>
-           <label>Ángulo °<input data-k="angulo" type="number" value="${s.angulo}"/></label>
-           <label>Cara vista<select data-k="lado"><option value="convexa" ${s.lado !== 'concava' ? 'selected' : ''}>Convexa</option><option value="concava" ${s.lado === 'concava' ? 'selected' : ''}>Cóncava</option></select></label>
-           <label>Ranuras<input data-k="n" type="number" min="0" placeholder="auto" value="${s.n || ''}"/></label>`}
+        ? slRow('Recto', 'largo', s.largo)
+        : `<div class="seg-h"><b>Curva</b><div class="mini-seg"><button data-lado="convexa" class="${s.lado !== 'concava' ? 'on' : ''}" title="cara vista afuera">⌒ convexa</button><button data-lado="concava" class="${s.lado === 'concava' ? 'on' : ''}" title="cara vista adentro">⌣ cóncava</button></div></div>
+           ${slRow('Radio', 'radio', s.radio)}
+           ${slRow('Ángulo', 'angulo', s.angulo)}
+           <div class="sl ran"><span>Ranuras</span><input type="range" data-k="n" min="1" max="60" step="1" value="${s.n || 1}"/><input data-k="n" type="number" min="0" placeholder="auto" value="${s.n || ''}"/><button class="chico auto ${s.n ? '' : 'on'}" data-a="auto" title="Volver a la cantidad automática">auto</button></div>`}
       </div>
       <div class="btns"><button data-a="up" title="Subir">▲</button><button data-a="del" title="Borrar">✕</button><button data-a="down" title="Bajar">▼</button></div>
     </div>`).join('');
 }
+// después de calcular: los deslizadores de ranuras muestran la cantidad que está usando
+function syncRanuras() {
+  const res = RES[st.maquina]; if (!res) return;
+  document.querySelectorAll('#segs .seg-row.curva').forEach((row) => {
+    const i = +row.dataset.i, s = st.segmentos[i];
+    const tr = res.tramos.find((t) => t.tipo === 'curva' && t.idx === i);
+    if (!tr) return;
+    const rng = row.querySelector('input[type=range][data-k=n]'), num = row.querySelector('input[type=number][data-k=n]');
+    rng.max = Math.max(60, Math.ceil((tr.Nmin || 1) * 3), tr.N + 10);
+    if (!s.n) { rng.value = tr.N; num.placeholder = `auto ${tr.N}`; }
+    row.querySelector('.auto').classList.toggle('on', !s.n);
+    row.classList.toggle('mal', tr.N < tr.Nmin || tr.avisos.some((a) => a.nivel === 'error'));
+  });
+}
 $('segs').addEventListener('input', (e) => {
   const row = e.target.closest('.seg-row'); if (!row) return;
-  const s = st.segmentos[+row.dataset.i], k = e.target.dataset.k;
-  s[k] = k === 'lado' ? e.target.value : (e.target.value === '' ? 0 : parseFloat(e.target.value));
-  calc(true);
+  const s = st.segmentos[+row.dataset.i], k = e.target.dataset.k; if (!k) return;
+  const v = e.target.value === '' ? 0 : parseFloat(e.target.value);
+  s[k] = v;
+  // espejar el otro control del par
+  row.querySelectorAll(`[data-k="${k}"]`).forEach((el) => {
+    if (el === e.target) return;
+    if (el.type === 'range') { if (v) el.value = v; } else el.value = (k === 'n' && !v) ? '' : v;
+  });
+  calc(false);
 });
 $('segs').addEventListener('click', (e) => {
+  const row = e.target.closest('.seg-row'); if (!row) return;
+  const i = +row.dataset.i, S = st.segmentos;
+  if (e.target.dataset.lado) { S[i].lado = e.target.dataset.lado; segs(); calc(false); return; }
   const a = e.target.dataset.a; if (!a) return;
-  const i = +e.target.closest('.seg-row').dataset.i, S = st.segmentos;
+  if (a === 'auto') { S[i].n = 0; segs(); calc(false); return; }
   if (a === 'del') S.splice(i, 1);
   if (a === 'up' && i > 0) [S[i - 1], S[i]] = [S[i], S[i - 1]];
   if (a === 'down' && i < S.length - 1) [S[i + 1], S[i]] = [S[i], S[i + 1]];
@@ -238,6 +274,8 @@ function calc(encuadrar = false) {
   escena.cargar(res, col, encuadrar || primera);
   primera = false;
   selRanuras(res);
+  syncRanuras();
+  $('plano').innerHTML = svgPlano(res, datos, maqTxt(st.maquina, res));
   dibujar();
   resumen(res);
   exportes();
@@ -260,7 +298,6 @@ function dibujar() {
   $('u-lbl').textContent = `${Math.round(u * 100)} %`;
   $('detalle').innerHTML = svgDetalle(res, +$('selRan').value || 0, u, colores());
   $('planta').innerHTML = svgPlanta(res, u, colores());
-  $('plano').innerHTML = svgPlano(res, datos, maqTxt(st.maquina, res));
 }
 const maqTxt = (m, res) => (m === 'router' ? `Router SKG-912MZ · T${res.herr?.t ?? '?'}` : `Perforadora SKH-612HS · ${res.herr?.t ?? '?'} · cara ${st.caraPerf}`);
 
@@ -370,22 +407,41 @@ $('btn-zip').onclick = () => {
 $('dl-plano').onclick = () => bajar(`${st.codigo}_plano.svg`, svgPlano(RES[st.maquina], datos, maqTxt(st.maquina, RES[st.maquina])), 'image/svg+xml');
 
 // ------------------------------------------------------------------ animación
-$('u').oninput = () => { escena.curvar(+$('u').value / 100); dibujar(); };
+$('u').oninput = () => { if (anim) loop(false); escena.curvar(+$('u').value / 100); dibujar(); };
 $('encuadrar').onclick = () => escena.encuadrar();
 $('lado').onclick = () => escena.encuadrar(!escena.lado);
-let anim = null;
-$('play').onclick = () => {
-  if (anim) { cancelAnimationFrame(anim); anim = null; $('play').textContent = '▶ Curvar'; return; }
-  const u0 = +$('u').value >= 100 ? 0 : +$('u').value / 100;
-  const t0 = performance.now(), dur = 2600 * (1 - u0);
-  $('play').textContent = '■ Parar';
-  const paso = (t) => {
-    const k = Math.min(1, (t - t0) / dur), u = u0 + (1 - u0) * (0.5 - 0.5 * Math.cos(Math.PI * k));
-    $('u').value = Math.round(u * 100); escena.curvar(u); dibujar();
-    if (k < 1) anim = requestAnimationFrame(paso); else { anim = null; $('play').textContent = '▶ Curvar'; }
-  };
+// Curvado en loop: 0 → 100 %, pausa, vuelve a 0, pausa, y repite.
+// Arranca solo; el botón lo pausa y tocar el deslizador también.
+let anim = null, t0 = 0, ultimoSvg = 0;
+const SUBE = 2200, ARRIBA = 1100, BAJA = 1500, ABAJO = 500, CICLO = SUBE + ARRIBA + BAJA + ABAJO;
+const suave = (k) => 0.5 - 0.5 * Math.cos(Math.PI * k);
+function uEn(t) {
+  const c = t % CICLO;
+  if (c < SUBE) return suave(c / SUBE);
+  if (c < SUBE + ARRIBA) return 1;
+  if (c < SUBE + ARRIBA + BAJA) return 1 - suave((c - SUBE - ARRIBA) / BAJA);
+  return 0;
+}
+function paso(t) {
+  const u = uEn(t - t0);
+  $('u').value = Math.round(u * 100);
+  escena.curvar(u);
+  if (t - ultimoSvg > 120) { dibujar(); ultimoSvg = t; }   // los SVG, a ~8 cuadros por segundo
   anim = requestAnimationFrame(paso);
-};
+}
+function loop(on) {
+  if (anim) { cancelAnimationFrame(anim); anim = null; }
+  st.loop = on; guardar();
+  $('play').textContent = on ? '⏸ Pausa' : '▶ Loop';
+  if (!on) { dibujar(); return; }
+  // arranca desde donde está el deslizador, subiendo
+  const u = +$('u').value / 100;
+  const k = u >= 1 ? SUBE : Math.acos(1 - 2 * u) / Math.PI * SUBE;
+  t0 = performance.now() - k;
+  anim = requestAnimationFrame(paso);
+}
+$('play').onclick = () => loop(!anim);
+$('u').addEventListener('pointerdown', () => { if (anim) loop(false); });
 
 // pestañas del formulario
 $('tabs').onclick = (e) => {
@@ -403,3 +459,4 @@ $('plano').onclick = verPlano;
 
 volcarForm();
 calc(true);
+if (st.loop !== false) { $('u').value = 0; loop(true); }

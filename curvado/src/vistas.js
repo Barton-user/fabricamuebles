@@ -45,7 +45,7 @@ export function svgDetalle(res, idxRanura, u, col) {
   };
   const A = vista(flat), B = vista(bent);
   const W = ventana * 2, Hh = res.t * 3.2;
-  const sw = W / 260;
+  const sw = Math.min(W / 240, Hh / 70);
   const clip = (id) => `<clipPath id="${id}"><rect x="${-ventana}" y="${-res.t * 1.9}" width="${W}" height="${Hh}"/></clipPath>`;
   const phi = Math.abs(r.phi) * u;
   const h = res.t - res.s / 2;

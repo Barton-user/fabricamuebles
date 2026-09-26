@@ -50,12 +50,14 @@
         </section>
 
         <section data-tab="perfil" class="on">
+          <div class="sls">
+            <div class="sl"><span>Espesor</span><input type="range" data-for="espesor" min="3" max="40" step="0.5" /><input id="espesor" type="number" step="0.1" value="18" /></div>
+            <div class="sl"><span>Piel</span><input type="range" data-for="piel" min="0.5" max="6" step="0.1" /><input id="piel" type="number" step="0.1" value="2" /></div>
+            <div class="sl"><span>Alto</span><input type="range" data-for="alto" min="100" max="2800" step="5" /><input id="alto" type="number" step="0.5" value="900" /></div>
+          </div>
           <div class="g3">
             <label>Material<select id="material"></select></label>
-            <label>Espesor<input id="espesor" type="number" step="0.1" value="18" /></label>
             <label>Esp. real <span class="ayuda" title="La perforadora mide la profundidad desde la cara de arriba: con el espesor real la piel sale exacta">?</span><input id="espesorReal" type="number" step="0.05" value="18" /></label>
-            <label>Piel<input id="piel" type="number" step="0.1" value="2" /></label>
-            <label>Alto<input id="alto" type="number" step="0.5" value="900" /></label>
             <label>Color vista<select id="decor">
               <option value="#f1f0ec">Blanco</option><option value="#c69a6b">Roble</option>
               <option value="#6e4b34">Nogal</option><option value="#8e9194">Gris</option><option value="#2c2c2c">Negro</option></select></label>
