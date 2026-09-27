@@ -14,6 +14,8 @@ export class Escena {
     this.renderer.sortObjects = true;
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableDamping = true;
+    this.controls.screenSpacePanning = true;
+    this.renderer.domElement.addEventListener('dblclick', () => this.centrar());
     this.scene.add(new THREE.HemisphereLight(0xffffff, 0x8a8070, 1.6));
     const d = new THREE.DirectionalLight(0xffffff, 1.7); d.position.set(1500, 2500, 2000); this.scene.add(d);
     const d2 = new THREE.DirectionalLight(0xffffff, 0.6); d2.position.set(-2000, 800, -1500); this.scene.add(d2);
@@ -126,19 +128,48 @@ export class Escena {
     pin.position.set(m0[0], H + 8, -m0[1]);
     this.grupo.add(pin);
 
+    // La pieza se mantiene centrada en el origen mientras se curva: la cámara siempre
+    // gira alrededor de ella y no "se escapa". Si se acercó a una ranura, queda quieta.
+    if (!this.fijo) {
+      const bb = new THREE.Box3();
+      this.grupo.children.slice(0, 2).forEach((o) => { o.geometry.computeBoundingBox(); bb.union(o.geometry.boundingBox); });
+      const c = bb.getCenter(new THREE.Vector3());
+      this.grupo.position.set(-c.x, -c.y, -c.z);
+      this.tam = bb.getSize(new THREE.Vector3()).length();
+    }
     if (encuadrar) this.encuadrar();
     this.sucio = true;
   }
 
+  // Frena la inercia del mouse antes de mover la cámara a mano (si no, el giro o
+  // el paneo que venía arrastrándose la vuelve a correr).
+  frenar() { const d = this.controls.enableDamping; this.controls.enableDamping = false; this.controls.update(); this.controls.enableDamping = d; }
+
+  // Trae la pieza al centro de la vista sin cambiar el ángulo desde el que se mira.
+  centrar() {
+    this.frenar();
+    this.fijo = false;
+    this.curvar(this.u ?? 1);
+    const dir = this.camera.position.clone().sub(this.controls.target);
+    if (dir.lengthSq() < 1e-6) dir.set(0, 1, 1);
+    dir.normalize();
+    this.controls.target.set(0, 0, 0);
+    this.camera.position.copy(dir.multiplyScalar((this.tam || 1000) * 2.0));
+    this.camera.near = (this.tam || 1000) / 5000; this.camera.updateProjectionMatrix();
+    this.controls.update(); this.sucio = true;
+  }
+
   encuadrar(lado) {
     if (lado !== undefined) this.lado = lado;
-    const box = new THREE.Box3().setFromObject(this.grupo);
-    const ctr = box.getCenter(new THREE.Vector3());
-    const size = box.getSize(new THREE.Vector3()).length();
+    this.frenar();
+    if (this.fijo) { this.fijo = false; this.curvar(this.u ?? 1); }
+    const ctr = new THREE.Vector3(0, 0, 0);
+    const size = this.tam || 1000;
+    this.controls.maxDistance = size * 6; this.controls.minDistance = 15;
     this.controls.target.copy(ctr);
     // por defecto se mira desde arriba y del lado ranurado: se ve la forma de cada ranura en el canto de arriba
     const dir = this.lado ? new THREE.Vector3(0.45, 0.6, 1).normalize() : new THREE.Vector3(-0.2, 1.6, -0.6).normalize();
-    this.camera.position.copy(ctr).addScaledVector(dir, size * 1.25);
+    this.camera.position.copy(ctr).addScaledVector(dir, size * 1.8);
     this.camera.near = size / 5000; this.camera.far = size * 20; this.camera.updateProjectionMatrix();
     this.controls.update(); this.sucio = true;
   }
@@ -149,7 +180,9 @@ export class Escena {
     const f = cinematica(res, this.u ?? 1);
     const q = f(x, (res.s + res.t) / 2), a = f.heading(x);
     const n = [-Math.sin(a), Math.cos(a)];               // hacia la cara ranurada
-    const tgt = new THREE.Vector3(q[0], res.H, -q[1]);
+    this.frenar();
+    this.fijo = true;
+    const tgt = new THREE.Vector3(q[0], res.H, -q[1]).add(this.grupo.position);
     const d = Math.max(res.t * 7, 90);
     this.controls.target.copy(tgt);
     this.camera.position.set(tgt.x + n[0] * d * 0.9, tgt.y + d * 0.8, tgt.z - n[1] * d * 0.9);

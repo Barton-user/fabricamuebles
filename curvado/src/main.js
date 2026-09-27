@@ -481,6 +481,7 @@ $('dl-plano').onclick = () => bajar(`${st.codigo}_plano.svg`, svgPlano(RES[st.ma
 // ------------------------------------------------------------------ animación
 $('u').oninput = () => { if (anim) loop(false); escena.curvar(+$('u').value / 100); dibujar(); };
 $('encuadrar').onclick = () => escena.encuadrar();
+$('centrar').onclick = () => escena.centrar();
 $('lado').onclick = () => escena.encuadrar(!escena.lado);
 $('zoom').onclick = () => { const r = RES[st.maquina].ranuras[+$('selRan').value || 0]; if (r) escena.enfocar(r.x); };
 // Curvado en loop: 0 → 100 %, pausa, vuelve a 0, pausa, y repite.
