@@ -136,9 +136,24 @@ export class Escena {
     const ctr = box.getCenter(new THREE.Vector3());
     const size = box.getSize(new THREE.Vector3()).length();
     this.controls.target.copy(ctr);
-    const dir = this.lado ? new THREE.Vector3(-0.35, 0.45, -1).normalize() : new THREE.Vector3(0.55, 0.5, 1).normalize();
+    // por defecto se mira desde arriba y del lado ranurado: se ve la forma de cada ranura en el canto de arriba
+    const dir = this.lado ? new THREE.Vector3(0.45, 0.6, 1).normalize() : new THREE.Vector3(-0.2, 1.6, -0.6).normalize();
     this.camera.position.copy(ctr).addScaledVector(dir, size * 1.25);
     this.camera.near = size / 5000; this.camera.far = size * 20; this.camera.updateProjectionMatrix();
+    this.controls.update(); this.sucio = true;
+  }
+
+  // Acerca la cámara a una ranura, sobre el canto de arriba, para ver su forma.
+  enfocar(x) {
+    const res = this.res; if (!res) return;
+    const f = cinematica(res, this.u ?? 1);
+    const q = f(x, (res.s + res.t) / 2), a = f.heading(x);
+    const n = [-Math.sin(a), Math.cos(a)];               // hacia la cara ranurada
+    const tgt = new THREE.Vector3(q[0], res.H, -q[1]);
+    const d = Math.max(res.t * 7, 90);
+    this.controls.target.copy(tgt);
+    this.camera.position.set(tgt.x + n[0] * d * 0.9, tgt.y + d * 0.8, tgt.z - n[1] * d * 0.9);
+    this.camera.near = 0.5; this.camera.updateProjectionMatrix();
     this.controls.update(); this.sucio = true;
   }
 

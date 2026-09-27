@@ -59,7 +59,6 @@ $('presets').innerHTML = Object.keys(PRESETS).map((k) => `<button class="chico" 
 function volcarForm() {
   CAMPOS.forEach((k) => { if ($(k)) $(k).value = st[k]; });
   document.querySelectorAll('#maquina button').forEach((b) => b.classList.toggle('on', b.dataset.v === st.maquina));
-  document.querySelectorAll('#tipo button').forEach((b) => b.classList.toggle('on', b.dataset.v === st.tipo));
   $('lbl-cara').style.display = st.maquina === 'perforadora' ? '' : 'none';
   $('lbl-paso').style.display = st.modoPaso === 'fijo' ? '' : 'none';
   $('ncHead').value = st.router.encabezado; $('ncFoot').value = st.router.pie;
@@ -85,7 +84,6 @@ CAMPOS.forEach((k) => $(k) && $(k).addEventListener('input', () => {
 }));
 $('btn-codigo').onclick = () => { st.codigo = nuevoCodigo(); $('codigo').value = st.codigo; calc(); };
 document.querySelectorAll('#maquina button').forEach((b) => b.onclick = () => { st.maquina = b.dataset.v; volcarForm(); calc(); });
-document.querySelectorAll('#tipo button').forEach((b) => b.onclick = () => { st.tipo = b.dataset.v; volcarForm(); calc(); });
 $('presets').onclick = (e) => { const p = e.target.dataset.p; if (!p) return; st.segmentos = clone(PRESETS[p].segmentos); st.alto = PRESETS[p].alto; $('alto').value = st.alto; segs(); calc(true); };
 $('add-recto').onclick = () => { st.segmentos.push({ tipo: 'recto', largo: 300 }); segs(); calc(true); };
 $('add-curva').onclick = () => { st.segmentos.push({ tipo: 'curva', radio: 200, angulo: 90, lado: 'convexa' }); segs(); calc(true); };
@@ -151,8 +149,9 @@ $('segs').addEventListener('click', (e) => {
 
 // ------------------------------------------------------------------ herramientas
 const lista = (m) => (m === 'perforadora' ? st.herrP : st.herrR);
-function herrValidas(m, tipo = st.tipo) {
-  return lista(m).filter((h) => (tipo === 'v' ? h.tipo === 'v' : h.tipo !== 'v') && (m !== 'perforadora' || (h.cara || 'A') === st.caraPerf));
+// La forma de la ranura la define la herramienta elegida (recta, redonda, disco o V).
+function herrValidas(m) {
+  return lista(m).filter((h) => m !== 'perforadora' || (h.cara || 'A') === st.caraPerf);
 }
 function herrDe(m) {
   const vs = herrValidas(m);
@@ -253,7 +252,7 @@ function params(m) {
   return {
     herr: h,
     p: {
-      espesor: st.espesor, piel: st.piel, alto: st.alto, material: st.material, tipo: st.tipo,
+      espesor: st.espesor, piel: st.piel, alto: st.alto, material: st.material, tipo: h && h.tipo === 'v' ? 'v' : 'paralela',
       ancho: h ? +h.ancho : 0, anguloV: h ? +h.anguloV || 90 : 90,
       forma: h ? h.tipo : 'recta', punta: h ? +h.punta || 0 : 0,
       cierreMax: st.cierre / 100, tolFaceta: st.tol, costillaMin: st.costilla, modoPaso: st.modoPaso, pasoFijo: st.pasoFijo,
@@ -265,13 +264,14 @@ function params(m) {
 function chequeosMaquina(m, res, h) {
   const av = [];
   const E = (txt) => av.push({ nivel: 'error', txt }), W = (txt) => av.push({ nivel: 'aviso', txt }), I = (txt) => av.push({ nivel: 'info', txt });
-  if (!h) { E(st.tipo === 'v' ? `La ${m === 'router' ? 'tabla del router' : 'perforadora'} no tiene ninguna fresa en V cargada.` : 'No hay herramienta cargada para esta combinación.'); return av; }
+  if (!h) { E('No hay herramienta cargada para esta máquina y cara.'); return av; }
+  const esV = h.tipo === 'v';
   if (h.tipo === 'recta' && h.corte === 'ascendente') I(`${String(h.t).startsWith('T') ? h.t : 'T' + h.t} es de corte ascendente: levanta la viruta y desgarra la cara de arriba. Acá arriba va la cara ranurada (la de atrás), pero si es melamina se nota: conviene descendente o compresión.`);
   if (h.tipo === 'redonda') I('Punta redonda: el fondo de la ranura no tiene esquinas vivas, la piel se dobla más pareja y es más difícil que raje.');
   if (m === 'perforadora') {
     const P = PERFORADORA;
     const prof = st.espesorReal - st.piel;
-    if (st.tipo === 'v') E('La SKH-612HS no tiene fresa en V: el ranurado facetado va por router.');
+    if (esV) E('La SKH-612HS no hace ranuras en V: el ranurado facetado va por router.');
     if (h.tipo === 'redonda') W(`La perforadora elige la herramienta por el ancho de la ranura (${h.ancho}): que la media caña sea la única de ese Ø en su tabla, si no usa otra.`);
     const lg = Math.max(res.L, res.H), co = Math.min(res.L, res.H);
     if (lg > P.largoMax || co > P.anchoMax) E(`La pieza (${fx(res.L)} × ${fx(res.H)}) no entra en la perforadora: máximo ${P.largoMax} × ${P.anchoMax}.`);
@@ -295,8 +295,8 @@ function chequeosMaquina(m, res, h) {
     }
     if (h.tipo === 'redonda' && res.profRanura < +h.ancho / 2) I(`La ranura (${fx(res.profRanura, 1)}) es menos profunda que el radio de la fresa: la boca queda de ${fx(res.w, 1)} mm.`);
     if (/CONFIRMAR/i.test(h.nota || '')) W(`La herramienta T${h.t} del router está marcada A CONFIRMAR.`);
-    if (st.tipo !== 'v' && res.w > +h.ancho + 0.01) I('La ranura es más ancha que la fresa: el .nc hace pasadas a lo ancho.');
-    const nPas = st.tipo === 'v' ? 1 : Math.ceil((st.espesor - st.piel) / Math.max(0.5, c.pasada) - 1e-9);
+    if (!esV && res.w > +h.ancho + 0.01) I('La ranura es más ancha que la fresa: el .nc hace pasadas a lo ancho.');
+    const nPas = esV ? 1 : Math.ceil((st.espesor - st.piel) / Math.max(0.5, c.pasada) - 1e-9);
     I(`Router: placa con la CARA VISTA CONTRA LA MESA. Z0 en la mesa, fondo de ranura en Z ${fx(st.piel, 2)}: la piel sale exacta aunque la placa varíe. ${nPas} pasada${nPas > 1 ? 's' : ''} por ranura, entrando y saliendo fuera de la placa.`);
   }
   return av;
@@ -482,6 +482,7 @@ $('dl-plano').onclick = () => bajar(`${st.codigo}_plano.svg`, svgPlano(RES[st.ma
 $('u').oninput = () => { if (anim) loop(false); escena.curvar(+$('u').value / 100); dibujar(); };
 $('encuadrar').onclick = () => escena.encuadrar();
 $('lado').onclick = () => escena.encuadrar(!escena.lado);
+$('zoom').onclick = () => { const r = RES[st.maquina].ranuras[+$('selRan').value || 0]; if (r) escena.enfocar(r.x); };
 // Curvado en loop: 0 → 100 %, pausa, vuelve a 0, pausa, y repite.
 // Arranca solo; el botón lo pausa y tocar el deslizador también.
 let anim = null, t0 = 0, ultimoSvg = 0;
