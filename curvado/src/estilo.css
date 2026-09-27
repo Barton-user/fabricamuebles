@@ -176,3 +176,11 @@ dialog form { text-align: right; margin-top: 8px; }
   .marca small { display: none; }
   .ctrl input[type=range] { width: 100px; }
 }
+
+.cat { flex: 1; font-size: 11.5px; }
+.tabla-herr { display: grid; gap: 6px; }
+.herr { border: 1px solid var(--linea); border-radius: 7px; padding: 6px; background: var(--campo); display: grid; gap: 4px; }
+.herr-h { display: grid; grid-template-columns: 58px 1fr auto; gap: 5px; }
+.herr-c { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 6px; }
+.herr input, .herr select { padding: 3px 5px; font-size: 11.5px; background: var(--card); }
+.herr .nota-in { font-size: 10.5px; color: var(--suave); }

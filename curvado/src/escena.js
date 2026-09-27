@@ -54,7 +54,11 @@ export class Escena {
       for (const r of res.ranuras) {
         const d = Math.abs(x - r.x), m = r.ancho / 2;
         if (d >= m) continue;
-        z = Math.min(z, r.tipo === 'v' ? res.s + (res.t - res.s) * Math.max(0, (d - 0.3) / Math.max(1e-6, m - 0.3)) : res.s);
+        let zr;
+        if (r.tipo === 'v') { const f = (res.puenteV || 0.6) / 2; zr = res.s + (res.t - res.s) * Math.max(0, (d - f) / Math.max(1e-6, m - f)); }
+        else if (r.perfil === 'redonda') zr = d <= r.R ? res.s + r.R - Math.sqrt(Math.max(0, r.R * r.R - d * d)) : res.t;
+        else zr = res.s;
+        z = Math.min(z, zr);
       }
       return z;
     };

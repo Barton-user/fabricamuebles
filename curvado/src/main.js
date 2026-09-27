@@ -5,6 +5,7 @@ import { PERFORADORA, HERR_PERFORADORA, ROUTER, HERR_ROUTER, ROUTER_CFG, PRESETS
 import { Escena } from './escena.js';
 import { svgPlanta, svgDetalle, svgPlano } from './vistas.js';
 import { zip } from './zip.js';
+import { CATALOGO, opcionesCatalogo } from './catalogo.js';
 
 const $ = (id) => document.getElementById(id);
 const fx = (v, d = 1) => (Number.isFinite(v) ? (Math.round(v * 10 ** d) / 10 ** d).toLocaleString('es-AR', { maximumFractionDigits: d }) : '—');
@@ -33,6 +34,18 @@ const DEFAULT = {
 
 let st;
 try { st = { ...clone(DEFAULT), ...(JSON.parse(localStorage.getItem(CLAVE)) || {}) }; } catch { st = clone(DEFAULT); }
+// herramientas guardadas de una versión anterior: se completan con las nuevas por defecto
+if ((st.verHerr || 1) < 2) {
+  for (const [key, defs] of [['herrP', HERR_PERFORADORA], ['herrR', HERR_ROUTER]]) {
+    st[key] = st[key] || [];
+    for (const d of defs) {
+      const h = st[key].find((x) => x.id === d.id);
+      if (!h) st[key].push(clone(d));
+      else for (const [k, v] of Object.entries(d)) if (h[k] === undefined || (k === 'ancho' && !+h[k])) h[k] = v;
+    }
+  }
+  st.verHerr = 2;
+}
 const guardar = () => { try { localStorage.setItem(CLAVE, JSON.stringify(st)); } catch { /* sin almacenamiento */ } };
 
 // ------------------------------------------------------------------ formulario
@@ -153,31 +166,61 @@ function herrSelect() {
   $('herr').innerHTML = vs.length ? vs.map((x) => `<option value="${x.id}" ${h && x.id === h.id ? 'selected' : ''}>${etiquetaHerr(x)}</option>`).join('')
     : '<option value="">— ninguna para esta combinación —</option>';
 }
-const etiquetaHerr = (x) => `${x.t.startsWith('T') ? x.t : 'T' + x.t} · ${x.tipo === 'v' ? `V ${x.anguloV}°` : x.tipo === 'disco' ? `disco ${x.ancho} mm` : `recta Ø${x.ancho}`}`;
+const etiquetaHerr = (x) => `${String(x.t).startsWith('T') ? x.t : 'T' + x.t} · ${x.tipo === 'v' ? `V ${x.anguloV}°${+x.punta ? ` plano ${x.punta}` : ''} Ø${x.ancho}` : x.tipo === 'disco' ? `disco ${x.ancho} mm` : x.tipo === 'redonda' ? `punta redonda Ø${x.ancho}` : `recta Ø${x.ancho}${x.corte ? ' ' + x.corte.slice(0, 4) + '.' : ''}`}`;
 $('herr').onchange = () => { st.herrSel[st.maquina] = $('herr').value; calc(); };
 
-const COLS_P = [['t', 'T', 't'], ['tipo', 'Tipo', 'sel'], ['ancho', 'Ancho/Ø', 'n'], ['profMax', 'Prof. máx', 'n'], ['cara', 'Cara', 'cara'], ['nota', 'Nota', 't']];
-const COLS_R = [['t', 'T', 't'], ['tipo', 'Tipo', 'sel'], ['ancho', 'Ø', 'n'], ['anguloV', 'V°', 'n'], ['largoCorte', 'Largo corte', 'n'], ['rpm', 'rpm', 'n'], ['nota', 'Nota', 't']];
-function tabla(el, arr, cols) {
-  el.innerHTML = `<table><tr>${cols.map((c) => `<th>${c[1]}</th>`).join('')}<th></th></tr>${arr.map((h, i) => `<tr data-i="${i}">${cols.map(([k, , ty]) => {
-    if (ty === 'sel') return `<td><select data-k="${k}">${['recta', 'disco', 'v'].map((o) => `<option ${h[k] === o ? 'selected' : ''}>${o}</option>`).join('')}</select></td>`;
-    if (ty === 'cara') return `<td><select data-k="${k}"><option value="A" ${h[k] !== 'B' ? 'selected' : ''}>A arriba</option><option value="B" ${h[k] === 'B' ? 'selected' : ''}>B abajo</option></select></td>`;
-    return `<td class="${ty}"><input data-k="${k}" ${ty === 'n' ? 'type="number" step="0.1"' : ''} value="${h[k] ?? ''}"/></td>`;
-  }).join('')}<td><button class="chico" data-del="1">✕</button></td></tr>`).join('')}</table>`;
+const COLS_P = [['t', 'T', 't'], ['tipo', 'Tipo', 'sel'], ['ancho', 'Ø / ancho', 'n'], ['corte', 'Corte', 'corte'], ['profMax', 'Prof. máx', 'n'], ['cara', 'Cara', 'cara'], ['nota', 'Nota', 't']];
+const COLS_R = [['t', 'T', 't'], ['tipo', 'Tipo', 'sel'], ['ancho', 'Ø', 'n'], ['anguloV', 'V°', 'n'], ['punta', 'Plano V', 'n'], ['corte', 'Corte', 'corte'], ['largoCorte', 'Largo corte', 'n'], ['rpm', 'rpm', 'n'], ['nota', 'Nota', 't']];
+const TIPOS = { recta: 'recta', redonda: 'punta redonda', v: 'V', disco: 'disco' };
+// Fichas de herramienta: sólo muestran los campos que usa cada tipo.
+const CAMPOS_TIPO = {
+  recta: ['ancho', 'corte'], redonda: ['ancho'], disco: ['ancho'], v: ['ancho', 'anguloV', 'punta'],
+};
+const ETQ = { ancho: 'Ø', anguloV: 'Ángulo V°', punta: 'Plano V', corte: 'Corte', profMax: 'Prof. máx', largoCorte: 'Largo corte', rpm: 'rpm', cara: 'Cara' };
+function campo(h, k) {
+  const lab = k === 'ancho' && h.tipo === 'disco' ? 'Espesor' : ETQ[k];
+  if (k === 'corte') return `<label>${lab}<select data-k="corte">${[['', 'sin dato'], ['descendente', 'descendente'], ['ascendente', 'ascendente'], ['compresion', 'compresión']].map(([o, l]) => `<option value="${o}" ${(h.corte || '') === o ? 'selected' : ''}>${l}</option>`).join('')}</select></label>`;
+  if (k === 'cara') return `<label>${lab}<select data-k="cara"><option value="A" ${h.cara !== 'B' ? 'selected' : ''}>A arriba</option><option value="B" ${h.cara === 'B' ? 'selected' : ''}>B abajo</option></select></label>`;
+  return `<label>${lab}<input data-k="${k}" type="number" step="0.1" value="${h[k] ?? ''}"/></label>`;
 }
-function tablas() { tabla($('tab-perf'), st.herrP, COLS_P); tabla($('tab-router'), st.herrR, COLS_R); }
+function tabla(el, arr, maq) {
+  el.innerHTML = arr.map((h, i) => {
+    const ks = [...(CAMPOS_TIPO[h.tipo] || ['ancho']), ...(maq === 'P' ? ['profMax', 'cara'] : ['largoCorte', 'rpm'])];
+    return `<div class="herr" data-i="${i}">
+      <div class="herr-h"><input data-k="t" class="mono t" value="${h.t ?? ''}" title="número de herramienta"/>
+        <select data-k="tipo">${Object.entries(TIPOS).map(([o, l]) => `<option value="${o}" ${h.tipo === o ? 'selected' : ''}>${l}</option>`).join('')}</select>
+        <button class="chico" data-del="1" title="Quitar">✕</button></div>
+      <div class="herr-c">${ks.map((k) => campo(h, k)).join('')}</div>
+      <input data-k="nota" class="nota-in" value="${(h.nota || '').replace(/"/g, '&quot;')}" placeholder="nota"/>
+    </div>`;
+  }).join('');
+}
+function tablas() { tabla($('tab-perf'), st.herrP, 'P'); tabla($('tab-router'), st.herrR, 'R'); }
 for (const [id, key] of [['tab-perf', 'herrP'], ['tab-router', 'herrR']]) {
   $(id).addEventListener('change', (e) => {
-    const tr = e.target.closest('tr'); const k = e.target.dataset.k; if (!tr || !k) return;
+    const tr = e.target.closest('.herr'); const k = e.target.dataset.k; if (!tr || !k) return;
     const h = st[key][+tr.dataset.i];
     h[k] = e.target.type === 'number' ? parseFloat(e.target.value) : e.target.value;
+    if (k === 'tipo') tablas();
     herrSelect(); calc();
   });
   $(id).addEventListener('click', (e) => {
     if (!e.target.dataset.del) return;
-    st[key].splice(+e.target.closest('tr').dataset.i, 1); tablas(); herrSelect(); calc();
+    st[key].splice(+e.target.closest('.herr').dataset.i, 1); tablas(); herrSelect(); calc();
   });
 }
+// catálogo de fresas comerciales
+function agregarDeCatalogo(key, i) {
+  const c = CATALOGO[+i]; if (!c) return;
+  const base = { id: key[4] + Date.now(), tipo: c.tipo, ancho: c.ancho, anguloV: c.anguloV || 90, punta: c.punta || 0, corte: c.corte || '',
+    nota: `${c.grupo} ${c.nombre} · ${c.fuente}` };
+  if (key === 'herrP') st.herrP.push({ ...base, t: 'T18?', profMax: c.largo, cara: 'A' });
+  else st.herrR.push({ ...base, t: String(st.herrR.length + 1), largoCorte: c.largo, rpm: 18000 });
+  tablas(); herrSelect(); calc();
+}
+$('cat-p').innerHTML = opcionesCatalogo(); $('cat-r').innerHTML = opcionesCatalogo();
+$('cat-p').onchange = () => { agregarDeCatalogo('herrP', $('cat-p').value); $('cat-p').value = ''; };
+$('cat-r').onchange = () => { agregarDeCatalogo('herrR', $('cat-r').value); $('cat-r').value = ''; };
 $('add-hp').onclick = () => { st.herrP.push({ id: 'p' + Date.now(), t: 'T', tipo: 'recta', ancho: 6, profMax: 20, cara: 'A', nota: '' }); tablas(); };
 $('add-hr').onclick = () => { st.herrR.push({ id: 'r' + Date.now(), t: '3', tipo: 'recta', ancho: 6, anguloV: 90, largoCorte: 20, rpm: 18000, nota: '' }); tablas(); };
 
@@ -212,6 +255,7 @@ function params(m) {
     p: {
       espesor: st.espesor, piel: st.piel, alto: st.alto, material: st.material, tipo: st.tipo,
       ancho: h ? +h.ancho : 0, anguloV: h ? +h.anguloV || 90 : 90,
+      forma: h ? h.tipo : 'recta', punta: h ? +h.punta || 0 : 0,
       cierreMax: st.cierre / 100, tolFaceta: st.tol, costillaMin: st.costilla, modoPaso: st.modoPaso, pasoFijo: st.pasoFijo,
       sobranteIni: st.sobIni, sobranteFin: st.sobFin, segmentos: st.segmentos,
     },
@@ -222,10 +266,13 @@ function chequeosMaquina(m, res, h) {
   const av = [];
   const E = (txt) => av.push({ nivel: 'error', txt }), W = (txt) => av.push({ nivel: 'aviso', txt }), I = (txt) => av.push({ nivel: 'info', txt });
   if (!h) { E(st.tipo === 'v' ? `La ${m === 'router' ? 'tabla del router' : 'perforadora'} no tiene ninguna fresa en V cargada.` : 'No hay herramienta cargada para esta combinación.'); return av; }
+  if (h.tipo === 'recta' && h.corte === 'ascendente') I(`${String(h.t).startsWith('T') ? h.t : 'T' + h.t} es de corte ascendente: levanta la viruta y desgarra la cara de arriba. Acá arriba va la cara ranurada (la de atrás), pero si es melamina se nota: conviene descendente o compresión.`);
+  if (h.tipo === 'redonda') I('Punta redonda: el fondo de la ranura no tiene esquinas vivas, la piel se dobla más pareja y es más difícil que raje.');
   if (m === 'perforadora') {
     const P = PERFORADORA;
     const prof = st.espesorReal - st.piel;
     if (st.tipo === 'v') E('La SKH-612HS no tiene fresa en V: el ranurado facetado va por router.');
+    if (h.tipo === 'redonda') W(`La perforadora elige la herramienta por el ancho de la ranura (${h.ancho}): que la media caña sea la única de ese Ø en su tabla, si no usa otra.`);
     const lg = Math.max(res.L, res.H), co = Math.min(res.L, res.H);
     if (lg > P.largoMax || co > P.anchoMax) E(`La pieza (${fx(res.L)} × ${fx(res.H)}) no entra en la perforadora: máximo ${P.largoMax} × ${P.anchoMax}.`);
     if (lg < P.largoMin || co < P.anchoMin) E(`La pieza es chica para la perforadora: mínimo ${P.largoMin} × ${P.anchoMin}.`);
@@ -242,6 +289,11 @@ function chequeosMaquina(m, res, h) {
     const [W2, H2] = c.sentido === 'X' ? [res.L, res.H] : [res.H, res.L];
     if (c.x0 + W2 > c.mesaX || c.y0 + H2 > c.mesaY) E(`La pieza (${fx(W2)} × ${fx(H2)} en la mesa, desde ${c.x0},${c.y0}) no entra en la mesa útil ${c.mesaX} × ${c.mesaY}. Probar el otro sentido.`);
     if (+h.largoCorte < res.profRanura) E(`La fresa T${h.t} corta ${h.largoCorte} mm de largo y la ranura tiene ${fx(res.profRanura, 2)}.`);
+    if (h.tipo === 'v' && +h.ancho && res.bocaV > +h.ancho + 0.01) {
+      const pmax = (+h.ancho - (+h.punta || 0)) / 2 / Math.tan(res.beta / 2);
+      E(`La V Ø${h.ancho} abre como máximo ${h.ancho} mm y esta ranura pide boca ${fx(res.bocaV, 1)}: con esa fresa se llega a ${fx(pmax, 1)} mm de profundidad (piel ${fx(st.espesor - pmax, 1)}).`);
+    }
+    if (h.tipo === 'redonda' && res.profRanura < +h.ancho / 2) I(`La ranura (${fx(res.profRanura, 1)}) es menos profunda que el radio de la fresa: la boca queda de ${fx(res.w, 1)} mm.`);
     if (/CONFIRMAR/i.test(h.nota || '')) W(`La herramienta T${h.t} del router está marcada A CONFIRMAR.`);
     if (st.tipo !== 'v' && res.w > +h.ancho + 0.01) I('La ranura es más ancha que la fresa: el .nc hace pasadas a lo ancho.');
     const nPas = st.tipo === 'v' ? 1 : Math.ceil((st.espesor - st.piel) / Math.max(0.5, c.pasada) - 1e-9);

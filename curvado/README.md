@@ -33,6 +33,14 @@ Línea de desarrollo = plano medio de la piel (no cambia de largo al curvar).
 
 Los límites por material son un punto de partida: **calibrar con probetas**.
 
+## Fresas
+
+Tipos: **recta** (con corte descendente / ascendente / compresión), **punta redonda**
+(esférica o media caña: fondo sin esquinas vivas), **V** (con o sin fondo plano: facetado,
+cada ranura cierra el ángulo de la fresa) y **disco**. `src/catalogo.js` trae medidas
+comerciales tomadas de fichas de fabricante (Whiteside, Amana, ToolsToday y V de grabado de 6 mm),
+y se agregan desde "+ agregar del catálogo" en la pestaña Máquinas.
+
 ## Máquinas (datos de CONTEXTO.md)
 
 - **SKH-612HS**: pieza 250–5000 × 50–1200, espesor 10–48. Ranuras en cara A (husillos

@@ -46,10 +46,16 @@ export function calcular(p) {
   const tramos = [];      // tramos del desarrollo
   const ranuras = [];     // {x, ancho, prof, curva, phi, tipo, boca}
   const esV = p.tipo === 'v';
-  const w = esV ? 0 : +p.ancho;
+  const forma = esV ? 'v' : (p.forma || 'recta');        // recta | disco | redonda | v
+  const punta = esV ? Math.max(0, +p.punta || 0) : 0;     // fondo plano de la V (mm)
   const beta = rad(+p.anguloV || 90);
   const profRanura = t - s;
-  const bocaV = 2 * profRanura * Math.tan(beta / 2);
+  const bocaV = punta + 2 * profRanura * Math.tan(beta / 2);
+  // punta redonda (media caña): el ancho en la boca depende de la profundidad
+  const Rr = forma === 'redonda' ? +p.ancho / 2 : 0;
+  const w = esV ? 0 : forma === 'redonda'
+    ? (profRanura >= Rr ? +p.ancho : 2 * Math.sqrt(Math.max(0, Rr * Rr - (Rr - profRanura) ** 2)))
+    : +p.ancho;
 
   if (!(t > 0)) avisos.push({ nivel: 'error', txt: 'El espesor tiene que ser mayor que cero.' });
   if (!(s > 0) || s >= t) avisos.push({ nivel: 'error', txt: 'La piel tiene que ser mayor que cero y menor que el espesor.' });
@@ -113,7 +119,8 @@ export function calcular(p) {
     if (costilla < +p.costillaMin) c.avisos.push({ nivel: 'error', txt: `Las ranuras quedan casi pegadas (costilla de ${costilla.toFixed(1)} mm, mínimo ${p.costillaMin}). Usar una herramienta más fina, o un radio más grande.` });
     if (eps > mat.epsMax) c.avisos.push({ nivel: 'aviso', txt: `La piel se estira ${eps.toFixed(2)} % y el límite orientativo del ${mat.nombre} es ${mat.epsMax} %: riesgo de rajar la cara. Bajar la piel o agrandar el radio (y probar con una probeta).` });
     if (esV && Math.abs(phi - beta) > rad(0.5)) c.avisos.push({ nivel: 'aviso', txt: `Con una V de ${deg(beta).toFixed(1)}° y ${N} pliegues cada uno cierra ${deg(phi).toFixed(1)}°: queda una luz en cuña de ${deg(beta - phi).toFixed(1)}° por pliegue. Ideal: fresa de ${deg(phi).toFixed(1)}°.` });
-    if (esV && s > 1.2) c.avisos.push({ nivel: 'info', txt: 'En V el pliegue es casi un canto vivo: con más de ~1 mm de piel la cara tiende a marcarse o rajarse.' });
+    if (esV && punta < 0.5 && s > 1.2) c.avisos.push({ nivel: 'info', txt: 'En V con punta aguda el pliegue es casi un canto vivo: con más de ~1 mm de piel la cara tiende a marcarse o rajarse. Una V con fondo plano lo reparte.' });
+    if (esV && punta >= 0.5) c.avisos.push({ nivel: 'info', txt: `Fondo plano de ${punta} mm: la piel se dobla con radio local ≈ ${(punta / phi).toFixed(1)} mm en cada pliegue.` });
     if (!esV && convexa && cierre > 0.98) c.avisos.push({ nivel: 'info', txt: 'Las ranuras cierran del todo: la pieza toma el radio sola, pero no admite más curva.' });
     if (flecha > (+p.tolFaceta || 0.2) * 1.05) c.avisos.push({ nivel: 'aviso', txt: `Facetado visible: flecha de ${flecha.toFixed(2)} mm entre ranuras.` });
 
@@ -125,6 +132,7 @@ export function calcular(p) {
         prof: profRanura,
         curva: i, phi: convexa ? phi : -phi,
         tipo: esV ? 'v' : 'paralela',
+        perfil: forma, R: Rr, punta,
         abre: !convexa,
       });
     }
@@ -142,7 +150,7 @@ export function calcular(p) {
   if (!(H > 0)) avisos.push({ nivel: 'error', txt: 'Falta el alto de la pieza.' });
   if (mat.nota) avisos.push({ nivel: 'info', txt: mat.nota });
 
-  return { L, H, t, s, w, esV, bocaV, beta, profRanura, tramos, ranuras, avisos, material: mat };
+  return { L, H, t, s, w, esV, forma, punta, bocaV, beta, profRanura, tramos, ranuras, avisos, material: mat, puenteV: Math.max(punta, 0.6) };
 }
 
 // ---------------------------------------------------------------------------
@@ -151,7 +159,7 @@ export function calcular(p) {
 // u = 0 plano, u = 1 curvado del todo.
 // Devuelve una función (x, z) -> [X, Y] en planta.
 // ---------------------------------------------------------------------------
-export function cinematica(res, u = 1, puenteV = 0.6) {
+export function cinematica(res, u = 1, puenteV = res.puenteV || 0.6) {
   const s = res.s;
   const zm = s / 2;
   // tramos de curvatura constante a lo largo de la línea de desarrollo
@@ -199,7 +207,7 @@ export function cinematica(res, u = 1, puenteV = 0.6) {
 // Contorno de la sección de la pieza plana (x, z), en sentido antihorario,
 // subdividido para que se doble prolijo. Devuelve [{x, z, cara}] donde cara
 // indica a qué cara pertenece el tramo que ARRANCA en ese punto.
-export function seccion(res, paso = 2, puenteV = 0.6) {
+export function seccion(res, paso = 2, puenteV = res.puenteV || 0.6) {
   const { L, t, s } = res;
   const pts = [];
   const add = (x, z, cara) => pts.push({ x, z, cara });
@@ -229,8 +237,21 @@ export function seccion(res, paso = 2, puenteV = 0.6) {
     pushLine(xcur, xa);
     if (r.tipo === 'v') {
       back.push({ x: xa, z: t, cara: 'ranura' });
-      back.push({ x: r.x + puenteV / 2, z: s, cara: 'ranura' });
-      back.push({ x: r.x - puenteV / 2, z: s, cara: 'ranura' });
+      if (puenteV > 0.7) for (let k = 0; k <= 6; k++) back.push({ x: r.x + puenteV / 2 - (puenteV * k) / 6, z: s, cara: 'fondo' });
+      else { back.push({ x: r.x + puenteV / 2, z: s, cara: 'ranura' }); back.push({ x: r.x - puenteV / 2, z: s, cara: 'ranura' }); }
+      back[back.length - 1].cara = 'ranura';
+    } else if (r.perfil === 'redonda') {
+      // media caña: paredes rectas hasta el centro del radio y medio círculo abajo
+      const R = r.R, zc = s + R;
+      back.push({ x: xa, z: t, cara: 'ranura' });
+      const n = 16;
+      for (let k = 0; k <= n; k++) {
+        const a = (Math.PI * k) / n;                       // de la derecha (0) a la izquierda (π), pasando por abajo
+        const dx = R * Math.cos(a), z = zc - R * Math.sin(a);
+        if (z > t) continue;
+        back.push({ x: r.x + dx, z, cara: 'fondo' });
+      }
+      back[back.length - 1].cara = 'ranura';
     } else {
       back.push({ x: xa, z: t, cara: 'ranura' });
       for (let k = 0; k <= 8; k++) back.push({ x: xa - ((xa - xb) * k) / 8, z: s, cara: 'fondo' });

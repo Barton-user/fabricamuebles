@@ -10,11 +10,11 @@ export const PERFORADORA = {
 };
 
 export const HERR_PERFORADORA = [
-  { id: 'p187', t: 'T187', tipo: 'recta', ancho: 6, profMax: 20, cara: 'A',
+  { id: 'p187', t: 'T187', tipo: 'recta', ancho: 6, corte: '', profMax: 20, cara: 'A',
     nota: 'Fresa Ø6, husillo superior (revista, puesto 7). Hizo la ranura de 6 del techo de PRUEBA 1.' },
   { id: 'p183', t: 'T183', tipo: 'disco', ancho: 3, discoD: 43.9, profMax: 10, cara: 'A',
     nota: 'Disco de ranurar 62211-4T Ø45 × 3 mm. Corta de costado y no se hunde. PROFUNDIDAD MÁXIMA A MEDIR: con Ø43,9 puede no llegar a 16 mm.' },
-  { id: 'p184', t: 'T184', tipo: 'recta', ancho: 20, profMax: 25, cara: 'A',
+  { id: 'p184', t: 'T184', tipo: 'recta', ancho: 20, corte: 'ascendente', profMax: 25, cara: 'A',
     nota: 'Fresa espiral Ø20x70R (la de las cazoletas). Es de corte ascendente: levanta la melamina de la cara de arriba.' },
   { id: 'p11', t: 'T11', tipo: 'recta', ancho: 10, profMax: 20, cara: 'B',
     nota: 'Husillo INFERIOR: la única para la cara dorso. Ancho mínimo aceptado en cara dorso: 10.' },
@@ -26,10 +26,12 @@ export const ROUTER = {
 };
 
 export const HERR_ROUTER = [
-  { id: 'r1', t: '1', tipo: 'recta', ancho: 6, largoCorte: 22, rpm: 18000,
+  { id: 'r1', t: '1', tipo: 'recta', ancho: 6, corte: 'descendente', largoCorte: 22, rpm: 18000,
     nota: 'A CONFIRMAR. Es la T1 Ø6 que CONTEXTO dice que falta cargar en el almacén.' },
-  { id: 'r2', t: '2', tipo: 'v', ancho: 0, anguloV: 90, largoCorte: 20, rpm: 18000,
-    nota: 'A CONFIRMAR si existe. Fresa en V para el ranurado facetado.' },
+  { id: 'r2', t: '2', tipo: 'v', ancho: 38.1, anguloV: 90, punta: 2.3, largoCorte: 17.9, rpm: 18000,
+    nota: 'A CONFIRMAR si existe. V de plegado 90° con fondo plano 2,3 (tipo Amana RC-1172).' },
+  { id: 'r3', t: '3', tipo: 'redonda', ancho: 6, largoCorte: 22, rpm: 18000,
+    nota: 'A CONFIRMAR. Punta esférica Ø6 R3 × 22 (tipo Amana 46456).' },
 ];
 
 export const ROUTER_CFG = {
