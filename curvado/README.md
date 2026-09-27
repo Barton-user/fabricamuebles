@@ -16,6 +16,9 @@ programas de las máquinas de la fábrica. Corre toda en el navegador, sin backe
   - `SIERRA/lista_corte.csv|xlsx` → AutoCUT → HP280 (mismas columnas que el 开料清单 de GuiGui)
   - `PERFORADORA/XML3/<código>.xml` (formato **KDTXml**) y `MPR/<código>.mpr` (+`K`) (**Haomai MPR**) → SKH-612HS
   - `ROUTER/<código>_ranuras_T<n>.nc` (+ contorno opcional) → SKG-912MZ, Syntec
+  - **hoja de taller en PDF A4** (`<código>_hoja_de_taller.pdf`): la pieza, los programas, el plano,
+    cómo queda curvada, cómo se apoya en cada máquina y los pasos sierra → ranurado → cantos → plegado,
+    con una tabla de control final
   - planos SVG, captura 3D y `LEEME.txt`
 
 ## Cálculo

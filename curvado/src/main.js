@@ -449,12 +449,32 @@ function exportes() {
   $('exportes').onclick = (e) => { const n = e.target.dataset.f; if (!n) return; const x = archivos().find((y) => y.name === n); if (x) bajar(x.name, x.data, x.mime); };
 }
 
-$('btn-zip').onclick = () => {
+async function pdfTaller(nombres) {
+  const { hojaTaller } = await import('./pdf.js');
+  const res = RES[st.maquina];
+  return new Uint8Array(await hojaTaller({
+    st, datos, RES, maq: st.maquina, archivos: nombres,
+    svgPlanta: svgPlanta(res, 1, colores()), svgDetalle: svgDetalle(res, +$('selRan').value || 0, 1, colores()),
+    svgPlano: svgPlano(res, datos, maqTxt(st.maquina, res)), herrTxt: (h) => etiquetaHerr(h).split(' · ').slice(1).join(' · '),
+  }));
+}
+const nombrePdf = () => `${st.codigo}_hoja_de_taller.pdf`;
+$('btn-zip').onclick = async () => {
+  const b = $('btn-zip'); b.disabled = true; b.textContent = 'Armando…';
+  try {
+    const f = archivos();
+    const png = escena.png();
+    const bin = Uint8Array.from(atob(png.split(',')[1]), (c) => c.charCodeAt(0));
+    const nombres = [nombrePdf(), ...f.map((x) => x.name), `${st.codigo}_3d.png`, 'LEEME.txt'];
+    const pdf = await pdfTaller(nombres);
+    const todo = [{ name: nombrePdf(), data: pdf }, ...f, { name: `${st.codigo}_3d.png`, data: bin }, { name: 'LEEME.txt', data: leeme(f) }];
+    bajar(`${st.codigo}_curvado.zip`, zip(todo.map((x) => ({ name: `${st.codigo}/${x.name}`, data: x.data }))));
+  } finally { b.disabled = false; b.textContent = 'Descargar paquete .zip'; }
+};
+$('btn-pdf').onclick = async () => {
   const f = archivos();
-  const png = escena.png();
-  const bin = Uint8Array.from(atob(png.split(',')[1]), (c) => c.charCodeAt(0));
-  const todo = [...f, { name: `${st.codigo}_3d.png`, data: bin }, { name: 'LEEME.txt', data: leeme(f) }];
-  bajar(`${st.codigo}_curvado.zip`, zip(todo.map((x) => ({ name: `${st.codigo}/${x.name}`, data: x.data }))));
+  const nombres = [nombrePdf(), ...f.map((x) => x.name), `${st.codigo}_3d.png`, 'LEEME.txt'];
+  bajar(nombrePdf(), await pdfTaller(nombres), 'application/pdf');
 };
 $('dl-plano').onclick = () => bajar(`${st.codigo}_plano.svg`, svgPlano(RES[st.maquina], datos, maqTxt(st.maquina, RES[st.maquina])), 'image/svg+xml');
 

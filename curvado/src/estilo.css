@@ -29,6 +29,7 @@ h3 { font-size: 13px; margin: 0; font-weight: 600; }
 .marca { font-weight: 700; font-size: 15px; display: flex; align-items: baseline; gap: 8px; white-space: nowrap; overflow: hidden; }
 .marca small { font-weight: 400; color: var(--suave); font-size: 11.5px; }
 .logo { color: var(--acento); font-size: 18px; }
+.acciones { display: flex; gap: 8px; }
 
 /* ---------- tablero: todo en una pantalla ---------- */
 .app {
