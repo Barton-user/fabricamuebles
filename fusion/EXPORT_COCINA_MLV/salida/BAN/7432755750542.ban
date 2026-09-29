@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="964.00" Height="222.00" PlaneSize="1" Grain="2" Thickness="5" Material="装饰板" EdgeFBLR="0,0,0,0" Name="00-Bajo mesada doble c/tacho_Back panel02" Code="7432755750542">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="964.00 0.00 0"/>
+        <Point Value="964.00 222.00 0"/>
+        <Point Value="0.00 222.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

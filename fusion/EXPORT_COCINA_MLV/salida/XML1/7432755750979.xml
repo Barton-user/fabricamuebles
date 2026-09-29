@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="7432755750979" plateNickName="00-Spar s/extracción_单开门" width="715.46" depth="299.85" height="18.00" barCode="7432755750979" barCode1="">
+    <Bandings>
+        <Banding bandingBack="1" bandingRight="1" bandingFront="1" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(262.85,591.46,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(262.85,639.46,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(277.35,615.46,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(262.85,76.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(262.85,124.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(277.35,100.00,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+    </Holes>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,715.46,18.00)" endPoint="(299.85,715.46,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(299.85,715.46,18.00)" endPoint="(299.85,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(299.85,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,715.46,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

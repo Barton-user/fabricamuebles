@@ -1,0 +1,49 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>50.00</PanelLength>
+        <PanelWidth>280.93</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>01-Uñero_Vertical Partition01</PanelName>
+        <Params>
+            <Param Key="L" Value="50.00" Comment="板长"/>
+            <Param Key="W" Value="280.93" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>25.00</X1>
+        <Y1>271.93</Y1>
+        <Depth>11.00</Depth>
+        <Diameter>10.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>41.00</X1>
+        <Y1>204.46</Y1>
+        <Depth>11.00</Depth>
+        <Diameter>10.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>41.00</X1>
+        <Y1>44.46</Y1>
+        <Depth>11.00</Depth>
+        <Diameter>10.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+</KDTPanelFormat>

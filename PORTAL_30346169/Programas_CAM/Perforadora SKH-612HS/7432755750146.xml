@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>264.00</PanelLength>
+        <PanelWidth>612.00</PanelWidth>
+        <PanelThickness>5.00</PanelThickness>
+        <PanelName>00-Bandejero_Back panel01</PanelName>
+        <Params>
+            <Param Key="L" Value="264.00" Comment="板长"/>
+            <Param Key="W" Value="612.00" Comment="板宽"/>
+            <Param Key="T" Value="5.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

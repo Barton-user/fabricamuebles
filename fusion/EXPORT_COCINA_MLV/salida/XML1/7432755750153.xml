@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="7432755750153" plateNickName="00-Bandejero_Vertical Partition02" width="780.00" depth="68.00" height="18.00" barCode="7432755750153" barCode1="">
+    <Bandings>
+        <Banding bandingBack="1" bandingRight="0" bandingFront="1" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(59.00,742.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(59.00,38.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+    </Holes>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,780.00,18.00)" endPoint="(68.00,780.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(68.00,780.00,18.00)" endPoint="(68.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(68.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,780.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

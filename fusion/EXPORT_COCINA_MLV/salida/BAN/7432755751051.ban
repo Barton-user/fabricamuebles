@@ -1,0 +1,14 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="50.00" Height="280.93" PlaneSize="1" Grain="1" Thickness="18" Material="多层实木" EdgeFBLR="0,1,1,1" Name="01-Uñero_Vertical Partition01" Code="7432755751051">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="50.00 0.00 0"/>
+        <Point Value="50.00 280.93 0"/>
+        <Point Value="0.00 280.93 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="25.00 271.93 0" End="25.00 271.93 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="41.00 204.46 -18.00" End="41.00 204.46 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="41.00 44.46 -18.00" End="41.00 44.46 -7.00"/>
+</Plane>
+</MicroDrawBan_XML>

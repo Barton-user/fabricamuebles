@@ -1,0 +1,17 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="497.00" Height="744.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,1" Name="00-Bajo mesada doble c/tacho_单开门" Code="7432755750528">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="497.00 0.00 0"/>
+        <Point Value="497.00 744.00 0"/>
+        <Point Value="0.00 744.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="460.00 620.00 -18.00" End="460.00 620.00 -15.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="460.00 668.00 -18.00" End="460.00 668.00 -15.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="B" Start="474.50 644.00 -18.00" End="474.50 644.00 -5.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="460.00 76.00 -18.00" End="460.00 76.00 -15.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="460.00 124.00 -18.00" End="460.00 124.00 -15.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="B" Start="474.50 100.00 -18.00" End="474.50 100.00 -5.00"/>
+</Plane>
+</MicroDrawBan_XML>

@@ -1,11 +1,11 @@
 # FÁBRICA MUEBLES — Contexto técnico del proyecto
 
-_Última actualización: 27/09/2026 — armado con Claude durante la puesta en marcha de la línea._
+_Última actualización: 28/09/2026 — armado con Claude durante la puesta en marcha de la línea._
 
 > **Cómo retomar con Claude**: abrir un chat con esta carpeta conectada y decir
 > "leé CONTEXTO.md y seguimos desde el punto X".
 >
-> **Estado del proyecto → sección 15. Hoja de ruta (objetivo y etapas) → sección 16. MCP de GuiGui y modelos 3D bajados → sección 17. Web de curvado por ranuras (`curvado/`, Vercel) → sección 20.**
+> **Estado del proyecto → sección 15. Hoja de ruta (objetivo y etapas) → sección 16. MCP de GuiGui y modelos 3D bajados → sección 17. Web de curvado por ranuras (`curvado/`, Vercel) → sección 20. Herrajes Häfele equivalentes → sección 23.**
 
 ---
 
@@ -45,6 +45,10 @@ máquinas no se enteran de que GuiGui desapareció.
 **Fabricante de la perforadora**: Guangdong Shunde Changsheng Machinery Manufacturing Co., Ltd.
 (广东顺德长盛机械), marca comercial **Huahua CNC** — el mismo HUAHUA de la sierra.
 Manual: `User Manual_SKH-612 Series_260706_115944.pdf` (series SKH-690 / SKH-612H / SKH-612S).
+
+**Pegadora de cantos HH-509R** — manual: `instructivo/manuales/HH-509R_manual_pegadora_cantos.pdf`
+(HUAHUA, *Automatic edge banding series user's manual*, 99 págs, en inglés: ajustes de cada grupo,
+panel de control, parámetros, alarmas, mantenimiento y repuestos).
 
 **Contacto proveedor**: Sra. Tan (谭小姐), por WeChat.
 **Cuenta GuiGui/Bluen**: verificada por SMS al celular terminado en **2352**.
@@ -467,6 +471,13 @@ En `sholes`, identifica cuál de los 4 cantos.
 ---
 
 ## 5. Parámetros de herrajes y placa
+
+> **🔩 Marca de herrajes de la casa: HÄFELE** (decidido 28/09/2026).
+> Todos los herrajes que se usen (3 en 1 / conectores, bisagras, correderas, etc.) salen de
+> Häfele Argentina. Catálogos y folletos: <https://www.hafele.com.ar/es/info/servicios/cat-logos-y-folletos/268936/>
+> **Equivalencias con lo modelado y qué cambia en las perforaciones → §23.**
+> Cuando un herraje nuevo entre a `PonerHerrajes`, tomar las cotas del catálogo Häfele del
+> modelo elegido **y medirlo igual** contra la pieza real (ver §15.5 — no suponer números).
 
 Confirmados contra el `Process settings.png` que viene en el mueble de muestra de Bluen
 (sección 连接件 → 三合一 = tres-en-uno):
@@ -1474,6 +1485,7 @@ puede fabricar nada.
 
 - ~~**Remoto de git.**~~ ✅ Hecho: `origin` en GitHub (Barton-user/fabricamuebles).
 - Decidir el herraje de la casa: **perno 33 o 34** (§15.5).
+  - Marca ya definida: **Häfele** (§5). Falta elegir el modelo concreto de 3 en 1 en su catálogo y ver si el perno es de 33 o 34.
 - Verificar canto real y kerf real (§5) — condicionan la lista de corte.
 
 ## 16.5 · Estado por etapa
@@ -2345,6 +2357,11 @@ para el `+Z` de las fresas. **Es al revés.** Se le avisó a Huahua.
 
 ## 19. Mecha Ø35 para cazoletas — qué comprar (24/09/2026)
 
+> ⚠️ **SUPERADA EN PARTE POR LA SECCIÓN 21 (28/09).** Se descubrió que la Ø35 **no entra en el
+> paquete de taladros** (paso 32 mm) y va sí o sí en el **husillo ER25**, con giro **DERECHA**.
+> Las opciones izquierda de esta sección **ya no sirven**. La lista de compra vigente está al
+> final de la sección 21.
+
 ### El problema
 
 La cazoleta la estamos fresando con la **fresa espiral Ø20 del puesto 4 (T184)**, interpolando
@@ -2630,3 +2647,304 @@ Vite. Cada push a `main` que toque `curvado/` se publica solo.
 
 > **Git**: el sandbox de Claude no puede borrar archivos en la carpeta; cuando hace `git status`
 > suele quedar un `.git/index.lock` vacío. Antes de commitear: `rm -f .git/index.lock`.
+
+---
+
+## 21. COCINA MLV — control contra GuiGui y unión de los uñeros corregida (27/09/2026)
+
+- `ExportarPiezas` sobre COCINA MLV → `fusion/EXPORT_COCINA_MLV/` (128 piezas; BAN/XML1/XML3 126,
+  MPR 202, lista de corte 128, hojas 110). Faltan los 2 travesaños con ranura de canto (sslot `BP`
+  para el fondo): el generador no escribe ranuras de canto → pregunta a Huahua (formato "SlotH").
+- Comparado pieza por pieza contra el `render.json`: 113/128 idénticas. Diferencias explicadas:
+  16 Ø3 de corredera **duplicados en GuiGui** (Fusion deja uno); 5 Ø8 de la escotadura del uñero en
+  laterales (Cajonera ×2, Bajo mesada ×1) que **están en el modelo pero `ExportarPiezas` descarta**
+  ("cilindro horizontal ignorado: no toca ningún canto") → **pendiente arreglar el exportador**.
+- **Error de GuiGui corregido en Fusion**: los dos tramos del uñero (01 y 02) se tocan en X=350 y
+  GuiGui les puso un 3 en 1 en cada punta mirando al otro, sin receptor (los únicos 4 pernos de 294
+  sin receptor). `fusion/CorregirUnero/` los saca, pone Ø10 en los 4 tramos y agrega el 3 en 1 en la
+  escotadura de los laterales de abajo (Bandejero Right board01, Horno Left board01), igual que la
+  Cajonera. Verificado: 294 pernos / 294 receptores. Guardado como versión nueva de COCINA MLV.
+- **`ExportarPiezas` lee ahora los agujeros de canto de una escotadura** (`Marco.canto_interior`):
+  el contorno se lee antes que los agujeros y un Ø8 que arranca en un tramo recto interior toma la
+  letra del canto por la normal de salida (escalón con material abajo = U, tramo vertical con
+  material a la izquierda = R, igual que GuiGui). Los escritores ya aceptaban la boca en cualquier
+  punto. El lanzador `GENERAR ARCHIVOS.command` ya no se corta si `exportar.py` rechaza una pieza.
+- Re-export completo (27/09, 22:19): **128/128 piezas con los mismos agujeros que GuiGui corregido**
+  (posición incluida; diferencias < 0,002 mm). Totales: Ø15 294, Ø8 canto 294, Ø10 266 + 28 de canto,
+  Ø6 100, Ø35 25, Ø3 32. BAN/XML1/XML3 126, MPR 202, lista de corte 128.
+- ⚠️ **A confirmar en la SKH-612HS**: los 9 Ø8 que entran por la escotadura del uñero (50 × 70). No
+  sabemos si el husillo horizontal entra en ese hueco. Probar con la primera pieza (lateral de la Cajonera).
+
+### 25-28/09 — Código de colores confirmado, y por qué "arriba" no define el giro
+
+**Se sacó una mecha del paquete de ABAJO y es NARANJA.** Confirma que la máquina usa la
+convención estándar, la misma que declara Euro Hard en sus publicaciones:
+
+> **NARANJA = IZQUIERDA · NEGRO = DERECHA**
+
+Desde ahora el giro de cualquier mecha se lee de un vistazo, sin desmontar nada.
+
+#### ⚠️ Arriba / abajo NO define el giro
+
+En un paquete de taladros el accionamiento es un **tren de engranajes**: cada husillo engrana
+con el de al lado, así que **husillos vecinos giran al revés uno del otro**. Por eso alternan.
+
+- Que la Ø35 baje desde arriba dice **en qué paquete va**, no con qué mano.
+- El giro lo define **la posición exacta** dentro de ese paquete.
+- Tampoco sirve de referencia la mecha naranja de abajo: es otro paquete.
+- Tampoco el husillo de fresado ER25 (la Ø20x70R, derecha): es otro motor.
+
+#### Cómo resolverlo en 2 minutos, sin esperar a Huahua
+
+1. En la tabla de herramientas, el diagrama **"bolsa de taladro 1 / 2"** muestra la disposición
+   física de los verticales de arriba con sus coordenadas X/Y. Ubicar **qué posición está libre**
+   (candidata para la Ø35 y la Ø6).
+2. Mirar el **color** de las mechas vecinas a ese hueco, contando a lo largo de la fila.
+   Alternan naranja–negro–naranja–negro.
+3. La posición libre hereda la mano que le toca por alternancia. Ese es el giro a comprar.
+
+Anotar en esta sección qué posición es y de qué color son las vecinas.
+
+#### Duda que sigue abierta
+
+El paso entre husillos del paquete ronda los 32 mm y la tabla de verticales no pasa de Ø20.
+**Puede que físicamente no haya lugar para una Ø35 en el paquete.** Si es así, la única vía es
+el husillo ER25 en el puesto 186 (que está libre): ahí el giro sería **derecha** y el largo
+**70 mm**, pero habría que poder bajar las RPM del husillo (gira a 18000; una mecha de tres
+puntas Ø35 quiere ~3000). Las dos cosas están preguntadas a Huahua.
+
+---
+
+## 21. 🚨 HALLAZGO: en el paquete de arriba NO hay lugar para una Ø35 (28/09/2026)
+
+Releyendo las capturas de la tabla de herramientas (`15_`, `17_`, `18_` de `instructivo/capturas/`)
+aparece el dato que faltaba. **La tabla NO tiene columna de giro** — las columnas son:
+No · permitir · número de cuchillo · ajuste automático · grupo · diámetro · ancho de aserrado ·
+en forma de T · **tipo de herramienta** · X · Y · desplazamiento X/Y. Así que el software no
+puede decirnos izquierda o derecha.
+
+**Pero dice algo más importante: la geometría del paquete.**
+
+### Paquete de ARRIBA (`Z positivo` = cara frente) — filas 1 a 9
+
+| Fila | Nº cuchillo | Ø | X | Y |
+|---|---|---|---|---|
+| 1 | 1 | **10** | 0 | 0 |
+| 2 | 2 | **20** | −32 | 0 |
+| 3 | 3 | **5** | −64 | 0 |
+| 4 | 4 | **8** | 0 | −32 |
+| 5 | 5 | **15** | −32 | −32 |
+| 6 | 6 | **12** | −64 | −32 |
+| 7 | 7 | **10** | 0 | −64 |
+| 8 | 8 | **8** | −32 | −64 |
+| 9 | 9 | **10** | −64 | −64 |
+
+**Es una grilla de 3 × 3, paso 32 mm en X y en Y. Las nueve posiciones están ocupadas y
+habilitadas.** No hay hueco libre, y **una mecha de Ø35 no entra en un paso de 32 mm**: chocaría
+con la vecina. Por eso la tabla de verticales se corta en Ø20 — es el máximo que permite el paso.
+
+> ⚠️ Las filas **15 a 27** de la tabla no están capturadas. Por la numeración (1-9 = Z positivo,
+> luego 11 y 20, luego 51+ = Z negativo) parece que el bloque de arriba termina en la 9, pero
+> **hay que scrollear esas filas y confirmarlo**.
+
+### Consecuencias — esto cambia el plan de compra
+
+**1. La cazoleta Ø35 NO puede ir en el paquete. Queda una sola vía: el husillo ER25.**
+
+El puesto **186** figura en la tabla como **"Sin carg..."** (Ø24, ancho 24, en X −24,5 / Y 388,8):
+está libre. Ahí la pinza ER25 toma un mango Ø10 sin problema.
+
+→ La mecha a comprar es **Ø35 × 70 mm GIRO DERECHA** (el husillo es R, confirmado por la
+`Ø20x70R`; y 70 porque el manual pide más de 45 mm de voladizo — con 57 no alcanza).
+→ SOLUZIONE no la tiene publicada en 70 derecha. **Hay que pedírsela.**
+→ Falta confirmar con Huahua si se puede bajar la velocidad del husillo (gira a 18000; una
+mecha de tres puntas Ø35 quiere ~3000 rpm).
+
+**2. La Ø6 tampoco tiene hueco: hay que REEMPLAZAR una mecha existente.**
+
+Los programas de PRUEBA 1 usan Ø10 ×20, Ø15 ×16, Ø6 ×16, Ø8 horizontal ×14. Arriba hay **tres
+Ø10** (posiciones 1, 7 y 9) y **dos Ø8** (4 y 8). Sobra un Ø10.
+
+→ **Candidata a reemplazar: la posición 7 o la 9** (Ø10 redundante) por una **Ø6**.
+→ Y ahora el giro se resuelve solo: **sacar esa mecha y mirarle el color.** Naranja =
+izquierda, negro = derecha. Es del paquete de arriba, así que esta vez sí es la referencia
+correcta.
+→ Después de cambiarla, corregir el diámetro a 6 en la tabla (contraseña `520`) y regenerar.
+
+### Qué preguntar / hacer, en orden
+
+| # | Qué | Quién |
+|---|---|---|
+| 1 | Sacar la mecha de la posición **7** (Ø10, X 0 / Y −64) y leer su color → giro de la Ø6 | Pato, en la máquina |
+| 2 | Scrollear las filas 15-27 de la tabla y confirmar que no hay más posiciones arriba | Pato |
+| 3 | Preguntar a SOLUZIONE: ¿tienen **Ø35 × 70 giro derecha**, vástago Ø10 con plano? | Pato, por ML |
+| 4 | Preguntar a Huahua: ¿se puede bajar la RPM del husillo de fresado por herramienta? ¿Y se puede montar una Ø35 en el cono del puesto 186? | WeChat |
+
+### ✅ 28/09 — Giro resuelto y mecha Ø35 DERECHA encontrada
+
+**La Ø35 va en el husillo ER25 (puesto 186, libre). Mismo husillo que la `Ø20x70R`, o sea
+mismo giro: DERECHA.** Y el largo también queda confirmado: la Ø20 mide 70 de largo total y dio
+los 46 mm de voladizo que pide el manual → la Ø35 también va de **70**.
+
+**Especificación final: Ø35 · largo total 70 mm · vástago Ø10 · giro DERECHA · no pasante.**
+
+#### Dónde comprarla
+
+| Marca | Modelo | Precio | Con cupón | Link |
+|---|---|---|---|---|
+| **FUL** | **MBD3570** | **$73.516,30** | **$70.016,30** (siguiendo la tienda) | https://www.mercadolibre.com.ar/mecha-fresa-para-madera-bisagra--35mm-x70mm-derecha-widia/up/MLAU3931773080 |
+| FUL | MBD3570 | $77.094,14 | $73.594,14 | https://www.mercadolibre.com.ar/mecha-fresa-para-madera-bisagra--35mm-x70mm-derecha-widia/up/MLAU3920150205 |
+
+Widia, 35 mm de diámetro de corte, 70 mm de largo total. **La primera es la más barata.**
+La publicación no declara el vástago; es la familia estándar de Ø10, pero conviene
+preguntárselo al vendedor antes de comprar.
+
+> La Euro Hard (EHBRO3570NPI, $54.061) es más barata pero es **IZQUIERDA** — no sirve para el
+> husillo. Su versión derecha publicada es de 57 mm, demasiado corta para la pinza ER25.
+
+#### Sigue abierto
+
+- **RPM**: el husillo gira a 18000 y una mecha de tres puntas Ø35 quiere ~3000. Preguntado a
+  Huahua si la velocidad se baja por herramienta. **Es el riesgo principal de esta vía.**
+- **La Ø6**: va en el paquete de arriba, reemplazando un Ø10 redundante (posición 7 o 9). Su
+  giro sale de mirarle el color a la mecha que se saque.
+
+---
+
+## 22. 🛒 LISTA DE COMPRA VIGENTE (28/09/2026)
+
+Esta tabla reemplaza a todo lo anterior. Las secciones 19 y 20 quedan como historial.
+
+| # | Qué | Especificación | Estado | Precio | Link |
+|---|---|---|---|---|---|
+| 1 | **Mecha cazoleta Ø35** | Ø35 · **70 mm** · vástago Ø10 · **DERECHA** · no pasante | ✅ **lista para comprar** | **$73.516** (cupón $70.016) | [FUL MBD3570](https://www.mercadolibre.com.ar/mecha-fresa-para-madera-bisagra--35mm-x70mm-derecha-widia/up/MLAU3931773080) |
+| 2 | **Mecha vertical Ø6** | Ø6 · 57 o 70 mm · vástago Ø10 · **giro a confirmar** | ⏸ falta leer el color de la posición 7 del paquete de arriba | ~$28.000 | [derecha 6×70](https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6-mm-x-70mm-derecha-p-placas-madera/up/MLAU126150590) · [izquierda 6×57](https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6mm-x-57mm-izquierda-p-placas-madera/up/MLAU126142924) |
+| 3 | Fresa espiral Ø20 de repuesto | igual a la `Ø20x70R` del puesto 4 | 🕓 no urgente | — | — |
+| 4 | Fresa Ø6 para el **router** (T1) | otra máquina | 🕓 otra sesión | — | — |
+
+**No se compra**: fresa de ranurar Ø9 (se cambia el diseño a ranuras de 10 mm, que la T11 ya
+hace bien). Ø8 horizontal, Ø10 y Ø15 verticales ya están montadas.
+
+**Riesgo a cubrir antes de usar la Ø35**: el husillo gira a 18000 rpm y una mecha de tres puntas
+Ø35 quiere ~3000. Si Huahua confirma que no se puede bajar, la mecha se quema. Preguntado.
+
+---
+
+## 23. Herrajes Häfele equivalentes a los modelados (28/09/2026)
+
+Fuente: catálogo nacional **"El Gran Häfele" (ff_HAR_2024, 639 págs.)** de hafele.com.ar, leído página por
+página. Las páginas se ven sueltas en
+`https://www.hafele.com/INTERSHOP/web/WFS/Haefele-HAR-Site/es_AR/-/EUR/Static-View/pdfcatalog/es_AR/catalogs/catalogs/ff_HAR_2024/large/bk_<N>.jpg`
+(N = nº de página del visor; el PDF completo pesa ~325 MB en `.../ff_HAR_2024/pdf/complete.pdf`).
+
+### ¿Se pueden bajar planos / 3D?
+
+- **hafele.com.ar**: solo catálogos (visor + PDF). Sin CAD por artículo.
+- **haefele.de (Häfele Alemania)**: cada artículo tiene **"CAD-Daten"** (visor CADclick, `teccad.hafele.com`):
+  pestañas **3D / 2D / 3D PDF**, descarga en "todos los formatos CAD habituales" y una opción
+  **"inkl. Bearbeitungen (Bohrungen, Nuten)"** que trae el herraje **con los agujeros** que pide en la placa.
+  Häfele también ofrece datos **CAM** (~18.000 artículos con perforaciones/ranuras), pero sólo vía software de la
+  industria. Los mismos nº de artículo sirven para Argentina. **Todavía no se bajó nada.**
+- Las páginas del catálogo con el ícono **CAD** tienen modelo disponible (Minifix, Metalla, correderas, Loox).
+
+### Tabla: lo que tenemos modelado → Häfele
+
+| Nuestro (GuiGui / `PonerHerrajes`) | Häfele equivalente | Nº art. | Pág. cat. | Diferencia de perforación |
+|---|---|---|---|---|
+| **3 en 1 – caja** Ø15 × 13,5, alto 9 (placa 18) | **Minifix 15** sin reborde, desde 18 mm | 262.26.034 | M 3.6 | Ø15 × **13,5** y A = **9** → **idénticos**. Pero el centro de la caja va a **B = 34** del canto (Häfele ofrece 24 o 34), no a 33 |
+| **3 en 1 – perno** Ø8 en canto, 33/34 | **Perno expansible C100 para Ø10**, B 34, rosca 11,5 | 262.09.313 | solo en haefele.de (el catálogo AR trae el C100 para Ø8, 262.09.302, M 3.7) — **confirmar que se consiga acá** | Ø8 de canto hasta la caja (B 34). Coincide con nuestro **`3EN1-34`** |
+| **3 en 1 – receptor** Ø10 × 11/12 en la otra placa | (el manguito viene en el mismo C100) | 262.09.313 | — | Ø10 × **12** → coincide con `3EN1-34`. El `3EN1-33` (Ø10 × 11, caja a 33) **no tiene equivalente Häfele** |
+| **Bisagra cazoleta** Ø35 × 13, a 22,5 del canto (E = 5) | **Metalla 310 SM 110°**, montaje angular (sobrepuesta), cierre automático | 311.04.239 (push 311.84.506) | M 4.8 | Cazoleta Ø35 × **11** (13 sobra, se puede dejar 12). E = 5 con placa 0 → **solape 16 mm**. Tornillos **48/6**: ±24 ✓ pero a **6 mm** del centro de la cazoleta (**28,5 del canto**), no a 14,5 (37 del canto) → **cambiar** |
+| Variante con amortiguador | **Metalla SM Kombi 110°** angular | 311.04.003 | M 4.7 | Cazoleta × 12, patrón 48/6 igual que arriba |
+| **Base de bisagra** (一字底座) 2 × Ø6 × 3 a **20 y 52** del frente | **Placa en cruz Metalla SM** altura 0 (o la de leva 311.70.610) | 311.71.500 | M 4.14 | Sistema 37/32 → agujeros a **21 y 53** del frente → **correr 1 mm** |
+| **Corredera telescópica 450** (三节滑轨, TOPCENT SL.8450 soft close, 13 mm) | **Corredera de bolillas extensión total con autocierre y amortiguación Smuso**, 450 | 494.02.074 (negro) / 494.02.064 (blanco) | M 8.45 | 13 mm de juego ✓, alto 45,7. Agujeros en lateral: **35 · 163 · 259** del frente (primer agujero a 35, luego +128 y +224). Hoy GuiGui hace **37 y 413** → ninguno cae justo → **cambiar a 35 / 163 / 259** |
+| Corredera 450 sin amortiguar | Bolillas **sobreextensión** 450 | 494.02.374 / 494.02.364 | M 8.47 | Agujeros 37 · 165 · 261 · 389 |
+| **Tira LED** en ranura 9 × 9 | **Loox5 LED 3040**, 24 V, 5 mm de ancho | 833.76.296 (3000 K) / 833.76.303 (5000 K) | M 2.17 | Entra en la ranura 9 × 9 sin perfil. El perfil para embutir Loox (833.72.983) pide ranura **18 × 9,5** → no hay perfil Häfele para 9 × 9 |
+| **Riel de puerta corrediza** (移门滑轨) | **Infront** (juego 2 puertas 407.40.008, riel sup. 940.43.xxx) | 407.40.008 | M 9.12 | **Sin verificar** contra nuestra geometría |
+| Patas regulables (no están en el JSON) | Patas regulables Häfele | 637.xx | págs. 613-614 del visor | Sin revisar |
+
+**Resumen:** con Häfele se usa **un solo 3 en 1: el de 34** (`3EN1-34`, con la caja a 34 del canto en vez de 33) — si se consigue el C100 Ø10 en Argentina.
+Hay que tocar `PonerHerrajes` en cuatro puntos: caja 33 → **34**; tornillos de bisagra 14,5 → **6** del centro
+de la cazoleta; base 20/52 → **21/53**; corredera 37/413 → **35/163/259** (Smuso) o 37/165/261/389 (sin amortiguar). Antes de cambiar
+nada, **medir el herraje real** (o bajar su 2D con "inkl. Bearbeitungen") como se hizo con los 72 conectores.
+
+**⚠️ Ojo con la mecha Ø6 (§22):** las Metalla SM de la tabla vienen **con tornillos para aglomerado**
+(Ø3,5–4), y un agujero Ø6 × 3 es más grande que el tornillo. Con Häfele los tornillos de la bisagra y de la
+base van **sin agujero** o con un guía chico. La única variante Häfele que pide agujero es la placa con
+**tornillos Euro premontados** (311.71.510), que usa **Ø5**. Conviene definir esto **antes de comprar la Ø6**.
+
+**Pendiente:** bajar de haefele.de el 3D (STEP) + 2D con perforaciones de 262.26.034, 262.09.313, 311.04.239,
+311.71.500 y 494.02.074 y guardarlos en `referencia/HAFELE/`. El agujero de la corredera en el costado del
+cajón (hoy 37 y 413 sobre un costado de 450) no figura en el catálogo → sacarlo del 2D.
+
+---
+
+## 24. 🔧 BIBLIOTECA DE HERRAJES — no volver a modelarlos (29/09/2026)
+
+**Si en una conversación nueva hace falta poner herrajes en un mueble: leer
+`herrajes/biblioteca/CATALOGO.md` y usar los STEP de esa carpeta. No modelarlos
+de nuevo.**
+
+`ArmarDesdeRender.herraje()` ya lo hace solo. Antes de dibujar busca en
+`herrajes/biblioteca/indice.json` un archivo cuyo **prefijo** coincida con el
+nombre del componente (`Bisagra O35 base -6` → prefijo `Bisagra O35`). Si lo
+encuentra importa el STEP; si no, dibuja la forma con código como antes. Los
+STEP están en el marco de uso (origen sobre el agujero de la CNC), así que caen
+en su lugar con la misma matriz que ya se calculaba.
+
+Piezas en STEP: excéntrica Ø15, perno Ø8×33, bisagra de cazoleta Ø35 completa
+y cerrada. Piezas que siguen siendo código porque cambian de largo: corredera
+de bolas, tira LED, receptor Ø10.
+
+### 24.1 Lo que se verificó contra el herraje real (fotos del 29/09)
+
+| Herraje | Resultado |
+|---|---|
+| Caja excéntrica Ø15 | Coincide |
+| Perno + expansor | Coincide. Son 3 piezas, no 2 (perno + tarugo azul + excéntrica) |
+| Bisagra cazoleta Ø35 | Cazoleta coincide. **Tornillos del ala: 48 mm, no 53,5** |
+| Placa base de bisagra | Coincide, pero la real es **cruciforme** y viene puesta en la bisagra |
+| Corredera | **NO coincidía.** Era de bolas de 3 tramos, no canal + barra. Rehecha. |
+| Tira LED | Sin foto todavía |
+
+### 24.2 🚨 La marca NO es Häfele
+
+Los herrajes de la fábrica son **Grupo Euro** (marca argentina), estampado en la
+cazoleta y en la placa base. A Pato le habían dicho que eran Häfele y no lo son.
+
+Los STEP de Häfele se usaron porque eran el único 3D real disponible, y para la
+cazoleta sirven (Ø35 y profundidad idénticas). Pero **el ala de Häfele trae los
+tornillos a 53,5 mm y la de Grupo Euro a 48**. Los archivos de GuiGui perforan a
+48 (`HINGESCREW` Ø6 × 3, a y=75 y y=123 con la cazoleta en y=99, y a x=36 contra
+x=21,5 → 14,5 mm hacia adentro).
+
+**Consecuencia práctica:** una bisagra Häfele NO se puede atornillar en una
+puerta perforada por GuiGui sin cambiar ese parámetro. Hoy no importa porque se
+compra Grupo Euro, pero conviene no olvidarlo.
+
+Lección para la próxima: **verificar la marca antes de bajar un CAD de un
+fabricante y meterlo en el modelo.** Acá se metió Häfele en 26 bisagras antes de
+mirar el estampado del herraje real.
+
+### 24.3 Por qué la bisagra es híbrida
+
+El STEP de Häfele 311.04.239 viene con la bisagra **abierta a 90°**. No hay
+rotación rígida que la cierre: una bisagra de cazoleta es un mecanismo de cuatro
+barras, al cerrarse el brazo no gira sino que se pliega. Si se la rota 90° sobre
+el perno principal el brazo termina 40 mm adentro del lateral.
+
+Por eso quedó: cazoleta y ala originales de Häfele, brazo + placa base +
+tornillos dibujados en posición cerrada. El original abierto está guardado en
+`ref_bisagra_hafele_311-04-239_ABIERTA.step`.
+
+### 24.4 Herrajes que faltan modelar
+
+- **Pistón a gas** (marca Bronze). No está en el 3D ni en el archivo de GuiGui.
+  Falta saber dónde se usa y con qué fuerza.
+- **Escuadra de unión** metálica con tapa plástica. Va atornillada, no lleva
+  agujeros de CNC.
+
+### 24.5 Cuadro de comparación en Figma
+
+https://www.figma.com/design/FBehv5P3VSuDUbLplOPRit — una fila por herraje con
+el dibujo sacado del 3D, la foto real, qué medir y el veredicto.

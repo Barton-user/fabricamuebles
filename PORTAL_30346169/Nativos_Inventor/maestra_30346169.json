@@ -1,0 +1,7663 @@
+{
+ "ambiente": "COCINA MLV",
+ "orden": "30346169",
+ "version": "5.0.0.1global-2",
+ "muebles": [
+  {
+   "indice": 0,
+   "nombre": "00-Bandejero",
+   "piezas": [
+    {
+     "codigo": "7432755750061",
+     "nombre": "Parante 780x562x18",
+     "nombre_guigui": "Middle board01",
+     "nombre_largo": "00-Bandejero_Middle board01",
+     "tipo": "Parante",
+     "W": 562,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 562,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 561,
+     "corte_H": 778,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       50,
+       -562,
+       90
+      ],
+      [
+       68,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750054",
+     "nombre": "Lateral 780x580x18",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Bandejero_Right board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       332,
+       -580,
+       90
+      ],
+      [
+       350,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750047",
+     "nombre": "Piso 580x264x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Bandejero_Partition01",
+     "tipo": "Piso",
+     "W": 580,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 264,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       68,
+       -580,
+       90
+      ],
+      [
+       332,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750153",
+     "nombre": "Tapa 780x68x18",
+     "nombre_guigui": "Vertical Partition02",
+     "nombre_largo": "00-Bandejero_Vertical Partition02",
+     "tipo": "Tapa",
+     "W": 68,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 68,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 67,
+     "corte_H": 778,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       0,
+       -580,
+       90
+      ],
+      [
+       68,
+       -562,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 2,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750078",
+     "nombre": "Travesaño 264x150x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Bandejero_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 264,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 264,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 264,
+     "corte_H": 149,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       68,
+       -18,
+       720
+      ],
+      [
+       332,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755750146",
+     "nombre": "Fondo 622x274x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Bandejero_Back panel01",
+     "tipo": "Fondo",
+     "W": 274,
+     "H": 622,
+     "T": 5,
+     "dibujo_W": 264,
+     "dibujo_H": 612,
+     "aviso": "",
+     "corte_W": 274,
+     "corte_H": 622,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       68,
+       -10,
+       108
+      ],
+      [
+       332,
+       -5,
+       720
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755750085",
+     "nombre": "Frente cajón 745x297x18",
+     "nombre_guigui": "Drawer panels01",
+     "nombre_largo": "00-Bandejero_Drawer01_Drawer panels01",
+     "tipo": "Frente cajón",
+     "W": 745,
+     "H": 297,
+     "T": 18,
+     "dibujo_W": 745,
+     "dibujo_H": 297,
+     "aviso": "",
+     "corte_W": 743,
+     "corte_H": 295,
+     "material": "多层实木",
+     "textura": "01暖白",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "FRENTE",
+     "categoria": 40,
+     "caja": [
+      [
+       51.5,
+       -598,
+       91.5
+      ],
+      [
+       348.5,
+       -580,
+       836.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755750115",
+     "nombre": "Lateral caja 450x300x18 A",
+     "nombre_guigui": "Left drawer panel01",
+     "nombre_largo": "00-Bandejero_Drawer01_Left drawer panel01",
+     "tipo": "Lateral caja",
+     "W": 300,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 450,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       81,
+       -580,
+       133
+      ],
+      [
+       99,
+       -130,
+       433
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7432755750092",
+     "nombre": "Frente caja 300x202x18",
+     "nombre_guigui": "Draw box front panel01",
+     "nombre_largo": "00-Bandejero_Drawer01_Draw box front panel01",
+     "tipo": "Frente caja",
+     "W": 300,
+     "H": 202,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 202,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 202,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       99,
+       -580,
+       133
+      ],
+      [
+       301,
+       -562,
+       433
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "7432755750139",
+     "nombre": "Fondo caja 424x212x5",
+     "nombre_guigui": "Drawer base board01",
+     "nombre_largo": "00-Bandejero_Drawer01_Drawer base board01",
+     "tipo": "Fondo caja",
+     "W": 424,
+     "H": 212,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 202,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 212,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       99,
+       -562,
+       148
+      ],
+      [
+       301,
+       -148,
+       153
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    },
+    {
+     "codigo": "7432755750122",
+     "nombre": "Trasera caja 300x202x18",
+     "nombre_guigui": "Drawer back panel01",
+     "nombre_largo": "00-Bandejero_Drawer01_Drawer back panel01",
+     "tipo": "Trasera caja",
+     "W": 300,
+     "H": 202,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 202,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 202,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       99,
+       -148,
+       133
+      ],
+      [
+       301,
+       -130,
+       433
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 11
+    },
+    {
+     "codigo": "7432755750108",
+     "nombre": "Lateral caja 450x300x18 B",
+     "nombre_guigui": "Right drawer panel01",
+     "nombre_largo": "00-Bandejero_Drawer01_Right drawer panel01",
+     "tipo": "Lateral caja",
+     "W": 300,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 450,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       301,
+       -580,
+       133
+      ],
+      [
+       319,
+       -130,
+       433
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 12
+    }
+   ],
+   "herrajes": {
+    "excentricas": 18,
+    "pernos": 18,
+    "receptores": 18,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 1,
+    "correderas_largo": "450mm",
+    "tornillos_corredera": 12
+   },
+   "caja": [
+    [
+     0.0,
+     -598.0,
+     90.0
+    ],
+    [
+     350.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 350,
+   "alto": 780,
+   "prof": 598
+  },
+  {
+   "indice": 1,
+   "nombre": "00-Horno y anafe",
+   "piezas": [
+    {
+     "codigo": "7432755750177",
+     "nombre": "Lateral 780x580x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Horno y anafe_Left board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       350,
+       -580,
+       90
+      ],
+      [
+       368,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750160",
+     "nombre": "Lateral 780x580x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Horno y anafe_Right board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       932,
+       -580,
+       90
+      ],
+      [
+       950,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750207",
+     "nombre": "Piso 564x562x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Horno y anafe_Partition01",
+     "tipo": "Piso",
+     "W": 562,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 562,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 561,
+     "corte_H": 564,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       368,
+       -562,
+       90
+      ],
+      [
+       932,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750214",
+     "nombre": "Zócalo 564x59x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Horno y anafe_Vertical Partition01",
+     "tipo": "Zócalo",
+     "W": 564,
+     "H": 59,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 59,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 57,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -580,
+       90
+      ],
+      [
+       932,
+       -562,
+       149
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 2,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750184",
+     "nombre": "Travesaño 564x150x18",
+     "nombre_guigui": "Vertical Partition02",
+     "nombre_largo": "00-Horno y anafe_Vertical Partition02",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 148,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -18,
+       720
+      ],
+      [
+       932,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755750191",
+     "nombre": "Travesaño 564x51x18",
+     "nombre_guigui": "Vertical Partition03",
+     "nombre_largo": "00-Horno y anafe_Vertical Partition03",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 51,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 51,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 50,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -580,
+       749
+      ],
+      [
+       932,
+       -562,
+       800
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    }
+   ],
+   "herrajes": {
+    "excentricas": 16,
+    "pernos": 16,
+    "receptores": 14,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     350.0,
+     -580.0,
+     90.0
+    ],
+    [
+     950.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 780,
+   "prof": 580
+  },
+  {
+   "indice": 2,
+   "nombre": "00-Cajonera",
+   "piezas": [
+    {
+     "codigo": "7432755750245",
+     "nombre": "Lateral 780x580x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Cajonera_Left board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       950,
+       -580,
+       90
+      ],
+      [
+       968,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750238",
+     "nombre": "Lateral 780x580x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Cajonera_Right board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1532,
+       -580,
+       90
+      ],
+      [
+       1550,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750221",
+     "nombre": "Piso 580x564x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Cajonera_Partition01",
+     "tipo": "Piso",
+     "W": 580,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 564,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       968,
+       -580,
+       90
+      ],
+      [
+       1532,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750443",
+     "nombre": "Travesaño 564x58x18",
+     "nombre_guigui": "Partition02",
+     "nombre_largo": "00-Cajonera_Partition02",
+     "tipo": "Travesaño",
+     "W": 58,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 58,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 57,
+     "corte_H": 564,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       968,
+       -580,
+       372
+      ],
+      [
+       1532,
+       -522,
+       390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 2,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750450",
+     "nombre": "Travesaño 564x68x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Cajonera_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 68,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 68,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 67,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       968,
+       -540,
+       390
+      ],
+      [
+       1532,
+       -522,
+       458
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755750436",
+     "nombre": "Travesaño 564x150x18",
+     "nombre_guigui": "Vertical Partition02",
+     "nombre_largo": "00-Cajonera_Vertical Partition02",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 148,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       968,
+       -18,
+       720
+      ],
+      [
+       1532,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755750375",
+     "nombre": "Frente cajón 597x315x18",
+     "nombre_guigui": "Drawer panels01",
+     "nombre_largo": "00-Cajonera_Drawer01_Drawer panels01",
+     "tipo": "Frente cajón",
+     "W": 315,
+     "H": 597,
+     "T": 18,
+     "dibujo_W": 315,
+     "dibujo_H": 597,
+     "aviso": "",
+     "corte_W": 313,
+     "corte_H": 595,
+     "material": "多层实木",
+     "textura": "01暖白",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "FRENTE",
+     "categoria": 40,
+     "caja": [
+      [
+       951.5,
+       -598,
+       91.5
+      ],
+      [
+       1548.5,
+       -580,
+       406.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755750313",
+     "nombre": "Frente cajón 597x195x18 A",
+     "nombre_guigui": "Drawer panels01",
+     "nombre_largo": "00-Cajonera_Drawer02_Drawer panels01",
+     "tipo": "Frente cajón",
+     "W": 195,
+     "H": 597,
+     "T": 18,
+     "dibujo_W": 195,
+     "dibujo_H": 597,
+     "aviso": "",
+     "corte_W": 193,
+     "corte_H": 595,
+     "material": "多层实木",
+     "textura": "01暖白",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "FRENTE",
+     "categoria": 40,
+     "caja": [
+      [
+       951.5,
+       -598,
+       443.5
+      ],
+      [
+       1548.5,
+       -580,
+       638.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7432755750252",
+     "nombre": "Frente cajón 597x195x18 B",
+     "nombre_guigui": "Drawer panels01",
+     "nombre_largo": "00-Cajonera_Drawer03_Drawer panels01",
+     "tipo": "Frente cajón",
+     "W": 195,
+     "H": 597,
+     "T": 18,
+     "dibujo_W": 195,
+     "dibujo_H": 597,
+     "aviso": "",
+     "corte_W": 193,
+     "corte_H": 595,
+     "material": "多层实木",
+     "textura": "01暖白",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "FRENTE",
+     "categoria": 40,
+     "caja": [
+      [
+       951.5,
+       -598,
+       641.5
+      ],
+      [
+       1548.5,
+       -580,
+       836.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "7432755750405",
+     "nombre": "Lateral caja 450x152x18 A",
+     "nombre_guigui": "Left drawer panel01",
+     "nombre_largo": "00-Cajonera_Drawer01_Left drawer panel01",
+     "tipo": "Lateral caja",
+     "W": 152,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 450,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       981,
+       -580,
+       128
+      ],
+      [
+       999,
+       -130,
+       280
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    },
+    {
+     "codigo": "7432755750382",
+     "nombre": "Frente caja 502x152x18",
+     "nombre_guigui": "Draw box front panel01",
+     "nombre_largo": "00-Cajonera_Drawer01_Draw box front panel01",
+     "tipo": "Frente caja",
+     "W": 152,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 502,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -580,
+       128
+      ],
+      [
+       1501,
+       -562,
+       280
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 11
+    },
+    {
+     "codigo": "7432755750429",
+     "nombre": "Fondo caja 512x424x5 A",
+     "nombre_guigui": "Drawer base board01",
+     "nombre_largo": "00-Cajonera_Drawer01_Drawer base board01",
+     "tipo": "Fondo caja",
+     "W": 424,
+     "H": 512,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 512,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -562,
+       143
+      ],
+      [
+       1501,
+       -148,
+       148
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 12
+    },
+    {
+     "codigo": "7432755750412",
+     "nombre": "Trasera caja 502x152x18",
+     "nombre_guigui": "Drawer back panel01",
+     "nombre_largo": "00-Cajonera_Drawer01_Drawer back panel01",
+     "tipo": "Trasera caja",
+     "W": 152,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 502,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -148,
+       128
+      ],
+      [
+       1501,
+       -130,
+       280
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 13
+    },
+    {
+     "codigo": "7432755750399",
+     "nombre": "Lateral caja 450x152x18 B",
+     "nombre_guigui": "Right drawer panel01",
+     "nombre_largo": "00-Cajonera_Drawer01_Right drawer panel01",
+     "tipo": "Lateral caja",
+     "W": 152,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 450,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       1501,
+       -580,
+       128
+      ],
+      [
+       1519,
+       -130,
+       280
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 14
+    },
+    {
+     "codigo": "7432755750344",
+     "nombre": "Lateral caja 450x130x18 A",
+     "nombre_guigui": "Left drawer panel01",
+     "nombre_largo": "00-Cajonera_Drawer02_Left drawer panel01",
+     "tipo": "Lateral caja",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       981,
+       -580,
+       485
+      ],
+      [
+       999,
+       -130,
+       615
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 15
+    },
+    {
+     "codigo": "7432755750320",
+     "nombre": "Frente caja 502x130x18 A",
+     "nombre_guigui": "Draw box front panel01",
+     "nombre_largo": "00-Cajonera_Drawer02_Draw box front panel01",
+     "tipo": "Frente caja",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -580,
+       485
+      ],
+      [
+       1501,
+       -562,
+       615
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 16
+    },
+    {
+     "codigo": "7432755750368",
+     "nombre": "Fondo caja 512x424x5 B",
+     "nombre_guigui": "Drawer base board01",
+     "nombre_largo": "00-Cajonera_Drawer02_Drawer base board01",
+     "tipo": "Fondo caja",
+     "W": 424,
+     "H": 512,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 512,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -562,
+       500
+      ],
+      [
+       1501,
+       -148,
+       505
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 17
+    },
+    {
+     "codigo": "7432755750351",
+     "nombre": "Trasera caja 502x130x18 A",
+     "nombre_guigui": "Drawer back panel01",
+     "nombre_largo": "00-Cajonera_Drawer02_Drawer back panel01",
+     "tipo": "Trasera caja",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -148,
+       485
+      ],
+      [
+       1501,
+       -130,
+       615
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 18
+    },
+    {
+     "codigo": "7432755750337",
+     "nombre": "Lateral caja 450x130x18 C",
+     "nombre_guigui": "Right drawer panel01",
+     "nombre_largo": "00-Cajonera_Drawer02_Right drawer panel01",
+     "tipo": "Lateral caja",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       1501,
+       -580,
+       485
+      ],
+      [
+       1519,
+       -130,
+       615
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 19
+    },
+    {
+     "codigo": "7432755750283",
+     "nombre": "Lateral caja 450x130x18 B",
+     "nombre_guigui": "Left drawer panel01",
+     "nombre_largo": "00-Cajonera_Drawer03_Left drawer panel01",
+     "tipo": "Lateral caja",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       981,
+       -580,
+       665
+      ],
+      [
+       999,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 20
+    },
+    {
+     "codigo": "7432755750269",
+     "nombre": "Frente caja 502x130x18 B",
+     "nombre_guigui": "Draw box front panel01",
+     "nombre_largo": "00-Cajonera_Drawer03_Draw box front panel01",
+     "tipo": "Frente caja",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -580,
+       665
+      ],
+      [
+       1501,
+       -562,
+       795
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 21
+    },
+    {
+     "codigo": "7432755750290",
+     "nombre": "Trasera caja 502x130x18 B",
+     "nombre_guigui": "Drawer back panel01",
+     "nombre_largo": "00-Cajonera_Drawer03_Drawer back panel01",
+     "tipo": "Trasera caja",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -148,
+       665
+      ],
+      [
+       1501,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 22
+    },
+    {
+     "codigo": "7432755750276",
+     "nombre": "Lateral caja 450x130x18 D",
+     "nombre_guigui": "Right drawer panel01",
+     "nombre_largo": "00-Cajonera_Drawer03_Right drawer panel01",
+     "tipo": "Lateral caja",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       1501,
+       -580,
+       665
+      ],
+      [
+       1519,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 23
+    },
+    {
+     "codigo": "7432755750306",
+     "nombre": "Fondo caja 512x424x5 C",
+     "nombre_guigui": "Drawer base board01",
+     "nombre_largo": "00-Cajonera_Drawer03_Drawer base board01",
+     "tipo": "Fondo caja",
+     "W": 424,
+     "H": 512,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 512,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -562,
+       680
+      ],
+      [
+       1501,
+       -148,
+       685
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 24
+    }
+   ],
+   "herrajes": {
+    "excentricas": 42,
+    "pernos": 42,
+    "receptores": 38,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 3,
+    "correderas_largo": "450mm",
+    "tornillos_corredera": 36
+   },
+   "caja": [
+    [
+     950.0,
+     -598.0,
+     90.0
+    ],
+    [
+     1550.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 780,
+   "prof": 598
+  },
+  {
+   "indice": 3,
+   "nombre": "00-Bajo mesada doble c/tacho",
+   "piezas": [
+    {
+     "codigo": "7432755750467",
+     "nombre": "Lateral 780x580x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_Left board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1550,
+       -580,
+       90
+      ],
+      [
+       1568,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 1,
+      "pernos": 1,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750474",
+     "nombre": "Lateral 780x580x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_Right board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       2532,
+       -580,
+       90
+      ],
+      [
+       2550,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750481",
+     "nombre": "Piso 964x580x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_Partition01",
+     "tipo": "Piso",
+     "W": 580,
+     "H": 964,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 964,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 964,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1568,
+       -580,
+       90
+      ],
+      [
+       2532,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750498",
+     "nombre": "Estante 964x580x18",
+     "nombre_guigui": "Partition02",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_Partition02",
+     "tipo": "Estante",
+     "W": 580,
+     "H": 964,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 964,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 964,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1568,
+       -580,
+       480
+      ],
+      [
+       2532,
+       0,
+       498
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750566",
+     "nombre": "Travesaño 964x150x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 964,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 964,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 964,
+     "corte_H": 149,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       1568,
+       -18,
+       720
+      ],
+      [
+       2532,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755750559",
+     "nombre": "Fondo 974x382x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_Back panel01",
+     "tipo": "Fondo",
+     "W": 974,
+     "H": 382,
+     "T": 5,
+     "dibujo_W": 964,
+     "dibujo_H": 372,
+     "aviso": "",
+     "corte_W": 974,
+     "corte_H": 382,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       1568,
+       -10,
+       108
+      ],
+      [
+       2532,
+       -5,
+       480
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755750542",
+     "nombre": "Fondo 974x232x5",
+     "nombre_guigui": "Back panel02",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_Back panel02",
+     "tipo": "Fondo",
+     "W": 974,
+     "H": 232,
+     "T": 5,
+     "dibujo_W": 964,
+     "dibujo_H": 222,
+     "aviso": "",
+     "corte_W": 974,
+     "corte_H": 232,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       1568,
+       -10,
+       498
+      ],
+      [
+       2532,
+       -5,
+       720
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755750504",
+     "nombre": "Puerta 744x497x18 A",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_单开门",
+     "tipo": "Puerta",
+     "W": 497,
+     "H": 744,
+     "T": 18,
+     "dibujo_W": 497,
+     "dibujo_H": 744,
+     "aviso": "",
+     "corte_W": 495,
+     "corte_H": 742,
+     "material": "多层实木",
+     "textura": "01暖白",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       1551.5,
+       -598,
+       91.5
+      ],
+      [
+       2048.5,
+       -580,
+       835.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7432755750528",
+     "nombre": "Puerta 744x497x18 B",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Bajo mesada doble c/tacho_单开门",
+     "tipo": "Puerta",
+     "W": 497,
+     "H": 744,
+     "T": 18,
+     "dibujo_W": 497,
+     "dibujo_H": 744,
+     "aviso": "",
+     "corte_W": 495,
+     "corte_H": 742,
+     "material": "多层实木",
+     "textura": "01暖白",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       2051.5,
+       -598,
+       91.5
+      ],
+      [
+       2548.5,
+       -580,
+       835.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    }
+   ],
+   "herrajes": {
+    "excentricas": 13,
+    "pernos": 13,
+    "receptores": 12,
+    "bisagras": 4,
+    "tornillos_bisagra": 16,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     1550.0,
+     -598.0,
+     90.0
+    ],
+    [
+     2550.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 1000,
+   "alto": 780,
+   "prof": 598
+  },
+  {
+   "indice": 4,
+   "nombre": "00-Lavarropa",
+   "piezas": [
+    {
+     "codigo": "7432755750573",
+     "nombre": "Lateral 870x580x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Lavarropa_Left board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 870,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 870,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 870,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       2550,
+       -580,
+       0
+      ],
+      [
+       2568,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 8,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750580",
+     "nombre": "Lateral 870x580x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Lavarropa_Right board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 870,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 870,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 870,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3182,
+       -580,
+       0
+      ],
+      [
+       3200,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750610",
+     "nombre": "Travesaño 614x150x18 C",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "00-Lavarropa_Roof plate01",
+     "tipo": "Travesaño",
+     "W": 150,
+     "H": 614,
+     "T": 18,
+     "dibujo_W": 150,
+     "dibujo_H": 614,
+     "aviso": "",
+     "corte_W": 149,
+     "corte_H": 614,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       2568,
+       -580,
+       852
+      ],
+      [
+       3182,
+       -430,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750603",
+     "nombre": "Travesaño 614x150x18 A",
+     "nombre_guigui": "Vertical Partition02",
+     "nombre_largo": "00-Lavarropa_Vertical Partition02",
+     "tipo": "Travesaño",
+     "W": 614,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 614,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 614,
+     "corte_H": 148,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       2568,
+       -18,
+       0
+      ],
+      [
+       3182,
+       0,
+       150
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750597",
+     "nombre": "Travesaño 614x150x18 B",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Lavarropa_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 614,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 614,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 614,
+     "corte_H": 148,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       2568,
+       -18,
+       720
+      ],
+      [
+       3182,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    }
+   ],
+   "herrajes": {
+    "excentricas": 12,
+    "pernos": 12,
+    "receptores": 14,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     2550.0,
+     -580.0,
+     0.0
+    ],
+    [
+     3200.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 650,
+   "alto": 870,
+   "prof": 580
+  },
+  {
+   "indice": 5,
+   "nombre": "00-Alacena sobre heladera",
+   "piezas": [
+    {
+     "codigo": "7432755750634",
+     "nombre": "Lateral 580x376.5x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Alacena sobre heladera_Left board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 376.5,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 376.5,
+     "aviso": "",
+     "corte_W": 578,
+     "corte_H": 376.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3200,
+       -580,
+       1995.5
+      ],
+      [
+       3218,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750641",
+     "nombre": "Lateral 580x376.5x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Alacena sobre heladera_Right board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 376.5,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 376.5,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 376.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3882,
+       -580,
+       1995.5
+      ],
+      [
+       3900,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750658",
+     "nombre": "Piso 664x580x18",
+     "nombre_guigui": "Base board01",
+     "nombre_largo": "00-Alacena sobre heladera_Base board01",
+     "tipo": "Piso",
+     "W": 580,
+     "H": 664,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 664,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 664,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3218,
+       -580,
+       1995.5
+      ],
+      [
+       3882,
+       0,
+       2013.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 2,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750627",
+     "nombre": "Techo 700x580x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "00-Alacena sobre heladera_Roof plate01",
+     "tipo": "Techo",
+     "W": 580,
+     "H": 700,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 700,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 700,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3200,
+       -580,
+       2372
+      ],
+      [
+       3900,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 8,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       700
+      ]
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750696",
+     "nombre": "Travesaño 664x136.33x18",
+     "nombre_guigui": "Front panel, front gear01",
+     "nombre_largo": "00-Alacena sobre heladera_Sealing strip01_Front panel, front gear01",
+     "tipo": "Travesaño",
+     "W": 136.33,
+     "H": 664,
+     "T": 18,
+     "dibujo_W": 136.33,
+     "dibujo_H": 664,
+     "aviso": "",
+     "corte_W": 135.33,
+     "corte_H": 664,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       3218,
+       -18,
+       2013.5
+      ],
+      [
+       3882,
+       0,
+       2149.83
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755750689",
+     "nombre": "Fondo 674x368.5x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Alacena sobre heladera_Back panel01",
+     "tipo": "Fondo",
+     "W": 674,
+     "H": 368.5,
+     "T": 5,
+     "dibujo_W": 664,
+     "dibujo_H": 358.5,
+     "aviso": "",
+     "corte_W": 674,
+     "corte_H": 368.5,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       3218,
+       -30,
+       2013.5
+      ],
+      [
+       3882,
+       -25,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755750665",
+     "nombre": "Puerta 697x416.5x18",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Alacena sobre heladera_单开门",
+     "tipo": "Puerta",
+     "W": 697,
+     "H": 416.5,
+     "T": 18,
+     "dibujo_W": 697,
+     "dibujo_H": 416.5,
+     "aviso": "",
+     "corte_W": 695,
+     "corte_H": 414.5,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       3201.5,
+       -598,
+       1972.0
+      ],
+      [
+       3898.5,
+       -580,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    }
+   ],
+   "herrajes": {
+    "excentricas": 18,
+    "pernos": 18,
+    "receptores": 18,
+    "bisagras": 2,
+    "tornillos_bisagra": 8,
+    "led": [
+     700
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     3200.0,
+     -598.0,
+     1971.9998779296875
+    ],
+    [
+     3900.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 700,
+   "alto": 418.0,
+   "prof": 598
+  },
+  {
+   "indice": 6,
+   "nombre": "00-Alacena simple batiente 600",
+   "piezas": [
+    {
+     "codigo": "7432755750719",
+     "nombre": "Lateral 840.5x400x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Alacena simple batiente 600_Left board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       2550,
+       -400,
+       1531.5
+      ],
+      [
+       2568,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750726",
+     "nombre": "Lateral 840.5x400x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Alacena simple batiente 600_Right board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3182,
+       -400,
+       1531.5
+      ],
+      [
+       3200,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750733",
+     "nombre": "Piso 650x400x18",
+     "nombre_guigui": "Base board01",
+     "nombre_largo": "00-Alacena simple batiente 600_Base board01",
+     "tipo": "Piso",
+     "W": 400,
+     "H": 650,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 650,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 649,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       2550,
+       -400,
+       1513.5
+      ],
+      [
+       3200,
+       0,
+       1531.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 8,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       650
+      ]
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750764",
+     "nombre": "Estante 614x360x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Alacena simple batiente 600_Partition01",
+     "tipo": "Estante",
+     "W": 360,
+     "H": 614,
+     "T": 18,
+     "dibujo_W": 360,
+     "dibujo_H": 614,
+     "aviso": "",
+     "corte_W": 359,
+     "corte_H": 614,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       2568,
+       -390,
+       1942.75
+      ],
+      [
+       3182,
+       -30,
+       1960.75
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750702",
+     "nombre": "Techo 650x400x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "00-Alacena simple batiente 600_Roof plate01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 650,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 650,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 650,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       2550,
+       -400,
+       2372
+      ],
+      [
+       3200,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 8,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       650
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755750788",
+     "nombre": "Travesaño 614x146.78x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Alacena simple batiente 600_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 614,
+     "H": 146.78,
+     "T": 18,
+     "dibujo_W": 614,
+     "dibujo_H": 146.78,
+     "aviso": "",
+     "corte_W": 614,
+     "corte_H": 145.78,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       2568,
+       -18,
+       1531.5
+      ],
+      [
+       3182,
+       0,
+       1678.28
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755750771",
+     "nombre": "Fondo 850.5x624x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Alacena simple batiente 600_Back panel01",
+     "tipo": "Fondo",
+     "W": 624,
+     "H": 850.5,
+     "T": 5,
+     "dibujo_W": 614,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 624,
+     "corte_H": 850.5,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       2568,
+       -30,
+       1531.5
+      ],
+      [
+       3182,
+       -25,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755750740",
+     "nombre": "Puerta 898.5x647x18",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Alacena simple batiente 600_单开门",
+     "tipo": "Puerta",
+     "W": 647,
+     "H": 898.5,
+     "T": 18,
+     "dibujo_W": 647,
+     "dibujo_H": 898.5,
+     "aviso": "",
+     "corte_W": 645,
+     "corte_H": 896.5,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       2551.5,
+       -418,
+       1490
+      ],
+      [
+       3198.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    }
+   ],
+   "herrajes": {
+    "excentricas": 24,
+    "pernos": 24,
+    "receptores": 24,
+    "bisagras": 2,
+    "tornillos_bisagra": 8,
+    "led": [
+     650,
+     650
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     2550.0,
+     -418.0,
+     1490.0
+    ],
+    [
+     3200.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 650,
+   "alto": 900,
+   "prof": 418
+  },
+  {
+   "indice": 7,
+   "nombre": "00-Alacena doble batiente 800",
+   "piezas": [
+    {
+     "codigo": "7432755750801",
+     "nombre": "Lateral 840.5x400x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Alacena doble batiente 800_Left board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1550,
+       -400,
+       1531.5
+      ],
+      [
+       1568,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750818",
+     "nombre": "Lateral 840.5x400x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Alacena doble batiente 800_Right board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       2532,
+       -400,
+       1531.5
+      ],
+      [
+       2550,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750825",
+     "nombre": "Piso 1000x400x18",
+     "nombre_guigui": "Base board01",
+     "nombre_largo": "00-Alacena doble batiente 800_Base board01",
+     "tipo": "Piso",
+     "W": 400,
+     "H": 1000,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 1000,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 1000,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1550,
+       -400,
+       1513.5
+      ],
+      [
+       2550,
+       0,
+       1531.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 10,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       1000
+      ]
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750870",
+     "nombre": "Estante 964x370x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Alacena doble batiente 800_Partition01",
+     "tipo": "Estante",
+     "W": 370,
+     "H": 964,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 964,
+     "aviso": "GuiGui dibuja 400x964 pero corta 370x964 (spec)",
+     "corte_W": 368,
+     "corte_H": 964,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1568,
+       -400,
+       1942.75
+      ],
+      [
+       2532,
+       0,
+       1960.75
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750795",
+     "nombre": "Techo 1000x400x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "00-Alacena doble batiente 800_Roof plate01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 1000,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 1000,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 1000,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1550,
+       -400,
+       2372
+      ],
+      [
+       2550,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 8,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       1000
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755750894",
+     "nombre": "Travesaño 964x146.78x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Alacena doble batiente 800_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 964,
+     "H": 146.78,
+     "T": 18,
+     "dibujo_W": 964,
+     "dibujo_H": 146.78,
+     "aviso": "",
+     "corte_W": 964,
+     "corte_H": 145.78,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       1568,
+       -18,
+       1531.5
+      ],
+      [
+       2532,
+       0,
+       1678.28
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755750887",
+     "nombre": "Fondo 974x850.5x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Alacena doble batiente 800_Back panel01",
+     "tipo": "Fondo",
+     "W": 974,
+     "H": 850.5,
+     "T": 5,
+     "dibujo_W": 964,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 974,
+     "corte_H": 850.5,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       1568,
+       -30,
+       1531.5
+      ],
+      [
+       2532,
+       -25,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755750832",
+     "nombre": "Puerta 898.5x497x18 A",
+     "nombre_guigui": "双开左",
+     "nombre_largo": "00-Alacena doble batiente 800_双开左",
+     "tipo": "Puerta",
+     "W": 497,
+     "H": 898.5,
+     "T": 18,
+     "dibujo_W": 497,
+     "dibujo_H": 898.5,
+     "aviso": "",
+     "corte_W": 495,
+     "corte_H": 896.5,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       1551.5,
+       -418,
+       1490
+      ],
+      [
+       2048.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7432755750856",
+     "nombre": "Puerta 898.5x497x18 B",
+     "nombre_guigui": "双开右",
+     "nombre_largo": "00-Alacena doble batiente 800_双开右",
+     "tipo": "Puerta",
+     "W": 497,
+     "H": 898.5,
+     "T": 18,
+     "dibujo_W": 497,
+     "dibujo_H": 898.5,
+     "aviso": "",
+     "corte_W": 495,
+     "corte_H": 896.5,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       2051.5,
+       -418,
+       1490
+      ],
+      [
+       2548.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    }
+   ],
+   "herrajes": {
+    "excentricas": 26,
+    "pernos": 26,
+    "receptores": 26,
+    "bisagras": 4,
+    "tornillos_bisagra": 16,
+    "led": [
+     1000,
+     1000
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     1550.0,
+     -418.0,
+     1490.0
+    ],
+    [
+     2550.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 1000,
+   "alto": 900,
+   "prof": 418
+  },
+  {
+   "indice": 8,
+   "nombre": "00-Spar s/extracción",
+   "piezas": [
+    {
+     "codigo": "7432755750917",
+     "nombre": "Lateral 773.33x400x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Spar s/extracción_Left board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 773.33,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 773.33,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 773.33,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       350,
+       -400,
+       1598.67
+      ],
+      [
+       368,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755750924",
+     "nombre": "Lateral 773.33x400x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Spar s/extracción_Right board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 773.33,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 773.33,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 773.33,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       932,
+       -400,
+       1598.67
+      ],
+      [
+       950,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755750962",
+     "nombre": "Estante 564x400x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Spar s/extracción_Partition01",
+     "tipo": "Estante",
+     "W": 400,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 564,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       368,
+       -400,
+       1696.54
+      ],
+      [
+       932,
+       0,
+       1714.54
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755750955",
+     "nombre": "Estante 564x370x18",
+     "nombre_guigui": "Partition02",
+     "nombre_largo": "00-Spar s/extracción_Partition02",
+     "tipo": "Estante",
+     "W": 370,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 370,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 369,
+     "corte_H": 564,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       368,
+       -400,
+       2034.27
+      ],
+      [
+       932,
+       -30,
+       2052.27
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755750900",
+     "nombre": "Techo 600x400x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "00-Spar s/extracción_Roof plate01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 600,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 600,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 598,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       350,
+       -400,
+       2372
+      ],
+      [
+       950,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       600
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755751006",
+     "nombre": "Zócalo 564x100x18 A",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Spar s/extracción_Fascia board02_Vertical Partition01",
+     "tipo": "Zócalo",
+     "W": 564,
+     "H": 100,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 100,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 99,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -400,
+       1596.54
+      ],
+      [
+       932,
+       -382,
+       1696.54
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755751013",
+     "nombre": "Zócalo 564x100x18 B",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Spar s/extracción_Fascia board01_Vertical Partition01",
+     "tipo": "Zócalo",
+     "W": 564,
+     "H": 100,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 100,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 99,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -18,
+       1596.54
+      ],
+      [
+       932,
+       0,
+       1696.54
+      ]
+     ],
+     "normal": [
+      0,
+      1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755750993",
+     "nombre": "Fondo 667.46x574x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Spar s/extracción_Back panel01",
+     "tipo": "Fondo",
+     "W": 574,
+     "H": 667.46,
+     "T": 5,
+     "dibujo_W": 564,
+     "dibujo_H": 657.46,
+     "aviso": "",
+     "corte_W": 574,
+     "corte_H": 667.46,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       368,
+       -30,
+       1714.54
+      ],
+      [
+       932,
+       -25,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7432755750931",
+     "nombre": "Puerta 715.46x294.15x18",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Spar s/extracción_单开门",
+     "tipo": "Puerta",
+     "W": 294.15,
+     "H": 715.46,
+     "T": 18,
+     "dibujo_W": 294.15,
+     "dibujo_H": 715.46,
+     "aviso": "",
+     "corte_W": 292.15,
+     "corte_H": 713.46,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       351.5,
+       -418,
+       1673.04
+      ],
+      [
+       645.65,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "7432755750979",
+     "nombre": "Puerta 715.46x299.85x18",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Spar s/extracción_单开门",
+     "tipo": "Puerta",
+     "W": 299.85,
+     "H": 715.46,
+     "T": 18,
+     "dibujo_W": 299.85,
+     "dibujo_H": 715.46,
+     "aviso": "",
+     "corte_W": 297.85,
+     "corte_H": 713.46,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       648.65,
+       -418,
+       1673.04
+      ],
+      [
+       948.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    }
+   ],
+   "herrajes": {
+    "excentricas": 20,
+    "pernos": 20,
+    "receptores": 20,
+    "bisagras": 4,
+    "tornillos_bisagra": 16,
+    "led": [
+     600
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     350.0,
+     -418.0,
+     1596.5374094236497
+    ],
+    [
+     950.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 793.46,
+   "prof": 418
+  },
+  {
+   "indice": 9,
+   "nombre": "02-Uñero",
+   "piezas": [
+    {
+     "codigo": "7432755751037",
+     "nombre": "Uñero 2200x50x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "02-Uñero_Vertical Partition01",
+     "tipo": "Uñero",
+     "W": 50,
+     "H": 2200,
+     "T": 18,
+     "dibujo_W": 50,
+     "dibujo_H": 2200,
+     "aviso": "",
+     "corte_W": 48,
+     "corte_H": 2200,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       350,
+       -580,
+       800
+      ],
+      [
+       2550,
+       -530,
+       818
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      -1
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 7,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755751020",
+     "nombre": "Uñero 2200x52x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "02-Uñero_Roof plate01",
+     "tipo": "Uñero",
+     "W": 52,
+     "H": 2200,
+     "T": 18,
+     "dibujo_W": 52,
+     "dibujo_H": 2200,
+     "aviso": "",
+     "corte_W": 51,
+     "corte_H": 2200,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       350,
+       -548,
+       818
+      ],
+      [
+       2550,
+       -530,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 5,
+      "pernos": 5,
+      "receptores": 3,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    }
+   ],
+   "herrajes": {
+    "excentricas": 7,
+    "pernos": 7,
+    "receptores": 10,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     350.0,
+     -580.0,
+     800.0
+    ],
+    [
+     2550.0,
+     -530.0,
+     870.0
+    ]
+   ],
+   "ancho": 2200,
+   "alto": 70,
+   "prof": 50
+  },
+  {
+   "indice": 10,
+   "nombre": "01-Uñero",
+   "piezas": [
+    {
+     "codigo": "7432755751051",
+     "nombre": "Uñero 280.93x50x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "01-Uñero_Vertical Partition01",
+     "tipo": "Uñero",
+     "W": 50,
+     "H": 280.93,
+     "T": 18,
+     "dibujo_W": 50,
+     "dibujo_H": 280.93,
+     "aviso": "",
+     "corte_W": 48,
+     "corte_H": 279.93,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       69.07,
+       -580,
+       800
+      ],
+      [
+       350,
+       -530,
+       818
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      -1
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 1,
+      "pernos": 1,
+      "receptores": 2,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755751044",
+     "nombre": "Uñero 280.93x52x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "01-Uñero_Roof plate01",
+     "tipo": "Uñero",
+     "W": 52,
+     "H": 280.93,
+     "T": 18,
+     "dibujo_W": 52,
+     "dibujo_H": 280.93,
+     "aviso": "",
+     "corte_W": 51,
+     "corte_H": 279.93,
+     "material": "多层实木",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       69.07,
+       -548,
+       818
+      ],
+      [
+       350,
+       -530,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 3,
+      "pernos": 3,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    }
+   ],
+   "herrajes": {
+    "excentricas": 4,
+    "pernos": 4,
+    "receptores": 2,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     69.07246398925781,
+     -580.0,
+     800.0
+    ],
+    [
+     350.0,
+     -530.0,
+     870.0
+    ]
+   ],
+   "ancho": 280.93,
+   "alto": 70,
+   "prof": 50
+  },
+  {
+   "indice": 11,
+   "nombre": "00-Escobero",
+   "piezas": [
+    {
+     "codigo": "7432755751150",
+     "nombre": "Zócalo 462x90x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Escobero_Kick line01_Left board01",
+     "tipo": "Zócalo",
+     "W": 462,
+     "H": 90,
+     "T": 18,
+     "dibujo_W": 462,
+     "dibujo_H": 90,
+     "aviso": "",
+     "corte_W": 462,
+     "corte_H": 90,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3900,
+       -480,
+       0
+      ],
+      [
+       3918,
+       -18,
+       90
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 2,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755751167",
+     "nombre": "Zócalo 462x90x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Escobero_Kick line01_Right board01",
+     "tipo": "Zócalo",
+     "W": 462,
+     "H": 90,
+     "T": 18,
+     "dibujo_W": 462,
+     "dibujo_H": 90,
+     "aviso": "",
+     "corte_W": 462,
+     "corte_H": 90,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       4232,
+       -480,
+       0
+      ],
+      [
+       4250,
+       -18,
+       90
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755751075",
+     "nombre": "Lateral 2282x580x18",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Escobero_Left board01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 2282,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 2282,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 2282,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3900,
+       -580,
+       90
+      ],
+      [
+       3918,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 12,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755751082",
+     "nombre": "Parante 2264x580x18",
+     "nombre_guigui": "Vertical Partition02",
+     "nombre_largo": "00-Escobero_Vertical Partition02",
+     "tipo": "Parante",
+     "W": 580,
+     "H": 2264,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 2264,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 2264,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       4182,
+       -580,
+       108
+      ],
+      [
+       4200,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 10,
+      "bisagras": 0,
+      "tornillos_bisagra": 10,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755751174",
+     "nombre": "Estante 580x332x18",
+     "nombre_guigui": "Base board01",
+     "nombre_largo": "00-Escobero_Base board01",
+     "tipo": "Estante",
+     "W": 580,
+     "H": 332,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 332,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 331,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3918,
+       -580,
+       90
+      ],
+      [
+       4250,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 7,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755751235",
+     "nombre": "Estante 550x264x18 A",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Escobero_Partition01",
+     "tipo": "Estante",
+     "W": 550,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 550,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 549,
+     "corte_H": 264,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3918,
+       -580,
+       1470.84
+      ],
+      [
+       4182,
+       -30,
+       1488.84
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755751204",
+     "nombre": "Estante 550x264x18 B",
+     "nombre_guigui": "Partition02",
+     "nombre_largo": "00-Escobero_Partition02",
+     "tipo": "Estante",
+     "W": 550,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 550,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 549,
+     "corte_H": 264,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3918,
+       -580,
+       1488.84
+      ],
+      [
+       4182,
+       -30,
+       1506.84
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 3,
+      "pernos": 3,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755751198",
+     "nombre": "Estante 550x264x18 C",
+     "nombre_guigui": "Partition03",
+     "nombre_largo": "00-Escobero_Partition03",
+     "tipo": "Estante",
+     "W": 550,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 550,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 549,
+     "corte_H": 264,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3918,
+       -580,
+       1904
+      ],
+      [
+       4182,
+       -30,
+       1922
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7432755751068",
+     "nombre": "Techo 580x350x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "00-Escobero_Roof plate01",
+     "tipo": "Techo",
+     "W": 580,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 349,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3900,
+       -580,
+       2372
+      ],
+      [
+       4250,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 7,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       350
+      ]
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "7432755751143",
+     "nombre": "Zócalo 350x90x18 A",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Escobero_Kick line01_Vertical Partition01",
+     "tipo": "Zócalo",
+     "W": 90,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 90,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 90,
+     "corte_H": 350,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       3900,
+       -498,
+       0
+      ],
+      [
+       4250,
+       -480,
+       90
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    },
+    {
+     "codigo": "7432755751136",
+     "nombre": "Zócalo 350x90x18 B",
+     "nombre_guigui": "Skirting board front panel01",
+     "nombre_largo": "00-Escobero_Kick line01_Skirting board front panel01",
+     "tipo": "Zócalo",
+     "W": 90,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 90,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 90,
+     "corte_H": 350,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       3900,
+       -18,
+       0
+      ],
+      [
+       4250,
+       0,
+       90
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 11
+    },
+    {
+     "codigo": "7432755751242",
+     "nombre": "Tapa 2264x50x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Escobero_Vertical Partition01",
+     "tipo": "Tapa",
+     "W": 50,
+     "H": 2264,
+     "T": 18,
+     "dibujo_W": 50,
+     "dibujo_H": 2264,
+     "aviso": "",
+     "corte_W": 49,
+     "corte_H": 2264,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       4200,
+       -580,
+       108
+      ],
+      [
+       4250,
+       -562,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 5,
+      "pernos": 5,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 12
+    },
+    {
+     "codigo": "7432755751112",
+     "nombre": "Travesaño 264x154.97x18",
+     "nombre_guigui": "Vertical Partition03",
+     "nombre_largo": "00-Escobero_Vertical Partition03",
+     "tipo": "Travesaño",
+     "W": 264,
+     "H": 154.97,
+     "T": 18,
+     "dibujo_W": 264,
+     "dibujo_H": 154.97,
+     "aviso": "",
+     "corte_W": 264,
+     "corte_H": 152.97,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       3918,
+       -18,
+       1160.44
+      ],
+      [
+       4182,
+       0,
+       1315.41
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 13
+    },
+    {
+     "codigo": "7432755751181",
+     "nombre": "Fondo 2274x274x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Escobero_Back panel01",
+     "tipo": "Fondo",
+     "W": 274,
+     "H": 2274,
+     "T": 5,
+     "dibujo_W": 264,
+     "dibujo_H": 2264,
+     "aviso": "",
+     "corte_W": 274,
+     "corte_H": 2274,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       3918,
+       -30,
+       108
+      ],
+      [
+       4182,
+       -25,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 14
+    },
+    {
+     "codigo": "7432755751211",
+     "nombre": "Puerta 1395.84x297x18",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Escobero_单开门",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 1395.84,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 1395.84,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 1393.84,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       3901.5,
+       -598,
+       91.5
+      ],
+      [
+       4198.5,
+       -580,
+       1487.34
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 3,
+      "tornillos_bisagra": 6,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 15
+    },
+    {
+     "codigo": "7432755751099",
+     "nombre": "Puerta 898.16x297x18",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Escobero_单开门",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 898.16,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 898.16,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 896.16,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       3901.5,
+       -598,
+       1490.34
+      ],
+      [
+       4198.5,
+       -580,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 16
+    }
+   ],
+   "herrajes": {
+    "excentricas": 46,
+    "pernos": 46,
+    "receptores": 46,
+    "bisagras": 5,
+    "tornillos_bisagra": 20,
+    "led": [
+     350
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     3900.0,
+     -598.0,
+     0.0
+    ],
+    [
+     4250.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 350,
+   "alto": 2390,
+   "prof": 598
+  },
+  {
+   "indice": 12,
+   "nombre": "00-Alacena simple c/microondas 600",
+   "piezas": [
+    {
+     "codigo": "7432755751266",
+     "nombre": "Lateral 840.5x400x18 A",
+     "nombre_guigui": "Left board01",
+     "nombre_largo": "00-Alacena simple c/microondas 600_Left board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       950,
+       -400,
+       1531.5
+      ],
+      [
+       968,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755751273",
+     "nombre": "Lateral 840.5x400x18 B",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Alacena simple c/microondas 600_Right board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1532,
+       -400,
+       1531.5
+      ],
+      [
+       1550,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755751280",
+     "nombre": "Piso 600x400x18",
+     "nombre_guigui": "Base board01",
+     "nombre_largo": "00-Alacena simple c/microondas 600_Base board01",
+     "tipo": "Piso",
+     "W": 400,
+     "H": 600,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 600,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 599,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       950,
+       -400,
+       1513.5
+      ],
+      [
+       1550,
+       0,
+       1531.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 8,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       600
+      ]
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755751341",
+     "nombre": "Estante 564x370x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Alacena simple c/microondas 600_Partition01",
+     "tipo": "Estante",
+     "W": 370,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 370,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 369,
+     "corte_H": 564,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       968,
+       -400,
+       1881.5
+      ],
+      [
+       1532,
+       -30,
+       1899.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755751310",
+     "nombre": "Estante 564x360x18",
+     "nombre_guigui": "Partition02",
+     "nombre_largo": "00-Alacena simple c/microondas 600_Partition02",
+     "tipo": "Estante",
+     "W": 360,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 360,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 359,
+     "corte_H": 564,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       968,
+       -390,
+       2126.75
+      ],
+      [
+       1532,
+       -30,
+       2144.75
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755751259",
+     "nombre": "Techo 600x400x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "00-Alacena simple c/microondas 600_Roof plate01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 600,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 600,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 599,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       950,
+       -400,
+       2372
+      ],
+      [
+       1550,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       600
+      ]
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755751334",
+     "nombre": "Travesaño 564x146.36x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Alacena simple c/microondas 600_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 146.36,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 146.36,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 145.36,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       968,
+       -18,
+       1531.5
+      ],
+      [
+       1532,
+       0,
+       1677.86
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755751327",
+     "nombre": "Fondo 850.5x574x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Alacena simple c/microondas 600_Back panel01",
+     "tipo": "Fondo",
+     "W": 574,
+     "H": 850.5,
+     "T": 5,
+     "dibujo_W": 564,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 574,
+     "corte_H": 850.5,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       968,
+       -30,
+       1531.5
+      ],
+      [
+       1532,
+       -25,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7432755751297",
+     "nombre": "Puerta 597x512.5x18",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Alacena simple c/microondas 600_单开门",
+     "tipo": "Puerta",
+     "W": 597,
+     "H": 512.5,
+     "T": 18,
+     "dibujo_W": 597,
+     "dibujo_H": 512.5,
+     "aviso": "",
+     "corte_W": 595,
+     "corte_H": 510.5,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       951.5,
+       -418,
+       1876
+      ],
+      [
+       1548.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    }
+   ],
+   "herrajes": {
+    "excentricas": 26,
+    "pernos": 26,
+    "receptores": 26,
+    "bisagras": 2,
+    "tornillos_bisagra": 8,
+    "led": [
+     600,
+     600
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     950.0,
+     -418.0,
+     1513.5
+    ],
+    [
+     1550.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 876.5,
+   "prof": 418
+  },
+  {
+   "indice": 13,
+   "nombre": "00-Alacena simple batiente 350",
+   "piezas": [
+    {
+     "codigo": "7432755751365",
+     "nombre": "Parante 840.5x382x18",
+     "nombre_guigui": "Middle board01",
+     "nombre_largo": "00-Alacena simple batiente 350_Middle board01",
+     "tipo": "Parante",
+     "W": 382,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 382,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 381,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       50,
+       -382,
+       1531.5
+      ],
+      [
+       68,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7432755751372",
+     "nombre": "Lateral 840.5x400x18",
+     "nombre_guigui": "Right board01",
+     "nombre_largo": "00-Alacena simple batiente 350_Right board01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       332,
+       -400,
+       1531.5
+      ],
+      [
+       350,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7432755751389",
+     "nombre": "Piso 400x350x18",
+     "nombre_guigui": "Base board01",
+     "nombre_largo": "00-Alacena simple batiente 350_Base board01",
+     "tipo": "Piso",
+     "W": 400,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 348,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       0,
+       -400,
+       1513.5
+      ],
+      [
+       350,
+       0,
+       1531.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 7,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       350
+      ]
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7432755751419",
+     "nombre": "Estante 370x264x18",
+     "nombre_guigui": "Partition01",
+     "nombre_largo": "00-Alacena simple batiente 350_Partition01",
+     "tipo": "Estante",
+     "W": 370,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 370,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 369,
+     "corte_H": 264,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       68,
+       -400,
+       1942.75
+      ],
+      [
+       332,
+       -30,
+       1960.75
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7432755751358",
+     "nombre": "Techo 400x350x18",
+     "nombre_guigui": "Roof plate01",
+     "nombre_largo": "00-Alacena simple batiente 350_Roof plate01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 348,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       0,
+       -400,
+       2372
+      ],
+      [
+       350,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 5,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       350
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7432755761449",
+     "nombre": "Tapa 840.5x68x18",
+     "nombre_guigui": "Vertical Partition02",
+     "nombre_largo": "00-Alacena simple batiente 350_Vertical Partition02",
+     "tipo": "Tapa",
+     "W": 68,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 68,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 67,
+     "corte_H": 840.5,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       0,
+       -400,
+       1531.5
+      ],
+      [
+       68,
+       -382,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 2,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7432755761432",
+     "nombre": "Travesaño 264x146.78x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "00-Alacena simple batiente 350_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 264,
+     "H": 146.78,
+     "T": 18,
+     "dibujo_W": 264,
+     "dibujo_H": 146.78,
+     "aviso": "",
+     "corte_W": 264,
+     "corte_H": 145.78,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       68,
+       -18,
+       1531.5
+      ],
+      [
+       332,
+       0,
+       1678.28
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7432755751426",
+     "nombre": "Fondo 850.5x274x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Alacena simple batiente 350_Back panel01",
+     "tipo": "Fondo",
+     "W": 274,
+     "H": 850.5,
+     "T": 5,
+     "dibujo_W": 264,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 274,
+     "corte_H": 850.5,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       68,
+       -30,
+       1531.5
+      ],
+      [
+       332,
+       -25,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7432755751396",
+     "nombre": "Puerta 898.5x297x18",
+     "nombre_guigui": "单开门",
+     "nombre_largo": "00-Alacena simple batiente 350_单开门",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 898.5,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 898.5,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 896.5,
+     "material": "多层实木",
+     "textura": "04拉丝胡桃",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       51.5,
+       -418,
+       1490
+      ],
+      [
+       348.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    }
+   ],
+   "herrajes": {
+    "excentricas": 22,
+    "pernos": 22,
+    "receptores": 22,
+    "bisagras": 2,
+    "tornillos_bisagra": 8,
+    "led": [
+     350,
+     350
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     0.0,
+     -418.0,
+     1490.0
+    ],
+    [
+     350.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 350,
+   "alto": 900,
+   "prof": 418
+  }
+ ]
+}

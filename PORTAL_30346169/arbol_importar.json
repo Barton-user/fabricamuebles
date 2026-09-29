@@ -1,0 +1,77 @@
+[
+ {
+  "padreCodigo": "30346169",
+  "padreDescripcion": "COCINA MLV (orden GuiGui 30346169)",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n30346169-00\tBandejero\t1\t1\n30346169-01\tHorno y anafe\t1\t2\n30346169-02\tCajonera\t1\t3\n30346169-03\tBajo mesada doble c/tacho\t1\t4\n30346169-04\tLavarropa\t1\t5\n30346169-05\tAlacena sobre heladera\t1\t6\n30346169-06\tAlacena simple batiente 600\t1\t7\n30346169-07\tAlacena doble batiente 800\t1\t8\n30346169-08\tSpar s/extracción\t1\t9\n30346169-09\tUñero\t1\t10\n30346169-10\tUñero\t1\t11\n30346169-11\tEscobero\t1\t12\n30346169-12\tAlacena simple c/microondas 600\t1\t13\n30346169-13\tAlacena simple batiente 350\t1\t14"
+ },
+ {
+  "padreCodigo": "30346169-00",
+  "padreDescripcion": "Bandejero",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750061\tParante 780x562x18\t1\t1\n7432755750054\tLateral 780x580x18\t1\t2\n7432755750047\tPiso 580x264x18\t1\t3\n7432755750153\tTapa 780x68x18\t1\t4\n7432755750078\tTravesaño 264x150x18\t1\t5\n7432755750146\tFondo 622x274x5\t1\t6\n7432755750085\tFrente cajón 745x297x18\t1\t7\n7432755750115\tLateral caja 450x300x18 A\t1\t8\n7432755750092\tFrente caja 300x202x18\t1\t9\n7432755750139\tFondo caja 424x212x5\t1\t10\n7432755750122\tTrasera caja 300x202x18\t1\t11\n7432755750108\tLateral caja 450x300x18 B\t1\t12"
+ },
+ {
+  "padreCodigo": "30346169-01",
+  "padreDescripcion": "Horno y anafe",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750177\tLateral 780x580x18 A\t1\t1\n7432755750160\tLateral 780x580x18 B\t1\t2\n7432755750207\tPiso 564x562x18\t1\t3\n7432755750214\tZócalo 564x59x18\t1\t4\n7432755750184\tTravesaño 564x150x18\t1\t5\n7432755750191\tTravesaño 564x51x18\t1\t6"
+ },
+ {
+  "padreCodigo": "30346169-02",
+  "padreDescripcion": "Cajonera",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750245\tLateral 780x580x18 A\t1\t1\n7432755750238\tLateral 780x580x18 B\t1\t2\n7432755750221\tPiso 580x564x18\t1\t3\n7432755750443\tTravesaño 564x58x18\t1\t4\n7432755750450\tTravesaño 564x68x18\t1\t5\n7432755750436\tTravesaño 564x150x18\t1\t6\n7432755750375\tFrente cajón 597x315x18\t1\t7\n7432755750313\tFrente cajón 597x195x18 A\t1\t8\n7432755750252\tFrente cajón 597x195x18 B\t1\t9\n7432755750405\tLateral caja 450x152x18 A\t1\t10\n7432755750382\tFrente caja 502x152x18\t1\t11\n7432755750429\tFondo caja 512x424x5 A\t1\t12\n7432755750412\tTrasera caja 502x152x18\t1\t13\n7432755750399\tLateral caja 450x152x18 B\t1\t14\n7432755750344\tLateral caja 450x130x18 A\t1\t15\n7432755750320\tFrente caja 502x130x18 A\t1\t16\n7432755750368\tFondo caja 512x424x5 B\t1\t17\n7432755750351\tTrasera caja 502x130x18 A\t1\t18\n7432755750337\tLateral caja 450x130x18 C\t1\t19\n7432755750283\tLateral caja 450x130x18 B\t1\t20\n7432755750269\tFrente caja 502x130x18 B\t1\t21\n7432755750290\tTrasera caja 502x130x18 B\t1\t22\n7432755750276\tLateral caja 450x130x18 D\t1\t23\n7432755750306\tFondo caja 512x424x5 C\t1\t24"
+ },
+ {
+  "padreCodigo": "30346169-03",
+  "padreDescripcion": "Bajo mesada doble c/tacho",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750467\tLateral 780x580x18 A\t1\t1\n7432755750474\tLateral 780x580x18 B\t1\t2\n7432755750481\tPiso 964x580x18\t1\t3\n7432755750498\tEstante 964x580x18\t1\t4\n7432755750566\tTravesaño 964x150x18\t1\t5\n7432755750559\tFondo 974x382x5\t1\t6\n7432755750542\tFondo 974x232x5\t1\t7\n7432755750504\tPuerta 744x497x18 A\t1\t8\n7432755750528\tPuerta 744x497x18 B\t1\t9"
+ },
+ {
+  "padreCodigo": "30346169-04",
+  "padreDescripcion": "Lavarropa",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750573\tLateral 870x580x18 A\t1\t1\n7432755750580\tLateral 870x580x18 B\t1\t2\n7432755750610\tTravesaño 614x150x18 C\t1\t3\n7432755750603\tTravesaño 614x150x18 A\t1\t4\n7432755750597\tTravesaño 614x150x18 B\t1\t5"
+ },
+ {
+  "padreCodigo": "30346169-05",
+  "padreDescripcion": "Alacena sobre heladera",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750634\tLateral 580x376.5x18 A\t1\t1\n7432755750641\tLateral 580x376.5x18 B\t1\t2\n7432755750658\tPiso 664x580x18\t1\t3\n7432755750627\tTecho 700x580x18\t1\t4\n7432755750696\tTravesaño 664x136.33x18\t1\t5\n7432755750689\tFondo 674x368.5x5\t1\t6\n7432755750665\tPuerta 697x416.5x18\t1\t7"
+ },
+ {
+  "padreCodigo": "30346169-06",
+  "padreDescripcion": "Alacena simple batiente 600",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750719\tLateral 840.5x400x18 A\t1\t1\n7432755750726\tLateral 840.5x400x18 B\t1\t2\n7432755750733\tPiso 650x400x18\t1\t3\n7432755750764\tEstante 614x360x18\t1\t4\n7432755750702\tTecho 650x400x18\t1\t5\n7432755750788\tTravesaño 614x146.78x18\t1\t6\n7432755750771\tFondo 850.5x624x5\t1\t7\n7432755750740\tPuerta 898.5x647x18\t1\t8"
+ },
+ {
+  "padreCodigo": "30346169-07",
+  "padreDescripcion": "Alacena doble batiente 800",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750801\tLateral 840.5x400x18 A\t1\t1\n7432755750818\tLateral 840.5x400x18 B\t1\t2\n7432755750825\tPiso 1000x400x18\t1\t3\n7432755750870\tEstante 964x370x18\t1\t4\n7432755750795\tTecho 1000x400x18\t1\t5\n7432755750894\tTravesaño 964x146.78x18\t1\t6\n7432755750887\tFondo 974x850.5x5\t1\t7\n7432755750832\tPuerta 898.5x497x18 A\t1\t8\n7432755750856\tPuerta 898.5x497x18 B\t1\t9"
+ },
+ {
+  "padreCodigo": "30346169-08",
+  "padreDescripcion": "Spar s/extracción",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755750917\tLateral 773.33x400x18 A\t1\t1\n7432755750924\tLateral 773.33x400x18 B\t1\t2\n7432755750962\tEstante 564x400x18\t1\t3\n7432755750955\tEstante 564x370x18\t1\t4\n7432755750900\tTecho 600x400x18\t1\t5\n7432755751006\tZócalo 564x100x18 A\t1\t6\n7432755751013\tZócalo 564x100x18 B\t1\t7\n7432755750993\tFondo 667.46x574x5\t1\t8\n7432755750931\tPuerta 715.46x294.15x18\t1\t9\n7432755750979\tPuerta 715.46x299.85x18\t1\t10"
+ },
+ {
+  "padreCodigo": "30346169-09",
+  "padreDescripcion": "Uñero",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755751037\tUñero 2200x50x18\t1\t1\n7432755751020\tUñero 2200x52x18\t1\t2"
+ },
+ {
+  "padreCodigo": "30346169-10",
+  "padreDescripcion": "Uñero",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755751051\tUñero 280.93x50x18\t1\t1\n7432755751044\tUñero 280.93x52x18\t1\t2"
+ },
+ {
+  "padreCodigo": "30346169-11",
+  "padreDescripcion": "Escobero",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755751150\tZócalo 462x90x18 A\t1\t1\n7432755751167\tZócalo 462x90x18 B\t1\t2\n7432755751075\tLateral 2282x580x18\t1\t3\n7432755751082\tParante 2264x580x18\t1\t4\n7432755751174\tEstante 580x332x18\t1\t5\n7432755751235\tEstante 550x264x18 A\t1\t6\n7432755751204\tEstante 550x264x18 B\t1\t7\n7432755751198\tEstante 550x264x18 C\t1\t8\n7432755751068\tTecho 580x350x18\t1\t9\n7432755751143\tZócalo 350x90x18 A\t1\t10\n7432755751136\tZócalo 350x90x18 B\t1\t11\n7432755751242\tTapa 2264x50x18\t1\t12\n7432755751112\tTravesaño 264x154.97x18\t1\t13\n7432755751181\tFondo 2274x274x5\t1\t14\n7432755751211\tPuerta 1395.84x297x18\t1\t15\n7432755751099\tPuerta 898.16x297x18\t1\t16"
+ },
+ {
+  "padreCodigo": "30346169-12",
+  "padreDescripcion": "Alacena simple c/microondas 600",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755751266\tLateral 840.5x400x18 A\t1\t1\n7432755751273\tLateral 840.5x400x18 B\t1\t2\n7432755751280\tPiso 600x400x18\t1\t3\n7432755751341\tEstante 564x370x18\t1\t4\n7432755751310\tEstante 564x360x18\t1\t5\n7432755751259\tTecho 600x400x18\t1\t6\n7432755751334\tTravesaño 564x146.36x18\t1\t7\n7432755751327\tFondo 850.5x574x5\t1\t8\n7432755751297\tPuerta 597x512.5x18\t1\t9"
+ },
+ {
+  "padreCodigo": "30346169-13",
+  "padreDescripcion": "Alacena simple batiente 350",
+  "texto": "Part Number\tDescripción\tCantidad\tÍtem\n7432755751365\tParante 840.5x382x18\t1\t1\n7432755751372\tLateral 840.5x400x18\t1\t2\n7432755751389\tPiso 400x350x18\t1\t3\n7432755751419\tEstante 370x264x18\t1\t4\n7432755751358\tTecho 400x350x18\t1\t5\n7432755761449\tTapa 840.5x68x18\t1\t6\n7432755761432\tTravesaño 264x146.78x18\t1\t7\n7432755751426\tFondo 850.5x274x5\t1\t8\n7432755751396\tPuerta 898.5x297x18\t1\t9"
+ }
+]

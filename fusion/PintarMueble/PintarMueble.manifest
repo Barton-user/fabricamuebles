@@ -1,0 +1,11 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "script",
+    "id": "com.leitencom.fabricamuebles.pintarmueble",
+    "author": "FABRICA MUEBLES",
+    "description": { "": "Pinta cada placa segun su textura, como se ve en GuiGui." },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

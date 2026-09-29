@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="7432755750788" plateNickName="00-Alacena simple batiente 600_Vertical Partition01" width="146.78" depth="614.00" height="18.00" barCode="7432755750788" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="0" bandingFront="1" bandingLeft="0"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(547.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(67.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(581.00,105.39,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(581.00,41.39,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(33.00,105.39,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(33.00,41.39,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(547.00,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(67.00,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(614.00,105.39,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(-1,0,0)"/>
+        <Hole point="(614.00,41.39,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(-1,0,0)"/>
+        <Hole point="(0.00,105.39,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(1,0,0)"/>
+        <Hole point="(0.00,41.39,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(1,0,0)"/>
+    </Holes>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,146.78,18.00)" endPoint="(614.00,146.78,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(614.00,146.78,18.00)" endPoint="(614.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(614.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,146.78,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="414.00" Height="502.00" PlaneSize="1" Grain="2" Thickness="5" Material="装饰板" EdgeFBLR="0,0,0,0" Name="00-Cajonera_Drawer03_Drawer base board01" Code="7432755750306">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="414.00 0.00 0"/>
+        <Point Value="414.00 502.00 0"/>
+        <Point Value="0.00 502.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

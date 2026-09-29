@@ -1,0 +1,20 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="297.00" Height="1395.84" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,1" Name="00-Escobero_单开门" Code="7432755751211">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="297.00 0.00 0"/>
+        <Point Value="297.00 1395.84 0"/>
+        <Point Value="0.00 1395.84 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="260.00 1271.84 -18.00" End="260.00 1271.84 -15.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="260.00 1319.84 -18.00" End="260.00 1319.84 -15.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="B" Start="274.50 1295.84 -18.00" End="274.50 1295.84 -5.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="260.00 673.92 -18.00" End="260.00 673.92 -15.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="260.00 721.92 -18.00" End="260.00 721.92 -15.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="B" Start="274.50 697.92 -18.00" End="274.50 697.92 -5.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="260.00 76.00 -18.00" End="260.00 76.00 -15.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="260.00 124.00 -18.00" End="260.00 124.00 -15.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="B" Start="274.50 100.00 -18.00" End="274.50 100.00 -5.00"/>
+</Plane>
+</MicroDrawBan_XML>

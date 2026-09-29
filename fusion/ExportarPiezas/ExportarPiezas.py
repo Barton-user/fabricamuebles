@@ -145,6 +145,44 @@ class Marco(object):
             return "U"
         return None
 
+    def canto_interior(self, x, y):
+        """Canto de una escotadura (p.ej. la del unero): el punto cae sobre un tramo
+        recto INTERIOR del contorno. Devuelve la letra del canto por la normal de
+        salida del tramo (igual que GuiGui: el escalon horizontal con material
+        abajo es 'U', el vertical con material a la izquierda es 'R').
+        Necesita self.contorno (lo carga pieza_de antes de leer los agujeros)."""
+        verts = getattr(self, "contorno", None) or []
+        n = len(verts)
+        for i in range(n):
+            a, b = verts[i], verts[(i + 1) % n]
+            if abs(a.get("arco", 0.0)) > 0.01:
+                continue
+            ax, ay, bx, by = a["x"], a["y"], b["x"], b["y"]
+            if abs(ay - by) <= 0.01:                        # tramo horizontal
+                if abs(y - ay) > 0.6 or not (min(ax, bx) - 0.6 <= x <= max(ax, bx) + 0.6):
+                    continue
+                if abs(ay) <= 0.6 or abs(ay - self.alto) <= 0.6:
+                    continue                                 # es un canto exterior
+                return "U" if _dentro_poligono(verts, x, y - 1.0) else "D"
+            if abs(ax - bx) <= 0.01:                        # tramo vertical
+                if abs(x - ax) > 0.6 or not (min(ay, by) - 0.6 <= y <= max(ay, by) + 0.6):
+                    continue
+                if abs(ax) <= 0.6 or abs(ax - self.ancho) <= 0.6:
+                    continue
+                return "R" if _dentro_poligono(verts, x - 1.0, y) else "L"
+        return None
+
+
+def _dentro_poligono(verts, x, y):
+    dentro = False
+    n = len(verts)
+    for i in range(n):
+        x1, y1 = verts[i]["x"], verts[i]["y"]
+        x2, y2 = verts[(i + 1) % n]["x"], verts[(i + 1) % n]["y"]
+        if (y1 > y) != (y2 > y) and x < x1 + (y - y1) * (x2 - x1) / (y2 - y1):
+            dentro = not dentro
+    return dentro
+
 
 def eje_principal(v):
     """Devuelve 'Z' si el vector es paralelo a Z, 'XY' si esta en el plano, si no None."""
@@ -229,6 +267,13 @@ def leer_agujeros(body, marco):
                 p_b = (marco.x(cyl.origin.x), marco.y(bb.maxPoint.y))
             canto_a = marco.canto_de(*p_a)
             canto_b = marco.canto_de(*p_b)
+            if not canto_a and not canto_b:
+                # puede entrar por el canto de una escotadura (unero)
+                canto_a = marco.canto_interior(*p_a)
+                canto_b = marco.canto_interior(*p_b)
+                if canto_a or canto_b:
+                    log("  (O%.1f entra por un canto de la escotadura, canto %s)"
+                        % (radio * 2, canto_a or canto_b))
             if canto_a and not canto_b:
                 entrada, canto = p_a, canto_a
             elif canto_b and not canto_a:
@@ -576,9 +621,12 @@ def es_placa(objeto):
 
 def pieza_de(body, comp, cantidad, solo_del_cuerpo=False):
     marco = Marco(body.boundingBox)
+    # el contorno va primero: leer_agujeros lo usa para los agujeros que entran
+    # por el canto de una escotadura
+    contorno = leer_contorno(body, marco)
+    marco.contorno = contorno
     verticales, horizontales = leer_agujeros(body, marco)
     ranuras, ranuras_canto = leer_ranuras(body, marco)
-    contorno = leer_contorno(body, marco)
     # Con varios cuerpos en el mismo componente, el codigo y el nombre TIENEN que
     # salir del cuerpo: heredarlos del componente daria el mismo codigo a todos.
     ident = (lambda n, d="": str(attr(body, n, d))) if solo_del_cuerpo else \
@@ -673,11 +721,13 @@ def escribir_lanzador(carpeta, etapa2):
 # Generado por ExportarPiezas. Doble clic para producir los archivos de maquina.
 cd "%s" || { echo "No encuentro el generador en %s"; read -n1; exit 1; }
 SALIDA="%s/salida"
-python3 exportar.py "%s/piezas.json" -o "$SALIDA" || { read -n1; exit 1; }
-python3 listacorte.py "%s/piezas.json" -o "$SALIDA"
-python3 hojas.py "%s/piezas.json" -o "$SALIDA/HOJAS_VERIFICACION.html"
+AVISO=""
+python3 exportar.py "%s/piezas.json" -o "$SALIDA" || AVISO="ATENCION: exportar.py dejo piezas SIN programa de maquina (ver el detalle arriba)."
+python3 listacorte.py "%s/piezas.json" -o "$SALIDA" || AVISO="$AVISO  Fallo la lista de corte."
+python3 hojas.py "%s/piezas.json" -o "$SALIDA/HOJAS_VERIFICACION.html" || AVISO="$AVISO  Fallaron las hojas."
 echo
 echo "Listo. Todo en: $SALIDA"
+[ -n "$AVISO" ] && { echo; echo "$AVISO"; }
 open "$SALIDA"
 echo "Apreta una tecla para cerrar."
 read -n1

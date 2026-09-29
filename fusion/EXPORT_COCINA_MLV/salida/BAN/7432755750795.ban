@@ -1,0 +1,29 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="400.00" Height="1000.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="0,0,0,1" Name="00-Alacena doble batiente 800_Roof plate01" Code="7432755750795">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="400.00 0.00 0"/>
+        <Point Value="400.00 1000.00 0"/>
+        <Point Value="0.00 1000.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="328.00 991.00 -18.00" End="328.00 991.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="72.00 991.00 -18.00" End="72.00 991.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="328.00 9.00 -18.00" End="328.00 9.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="72.00 9.00 -18.00" End="72.00 9.00 -7.00"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="360.00 33.00 -18.00" End="360.00 33.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="40.00 33.00 -18.00" End="40.00 33.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="296.00 967.00 -18.00" End="296.00 967.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="136.00 967.00 -18.00" End="136.00 967.00 -4.50"/>
+    <HoleH Name="" Diameter="10.00" IsCuted="0" Face="D" Start="296.00 0.00 -9.00" End="296.00 11.00 -9.00"/>
+    <HoleH Name="" Diameter="10.00" IsCuted="0" Face="D" Start="136.00 0.00 -9.00" End="136.00 11.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="360.00 0.00 -9.00" End="360.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="40.00 0.00 -9.00" End="40.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="296.00 1000.00 -9.00" End="296.00 967.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="136.00 1000.00 -9.00" End="136.00 967.00 -9.00"/>
+    <HoleH Name="" Diameter="10.00" IsCuted="0" Face="U" Start="360.00 1000.00 -9.00" End="360.00 989.00 -9.00"/>
+    <HoleH Name="" Diameter="10.00" IsCuted="0" Face="U" Start="40.00 1000.00 -9.00" End="40.00 989.00 -9.00"/>
+    <SlotL Name="" Face="A" Start="95.50 0.00 -9.00" End="95.50 1000.00 -9.00" Width="9.00" IsCuted="0"/>
+    <SlotL Name="" Face="B" Start="27.50 12.85 -6.00" End="27.50 987.15 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

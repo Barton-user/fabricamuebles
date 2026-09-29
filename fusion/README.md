@@ -193,6 +193,45 @@ Las medidas de los agujeros siguen saliendo de la tabla medida sobre los archivo
 reales. Los espesores de chapa y el codo del brazo son sólo para que se vea como
 lo que es.
 
+### `PintarMueble`
+
+Le pone a cada placa el color de su **textura**, para que el mueble se vea como
+en GuiGui en vez de todo gris. Se corre y listo, no pregunta nada.
+
+El dato sale del atributo `TEXTURA` que carga `MarcarPlaca`. **No toca la
+geometría ni los archivos de máquina**: es sólo apariencia. Los herrajes los deja
+metálicos.
+
+La tabla `PALETA` traduce textura a color. Ya trae las tres de los pedidos reales
+(`玛雅灰` gris, `拉丝胡桃` nogal, `白麻面` blanco) y nombres en castellano
+—nogal, roble, cerezo, pino, blanco, negro, gris, beige, arena—. Para agregar un
+material nuevo se suma una línea; el valor puede ser un color `(r, g, b)` o el
+nombre de una apariencia de Fusion. La clave se busca por pedazo de texto, así
+que `nogal` alcanza para `04 nogal brillante`.
+
+---
+
+## ⚠️ Si el mueble aparece desarmado, con todas las placas en el piso
+
+Es el error más confuso de todos y no es culpa de cómo modelaste.
+
+**En un diseño paramétrico, mover una ocurrencia no queda capturado.** La
+siguiente operación del timeline —taladrar un agujero, por ejemplo— devuelve la
+placa al origen. El mueble se arma, se le ponen los herrajes, y al terminar las
+placas están apiladas en el origen mientras los herrajes quedaron flotando donde
+correspondía.
+
+La solución es una línea, después de ubicar las placas y antes de cualquier otra
+operación:
+
+```python
+design.snapshots.add()        # captura la posición
+```
+
+Síntoma relacionado: si una placa tiene el **ícono de ancla** en el navegador,
+está anclada al origen y no se puede mover hasta soltarla
+(`occ.isGroundToParent = False`).
+
 #### Cómo hay que modelar
 
 Cada placa, **un componente**, con la placa **acostada** adentro (boceto en XY,
@@ -569,3 +608,112 @@ profundidad), pero la bisagra del lateral derecho caía 18 mm afuera. Ahora hay
 `_plano_cara(placa, cara)` y lo usan las dos cosas.
 
 Conteo en PRUEBA 1: 20 excéntricas, 20 pernos, 20 receptores, 4 bisagras.
+
+---
+
+## `ArmarDesdeRender` — un ambiente entero de GuiGui, armado desde el `render.json` (24/09/2026)
+
+`ArmarPrueba1` tenía la tabla de las 10 placas escrita a mano. `ArmarDesdeRender`
+es la versión genérica: lee el **`render.json`** que devuelve el MCP de GuiGui
+(`project_search_order` → `render_url`, ver `referencia/GUIGUI_MCP/LEEME.md`) y
+arma **todo el ambiente** en Fusion. Probado con **COCINA MLV**: 14 muebles,
+128 placas (116 + 12 puertas), 930 herrajes, en 15 segundos.
+
+Por cada placa (`Plank`) y cada puerta (`SingleDoor` → `外框`):
+
+- un componente con la placa **acostada** (X ancho, Y alto, espesor en −Z),
+  ubicada en el mueble con la matriz de la ocurrencia — la convención de siempre
+- el **contorno** de `lastCurve` (escotaduras del uñero, hueco del tacho)
+- **agujeros de cara** (`holes`), **de canto** (`sholes`), **ranuras de cara**
+  (`slots`) y **de canto** (`sslots`), con diámetro y profundidad del JSON
+- atributos `FabricaMuebles` (TIPO, CODIGO, MATERIAL, TEXTURA, cantos, MUEBLE, ROL)
+- el **color de la textura** (`d02白麻面`, `01暖白`, `13玛雅灰`, `04拉丝胡桃` = Walnut)
+
+Y los herrajes, como componentes `TIPO = HERRAJE` reutilizados (uno por tipo):
+
+| Herraje | Dónde va | Forma |
+|---|---|---|
+| excéntrica Ø15 | cada `3in1Lock` Ø15 de cara, con el alojamiento mirando al perno | `PonerHerrajes._forma_excentrica` |
+| perno Ø8 | cada Ø8 de canto | `_forma_perno` |
+| receptor Ø10 | cada Ø10, de cara **o de canto** | `_forma_receptor` |
+| bisagra cazoleta | cada `HINGE` Ø35; la base sobre la placa que tiene los `jlHoleEX` a menos de 120 mm | `_forma_bisagra` |
+| corredera telescópica 450 | los agujeros `slideRail` Ø3: canal en el lateral del mueble, barra en el costado del cajón | propias |
+| tira LED | cada `lightSlot` 9×9 | propia |
+
+Conteo en COCINA MLV: 294 excéntricas, 294 pernos, 290 receptores, 25 bisagras,
+8 + 8 correderas, 11 tiras LED. Coincide uno a uno con los agujeros del JSON.
+
+### El marco de GuiGui, descifrado
+
+Verificado contra PRUEBA 1 (los 80 agujeros del `.ban`) y contra la geometría
+de la cocina (pernos que caen en receptores, ranuras que contienen un fondo):
+
+- `hdvDir = "h_v_d"`, dígitos 0..5 = +X +Y +Z −X −Y −Z del mundo de GuiGui.
+  **h** es el eje del ancho de la placa (x del archivo), **v** el del alto (y),
+  **d** la normal. W y H son la extensión de la caja (`vertices`) sobre h y v —
+  **no** usar `spec`, que a veces viene al revés.
+- El origen de (x, y) es la esquina de la caja donde **arrancan** h y v.
+- `holes[].side`: 1 = cara con normal **+d**, −1 = cara con normal −d. Usar
+  `ocenter`, no `center` (`center` viene espejado en x y a veces con 1 mm de
+  compensación).
+- `sholes[].side`: 1 canto x=0, 2 canto y=H, 3 canto x=W, 4 canto y=0. La boca es
+  `ocenter`, que también cae sobre los cantos **interiores** de una escotadura.
+- `lastCurve.vertex` está centrado y **espejado en x**: `x = W/2 − vx`, `y = vy + H/2`.
+  `extras` (arcos) no aparece en estos pedidos.
+- `sslots[].pt1.y` = distancia desde la cara +d.
+- Los `anchor` se suman por el árbol (mueble → Door/Drawer/Lintel → placa). Están en
+  metros; el frente del mueble está en −Z, Y arriba.
+- GuiGui → Fusion: `(x, y, z) → (x, z, y)`. Es una reflexión, así que el marco
+  local de cada placa se arma con `ez = ex × ey` en Fusion y no se copia `d`.
+
+### Las piezas "especiales" vienen giradas
+
+Cajones (los cuatro tableros de la caja), zócalos (`WLineBottom`), la tapa
+frontal del mueble sobre la heladera (`WLineTop`) y los uñeros tienen el marco
+de los mecanizados **girado 180° alrededor de v** respecto de lo que dice
+`hdvDir`: `x → W − x` y las caras cambiadas. No encontramos el dato que lo
+indica en el JSON (no es `hdvDir`, ni `vhdAxis`, ni `referPt`), así que
+`decidir_espejos()` lo resuelve por **consistencia geométrica**: cada perno Ø8
+tiene que caer en un receptor Ø10, cada ranura de fondo tiene que contener un
+fondo de 5 mm, y cada cazoleta tiene que tener cerca los `jlHoleEX` de su base.
+Prueba pieza por pieza y también mueble entero (las dos piezas de un uñero solo
+cierran si se giran juntas).
+
+Resultado en la cocina: **290 de 294 pernos** caen en un receptor. Los 4 que no
+son los extremos de los dos uñeros, que GuiGui dibuja con un perno en cada
+lado del encuentro (es un dato de GuiGui, no un error nuestro). Las 56 ranuras
+de fondo contienen su fondo; las 25 cazoletas tienen su base.
+
+### Dos cosas de la API que costaron
+
+- **`Occurrences.addExistingComponent(comp, matriz)` no pone esa matriz**: la
+  compone con la de otra ocurrencia del mismo componente. Los herrajes salían
+  desparramados. Se resuelve creando la ocurrencia con identidad y asignando
+  `transform2` después — y eso **solo se puede hacer sobre el proxy en el
+  contexto del root** (`occ.createForAssemblyContext(ocurrencia_del_mueble)`),
+  si no tira "transform overrides can only be set on Occurrence proxy from root
+  component". El original de cada herraje vive en `Herrajes (biblioteca)`,
+  apagado, en el origen.
+- El diseño se arma en **modo directo** (`DirectDesignType`): 128 placas con
+  ~1400 mecanizados y 930 ocurrencias en 15 s, sin timeline que recalcular y sin
+  el problema de las posiciones no capturadas (§15.8-bis). Las placas se
+  construyen con `TemporaryBRepManager` (caja menos cilindros y cajas) y se
+  agregan con `bRepBodies.add`. `ExportarPiezas` lee B-Rep, así que le da igual.
+
+### Cómo se corrió
+
+Desde Claude por el MCP de Fusion, cargando el módulo con `importlib` y
+llamando `armar(ruta_json, modelos=None, nuevo=True)`. También se puede correr
+desde Fusion (Scripts → ArmarDesdeRender): pide el `render.json` y arma en el
+documento activo. `modelos=[0, 3]` arma solo esos muebles (índices de
+`models[]`); `rehacer_correderas(ruta)` vuelve a poner solo las correderas.
+
+El resultado quedó guardado en Fusion como **`COCINA MLV`**, en la carpeta
+`cocina` (al lado de `MUEBLE ARMADO`). Capturas en `ArmarDesdeRender/capturas/`.
+
+### Lo que no está en el JSON (y por eso no está en el modelo)
+
+Mesada, electrodomésticos, tiradores, patas regulables, tornillos de las
+correderas (`滑轨螺丝`, 12 por cajón) y zócalo continuo. Las formas de los
+herrajes siguen siendo esquemáticas (medidas reales de agujero, chapa
+aproximada).

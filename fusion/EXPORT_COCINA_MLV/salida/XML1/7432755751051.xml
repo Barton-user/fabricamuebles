@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="7432755751051" plateNickName="01-Uñero_Vertical Partition01" width="280.93" depth="50.00" height="18.00" barCode="7432755751051" barCode1="">
+    <Bandings>
+        <Banding bandingBack="1" bandingRight="1" bandingFront="0" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(25.00,271.93,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(41.00,204.46,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(41.00,44.46,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+    </Holes>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,280.93,18.00)" endPoint="(50.00,280.93,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(50.00,280.93,18.00)" endPoint="(50.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(50.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,280.93,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

@@ -1,0 +1,121 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>297.00</PanelLength>
+        <PanelWidth>1395.84</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>00-Escobero_单开门</PanelName>
+        <Params>
+            <Param Key="L" Value="297.00" Comment="板长"/>
+            <Param Key="W" Value="1395.84" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>1271.84</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>1319.84</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>274.50</X1>
+        <Y1>1295.84</Y1>
+        <Depth>13.00</Depth>
+        <Diameter>35.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>673.92</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>721.92</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>274.50</X1>
+        <Y1>697.92</Y1>
+        <Depth>13.00</Depth>
+        <Diameter>35.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>76.00</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>260.00</X1>
+        <Y1>124.00</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>6.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>274.50</X1>
+        <Y1>100.00</Y1>
+        <Depth>13.00</Depth>
+        <Diameter>35.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+</KDTPanelFormat>

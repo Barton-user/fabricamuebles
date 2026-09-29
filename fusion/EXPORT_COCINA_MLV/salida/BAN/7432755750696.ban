@@ -1,0 +1,23 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="136.33" Height="664.00" PlaneSize="1" Grain="1" Thickness="18" Material="多层实木" EdgeFBLR="0,0,0,1" Name="00-Alacena sobre heladera_Sealing strip01_Front panel, front gear01" Code="7432755750696">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="136.33 0.00 0"/>
+        <Point Value="136.33 664.00 0"/>
+        <Point Value="0.00 664.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="103.33 588.00 0" End="103.33 588.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="103.33 76.00 0" End="103.33 76.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="36.16 631.00 0" End="36.16 631.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="100.16 631.00 0" End="100.16 631.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="36.16 33.00 0" End="36.16 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="100.16 33.00 0" End="100.16 33.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="136.33 588.00 -9.00" End="103.33 588.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="136.33 76.00 -9.00" End="103.33 76.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="36.16 664.00 -9.00" End="36.16 631.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="100.16 664.00 -9.00" End="100.16 631.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="36.16 0.00 -9.00" End="36.16 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="100.16 0.00 -9.00" End="100.16 33.00 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

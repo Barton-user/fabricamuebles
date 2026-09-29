@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "actualizado": "2026-09-29",
+  "_comentario": "Se busca POR PREFIJO del nombre del componente que crea ArmarDesdeRender.herraje(). El prefijo mas largo que matchea gana. Si un herraje no esta aca, se dibuja con su forma_*() como antes.",
+  "por_prefijo": {
+    "Excentrica O15": "excentrica_O15_hafele_262-26-034.step",
+    "Perno O8": "perno_O8x33_dibujado.step",
+    "Bisagra O35": "bisagra_cazoleta_O35.step"
+  },
+  "parametricos_por_codigo": {
+    "Corredera bolas": "ArmarDesdeRender.forma_corredera_bolas(tbm, largo)",
+    "Tira LED": "ArmarDesdeRender.forma_led(tbm, largo)",
+    "Receptor O10": "PonerHerrajes._forma_receptor(tbm, recibe)"
+  }
+}

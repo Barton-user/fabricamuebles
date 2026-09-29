@@ -1,0 +1,13 @@
+﻿Mueble,Globo,Código,Pieza,Cant,Largo (H),Ancho (W),Espesor,Corte largo,Corte ancho,Material,Textura,Veta,Canto izq,Canto abajo,Canto der,Canto arriba,Rol,Aviso,Nombre GuiGui,Nombre completo GuiGui
+00-Bandejero,1,7432755750061,Parante 780x562x18,1,780,562,18,778,561,多层实木,d02白麻面,VERTICAL,0,1,1,1,PLACA,,Middle board01,00-Bandejero_Middle board01
+00-Bandejero,2,7432755750054,Lateral 780x580x18,1,780,580,18,780,579,多层实木,d02白麻面,VERTICAL,0,0,1,0,PLACA,,Right board01,00-Bandejero_Right board01
+00-Bandejero,3,7432755750047,Piso 580x264x18,1,264,580,18,264,579,多层实木,d02白麻面,VERTICAL,0,0,1,0,PLACA,,Partition01,00-Bandejero_Partition01
+00-Bandejero,4,7432755750153,Tapa 780x68x18,1,780,68,18,778,67,多层实木,d02白麻面,VERTICAL,1,1,0,1,PLACA,,Vertical Partition02,00-Bandejero_Vertical Partition02
+00-Bandejero,5,7432755750078,Travesaño 264x150x18,1,150,264,18,149,264,多层实木,d02白麻面,VERTICAL,0,1,0,0,PLACA,,Vertical Partition01,00-Bandejero_Vertical Partition01
+00-Bandejero,6,7432755750146,Fondo 622x274x5,1,622,274,5,622,274,装饰板,d02白麻面,VERTICAL,0,0,0,0,FONDO,,Back panel01,00-Bandejero_Back panel01
+00-Bandejero,7,7432755750085,Frente cajón 745x297x18,1,297,745,18,295,743,多层实木,01暖白,HORIZONTAL,1,1,1,1,FRENTE,,Drawer panels01,00-Bandejero_Drawer01_Drawer panels01
+00-Bandejero,8,7432755750115,Lateral caja 450x300x18 A,1,450,300,18,450,299,多层实木,d02白麻面,HORIZONTAL,0,0,1,0,CAJON,,Left drawer panel01,00-Bandejero_Drawer01_Left drawer panel01
+00-Bandejero,9,7432755750092,Frente caja 300x202x18,1,202,300,18,202,299,多层实木,d02白麻面,HORIZONTAL,0,0,1,0,CAJON,,Draw box front panel01,00-Bandejero_Drawer01_Draw box front panel01
+00-Bandejero,10,7432755750139,Fondo caja 424x212x5,1,212,424,5,212,424,装饰板,d02白麻面,VERTICAL,0,0,0,0,CAJON,,Drawer base board01,00-Bandejero_Drawer01_Drawer base board01
+00-Bandejero,11,7432755750122,Trasera caja 300x202x18,1,202,300,18,202,299,多层实木,d02白麻面,HORIZONTAL,0,0,1,0,CAJON,,Drawer back panel01,00-Bandejero_Drawer01_Drawer back panel01
+00-Bandejero,12,7432755750108,Lateral caja 450x300x18 B,1,450,300,18,450,299,多层实木,d02白麻面,HORIZONTAL,0,0,1,0,CAJON,,Right drawer panel01,00-Bandejero_Drawer01_Right drawer panel01

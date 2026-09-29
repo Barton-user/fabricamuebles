@@ -1,0 +1,19 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="564.00" Height="100.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="0,1,0,0" Name="00-Spar s/extracción_Fascia board02_Vertical Partition01" Code="7432755751006">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="564.00 0.00 0"/>
+        <Point Value="564.00 100.00 0"/>
+        <Point Value="0.00 100.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="522.00 67.00 -18.00" End="522.00 67.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="42.00 67.00 -18.00" End="42.00 67.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="531.00 51.07 -18.00" End="531.00 51.07 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="33.00 51.07 -18.00" End="33.00 51.07 -4.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="522.00 100.00 -9.00" End="522.00 67.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="42.00 100.00 -9.00" End="42.00 67.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="564.00 51.07 -9.00" End="531.00 51.07 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 51.07 -9.00" End="33.00 51.07 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="7432755751075" plateNickName="00-Escobero_Left board01" width="2282.00" depth="580.00" height="18.00" barCode="7432755751075" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="1" bandingFront="0" bandingLeft="0"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(545.00,1389.84,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(65.00,1389.84,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(545.00,1407.84,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(65.00,1407.84,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(545.00,1823.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(65.00,1823.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(546.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(66.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(9.00,1179.93,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(9.00,1115.93,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(441.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(57.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(500.00,2249.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(50.00,2249.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(409.00,0.00,9.00)" diameter="10.00" depth="11.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(89.00,0.00,9.00)" diameter="10.00" depth="11.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(441.00,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(57.00,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(500.00,2282.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,-1,0)"/>
+        <Hole point="(50.00,2282.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,-1,0)"/>
+    </Holes>
+    <Slottings>
+        <Slotting positionSide="0" slottingStartX="27.50" slottingStartY="12.85" slottingStartZ="0.000" slottingEndX="27.50" slottingEndY="2282.00" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="6.00"/>
+    </Slottings>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,2282.00,18.00)" endPoint="(580.00,2282.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(580.00,2282.00,18.00)" endPoint="(580.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(580.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,2282.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

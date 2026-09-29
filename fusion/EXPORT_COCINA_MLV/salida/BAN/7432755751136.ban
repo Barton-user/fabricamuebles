@@ -1,0 +1,19 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="90.00" Height="350.00" PlaneSize="1" Grain="1" Thickness="18" Material="多层实木" EdgeFBLR="0,0,0,0" Name="00-Escobero_Kick line01_Skirting board front panel01" Code="7432755751136">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="90.00 0.00 0"/>
+        <Point Value="90.00 350.00 0"/>
+        <Point Value="0.00 350.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="29.00 341.00 0" End="29.00 341.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="61.00 341.00 0" End="61.00 341.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="29.00 9.00 0" End="29.00 9.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="61.00 9.00 0" End="61.00 9.00 -11.00"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="33.00 248.00 -18.00" End="33.00 248.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="33.00 120.00 -18.00" End="33.00 120.00 -4.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 248.00 -9.00" End="33.00 248.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 120.00 -9.00" End="33.00 120.00 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

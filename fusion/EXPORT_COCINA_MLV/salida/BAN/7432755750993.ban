@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="564.00" Height="657.46" PlaneSize="1" Grain="2" Thickness="5" Material="装饰板" EdgeFBLR="0,0,0,0" Name="00-Spar s/extracción_Back panel01" Code="7432755750993">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="564.00 0.00 0"/>
+        <Point Value="564.00 657.46 0"/>
+        <Point Value="0.00 657.46 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

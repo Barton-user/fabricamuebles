@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>195.00</PanelLength>
+        <PanelWidth>597.00</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>00-Cajonera_Drawer03_Drawer panels01</PanelName>
+        <Params>
+            <Param Key="L" Value="195.00" Comment="板长"/>
+            <Param Key="W" Value="597.00" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

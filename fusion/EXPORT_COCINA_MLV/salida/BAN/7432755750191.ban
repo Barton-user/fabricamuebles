@@ -1,0 +1,19 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="564.00" Height="51.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="0,1,0,0" Name="00-Horno y anafe_Vertical Partition03" Code="7432755750191">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="564.00 0.00 0"/>
+        <Point Value="564.00 51.00 0"/>
+        <Point Value="0.00 51.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="522.00 18.00 -18.00" End="522.00 18.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="531.00 25.50 -18.00" End="531.00 25.50 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="74.00 18.00 -18.00" End="74.00 18.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="33.00 25.50 -18.00" End="33.00 25.50 -4.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="564.00 25.50 -9.00" End="531.00 25.50 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="522.00 51.00 -9.00" End="522.00 18.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="74.00 51.00 -9.00" End="74.00 18.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 25.50 -9.00" End="33.00 25.50 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

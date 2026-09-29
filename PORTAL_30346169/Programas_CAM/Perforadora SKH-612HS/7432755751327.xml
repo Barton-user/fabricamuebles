@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>564.00</PanelLength>
+        <PanelWidth>840.50</PanelWidth>
+        <PanelThickness>5.00</PanelThickness>
+        <PanelName>00-Alacena simple c/microondas 600_Back panel01</PanelName>
+        <Params>
+            <Param Key="L" Value="564.00" Comment="板长"/>
+            <Param Key="W" Value="840.50" Comment="板宽"/>
+            <Param Key="T" Value="5.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>664.00</PanelLength>
+        <PanelWidth>358.50</PanelWidth>
+        <PanelThickness>5.00</PanelThickness>
+        <PanelName>00-Alacena sobre heladera_Back panel01</PanelName>
+        <Params>
+            <Param Key="L" Value="664.00" Comment="板长"/>
+            <Param Key="W" Value="358.50" Comment="板宽"/>
+            <Param Key="T" Value="5.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

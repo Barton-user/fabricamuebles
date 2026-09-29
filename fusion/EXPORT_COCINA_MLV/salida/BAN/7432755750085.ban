@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="745.00" Height="297.00" PlaneSize="1" Grain="1" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,1" Name="00-Bandejero_Drawer01_Drawer panels01" Code="7432755750085">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="745.00 0.00 0"/>
+        <Point Value="745.00 297.00 0"/>
+        <Point Value="0.00 297.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

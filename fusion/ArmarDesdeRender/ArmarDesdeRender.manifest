@@ -1,0 +1,8 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "script",
+    "author": "Fabrica Muebles",
+    "description": "Arma en Fusion un ambiente de GuiGui desde su render.json, con herrajes y colores",
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

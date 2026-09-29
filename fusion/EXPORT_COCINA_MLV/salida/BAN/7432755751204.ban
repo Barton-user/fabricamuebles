@@ -1,0 +1,17 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="550.00" Height="264.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="0,0,0,1" Name="00-Escobero_Partition02" Code="7432755751204">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="550.00 0.00 0"/>
+        <Point Value="550.00 264.00 0"/>
+        <Point Value="0.00 264.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="515.00 33.00 0" End="515.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="35.00 33.00 0" End="35.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="35.00 231.00 0" End="35.00 231.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="515.00 0.00 -9.00" End="515.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="35.00 0.00 -9.00" End="35.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="35.00 264.00 -9.00" End="35.00 231.00 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

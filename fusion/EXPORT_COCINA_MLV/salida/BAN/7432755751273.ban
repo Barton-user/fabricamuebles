@@ -1,0 +1,26 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="400.00" Height="840.50" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="0,0,0,1" Name="00-Alacena simple c/microondas 600_Right board01" Code="7432755751273">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="400.00 0.00 0"/>
+        <Point Value="400.00 840.50 0"/>
+        <Point Value="0.00 840.50 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="359.00 359.00 0" End="359.00 359.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="71.00 359.00 0" End="71.00 359.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="9.00 105.18 0" End="9.00 105.18 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="9.00 41.18 0" End="9.00 41.18 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="354.00 604.25 0" End="354.00 604.25 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="66.00 604.25 0" End="66.00 604.25 -11.00"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="360.00 33.00 -18.00" End="360.00 33.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="40.00 33.00 -18.00" End="40.00 33.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="328.00 807.50 -18.00" End="328.00 807.50 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="72.00 807.50 -18.00" End="72.00 807.50 -4.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="360.00 0.00 -9.00" End="360.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="40.00 0.00 -9.00" End="40.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="328.00 840.50 -9.00" End="328.00 807.50 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="72.00 840.50 -9.00" End="72.00 807.50 -9.00"/>
+    <SlotL Name="" Face="A" Start="27.50 0.00 -6.00" End="27.50 840.50 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

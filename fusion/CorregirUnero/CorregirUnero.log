@@ -1,0 +1,32 @@
+  7432755751044 Roof plate01: saco 1 perno(s) O8 y 1 excentrica(s) O15
+  7432755751051 Vertical Partition01: saco 1 perno(s) O8 y 1 excentrica(s) O15
+  7432755751020 Roof plate01: saco 1 perno(s) O8 y 1 excentrica(s) O15
+  7432755751037 Vertical Partition01: saco 1 perno(s) O8 y 1 excentrica(s) O15
+  7432755750054 Right board01: agrego 2 excentricas O15 (cara -1) y 2 pernos O8
+  7432755750177 Left board01: agrego 2 excentricas O15 (cara 1) y 2 pernos O8
+  7432755751044 Roof plate01: agrego 1 receptor O10
+  7432755751051 Vertical Partition01: agrego 1 receptor O10
+  7432755751020 Roof plate01: agrego 1 receptor O10
+  7432755751037 Vertical Partition01: agrego 1 receptor O10
+leido y corregido (29.1 s)
+7432755750054 00-Bandejero/Right board01: placa rehecha, volumen 8054.193 -> 8046.830 cm3
+   dibujados 4 herrajes nuevos
+7432755750177 00-Horno y anafe/Left board01: placa rehecha, volumen 8075.009 -> 8067.646 cm3
+   dibujados 4 herrajes nuevos
+7432755751044 01-Uñero/Roof plate01: placa rehecha, volumen 251.903 -> 254.721 cm3
+   herraje Perno O8 x 33 en (26.0, 280.9): borrado
+   herraje Excentrica O15 en (26.0, 247.9): borrado
+   dibujados 1 herrajes nuevos
+7432755751051 01-Uñero/Vertical Partition01: placa rehecha, volumen 247.425 -> 250.243 cm3
+   herraje Perno O8 x 33 en (25.0, 280.9): borrado
+   herraje Excentrica O15 en (25.0, 247.9): borrado
+   dibujados 1 herrajes nuevos
+7432755751020 02-Uñero/Roof plate01: placa rehecha, volumen 2038.338 -> 2041.018 cm3
+   herraje Perno O8 x 33 en (26.0, 0.0): borrado
+   herraje Excentrica O15 en (26.0, 33.0): borrado
+   dibujados 1 herrajes nuevos
+7432755751037 02-Uñero/Vertical Partition01: placa rehecha, volumen 1966.589 -> 1969.407 cm3
+   herraje Perno O8 x 33 en (25.0, 0.0): borrado
+   herraje Excentrica O15 en (25.0, 33.0): borrado
+   dibujados 1 herrajes nuevos
+LISTO en 182.4 s

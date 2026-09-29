@@ -1,0 +1,10 @@
+09:58:53 design COCINA MLV v5
+09:58:53 input listo; sheetSize=2 orient=0
+10:58:59 ERROR
+Traceback (most recent call last):
+  File "<string>", line 56, in run
+  File "/Users/patriciokeogan/Library/Application Support/Autodesk/webdeploy/production/127ae56f1790f40cf393bcc73875a1a281e20234/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/drawing.py", line 4232, in createDrawing
+    return _drawing.DrawingManager_createDrawing(self, input)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+RuntimeError: 3 : Failed to get uploaded uri.
+

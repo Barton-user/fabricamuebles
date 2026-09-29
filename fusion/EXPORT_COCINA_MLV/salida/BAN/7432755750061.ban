@@ -1,0 +1,22 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="562.00" Height="780.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,0,1" Name="00-Bandejero_Middle board01" Code="7432755750061">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="562.00 0.00 0"/>
+        <Point Value="562.00 780.00 0"/>
+        <Point Value="0.00 780.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="3.00" IsCuted="0" Face="B" Start="167.00 193.00 -18.00" End="167.00 193.00 -8.00"/>
+    <HoleV Name="" Diameter="3.00" IsCuted="0" Face="B" Start="543.00 193.00 -18.00" End="543.00 193.00 -8.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="9.00 737.00 -18.00" End="9.00 737.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="9.00 673.00 -18.00" End="9.00 673.00 -7.00"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="529.00 742.00 -18.00" End="529.00 742.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="529.00 38.00 -18.00" End="529.00 38.00 -4.50"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="521.00 9.00 -18.00" End="521.00 9.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="41.00 9.00 -18.00" End="41.00 9.00 -7.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="562.00 742.00 -9.00" End="529.00 742.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="562.00 38.00 -9.00" End="529.00 38.00 -9.00"/>
+    <SlotL Name="" Face="B" Start="7.50 12.85 -6.00" End="7.50 635.15 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

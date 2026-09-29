@@ -1,0 +1,21 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="580.00" Height="964.00" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="0,0,0,1" Name="00-Bajo mesada doble c/tacho_Partition02" Code="7432755750498">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="580.00 0.00 0"/>
+        <Point Value="580.00 964.00 0"/>
+        <Point Value="0.00 964.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="236.00 931.00 -18.00" End="236.00 931.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="44.00 931.00 -18.00" End="44.00 931.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="546.00 33.00 -18.00" End="546.00 33.00 -4.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="B" Start="34.00 33.00 -18.00" End="34.00 33.00 -4.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="236.00 964.00 -9.00" End="236.00 931.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="44.00 964.00 -9.00" End="44.00 931.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="546.00 0.00 -9.00" End="546.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="34.00 0.00 -9.00" End="34.00 33.00 -9.00"/>
+    <SlotL Name="" Face="B" Start="7.50 0.00 -6.00" End="7.50 964.00 -6.00" Width="6.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="7.50 0.00 -6.00" End="7.50 964.00 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

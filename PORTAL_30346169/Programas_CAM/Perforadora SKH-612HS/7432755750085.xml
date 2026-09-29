@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>745.00</PanelLength>
+        <PanelWidth>297.00</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>00-Bandejero_Drawer01_Drawer panels01</PanelName>
+        <Params>
+            <Param Key="L" Value="745.00" Comment="板长"/>
+            <Param Key="W" Value="297.00" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

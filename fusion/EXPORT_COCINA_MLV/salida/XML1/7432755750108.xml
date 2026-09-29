@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="7432755750108" plateNickName="00-Bandejero_Drawer01_Right drawer panel01" width="450.00" depth="300.00" height="18.00" barCode="7432755750108" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="1" bandingFront="0" bandingLeft="0"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(32.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(268.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(32.00,441.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(268.00,441.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(150.00,37.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(150.00,413.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+    </Holes>
+    <Slottings>
+        <Slotting positionSide="1" slottingStartX="282.50" slottingStartY="12.85" slottingStartZ="0.000" slottingEndX="282.50" slottingEndY="437.15" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="5.50"/>
+    </Slottings>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,450.00,18.00)" endPoint="(300.00,450.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(300.00,450.00,18.00)" endPoint="(300.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(300.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,450.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

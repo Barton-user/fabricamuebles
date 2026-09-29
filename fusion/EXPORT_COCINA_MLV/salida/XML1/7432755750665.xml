@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="7432755750665" plateNickName="00-Alacena sobre heladera_单开门" width="416.50" depth="697.00" height="18.00" barCode="7432755750665" barCode1="">
+    <Bandings>
+        <Banding bandingBack="1" bandingRight="1" bandingFront="1" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(573.00,379.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(621.00,379.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(597.00,394.00,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(76.00,379.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(124.00,379.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+        <Hole point="(100.00,394.00,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="0" drillDirection="(0,0,1)"/>
+    </Holes>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,416.50,18.00)" endPoint="(697.00,416.50,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(697.00,416.50,18.00)" endPoint="(697.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(697.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,416.50,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

@@ -1,0 +1,17 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:25" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="697.00" Height="416.50" PlaneSize="1" Grain="2" Thickness="18" Material="多层实木" EdgeFBLR="1,1,1,1" Name="00-Alacena sobre heladera_单开门" Code="7432755750665">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="697.00 0.00 0"/>
+        <Point Value="697.00 416.50 0"/>
+        <Point Value="0.00 416.50 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="573.00 379.50 -18.00" End="573.00 379.50 -15.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="621.00 379.50 -18.00" End="621.00 379.50 -15.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="B" Start="597.00 394.00 -18.00" End="597.00 394.00 -5.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="76.00 379.50 -18.00" End="76.00 379.50 -15.00"/>
+    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="B" Start="124.00 379.50 -18.00" End="124.00 379.50 -15.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="B" Start="100.00 394.00 -18.00" End="100.00 394.00 -5.00"/>
+</Plane>
+</MicroDrawBan_XML>

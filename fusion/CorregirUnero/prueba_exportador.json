@@ -1,0 +1,132 @@
+{
+ "7432755750245": {
+  "nombre": "00-Cajonera_Left board01",
+  "canto": [
+   {
+    "x": 530.0,
+    "y": 754.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "R"
+   },
+   {
+    "x": 555.0,
+    "y": 710.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "U"
+   }
+  ],
+  "n_caras": 14,
+  "log": [
+   "  (O8.0 entra por un canto de la escotadura, canto R)",
+   "  agujero de canto  O8.0 prof 33.0  canto R  en (530.0, 754.0) z=9.0",
+   "  (O8.0 entra por un canto de la escotadura, canto U)",
+   "  agujero de canto  O8.0 prof 33.0  canto U  en (555.0, 710.0) z=9.0"
+  ]
+ },
+ "7432755750467": {
+  "nombre": "00-Bajo mesada doble c/tacho_Left board01",
+  "canto": [
+   {
+    "x": 530.0,
+    "y": 754.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "R"
+   }
+  ],
+  "n_caras": 11,
+  "log": [
+   "  (O8.0 entra por un canto de la escotadura, canto R)",
+   "  agujero de canto  O8.0 prof 33.0  canto R  en (530.0, 754.0) z=9.0"
+  ]
+ },
+ "7432755750177": {
+  "nombre": "00-Horno y anafe_Left board01",
+  "canto": [
+   {
+    "x": 530.0,
+    "y": 754.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "R"
+   },
+   {
+    "x": 555.0,
+    "y": 710.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "U"
+   }
+  ],
+  "n_caras": 8,
+  "log": [
+   "  (O8.0 entra por un canto de la escotadura, canto R)",
+   "  agujero de canto  O8.0 prof 33.0  canto R  en (530.0, 754.0) z=9.0",
+   "  (O8.0 entra por un canto de la escotadura, canto U)",
+   "  agujero de canto  O8.0 prof 33.0  canto U  en (555.0, 710.0) z=9.0"
+  ]
+ },
+ "7432755750238": {
+  "nombre": "00-Cajonera_Right board01",
+  "canto": [
+   {
+    "x": 530.0,
+    "y": 754.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "R"
+   },
+   {
+    "x": 555.0,
+    "y": 710.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "U"
+   }
+  ],
+  "n_caras": 14,
+  "log": [
+   "  (O8.0 entra por un canto de la escotadura, canto R)",
+   "  agujero de canto  O8.0 prof 33.0  canto R  en (530.0, 754.0) z=9.0",
+   "  (O8.0 entra por un canto de la escotadura, canto U)",
+   "  agujero de canto  O8.0 prof 33.0  canto U  en (555.0, 710.0) z=9.0"
+  ]
+ },
+ "7432755750054": {
+  "nombre": "00-Bandejero_Right board01",
+  "canto": [
+   {
+    "x": 530.0,
+    "y": 754.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "R"
+   },
+   {
+    "x": 555.0,
+    "y": 710.0,
+    "z": 9.0,
+    "diametro": 8.0,
+    "profundidad": 33.0,
+    "canto": "U"
+   }
+  ],
+  "n_caras": 8,
+  "log": [
+   "  (O8.0 entra por un canto de la escotadura, canto R)",
+   "  agujero de canto  O8.0 prof 33.0  canto R  en (530.0, 754.0) z=9.0",
+   "  (O8.0 entra por un canto de la escotadura, canto U)",
+   "  agujero de canto  O8.0 prof 33.0  canto U  en (555.0, 710.0) z=9.0"
+  ]
+ }
+}

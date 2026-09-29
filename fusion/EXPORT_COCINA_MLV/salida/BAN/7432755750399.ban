@@ -1,0 +1,18 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/27 pm 10:19:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="152.00" Height="450.00" PlaneSize="1" Grain="1" Thickness="18" Material="多层实木" EdgeFBLR="0,0,0,1" Name="00-Cajonera_Drawer01_Right drawer panel01" Code="7432755750399">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="152.00 0.00 0"/>
+        <Point Value="152.00 450.00 0"/>
+        <Point Value="0.00 450.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="32.00 9.00 0" End="32.00 9.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="120.00 9.00 0" End="120.00 9.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="32.00 441.00 0" End="32.00 441.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="120.00 441.00 0" End="120.00 441.00 -11.00"/>
+    <HoleV Name="" Diameter="3.00" IsCuted="0" Face="B" Start="76.00 37.00 -18.00" End="76.00 37.00 -8.00"/>
+    <HoleV Name="" Diameter="3.00" IsCuted="0" Face="B" Start="76.00 413.00 -18.00" End="76.00 413.00 -8.00"/>
+    <SlotL Name="" Face="A" Start="134.50 12.85 -5.50" End="134.50 437.15 -5.50" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>
