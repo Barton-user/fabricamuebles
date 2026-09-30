@@ -1,11 +1,11 @@
 # FÁBRICA MUEBLES — Contexto técnico del proyecto
 
-_Última actualización: 28/09/2026 — armado con Claude durante la puesta en marcha de la línea._
+_Última actualización: 30/09/2026 — armado con Claude durante la puesta en marcha de la línea._
 
 > **Cómo retomar con Claude**: abrir un chat con esta carpeta conectada y decir
 > "leé CONTEXTO.md y seguimos desde el punto X".
 >
-> **Estado del proyecto → sección 15. Hoja de ruta (objetivo y etapas) → sección 16. MCP de GuiGui y modelos 3D bajados → sección 17. Web de curvado por ranuras (`curvado/`, Vercel) → sección 20. Herrajes Häfele equivalentes → sección 23.**
+> **Estado del proyecto → sección 15. Hoja de ruta (objetivo y etapas) → sección 16. MCP de GuiGui y modelos 3D bajados → sección 17. Web de curvado por ranuras (`curvado/`, Vercel) → sección 20. Herrajes Häfele equivalentes → sección 23. Respuestas de Huahua del 30/09 (y la Ø35 frenada) → sección 26.**
 
 ---
 
@@ -1858,6 +1858,7 @@ círculo en más vueltas pero sale.
 - La fresa debe sobresalir **más de 45 mm**, idealmente lo mismo que la que se saca.
 - La profundidad se ajusta con el valor **"+Z"** de la herramienta en el almacén: más valor,
   más profundo. Es común a las fresas de arriba y de abajo.
+  ⚠️ **FALSO: es al revés — menos valor = más profundo** (§16, confirmado por Huahua el 30/09).
 - **Después de cambiar, corregir el diámetro en la tabla de herramientas**, o el software
   sigue calculando con el viejo.
 - Mechas: prisionero bien trabado, altura de instalación ≤ 1 mm, nada de mechas gastadas, y
@@ -1954,8 +1955,8 @@ probarlo.
 | 4 | Medir con calibre la primera pieza (techo) — ¿hay espejado? | **sin hacer** |
 | 5 | Corregir mapeo de cantos y de código de barras en AutoCUT | sin empezar |
 | 6 | Recortar las 7 piezas del gris con las medidas correctas | sin empezar |
-| 7 | Mecha vertical Ø6 (o pasar los tornillos de bisagra a Ø5) | a decidir |
-| 8 | Lubricación — 12 tareas vencidas desde 2026-01-04 | sin hacer |
+| 7 | Mecha vertical Ø6 (o pasar los tornillos de bisagra a Ø5) | decidido: reemplazar un Ø10 del paquete de arriba (§26) |
+| 8 | Lubricación — 12 tareas vencidas desde 2026-01-04 | sin hacer · se marca con permiso + **Actualizar** (§26) |
 | 9 | Router: cargar T1 Ø6 en su almacén | sin empezar |
 
 ---
@@ -2067,6 +2068,9 @@ la vuelve a disparar.
 ### ✅ RESUELTO — la cazoleta Ø35: el husillo de fresa estaba descalibrado en Z
 
 **`desplazamiento Z` de la T184 = `27`.** Ése es el número. Con eso la profundidad sale exacta.
+
+> Huahua (30/09) confirma que así se calibra: con el Z de cada herramienta en la tabla, no hay
+> pantalla de medición. Mencionaron también la **T190** ("同动刀") — **no tocarla**, ver §26.
 
 #### El síntoma
 
@@ -2225,7 +2229,7 @@ A la pregunta del usuario y contraseña del login contestó **"密码 520"** —
 tabla de herramientas. Candidato para el usuario: **`Admin`**, que es el que muestra CncMon32.
 **Sin confirmar.**
 
-### Preguntas mandadas el 24/09 y todavía sin respuesta
+### Preguntas mandadas el 24/09 — contestadas el 30/09 (ver sección 26)
 
 Se le mandó un mensaje consolidado con 12 preguntas en 5 bloques:
 
@@ -2739,6 +2743,10 @@ puede decirnos izquierda o derecha.
 | 8 | 8 | **8** | −32 | −64 |
 | 9 | 9 | **10** | −64 | −64 |
 
+> ⚠️ **Corregido el 30/09 (§26.2):** la conclusión de abajo de que "una Ø35 no entra en paso 32"
+> es un error de cuenta — chocan si la suma de los **radios** pasa 32, o sea que entra con vecinas
+> de hasta Ø29. La vía del paquete vuelve a estar abierta.
+
 **Es una grilla de 3 × 3, paso 32 mm en X y en Y. Las nueve posiciones están ocupadas y
 habilitadas.** No hay hueco libre, y **una mecha de Ø35 no entra en un paso de 32 mm**: chocaría
 con la vecina. Por eso la tabla de verticales se corta en Ø20 — es el máximo que permite el paso.
@@ -2817,13 +2825,16 @@ Esta tabla reemplaza a todo lo anterior. Las secciones 19 y 20 quedan como histo
 
 | # | Qué | Especificación | Estado | Precio | Link |
 |---|---|---|---|---|---|
-| 1 | **Mecha cazoleta Ø35** | Ø35 · **70 mm** · vástago Ø10 · **DERECHA** · no pasante | ✅ **lista para comprar** | **$73.516** (cupón $70.016) | [FUL MBD3570](https://www.mercadolibre.com.ar/mecha-fresa-para-madera-bisagra--35mm-x70mm-derecha-widia/up/MLAU3931773080) |
-| 2 | **Mecha vertical Ø6** | Ø6 · 57 o 70 mm · vástago Ø10 · **giro a confirmar** | ⏸ falta leer el color de la posición 7 del paquete de arriba | ~$28.000 | [derecha 6×70](https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6-mm-x-70mm-derecha-p-placas-madera/up/MLAU126150590) · [izquierda 6×57](https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6mm-x-57mm-izquierda-p-placas-madera/up/MLAU126142924) |
+| 1 | **Mecha cazoleta Ø35** | Ø35 · **70 mm** · vástago Ø10 · **DERECHA** · no pasante | 🛑 **FRENADA (30/09)** — no se sabe si va en el husillo o en el paquete; ver §26.2 | **$73.516** (cupón $70.016) | [FUL MBD3570](https://www.mercadolibre.com.ar/mecha-fresa-para-madera-bisagra--35mm-x70mm-derecha-widia/up/MLAU3931773080) |
+| 2 | **Mecha vertical Ø6** | Ø6 · 57 o 70 mm · vástago Ø10 · **giro a confirmar** | ⏸ Huahua confirmó (30/09): cambiar la mecha y poner 6 en la tabla. Falta leer **color y largo** de las posiciones 7 y 9 del paquete de arriba | ~$28.000 | [derecha 6×70](https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6-mm-x-70mm-derecha-p-placas-madera/up/MLAU126150590) · [izquierda 6×57](https://www.mercadolibre.com.ar/broca-mecha-no-pasante-6mm-x-57mm-izquierda-p-placas-madera/up/MLAU126142924) |
 | 3 | Fresa espiral Ø20 de repuesto | igual a la `Ø20x70R` del puesto 4 | 🕓 no urgente | — | — |
 | 4 | Fresa Ø6 para el **router** (T1) | otra máquina | 🕓 otra sesión | — | — |
 
 **No se compra**: fresa de ranurar Ø9 (se cambia el diseño a ranuras de 10 mm, que la T11 ya
 hace bien). Ø8 horizontal, Ø10 y Ø15 verticales ya están montadas.
+
+**30/09:** Huahua dio dos respuestas opuestas sobre dónde va la Ø35 y la cuenta de §21 estaba mal →
+la compra de la FUL queda frenada hasta que contesten la pregunta cerrada de §26.4.
 
 **Riesgo a cubrir antes de usar la Ø35**: el husillo gira a 18000 rpm y una mecha de tres puntas
 Ø35 quiere ~3000. Si Huahua confirma que no se puede bajar, la mecha se quema. Preguntado.
@@ -2948,3 +2959,174 @@ tornillos dibujados en posición cerrada. El original abierto está guardado en
 
 https://www.figma.com/design/FBehv5P3VSuDUbLplOPRit — una fila por herraje con
 el dibujo sacado del 3D, la foto real, qué medir y el veredicto.
+
+---
+
+## 25. COCINA-01 — primera cocina diseñada desde cero, por RECETA (29/09/2026)
+
+Se tomó el modelo de render `COCINA` (Fusion, proyecto cocina; son bloques macizos, no placas)
+sólo como medidas, y se armó una cocina fabricable con las decisiones de Pato: puertas lisas
+melamina 18 (VERDE 18) y cuerpos BLANCO 18, esquineros diagonales con chanfle a mano y puerta
+colgada de un **montante a 45°**, cajonera 320 con 4 cajones y corredera de bolillas 450
+(37/413), bajo pileta con frente fijo, zócalo clip sobre patas, alacenas hasta 2490 sin
+cornisa con cenefa verde de 60, LED en ranura 10×10 en cara B del piso, estantes regulables
+Ø5 (sistema 32, banda de 5 agujeros), fondos 5 en ranura 6×6, sin tiradores, mesada externa.
+
+**Camino nuevo, el de la Etapa 3 (§16):** `recetas/cocina01.py` (Python puro) calcula todas las
+placas y todos los agujeros → `modelo.json` → `fusion/ArmarReceta` lo arma en Fusion (documento
+`COCINA-01`, herrajes STEP de la biblioteca) → `ArmarReceta.exportar()` = ExportarPiezas sin
+diálogos → `etapa2/`. La receta escribe además `piezas_receta.json` y `recetas/comparar.py` lo
+compara con lo que Fusion lee del sólido: **95/95 idénticas**. Paquete en
+`fusion/EXPORT_COCINA-01/` (ver su `LEEME.md`).
+
+Dos errores que encontró la comparación / los chequeos (y ya están corregidos):
+
+1. **Ranuras de fondo en L** (esquineros): si las dos ranuras se tocan, forman un solo fondo de
+   ranura en L y `ExportarPiezas` **no la reconoce** ("cara plana 757×757 ignorada") → el archivo
+   de máquina salía sin ranuras. Ahora quedan separadas 1 mm.
+2. **Corredera contra 3 en 1** en los costados de cajón: el Ø3 del riel (a media altura, cara B)
+   se metía en el Ø8 del perno. Ahora el conector va a 30 del borde de arriba, y la receta tiene
+   un chequeo de "agujero de cara que se mete en un agujero de canto".
+
+Cajón: frente y contrafrente **por fuera** y costados entre ellos, para que ninguna pieza
+mecanizada quede por debajo de los 250 mm que acepta la perforadora (con la cajonera de 320 el
+frente interior daba 222).
+
+Pendientes propios de esta cocina: ver `fusion/EXPORT_COCINA-01/LEEME.md` (Ø3 y Ø6 no están en
+la máquina, Ø15/Ø10 en cara B, canto 1 mm, colgadores sin medir, paquete de etiquetas/manual
+todavía sale sólo desde render.json de GuiGui).
+
+### 25.1 · Puertas y cajones que se mueven (29/09/2026)
+
+Documento aparte **`COCINA-01 movimiento`** (copia; `COCINA-01` queda igual) con juntas de Fusion
+hechas por `fusion/MoverPuertas`: 10 juntas de **revolución** (puertas, 0-90°, las bisagras van
+pegadas a la puerta en un grupo rígido) y 4 **deslizantes** (cajones, 0-400 mm, frente + caja en
+grupo rígido). Se mueven con ENSAMBLAR → *Accionar juntas* o *Estudio de movimiento*.
+`MoverPuertas.animar()` saca cuadros y de ahí sale `COCINA-01_puertas_y_cajones.gif` / `.mp4`.
+
+- Las juntas "as-built" sólo existen en diseño **paramétrico** (el documento se convierte).
+- Con geometría de vértice, el eje *custom* por arista se ignora: se usa el eje LOCAL de la placa
+  (puertas: Y local = vertical → `YAxisJointDirection`; cajones: `ZAxisJointDirection`).
+- El pivote es la arista de afuera del lado de bisagras (aproximación: la bisagra real es de 4 barras).
+- **Hallazgo:** la puerta de cada esquinero y la puerta vecina (B2 derecha / A2 derecha) **no se
+  abren a fondo las dos a la vez**: con la vecina abierta, la del esquinero llega a 45°. Con
+  todas abiertas a 90° no hay otro choque; a 95° chocan dos puertas con bisagra en el mismo encuentro.
+- Con todo abierto, `ExportarPiezas` da igual 95/95: las juntas no cambian los archivos de máquina.
+- **Todas juntas (29/09):** 13 *vínculos de movimiento* (Motion Link) atan todo a la junta
+  maestra **`B2 Puerta der`**: maestra 0→90° = puertas 0→90°, esquineros 0→45°, cajones 0→400 mm.
+  Se mueve sólo la maestra (Accionar juntas / Animar del vínculo / Estudio de movimiento con esa
+  junta), o se corre el script `MoverPuertas` (abre y cierra dos veces). API: `root.motionLinks`
+  con las juntas como proxy de la ocurrencia del mueble; tipos `RevoluteJointRotateMotionType` y
+  `SliderJointSlideMotionType`.
+- ⚠️ **Anclar lo fijo (29/09):** sin anclar, al arrastrar una puerta Fusion resolvía la junta
+  moviendo el **lateral** y el mueble se desarmaba (laterales girados ~20°, cajonera corrida 18 cm).
+  Ahora las 61 placas fijas y los muebles están anclados (`isGrounded`) en `COCINA-01 movimiento`,
+  y `MoverPuertas.preparar()` lo hace solo.
+
+---
+
+## 26. Respuestas de Huahua a las 12 preguntas (30/09/2026)
+
+Contestaron en el grupo de WeChat, en chino, **intercaladas debajo de cada pregunta** del mensaje
+del 24/09 (§17). Las preguntas nuevas del fresado (marca de entrada, campana) y el aviso del
+manual **no tienen respuesta todavía**, salvo un mensaje suelto sobre la Ø35 (ver 26.2).
+
+### 26.1 Pregunta por pregunta
+
+| # | Pregunta | Respuesta literal | Qué dice | Qué cambia para nosotros |
+|---|---|---|---|---|
+| 1 | Cómo se calibra el largo de la fresa; en qué pantalla | 调整对应刀具库z偏移（深度） | "Ajustar el desplazamiento Z (profundidad) de esa herramienta en la biblioteca de herramientas." | **Confirma lo que ya hicimos.** No hay pantalla de medición de herramienta: se calibra a mano con el Z de cada una (T184 = **27**, fórmula en §16). |
+| — | (anotado junto a la pista de la marca de 85–90 mm) | 应该调整同动刀190/Z偏移/ | "Había que ajustar la herramienta asociada **190** / el desplazamiento Z." | **Dato nuevo: la T190** (en la tabla figura Ø0, sin uso aparente, sesión del 23/09) sería una herramienta "同动" (que se mueve junto con el husillo — probablemente la referencia de altura del cabezal de fresado). Como ya quedó bien con el Z de la T184, **no tocar la T190** sin saber qué es: si es la referencia común, moverla descalibra todas las fresas. Repreguntado. |
+| 2 | ¿46 mm de voladizo es demasiado? | 打开铣刀压板，不超过压板即可 | "Bajá la placa de la fresa (压板); alcanza con que la fresa no sobresalga de la placa." | **Regla de voladizo:** con la placa abajo, la punta **no tiene que pasar el borde inferior de la placa**. Medirlo con la Ø20 montada. Ojo con el nombre: 压板 es "placa prensora", lo mismo que la interfaz llama "Placa de sujeción del cortador" y que en §16 identificamos como campana de aspiración. Puede que, además de encerrar la viruta, **apriete la placa** alrededor de la fresa. |
+| 3 | Procedimiento de "todas las puntas en el mismo plano ±1 mm" (manual cap. 18) | 打开所有垂直钻，保持同一个高度，误差不超过正负1 | "Bajá todos los taladros verticales; que queden a la misma altura, con error no mayor a ±1." | **Procedimiento:** Manual → bajar todos los verticales a la vez → con calibre de profundidad o una regla apoyada, comprobar que todas las puntas queden a ±1 mm → la que no, aflojar prisionero y correrla en el mandril. **Hacerlo cada vez que se monte una mecha** (la Ø6, y la Ø35 si va al paquete). |
+| 4 | Por qué sale ovalado; dónde está la interpolación circular | 调整对应刀具进给速度慢速即可 | "Alcanza con bajar la velocidad de avance de esa herramienta." | No hay parámetros de interpolación para tocar. El ovalado grande (26 × 32) era el Z; el que quedó (30,16 × 32,7, §19) **probar bajando el avance de la T184**. Si con avance bajo sale redonda y a medida, **se puede sacar el parche de diámetro 15,3** y volver a 20. |
+| 5 | ¿Se puede agregar una Ø35 al paquete de verticales? | 不建议安装 | "No se recomienda instalarla." | **Se contradice con otro mensaje — ver 26.2.** |
+| 6 | Dónde se cambia el avance de la T184 | 刀具库设定，每一把都是独立设定 | "En la configuración de la biblioteca de herramientas; cada una tiene su ajuste independiente." | Confirma: fila de la T184 → **"Ajuste de velocidad"** (10000 / 1000 / 500, vel. 5000). Cambiar sólo esa; no afecta a las otras. |
+| 7 | Cómo poner "herramienta en el husillo" en T0 | 这种情况需要装回187号刀具 | "En ese caso hay que volver a montar la herramienta 187." | **No hay forma de ponerlo en T0 por software.** Lo que hicimos el 24/09 (montar el cono a mano con el botón verde del cabezal, §16) es el procedimiento oficial. |
+| 8 | Ø6: ¿se puede agregar, o pasar a Ø5? Y el crash | 直接换刀具就行（刀具库直径需要对应） · 需要提供文件和软件备份测试这个情况 | "Alcanza con cambiar la mecha (el diámetro de la tabla tiene que coincidir)." · "Para el crash necesitan el archivo y un backup del software para probarlo." | **Confirma el plan de §21:** sacar un Ø10 redundante del paquete de arriba (posición 7 o 9), poner la Ø6, cargar **6** en la tabla (clave 520) y regenerar. Para el crash: mandarles un XML con Ø6 (`9441838670057.xml` de PRUEBA 1 sirve) + el backup — falta saber cómo se saca el backup. |
+| 9 | Ancho mínimo de ranura en cara dorso | 刀具库没有对应的刀具直径 | "La biblioteca no tiene una herramienta de ese diámetro." | El mínimo es **la herramienta más chica cargada para esa cara** (T11, Ø10). Queda como decidimos: ranuras de dorso de **10 mm**. |
+| 10 | KDTXml como formato por defecto | 提供操作视频 | "Proporcionar video de la operación." | **Ambiguo**: o nos mandan un video de cómo se configura, o nos piden que filmemos el problema. Repreguntado. Mientras tanto, cambiarlo a mano cada vez (sesión del 23/09). |
+| 11 | Usuario del login (¿clave 520?) | — | sin respuesta | Sigue candidato **`Admin` / 520**, sin confirmar. |
+| 12 | Cómo marcar el mantenimiento como hecho | 输入权限后点击更新就可以 | "Después de ingresar el permiso, apretar **Actualizar**." | Mantenimiento → ingresar el permiso (probar **520**) → **Actualizar** en cada tarea. **Hacer primero la lubricación de verdad** (12 tareas vencidas desde 2026-01-04, ver manual). |
+
+### 26.2 🚨 La Ø35: dos respuestas que se contradicen — FRENAR la compra de la FUL
+
+- A la pregunta 5 (¿Ø35 en el paquete de verticales?) contestaron **不建议安装 — "no se recomienda"**.
+- En un mensaje aparte, contestando al "please i need those answers", escribieron:
+  **安装一把35直径刀具。钻包设置里面把直径改一下就可以了。** — *"Montá una herramienta de Ø35.
+  En la configuración del paquete de taladros cambiás el diámetro y listo."*
+
+"钻包设置" es la pantalla **"Configuración de paquete de…"**, donde están **tanto los verticales
+como las fresas** (T184, T186…). Así que la frase no aclara si la Ø35 va en el paquete o en el
+husillo ER25.
+
+**⚠️ Corrección a §21: la cuenta de "una Ø35 no entra en paso de 32 mm" estaba mal.** Dos mechas
+vecinas chocan sólo si la suma de sus **radios** supera la distancia entre centros:
+`17,5 + r_vecina < 32` → **entra con cualquier vecina de hasta Ø29**. Las vecinas de la
+posición 7 (Ø8 en la 4 y en la 8) y de la 9 (Ø12 en la 6, Ø8 en la 8) dejan **9 a 11 mm de luz**.
+Que la tabla de verticales llegue sólo hasta Ø20 no prueba que no entre. En la industria las
+cazoletas de 35 se montan habitualmente en paquetes de paso 32. Lo que sí puede frenarla es algo
+que no vemos (peso, torque del motor del paquete, carrera) — quizá por eso el "no se recomienda".
+
+**Así quedan las dos vías:**
+
+| | A · En el paquete de arriba | B · En el husillo ER25 (puesto 186) |
+|---|---|---|
+| Dónde | reemplaza un Ø10 redundante (pos. 7 o 9); la Ø6 va en la otra | puesto 186, libre |
+| Giro | el de esa posición → **color de la mecha que se saque** | **DERECHA** (igual que la Ø20x70R) |
+| Largo | **el mismo que las otras mechas del paquete** (regla ±1 mm) — medir: 57 o 70 | 70 |
+| RPM | la del paquete, apta para Ø35 | **18000** — riesgo de quemarla si no se puede bajar |
+| Qué comprar | Euro Hard 35 × 57/70 de la mano que toque | **FUL MBD3570** (§22) |
+| Dijo Huahua | "no se recomienda" | nada claro |
+
+**Decisión: no comprar la Ø35 hasta que contesten A o B** con la pregunta cerrada de 26.4. Si
+ya se compró la FUL derecha 70, sirve igual para la vía B, y para la A sólo si la posición resulta
+negra (derecha) y el paquete usa mechas de 70.
+
+**Lo que se puede hacer ya, sin esperar:** sacar las mechas de las posiciones **7 y 9** del paquete de
+arriba y anotar **color (giro) y largo total**. Con eso la vía A queda especificada y la Ø6 también.
+
+### 26.3 Lo que sigue sin respuesta
+
+1. **RPM del husillo de fresado por herramienta** (18000 → ~3000 para una Ø35). Clave para la vía B.
+2. **Marca de entrada del fresado circular**: ¿hay arco de entrada/salida? ¿cuál de los tres valores
+   de "Ajuste de velocidad" es el de bajada? (La respuesta 6 sólo dice que es por herramienta.)
+3. **La campana / placa prensora no baja sola** durante el fresado; bajada a mano → `MLC 129`.
+4. **Qué es la T190** (同动刀) y si hay que tocarla.
+5. **Usuario del login.**
+6. **KDTXml por defecto**: ¿el video lo mandan ellos o lo pedimos nosotros?
+7. **Cómo sacar el backup del software** para que prueben el crash de la Ø6.
+8. **Manual 11.3** ("más valor, más profundo" es al revés): avisado dos veces, sin acuse.
+
+### 26.4 Mensaje listo para mandar (pegar en el grupo)
+
+```
+谢谢您的回复！还有几个问题需要确认：
+
+1. Ø35 铰链杯：第5题您说立钻"不建议安装"，后面又说"安装一把35直径刀具，钻包设置里改直径"。
+   请确认 Ø35 钻头应该装在哪里？
+   A. 上钻包的立钻位置（替换7号或9号 Ø10 钻头）——这个位置是左转还是右转？钻头长度用57还是70？
+   B. 铣刀主轴 ER25（186号刀位，现在是空的）——主轴转速可以按刀具单独设定吗？
+      现在是18000转，Ø35 三刃钻头大约需要3000转。
+
+2. "同动刀190"是什么？需要调整吗？（T184 Z偏置设成27以后深度已经准了）
+
+3. 铣刀压板在铣削的时候不会自动下降。怎么设置成铣削时自动下降？手动按下去会报 MLC 129。
+
+4. 铣圆入刀点有凸出的痕迹。有没有圆弧切入/切出的参数？"速度调整"里三个数值（10000/1000/500），
+   哪一个是下刀进给速度？
+
+5. 第10题"提供操作视频"：是您发给我们视频，还是需要我们拍视频给您？
+
+6. 登录的用户名是什么？（密码520）
+
+7. Ø6 崩溃的问题：软件备份怎么导出？我们把文件和备份一起发给您。
+
+谢谢！
+```
+
+Traducción para control: 1) ¿Ø35 en el paquete (pos. 7/9, qué giro, 57 o 70) o en el husillo
+ER25 (¿se puede bajar la RPM por herramienta?)? 2) ¿Qué es la T190? 3) ¿Cómo hago que la placa
+baje sola al fresar? 4) ¿Hay arco de entrada/salida y cuál de los tres valores es la bajada?
+5) ¿El video lo mandan ustedes o lo filmamos nosotros? 6) Usuario del login. 7) ¿Cómo exporto
+el backup?
