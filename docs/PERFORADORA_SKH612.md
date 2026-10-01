@@ -134,7 +134,7 @@ Necesita que las etiquetas traigan **el código real** (hoy AutoCUT imprime `P01
 
 | En pantalla (español) | Chino | Qué hace |
 |---|---|---|
-| **"Descarg"** | 前出料 | **salida hacia ADELANTE** — la pieza vuelve al operador. **Usar éste.** |
+| **"Descarg"** | 前出料 | **salida hacia ADELANTE** — la pieza vuelve al operador. **Es la que se usa** (confirmado 01/10). |
 | **"Después"** | 后出料 | salida hacia atrás |
 | **"todo despejado"** | 解除板宽板长警报 | **borra la alarma de medida de placa** (MLC 148) |
 | "Detección de longitud" / "de ancho" | 板长检测 / 板宽检测 | verificación de medida (mejor no apagarlas; usar "todo despejado") |
@@ -194,7 +194,7 @@ de esta revista; el de **abajo** (cara dorso) es el que hace las ranuras de cara
 | 11 | Ø10 | 10 / 10 | ranuras de cara dorso (mínimo de esa cara: **10**) |
 | 183 | disco `62211-4T` Ø45 × 3 | 43,9 / 3 | ranura de 3 de costado; no se hunde |
 | 185 (puesto 5) | Ø3,2 | 3,2 | — |
-| 186 (puesto 6) | tabla dice "sin cargar" (Ø24); se vio un cono montado | — | revisar |
+| 186 (puesto 6) | tabla dice "sin cargar" (Ø24); se vio un cono montado | — | **mirar qué hay** (§14) |
 | 188 (puesto 8) | Ø10, dibujada como horizontal | — | no se puede hundir en la cara |
 | 181 / 182 | sierra lateral Ø100 / Lamello | — | — |
 | **190** | Ø0 — Huahua la llamó "同动刀" | — | **no tocar** hasta saber qué es |
@@ -478,7 +478,7 @@ entre las **22:00 y las 03:00** hora argentina. Lo ya preguntado y respondido: `
 | 6 | KDTXml por defecto: contestaron "提供操作视频" — ¿mandan ellos un video o lo piden? | Huahua |
 | 7 | Formato de la **ranura de canto** y si esta máquina la hace | Huahua |
 | 8 | ¿Entra el horizontal Ø8 por la escotadura del uñero (50 × 70)? | primera pieza: lateral de la Cajonera |
-| 9 | **Espejado**: nunca se midió formalmente con calibre (techo: la ranura tiene que dar a 372,5 desde un borde de 398) | calibre |
+| 9 | **Espejado**: nunca se midió formalmente con calibre (las puertas de la Spar tampoco se controlaron, 01/10) (techo: la ranura tiene que dar a 372,5 desde un borde de 398) | calibre |
 | 10 | Capturar las filas 15–27 de la tabla de herramientas | captura |
 | 11 | Ver y documentar el video de 0:55 de instalación manual de herramienta que mandó Huahua | WeChat |
 | 12 | Hacer la lubricación vencida y marcarla | en la máquina |
@@ -491,3 +491,4 @@ entre las **22:00 y las 03:00** hora argentina. Lo ya preguntado y respondido: `
 | 19 | Pruebas de `MAÑANA_EN_LA_MAQUINA.md` sin resultado anotado: **medida terminada vs. de corte** (techo: X 40 / 360, Y 9 / 591), **¿lee `EdgeFBLR`?** (fascia `9441838670156` de los dos juegos), **Fusion vs. GuiGui** (mismas 10 piezas), **pieza curva R50** (`PENDRIVE/3_PIEZA_CURVA`) | en la máquina |
 | 20 | Hacer el primer **backup** de `D:\DiskC-…` y guardarlo fuera de la máquina | en la PC |
 | 21 | Capturas que faltan para el instructivo: encendido (panel), pinzas viniendo al frente, placa bien apoyada, cazoleta Ø35 terminada y medida, pieza medida con calibre, botón de cambio de herramienta del panel | fotos |
+| 22 | **Puesto 6 (T186)**: ¿hay cono montado y qué herramienta tiene? Si está libre, anotarlo; si no, cargarla en la tabla | mirar la revista |

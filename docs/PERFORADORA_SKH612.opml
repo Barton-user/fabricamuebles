@@ -85,7 +85,7 @@ Valor: 3500 kg · 6500 × 2840 × 2200 mm"/>
     <outline text="5. Botonera &quot;Personalización automática&quot; — qué es cada botón de verdad">
       <outline text="&quot;Descarg&quot;" _note="En pantalla (español): &quot;Descarg&quot;
 Chino: 前出料
-Qué hace: salida hacia ADELANTE — la pieza vuelve al operador. Usar éste."/>
+Qué hace: salida hacia ADELANTE — la pieza vuelve al operador. Es la que se usa (confirmado 01/10)."/>
       <outline text="&quot;Después&quot;" _note="En pantalla (español): &quot;Después&quot;
 Chino: 后出料
 Qué hace: salida hacia atrás"/>
@@ -175,7 +175,7 @@ Uso: —"/>
         <outline text="186" _note="T: 186 (puesto 6)
 Qué hay: tabla dice &quot;sin cargar&quot; (Ø24); se vio un cono montado
 Tabla (Ø / ancho / Z): —
-Uso: revisar"/>
+Uso: mirar qué hay (§14)"/>
         <outline text="188" _note="T: 188 (puesto 8)
 Qué hay: Ø10, dibujada como horizontal
 Tabla (Ø / ancho / Z): —
@@ -480,7 +480,7 @@ Cómo / a quién: Huahua"/>
 Qué: ¿Entra el horizontal Ø8 por la escotadura del uñero (50 × 70)?
 Cómo / a quién: primera pieza: lateral de la Cajonera"/>
       <outline text="9" _note="#: 9
-Qué: Espejado: nunca se midió formalmente con calibre (techo: la ranura tiene que dar a 372,5 desde un borde de 398)
+Qué: Espejado: nunca se midió formalmente con calibre (las puertas de la Spar tampoco se controlaron, 01/10) (techo: la ranura tiene que dar a 372,5 desde un borde de 398)
 Cómo / a quién: calibre"/>
       <outline text="10" _note="#: 10
 Qué: Capturar las filas 15–27 de la tabla de herramientas
@@ -518,6 +518,9 @@ Cómo / a quién: en la PC"/>
       <outline text="21" _note="#: 21
 Qué: Capturas que faltan para el instructivo: encendido (panel), pinzas viniendo al frente, placa bien apoyada, cazoleta Ø35 terminada y medida, pieza medida con calibre, botón de cambio de herramienta del panel
 Cómo / a quién: fotos"/>
+      <outline text="22" _note="#: 22
+Qué: Puesto 6 (T186): ¿hay cono montado y qué herramienta tiene? Si está libre, anotarlo; si no, cargarla en la tabla
+Cómo / a quién: mirar la revista"/>
     </outline>
   </outline>
 </body>
