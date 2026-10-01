@@ -127,7 +127,7 @@ Placas chicas: **empujarlas con un palo o una herramienta, nunca con la mano** (
    primero** y después resolver la falla.
 
 Necesita que las etiquetas traigan **el código real** (hoy AutoCUT imprime `P01`, ver
-`CONTEXTO.md` §18). Acepta etiquetas "5+1" (un código para cinco caras y otro para la sexta).
+`docs/SIERRA_AUTOCUT.md`). Acepta etiquetas "5+1" (un código para cinco caras y otro para la sexta).
 
 
 ## 5. Botonera "Personalización automática" — qué es cada botón de verdad
@@ -372,7 +372,7 @@ se vaya la alarma → cambiar. Sacar foto de la polaridad antes de abrir.
 En la PC industrial: **`D:\DiskC-(número de versión)`** → comprimir esa carpeta entera. Contiene la
 comunicación y pantalla del control **y la tabla de herramientas de MH2026**. Hacerlo **antes de
 tocar la tabla** y cada tanto. Es también lo que pidió Huahua para probar el crash
-(`CONTEXTO.md` §26). El Windows completo se puede respaldar con Ghost.
+(`BITACORA.md`, respuestas del 30/09). El Windows completo se puede respaldar con Ghost.
 
 ## 9. Mantenimiento (manual cap. 7 y 11)
 
@@ -464,7 +464,7 @@ El botón de cambio de herramienta del panel físico es la entrada **R60.3** ("T
 Grupo de WeChat con Huahua: **Srta. Tan (谭小姐)** comercial; técnicos **周涛 Zhou Tao**
 (139 2595 7559, Changsheng Machinery) y **唐玮民 Tang Weimin**. China está **+11 h**: contestan
 entre las **22:00 y las 03:00** hora argentina. Lo ya preguntado y respondido: `BITACORA.md`
-(24/09) y `CONTEXTO.md` §26.
+(24/09 y 30/09).
 
 ## 14. Pendiente en esta máquina
 

@@ -79,7 +79,7 @@ Valor: 3500 kg · 6500 × 2840 × 2200 mm"/>
         <outline text="Importar la orden" _note="Importar la orden → modo escaneo → escanear las etiquetas (se pueden cargar dos adelantadas)."/>
         <outline text="Verde 1ª vez" _note="Verde 1ª vez → poner la placa → verde 2ª vez. Al sacarla, a 1 segundo arranca sola con la siguiente escaneada."/>
         <outline text="Para saltear la placa en curso" _note="Para saltear la placa en curso: &quot;Reinicio del sistema&quot;. Si hay una falla: vaciar la lista primero y después resolver la falla."/>
-        <outline text="Necesita que las etiquetas traigan el código real" _note="Necesita que las etiquetas traigan el código real (hoy AutoCUT imprime P01, ver CONTEXTO.md §18). Acepta etiquetas &quot;5+1&quot; (un código para cinco caras y otro para la sexta)."/>
+        <outline text="Necesita que las etiquetas traigan el código real" _note="Necesita que las etiquetas traigan el código real (hoy AutoCUT imprime P01, ver docs/SIERRAAUTOCUT.md). Acepta etiquetas &quot;5+1&quot; (un código para cinco caras y otro para la sexta)."/>
       </outline>
     </outline>
     <outline text="5. Botonera &quot;Personalización automática&quot; — qué es cada botón de verdad">
@@ -350,7 +350,7 @@ Qué hacer: ver §8"/>
       <outline text="CncMon32 no conecta con el control" _note="CncMon32 no conecta con el control (15.1.5–6): aparece la IP 192.168.2.10. Apretar F6 (no tocar otras teclas) y esperar a que el control termine de arrancar. Si sigue: F5 Mantenimiento → F2 Red → F4 conexión → F2 conectar IP → reiniciar CncMon32. Si falla, revisar el cable de red."/>
       <outline text="Batería del control" _note="Batería del control (15.1.7): 3 pilas AA de 1,5 V cada 3 a 6 meses. Cambiarlas con la máquina prendida: Ctrl+7 (origen) → paro de emergencia → mantener Ctrl+Alt ~6 s hasta que se vaya la alarma → cambiar. Sacar foto de la polaridad antes de abrir."/>
       <outline text="Backup de la máquina (manual 16.13)">
-        <outline text="En la PC industrial" _note="En la PC industrial: D:\DiskC-(número de versión) → comprimir esa carpeta entera. Contiene la comunicación y pantalla del control y la tabla de herramientas de MH2026. Hacerlo antes de tocar la tabla y cada tanto. Es también lo que pidió Huahua para probar el crash (CONTEXTO.md §26). El Windows completo se puede respaldar con Ghost."/>
+        <outline text="En la PC industrial" _note="En la PC industrial: D:\DiskC-(número de versión) → comprimir esa carpeta entera. Contiene la comunicación y pantalla del control y la tabla de herramientas de MH2026. Hacerlo antes de tocar la tabla y cada tanto. Es también lo que pidió Huahua para probar el crash (BITACORA.md, respuestas del 30/09). El Windows completo se puede respaldar con Ghost."/>
       </outline>
     </outline>
     <outline text="9. Mantenimiento (manual cap. 7 y 11)">
@@ -452,7 +452,7 @@ Qué acciona: ventilador"/>
       <outline text="Formato KDTXml en cada carga."/>
     </outline>
     <outline text="13. Contacto técnico">
-      <outline text="Grupo de WeChat con Huahua" _note="Grupo de WeChat con Huahua: Srta. Tan (谭小姐) comercial; técnicos 周涛 Zhou Tao (139 2595 7559, Changsheng Machinery) y 唐玮民 Tang Weimin. China está +11 h: contestan entre las 22:00 y las 03:00 hora argentina. Lo ya preguntado y respondido: BITACORA.md (24/09) y CONTEXTO.md §26."/>
+      <outline text="Grupo de WeChat con Huahua" _note="Grupo de WeChat con Huahua: Srta. Tan (谭小姐) comercial; técnicos 周涛 Zhou Tao (139 2595 7559, Changsheng Machinery) y 唐玮民 Tang Weimin. China está +11 h: contestan entre las 22:00 y las 03:00 hora argentina. Lo ya preguntado y respondido: BITACORA.md (24/09 y 30/09)."/>
     </outline>
     <outline text="14. Pendiente en esta máquina">
       <outline text="1" _note="#: 1

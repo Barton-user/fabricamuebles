@@ -1447,3 +1447,204 @@ preguntárselo al vendedor antes de comprar.
   giro sale de mirarle el color a la mecha que se saque.
 
 ---
+
+## Fresado — lo que quedaba abierto el 24/09 (después de calibrar el Z)
+_(antes al final de §18 de `CONTEXTO.md`; resuelto en buena parte el 01/10, ver `docs/PERFORADORA_SKH612.md`)_
+
+
+**1. Marca de entrada de la fresa.** En los fresados más profundos queda un **lóbulo que
+sobresale del círculo** en el punto donde la fresa baja y sale al contorno. Cuanto más profundo,
+más marcado — es deflexión de la herramienta al penetrar.
+
+*Para cazoletas de bisagra es cosmético*: queda tapado por la bisagra y, al sobresalir hacia
+afuera, no interfiere con el encastre del cuerpo de Ø35. No frena la producción.
+
+Qué probar: **bajar el avance de penetración** de la T184 (fila de la herramienta, sección
+"Ajuste de velocidad" — los valores vistos fueron 10000 / 1000 / 500; el más chico suele ser el
+de bajada). Eliminarlo del todo depende de la estrategia de entrada del post (si tiene arco de
+entrada o entra radial) — preguntado a Huahua.
+
+**2. La campana de aspiración no baja sola.** Tiene que descender **comandada por el programa**
+durante el fresado y no lo hace, así que **la viruta no se aspira**. No se puede forzar a mano:
+si se baja antes de arrancar, salta `MLC 129` y el ciclo queda bloqueado. Es otro ítem de puesta
+en marcha del husillo de fresa, igual que el Z. Preguntado a Huahua.
+
+**3. Corregir el manual.** La sección 11.3 dice *"the larger the value, the deeper the groove"*
+para el `+Z` de las fresas. **Es al revés.** Se le avisó a Huahua.
+
+---
+
+## 26. Respuestas de Huahua a las 12 preguntas (30/09/2026)
+_(antes en `CONTEXTO.md`)_
+
+
+Contestaron en el grupo de WeChat, en chino, **intercaladas debajo de cada pregunta** del mensaje
+del 24/09 (§17). Las preguntas nuevas del fresado (marca de entrada, campana) y el aviso del
+manual **no tienen respuesta todavía**, salvo un mensaje suelto sobre la Ø35 (ver 26.2).
+
+### 26.1 Pregunta por pregunta
+
+| # | Pregunta | Respuesta literal | Qué dice | Qué cambia para nosotros |
+|---|---|---|---|---|
+| 1 | Cómo se calibra el largo de la fresa; en qué pantalla | 调整对应刀具库z偏移（深度） | "Ajustar el desplazamiento Z (profundidad) de esa herramienta en la biblioteca de herramientas." | **Confirma lo que ya hicimos.** No hay pantalla de medición de herramienta: se calibra a mano con el Z de cada una (T184 = **27**, fórmula en §16). |
+| — | (anotado junto a la pista de la marca de 85–90 mm) | 应该调整同动刀190/Z偏移/ | "Había que ajustar la herramienta asociada **190** / el desplazamiento Z." | **Dato nuevo: la T190** (en la tabla figura Ø0, sin uso aparente, sesión del 23/09) sería una herramienta "同动" (que se mueve junto con el husillo — probablemente la referencia de altura del cabezal de fresado). Como ya quedó bien con el Z de la T184, **no tocar la T190** sin saber qué es: si es la referencia común, moverla descalibra todas las fresas. Repreguntado. |
+| 2 | ¿46 mm de voladizo es demasiado? | 打开铣刀压板，不超过压板即可 | "Bajá la placa de la fresa (压板); alcanza con que la fresa no sobresalga de la placa." | **Regla de voladizo:** con la placa abajo, la punta **no tiene que pasar el borde inferior de la placa**. Medirlo con la Ø20 montada. Ojo con el nombre: 压板 es "placa prensora", lo mismo que la interfaz llama "Placa de sujeción del cortador" y que en §16 identificamos como campana de aspiración. Puede que, además de encerrar la viruta, **apriete la placa** alrededor de la fresa. |
+| 3 | Procedimiento de "todas las puntas en el mismo plano ±1 mm" (manual cap. 18) | 打开所有垂直钻，保持同一个高度，误差不超过正负1 | "Bajá todos los taladros verticales; que queden a la misma altura, con error no mayor a ±1." | **Procedimiento:** Manual → bajar todos los verticales a la vez → con calibre de profundidad o una regla apoyada, comprobar que todas las puntas queden a ±1 mm → la que no, aflojar prisionero y correrla en el mandril. **Hacerlo cada vez que se monte una mecha** (la Ø6, y la Ø35 si va al paquete). |
+| 4 | Por qué sale ovalado; dónde está la interpolación circular | 调整对应刀具进给速度慢速即可 | "Alcanza con bajar la velocidad de avance de esa herramienta." | No hay parámetros de interpolación para tocar. El ovalado grande (26 × 32) era el Z; el que quedó (30,16 × 32,7, §19) **probar bajando el avance de la T184**. Si con avance bajo sale redonda y a medida, **se puede sacar el parche de diámetro 15,3** y volver a 20. |
+| 5 | ¿Se puede agregar una Ø35 al paquete de verticales? | 不建议安装 | "No se recomienda instalarla." | **Se contradice con otro mensaje — ver 26.2.** |
+| 6 | Dónde se cambia el avance de la T184 | 刀具库设定，每一把都是独立设定 | "En la configuración de la biblioteca de herramientas; cada una tiene su ajuste independiente." | Confirma: fila de la T184 → **"Ajuste de velocidad"** (10000 / 1000 / 500, vel. 5000). Cambiar sólo esa; no afecta a las otras. |
+| 7 | Cómo poner "herramienta en el husillo" en T0 | 这种情况需要装回187号刀具 | "En ese caso hay que volver a montar la herramienta 187." | **No hay forma de ponerlo en T0 por software.** Lo que hicimos el 24/09 (montar el cono a mano con el botón verde del cabezal, §16) es el procedimiento oficial. |
+| 8 | Ø6: ¿se puede agregar, o pasar a Ø5? Y el crash | 直接换刀具就行（刀具库直径需要对应） · 需要提供文件和软件备份测试这个情况 | "Alcanza con cambiar la mecha (el diámetro de la tabla tiene que coincidir)." · "Para el crash necesitan el archivo y un backup del software para probarlo." | **Confirma el plan de §21:** sacar un Ø10 redundante del paquete de arriba (posición 7 o 9), poner la Ø6, cargar **6** en la tabla (clave 520) y regenerar. Para el crash: mandarles un XML con Ø6 (`9441838670057.xml` de PRUEBA 1 sirve) + el backup — falta saber cómo se saca el backup. |
+| 9 | Ancho mínimo de ranura en cara dorso | 刀具库没有对应的刀具直径 | "La biblioteca no tiene una herramienta de ese diámetro." | El mínimo es **la herramienta más chica cargada para esa cara** (T11, Ø10). Queda como decidimos: ranuras de dorso de **10 mm**. |
+| 10 | KDTXml como formato por defecto | 提供操作视频 | "Proporcionar video de la operación." | **Ambiguo**: o nos mandan un video de cómo se configura, o nos piden que filmemos el problema. Repreguntado. Mientras tanto, cambiarlo a mano cada vez (sesión del 23/09). |
+| 11 | Usuario del login (¿clave 520?) | — | sin respuesta | Sigue candidato **`Admin` / 520**, sin confirmar. |
+| 12 | Cómo marcar el mantenimiento como hecho | 输入权限后点击更新就可以 | "Después de ingresar el permiso, apretar **Actualizar**." | Mantenimiento → ingresar el permiso (probar **520**) → **Actualizar** en cada tarea. **Hacer primero la lubricación de verdad** (12 tareas vencidas desde 2026-01-04, ver manual). |
+
+### 26.2 🚨 La Ø35: dos respuestas que se contradicen — FRENAR la compra de la FUL
+
+- A la pregunta 5 (¿Ø35 en el paquete de verticales?) contestaron **不建议安装 — "no se recomienda"**.
+- En un mensaje aparte, contestando al "please i need those answers", escribieron:
+  **安装一把35直径刀具。钻包设置里面把直径改一下就可以了。** — *"Montá una herramienta de Ø35.
+  En la configuración del paquete de taladros cambiás el diámetro y listo."*
+
+"钻包设置" es la pantalla **"Configuración de paquete de…"**, donde están **tanto los verticales
+como las fresas** (T184, T186…). Así que la frase no aclara si la Ø35 va en el paquete o en el
+husillo ER25.
+
+**⚠️ Corrección a §21: la cuenta de "una Ø35 no entra en paso de 32 mm" estaba mal.** Dos mechas
+vecinas chocan sólo si la suma de sus **radios** supera la distancia entre centros:
+`17,5 + r_vecina < 32` → **entra con cualquier vecina de hasta Ø29**. Las vecinas de la
+posición 7 (Ø8 en la 4 y en la 8) y de la 9 (Ø12 en la 6, Ø8 en la 8) dejan **9 a 11 mm de luz**.
+Que la tabla de verticales llegue sólo hasta Ø20 no prueba que no entre. En la industria las
+cazoletas de 35 se montan habitualmente en paquetes de paso 32. Lo que sí puede frenarla es algo
+que no vemos (peso, torque del motor del paquete, carrera) — quizá por eso el "no se recomienda".
+
+**Así quedan las dos vías:**
+
+| | A · En el paquete de arriba | B · En el husillo ER25 (puesto 186) |
+|---|---|---|
+| Dónde | reemplaza un Ø10 redundante (pos. 7 o 9); la Ø6 va en la otra | puesto 186, libre |
+| Giro | el de esa posición → **color de la mecha que se saque** | **DERECHA** (igual que la Ø20x70R) |
+| Largo | **el mismo que las otras mechas del paquete** (regla ±1 mm) — medir: 57 o 70 | 70 |
+| RPM | la del paquete, apta para Ø35 | **18000** — riesgo de quemarla si no se puede bajar |
+| Qué comprar | Euro Hard 35 × 57/70 de la mano que toque | **FUL MBD3570** (§22) |
+| Dijo Huahua | "no se recomienda" | nada claro |
+
+**Decisión: no comprar la Ø35 hasta que contesten A o B** con la pregunta cerrada de 26.4. Si
+ya se compró la FUL derecha 70, sirve igual para la vía B, y para la A sólo si la posición resulta
+negra (derecha) y el paquete usa mechas de 70.
+
+**Lo que se puede hacer ya, sin esperar:** sacar las mechas de las posiciones **7 y 9** del paquete de
+arriba y anotar **color (giro) y largo total**. Con eso la vía A queda especificada y la Ø6 también.
+
+### 26.3 Lo que sigue sin respuesta
+
+1. **RPM del husillo de fresado por herramienta** (18000 → ~3000 para una Ø35). Clave para la vía B.
+2. **Marca de entrada del fresado circular**: ¿hay arco de entrada/salida? ¿cuál de los tres valores
+   de "Ajuste de velocidad" es el de bajada? (La respuesta 6 sólo dice que es por herramienta.)
+3. **La campana / placa prensora no baja sola** durante el fresado; bajada a mano → `MLC 129`.
+4. **Qué es la T190** (同动刀) y si hay que tocarla.
+5. **Usuario del login.**
+6. **KDTXml por defecto**: ¿el video lo mandan ellos o lo pedimos nosotros?
+7. **Cómo sacar el backup del software** para que prueben el crash de la Ø6.
+8. **Manual 11.3** ("más valor, más profundo" es al revés): avisado dos veces, sin acuse.
+
+### 26.4 Mensaje listo para mandar (pegar en el grupo)
+
+```
+谢谢您的回复！还有几个问题需要确认：
+
+1. Ø35 铰链杯：第5题您说立钻"不建议安装"，后面又说"安装一把35直径刀具，钻包设置里改直径"。
+   请确认 Ø35 钻头应该装在哪里？
+   A. 上钻包的立钻位置（替换7号或9号 Ø10 钻头）——这个位置是左转还是右转？钻头长度用57还是70？
+   B. 铣刀主轴 ER25（186号刀位，现在是空的）——主轴转速可以按刀具单独设定吗？
+      现在是18000转，Ø35 三刃钻头大约需要3000转。
+
+2. "同动刀190"是什么？需要调整吗？（T184 Z偏置设成27以后深度已经准了）
+
+3. 铣刀压板在铣削的时候不会自动下降。怎么设置成铣削时自动下降？手动按下去会报 MLC 129。
+
+4. 铣圆入刀点有凸出的痕迹。有没有圆弧切入/切出的参数？"速度调整"里三个数值（10000/1000/500），
+   哪一个是下刀进给速度？
+
+5. 第10题"提供操作视频"：是您发给我们视频，还是需要我们拍视频给您？
+
+6. 登录的用户名是什么？（密码520）
+
+7. Ø6 崩溃的问题：软件备份怎么导出？我们把文件和备份一起发给您。
+
+谢谢！
+```
+
+Traducción para control: 1) ¿Ø35 en el paquete (pos. 7/9, qué giro, 57 o 70) o en el husillo
+ER25 (¿se puede bajar la RPM por herramienta?)? 2) ¿Qué es la T190? 3) ¿Cómo hago que la placa
+baje sola al fresar? 4) ¿Hay arco de entrada/salida y cuál de los tres valores es la bajada?
+5) ¿El video lo mandan ustedes o lo filmamos nosotros? 6) Usuario del login. 7) ¿Cómo exporto
+el backup?
+
+---
+
+## 29. ✅ CAZOLETAS RESUELTAS: la T184 ahora es la mecha Ø35 (01/10/2026)
+_(antes en `CONTEXTO.md`)_
+
+
+**La T184 queda fija para cazoletas.** Configuración que funcionó (cazoleta de prueba perfecta en
+retazo de 744 × 401 × 18, programa `PENDRIVE/CURVADO_744x401/9992610019095.xml`):
+
+| Qué | Valor |
+|---|---|
+| Herramienta | **FUL Ø35 × 70 R** (MBD3570, widia, mango Ø10) — la que se compró |
+| Dónde | **cono de la T184**, revista puesto 4, pinza ER25 de 10 |
+| Salida | **46 mm** desde la cara de la tuerca hasta la punta central (igual que la Ø20) |
+| Tabla (Parámetro → Config. de paquete → ícono 184, clave 520) | **diámetro 34.8 · ancho 34.8 · Z 27** |
+| Ajuste de velocidad (avances) | **5000 / 500 / 250** (antes 10000 / 1000 / 500) |
+| Variador del husillo | **Delta MS300**, gabinete eléctrico: **100 Hz ≈ 6000 rpm** (venía en 300 Hz ≈ 18000) |
+
+**Por qué 34.8 y no 35**: MH2026 trata a la T184 como **fresa** (tipo "Husillo Z negativo") y
+planifica la cazoleta como fresado circular. Con herramienta = agujero (35/35) el radio del
+círculo da 0 y tira `ArgumentOutOfRangeException ... index` ("error desconocido durante el
+fresado"). Con 34.8 el círculo es de 0,1 mm: en la práctica baja derecho. El casillero
+**"Cortador de agujero"** está deshabilitado para ese tipo de herramienta; no se cambió el tipo
+(es la del husillo y se arriesga el cambio de cono).
+
+**Por qué fallaba antes**: lo que estaba en la T184 como "fresa espiral Ø20x70R" **es una mecha**
+(punta de centrado + espuelas), no una fresa de punta plana. No corta de costado: al hacer la
+cazoleta por interpolación circular el servo del eje A se sobrecargaba
+(`Drv_M3_SYNTEC 202h El motor está sobrecargado` · `203h Anomalía de detección de par` ·
+`206h Over Torque`), quemaba el borde y rompía el PET. Bajar avances no lo arregló. La Ø20 quedó
+guardada; **no volver a usarla para fresar**.
+
+**Cómo se cambió la mecha** (sirve para cualquier cono):
+1. Manual → 612NS → **"Modo de cambio de herramienta"** en verde (sin eso el botón no suelta).
+2. Sosteniendo el cono, **botón verde físico del cabezal** (mantener ~1 s) → suelta el cono.
+3. Cambiar la mecha en la pinza, misma salida (46).
+4. Volver a poner el cono en el husillo (chavetas calzadas) → botón verde → lo chupa.
+5. **Apagar el modo de cambio en MH2026 y en CncMon32 ("Cambio de cuchillo")** — si no, MLC 348.
+6. Tabla de la T184 (diámetro/ancho) → "almacenar herramientas".
+
+### ⚠️ El variador quedó en 100 Hz — afecta a TODAS las herramientas del husillo
+
+El variador es uno solo para el husillo de fresado: la **T187 (Ø6, ranuras de fondo)** y la T11
+también giran a 6000 rpm mientras esté en 100 Hz. Para ranurar, **volver a 300.0** (flecha ▲ +
+ENTER con el husillo parado) y para cazoletas bajar a 100. Ojo: el sobrecargo de la ranura de
+8 mm del curvado (01/10) fue **a 300 Hz**, así que eso es otro tema (pasada demasiado profunda
+para la Ø6, o también es mecha y no fresa — revisarla).
+
+Desde la PC **no** se puede hoy: "Convertidor de frecuencia" (Parámetro → Config. de paquete)
+tiene una tabla por herramienta (nº de inversor, código de inicio / parada / velocidad, "Enable
+automatic output speed code based on tool speed") pero está **vacía**. Para configurarla hace
+falta que Huahua diga qué códigos y qué cableado usa el MS300.
+
+### Pendientes que salen de acá
+
+1. **Preguntar a Huahua** cómo se configura la velocidad por herramienta en "Convertidor de
+   frecuencia" para el Delta MS300 (que la T184 vaya sola a 100 Hz y la T187 a 300).
+2. **Revisar la T187** (Ø6 de ranurar): ¿es fresa o mecha? Si es mecha, cambiarla por fresa
+   espiral Ø6 de verdad.
+3. Comprar una **fresa espiral Ø20 de punta plana** (o Ø10/12) si algún día se quiere fresar
+   (contornos, cazoletas de otros diámetros). Hoy no hace falta.
+4. Las 3 puertas PET de la Alacena Spar tienen cazoletas fresadas mal (borde roto) y los Ø5 a
+   14,5 (§28). Rehacer o aceptar según cómo queden con la bisagra puesta.
+5. §22 lista de compra: **Ø35 comprada y montada** (vía B, husillo). La pregunta 26.4 A/B ya no hace falta.
+
+---
