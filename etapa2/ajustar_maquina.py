@@ -2,7 +2,7 @@
 """
 ajustar_maquina — adapta un piezas.json a lo que la SKH-612HS puede hacer HOY.
 
-    python3 ajustar_maquina.py piezas.json -o piezas_maquina.json [--o6-a-o5] [--led10] [--sin-voltear]
+    python3 ajustar_maquina.py piezas.json -o piezas_maquina.json [--o6-a-o5] [--led10] [--bisagra] [--sin-voltear]
 
 1. VOLTEO AUTOMATICO (por defecto): elige como cara A (la que queda ARRIBA en la
    maquina) la cara que tiene lo que solo se hace desde arriba:
@@ -13,6 +13,10 @@ ajustar_maquina — adapta un piezas.json a lo que la SKH-612HS puede hacer HOY.
 2. --o6-a-o5: agujeros verticales O6 -> O5 (no hay O6 montada; con O6 el
    software crashea, CONTEXTO §15).
 3. --led10: ranuras de 9 x 9 -> 10 x 10 (minimo de la cara dorso = T11).
+4. --bisagra: corrige los tornillos de bisagra que vienen de GuiGui (a 14,5 del
+   centro de la cazoleta) a la medida real de herrajes/medidas.json (48/6 ->
+   a 6). Busca cada cazoleta O35 y los dos agujeros chicos (O5/O6, prof. ~3)
+   de la misma cara a +-24 a lo largo y 14,5 hacia adentro, y los corre.
 
 Escribe un informe de que cambio en cada pieza.
 """
@@ -20,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import io
+import os
 import json
 
 SOLO_ARRIBA_RANURA = 10.0
@@ -39,6 +44,33 @@ def exige_arriba(p, cara):
 def trabajo(p, cara):
     return sum(1 for h in p.get("agujeros", []) if h["cara"] == cara) + \
         sum(1 for r in p.get("ranuras", []) if r["cara"] == cara)
+
+
+def _medidas_bisagra():
+    ruta = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "herrajes", "medidas.json")
+    with io.open(ruta, encoding="utf-8") as fh:
+        return json.load(fh)["bisagra"]
+
+
+def corregir_bisagra(p, b, guigui=14.5, tol=0.6):
+    """Corre los tornillos de cada bisagra de `guigui` a b['tornillos_desde_cazoleta'].
+    Devuelve cuantos agujeros movio."""
+    nuevo, largo = b["tornillos_desde_cazoleta"], b["tornillos_a_lo_largo"]
+    hs = p.get("agujeros", [])
+    cazs = [h for h in hs if abs(h["diametro"] - b["cazoleta_d"]) < 0.01]
+    movidos = 0
+    for c in cazs:
+        chicos = [h for h in hs if h is not c and h["cara"] == c["cara"] and h["diametro"] <= 6.01
+                  and abs(h["profundidad"] - b["tornillo_prof"]) < 1.01]
+        for h in chicos:
+            dx, dy = h["x"] - c["x"], h["y"] - c["y"]
+            for eje, perp, a_lo in (("x", dx, dy), ("y", dy, dx)):
+                if abs(abs(perp) - guigui) < tol and abs(abs(a_lo) - largo) < tol:
+                    sg = 1.0 if perp > 0 else -1.0
+                    h[eje] = round(c[eje] + sg * nuevo, 3)
+                    movidos += 1
+                    break
+    return movidos
 
 
 def voltear(p):
@@ -67,6 +99,8 @@ def main():
     ap.add_argument("-o", "--salida", required=True)
     ap.add_argument("--o6-a-o5", action="store_true")
     ap.add_argument("--led10", action="store_true")
+    ap.add_argument("--bisagra", action="store_true",
+                    help="tornillos de bisagra de GuiGui (14,5) -> medida de herrajes/medidas.json")
     ap.add_argument("--sin-voltear", action="store_true")
     a = ap.parse_args()
     with io.open(a.entrada, encoding="utf-8") as fh:
@@ -80,6 +114,10 @@ def main():
                 if abs(r["ancho"] - 9) < 0.01 and abs(r["profundidad"] - 9) < 0.01:
                     r["ancho"], r["profundidad"] = 10.0, 10.0
                     cambios.append("ranura 9x9 -> 10x10")
+        if a.bisagra:
+            n = corregir_bisagra(p, _medidas_bisagra())
+            if n:
+                cambios.append("%d tornillos de bisagra 14,5 -> %g" % (n, _medidas_bisagra()["tornillos_desde_cazoleta"]))
         if a.o6_a_o5:
             n = 0
             for h in p.get("agujeros", []):

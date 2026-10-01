@@ -32,6 +32,7 @@ tabla y hay que elegir cual.
 """
 
 import math
+import os
 import traceback
 
 import adsk.core
@@ -76,14 +77,40 @@ HERRAJES = {
 #
 #   en la PUERTA : cazoleta O35x13 a 22,5 del canto
 #                  2 tornillos O6x3 a 37 del canto (14,5 mas adentro), +-24
+#                  (asi lo hace GuiGui; la bisagra real es 48/6, ver mas abajo)
 #   en el LATERAL: 2 tornillos O6x3 del herraje de la base, a 20 y 52 del
 #                  canto DE ADELANTE, los dos a la altura de la bisagra
+#   01/10/2026: la bisagra real (Grupo Euro, 48/6) tiene los tornillos a 6 del
+#   centro de la cazoleta, no a 14,5, y van con O5 (no hay O6 en la maquina).
+#   Las medidas se leen de herrajes/medidas.json; si no se encuentra, quedan
+#   los valores de abajo (los mismos del json al 01/10).
 BISAGRA = {
     "nombre": "bisagra cazoleta 35",
     "cazoleta": {"d": 35.0, "prof": 13.0, "desde_canto": 22.5},
-    "tornillo": {"d": 6.0, "prof": 3.0, "adentro": 14.5, "a_lo_largo": 24.0},
-    "base": {"d": 6.0, "prof": 3.0, "desde_frente": (20.0, 52.0)},
+    "tornillo": {"d": 5.0, "prof": 3.0, "adentro": 6.0, "a_lo_largo": 24.0},
+    "base": {"d": 5.0, "prof": 3.0, "desde_frente": (20.0, 52.0)},
 }
+
+
+def _leer_medidas():
+    import json as _json
+    ruta = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+                        "herrajes", "medidas.json")
+    try:
+        with open(ruta, encoding="utf-8") as fh:
+            b = _json.load(fh)["bisagra"]
+    except Exception:
+        return
+    BISAGRA["cazoleta"] = {"d": b["cazoleta_d"], "prof": b["cazoleta_prof"],
+                           "desde_canto": b["cazoleta_desde_canto"]}
+    BISAGRA["tornillo"] = {"d": b["tornillo_d"], "prof": b["tornillo_prof"],
+                           "adentro": b["tornillos_desde_cazoleta"],
+                           "a_lo_largo": b["tornillos_a_lo_largo"]}
+    BISAGRA["base"] = {"d": b["base_d"], "prof": b["base_prof"],
+                       "desde_frente": tuple(b["base_desde_frente"])}
+
+
+_leer_medidas()
 
 MARGEN_BISAGRA = 100.0        # mm del extremo de la puerta a la primera bisagra
 
@@ -713,7 +740,7 @@ def _forma_bisagra(tbm, dx_lat):
     """
     caz, tor, base = BISAGRA["cazoleta"], BISAGRA["tornillo"], BISAGRA["base"]
     e = 2.0                                        # chapa
-    x_tor = tor["adentro"]                         # 14,5: los tornillos del ala
+    x_tor = tor["adentro"]                         # 6 (48/6): los tornillos del ala
     y_tor = tor["a_lo_largo"]                      # 24: separacion a lo largo
     solidos = []
 
@@ -722,8 +749,8 @@ def _forma_bisagra(tbm, dx_lat):
     _unir(tbm, tambor, [_cil(tbm, (0, 0, -0.6), (0, 0, 0.8), caz["d"] + 0.6)])
     solidos.append(tambor)
 
-    # --- ala: NO va centrada en la cazoleta. Los tornillos estan 14,5 mm mas
-    #     adentro, asi que la chapa tiene que llegar hasta ahi. ---
+    # --- ala: NO va centrada en la cazoleta. Los tornillos estan tor["adentro"]
+    #     mm mas adentro, asi que la chapa tiene que llegar hasta ahi. ---
     ala = _caja(tbm, -caz["d"] / 2.0 + 1.0, x_tor + 6.0, -13, 13, -e, 0)
     _unir(tbm, ala, [_cil(tbm, (x_tor, s * y_tor, -e), (x_tor, s * y_tor, 0), 13.0)
                      for s in (-1.0, 1.0)])

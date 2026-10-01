@@ -112,7 +112,8 @@ recetas/ ──(fusion/ArmarReceta)───────────────
 - La marca es **Grupo Euro**, no Häfele (los STEP de Häfele se usan como 3D de referencia).
 - **Bisagra: tornillos a 6 mm del centro de la cazoleta, ±24 (patrón 48/6), x = 28,5 del canto.**
   Cazoleta Ø35 × 13 a 22,5 del canto. ⚠️ El 6 sale de la marca sobre la puerta: **confirmarlo con
-  calibre**. GuiGui y las recetas todavía traen 14,5 (§5).
+  calibre**. La medida vive en **`herrajes/medidas.json`**; GuiGui todavía trae 14,5 → generar con
+  `ajustar_maquina.py --bisagra`.
 - Biblioteca 3D en `herrajes/biblioteca/` (`CATALOGO.md`): **no volver a modelar herrajes**.
 
 **Sierra / AutoCUT**: el mapeo está **mal** (cantos cruzados → piezas 1 mm mal por lado; código de
@@ -125,7 +126,7 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | # | Qué | Dónde está el detalle |
 |---|---|---|
 | 1 | **Corregir el mapeo de AutoCUT** (cantos y código de barras real) y volver a cortar las 7 piezas del gris. Nuestro lado ya está: la lista trae la columna `条码` con el código limpio; falta mapearla en la PC de la sierra | `docs/SIERRA_AUTOCUT.md` |
-| 2 | **Bisagra 48/6**: medir con calibre; después cambiar `TOR["adentro"]` 14,5 → 6 en `recetas/cocina01.py`, `PonerHerrajes`, `ArmarDesdeRender`, la biblioteca STEP y el parámetro `HINGESCREW` de GuiGui; regenerar COCINA-01 y Alacena Spar. Medir también la placa base en el lateral (20 / 52) | `docs/HERRAJES.md` (última sección) |
+| 2 | **Bisagra 48/6**: medir con calibre (si no da 6, cambiar sólo `herrajes/medidas.json`). El código ya lee de ahí (recetas, `PonerHerrajes`, `ajustar_maquina.py --bisagra` para lo de GuiGui). Falta: volver a armar y exportar COCINA-01 y Alacena Spar en Fusion, la biblioteca STEP, el parámetro `HINGESCREW` de GuiGui y medir la placa base en el lateral (20 / 52) | `docs/HERRAJES.md` (última sección) |
 | 3 | **Pruebas de la Etapa 0 sin resultado**: medida terminada vs. de corte, ¿lee `EdgeFBLR`?, Fusion vs. GuiGui (mismas 10 piezas), pieza curva R50, veta en AutoCUT, **espejado** | `MAÑANA_EN_LA_MAQUINA.md` · `docs/PERFORADORA_SKH612.md` §14 |
 | 4 | **Perforadora**: velocidad por herramienta desde la PC, campana que no baja (M64), T187 ¿fresa o mecha?, T190, T186, filas 15–27, login, backup, lubricación vencida | `docs/PERFORADORA_SKH612.md` §14 (22 ítems) |
 | 5 | **Ranura de canto**: no sabemos el formato (¿"SlotH"?) ni si la hace la SKH-612HS; el generador se niega a escribirla | `docs/FORMATOS.md` · pregunta a Huahua |

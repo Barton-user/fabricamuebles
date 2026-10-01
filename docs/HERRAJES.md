@@ -221,6 +221,14 @@ puertas de esta alacena ya tienen los Ø5 viejos a 14,5; quedan esos agujeros de
 
 ### PENDIENTE — todo lo que hay que cambiar para que quede con la bisagra real
 
+> **Estado al 01/10/2026 (noche):** las medidas viven ahora en **`herrajes/medidas.json`** (un solo
+> lugar). ✅ 2 recetas (leen el json; `recetas/salida/` regenerado: sólo cambiaron los tornillos)
+> · ✅ 3 `PonerHerrajes` (lee el json; `ArmarDesdeRender` y `ArmarReceta` usan su forma 3D)
+> · ✅ 5 `etapa2/ajustar_maquina.py --bisagra` corrige lo que venga de GuiGui (probado con la Spar:
+> da lo mismo que las puertas corregidas a mano). **Falta**: medir con calibre (si no es 6, cambiar
+> sólo el json), volver a armar y exportar COCINA-01 y ALACENA SPAR en Fusion (`ArmarReceta`),
+> y los puntos 1, 4, 6 y 7.
+
 1. **Biblioteca 3D de Fusion** (`herrajes/biblioteca/`): revisar los STEP contra las piezas
    **reales** (no son exactamente las de Häfele). En especial `bisagra_cazoleta_O35.step`: el ala
    y los tornillos tienen que quedar a **6** de la cazoleta y 48 entre sí; placa base cruciforme

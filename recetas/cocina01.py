@@ -65,10 +65,15 @@ CAM = {"d": 15.0, "prof": 13.5, "desde_canto": 33.0}
 PERNO = {"d": 8.0, "prof": 33.0}
 RECIBE = {"d": 10.0, "prof": 11.0}
 MARGEN_MIN, PASO, LARGO_UN_CONECTOR = 40.0, 32.0, 200.0
-# bisagra de cazoleta Grupo Euro (tornillos a 48 = +-24)
-CAZ = {"d": 35.0, "prof": 13.0, "desde_canto": 22.5}
-TOR = {"d": 6.0, "prof": 3.0, "adentro": 14.5, "a_lo_largo": 24.0}
-BASE = {"d": 6.0, "prof": 3.0, "desde_frente": (20.0, 52.0)}
+# bisagra de cazoleta Grupo Euro (48/6): las medidas salen de herrajes/medidas.json
+def _bisagra():
+    with open(os.path.join(os.path.dirname(AQUI), "herrajes", "medidas.json"), encoding="utf-8") as fh:
+        return json.load(fh)["bisagra"]
+_B = _bisagra()
+CAZ = {"d": _B["cazoleta_d"], "prof": _B["cazoleta_prof"], "desde_canto": _B["cazoleta_desde_canto"]}
+TOR = {"d": _B["tornillo_d"], "prof": _B["tornillo_prof"],
+       "adentro": _B["tornillos_desde_cazoleta"], "a_lo_largo": _B["tornillos_a_lo_largo"]}
+BASE = {"d": _B["base_d"], "prof": _B["base_prof"], "desde_frente": tuple(_B["base_desde_frente"])}
 MARGEN_BISAGRA = 100.0
 # corredera de bolillas 450 (COCINA MLV): O3 x 10 a 37 y 413 del frente
 CORR = {"d": 3.0, "prof": 10.0, "a": (37.0, 413.0), "largo": 450.0, "juego": 13.0}

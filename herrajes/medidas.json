@@ -1,0 +1,18 @@
+{
+  "_que_es": "Medidas de herrajes que usan las recetas (recetas/cocina01.py), el script de Fusion PonerHerrajes y etapa2/ajustar_maquina.py --bisagra. Cambiar ACA y no en el codigo. Ver docs/HERRAJES.md (seccion 28) y CONTEXTO.md §4.",
+  "bisagra": {
+    "_marca": "Grupo Euro, patron 48/6",
+    "cazoleta_d": 35.0,
+    "cazoleta_prof": 13.0,
+    "cazoleta_desde_canto": 22.5,
+    "tornillos_desde_cazoleta": 6.0,
+    "tornillos_a_lo_largo": 24.0,
+    "tornillo_d": 5.0,
+    "tornillo_prof": 3.0,
+    "base_d": 5.0,
+    "base_prof": 3.0,
+    "base_desde_frente": [20.0, 52.0],
+    "_estado": "tornillos_desde_cazoleta = 6 sale de la marca sobre la puerta (01/10/2026): FALTA confirmarlo con calibre. base_desde_frente (20/52) SIN VERIFICAR contra la placa base cruciforme real. Diametros 5: no hay mecha O6 en la perforadora (decision del 01/10).",
+    "_antes_guigui": {"tornillos_desde_cazoleta": 14.5, "tornillo_d": 6.0, "base_d": 6.0}
+  }
+}
