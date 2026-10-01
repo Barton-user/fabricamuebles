@@ -5,7 +5,7 @@ _Última actualización: 30/09/2026 — armado con Claude durante la puesta en m
 > **Cómo retomar con Claude**: abrir un chat con esta carpeta conectada y decir
 > "leé CONTEXTO.md y seguimos desde el punto X".
 >
-> **Estado del proyecto → sección 15. Hoja de ruta (objetivo y etapas) → sección 16. MCP de GuiGui y modelos 3D bajados → sección 17. Web de curvado por ranuras (`curvado/`, Vercel) → sección 20. Herrajes Häfele equivalentes → sección 23. Respuestas de Huahua del 30/09 (y la Ø35 frenada) → sección 26.**
+> **Estado del proyecto → sección 15. Hoja de ruta (objetivo y etapas) → sección 16. MCP de GuiGui y modelos 3D bajados → sección 17. Web de curvado por ranuras (`curvado/`, Vercel) → sección 20. Herrajes Häfele equivalentes → sección 23. Respuestas de Huahua del 30/09 (y la Ø35 frenada) → sección 26. Alacena Spar por el camino Fusion → sección 27. 🔩 Bisagra real 48/6 (tornillos a 6 de la cazoleta) → sección 28. ✅ T184 = mecha Ø35 para cazoletas (variador a 100 Hz) → sección 29.**
 
 ---
 
@@ -3130,3 +3130,137 @@ ER25 (¿se puede bajar la RPM por herramienta?)? 2) ¿Qué es la T190? 3) ¿Cóm
 baje sola al fresar? 4) ¿Hay arco de entrada/salida y cuál de los tres valores es la bajada?
 5) ¿El video lo mandan ustedes o lo filmamos nosotros? 6) Usuario del login. 7) ¿Cómo exporto
 el backup?
+
+---
+
+## 27. ALACENA SPAR — primer mueble de GuiGui rehecho en Fusion sin tocar GuiGui (01/10/2026)
+
+La diseñadora dibujó en GuiGui (PRUEBA 1, orden 260625-20) una **alacena sobre campana**: 600 × 845
+× 400, techo arriba a todo el ancho, laterales, tapa inferior + 2 listones abajo (faldón), estante
+fijo, fondo 5, **puerta rebatible arriba** y **dos batientes abajo**, frentes PET GRIS 18, cuerpo GRIS 18.
+Se leyó por el MCP de GuiGui (solo lectura) y se rehízo como receta: `recetas/alacena_spar.py`
+(usa las funciones de `cocina01.py`) → `fusion/ArmarReceta` → documento Fusion **`ALACENA SPAR`**
+(proyecto cocina) → `ArmarReceta.exportar()` → `etapa2/`. Paquete: `fusion/EXPORT_ALACENA_SPAR/`
+(ver su `LEEME.md`) y copia para el pendrive en `PENDRIVE/4_ALACENA_SPAR/`.
+
+Problemas del diseño de GuiGui que se corrigieron (decididos con Pato):
+- Los 936,5 de alto del cubo de GuiGui incluyen 92 mm vacíos abajo; el mueble real mide 844,47 → **845**.
+- Tapa inferior con excéntricas en una cara y ranura de fondo de 6 en la otra (6 en dorso no se
+  puede) → excéntricas arriba con la ranura; listones unidos sólo a los laterales.
+- Lateral derecho y listón de atrás con todo en cara B → en la receta **cara A = adentro siempre**.
+- LED 9×9 arriba del techo, pasante a la vista → **10×10 en la cara B de la tapa inferior** (T11).
+- Ø6 de bisagra → **Ø5** en el archivo (evita el crash de la Ø6, §15).
+
+Nuevo en `etapa2/`: **`maestra_fusion.py`** — arma `maestra.json` desde el `piezas.json` de Fusion,
+así `etiquetas.py` y `materiales.py` también funcionan por el camino Fusion (antes sólo desde
+render.json). `fusion/ArmarReceta` ahora lee `modelo["referencia"]` (lista vacía = sin cajas de
+cocina) y conoce los colores GRIS / PET GRIS.
+
+Controles: receta vs sólido 11/11 idénticas; chequeos de la receta sin errores; todas las
+herramientas existen en la máquina (Ø15, Ø10, Ø5 T162, Ø35 por T184, Ø8 horiz., ranura 6 T187,
+ranura dorso 10 T11). Falta: pistones Bronze (a mano), colgadores, salida del cable LED, canto real.
+
+---
+
+## 28. 🔩 BISAGRA REAL: tornillos a 6 mm de la cazoleta, no 14,5 (01/10/2026) — MEDIDA OFICIAL
+
+Al perforar las 3 puertas PET de la Alacena Spar (PRUEBA 1) los Ø5 de los tornillos no calzaban
+con la bisagra **Grupo Euro** que tenemos: quedaban **~9 mm** corridos hacia el centro de la puerta.
+Medido sobre la puerta con el herraje apoyado (foto del 01/10).
+
+**Medida real de la bisagra (la que se usa por ahora, en todo):**
+
+| | Antes (GuiGui / receta / biblioteca) | **Real Grupo Euro** |
+|---|---|---|
+| Cazoleta | Ø35 × 13, centro a 22,5 del canto | igual ✓ |
+| Separación entre tornillos (a lo largo del canto) | 48 (±24) | **48 (±24)** ✓ |
+| Tornillos desde el centro de la cazoleta, hacia adentro de la puerta | **14,5** (x = 37 del canto) | **≈ 6** → x = **28,5 del canto** (patrón estándar **48/6**) |
+
+→ Los tornillos van **8,5 mm más cerca del canto** que en los archivos de GuiGui.
+⚠️ El 6 sale de la marca sobre la puerta; **confirmarlo con calibre sobre la bisagra en la mano**
+(centro de cazoleta → línea de los dos tornillos) antes de producir en serie.
+
+Hecho hoy: programas corregidos de las 3 puertas en `PENDRIVE/5_ALACENA_SPAR_GUIGUI/XML3_PUERTAS_V2/`
+(completo) y `XML3_SOLO_TORNILLOS/` (sólo los 4 Ø5, para re-pasar puertas ya perforadas). Las 3
+puertas de esta alacena ya tienen los Ø5 viejos a 14,5; quedan esos agujeros de más (cara interior).
+
+### PENDIENTE — todo lo que hay que cambiar para que quede con la bisagra real
+
+1. **Biblioteca 3D de Fusion** (`herrajes/biblioteca/`): revisar los STEP contra las piezas
+   **reales** (no son exactamente las de Häfele). En especial `bisagra_cazoleta_O35.step`: el ala
+   y los tornillos tienen que quedar a **6** de la cazoleta y 48 entre sí; placa base cruciforme
+   Grupo Euro. Revisar también excéntrica, perno y receptor contra lo que se compra.
+2. **Recetas**: `recetas/cocina01.py` → `TOR = {"adentro": 14.5}` pasa a **6.0** (afecta a todas
+   las recetas que lo importan, p. ej. `alacena_spar.py`). Regenerar COCINA-01 y ALACENA-SPAR.
+3. **PonerHerrajes / ArmarDesdeRender** (`_forma_bisagra`, posiciones `HINGESCREW`): misma corrección.
+4. **GuiGui** (la diseñadora): parámetro de bisagra **`HINGESCREW`** → tornillos a 6 del centro
+   de la cazoleta (48/6). Mientras no se cambie, todo lo que salga de GuiGui trae 14,5 y hay que
+   corregirlo al generar (hoy se hizo a mano para la Spar).
+5. **Generador `etapa2/`**: opcional, una corrección automática de `HINGESCREW` (como
+   `ajustar_maquina.py --o6-a-o5`) para no depender de que GuiGui esté bien.
+6. **Placa base en el lateral** (`jlHoleEX`, hoy Ø6/Ø5 a 20 y 52 del frente): **sin verificar**
+   contra la placa base cruciforme real. Medirla.
+7. `herrajes/biblioteca/CATALOGO.md` y §24: actualizar la tabla de la bisagra con esta medida.
+
+---
+
+## 29. ✅ CAZOLETAS RESUELTAS: la T184 ahora es la mecha Ø35 (02/10/2026)
+
+**La T184 queda fija para cazoletas.** Configuración que funcionó (cazoleta de prueba perfecta en
+retazo de 744 × 401 × 18, programa `PENDRIVE/CURVADO_744x401/9992610019095.xml`):
+
+| Qué | Valor |
+|---|---|
+| Herramienta | **FUL Ø35 × 70 R** (MBD3570, widia, mango Ø10) — la que se compró |
+| Dónde | **cono de la T184**, revista puesto 4, pinza ER25 de 10 |
+| Salida | **46 mm** desde la cara de la tuerca hasta la punta central (igual que la Ø20) |
+| Tabla (Parámetro → Config. de paquete → ícono 184, clave 520) | **diámetro 34.8 · ancho 34.8 · Z 27** |
+| Ajuste de velocidad (avances) | **5000 / 500 / 250** (antes 10000 / 1000 / 500) |
+| Variador del husillo | **Delta MS300**, gabinete eléctrico: **100 Hz ≈ 6000 rpm** (venía en 300 Hz ≈ 18000) |
+
+**Por qué 34.8 y no 35**: MH2026 trata a la T184 como **fresa** (tipo "Husillo Z negativo") y
+planifica la cazoleta como fresado circular. Con herramienta = agujero (35/35) el radio del
+círculo da 0 y tira `ArgumentOutOfRangeException ... index` ("error desconocido durante el
+fresado"). Con 34.8 el círculo es de 0,1 mm: en la práctica baja derecho. El casillero
+**"Cortador de agujero"** está deshabilitado para ese tipo de herramienta; no se cambió el tipo
+(es la del husillo y se arriesga el cambio de cono).
+
+**Por qué fallaba antes**: lo que estaba en la T184 como "fresa espiral Ø20x70R" **es una mecha**
+(punta de centrado + espuelas), no una fresa de punta plana. No corta de costado: al hacer la
+cazoleta por interpolación circular el servo del eje A se sobrecargaba
+(`Drv_M3_SYNTEC 202h El motor está sobrecargado` · `203h Anomalía de detección de par` ·
+`206h Over Torque`), quemaba el borde y rompía el PET. Bajar avances no lo arregló. La Ø20 quedó
+guardada; **no volver a usarla para fresar**.
+
+**Cómo se cambió la mecha** (sirve para cualquier cono):
+1. Manual → 612NS → **"Modo de cambio de herramienta"** en verde (sin eso el botón no suelta).
+2. Sosteniendo el cono, **botón verde físico del cabezal** (mantener ~1 s) → suelta el cono.
+3. Cambiar la mecha en la pinza, misma salida (46).
+4. Volver a poner el cono en el husillo (chavetas calzadas) → botón verde → lo chupa.
+5. **Apagar el modo de cambio en MH2026 y en CncMon32 ("Cambio de cuchillo")** — si no, MLC 348.
+6. Tabla de la T184 (diámetro/ancho) → "almacenar herramientas".
+
+### ⚠️ El variador quedó en 100 Hz — afecta a TODAS las herramientas del husillo
+
+El variador es uno solo para el husillo de fresado: la **T187 (Ø6, ranuras de fondo)** y la T11
+también giran a 6000 rpm mientras esté en 100 Hz. Para ranurar, **volver a 300.0** (flecha ▲ +
+ENTER con el husillo parado) y para cazoletas bajar a 100. Ojo: el sobrecargo de la ranura de
+8 mm del curvado (01/10) fue **a 300 Hz**, así que eso es otro tema (pasada demasiado profunda
+para la Ø6, o también es mecha y no fresa — revisarla).
+
+Desde la PC **no** se puede hoy: "Convertidor de frecuencia" (Parámetro → Config. de paquete)
+tiene una tabla por herramienta (nº de inversor, código de inicio / parada / velocidad, "Enable
+automatic output speed code based on tool speed") pero está **vacía**. Para configurarla hace
+falta que Huahua diga qué códigos y qué cableado usa el MS300.
+
+### Pendientes que salen de acá
+
+1. **Preguntar a Huahua** cómo se configura la velocidad por herramienta en "Convertidor de
+   frecuencia" para el Delta MS300 (que la T184 vaya sola a 100 Hz y la T187 a 300).
+2. **Revisar la T187** (Ø6 de ranurar): ¿es fresa o mecha? Si es mecha, cambiarla por fresa
+   espiral Ø6 de verdad.
+3. Comprar una **fresa espiral Ø20 de punta plana** (o Ø10/12) si algún día se quiere fresar
+   (contornos, cazoletas de otros diámetros). Hoy no hace falta.
+4. Las 3 puertas PET de la Alacena Spar tienen cazoletas fresadas mal (borde roto) y los Ø5 a
+   14,5 (§28). Rehacer o aceptar según cómo queden con la bisagra puesta.
+5. §22 lista de compra: **Ø35 comprada y montada** (vía B, husillo). La pregunta 26.4 A/B ya no hace falta.

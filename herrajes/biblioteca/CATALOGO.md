@@ -112,3 +112,9 @@ archivo de GuiGui**:
 
 El cuadro con el dibujo del 3D al lado de la foto del herraje real está en
 Figma: https://www.figma.com/design/FBehv5P3VSuDUbLplOPRit
+
+---
+
+> ⚠️ **01/10/2026 — la bisagra real NO coincide con este STEP:** los tornillos del ala van a
+> **6 mm** del centro de la cazoleta (patrón 48/6), no a 14,5. Ver **CONTEXTO.md §28** y su lista
+> de pendientes. Hasta corregirlo, no confiar en la posición de los tornillos de este archivo.
