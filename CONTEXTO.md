@@ -54,7 +54,10 @@ enteran (especificación en `docs/FORMATOS.md`).
 **Lo que anda hoy:** generador propio validado byte a byte contra Bluen (`.ban`, `.mpr`, XML1,
 XML3, lista de corte); camino Fusion → archivos (`fusion/ExportarPiezas`, `fusion/ArmarReceta`);
 recetas → Fusion → archivos con control 1:1; perforadora mecanizando nuestros XML3; web de
-curvado por ranuras (`curvado/`).
+curvado por ranuras (`curvado/`); **manual de armado de 2 hojas desde la receta**
+(`etapa2/manual_armado.py modelo.json -o manual.pdf`: explotada numerada, piezas con código de
+etiqueta, herrajes, pasos dibujados; cajones como sub-armado). Hechos: Alacena Spar y los 10
+muebles de COCINA-01. ⚠️ Los esquineros (piezas a 45°) salen con aviso: revisar los pasos a mano.
 
 ---
 
@@ -130,7 +133,7 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 3 | **Pruebas de la Etapa 0 sin resultado**: medida terminada vs. de corte, ¿lee `EdgeFBLR`?, Fusion vs. GuiGui (mismas 10 piezas), pieza curva R50, veta en AutoCUT, **espejado** | `MAÑANA_EN_LA_MAQUINA.md` · `docs/PERFORADORA_SKH612.md` §14 |
 | 4 | **Perforadora**: velocidad por herramienta desde la PC, campana que no baja (M64), T187 ¿fresa o mecha?, T190, T186, filas 15–27, login, backup, lubricación vencida | `docs/PERFORADORA_SKH612.md` §14 (22 ítems) |
 | 5 | **Ranura de canto**: no sabemos el formato (¿"SlotH"?) ni si la hace la SKH-612HS; el generador se niega a escribirla | `docs/FORMATOS.md` · pregunta a Huahua |
-| 6 | Armar PRUEBA 1 completo (cantos HH-509R + armado) y cerrar el paquete: **manual de armado** | `docs/FUSION_RECETAS.md` |
+| 6 | Armar PRUEBA 1 completo (cantos HH-509R + armado). **Manual de armado**: ya sale de la receta (`etapa2/manual_armado.py`, ver §2); falta probarlo armando la Alacena Spar con el manual en la mano, y que también salga por el camino GuiGui | `docs/FUSION_RECETAS.md` |
 | 7 | **Perno del 3 en 1: 33 o 34** (con el herraje Grupo Euro real) · canto real (¿1 mm?) · kerf real de la sierra | `docs/HERRAJES.md` |
 | 8 | COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` |
 | 9 | Router SKG-912MZ: cargar T1 Ø6, medir mesa y herramientas | `docs/CURVADO.md` |

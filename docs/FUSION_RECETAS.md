@@ -412,3 +412,28 @@ herramientas existen en la máquina (Ø15, Ø10, Ø5 T162, Ø35 por T184, Ø8 ho
 ranura dorso 10 T11). Falta: pistones Bronze (a mano), colgadores, salida del cable LED, canto real.
 
 ---
+
+## Manual de armado desde la receta (01/10/2026)
+
+`etapa2/manual_armado.py <modelo.json> -o manual.pdf [--mueble "..."]` — lee el `modelo.json` que
+escribe cada receta (placas con O/ex/ey/W/H/T y herrajes con su lugar) y arma un PDF A4 de 2 hojas
+**sin Fusion**: dibuja las placas en isométrica él mismo (reportlab).
+
+- **Hoja 1**: explotada con un número por pieza (= orden de armado), tabla de piezas con medida,
+  material y **código de la etiqueta**, herrajes con cantidades (3 en 1, bisagras + 4 tornillos c/u,
+  correderas, patas, LED) y herramientas.
+- **Hoja 2**: pasos dibujados (lo armado en gris, lo nuevo en naranja): preparar herrajes → primer
+  lateral → horizontales de abajo hacia arriba → fondo(s) asomando por el lado abierto → otro
+  lateral → patas → cajones (sub-armado: se dibuja el cajón 1 solo) → correderas → puertas. Cuenta
+  las uniones 3 en 1 de cada paso (perno: la placa donde está la boca − ez; recibe: + ez).
+- Abajo, en rojo, las **notas de la receta de ese mueble** ("pendiente de definir en fábrica —
+  sacar antes de entregar"). Si hay piezas a 45° (esquineros) agrega un aviso: el orden automático
+  puede no servir.
+- Con varios muebles en el modelo saca un PDF por mueble (`manual_<mueble>.pdf`).
+
+Salidas: `fusion/EXPORT_ALACENA_SPAR/manual_armado.pdf` (+ copia en `PENDRIVE/4_ALACENA_SPAR/`) y
+`fusion/EXPORT_COCINA-01/manuales/`.
+
+Falta: probarlo armando de verdad; sacarlo también por el camino GuiGui (desde `maestra.json`);
+esquineros; dibujar los herrajes en los pasos (hoy sólo placas).
+

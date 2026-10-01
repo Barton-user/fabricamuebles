@@ -1668,3 +1668,17 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   variadores**, y que el paquete de arriba tendría **12 verticales** (contamos 9).
 - Git: todo commiteado; **push pendiente** (sin credenciales en la VM).
 
+## 01/10/2026 (noche) — Lista de corte, bisagra en un solo lugar, hoja de taller y manual de armado
+
+- **AutoCUT**: la lista de corte suma al final la columna `条码` con el código limpio (Python y web de
+  curvado, test 6/6). Regeneradas Spar (+ pendrive) y COCINA-01. Falta mapearla en la PC de la sierra.
+- **Bisagra 48/6**: medidas en `herrajes/medidas.json`; recetas y `PonerHerrajes` las leen;
+  `ajustar_maquina.py --bisagra` corrige lo de GuiGui (con la Spar da lo mismo que las puertas
+  corregidas a mano). Recetas regeneradas: sólo cambiaron tornillos (Spar 12; COCINA-01 108 Ø6→Ø5).
+  Falta re-armar/exportar en Fusion.
+- **Hoja de taller** nueva (`MAÑANA_EN_LA_MAQUINA.md` + `Hoja_taller.pdf`, también en el pendrive).
+- **Manual de armado**: `etapa2/manual_armado.py`, desde la receta, sin Fusion. Probado en la Spar y
+  en los 10 muebles de COCINA-01. Bug encontrado al hacerlo: las caras visibles se calculaban con el
+  centro de la pieza sin desplazar → en la explotada algunas placas salían de canto.
+- Propuesta la skill `cerrar-sesion-fabrica`.
+
