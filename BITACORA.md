@@ -1648,3 +1648,23 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 5. §22 lista de compra: **Ø35 comprada y montada** (vía B, husillo). La pregunta 26.4 A/B ya no hace falta.
 
 ---
+
+## 30/09–01/10/2026 — Respuestas de Huahua y reestructuración de la documentación
+
+- **30/09**: llegaron las respuestas de Huahua a las 12 preguntas del 24/09 (están arriba, sección 26).
+  Se frenó la compra de la Ø35 por dos respuestas contradictorias; el 01/10 se resolvió en la
+  práctica: FUL Ø35 × 70 R montada en la T184 (sección 29).
+- **01/10, decisiones de Pato**: tornillos de bisagra **Ø5 para siempre** (no se compra la Ø6);
+  variador del husillo de arriba queda en **100 Hz**; la salida de pieza es **hacia adelante**;
+  la bisagra 48/6 sigue sin medir con calibre; T186 y espejado sin controlar.
+- **01/10, reestructuración**: `CONTEXTO.md` tenía 3.279 líneas, mezclaba estado, especificación
+  e historia, y se contradecía (Ø35, bisagra 14,5 vs 6, la Ø20 que era mecha). Quedó así:
+  `CONTEXTO.md` (207 líneas, sólo lo vigente + reglas), `docs/` por tema (movido tal cual) y esta
+  bitácora. `docs/PERFORADORA_SKH612.md` se escribió de nuevo juntando todo lo de la máquina más
+  el manual del fabricante (datos técnicos, mantenimiento completo, fallas, backup, ajuste de
+  precisión, códigos M — **M64/M65 = placa de la fresa**, pista para la campana que no baja).
+  Versión MindNode: `docs/PERFORADORA_SKH612.opml` (conversor `docs/md2opml.py`).
+- Del manual salió que **hay dos husillos de fresado** (arriba y abajo) y probablemente **dos
+  variadores**, y que el paquete de arriba tendría **12 verticales** (contamos 9).
+- Git: todo commiteado; **push pendiente** (sin credenciales en la VM).
+
