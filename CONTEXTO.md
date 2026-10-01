@@ -1,11 +1,23 @@
 # FÁBRICA MUEBLES — Contexto técnico del proyecto
 
-_Última actualización: 30/09/2026 — armado con Claude durante la puesta en marcha de la línea._
+_Última actualización: 01/10/2026 — armado con Claude durante la puesta en marcha de la línea._
 
 > **Cómo retomar con Claude**: abrir un chat con esta carpeta conectada y decir
 > "leé CONTEXTO.md y seguimos desde el punto X".
 >
 > **Estado del proyecto → sección 15. Hoja de ruta (objetivo y etapas) → sección 16. MCP de GuiGui y modelos 3D bajados → sección 17. Web de curvado por ranuras (`curvado/`, Vercel) → sección 20. Herrajes Häfele equivalentes → sección 23. Respuestas de Huahua del 30/09 (y la Ø35 frenada) → sección 26. Alacena Spar por el camino Fusion → sección 27. 🔩 Bisagra real 48/6 (tornillos a 6 de la cazoleta) → sección 28. ✅ T184 = mecha Ø35 para cazoletas (variador a 100 Hz) → sección 29.**
+
+
+> ### ✅ Vigente al 01/10/2026 — confirmado por Pato (manda sobre cualquier sección de abajo)
+>
+> - **Cazoleta Ø35**: mecha **FUL Ø35 × 70 R** comprada y montada en el cono de la **T184**
+>   (tabla: diámetro 34.8 · ancho 34.8 · Z 27 · avances 5000/500/250). Ver §29.
+> - **Variador del husillo (Delta MS300) quedó en 100 Hz ≈ 6000 rpm.** Así está bien para
+>   cazoletas; **para ranurar con la T187 o la T11 hay que volver a 300 Hz**.
+> - **Tornillos de bisagra: Ø5 para siempre.** La mecha Ø6 **no se compra**.
+> - **Bisagra Grupo Euro: tornillos a 6 mm del centro de la cazoleta (48/6), no 14,5** — es la
+>   medida vigente, pero **falta confirmarla con calibre** sobre la bisagra. Ver §28.
+> - Lo que diga lo contrario más abajo (§5, §15.5, §19–22, §24, §26.2) es historia.
 
 ---
 
@@ -3204,7 +3216,7 @@ puertas de esta alacena ya tienen los Ø5 viejos a 14,5; quedan esos agujeros de
 
 ---
 
-## 29. ✅ CAZOLETAS RESUELTAS: la T184 ahora es la mecha Ø35 (02/10/2026)
+## 29. ✅ CAZOLETAS RESUELTAS: la T184 ahora es la mecha Ø35 (01/10/2026)
 
 **La T184 queda fija para cazoletas.** Configuración que funcionó (cazoleta de prueba perfecta en
 retazo de 744 × 401 × 18, programa `PENDRIVE/CURVADO_744x401/9992610019095.xml`):
