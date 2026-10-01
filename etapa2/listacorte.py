@@ -29,6 +29,13 @@ delante y atras distintos.
     sin mecanizado        ->  <codigo>
     con mecanizado        ->  <codigo>_<codigo>
     con cara trasera      ->  <codigo>_<codigo>_<codigo>K
+
+条码 (ultima columna, agregada el 01/10/2026): el codigo SOLO, una vez y sin
+sufijos. Es la que hay que mapear en AutoCUT al campo de codigo de barras de la
+etiqueta: la perforadora busca el archivo por ese nombre (`<codigo>.xml`), y con
+`板件条码` mapeado la etiqueta saldria con todo el texto repetido (o con `P01`,
+que es lo que pasa hoy). Va al final para no correr las columnas del perfil de
+mapeo que ya esta cargado en AutoCUT.
 """
 
 from __future__ import annotations
@@ -51,6 +58,7 @@ COLUMNAS = [
     "前封边", "后封边", "左封边", "右封边",
     "纹路", "订单号", "客户名称", "项目地址",
     "部件名称",
+    "条码",          # codigo de barras LIMPIO (agregado 01/10/2026, ver abajo)
 ]
 
 # traduccion, para el que tenga que mirar el archivo
@@ -59,6 +67,7 @@ ESPANOL = [
     "espesor", "material", "largo corte", "ancho corte", "area corte", "espesor corte",
     "codigo de barras", "n placa", "canto delante", "canto atras", "canto izq",
     "canto der", "veta", "orden", "cliente", "proyecto", "componente",
+    "codigo limpio",
 ]
 
 
@@ -103,6 +112,7 @@ def fila(p: Panel, n: int) -> List[Any]:
         barcodes(p), p.plank_id,
         _n(c_frente), _n(c_atras), _n(c_izq), _n(c_der),
         p.veta(), p.order_no, p.customer, p.address, p.name,
+        p.code,
     ]
 
 

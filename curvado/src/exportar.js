@@ -90,7 +90,8 @@ function asciiGbk(s) {
 
 // ---------------------------------------------------------------- Lista de corte (AutoCUT)
 export const COLUMNAS = ['序号', '打包二维码', '工件名称', '数量', '长', '宽', '成品面积', '厚', '材料', '开料长', '开料宽',
-  '切割面积', '开料厚', '板件条码', '板号', '前封边', '后封边', '左封边', '右封边', '纹路', '订单号', '客户名称', '项目地址', '部件名称'];
+  '切割面积', '开料厚', '板件条码', '板号', '前封边', '后封边', '左封边', '右封边', '纹路', '订单号', '客户名称', '项目地址', '部件名称',
+  '条码'];  // 条码 = código limpio para la etiqueta (igual que etapa2/listacorte.py)
 
 const nc = (v) => (Math.abs(v - Math.round(v)) < 1e-9 ? Math.round(v) : Math.round(v * 100) / 100);
 const r2 = (v) => Math.round(v * 100) / 100;
@@ -121,7 +122,7 @@ export function filaCorte(p, n) {
   return [n, etiqueta, etiqueta, p.quantity, nc(largo), nc(ancho), r2((largo * ancho) / 1e6), nc(p.thickness),
     [nc(p.thickness), p.material, p.texture].filter((x) => String(x)).join('_'),
     nc(cL), nc(cA), r2((cL * cA) / 1e6), nc(p.thickness), barcodes(p), p.plank_id,
-    nc(cF), nc(cB), nc(cI), nc(cD), veta, p.order_no, p.customer, p.address, p.name];
+    nc(cF), nc(cB), nc(cI), nc(cD), veta, p.order_no, p.customer, p.address, p.name, p.code];
 }
 
 export function csvCorte(piezas) {

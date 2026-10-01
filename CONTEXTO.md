@@ -124,7 +124,7 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 
 | # | Qué | Dónde está el detalle |
 |---|---|---|
-| 1 | **Corregir el mapeo de AutoCUT** (cantos y código de barras real) y volver a cortar las 7 piezas del gris | `docs/SIERRA_AUTOCUT.md` |
+| 1 | **Corregir el mapeo de AutoCUT** (cantos y código de barras real) y volver a cortar las 7 piezas del gris. Nuestro lado ya está: la lista trae la columna `条码` con el código limpio; falta mapearla en la PC de la sierra | `docs/SIERRA_AUTOCUT.md` |
 | 2 | **Bisagra 48/6**: medir con calibre; después cambiar `TOR["adentro"]` 14,5 → 6 en `recetas/cocina01.py`, `PonerHerrajes`, `ArmarDesdeRender`, la biblioteca STEP y el parámetro `HINGESCREW` de GuiGui; regenerar COCINA-01 y Alacena Spar. Medir también la placa base en el lateral (20 / 52) | `docs/HERRAJES.md` (última sección) |
 | 3 | **Pruebas de la Etapa 0 sin resultado**: medida terminada vs. de corte, ¿lee `EdgeFBLR`?, Fusion vs. GuiGui (mismas 10 piezas), pieza curva R50, veta en AutoCUT, **espejado** | `MAÑANA_EN_LA_MAQUINA.md` · `docs/PERFORADORA_SKH612.md` §14 |
 | 4 | **Perforadora**: velocidad por herramienta desde la PC, campana que no baja (M64), T187 ¿fresa o mecha?, T190, T186, filas 15–27, login, backup, lubricación vencida | `docs/PERFORADORA_SKH612.md` §14 (22 ítems) |

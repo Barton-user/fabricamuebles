@@ -142,7 +142,20 @@ salir con todo ese texto.
 
 **Solución propuesta desde nuestro lado**: agregarle a `etapa2/listacorte.py` una **columna
 extra con el código limpio**, uno solo y sin sufijos, para mapear directo al campo de código de
-barras de AutoCUT. Pendiente de hacer.
+barras de AutoCUT.
+
+> ✅ **Hecho el 01/10/2026.** La lista de corte trae ahora una **última columna `条码`** con el código
+> solo (p. ej. `9992610010016`). Las demás columnas quedaron iguales, así que el perfil de mapeo
+> actual sigue sirviendo. También lo hace la web de curvado. Ya regeneradas: Alacena Spar
+> (`fusion/EXPORT_ALACENA_SPAR/salida/` y `PENDRIVE/4_ALACENA_SPAR/`) y COCINA-01.
+>
+> **Lo que queda en la PC de la sierra**, en "Coincidencia":
+> 1. **`条码` → el campo de código de barras** de la etiqueta (hoy está tomando otra cosa y sale `P01`).
+> 2. **`开料长` / `开料宽` → largo / ancho de corte**, sin que AutoCUT vuelva a restar cantos.
+>    Si AutoCUT insiste en restar, mapear los cantos de modo que `前`/`后` caigan sobre el **largo**
+>    y `左`/`右` sobre el **ancho** (hoy están cruzados).
+> 3. **`订单号` → el campo "工程" (proyecto)** de la etiqueta.
+> 4. Verificar con el techo de PRUEBA 1: tiene que salir **598 × 399** y el código largo, no `P01`.
 
 ### Consecuencia pendiente
 
