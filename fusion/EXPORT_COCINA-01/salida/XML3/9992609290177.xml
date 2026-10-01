@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>597.00</PanelLength>
+        <PanelWidth>185.00</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>COCINA-01_B2 Bajo pileta 600_Frente fijo</PanelName>
+        <Params>
+            <Param Key="L" Value="597.00" Comment="板长"/>
+            <Param Key="W" Value="185.00" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

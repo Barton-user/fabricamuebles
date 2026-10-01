@@ -1,0 +1,11 @@
+7785813812462 Tapa superior01      ranura 9x9 -> 10x10; 4 x O6 -> O5; VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 10x10
+7785813812479 Lateral izquierdo01  4 x O6 -> O5; VOLTEADA (cara de trabajo arriba)
+7785813812486 Lateral derecho01    4 x O6 -> O5
+7785813812493 SUP                  4 x O6 -> O5; VOLTEADA (cara de trabajo arriba)
+7785813812516 Estante01            VOLTEADA (cara de trabajo arriba)
+7785813812523 Tapa inferior01      queda ABAJO: O10
+7785813812530 Fondo01              sin cambios
+7785813812561 IZQ                  4 x O6 -> O5; VOLTEADA (cara de trabajo arriba)
+7785813812585 DER                  4 x O6 -> O5; VOLTEADA (cara de trabajo arriba)
+7870444268785 Listón01             VOLTEADA (cara de trabajo arriba)
+7873088259096 Listón02             sin cambios

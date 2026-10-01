@@ -1,0 +1,12 @@
+﻿Mueble,Globo,Código,Pieza,Cant,Largo (H),Ancho (W),Espesor,Corte largo,Corte ancho,Material,Textura,Veta,Canto izq,Canto abajo,Canto der,Canto arriba,Rol,Aviso,Nombre GuiGui,Nombre completo GuiGui
+Alacena Spar,1,7785813812479,Lateral 826.47x400x18 A,1,826.47,400,18,826.47,399,NEstructura,Gris,VERTICAL,0,0,1,0,PLACA,,Lateral izquierdo01,Alacena Spar_Lateral izquierdo01
+Alacena Spar,2,7785813812486,Lateral 826.47x400x18 B,1,826.47,400,18,826.47,399,NEstructura,Gris,VERTICAL,0,0,1,0,PLACA,,Lateral derecho01,Alacena Spar_Lateral derecho01
+Alacena Spar,3,7785813812523,Estante 564x400x18,1,564,400,18,564,399,NEstructura,Gris,VERTICAL,0,0,1,0,PLACA,,Tapa inferior01,Alacena Spar_Tapa inferior01
+Alacena Spar,4,7785813812516,Estante 564x377x18,1,564,377,18,564,376,NEstructura,Gris,VERTICAL,0,0,1,0,PLACA,,Estante01,Alacena Spar_Estante01
+Alacena Spar,5,7785813812462,Techo 600x400x18,1,600,400,18,598,399,NEstructura,Gris,VERTICAL,0,1,1,1,PLACA,,Tapa superior01,Alacena Spar_Tapa superior01
+Alacena Spar,6,7870444268785,Zócalo 564x97.87x18 A,1,97.87,564,18,96.87,564,NEstructura,Gris,VERTICAL,0,0,0,1,PLACA,,Listón01,Alacena Spar_Listón01
+Alacena Spar,7,7873088259096,Zócalo 564x97.87x18 B,1,97.87,564,18,96.87,564,NEstructura,Gris,VERTICAL,0,0,0,1,PLACA,,Listón02,Alacena Spar_Listón02
+Alacena Spar,8,7785813812530,Fondo 720.6x574x5,1,720.6,574,5,720.6,574,NFondo,Blanco,VERTICAL,0,0,0,0,FONDO,,Fondo01,Alacena Spar_Fondo01
+Alacena Spar,9,7785813812561,Puerta 388.06x297x18 A,1,388.06,297,18,386.06,295,NPetfrente,PET Gris,VERTICAL,1,1,1,1,PUERTA,,IZQ,Alacena Spar_IZQ
+Alacena Spar,10,7785813812585,Puerta 388.06x297x18 B,1,388.06,297,18,386.06,295,NPetfrente,PET Gris,VERTICAL,1,1,1,1,PUERTA,,DER,Alacena Spar_DER
+Alacena Spar,11,7785813812493,Puerta 597x377.53x18,1,377.53,597,18,375.53,595,NPetfrente,PET Gris,VERTICAL,1,1,1,1,PUERTA,,SUP,Alacena Spar_SUP

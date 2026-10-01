@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/10/01 pm 3:17:52" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="574.00" Height="720.60" PlaneSize="1" Grain="2" Thickness="5" Material="NFondo" EdgeFBLR="0,0,0,0" Name="Alacena Spar_Fondo01" Code="7785813812530">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="574.00 0.00 0"/>
+        <Point Value="574.00 720.60 0"/>
+        <Point Value="0.00 720.60 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

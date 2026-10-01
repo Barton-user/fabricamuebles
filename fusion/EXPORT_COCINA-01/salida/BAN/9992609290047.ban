@@ -1,0 +1,24 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/29 pm 8:29:48" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="782.00" Height="782.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_B1 Esquinero bajo_Techo" Code="9992609290047">
+    <Outline>
+        <Point Value="782.00 202.00 0"/>
+        <Point Value="782.00 782.00 0"/>
+        <Point Value="0.00 782.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="580.00 0.00 0"/>
+        <Point Value="782.00 202.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="558.08 34.65 0" End="558.08 34.65 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="747.35 223.92 0" End="747.35 223.92 -11.00"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="530.00 33.00 0" End="530.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="50.00 33.00 0" End="50.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="749.00 732.00 0" End="749.00 732.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="749.00 252.00 0" End="749.00 252.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="530.00 0.00 -9.00" End="530.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="50.00 0.00 -9.00" End="50.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="782.00 732.00 -9.00" End="749.00 732.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="782.00 252.00 -9.00" End="749.00 252.00 -9.00"/>
+    <SlotL Name="" Face="A" Start="27.50 0.00 -6.00" End="27.50 757.50 -6.00" Width="6.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="31.50 754.50 -6.00" End="782.00 754.50 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

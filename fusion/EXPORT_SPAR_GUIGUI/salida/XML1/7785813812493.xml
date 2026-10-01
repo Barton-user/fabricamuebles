@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="7785813812493" plateNickName="Alacena Spar_SUP" width="377.53" depth="597.00" height="18.00" barCode="7785813812493" barCode1="">
+    <Bandings>
+        <Banding bandingBack="1" bandingRight="1" bandingFront="1" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(124.00,340.53,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(76.00,340.53,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(100.00,355.03,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(521.00,340.53,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(473.00,340.53,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(497.00,355.03,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+    </Holes>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,377.53,18.00)" endPoint="(597.00,377.53,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(597.00,377.53,18.00)" endPoint="(597.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(597.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,377.53,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

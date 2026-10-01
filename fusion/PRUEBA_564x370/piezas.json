@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "PRUEBA",
+  "orden": "PRUEBA",
+  "cliente": "PRUEBA",
+  "direccion": "",
+  "ambiente": "PRUEBA",
+  "piezas": [
+    {
+      "codigo": "9992610019019",
+      "nombre": "PRUEBA_564x370",
+      "ancho": 564.0,
+      "alto": 370.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "PRUEBA",
+      "textura": "PRUEBA",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0,
+      "canto_arriba": 0,
+      "canto_izq": 0,
+      "canto_der": 0,
+      "agujeros": [
+        {
+          "x": 40.0,
+          "y": 40.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 330.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 524.0,
+          "y": 40.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 524.0,
+          "y": 330.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

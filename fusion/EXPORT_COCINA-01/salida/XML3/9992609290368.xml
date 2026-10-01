@@ -1,0 +1,103 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>414.00</PanelLength>
+        <PanelWidth>120.00</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>COCINA-01_B3 Cajonera 320_Cajon 2 costado izq</PanelName>
+        <Params>
+            <Param Key="L" Value="414.00" Comment="板长"/>
+            <Param Key="W" Value="120.00" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>395.00</X1>
+        <Y1>60.00</Y1>
+        <Depth>10.00</Depth>
+        <Diameter>3.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>8</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>19.00</X1>
+        <Y1>60.00</Y1>
+        <Depth>10.00</Depth>
+        <Diameter>3.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>381.00</X1>
+        <Y1>90.00</Y1>
+        <Depth>13.50</Depth>
+        <Diameter>15.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>33.00</X1>
+        <Y1>90.00</Y1>
+        <Depth>13.50</Depth>
+        <Diameter>15.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>2</TypeNo>
+        <TypeName>Horizontal Hole</TypeName>
+        <X1>414.00</X1>
+        <Y1>90.00</Y1>
+        <Z1>9.00</Z1>
+        <Quadrant>1</Quadrant>
+        <Depth>33.00</Depth>
+        <Diameter>8.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+        <IntervalZ>0.00</IntervalZ>
+    </CAD>
+    <CAD>
+        <TypeNo>2</TypeNo>
+        <TypeName>Horizontal Hole</TypeName>
+        <X1>0.00</X1>
+        <Y1>90.00</Y1>
+        <Z1>9.00</Z1>
+        <Quadrant>2</Quadrant>
+        <Depth>33.00</Depth>
+        <Diameter>8.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+        <IntervalZ>0.00</IntervalZ>
+    </CAD>
+    <CAD>
+        <TypeNo>3</TypeNo>
+        <TypeName>Line</TypeName>
+        <BeginX>0.00</BeginX>
+        <BeginY>17.50</BeginY>
+        <EndX>414.00</EndX>
+        <EndY>17.50</EndY>
+        <Correction>0</Correction>
+        <Width>6.00</Width>
+        <Depth>5.50</Depth>
+        <Enable>1</Enable>
+    </CAD>
+</KDTPanelFormat>

@@ -1,0 +1,2637 @@
+{
+ "version": 1,
+ "origen": "receta",
+ "documento": "ALACENA-SPAR",
+ "orden": "PRUEBA1-SPAR",
+ "cliente": "PRUEBA",
+ "direccion": "",
+ "ambiente": "ALACENA-SPAR",
+ "piezas": [
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Techo",
+   "pieza": "Techo",
+   "codigo": "9992610010016",
+   "rol": "",
+   "W": 400.0,
+   "H": 600.0,
+   "T": 18.0,
+   "O": [
+    0,
+    0,
+    827.0
+   ],
+   "ex": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [
+    {
+     "x": 360.0,
+     "y": 9.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 40.0,
+     "y": 9.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 40.0,
+     "y": 591.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 360.0,
+     "y": 591.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 380.0,
+     "y": 101.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 348.0,
+     "y": 101.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 380.0,
+     "y": 498.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 348.0,
+     "y": 498.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    }
+   ],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 20.5,
+     "y1": 12.85,
+     "x2": 20.5,
+     "y2": 587.15,
+     "ancho": 6.0,
+     "prof": 6.0,
+     "cara": "A",
+     "sym": "BP"
+    }
+   ]
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Lateral der",
+   "pieza": "Lateral der",
+   "codigo": "9992610010023",
+   "rol": "",
+   "W": 400.0,
+   "H": 827.0,
+   "T": 18.0,
+   "O": [
+    18.0,
+    0,
+    0
+   ],
+   "ex": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 360.0,
+     "y": 794.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 40.0,
+     "y": 794.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 360.0,
+     "y": 107.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 40.0,
+     "y": 107.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 67.5,
+     "y": 466.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 355.5,
+     "y": 466.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 391.0,
+     "y": 49.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 49.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 380.0,
+     "y": 174.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 348.0,
+     "y": 174.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 380.0,
+     "y": 364.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 348.0,
+     "y": 364.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 360.0,
+     "y": 827.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ARRIBA",
+     "sym": "3in1"
+    },
+    {
+     "x": 40.0,
+     "y": 827.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ARRIBA",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 20.5,
+     "y1": 110.0,
+     "x2": 20.5,
+     "y2": 827.0,
+     "ancho": 6.0,
+     "prof": 6.0,
+     "cara": "A",
+     "sym": "BP"
+    }
+   ]
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Lateral izq",
+   "pieza": "Lateral izq",
+   "codigo": "9992610010030",
+   "rol": "",
+   "W": 400.0,
+   "H": 827.0,
+   "T": 18.0,
+   "O": [
+    582.0,
+    400.0,
+    0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 1.0,
+    "DER": 0.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 360.0,
+     "y": 794.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 40.0,
+     "y": 794.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 360.0,
+     "y": 107.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 40.0,
+     "y": 107.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 44.5,
+     "y": 466.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 332.5,
+     "y": 466.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 49.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 391.0,
+     "y": 49.0,
+     "d": 10.0,
+     "prof": 11.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 20.0,
+     "y": 174.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 52.0,
+     "y": 174.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 20.0,
+     "y": 364.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 52.0,
+     "y": 364.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 360.0,
+     "y": 827.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ARRIBA",
+     "sym": "3in1"
+    },
+    {
+     "x": 40.0,
+     "y": 827.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ARRIBA",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 379.5,
+     "y1": 110.0,
+     "x2": 379.5,
+     "y2": 827.0,
+     "ancho": 6.0,
+     "prof": 6.0,
+     "cara": "A",
+     "sym": "BP"
+    }
+   ]
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Tapa inferior",
+   "pieza": "Tapa inferior",
+   "codigo": "9992610010047",
+   "rol": "",
+   "W": 564.0,
+   "H": 400.0,
+   "T": 18.0,
+   "O": [
+    18.0,
+    0,
+    116.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 360.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 531.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 531.0,
+     "y": 360.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 360.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 564.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    },
+    {
+     "x": 564.0,
+     "y": 360.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 0,
+     "y1": 20.5,
+     "x2": 564.0,
+     "y2": 20.5,
+     "ancho": 6.0,
+     "prof": 6.0,
+     "cara": "A",
+     "sym": "BP"
+    },
+    {
+     "x1": 20.0,
+     "y1": 340.0,
+     "x2": 544.0,
+     "y2": 340.0,
+     "ancho": 10.0,
+     "prof": 10.0,
+     "cara": "B",
+     "sym": "lightSlot"
+    }
+   ]
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Liston frente",
+   "pieza": "Liston frente",
+   "codigo": "9992610010054",
+   "rol": "",
+   "W": 564.0,
+   "H": 98.0,
+   "T": 18.0,
+   "O": [
+    18.0,
+    382.0,
+    0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 49.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 531.0,
+     "y": 49.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 49.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 564.0,
+     "y": 49.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": []
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Liston atras",
+   "pieza": "Liston atras",
+   "codigo": "9992610010061",
+   "rol": "",
+   "W": 564.0,
+   "H": 98.0,
+   "T": 18.0,
+   "O": [
+    582.0,
+    18.0,
+    0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 531.0,
+     "y": 49.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 33.0,
+     "y": 49.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 564.0,
+     "y": 49.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    },
+    {
+     "x": 0.0,
+     "y": 49.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": []
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Estante",
+   "pieza": "Estante",
+   "codigo": "9992610010078",
+   "rol": "",
+   "W": 564.0,
+   "H": 377.0,
+   "T": 18.0,
+   "O": [
+    18.0,
+    400.0,
+    457.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 332.5,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 33.0,
+     "y": 44.5,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 531.0,
+     "y": 44.5,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 531.0,
+     "y": 332.5,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 332.5,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 0.0,
+     "y": 44.5,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 564.0,
+     "y": 44.5,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    },
+    {
+     "x": 564.0,
+     "y": 332.5,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": []
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Fondo",
+   "pieza": "Fondo",
+   "codigo": "9992610010085",
+   "rol": "FONDO",
+   "W": 574.0,
+   "H": 721.0,
+   "T": 5.0,
+   "O": [
+    587.0,
+    23.0,
+    111.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 5",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": []
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Puerta der",
+   "pieza": "Puerta der",
+   "codigo": "9992610010092",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 390.0,
+   "T": 18.0,
+   "O": [
+    1.5,
+    400.0,
+    74.5
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "PET",
+   "textura": "PET GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 1.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [
+    {
+     "x": 22.5,
+     "y": 100.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 37.0,
+     "y": 76.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 37.0,
+     "y": 124.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 22.5,
+     "y": 290.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 37.0,
+     "y": 266.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 37.0,
+     "y": 314.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    }
+   ],
+   "agujeros_canto": [],
+   "ranuras": []
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Puerta izq",
+   "pieza": "Puerta izq",
+   "codigo": "9992610010108",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 390.0,
+   "T": 18.0,
+   "O": [
+    301.5,
+    400.0,
+    74.5
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "PET",
+   "textura": "PET GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 1.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [
+    {
+     "x": 274.5,
+     "y": 100.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 260.0,
+     "y": 76.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 260.0,
+     "y": 124.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 274.5,
+     "y": 290.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 260.0,
+     "y": 266.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 260.0,
+     "y": 314.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    }
+   ],
+   "agujeros_canto": [],
+   "ranuras": []
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "ALACENA-SPAR_Alacena Spar_Puerta rebatible",
+   "pieza": "Puerta rebatible",
+   "codigo": "9992610010115",
+   "rol": "PUERTA",
+   "W": 376.0,
+   "H": 597.0,
+   "T": 18.0,
+   "O": [
+    1.5,
+    400.0,
+    843.5
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ey": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "contorno": null,
+   "material": "PET",
+   "textura": "PET GRIS 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 1.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [
+    {
+     "x": 22.5,
+     "y": 100.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 37.0,
+     "y": 76.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 37.0,
+     "y": 124.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 22.5,
+     "y": 497.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 37.0,
+     "y": 473.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 37.0,
+     "y": 521.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    }
+   ],
+   "agujeros_canto": [],
+   "ranuras": []
+  }
+ ],
+ "herrajes": [
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Tira LED 524",
+   "origen": [
+    38.0,
+    340.0,
+    98.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "led",
+   "args": {
+    "largo": 524.0
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    18.0,
+    360.0,
+    794.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    360.0,
+    827.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    9.0,
+    360.0,
+    827.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    18.0,
+    40.0,
+    794.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    40.0,
+    827.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    9.0,
+    40.0,
+    827.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    51.0,
+    360.0,
+    116.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    18.0,
+    360.0,
+    107.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    18.0,
+    360.0,
+    107.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    51.0,
+    40.0,
+    116.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    18.0,
+    40.0,
+    107.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    18.0,
+    40.0,
+    107.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    51.0,
+    67.5,
+    457.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    18.0,
+    67.5,
+    466.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    18.0,
+    67.5,
+    466.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    51.0,
+    355.5,
+    457.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    18.0,
+    355.5,
+    466.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    18.0,
+    355.5,
+    466.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    51.0,
+    382.0,
+    49.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    18.0,
+    391.0,
+    49.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    18.0,
+    391.0,
+    49.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    51.0,
+    18.0,
+    49.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    18.0,
+    9.0,
+    49.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    18.0,
+    9.0,
+    49.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    582.0,
+    40.0,
+    794.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    591.0,
+    40.0,
+    827.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    591.0,
+    40.0,
+    827.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    582.0,
+    360.0,
+    794.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    591.0,
+    360.0,
+    827.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    591.0,
+    360.0,
+    827.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    549.0,
+    40.0,
+    116.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    582.0,
+    40.0,
+    107.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    582.0,
+    40.0,
+    107.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    549.0,
+    360.0,
+    116.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    582.0,
+    360.0,
+    107.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    582.0,
+    360.0,
+    107.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    549.0,
+    355.5,
+    457.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    582.0,
+    355.5,
+    466.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    582.0,
+    355.5,
+    466.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    549.0,
+    67.5,
+    457.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    582.0,
+    67.5,
+    466.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    582.0,
+    67.5,
+    466.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    549.0,
+    382.0,
+    49.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    582.0,
+    391.0,
+    49.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    582.0,
+    391.0,
+    49.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Excentrica O15",
+   "origen": [
+    549.0,
+    18.0,
+    49.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    582.0,
+    9.0,
+    49.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Receptor O10",
+   "origen": [
+    582.0,
+    9.0,
+    49.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "receptor",
+   "args": {
+    "recibe": {
+     "d": 10.0,
+     "prof": 11.0
+    }
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    24.0,
+    400.0,
+    174.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    24.0,
+    400.0,
+    364.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    576.0,
+    400.0,
+    174.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    576.0,
+    400.0,
+    364.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    101.5,
+    400.0,
+    821.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "Alacena Spar",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    498.5,
+    400.0,
+    821.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  }
+ ],
+ "avisos": [
+  "Puerta rebatible: lleva 2 pistones a gas (Bronze), uno por lado, atornillados a mano. No tienen agujeros de CNC ni estan dibujados. Fuerza a definir (puerta PET 597x376x18).",
+  "Colgadores de alacena: no estan en el diseno ni perforados.",
+  "LED: falta definir por donde sale el cable (no hay agujero pasante).",
+  "Tornillos de bisagra y de base en O5 (no hay O6 en la maquina)."
+ ],
+ "referencia": []
+}

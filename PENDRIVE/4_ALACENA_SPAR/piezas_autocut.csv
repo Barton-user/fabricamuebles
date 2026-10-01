@@ -1,0 +1,12 @@
+﻿Mueble,Globo,Código,Pieza,Cant,Largo (H),Ancho (W),Espesor,Corte largo,Corte ancho,Material,Textura,Veta,Canto izq,Canto abajo,Canto der,Canto arriba,Rol,Aviso,Nombre GuiGui,Nombre completo GuiGui
+Alacena Spar,1,9992610010023,Lateral der,1,827,400,18,826,399,Melamina,GRIS 18,VERTICAL,0,1,1,0,PLACA,,,ALACENA-SPAR_Alacena Spar_Lateral der
+Alacena Spar,2,9992610010030,Lateral izq,1,827,400,18,826,399,Melamina,GRIS 18,VERTICAL,1,1,0,0,PLACA,,,ALACENA-SPAR_Alacena Spar_Lateral izq
+Alacena Spar,3,9992610010061,Liston atras,1,98,564,18,97,564,Melamina,GRIS 18,VERTICAL,0,1,0,0,PLACA,,,ALACENA-SPAR_Alacena Spar_Liston atras
+Alacena Spar,4,9992610010054,Liston frente,1,98,564,18,97,564,Melamina,GRIS 18,VERTICAL,0,1,0,0,PUERTA,,,ALACENA-SPAR_Alacena Spar_Liston frente
+Alacena Spar,5,9992610010047,Tapa inferior,1,400,564,18,399,564,Melamina,GRIS 18,VERTICAL,0,0,0,1,PLACA,,,ALACENA-SPAR_Alacena Spar_Tapa inferior
+Alacena Spar,6,9992610010078,Estante,1,377,564,18,376,564,Melamina,GRIS 18,VERTICAL,0,1,0,0,PLACA,,,ALACENA-SPAR_Alacena Spar_Estante
+Alacena Spar,7,9992610010016,Techo,1,600,400,18,598,399,Melamina,GRIS 18,VERTICAL,0,1,1,1,PLACA,,,ALACENA-SPAR_Alacena Spar_Techo
+Alacena Spar,8,9992610010085,Fondo,1,721,574,5,721,574,Melamina,BLANCO 5,VERTICAL,0,0,0,0,FONDO,,,ALACENA-SPAR_Alacena Spar_Fondo
+Alacena Spar,9,9992610010092,Puerta der,1,390,297,18,388,295,PET,PET GRIS 18,VERTICAL,1,1,1,1,PUERTA,,,ALACENA-SPAR_Alacena Spar_Puerta der
+Alacena Spar,10,9992610010108,Puerta izq,1,390,297,18,388,295,PET,PET GRIS 18,VERTICAL,1,1,1,1,PUERTA,,,ALACENA-SPAR_Alacena Spar_Puerta izq
+Alacena Spar,11,9992610010115,Puerta rebatible,1,597,376,18,595,374,PET,PET GRIS 18,VERTICAL,1,1,1,1,PUERTA,,,ALACENA-SPAR_Alacena Spar_Puerta rebatible

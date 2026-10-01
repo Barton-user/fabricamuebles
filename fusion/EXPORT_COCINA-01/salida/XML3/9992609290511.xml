@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>598.00</PanelLength>
+        <PanelWidth>860.00</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>COCINA-01_P2 Panel cocina_Panel terminal</PanelName>
+        <Params>
+            <Param Key="L" Value="598.00" Comment="板长"/>
+            <Param Key="W" Value="860.00" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

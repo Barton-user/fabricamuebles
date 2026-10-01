@@ -1,0 +1,25 @@
+ALACENA SPAR — receta (PRUEBA1-SPAR)
+
+    9992610010016 Techo              400.0 x  600.0 x 18.0  GRIS 18     ag  8 canto 0 ran 1  caras A
+    9992610010023 Lateral der        400.0 x  827.0 x 18.0  GRIS 18     ag 12 canto 2 ran 1  caras A
+    9992610010030 Lateral izq        400.0 x  827.0 x 18.0  GRIS 18     ag 12 canto 2 ran 1  caras A
+    9992610010047 Tapa inferior      564.0 x  400.0 x 18.0  GRIS 18     ag  4 canto 4 ran 2  caras AB
+    9992610010054 Liston frente      564.0 x   98.0 x 18.0  GRIS 18     ag  2 canto 2 ran 0  caras A
+    9992610010061 Liston atras       564.0 x   98.0 x 18.0  GRIS 18     ag  2 canto 2 ran 0  caras A
+    9992610010078 Estante            564.0 x  377.0 x 18.0  GRIS 18     ag  4 canto 4 ran 0  caras A
+    9992610010085 Fondo              574.0 x  721.0 x  5.0  BLANCO 5    ag  0 canto 0 ran 0  caras -
+    9992610010092 Puerta der         297.0 x  390.0 x 18.0  PET GRIS 18 ag  6 canto 0 ran 0  caras A
+    9992610010108 Puerta izq         297.0 x  390.0 x 18.0  PET GRIS 18 ag  6 canto 0 ran 0  caras A
+    9992610010115 Puerta rebatible   376.0 x  597.0 x 18.0  PET GRIS 18 ag  6 canto 0 ran 0  caras A
+
+HERRAJES:
+    Bisagra O35                  6
+    Excentrica O15              16
+    Perno O8 x 33               16
+    Receptor O10                16
+    Tira LED                     1
+
+AVISO: Puerta rebatible: lleva 2 pistones a gas (Bronze), uno por lado, atornillados a mano. No tienen agujeros de CNC ni estan dibujados. Fuerza a definir (puerta PET 597x376x18).
+AVISO: Colgadores de alacena: no estan en el diseno ni perforados.
+AVISO: LED: falta definir por donde sale el cable (no hay agujero pasante).
+AVISO: Tornillos de bisagra y de base en O5 (no hay O6 en la maquina).

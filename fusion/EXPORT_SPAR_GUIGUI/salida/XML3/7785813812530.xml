@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>574.00</PanelLength>
+        <PanelWidth>720.60</PanelWidth>
+        <PanelThickness>5.00</PanelThickness>
+        <PanelName>Alacena Spar_Fondo01</PanelName>
+        <Params>
+            <Param Key="L" Value="574.00" Comment="板长"/>
+            <Param Key="W" Value="720.60" Comment="板宽"/>
+            <Param Key="T" Value="5.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

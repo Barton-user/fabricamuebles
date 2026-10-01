@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "PRUEBA",
+  "orden": "PRUEBA",
+  "cliente": "PRUEBA",
+  "direccion": "",
+  "ambiente": "PRUEBA",
+  "piezas": [
+    {
+      "codigo": "9992610019095",
+      "nombre": "PRUEBA_cazoleta_O35",
+      "ancho": 744.0,
+      "alto": 401.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "PRUEBA",
+      "textura": "PRUEBA",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0,
+      "canto_arriba": 0,
+      "canto_izq": 0,
+      "canto_der": 0,
+      "agujeros": [
+        {
+          "x": 120.0,
+          "y": 200.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

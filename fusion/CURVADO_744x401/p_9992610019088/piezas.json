@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "CURVADO",
+  "orden": "PRUEBA",
+  "cliente": "PRUEBA",
+  "direccion": "",
+  "ambiente": "PRUEBA",
+  "piezas": [
+    {
+      "codigo": "9992610019088",
+      "nombre": "CURVA90_R100_pasada_12mm",
+      "ancho": 744.0,
+      "alto": 401.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "PRUEBA",
+      "textura": "PRUEBA",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0,
+      "canto_arriba": 0,
+      "canto_izq": 0,
+      "canto_der": 0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 299.8,
+          "y1": 0.0,
+          "x2": 299.8,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 310.11,
+          "y1": 0.0,
+          "x2": 310.11,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 320.43,
+          "y1": 0.0,
+          "x2": 320.43,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 330.74,
+          "y1": 0.0,
+          "x2": 330.74,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 341.06,
+          "y1": 0.0,
+          "x2": 341.06,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 351.37,
+          "y1": 0.0,
+          "x2": 351.37,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 361.69,
+          "y1": 0.0,
+          "x2": 361.69,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 372.0,
+          "y1": 0.0,
+          "x2": 372.0,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 382.31,
+          "y1": 0.0,
+          "x2": 382.31,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 392.63,
+          "y1": 0.0,
+          "x2": 392.63,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 402.94,
+          "y1": 0.0,
+          "x2": 402.94,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 413.26,
+          "y1": 0.0,
+          "x2": 413.26,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 423.57,
+          "y1": 0.0,
+          "x2": 423.57,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 433.89,
+          "y1": 0.0,
+          "x2": 433.89,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x1": 444.2,
+          "y1": 0.0,
+          "x2": 444.2,
+          "y2": 401.0,
+          "ancho": 6.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+solo esquineros abiertos: []
+todo menos esquineros: []
+B1 Puerta con B2 Puerta der abierta: llega sin tocar a 45 grados
+A1 Puerta con A2 Puerta der abierta: llega sin tocar a 45 grados
+FIN

@@ -1,0 +1,128 @@
+COCINA-01 — receta
+
+B1 Esquinero bajo           10 placas
+    9992609290016 Lateral A                    580.0 x   760.0 x 18.0  BLANCO 18  ag  14  canto  0  ran 1
+    9992609290023 Lateral B                    580.0 x   760.0 x 18.0  BLANCO 18  ag  14  canto  0  ran 1
+    9992609290030 Piso                         782.0 x   782.0 x 18.0  BLANCO 18  ag   6  canto  4  ran 2  (contorno)
+    9992609290047 Techo                        782.0 x   782.0 x 18.0  BLANCO 18  ag   6  canto  4  ran 2  (contorno)
+    9992609290054 Fondo A                      755.0 x   734.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290061 Fondo B                      762.0 x   734.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290078 Montante A                    80.0 x   724.0 x 18.0  BLANCO 18  ag   6  canto  2  ran 0
+    9992609290085 Montante B                    80.0 x   724.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290092 Puerta                       282.7 x   757.0 x 18.0  VERDE 18   ag   6  canto  0  ran 0
+    9992609290108 Estante 1                    750.0 x   750.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0  (contorno)
+B2 Bajo pileta 600           9 placas
+    9992609290115 Lateral der                  580.0 x   760.0 x 18.0  BLANCO 18  ag   8  canto  0  ran 1
+    9992609290122 Lateral izq                  580.0 x   760.0 x 18.0  BLANCO 18  ag   8  canto  0  ran 1
+    9992609290139 Piso                         564.0 x   580.0 x 18.0  BLANCO 18  ag   4  canto  4  ran 1
+    9992609290146 Travesano delantero          564.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290153 Travesano trasero            564.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290160 Fondo                        574.0 x   746.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290177 Frente fijo                  597.0 x   185.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+    9992609290184 Puerta der                   297.0 x   569.0 x 18.0  VERDE 18   ag   6  canto  0  ran 0
+    9992609290191 Puerta izq                   297.0 x   569.0 x 18.0  VERDE 18   ag   6  canto  0  ran 0
+B3 Cajonera 320             30 placas
+    9992609290207 Lateral der                  580.0 x   760.0 x 18.0  BLANCO 18  ag  12  canto  0  ran 1
+    9992609290214 Lateral izq                  580.0 x   760.0 x 18.0  BLANCO 18  ag  12  canto  0  ran 1
+    9992609290221 Piso                         284.0 x   580.0 x 18.0  BLANCO 18  ag   4  canto  4  ran 1
+    9992609290238 Travesano delantero          284.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290245 Travesano trasero            284.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290252 Fondo                        294.0 x   746.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290269 Frente cajon 1               317.0 x   187.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+    9992609290276 Cajon 1 frente               258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290283 Cajon 1 contrafrente         258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290290 Cajon 1 costado der          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
+    9992609290306 Cajon 1 costado izq          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
+    9992609290313 Cajon 1 fondo                231.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290320 Frente cajon 2               317.0 x   187.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+    9992609290337 Cajon 2 frente               258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290344 Cajon 2 contrafrente         258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290351 Cajon 2 costado der          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
+    9992609290368 Cajon 2 costado izq          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
+    9992609290375 Cajon 2 fondo                231.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290382 Frente cajon 3               317.0 x   187.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+    9992609290399 Cajon 3 frente               258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290405 Cajon 3 contrafrente         258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290412 Cajon 3 costado der          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
+    9992609290429 Cajon 3 costado izq          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
+    9992609290436 Cajon 3 fondo                231.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290443 Frente cajon 4               317.0 x   187.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+    9992609290450 Cajon 4 frente               258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290467 Cajon 4 contrafrente         258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290474 Cajon 4 costado der          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
+    9992609290481 Cajon 4 costado izq          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
+    9992609290498 Cajon 4 fondo                231.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+P1 Panel lavavajillas        1 placas
+    9992609290504 Panel terminal               598.0 x   860.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+P2 Panel cocina              1 placas
+    9992609290511 Panel terminal               598.0 x   860.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+A1 Esquinero alacena        12 placas
+    9992609290528 Lateral A                    332.0 x   980.0 x 18.0  BLANCO 18  ag  24  canto  0  ran 1
+    9992609290535 Lateral B                    332.0 x   980.0 x 18.0  BLANCO 18  ag  24  canto  0  ran 1
+    9992609290542 Piso                         782.0 x   782.0 x 18.0  BLANCO 18  ag   8  canto  4  ran 2  (contorno)
+    9992609290559 Techo                        782.0 x   782.0 x 18.0  BLANCO 18  ag   6  canto  4  ran 2  (contorno)
+    9992609290566 Fondo A                      755.0 x   954.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290573 Fondo B                      762.0 x   954.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290580 Montante A                    80.0 x   944.0 x 18.0  BLANCO 18  ag   8  canto  2  ran 0
+    9992609290597 Montante B                    80.0 x   944.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290603 Puerta                       633.4 x   977.0 x 18.0  VERDE 18   ag   9  canto  0  ran 0
+    9992609290610 Estante 1                    750.0 x   750.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0  (contorno)
+    9992609290627 Estante 2                    750.0 x   750.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0  (contorno)
+    9992609290634 Cenefa                       636.4 x    60.0 x 18.0  VERDE 18   ag   2  canto  2  ran 0
+A2 Alacena 600              10 placas
+    9992609290641 Piso                         600.0 x   332.0 x 18.0  BLANCO 18  ag   6  canto  0  ran 2
+    9992609290658 Techo                        600.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 1
+    9992609290665 Lateral der                  332.0 x   944.0 x 18.0  BLANCO 18  ag  30  canto  4  ran 1
+    9992609290672 Lateral izq                  332.0 x   944.0 x 18.0  BLANCO 18  ag  30  canto  4  ran 1
+    9992609290689 Fondo                        574.0 x   954.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290696 Cenefa                       600.0 x    60.0 x 18.0  VERDE 18   ag   2  canto  2  ran 0
+    9992609290702 Puerta der                   297.0 x   977.0 x 18.0  VERDE 18   ag   9  canto  0  ran 0
+    9992609290719 Puerta izq                   297.0 x   977.0 x 18.0  VERDE 18   ag   9  canto  0  ran 0
+    9992609290726 Estante 1                    562.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+    9992609290733 Estante 2                    562.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+A3 Alacena 800              10 placas
+    9992609290740 Piso                         800.0 x   332.0 x 18.0  BLANCO 18  ag   6  canto  0  ran 2
+    9992609290757 Techo                        800.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 1
+    9992609290764 Lateral der                  332.0 x   944.0 x 18.0  BLANCO 18  ag  30  canto  4  ran 1
+    9992609290771 Lateral izq                  332.0 x   944.0 x 18.0  BLANCO 18  ag  30  canto  4  ran 1
+    9992609290788 Fondo                        774.0 x   954.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290795 Cenefa                       800.0 x    60.0 x 18.0  VERDE 18   ag   2  canto  2  ran 0
+    9992609290801 Puerta der                   397.0 x   977.0 x 18.0  VERDE 18   ag   9  canto  0  ran 0
+    9992609290818 Puerta izq                   397.0 x   977.0 x 18.0  VERDE 18   ag   9  canto  0  ran 0
+    9992609290825 Estante 1                    762.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+    9992609290832 Estante 2                    762.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+A4 Alacena 570              10 placas
+    9992609290849 Piso                         570.0 x   332.0 x 18.0  BLANCO 18  ag   6  canto  0  ran 2
+    9992609290856 Techo                        570.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 1
+    9992609290863 Lateral der                  332.0 x   944.0 x 18.0  BLANCO 18  ag  30  canto  4  ran 1
+    9992609290870 Lateral izq                  332.0 x   944.0 x 18.0  BLANCO 18  ag  30  canto  4  ran 1
+    9992609290887 Fondo                        544.0 x   954.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290894 Cenefa                       570.0 x    60.0 x 18.0  VERDE 18   ag   2  canto  2  ran 0
+    9992609290900 Puerta der                   282.0 x   977.0 x 18.0  VERDE 18   ag   9  canto  0  ran 0
+    9992609290917 Puerta izq                   282.0 x   977.0 x 18.0  VERDE 18   ag   9  canto  0  ran 0
+    9992609290924 Estante 1                    532.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+    9992609290931 Estante 2                    532.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+Z Zocalos                    2 placas
+    9992609290948 Zocalo largo                 955.0 x    99.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+    9992609290955 Zocalo diagonal              367.7 x    99.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+
+TOTAL 95 placas
+HERRAJES:
+    Bisagra O35                    27
+    Corredera bolas 450             8
+    Excentrica O15                 88
+    Pata regulable                 13
+    Perno O8 x 33                  88
+    Receptor O10                   88
+    Soporte estante O5             36
+    Tira LED                        4
+
+AVISO: A1 Esquinero alacena: la tira LED va PEGADA bajo el piso, sin ranura (la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).
+AVISO: Zocalos: las puntas se ajustan en obra (encuentro a 45 entre el largo y el diagonal).
+AVISO: B1 Esquinero bajo / Piso: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
+AVISO: B1 Esquinero bajo / Techo: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
+AVISO: B1 Esquinero bajo / Estante 1: contorno con chanfle a 45 — la sierra corta el rectangulo 750 x 750, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
+AVISO: A1 Esquinero alacena / Piso: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
+AVISO: A1 Esquinero alacena / Techo: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
+AVISO: A1 Esquinero alacena / Estante 1: contorno con chanfle a 45 — la sierra corta el rectangulo 750 x 750, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
+AVISO: A1 Esquinero alacena / Estante 2: contorno con chanfle a 45 — la sierra corta el rectangulo 750 x 750, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).

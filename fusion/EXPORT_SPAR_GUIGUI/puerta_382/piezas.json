@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "30346169",
+  "cliente": "",
+  "direccion": "",
+  "ambiente": "PRUEBA 1",
+  "piezas": [
+    {
+      "codigo": "7785813812561",
+      "nombre": "Alacena Spar_IZQ (corte) 382",
+      "ancho": 295.0,
+      "alto": 382.0,
+      "espesor": 18.0,
+      "material": "NPetfrente",
+      "mueble": "Alacena Spar",
+      "textura": "PET Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 259.0,
+          "y": 259.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 259.0,
+          "y": 307.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 273.5,
+          "y": 283.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 259.0,
+          "y": 75.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 259.0,
+          "y": 123.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 273.5,
+          "y": 99.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812585",
+      "nombre": "Alacena Spar_DER (corte) 382",
+      "ancho": 295.0,
+      "alto": 382.0,
+      "espesor": 18.0,
+      "material": "NPetfrente",
+      "mueble": "Alacena Spar",
+      "textura": "PET Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 36.0,
+          "y": 259.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 36.0,
+          "y": 307.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 21.5,
+          "y": 283.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 36.0,
+          "y": 75.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 36.0,
+          "y": 123.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 21.5,
+          "y": 99.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

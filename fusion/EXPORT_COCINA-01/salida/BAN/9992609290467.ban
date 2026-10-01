@@ -1,0 +1,14 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/29 pm 8:29:48" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="258.00" Height="120.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,1,0,0" Name="COCINA-01_B3 Cajonera 320_Cajon 4 contrafrente" Code="9992609290467">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="258.00 0.00 0"/>
+        <Point Value="258.00 120.00 0"/>
+        <Point Value="0.00 120.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="9.00 90.00 0" End="9.00 90.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="249.00 90.00 0" End="249.00 90.00 -11.00"/>
+    <SlotL Name="" Face="A" Start="13.00 17.50 -5.50" End="245.00 17.50 -5.50" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

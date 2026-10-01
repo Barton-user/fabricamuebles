@@ -1,0 +1,195 @@
+Exportar Piezas — Untitled
+
+=== Techo 9992610010016 / 9992610010016 ===
+  agujero vertical  O5.0 prof 3.0  cara A  en (348.0, 498.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (380.0, 498.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (348.0, 101.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (380.0, 101.5)
+  agujero vertical  O10.0 prof 11.0  cara A  en (360.0, 591.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (40.0, 591.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (40.0, 9.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (360.0, 9.0)
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  ranura 6.0 x 6.0  cara A  de (20.5, 12.9) a (20.5, 587.2)
+
+=== Lateral der 9992610010023 / 9992610010023 ===
+  contorno: las dos caras difieren (326498.0 vs 330800.0 mm2); se usa la mayor
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto U  en (40.0, 827.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto U  en (360.0, 827.0) z=9.0
+  agujero vertical  O5.0 prof 3.0  cara A  en (348.0, 364.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (380.0, 364.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (348.0, 174.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (380.0, 174.5)
+  agujero vertical  O10.0 prof 11.0  cara A  en (9.0, 49.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (391.0, 49.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (355.5, 466.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (67.5, 466.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (40.0, 107.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (360.0, 107.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (40.0, 794.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (360.0, 794.0)
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  ranura 6.0 x 6.0  cara A  de (20.5, 110.0) a (20.5, 827.0)
+
+=== Lateral izq 9992610010030 / 9992610010030 ===
+  contorno: las dos caras difieren (326498.0 vs 330800.0 mm2); se usa la mayor
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto U  en (40.0, 827.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto U  en (360.0, 827.0) z=9.0
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 364.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 364.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 174.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 174.5)
+  agujero vertical  O10.0 prof 11.0  cara A  en (391.0, 49.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (9.0, 49.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (332.5, 466.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (44.5, 466.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (40.0, 107.0)
+  agujero vertical  O10.0 prof 11.0  cara A  en (360.0, 107.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (40.0, 794.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (360.0, 794.0)
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  ranura 6.0 x 6.0  cara A  de (379.5, 110.0) a (379.5, 827.0)
+
+=== Tapa inferior 9992610010047 / 9992610010047 ===
+  contorno: las dos caras difieren (212346.0 vs 225600.0 mm2); se usa la mayor
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 360.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 40.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 40.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 360.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 360.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 40.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 40.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 360.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  ranura 10.0 x 10.0  cara B  de (20.0, 340.0) a (544.0, 340.0)
+  ranura 6.0 x 6.0  cara A  de (0.0, 20.5) a (564.0, 20.5)
+
+=== Liston frente 9992610010054 / 9992610010054 ===
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 49.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 49.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 49.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 49.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+
+=== Liston atras 9992610010061 / 9992610010061 ===
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 49.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 49.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 49.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 49.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+
+=== Estante 9992610010078 / 9992610010078 ===
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 332.5) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 44.5) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 44.5) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 332.5) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 332.5)
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 44.5)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 44.5)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 332.5)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+
+=== Fondo 9992610010085 / 9992610010085 ===
+
+=== Puerta der 9992610010092 / 9992610010092 ===
+  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 314.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 266.0)
+  agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 290.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+
+=== Puerta izq 9992610010108 / 9992610010108 ===
+  agujero vertical  O5.0 prof 3.0  cara A  en (260.0, 314.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (260.0, 266.0)
+  agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 290.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (260.0, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (260.0, 76.0)
+  agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 100.0)
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+
+=== Puerta rebatible 9992610010115 / 9992610010115 ===
+  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 521.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 473.0)
+  agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 497.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
+lanzador escrito: /Users/patriciokeogan/Documents/Claude/Projects/FABRICA MUEBLES/fusion/EXPORT_ALACENA_SPAR/GENERAR ARCHIVOS.command  (generador en /Users/patriciokeogan/Documents/Claude/Projects/FABRICA MUEBLES/etapa2)
+SALTADA: Tira LED 524 — marcada TIPO distinto de PLACA
+SALTADA: Excentrica O15 — marcada TIPO distinto de PLACA
+SALTADA: Perno O8 x 33 — marcada TIPO distinto de PLACA
+SALTADA: Receptor O10 — marcada TIPO distinto de PLACA
+SALTADA: Bisagra O35 base -6 — marcada TIPO distinto de PLACA
+SALTADA: Herrajes (biblioteca) — marcada TIPO distinto de PLACA
+SALTADA: Referencia (no se fabrica) — marcada TIPO distinto de PLACA

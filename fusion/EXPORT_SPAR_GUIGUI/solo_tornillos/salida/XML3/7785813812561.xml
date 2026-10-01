@@ -1,0 +1,61 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>295.00</PanelLength>
+        <PanelWidth>386.06</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>Alacena Spar_IZQ (corte)</PanelName>
+        <Params>
+            <Param Key="L" Value="295.00" Comment="板长"/>
+            <Param Key="W" Value="386.06" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>267.50</X1>
+        <Y1>263.06</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>5.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>267.50</X1>
+        <Y1>311.06</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>5.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>267.50</X1>
+        <Y1>75.00</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>5.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>267.50</X1>
+        <Y1>123.00</Y1>
+        <Depth>3.00</Depth>
+        <Diameter>5.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+</KDTPanelFormat>

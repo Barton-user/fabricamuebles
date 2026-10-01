@@ -1,0 +1,19 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/29 pm 8:29:48" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="570.00" Height="332.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,1,0,0" Name="COCINA-01_A4 Alacena 570_Piso" Code="9992609290849">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="570.00 0.00 0"/>
+        <Point Value="570.00 332.00 0"/>
+        <Point Value="0.00 332.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="45.00 323.00 -18.00" End="45.00 323.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="B" Start="525.00 323.00 -18.00" End="525.00 323.00 -7.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="561.00 54.00 0" End="561.00 54.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="561.00 278.00 0" End="561.00 278.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="9.00 278.00 0" End="9.00 278.00 -11.00"/>
+    <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="9.00 54.00 0" End="9.00 54.00 -11.00"/>
+    <SlotL Name="" Face="B" Start="38.00 287.00 -10.00" End="532.00 287.00 -10.00" Width="10.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="12.85 27.50 -6.00" End="557.15 27.50 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

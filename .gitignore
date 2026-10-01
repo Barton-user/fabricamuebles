@@ -12,3 +12,6 @@ __pycache__/
 # respaldos
 *.bak
 *.pre_formas
+
+# cuadros intermedios de animaciones (el .gif/.mp4 final sí se sube)
+fusion/MoverPuertas/_cuadros/

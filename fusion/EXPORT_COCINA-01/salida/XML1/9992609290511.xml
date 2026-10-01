@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9992609290511" plateNickName="COCINA-01_P2 Panel cocina_Panel terminal" width="860.00" depth="598.00" height="18.00" barCode="9992609290511" barCode1="">
+    <Bandings>
+        <Banding bandingBack="1" bandingRight="1" bandingFront="1" bandingLeft="1"/>
+    </Bandings>
+    <Holes/>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,860.00,18.00)" endPoint="(598.00,860.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(598.00,860.00,18.00)" endPoint="(598.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(598.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,860.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

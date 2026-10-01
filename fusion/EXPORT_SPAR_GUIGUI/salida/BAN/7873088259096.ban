@@ -1,0 +1,19 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/10/01 pm 3:17:52" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="564.00" Height="97.87" PlaneSize="1" Grain="2" Thickness="18" Material="NEstructura" EdgeFBLR="0,1,0,0" Name="Alacena Spar_Listón02" Code="7873088259096">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="564.00 0.00 0"/>
+        <Point Value="564.00 97.87 0"/>
+        <Point Value="0.00 97.87 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="531.00 48.93 0" End="531.00 48.93 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="522.00 64.87 0" End="522.00 64.87 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="42.00 64.87 0" End="42.00 64.87 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 48.93 0" End="33.00 48.93 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="564.00 48.93 -9.00" End="531.00 48.93 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="522.00 97.87 -9.00" End="522.00 64.87 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="42.00 97.87 -9.00" End="42.00 64.87 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 48.93 -9.00" End="33.00 48.93 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "PRUEBA",
+  "orden": "PRUEBA",
+  "cliente": "PRUEBA",
+  "direccion": "",
+  "ambiente": "PRUEBA",
+  "piezas": [
+    {
+      "codigo": "9992610019026",
+      "nombre": "PRUEBA_varios_arriba_y_cantos",
+      "ancho": 564.0,
+      "alto": 370.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "PRUEBA",
+      "textura": "PRUEBA",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0,
+      "canto_arriba": 0,
+      "canto_izq": 0,
+      "canto_der": 0,
+      "agujeros": [
+        {
+          "x": 150,
+          "y": 185,
+          "diametro": 15,
+          "profundidad": 12,
+          "cara": "A"
+        },
+        {
+          "x": 220,
+          "y": 185,
+          "diametro": 5,
+          "profundidad": 10,
+          "cara": "A"
+        },
+        {
+          "x": 282,
+          "y": 100,
+          "diametro": 8,
+          "profundidad": 10,
+          "cara": "A"
+        },
+        {
+          "x": 282,
+          "y": 270,
+          "diametro": 12,
+          "profundidad": 10,
+          "cara": "A"
+        },
+        {
+          "x": 400,
+          "y": 185,
+          "diametro": 10,
+          "profundidad": 11,
+          "cara": "A"
+        },
+        {
+          "x": 460,
+          "y": 185,
+          "diametro": 5,
+          "profundidad": 10,
+          "cara": "A"
+        },
+        {
+          "x": 180,
+          "y": 290,
+          "diametro": 20,
+          "profundidad": 8,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 0,
+          "y": 150,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 30.0,
+          "canto": "L"
+        },
+        {
+          "x": 0,
+          "y": 220,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 30.0,
+          "canto": "L"
+        },
+        {
+          "x": 564,
+          "y": 150,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 30.0,
+          "canto": "R"
+        },
+        {
+          "x": 564,
+          "y": 220,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 30.0,
+          "canto": "R"
+        },
+        {
+          "x": 200,
+          "y": 0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 30.0,
+          "canto": "D"
+        },
+        {
+          "x": 364,
+          "y": 0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 30.0,
+          "canto": "D"
+        },
+        {
+          "x": 200,
+          "y": 370,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 30.0,
+          "canto": "U"
+        },
+        {
+          "x": 364,
+          "y": 370,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 30.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

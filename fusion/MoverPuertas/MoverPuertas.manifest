@@ -1,0 +1,11 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "script",
+    "id": "com.leitencom.fabricamuebles.moverpuertas",
+    "author": "FABRICA MUEBLES",
+    "description": { "": "Abre y cierra todas las puertas y cajones juntos (vinculos de movimiento a la junta B2 Puerta der)." },
+    "version": "1.0.0",
+    "runOnStartup": false,
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

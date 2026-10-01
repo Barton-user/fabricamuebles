@@ -1,0 +1,659 @@
+{
+ "ambiente": "PRUEBA 1",
+ "orden": "30346169",
+ "version": "5.0.0.1global-2",
+ "muebles": [
+  {
+   "indice": 0,
+   "nombre": "Alacena Spar",
+   "piezas": [
+    {
+     "codigo": "7785813812479",
+     "nombre": "Lateral 826.47x400x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Alacena Spar_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 826.47,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 826.47,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 826.47,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       186.17,
+       -400,
+       1605.53
+      ],
+      [
+       204.17,
+       0,
+       2432
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "7785813812486",
+     "nombre": "Lateral 826.47x400x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Alacena Spar_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 826.47,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 826.47,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 826.47,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       768.17,
+       -400,
+       1605.53
+      ],
+      [
+       786.17,
+       0,
+       2432
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 6,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7785813812523",
+     "nombre": "Estante 564x400x18",
+     "nombre_guigui": "Tapa inferior01",
+     "nombre_largo": "Alacena Spar_Tapa inferior01",
+     "tipo": "Estante",
+     "W": 400,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       204.17,
+       -400,
+       1703.4
+      ],
+      [
+       768.17,
+       0,
+       1721.4
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "7785813812516",
+     "nombre": "Estante 564x377x18",
+     "nombre_guigui": "Estante01",
+     "nombre_largo": "Alacena Spar_Estante01",
+     "tipo": "Estante",
+     "W": 377,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 377,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 376,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       204.17,
+       -400,
+       2060.47
+      ],
+      [
+       768.17,
+       -23,
+       2078.47
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "7785813812462",
+     "nombre": "Techo 600x400x18",
+     "nombre_guigui": "Tapa superior01",
+     "nombre_largo": "Alacena Spar_Tapa superior01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 600,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 600,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 598,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       186.17,
+       -400,
+       2432
+      ],
+      [
+       786.17,
+       0,
+       2450
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 4,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       600
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "7870444268785",
+     "nombre": "Zócalo 564x97.87x18 A",
+     "nombre_guigui": "Listón01",
+     "nombre_largo": "Alacena Spar_Listón01",
+     "tipo": "Zócalo",
+     "W": 564,
+     "H": 97.87,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 97.87,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 96.87,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       204.17,
+       -400,
+       1605.53
+      ],
+      [
+       768.17,
+       -382,
+       1703.4
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "7873088259096",
+     "nombre": "Zócalo 564x97.87x18 B",
+     "nombre_guigui": "Listón02",
+     "nombre_largo": "Alacena Spar_Listón02",
+     "tipo": "Zócalo",
+     "W": 564,
+     "H": 97.87,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 97.87,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 96.87,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       204.17,
+       -18,
+       1605.53
+      ],
+      [
+       768.17,
+       0,
+       1703.4
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "7785813812530",
+     "nombre": "Fondo 720.6x574x5",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Alacena Spar_Fondo01",
+     "tipo": "Fondo",
+     "W": 574,
+     "H": 720.6,
+     "T": 5,
+     "dibujo_W": 564,
+     "dibujo_H": 710.6,
+     "aviso": "",
+     "corte_W": 574,
+     "corte_H": 720.6,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       204.17,
+       -23,
+       1721.4
+      ],
+      [
+       768.17,
+       -18,
+       2432
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "7785813812561",
+     "nombre": "Puerta 388.06x297x18 A",
+     "nombre_guigui": "IZQ",
+     "nombre_largo": "Alacena Spar_IZQ",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 388.06,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 388.06,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 386.06,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       187.67,
+       -418,
+       1679.9
+      ],
+      [
+       484.67,
+       -400,
+       2067.97
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "7785813812585",
+     "nombre": "Puerta 388.06x297x18 B",
+     "nombre_guigui": "DER",
+     "nombre_largo": "Alacena Spar_DER",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 388.06,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 388.06,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 386.06,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       487.67,
+       -418,
+       1679.9
+      ],
+      [
+       784.67,
+       -400,
+       2067.97
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    },
+    {
+     "codigo": "7785813812493",
+     "nombre": "Puerta 597x377.53x18",
+     "nombre_guigui": "SUP",
+     "nombre_largo": "Alacena Spar_SUP",
+     "tipo": "Puerta",
+     "W": 597,
+     "H": 377.53,
+     "T": 18,
+     "dibujo_W": 597,
+     "dibujo_H": 377.53,
+     "aviso": "",
+     "corte_W": 595,
+     "corte_H": 375.53,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       187.67,
+       -418,
+       2070.97
+      ],
+      [
+       784.67,
+       -400,
+       2448.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 11
+    }
+   ],
+   "herrajes": {
+    "excentricas": 20,
+    "pernos": 20,
+    "receptores": 20,
+    "bisagras": 6,
+    "tornillos_bisagra": 24,
+    "led": [
+     600
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     186.16720581054688,
+     -418.0,
+     1605.5328369140625
+    ],
+    [
+     786.1672058105469,
+     0.0,
+     2450.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 844.47,
+   "prof": 418
+  }
+ ]
+}

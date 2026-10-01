@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "30346169",
+  "cliente": "",
+  "direccion": "",
+  "ambiente": "PRUEBA 1",
+  "piezas": [
+    {
+      "codigo": "7785813812493",
+      "nombre": "Alacena Spar_SUP (corte)",
+      "ancho": 595.0,
+      "alto": 375.53,
+      "espesor": 18.0,
+      "material": "NPetfrente",
+      "mueble": "Alacena Spar",
+      "textura": "PET Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 123.0,
+          "y": 348.03,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 75.0,
+          "y": 348.03,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 520.0,
+          "y": 348.03,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 472.0,
+          "y": 348.03,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812561",
+      "nombre": "Alacena Spar_IZQ (corte)",
+      "ancho": 295.0,
+      "alto": 386.06,
+      "espesor": 18.0,
+      "material": "NPetfrente",
+      "mueble": "Alacena Spar",
+      "textura": "PET Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 267.5,
+          "y": 263.06,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 267.5,
+          "y": 311.06,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 267.5,
+          "y": 75.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 267.5,
+          "y": 123.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812585",
+      "nombre": "Alacena Spar_DER (corte)",
+      "ancho": 295.0,
+      "alto": 386.06,
+      "espesor": 18.0,
+      "material": "NPetfrente",
+      "mueble": "Alacena Spar",
+      "textura": "PET Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 27.5,
+          "y": 263.06,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 27.5,
+          "y": 311.06,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 27.5,
+          "y": 75.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 27.5,
+          "y": 123.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

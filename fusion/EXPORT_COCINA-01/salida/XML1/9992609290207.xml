@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9992609290207" plateNickName="COCINA-01_B3 Cajonera 320_Lateral der" width="760.00" depth="580.00" height="18.00" barCode="9992609290207" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="1" bandingFront="0" bandingLeft="0"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(167.00,655.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(543.00,655.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(167.00,465.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(543.00,465.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(167.00,275.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(543.00,275.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(167.00,85.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(543.00,85.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(9.00,710.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(530.00,751.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(50.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(530.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+    </Holes>
+    <Slottings>
+        <Slotting positionSide="1" slottingStartX="27.50" slottingStartY="0.00" slottingStartZ="0.000" slottingEndX="27.50" slottingEndY="760.00" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="6.00"/>
+    </Slottings>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,760.00,18.00)" endPoint="(580.00,760.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(580.00,760.00,18.00)" endPoint="(580.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(580.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,760.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

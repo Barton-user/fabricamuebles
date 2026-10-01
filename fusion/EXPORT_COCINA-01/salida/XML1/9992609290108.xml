@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9992609290108" plateNickName="COCINA-01_B1 Esquinero bajo_Estante 1" width="750.00" depth="750.00" height="18.00" barCode="9992609290108" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="0" bandingFront="0" bandingLeft="0"/>
+    </Bandings>
+    <Holes/>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(750.00,434.03,18.00)" endPoint="(750.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(750.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,750.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,750.00,18.00)" endPoint="(434.03,750.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(434.03,750.00,18.00)" endPoint="(750.00,434.03,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

@@ -1,0 +1,3 @@
+TOTAL: 95 placas (0 mecanizados fallidos), 352 herrajes
+export: 95 piezas, dup []
+39.3 s

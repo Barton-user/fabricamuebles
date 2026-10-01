@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "PRUEBA",
+  "orden": "PRUEBA",
+  "cliente": "PRUEBA",
+  "direccion": "",
+  "ambiente": "PRUEBA",
+  "piezas": [
+    {
+      "codigo": "9992610019040",
+      "nombre": "PRUEBA_curvado_pasada1_8mm",
+      "ancho": 564.0,
+      "alto": 370.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "PRUEBA",
+      "textura": "PRUEBA",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0,
+      "canto_arriba": 0,
+      "canto_izq": 0,
+      "canto_der": 0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 300.0,
+          "y1": 0.0,
+          "x2": 300.0,
+          "y2": 370.0,
+          "ancho": 6.0,
+          "profundidad": 8.0,
+          "cara": "A"
+        },
+        {
+          "x1": 310.0,
+          "y1": 0.0,
+          "x2": 310.0,
+          "y2": 370.0,
+          "ancho": 6.0,
+          "profundidad": 8.0,
+          "cara": "A"
+        },
+        {
+          "x1": 320.0,
+          "y1": 0.0,
+          "x2": 320.0,
+          "y2": 370.0,
+          "ancho": 6.0,
+          "profundidad": 8.0,
+          "cara": "A"
+        },
+        {
+          "x1": 340.0,
+          "y1": 0.0,
+          "x2": 340.0,
+          "y2": 370.0,
+          "ancho": 6.0,
+          "profundidad": 8.0,
+          "cara": "A"
+        },
+        {
+          "x1": 350.0,
+          "y1": 0.0,
+          "x2": 350.0,
+          "y2": 370.0,
+          "ancho": 6.0,
+          "profundidad": 8.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9992609290092" plateNickName="COCINA-01_B1 Esquinero bajo_Puerta" width="757.00" depth="282.67" height="18.00" barCode="9992609290092" barCode1="">
+    <Bandings>
+        <Banding bandingBack="1" bandingRight="1" bandingFront="1" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(245.67,681.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(245.67,633.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(260.17,657.00,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(245.67,124.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(245.67,76.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(260.17,100.00,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+    </Holes>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,757.00,18.00)" endPoint="(282.67,757.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(282.67,757.00,18.00)" endPoint="(282.67,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(282.67,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,757.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

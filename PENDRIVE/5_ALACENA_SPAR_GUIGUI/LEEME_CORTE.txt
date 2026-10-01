@@ -1,0 +1,23 @@
+ALACENA SPAR (GuiGui, PRUEBA 1, actualizado 01/10 11:10) - CORTE EN HP280
+Codigos = los de GuiGui (7785813812xxx). NO mezclar con PENDRIVE/4_ALACENA_SPAR (codigos 999..., version Fusion vieja).
+
+Placa 1832 x 2601. En "editar": Longitud 1832, Ancho 2601. Kerf 4,4. Trim 5.
+VolOrig -> MatRes -> editar -> Add cada medida -> confirm -> automatico -> Sierra ON + Vent -> Niv Rep -> verde.
+
+PET GRIS 18
+  Nivel 1 (tiras):  386,1 x1   375,5 x1
+  Nivel 2 (girar la tira, Longitud 2601):
+     tira 386,1 -> 295 x2        (IZQ, DER)
+     tira 375,5 -> 595 x1        (SUP, rebatible)
+
+GRIS 18
+  Nivel 1 (tiras):  399 x1   564 x1
+  Nivel 2:
+     tira 399 -> 826,5 x2 (laterales)  + 598 x1 (tapa superior)
+     tira 564 -> 399 (tapa inferior) + 376 (estante) + 96,9 x2 (listones)
+
+BLANCO 5
+  Nivel 1: tira 574 -> Nivel 2: 720,6 x1 (fondo)
+
+Medidas de corte = terminada - canto 1 mm. Etiquetas: etiquetas_60x40.pdf (AIBAO), pegar al salir cada pieza.
+Medir la primera de cada material con cinta.

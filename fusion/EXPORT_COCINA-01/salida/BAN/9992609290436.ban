@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/29 pm 8:29:48" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="231.00" Height="423.00" PlaneSize="1" Grain="2" Thickness="5" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_B3 Cajonera 320_Cajon 3 fondo" Code="9992609290436">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="231.00 0.00 0"/>
+        <Point Value="231.00 423.00 0"/>
+        <Point Value="0.00 423.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

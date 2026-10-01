@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9992609290948" plateNickName="COCINA-01_Z Zocalos_Zocalo largo" width="99.00" depth="955.00" height="18.00" barCode="9992609290948" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="0" bandingFront="1" bandingLeft="0"/>
+    </Bandings>
+    <Holes/>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,99.00,18.00)" endPoint="(955.00,99.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(955.00,99.00,18.00)" endPoint="(955.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(955.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,99.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

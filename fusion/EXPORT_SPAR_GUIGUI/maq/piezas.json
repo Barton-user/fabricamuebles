@@ -1,0 +1,957 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "Untitled",
+  "orden": "30346169",
+  "cliente": "",
+  "direccion": "",
+  "ambiente": "PRUEBA 1",
+  "piezas": [
+    {
+      "codigo": "7785813812462",
+      "nombre": "Alacena Spar_Tapa superior01",
+      "ancho": 400.0,
+      "alto": 600.0,
+      "espesor": 18.0,
+      "material": "NEstructura",
+      "mueble": "Alacena Spar",
+      "textura": "Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 52.0,
+          "y": 498.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 498.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 101.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 101.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 591.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 591.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 9.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 9.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 304.5,
+          "y1": 0.0,
+          "x2": 304.5,
+          "y2": 600.0,
+          "ancho": 10.0,
+          "profundidad": 10.0,
+          "cara": "B"
+        },
+        {
+          "x1": 379.5,
+          "y1": 12.85,
+          "x2": 379.5,
+          "y2": 587.15,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812479",
+      "nombre": "Alacena Spar_Lateral izquierdo01",
+      "ancho": 400.0,
+      "alto": 826.47,
+      "espesor": 18.0,
+      "material": "NEstructura",
+      "mueble": "Alacena Spar",
+      "textura": "Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 391.0,
+          "y": 48.93,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 9.0,
+          "y": 48.93,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 362.43,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 362.43,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 52.0,
+          "y": 174.37,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 20.0,
+          "y": 174.37,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 106.87,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 106.87,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 44.5,
+          "y": 463.93,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 332.5,
+          "y": 463.93,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 793.47,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 793.47,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 40.0,
+          "y": 826.47,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 360.0,
+          "y": 826.47,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 379.5,
+          "y1": 110.72,
+          "x2": 379.5,
+          "y2": 826.47,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812486",
+      "nombre": "Alacena Spar_Lateral derecho01",
+      "ancho": 400.0,
+      "alto": 826.47,
+      "espesor": 18.0,
+      "material": "NEstructura",
+      "mueble": "Alacena Spar",
+      "textura": "Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 9.0,
+          "y": 48.93,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 391.0,
+          "y": 48.93,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 348.0,
+          "y": 362.43,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 380.0,
+          "y": 362.43,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 348.0,
+          "y": 174.37,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 380.0,
+          "y": 174.37,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 106.87,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 106.87,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 355.5,
+          "y": 463.93,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 67.5,
+          "y": 463.93,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 793.47,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 793.47,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 360.0,
+          "y": 826.47,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 40.0,
+          "y": 826.47,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 20.5,
+          "y1": 110.72,
+          "x2": 20.5,
+          "y2": 826.47,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812493",
+      "nombre": "Alacena Spar_SUP",
+      "ancho": 597.0,
+      "alto": 377.53,
+      "espesor": 18.0,
+      "material": "NPetfrente",
+      "mueble": "Alacena Spar",
+      "textura": "PET Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 124.0,
+          "y": 340.53,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 76.0,
+          "y": 340.53,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 100.0,
+          "y": 355.03,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 521.0,
+          "y": 340.53,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 473.0,
+          "y": 340.53,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 497.0,
+          "y": 355.03,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812516",
+      "nombre": "Alacena Spar_Estante01",
+      "ancho": 377.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "NEstructura",
+      "mueble": "Alacena Spar",
+      "textura": "Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 44.5,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 332.5,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 44.5,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 332.5,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 44.5,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 332.5,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 44.5,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 332.5,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812523",
+      "nombre": "Alacena Spar_Tapa inferior01",
+      "ancho": 400.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "NEstructura",
+      "mueble": "Alacena Spar",
+      "textura": "Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 9.0,
+          "y": 522.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 9.0,
+          "y": 42.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 391.0,
+          "y": 522.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 391.0,
+          "y": 42.0,
+          "diametro": 10.0,
+          "profundidad": 11.0,
+          "cara": "B"
+        },
+        {
+          "x": 360.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 360.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 40.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 360.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 40.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 20.5,
+          "y1": 0.0,
+          "x2": 20.5,
+          "y2": 564.0,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812530",
+      "nombre": "Alacena Spar_Fondo01",
+      "ancho": 574.0,
+      "alto": 720.6,
+      "espesor": 5.0,
+      "material": "NFondo",
+      "mueble": "Alacena Spar",
+      "textura": "Blanco",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812561",
+      "nombre": "Alacena Spar_IZQ",
+      "ancho": 297.0,
+      "alto": 388.06,
+      "espesor": 18.0,
+      "material": "NPetfrente",
+      "mueble": "Alacena Spar",
+      "textura": "PET Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 260.0,
+          "y": 264.06,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 260.0,
+          "y": 312.06,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 274.5,
+          "y": 288.06,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 260.0,
+          "y": 76.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 260.0,
+          "y": 124.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 274.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7785813812585",
+      "nombre": "Alacena Spar_DER",
+      "ancho": 297.0,
+      "alto": 388.06,
+      "espesor": 18.0,
+      "material": "NPetfrente",
+      "mueble": "Alacena Spar",
+      "textura": "PET Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 37.0,
+          "y": 264.06,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 312.06,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 288.06,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 76.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 124.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7870444268785",
+      "nombre": "Alacena Spar_Listón01",
+      "ancho": 564.0,
+      "alto": 97.87,
+      "espesor": 18.0,
+      "material": "NEstructura",
+      "mueble": "Alacena Spar",
+      "textura": "Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 33.0,
+          "y": 48.93,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 42.0,
+          "y": 64.87,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 522.0,
+          "y": 64.87,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 531.0,
+          "y": 48.93,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 0.0,
+          "y": 48.93,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        },
+        {
+          "x": 42.0,
+          "y": 97.87,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 522.0,
+          "y": 97.87,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 564.0,
+          "y": 48.93,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "7873088259096",
+      "nombre": "Alacena Spar_Listón02",
+      "ancho": 564.0,
+      "alto": 97.87,
+      "espesor": 18.0,
+      "material": "NEstructura",
+      "mueble": "Alacena Spar",
+      "textura": "Gris",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 531.0,
+          "y": 48.93,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 522.0,
+          "y": 64.87,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 42.0,
+          "y": 64.87,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 48.93,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 564.0,
+          "y": 48.93,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 522.0,
+          "y": 97.87,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 42.0,
+          "y": 97.87,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 0.0,
+          "y": 48.93,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

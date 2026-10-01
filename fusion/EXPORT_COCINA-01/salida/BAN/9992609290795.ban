@@ -1,0 +1,15 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/09/29 pm 8:29:48" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="800.00" Height="60.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,0,1,1" Name="COCINA-01_A3 Alacena 800_Cenefa" Code="9992609290795">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="800.00 0.00 0"/>
+        <Point Value="800.00 60.00 0"/>
+        <Point Value="0.00 60.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="48.00 27.00 0" End="48.00 27.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="752.00 27.00 0" End="752.00 27.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="48.00 60.00 -9.00" End="48.00 27.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="752.00 60.00 -9.00" End="752.00 27.00 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

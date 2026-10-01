@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>774.00</PanelLength>
+        <PanelWidth>954.00</PanelWidth>
+        <PanelThickness>5.00</PanelThickness>
+        <PanelName>COCINA-01_A3 Alacena 800_Fondo</PanelName>
+        <Params>
+            <Param Key="L" Value="774.00" Comment="板长"/>
+            <Param Key="W" Value="954.00" Comment="板宽"/>
+            <Param Key="T" Value="5.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>
