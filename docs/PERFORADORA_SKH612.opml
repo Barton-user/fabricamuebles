@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head><title>Perforadora SKH-612HS — operación, herramientas y alarmas</title></head>
+<body>
+  <outline text="Perforadora SKH-612HS — operación, herramientas y alarmas">
+    <outline text="Vigente al 01/10/2026" _note="Vigente al 01/10/2026. Juntado de la bitácora (sesiones 23/09 y 24/09), las respuestas de Huahua (30/09) y la prueba de la Ø35 (01/10). Cuando algo cambie, se corrige acá (no se agrega abajo); el relato de cómo se llegó va a BITACORA.md."/>
+    <outline text="Fabricante" _note="Fabricante: Guangdong Shunde Changsheng Machinery (昶盛机械), marca Huahua CNC. Manual: User ManualSKH-612 Series260706115944.pdf (raíz del proyecto). Las capturas de pantalla con explicación están en instructivo/ (INDICE.md)."/>
+    <outline text="1. La PC y el software">
+      <outline text="En la PC industrial hay dos programas" _note="En la PC industrial hay dos programas: CncMon32 (el CNC Syntec) y PgDrillCam32, cuyo título real es 桦桦数控钻 MH2026Drill 3.0.5.0. Al que en documentos viejos se le dice &quot;HHcnc&quot; es este MH2026."/>
+      <outline text="Idioma" _note="Idioma: botones Inglés / Chino / Español en &quot;Personalización automática&quot;. La traducción al español es engañosa (ver §4)."/>
+      <outline text="Los cinco botones de arriba" _note="Los cinco botones de arriba (Manual / Automático / Parámetro / Configuración / Mantenimiento) son menús, no modos. El rojo permanente de &quot;Mantenimiento&quot; es el aviso de mantenimiento vencido."/>
+      <outline text="Login" _note="Login: abajo a la derecha dice &quot;El usuario no ha iniciado sesión&quot;. Clave 520 (confirmada); usuario probable Admin (sin confirmar). No hace falta loguearse para mecanizar."/>
+      <outline text="⚠️ El reloj de la PC está adelantado ~13 h" _note="⚠️ El reloj de la PC está adelantado ~13 h: los horarios de &quot;Alertas históricas&quot; no sirven para saber en qué orden pasaron las cosas."/>
+    </outline>
+    <outline text="2. Encendido">
+      <outline text="Equipo y vacío" _note="Equipo y vacío → COMPUTER START → esperar que la PC arranque del todo."/>
+      <outline text="POWER" _note="POWER → esperar ~1 minuto."/>
+      <outline text="Abrir CncMon32" _note="Abrir CncMon32 → estado &quot;ready&quot;, sin alarma titilando → minimizar."/>
+      <outline text="Abrir MH2026" _note="Abrir MH2026 (PgDrillCam32)."/>
+    </outline>
+    <outline text="3. Cargar un programa y mecanizar">
+      <outline text="&quot;Tipos completados&quot;" _note="&quot;Tipos completados&quot; → ícono de carpeta → &quot;Cargar archivo&quot;."/>
+      <outline text="Formato = KDTXml" _note="Formato = KDTXml (nuestra carpeta XML3/). ⚠️ El desplegable arranca en &quot;Nueva generaciónXml&quot; y con ese no lista nada y no da error. Hay que cambiarlo cada vez. Alternativa válida: Haomai MPR (carpeta MPR/). No existe .ban: la carpeta BAN/ no sirve para esta máquina."/>
+      <outline text="Doble clic en la fila" _note="Doble clic en la fila → dibuja la pieza y llena la tabla de operaciones."/>
+      <outline text="Mirar el cartel de rotación y la flecha" _note="Mirar el cartel de rotación y la flecha (CCW Rotate 270°, 90°…): dicen cómo cargar la placa. Cada pieza trae la suya — no cargar de memoria. Las coordenadas de la tabla ya vienen rotadas."/>
+      <outline text="Leer la tabla fila por fila" _note="Leer la tabla fila por fila (cara, coordenada, profundidad, diámetro) contra el plano. &gt; Regla de oro: que no haya error NO significa que esté bien."/>
+      <outline text="Si hay filas en rojo, la columna &quot;Motivo no procesado&quot;…" _note="Si hay filas en rojo, la columna &quot;Motivo no procesado&quot; dice por qué. Se puede destildar &quot;Habilitar&quot; en las que no se quieran hacer."/>
+      <outline text="Generar" _note="Generar → la cola pasa a &quot;Procesamiento asignado&quot; (azul). La segunda columna &quot;Herramienta&quot; es la que asigna el post y no cambia hasta apretar Generar."/>
+      <outline text="Botón verde, 1ª vez" _note="Botón verde, 1ª vez: las pinzas vienen al frente y la máquina espera la pieza. Apoyar la placa contra el tope, del lado de las pinzas."/>
+      <outline text="Botón verde, 2ª vez" _note="Botón verde, 2ª vez: las pinzas cierran y mecaniza."/>
+      <outline text="Trampas conocidas"/>
+      <outline text="El .scx guarda las ediciones" _note="El .scx guarda las ediciones: si se editó una operación, re-importar el mismo XML devuelve la versión editada. Para volver al original, borrar primero la fila de &quot;Tipos completados&quot;. (Así salieron una vez dos agujeros pasantes de Ø20 en una puerta, con la tabla toda en verde.)"/>
+      <outline text="&quot;Escanear código&quot;" _note="&quot;Escanear código&quot; define qué pieza sale; si queda el código viejo, sale la pieza vieja. La cola procesa en orden: borrar con &quot;Eliminación&quot; lo que no se quiera."/>
+      <outline text="Probar en un recorte más chico" _note="Probar en un recorte más chico: destildar las operaciones cuyas coordenadas caen fuera."/>
+      <outline text="&quot;Bloque individual&quot;" _note="&quot;Bloque individual&quot; en rojo arriba = modo paso a paso."/>
+      <outline text="Los marcadores grises y el círculo rosa/rojo fuera del…" _note="Los marcadores grises y el círculo rosa/rojo fuera del contorno del dibujo no son mecanizados (probablemente pinzas y esquina de referencia)."/>
+      <outline text="La puerta no tiene orientación equivocada posible" _note="La puerta no tiene orientación equivocada posible: girada 180° pasa a ser la otra puerta."/>
+    </outline>
+    <outline text="4. Botonera &quot;Personalización automática&quot; — qué es cada botón de verdad">
+      <outline text="&quot;Descarg&quot;" _note="En pantalla (español): &quot;Descarg&quot;
+Chino: 前出料
+Qué hace: salida hacia ADELANTE — la pieza vuelve al operador. Usar éste."/>
+      <outline text="&quot;Después&quot;" _note="En pantalla (español): &quot;Después&quot;
+Chino: 后出料
+Qué hace: salida hacia atrás"/>
+      <outline text="&quot;todo despejado&quot;" _note="En pantalla (español): &quot;todo despejado&quot;
+Chino: 解除板宽板长警报
+Qué hace: borra la alarma de medida de placa (MLC 148)"/>
+      <outline text="&quot;Detección de longitud&quot; / &quot;de ancho&quot;" _note="En pantalla (español): &quot;Detección de longitud&quot; / &quot;de ancho&quot;
+Chino: 板长检测 / 板宽检测
+Qué hace: verificación de medida (mejor no apagarlas; usar &quot;todo despejado&quot;)"/>
+      <outline text="&quot;Encender el ventilador&quot;" _note="En pantalla (español): &quot;Encender el ventilador&quot;
+Chino: 曲用风机
+Qué hace: ventilador"/>
+      <outline text="&quot;Apantallamiento lateral&quot;" _note="En pantalla (español): &quot;Apantallamiento lateral&quot;
+Chino: 屏幕演示
+Qué hace: demo en pantalla"/>
+    </outline>
+    <outline text="5. Herramientas">
+      <outline text="5.1 La tabla de herramientas y cómo se edita">
+        <outline text="Parámetro" _note="Parámetro → &quot;Configuración de paquete de…&quot; → &quot;Herramientas de corte generales&quot;. A la izquierda, el diagrama &quot;bolsa de taladro 1 / 2&quot; con la disposición física."/>
+        <outline text="Para editar" _note="Para editar: cliquear el ícono de la herramienta en el diagrama → clave 520 → editar en &quot;Configuraciones de uso común&quot; → &quot;almacenar herramientas&quot;. La celda de la tabla es de sólo lectura. Después de cualquier cambio, volver a Generar (el código se arma con el valor viejo)."/>
+        <outline text="La tabla no tiene columna de giro" _note="La tabla no tiene columna de giro. El giro de una mecha se lee por el color: naranja = izquierda · negro = derecha."/>
+      </outline>
+      <outline text="5.2 Paquete de taladros de arriba (cara frente, Z positivo)">
+        <outline text="Grilla 3 × 3, paso 32 mm, las nueve posiciones…" _note="Grilla 3 × 3, paso 32 mm, las nueve posiciones ocupadas:"/>
+        <outline text="1" _note="Pos.: 1
+Ø: 10
+X: 0
+Y: 0"/>
+        <outline text="2" _note="Pos.: 2
+Ø: 20
+X: −32
+Y: 0"/>
+        <outline text="3" _note="Pos.: 3
+Ø: 5
+X: −64
+Y: 0"/>
+        <outline text="4" _note="Pos.: 4
+Ø: 8
+X: 0
+Y: −32"/>
+        <outline text="5" _note="Pos.: 5
+Ø: 15
+X: −32
+Y: −32"/>
+        <outline text="6" _note="Pos.: 6
+Ø: 12
+X: −64
+Y: −32"/>
+        <outline text="7" _note="Pos.: 7
+Ø: 10
+X: 0
+Y: −64"/>
+        <outline text="8" _note="Pos.: 8
+Ø: 8
+X: −32
+Y: −64"/>
+        <outline text="9" _note="Pos.: 9
+Ø: 10
+X: −64
+Y: −64"/>
+        <outline text="El paquete de abajo" _note="El paquete de abajo (cara dorso, Z negativo) son las filas 51 en adelante. Horizontales: Ø8. ⚠️ Filas 15–27 de la tabla nunca se capturaron."/>
+      </outline>
+      <outline text="5.3 Husillo de fresado y revista de conos">
+        <outline text="Revista lineal de conos, puestos rotulados 1号…8号" _note="Revista lineal de conos, puestos rotulados 1号…8号. T18n = puesto n. Pinza ER25."/>
+        <outline text="184" _note="T: 184 (puesto 4)
+Qué hay: Mecha FUL Ø35 × 70 R (MBD3570, widia, mango Ø10), salida 46
+Tabla (Ø / ancho / Z): 34,8 / 34,8 / Z 27 · avances 5000/500/250
+Uso: cazoletas — fija para esto"/>
+        <outline text="187" _note="T: 187 (puesto 7)
+Qué hay: Ø6 de ranurar
+Tabla (Ø / ancho / Z): 6 / 6
+Uso: ranuras de fondo cara frente. ⚠️ revisar si es fresa o mecha (§10)"/>
+        <outline text="11" _note="T: 11
+Qué hay: Ø10
+Tabla (Ø / ancho / Z): 10 / 10
+Uso: ranuras de cara dorso (mínimo de esa cara: 10)"/>
+        <outline text="183" _note="T: 183
+Qué hay: disco 62211-4T Ø45 × 3
+Tabla (Ø / ancho / Z): 43,9 / 3
+Uso: ranura de 3 de costado; no se hunde"/>
+        <outline text="185" _note="T: 185 (puesto 5)
+Qué hay: Ø3,2
+Tabla (Ø / ancho / Z): 3,2
+Uso: —"/>
+        <outline text="186" _note="T: 186 (puesto 6)
+Qué hay: tabla dice &quot;sin cargar&quot; (Ø24); se vio un cono montado
+Tabla (Ø / ancho / Z): —
+Uso: revisar"/>
+        <outline text="188" _note="T: 188 (puesto 8)
+Qué hay: Ø10, dibujada como horizontal
+Tabla (Ø / ancho / Z): —
+Uso: no se puede hundir en la cara"/>
+        <outline text="181 / 182" _note="T: 181 / 182
+Qué hay: sierra lateral Ø100 / Lamello
+Tabla (Ø / ancho / Z): —
+Uso: —"/>
+        <outline text="190" _note="T: 190
+Qué hay: Ø0 — Huahua la llamó &quot;同动刀&quot;
+Tabla (Ø / ancho / Z): —
+Uso: no tocar hasta saber qué es"/>
+        <outline text="Por qué la T184 está en 34,8 y no en 35" _note="Por qué la T184 está en 34,8 y no en 35: MH2026 trata a la T184 como fresa y planifica la cazoleta como fresado circular. Con 35/35 el radio del círculo da 0 y tira ArgumentOutOfRangeException. Con 34,8 el círculo es de 0,1 mm: baja derecho."/>
+        <outline text="⚠️ La &quot;fresa espiral Ø20x70R&quot; que estaba antes en la…" _note="⚠️ La &quot;fresa espiral Ø20x70R&quot; que estaba antes en la T184 es una mecha (punta de centrado + espuelas), no corta de costado. No volver a usarla para fresar: sobrecarga el servo. Si algún día hace falta fresar de verdad, comprar una fresa espiral de punta plana."/>
+      </outline>
+      <outline text="5.4 Qué herramienta hace cada operación de nuestros archivos">
+        <outline text="Vertical Ø5" _note="Operación: Vertical Ø5
+Herramienta: T162
+Nota: también los tornillos de bisagra: Ø5 para siempre"/>
+        <outline text="Vertical Ø6" _note="Operación: Vertical Ø6
+Herramienta: —
+Nota: no existe: el software crashea (ArgumentOutOfRangeException). Pasar a Ø5 (etapa2/ajustarmaquina.py --o6-a-o5)"/>
+        <outline text="Vertical Ø3" _note="Operación: Vertical Ø3 (corredera)
+Herramienta: —
+Nota: no existe en la máquina; se hace a mano"/>
+        <outline text="Vertical Ø10" _note="Operación: Vertical Ø10
+Herramienta: T56 / T158"/>
+        <outline text="Vertical Ø15" _note="Operación: Vertical Ø15
+Herramienta: paquete"/>
+        <outline text="Cazoleta Ø35" _note="Operación: Cazoleta Ø35
+Herramienta: T184
+Nota: variador en 100 Hz"/>
+        <outline text="Horizontal Ø8" _note="Operación: Horizontal Ø8
+Herramienta: paquete horizontal"/>
+        <outline text="Ranura 6 cara frente" _note="Operación: Ranura 6 cara frente
+Herramienta: T187
+Nota: variador en 300 Hz"/>
+        <outline text="Ranura cara dorso" _note="Operación: Ranura cara dorso
+Herramienta: T11
+Nota: ancho mínimo 10 (no hay herramienta más chica para esa cara)"/>
+        <outline text="Ranura de canto" _note="Operación: Ranura de canto
+Herramienta: —
+Nota: el formato no está resuelto (¿&quot;SlotH&quot;?)"/>
+      </outline>
+      <outline text="5.5 Variador del husillo (Delta MS300) — ⚠️ uno solo para todas las fresas">
+        <outline text="Está en el gabinete eléctrico" _note="Está en el gabinete eléctrico. Se cambia con flecha ▲ + ENTER, con el husillo parado."/>
+        <outline text="Cazoletas (T184, Ø35)" _note="Para: Cazoletas (T184, Ø35)
+Frecuencia: 100 Hz
+rpm: ≈ 6000"/>
+        <outline text="Ranuras (T187, T11)" _note="Para: Ranuras (T187, T11)
+Frecuencia: 300 Hz
+rpm: ≈ 18000"/>
+        <outline text="Hoy quedó en 100 Hz." _note="Hoy quedó en 100 Hz. Antes de ranurar, subirlo a 300; antes de hacer cazoletas, bajarlo a 100. Desde la PC todavía no se puede: la tabla &quot;Convertidor de frecuencia&quot; (Parámetro → Config. de paquete) existe pero está vacía; falta que Huahua diga cómo se configura con el MS300."/>
+      </outline>
+      <outline text="5.6 Calibración de profundidad (desplazamiento Z)">
+        <outline text="Se calibra con el desplazamiento Z de cada herramienta…" _note="Se calibra con el desplazamiento Z de cada herramienta en la tabla. No hay pantalla de medición de herramienta (confirmado por Huahua)."/>
+        <outline text="⚠️ El signo es al revés de lo que dice el manual (11.3)" _note="⚠️ El signo es al revés de lo que dice el manual (11.3): MENOS valor = MÁS profundo."/>
+        <outline text="Acercarse siempre desde arriba" _note="Acercarse siempre desde arriba (Z alto = poco profundo). Errarle para poco profundo no rompe nada; para profundo clava la fresa (con Z = −11,3 atravesó 36 mm y hubo que usar el paro de emergencia)."/>
+        <outline text="Fórmula" _note="Fórmula: Z nuevo = Z actual − (profundidad pedida − profundidad medida)."/>
+        <outline text="Prueba que sirve" _note="Prueba que sirve: tres cazoletas de profundidades distintas en la misma corrida (p. ej. 4 / 8 / 12), lejos de las pinzas. Si salen separadas por la diferencia correcta, el programa manda y sólo hay un offset. Si se espera que atraviese, usar dos placas y declarar 36."/>
+        <outline text="Pista de que el Z está mal" _note="Pista de que el Z está mal: marca circular de 85–90 mm en la placa (el frente del husillo apoyando) y canaletas entre agujeros (viaja enterrado al trasladarse)."/>
+      </outline>
+      <outline text="5.7 Cambiar la herramienta de un cono">
+        <outline text="Manual" _note="Manual → 612NS → &quot;Modo de cambio de herramienta&quot; en verde (si no, el botón no suelta)."/>
+        <outline text="Sosteniendo el cono, botón verde físico del cabezal" _note="Sosteniendo el cono, botón verde físico del cabezal (al lado del husillo, ~1 s) → suelta."/>
+        <outline text="Cambiar la herramienta en la pinza" _note="Cambiar la herramienta en la pinza. Salida 46 mm desde la cara de la tuerca hasta la punta. Regla de Huahua: con la placa prensora abajo, la punta no tiene que pasar el borde de la placa."/>
+        <outline text="Volver a poner el cono (chavetas calzadas)" _note="Volver a poner el cono (chavetas calzadas) → botón verde → lo chupa."/>
+        <outline text="Apagar el modo de cambio en MH2026 Y en CncMon32" _note="Apagar el modo de cambio en MH2026 Y en CncMon32 (&quot;Cambio de cuchillo&quot;) — es un interruptor: se aprieta de nuevo para salir. Si queda prendido en uno: MLC 348."/>
+        <outline text="Tabla de esa herramienta (diámetro, ancho, Z)" _note="Tabla de esa herramienta (diámetro, ancho, Z) → &quot;almacenar herramientas&quot; → Generar de nuevo."/>
+        <outline text="Si el husillo queda vacío pero CncMon32 muestra una…" _note="Si el husillo queda vacío pero CncMon32 muestra una herramienta (p. ej. T 187): no se puede poner en T0 por software. Montar a mano el cono de esa herramienta con el botón verde. Apagar y prender no lo arregla."/>
+      </outline>
+      <outline text="5.8 Mechas del paquete">
+        <outline text="Al cambiar una" _note="Al cambiar una: prisionero bien trabado, mecha no gastada, corregir el diámetro en la tabla."/>
+        <outline text="Prohibido poner una mecha de más de Ø10 en la posición…" _note="Prohibido poner una mecha de más de Ø10 en la posición 1."/>
+        <outline text="Todas las puntas en el mismo plano ±1 mm" _note="Todas las puntas en el mismo plano ±1 mm: Manual → bajar todos los verticales a la vez → comprobar con calibre de profundidad o regla → la que no, aflojar prisionero y correrla. Hacerlo cada vez que se cambie una mecha."/>
+        <outline text="Velocidades del manual" _note="Velocidades del manual: Ø5/6/8 → 4500 · Ø10/12 → hasta 4000 · Ø15 → hasta 2200 · Ø20 → hasta 1200 rpm."/>
+      </outline>
+    </outline>
+    <outline text="6. Alarmas y mensajes">
+      <outline text="Dónde se lee la causa" _note="Dónde se lee la causa: CncMon32 → botón alarma → &quot;Alertas existentes&quot;. El cartel de MH2026 es la consecuencia; el CNC muestra la causa, y se ve una alarma por vez."/>
+      <outline text="coordinate 71" _note="Alarma / mensaje: coordinate 71 — &quot;no se especifica el nombre principal del programa&quot;
+Qué es: se apretó Iniciar sin las pinzas en posición de carga
+Qué hacer: verde una vez (pinzas al frente), cargar, verde otra vez"/>
+      <outline text="MLC 148" _note="Alarma / mensaje: MLC 148 — ancho/largo de placa demasiado pequeño (r49,3)
+Qué es: la placa medida no coincide con la del programa
+Qué hacer: &quot;todo despejado&quot; en Personalización automática (y revisar por qué no coincide)"/>
+      <outline text="MLC 349" _note="Alarma / mensaje: MLC 349 — prohibido mecanizar con el husillo no sujeto (R46.18)
+Qué es: husillo vacío con una herramienta registrada
+Qué hacer: montar a mano el cono registrado (§5.7)"/>
+      <outline text="MLC 348" _note="Alarma / mensaje: MLC 348 — modo de cambio de herramienta (R46.17)
+Qué es: quedó activo el modo de cambio
+Qué hacer: apagarlo en MH2026 y en CncMon32"/>
+      <outline text="MLC 142" _note="Alarma / mensaje: MLC 142 — señal de sujeción del husillo anormal (r48,13)
+Qué es: el puesto de la revista que pide está vacío
+Qué hacer: cargar un cono en ese puesto"/>
+      <outline text="MLC 129" _note="Alarma / mensaje: MLC 129 — un cilindro no retornó
+Qué es: la placa prensora / campana quedó abajo
+Qué hacer: subirla; el reposo es arriba"/>
+      <outline text="DrvM3SYNTEC 202h / 203h / 206h" _note="Alarma / mensaje: DrvM3SYNTEC 202h / 203h / 206h (sobrecarga, par, over torque)
+Qué es: herramienta trabajando de costado sin poder (una mecha usada como fresa, o pasada muy profunda)
+Qué hacer: parar; revisar herramienta y profundidad"/>
+      <outline text="System.ArgumentOutOfRangeException" _note="Alarma / mensaje: System.ArgumentOutOfRangeException (índice fuera del intervalo)
+Qué es: agujero sin herramienta (Ø6), o T184 con diámetro = agujero (35/35)
+Qué hacer: Ø6 → Ø5; T184 en 34,8"/>
+      <outline text="&quot;Diámetro de herramienta demasiado grande&quot;" _note="Alarma / mensaje: &quot;Diámetro de herramienta demasiado grande&quot;
+Qué es: no hay herramienta tan chica para esa cara (ranura de 9 en dorso)
+Qué hacer: ranura de 10"/>
+      <outline text="&quot;No se puede usar la herramienta especificada&quot;" _note="Alarma / mensaje: &quot;No se puede usar la herramienta especificada&quot;
+Qué es: se forzó una herramienta que no sirve (p. ej. T188 horizontal para cazoleta)
+Qué hacer: dejar que asigne el post"/>
+      <outline text="&quot;Por favor seleccione la herramienta de edición&quot;" _note="Alarma / mensaje: &quot;Por favor seleccione la herramienta de edición&quot;
+Qué es: se quiso editar la tabla sin cliquear el diagrama
+Qué hacer: cliquear el ícono primero"/>
+      <outline text="&quot;Error en conversión&quot;" _note="Alarma / mensaje: &quot;Error en conversión&quot; (cola en rojo)
+Qué es: consecuencia de una fila con error
+Qué hacer: mirar &quot;Motivo no procesado&quot;"/>
+    </outline>
+    <outline text="7. Mantenimiento">
+      <outline text="Mantenimiento" _note="Mantenimiento → &quot;Mantenimiento de equipos&quot; → pestaña Drill: 12 tareas vencidas desde el último registro, 2026-01-04."/>
+      <outline text="La primera (水平油嘴, picos de lubricación horizontales)" _note="La primera (水平油嘴, picos de lubricación horizontales): cada 120–150 h del paquete de mechas, aceite ISOFLEX TOPAS L 32 N."/>
+      <outline text="Para marcarlas como hechas" _note="Para marcarlas como hechas: ingresar el permiso (probar 520) → &quot;Actualizar&quot; en cada tarea. Hacer la lubricación de verdad antes de marcarla."/>
+    </outline>
+    <outline text="8. Reglas de oro">
+      <outline text="Que no haya error no significa que esté bien" _note="Que no haya error no significa que esté bien: leer la tabla fila por fila."/>
+      <outline text="Z siempre desde arriba." _note="Z siempre desde arriba. Menos valor = más profundo."/>
+      <outline text="Después de tocar la tabla, Generar de nuevo."/>
+      <outline text="Variador" _note="Variador: 100 Hz para cazoletas, 300 Hz para ranurar. Mirar en qué quedó antes de arrancar."/>
+      <outline text="La Ø20x70R es una mecha" _note="La Ø20x70R es una mecha: nunca para fresar."/>
+      <outline text="Formato KDTXml en cada carga."/>
+    </outline>
+    <outline text="9. Contacto técnico">
+      <outline text="Grupo de WeChat con Huahua" _note="Grupo de WeChat con Huahua: Srta. Tan (谭小姐) comercial; técnicos 周涛 Zhou Tao (139 2595 7559, Changsheng Machinery) y 唐玮民 Tang Weimin. China está +11 h: contestan entre las 22:00 y las 03:00 hora argentina. Lo ya preguntado y respondido: BITACORA.md (24/09) y CONTEXTO.md §26."/>
+    </outline>
+    <outline text="10. Pendiente en esta máquina">
+      <outline text="1" _note="#: 1
+Qué: Velocidad por herramienta desde la PC (&quot;Convertidor de frecuencia&quot; con el MS300), para no tocar el variador a mano
+Cómo / a quién: Huahua"/>
+      <outline text="2" _note="#: 2
+Qué: T187: ¿fresa o mecha? Sobrecargó en la ranura de 8 del curvado a 300 Hz. Si es mecha, cambiarla por una fresa espiral Ø6
+Cómo / a quién: mirarla en la máquina"/>
+      <outline text="3" _note="#: 3
+Qué: La placa prensora / campana no baja sola al fresar (la viruta no se aspira); bajada a mano → MLC 129
+Cómo / a quién: Huahua"/>
+      <outline text="4" _note="#: 4
+Qué: Qué es la T190 (&quot;同动刀&quot;)
+Cómo / a quién: Huahua"/>
+      <outline text="5" _note="#: 5
+Qué: Usuario del login
+Cómo / a quién: Huahua"/>
+      <outline text="6" _note="#: 6
+Qué: KDTXml por defecto: contestaron &quot;提供操作视频&quot; — ¿mandan ellos un video o lo piden?
+Cómo / a quién: Huahua"/>
+      <outline text="7" _note="#: 7
+Qué: Formato de la ranura de canto y si esta máquina la hace
+Cómo / a quién: Huahua"/>
+      <outline text="8" _note="#: 8
+Qué: ¿Entra el horizontal Ø8 por la escotadura del uñero (50 × 70)?
+Cómo / a quién: primera pieza: lateral de la Cajonera"/>
+      <outline text="9" _note="#: 9
+Qué: Espejado: nunca se midió formalmente con calibre (techo: la ranura tiene que dar a 372,5 desde un borde de 398)
+Cómo / a quién: calibre"/>
+      <outline text="10" _note="#: 10
+Qué: Capturar las filas 15–27 de la tabla de herramientas
+Cómo / a quién: captura"/>
+      <outline text="11" _note="#: 11
+Qué: Ver y documentar el video de 0:55 de instalación manual de herramienta que mandó Huahua
+Cómo / a quién: WeChat"/>
+      <outline text="12" _note="#: 12
+Qué: Hacer la lubricación vencida y marcarla
+Cómo / a quién: en la máquina"/>
+      <outline text="13" _note="#: 13
+Qué: Avisarles que el manual 11.3 tiene el signo del Z al revés (avisado dos veces, sin acuse)
+Cómo / a quién: Huahua"/>
+      <outline text="14" _note="#: 14
+Qué: Poner en hora el reloj de la PC industrial
+Cómo / a quién: en la máquina"/>
+    </outline>
+  </outline>
+</body>
+</opml>
