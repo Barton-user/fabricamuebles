@@ -138,7 +138,6 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 8 | COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` |
 | 9 | Router SKG-912MZ: cargar T1 Ø6, medir mesa y herramientas | `docs/CURVADO.md` |
 | 10 | Curvado: probetas por material, primera pieza real, cantos en zona curva | `docs/CURVADO.md` |
-| 11 | **`git push` pendiente** (12 commits del 01/10 sin subir a GitHub): hacerlo desde la Mac → `git push origin main`. La VM de Claude no tiene credenciales de GitHub | — |
 
 ---
 

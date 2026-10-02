@@ -101,4 +101,3 @@ Llevar `PENDRIVE/4_ALACENA_SPAR/lista_corte.xlsx` (ya trae la columna nueva **`�
 - [ ] El backup de `D:\DiskC-…` en el pendrive.
 - [ ] Fotos: variadores, revista (puestos 6 y 7), T187, tabla filas 15–27, pantalla de
       "Coincidencia" de AutoCUT (antes y después), la cazoleta medida, la bisagra con el calibre.
-- [ ] **Desde la Mac: `git push origin main`** (hay commits del 01/10 sin subir).
