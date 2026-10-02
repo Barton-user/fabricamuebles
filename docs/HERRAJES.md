@@ -225,9 +225,11 @@ puertas de esta alacena ya tienen los Ø5 viejos a 14,5; quedan esos agujeros de
 > lugar). ✅ 2 recetas (leen el json; `recetas/salida/` regenerado: sólo cambiaron los tornillos)
 > · ✅ 3 `PonerHerrajes` (lee el json; `ArmarDesdeRender` y `ArmarReceta` usan su forma 3D)
 > · ✅ 5 `etapa2/ajustar_maquina.py --bisagra` corrige lo que venga de GuiGui (probado con la Spar:
-> da lo mismo que las puertas corregidas a mano). **Falta**: medir con calibre (si no es 6, cambiar
-> sólo el json), volver a armar y exportar COCINA-01 y ALACENA SPAR en Fusion (`ArmarReceta`),
-> y los puntos 1, 4, 6 y 7.
+> da lo mismo que las puertas corregidas a mano). ✅ COCINA-01 y ALACENA SPAR re-armadas en Fusion y
+> re-exportadas (01/10, noche): receta vs sólido **0 diferencias** (95/95 y 11/11), sin ningún Ø6;
+> guardadas como versión nueva; pendrive de la Spar actualizado. (`COCINA-01 movimiento` sigue con la
+> bisagra vieja dibujada: es sólo para la animación.) **Falta**: medir con calibre (si no es 6,
+> cambiar sólo el json y repetir), y los puntos 1, 4, 6 y 7.
 
 1. **Biblioteca 3D de Fusion** (`herrajes/biblioteca/`): revisar los STEP contra las piezas
    **reales** (no son exactamente las de Häfele). En especial `bisagra_cazoleta_O35.step`: el ala

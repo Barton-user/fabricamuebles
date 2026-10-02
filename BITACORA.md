@@ -1682,3 +1682,13 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   centro de la pieza sin desplazar → en la explotada algunas placas salían de canto.
 - Propuesta la skill `cerrar-sesion-fabrica`.
 
+## 01/10/2026 (noche, con Pato en la Mac) — Push, instrucciones del proyecto, skill y re-export con 48/6
+
+- `git push` hecho desde la Mac (d3b9211..53b9748). Instrucciones del proyecto cargadas en Cowork.
+  Skill `cerrar-sesion-fabrica` guardada.
+- Fusion por MCP: `ALACENA SPAR` y `COCINA-01` vaciadas y re-armadas con `ArmarReceta.armar(nuevo=False)`
+  desde las recetas nuevas (bisagra 48/6, Ø5), exportadas con `ArmarReceta.exportar()` y generadas con
+  `etapa2/`. Receta vs sólido: 11/11 y 95/95 sin diferencias. En COCINA-01 quedan Ø3 16, Ø5 288, Ø10 80,
+  Ø15 72, Ø35 27 (ningún Ø6). Puerta der de la Spar: cazoleta x 22,5 / tornillos x 28,5, ±24, Ø5.
+  Guardadas como versión nueva. `PENDRIVE/4_ALACENA_SPAR` actualizado (XML3, MPR, lista, hojas).
+

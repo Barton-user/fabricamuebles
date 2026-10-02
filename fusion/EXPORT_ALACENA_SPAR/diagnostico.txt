@@ -1,4 +1,4 @@
-Exportar Piezas — Untitled
+Exportar Piezas — ALACENA SPAR
 
 === Techo 9992610010016 / 9992610010016 ===
   agujero vertical  O5.0 prof 3.0  cara A  en (348.0, 498.5)
@@ -145,11 +145,11 @@ Exportar Piezas — Untitled
 === Fondo 9992610010085 / 9992610010085 ===
 
 === Puerta der 9992610010092 / 9992610010092 ===
-  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 314.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 266.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 314.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 266.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 290.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 124.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
@@ -159,11 +159,11 @@ Exportar Piezas — Untitled
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Puerta izq 9992610010108 / 9992610010108 ===
-  agujero vertical  O5.0 prof 3.0  cara A  en (260.0, 314.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (260.0, 266.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 314.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 266.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 290.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (260.0, 124.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (260.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 100.0)
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
@@ -173,11 +173,11 @@ Exportar Piezas — Untitled
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Puerta rebatible 9992610010115 / 9992610010115 ===
-  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 521.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 473.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 521.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 473.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 497.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 124.0)
-  agujero vertical  O5.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura

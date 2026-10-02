@@ -1,7 +1,7 @@
 {
   "version": 1,
   "origen": "fusion",
-  "documento": "Untitled",
+  "documento": "ALACENA SPAR",
   "orden": "PRUEBA1-SPAR",
   "cliente": "PRUEBA",
   "direccion": "",
@@ -690,14 +690,14 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 314.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 266.0,
           "diametro": 5.0,
           "profundidad": 3.0,
@@ -711,14 +711,14 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 124.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 76.0,
           "diametro": 5.0,
           "profundidad": 3.0,
@@ -754,14 +754,14 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 314.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 266.0,
           "diametro": 5.0,
           "profundidad": 3.0,
@@ -775,14 +775,14 @@
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 124.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 76.0,
           "diametro": 5.0,
           "profundidad": 3.0,
@@ -818,14 +818,14 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 521.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 473.0,
           "diametro": 5.0,
           "profundidad": 3.0,
@@ -839,14 +839,14 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 124.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 76.0,
           "diametro": 5.0,
           "profundidad": 3.0,

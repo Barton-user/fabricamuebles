@@ -4,10 +4,10 @@
         <Banding bandingBack="0" bandingRight="1" bandingFront="0" bandingLeft="0"/>
     </Bandings>
     <Holes>
-        <Hole point="(528.00,470.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(560.00,470.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(528.00,101.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(560.00,101.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(528.00,470.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(560.00,470.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(528.00,101.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(560.00,101.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(9.00,710.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(571.00,710.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(50.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>

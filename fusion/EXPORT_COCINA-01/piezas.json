@@ -612,28 +612,28 @@
         {
           "x": 52.0,
           "y": 640.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 640.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -744,16 +744,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 245.67,
+          "x": 254.17,
           "y": 681.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 245.67,
+          "x": 254.17,
           "y": 633.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -765,16 +765,16 @@
           "cara": "A"
         },
         {
-          "x": 245.67,
+          "x": 254.17,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 245.67,
+          "x": 254.17,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -857,28 +857,28 @@
         {
           "x": 528.0,
           "y": 470.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 560.0,
           "y": 470.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 528.0,
           "y": 101.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 560.0,
           "y": 101.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -945,28 +945,28 @@
         {
           "x": 52.0,
           "y": 470.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 470.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 101.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 101.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -1272,16 +1272,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 493.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 445.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -1293,16 +1293,16 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -1336,16 +1336,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 493.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 445.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -1357,16 +1357,16 @@
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -3788,42 +3788,42 @@
         {
           "x": 52.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -3934,16 +3934,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 596.4,
+          "x": 604.9,
           "y": 901.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 596.4,
+          "x": 604.9,
           "y": 853.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -3955,16 +3955,16 @@
           "cara": "A"
         },
         {
-          "x": 596.4,
+          "x": 604.9,
           "y": 512.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 596.4,
+          "x": 604.9,
           "y": 464.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -3976,16 +3976,16 @@
           "cara": "A"
         },
         {
-          "x": 596.4,
+          "x": 604.9,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 596.4,
+          "x": 604.9,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -4451,42 +4451,42 @@
         {
           "x": 280.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 280.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 280.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -4726,42 +4726,42 @@
         {
           "x": 52.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -4933,16 +4933,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 901.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 853.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -4954,16 +4954,16 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 512.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 464.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -4975,16 +4975,16 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5018,16 +5018,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 901.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 853.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5039,16 +5039,16 @@
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 512.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 464.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5060,16 +5060,16 @@
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 260.0,
+          "x": 268.5,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5430,42 +5430,42 @@
         {
           "x": 280.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 280.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 280.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5705,42 +5705,42 @@
         {
           "x": 52.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5912,16 +5912,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 901.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 853.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5933,16 +5933,16 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 512.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 464.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5954,16 +5954,16 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -5997,16 +5997,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 360.0,
+          "x": 368.5,
           "y": 901.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 360.0,
+          "x": 368.5,
           "y": 853.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6018,16 +6018,16 @@
           "cara": "A"
         },
         {
-          "x": 360.0,
+          "x": 368.5,
           "y": 512.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 360.0,
+          "x": 368.5,
           "y": 464.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6039,16 +6039,16 @@
           "cara": "A"
         },
         {
-          "x": 360.0,
+          "x": 368.5,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 360.0,
+          "x": 368.5,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6409,42 +6409,42 @@
         {
           "x": 280.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 280.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 280.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 312.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6684,42 +6684,42 @@
         {
           "x": 52.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 860.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 472.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 52.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 20.0,
           "y": 83.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6891,16 +6891,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 901.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 853.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6912,16 +6912,16 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 512.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 464.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6933,16 +6933,16 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
+          "x": 28.5,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6976,16 +6976,16 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 245.0,
+          "x": 253.5,
           "y": 901.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 245.0,
+          "x": 253.5,
           "y": 853.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -6997,16 +6997,16 @@
           "cara": "A"
         },
         {
-          "x": 245.0,
+          "x": 253.5,
           "y": 512.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 245.0,
+          "x": 253.5,
           "y": 464.5,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
@@ -7018,16 +7018,16 @@
           "cara": "A"
         },
         {
-          "x": 245.0,
+          "x": 253.5,
           "y": 124.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 245.0,
+          "x": 253.5,
           "y": 76.0,
-          "diametro": 6.0,
+          "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },

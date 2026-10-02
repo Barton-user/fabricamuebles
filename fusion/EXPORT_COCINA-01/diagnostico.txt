@@ -135,16 +135,16 @@ Exportar Piezas — COCINA-01
   agujero de canto  O8.0 prof 33.0  canto U  en (40.0, 724.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
   agujero de canto  O8.0 prof 33.0  canto D  en (40.0, 0.0) z=9.0
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 640.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 640.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 83.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 640.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 640.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 83.5)
   agujero vertical  O15.0 prof 13.5  cara A  en (40.0, 691.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (40.0, 33.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
@@ -159,17 +159,17 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
 === Puerta 9992609290092 / 9992609290092 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.7, 681.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.7, 633.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (254.2, 681.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (254.2, 633.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (260.2, 657.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.7, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.7, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (254.2, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (254.2, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (260.2, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Estante 1 9992609290108 / 9992609290108 ===
@@ -182,18 +182,18 @@ Exportar Piezas — COCINA-01
 
 === Lateral der 9992609290115 / 9992609290115 ===
   contorno: las dos caras difieren (417620.0 vs 440800.0 mm2); se usa la mayor
-  agujero vertical  O6.0 prof 3.0  cara A  en (528.0, 470.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (560.0, 470.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (528.0, 101.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (560.0, 101.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (528.0, 470.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (560.0, 470.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (528.0, 101.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (560.0, 101.5)
   agujero vertical  O10.0 prof 11.0  cara A  en (9.0, 710.0)
   agujero vertical  O10.0 prof 11.0  cara A  en (571.0, 710.0)
   agujero vertical  O10.0 prof 11.0  cara A  en (50.0, 9.0)
   agujero vertical  O10.0 prof 11.0  cara A  en (530.0, 9.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
   cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
   cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
@@ -202,18 +202,18 @@ Exportar Piezas — COCINA-01
 
 === Lateral izq 9992609290122 / 9992609290122 ===
   contorno: las dos caras difieren (417620.0 vs 440800.0 mm2); se usa la mayor
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 470.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 470.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 101.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 101.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 470.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 470.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 101.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 101.5)
   agujero vertical  O10.0 prof 11.0  cara A  en (571.0, 710.0)
   agujero vertical  O10.0 prof 11.0  cara A  en (9.0, 710.0)
   agujero vertical  O10.0 prof 11.0  cara A  en (50.0, 9.0)
   agujero vertical  O10.0 prof 11.0  cara A  en (530.0, 9.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
   cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
   cara plana en z=-11.00 de 10.0 x 10.0 ignorada: no parece ranura
@@ -265,31 +265,31 @@ Exportar Piezas — COCINA-01
 === Frente fijo 9992609290177 / 9992609290177 ===
 
 === Puerta der 9992609290184 / 9992609290184 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 493.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 445.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 493.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 445.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 469.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Puerta izq 9992609290191 / 9992609290191 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 493.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 445.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 493.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 445.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 469.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Lateral der 9992609290207 / 9992609290207 ===
@@ -773,20 +773,20 @@ Exportar Piezas — COCINA-01
   agujero de canto  O8.0 prof 33.0  canto U  en (40.0, 944.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
   agujero de canto  O8.0 prof 33.0  canto D  en (40.0, 0.0) z=9.0
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 83.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 83.5)
   agujero vertical  O15.0 prof 13.5  cara A  en (40.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (40.0, 33.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
@@ -801,23 +801,23 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
 === Puerta 9992609290603 / 9992609290603 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (596.4, 901.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (596.4, 853.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (604.9, 901.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (604.9, 853.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (610.9, 877.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (596.4, 512.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (596.4, 464.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (604.9, 512.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (604.9, 464.5)
   agujero vertical  O35.0 prof 13.0  cara A  en (610.9, 488.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (596.4, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (596.4, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (604.9, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (604.9, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (610.9, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Estante 1 9992609290610 / 9992609290610 ===
@@ -903,12 +903,12 @@ Exportar Piezas — COCINA-01
   agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 274.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (295.0, 242.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 242.7)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 83.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 83.5)
   agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
@@ -933,12 +933,12 @@ Exportar Piezas — COCINA-01
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
@@ -975,12 +975,12 @@ Exportar Piezas — COCINA-01
   agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 274.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (37.0, 242.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 242.7)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 83.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 83.5)
   agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
@@ -1005,12 +1005,12 @@ Exportar Piezas — COCINA-01
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
@@ -1030,43 +1030,43 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
 === Puerta der 9992609290702 / 9992609290702 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 901.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 853.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 901.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 853.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 877.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 512.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 464.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 512.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 464.5)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 488.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Puerta izq 9992609290719 / 9992609290719 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 901.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 853.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 901.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 853.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 877.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 512.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 464.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 512.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 464.5)
   agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 488.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (260.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (268.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (274.5, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Estante 1 9992609290726 / 9992609290726 ===
@@ -1130,12 +1130,12 @@ Exportar Piezas — COCINA-01
   agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 274.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (295.0, 242.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 242.7)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 83.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 83.5)
   agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
@@ -1160,12 +1160,12 @@ Exportar Piezas — COCINA-01
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
@@ -1202,12 +1202,12 @@ Exportar Piezas — COCINA-01
   agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 274.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (37.0, 242.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 242.7)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 83.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 83.5)
   agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
@@ -1232,12 +1232,12 @@ Exportar Piezas — COCINA-01
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
@@ -1257,43 +1257,43 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
 === Puerta der 9992609290801 / 9992609290801 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 901.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 853.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 901.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 853.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 877.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 512.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 464.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 512.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 464.5)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 488.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Puerta izq 9992609290818 / 9992609290818 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (360.0, 901.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (360.0, 853.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (368.5, 901.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (368.5, 853.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (374.5, 877.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (360.0, 512.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (360.0, 464.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (368.5, 512.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (368.5, 464.5)
   agujero vertical  O35.0 prof 13.0  cara A  en (374.5, 488.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (360.0, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (360.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (368.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (368.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (374.5, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Estante 1 9992609290825 / 9992609290825 ===
@@ -1357,12 +1357,12 @@ Exportar Piezas — COCINA-01
   agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 274.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (295.0, 242.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 242.7)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (280.0, 83.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (312.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (280.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (312.0, 83.5)
   agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
@@ -1387,12 +1387,12 @@ Exportar Piezas — COCINA-01
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
@@ -1429,12 +1429,12 @@ Exportar Piezas — COCINA-01
   agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 274.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (37.0, 242.7)
   agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 242.7)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 860.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 472.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (52.0, 83.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (20.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 860.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 472.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (52.0, 83.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (20.0, 83.5)
   agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 911.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
@@ -1459,12 +1459,12 @@ Exportar Piezas — COCINA-01
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
@@ -1484,43 +1484,43 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
 === Puerta der 9992609290900 / 9992609290900 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 901.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 853.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 901.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 853.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 877.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 512.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 464.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 512.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 464.5)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 488.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (37.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Puerta izq 9992609290917 / 9992609290917 ===
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.0, 901.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.0, 853.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (253.5, 901.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (253.5, 853.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (259.5, 877.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.0, 512.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.0, 464.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (253.5, 512.5)
+  agujero vertical  O5.0 prof 3.0  cara A  en (253.5, 464.5)
   agujero vertical  O35.0 prof 13.0  cara A  en (259.5, 488.5)
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.0, 124.0)
-  agujero vertical  O6.0 prof 3.0  cara A  en (245.0, 76.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (253.5, 124.0)
+  agujero vertical  O5.0 prof 3.0  cara A  en (253.5, 76.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (259.5, 100.0)
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
-  cara plana en z=-3.00 de 6.0 x 6.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Estante 1 9992609290924 / 9992609290924 ===

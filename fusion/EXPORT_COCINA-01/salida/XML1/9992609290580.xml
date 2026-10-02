@@ -4,12 +4,12 @@
         <Banding bandingBack="0" bandingRight="0" bandingFront="0" bandingLeft="1"/>
     </Bandings>
     <Holes>
-        <Hole point="(52.00,860.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(20.00,860.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(52.00,472.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(20.00,472.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(52.00,83.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(20.00,83.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(52.00,860.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(20.00,860.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(52.00,472.00,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(20.00,472.00,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(52.00,83.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(20.00,83.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(40.00,911.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(40.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(40.00,944.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,-1,0)"/>

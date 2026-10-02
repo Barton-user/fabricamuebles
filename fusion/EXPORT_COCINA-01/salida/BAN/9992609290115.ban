@@ -1,4 +1,4 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/09/29 pm 8:29:48" Source="fabrica-muebles" SourceType="BAN">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/02 am 12:27:58" Source="fabrica-muebles" SourceType="BAN">
 <Plane Width="580.00" Height="760.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,1" Name="COCINA-01_B2 Bajo pileta 600_Lateral der" Code="9992609290115">
     <Outline>
         <Point Value="0.00 0.00 0"/>
@@ -7,10 +7,10 @@
         <Point Value="0.00 760.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="528.00 470.50 0" End="528.00 470.50 -3.00"/>
-    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="560.00 470.50 0" End="560.00 470.50 -3.00"/>
-    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="528.00 101.50 0" End="528.00 101.50 -3.00"/>
-    <HoleV Name="" Diameter="6.00" IsCuted="0" Face="A" Start="560.00 101.50 0" End="560.00 101.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="528.00 470.50 0" End="528.00 470.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="560.00 470.50 0" End="560.00 470.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="528.00 101.50 0" End="528.00 101.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="560.00 101.50 0" End="560.00 101.50 -3.00"/>
     <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="9.00 710.00 0" End="9.00 710.00 -11.00"/>
     <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="571.00 710.00 0" End="571.00 710.00 -11.00"/>
     <HoleV Name="" Diameter="10.00" IsCuted="0" Face="A" Start="50.00 9.00 0" End="50.00 9.00 -11.00"/>

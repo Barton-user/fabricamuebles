@@ -24,12 +24,12 @@
         <Hole point="(264.00,274.67,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(37.00,242.67,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(264.00,242.67,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(52.00,860.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(20.00,860.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(52.00,472.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(20.00,472.00,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(52.00,83.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(20.00,83.50,18.00)" diameter="6.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(52.00,860.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(20.00,860.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(52.00,472.00,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(20.00,472.00,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(52.00,83.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(20.00,83.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(54.00,911.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(278.00,911.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(278.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
