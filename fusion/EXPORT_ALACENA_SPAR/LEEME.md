@@ -76,7 +76,7 @@ Medir la primera de cada material con cinta antes de seguir.
 6. Generar → verde dos veces.
 
 **Primera pieza: Puerta der (9992610010092).** Medir: cazoletas Ø35 a **22,5** del canto de
-bisagras, a **100 y 290** del canto de abajo; tornillos Ø5 a 37 del canto, ±24 de cada cazoleta.
+bisagras, a **100 y 290** del canto de abajo; tornillos Ø5 a 28,5 del canto (48/6), ±24 de cada cazoleta.
 Después la **tapa inferior**: confirmar que la ranura LED queda abajo a **60 del frente**
 (si sale a 60 del fondo, la cara B está espejada y hay que avisar).
 

@@ -1692,3 +1692,16 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   Ø15 72, Ø35 27 (ningún Ø6). Puerta der de la Spar: cazoleta x 22,5 / tornillos x 28,5, ±24, Ø5.
   Guardadas como versión nueva. `PENDRIVE/4_ALACENA_SPAR` actualizado (XML3, MPR, lista, hojas).
 
+
+## 05/10/2026 — Prueba de bisagra en las 2 puertas chicas de la Spar (preparada, sin resultado)
+
+- Con la Ø35 ya en la T184, Pato quiere controlar cazoleta + 2 tornillos en las puertas chicas.
+  Decidido: **2 puertas nuevas a 295 × 386,1 (corte GuiGui), sin canto**.
+- `etapa2/prueba_bisagra.py` (nuevo): arma las dos puertas desde `herrajes/medidas.json` a medida de
+  corte descontando el canto, escribe XML3 + hoja. Salida en `PENDRIVE/PRUEBA_BISAGRA/` con códigos
+  nuevos `9992610019101` (DER) / `9992610019118` (IZQ) para no chocar con ediciones viejas del `.scx`.
+  Comparado contra `XML3_PUERTAS_V2`: idénticos. Cazoleta 21,5 / tornillos 27,5 / Y 99 desde cada punta.
+- Visto al revisar: los XML3 de `4_ALACENA_SPAR` (camino Fusion) llevan la medida **terminada**
+  (297 × 390) y coordenadas desde el borde terminado, mientras la lista de corte corta 295 × 388.
+  Anotado en CONTEXTO §5.3. Corregidos los "37 del canto" que quedaban en los LEEME de la Spar y en
+  `docs/FUSION_RECETAS.md`. Hoja de taller: ítem C5 reemplazado por esta prueba (falta regenerar el PDF).

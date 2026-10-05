@@ -54,8 +54,10 @@ por fila antes de dar verde**, formato **KDTXml**.
       los dos juegos. ¿Iguales? ____
 - [ ] **4. Pieza curva R50** — `3_PIEZA_CURVA/XML3/6893155441217.xml` (lateral 350 × 500).
       ¿Hace bien el contorno? ____
-- [ ] **5. Cazoleta con la Ø35 medida y fotografiada** (para el instructivo): Ø real ____ ·
-      profundidad real ____ (pedido 13).
+- [ ] **5. Bisagra en las 2 puertas chicas** — `PENDRIVE/PRUEBA_BISAGRA/` (295 × 386,1 sin canto,
+      códigos `9992610019101` DER / `9992610019118` IZQ, variador en 100 Hz). Tabla de medidas en su
+      `LEEME.txt`: cazoleta Ø ____ · prof ____ (13) · borde→canto ____ (4,0) · centro→puntas ____ / ____ (99)
+      · Ø5 borde→canto ____ (25,0) · **¿calza la bisagra?** ____
 - [ ] **6. Horizontal Ø8 por la escotadura del uñero** (50 × 70) — lateral de la Cajonera de
       COCINA MLV, si se llega. ¿Entra el husillo? ____
 

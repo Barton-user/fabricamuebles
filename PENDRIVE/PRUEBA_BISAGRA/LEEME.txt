@@ -1,0 +1,51 @@
+PRUEBA DE BISAGRA - 2 puertas chicas de la Alacena Spar (05/10/2026)
+=====================================================================
+Que se prueba: que la cazoleta O35 (T184, mecha FUL O35x70R) y los 2 tornillos O5 (T162)
+caigan donde tienen que caer con la bisagra Grupo Euro 48/6.
+
+PIEZAS: 2 puertas PET GRIS 18 cortadas a 295 x 386,1 (medida de corte de GuiGui), SIN CANTO.
+El programa ya descuenta 1 mm de canto: queda a 22,5 / 28,5 / 100 cuando se cantee.
+
+  XML3/9992610019101.xml  Puerta DER  (bisagras en el canto x = 0)
+  XML3/9992610019118.xml  Puerta IZQ  (bisagras en el canto x = 295)
+  Son la MISMA pieza girada 180 grados: cualquiera de los dos sirve para cualquier puerta.
+  Codigos nuevos a proposito: no estan en el .scx de la maquina, no puede salir una version
+  vieja editada. Tipearlos a mano (la etiqueta de AutoCUT todavia sale mal).
+  Mismas coordenadas que 5_ALACENA_SPAR_GUIGUI/XML3_PUERTAS_V2 (comparado: identicas).
+
+ANTES
+  [ ] Variador del husillo en 100 Hz (cazoletas).
+  [ ] Formato = KDTXml. Cargar -> tipear codigo -> doble clic en la fila.
+  [ ] Leer la tabla: 4 filas O5 prof 3 -> T162 · 2 filas O35 prof 13 -> T184. Ninguna en rojo.
+  [ ] Comparar el dibujo de la pantalla con HOJA_VERIFICACION.html.
+  [ ] Cara INTERIOR de la puerta hacia ARRIBA (la cara PET buena va abajo: cuidar que no se raye).
+  [ ] Si tira MLC 148 (medida de placa): "todo despejado" y revisar la medida real de la pieza.
+  Sugerencia: si hay un recorte de melamina comun de 295 x 386, hacer ese primero.
+
+MEDIR CON CALIBRE (pieza sin canto, desde el borde crudo)
+
+  Que                                        Esperado    Medido DER   Medido IZQ
+  Cazoleta: diametro                         35,0        ______       ______
+  Cazoleta: profundidad (queda 5 de placa)   13,0        ______       ______
+  Cazoleta: borde del agujero -> canto bis.  4,0         ______       ______
+            (centro a 21,5)
+  Cazoleta de abajo: centro -> canto abajo   99,0        ______       ______
+  Cazoleta de arriba: centro -> canto arriba 99,0        ______       ______
+  Tornillo O5: borde cercano -> canto bis.   25,0        ______       ______
+            (centro a 27,5; borde lejano 30,0)
+  Entre tornillos de una bisagra: bordes     43,0 adentro / 53,0 afuera (centros 48)
+  Tornillos: profundidad                     3,0         ______       ______
+
+  Ya canteada (+1 mm): cazoleta 22,5 del canto (borde a 5,0) · tornillos 28,5 · cazoletas a 100.
+
+  Como leer el resultado:
+  - Las dos cazoletas a 99 de su extremo pero corridas igual en X  -> referencia X corrida.
+  - Una a 98 y otra a 100 (suman bien)                            -> origen Y corrido 1 mm.
+  - Todo corrido justo 1 mm                                        -> la maquina compensa el canto.
+  - Diametro de mas / borde quemado                                -> revisar 34,8/34,8, avances, 100 Hz.
+
+LA PRUEBA DE VERDAD: meter la bisagra en la cazoleta. Los dos agujeros del ala tienen que caer
+centrados sobre los O5 (centro de cazoleta -> linea de tornillos = 6, entre tornillos = 48).
+Si no caen: medir el herraje y cambiar SOLO herrajes/medidas.json, despues regenerar con
+  python3 etapa2/prueba_bisagra.py --ancho 295 --alto 386.06 --canto 1 --cazoletas 100 \
+      --codigos 9992610019101 9992610019118 -o PENDRIVE/PRUEBA_BISAGRA

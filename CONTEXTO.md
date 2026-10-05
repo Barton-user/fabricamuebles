@@ -1,6 +1,6 @@
 # FÁBRICA MUEBLES — Contexto del proyecto
 
-_Leiten Com · Pato · Última actualización: **01/10/2026**_
+_Leiten Com · Pato · Última actualización: **05/10/2026**_
 
 > **Cómo se usa este archivo.** Es lo único que hay que leer al empezar una conversación.
 > Dice **qué es cierto hoy**. El detalle de cada tema está en `docs/` (mapa en §7) y la historia
@@ -129,8 +129,8 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | # | Qué | Dónde está el detalle |
 |---|---|---|
 | 1 | **Corregir el mapeo de AutoCUT** (cantos y código de barras real) y volver a cortar las 7 piezas del gris. Nuestro lado ya está: la lista trae la columna `条码` con el código limpio; falta mapearla en la PC de la sierra | `docs/SIERRA_AUTOCUT.md` |
-| 2 | **Bisagra 48/6**: medir con calibre (si no da 6, cambiar sólo `herrajes/medidas.json`). El código ya lee de ahí (recetas, `PonerHerrajes`, `ajustar_maquina.py --bisagra` para lo de GuiGui) y COCINA-01 y Alacena Spar ya están re-exportadas con 48/6. Falta: la biblioteca STEP, el parámetro `HINGESCREW` de GuiGui y medir la placa base en el lateral (20 / 52) | `docs/HERRAJES.md` (última sección) |
-| 3 | **Pruebas de la Etapa 0 sin resultado**: medida terminada vs. de corte, ¿lee `EdgeFBLR`?, Fusion vs. GuiGui (mismas 10 piezas), pieza curva R50, veta en AutoCUT, **espejado** | `MAÑANA_EN_LA_MAQUINA.md` · `docs/PERFORADORA_SKH612.md` §14 |
+| 2 | **Bisagra 48/6**: medir con calibre (si no da 6, cambiar sólo `herrajes/medidas.json`). **Prueba lista en `PENDRIVE/PRUEBA_BISAGRA/`** (2 puertas chicas 295 × 386,1 sin canto, `etapa2/prueba_bisagra.py`). El código ya lee de ahí (recetas, `PonerHerrajes`, `ajustar_maquina.py --bisagra` para lo de GuiGui) y COCINA-01 y Alacena Spar ya están re-exportadas con 48/6. Falta: la biblioteca STEP, el parámetro `HINGESCREW` de GuiGui y medir la placa base en el lateral (20 / 52) | `docs/HERRAJES.md` (última sección) |
+| 3 | **Pruebas de la Etapa 0 sin resultado**: medida terminada vs. de corte (⚠️ los XML3 de `PENDRIVE/4_ALACENA_SPAR` vienen en medida **terminada**, p. ej. puertas 297 × 390, y la lista de corte las corta a 295 × 388: no perforar piezas crudas con esos hasta resolverlo), ¿lee `EdgeFBLR`?, Fusion vs. GuiGui (mismas 10 piezas), pieza curva R50, veta en AutoCUT, **espejado** | `MAÑANA_EN_LA_MAQUINA.md` · `docs/PERFORADORA_SKH612.md` §14 |
 | 4 | **Perforadora**: velocidad por herramienta desde la PC, campana que no baja (M64), T187 ¿fresa o mecha?, T190, T186, filas 15–27, login, backup, lubricación vencida | `docs/PERFORADORA_SKH612.md` §14 (22 ítems) |
 | 5 | **Ranura de canto**: no sabemos el formato (¿"SlotH"?) ni si la hace la SKH-612HS; el generador se niega a escribirla | `docs/FORMATOS.md` · pregunta a Huahua |
 | 6 | Armar PRUEBA 1 completo (cantos HH-509R + armado). **Manual de armado**: ya sale de la receta (`etapa2/manual_armado.py`, ver §2); falta probarlo armando la Alacena Spar con el manual en la mano, y que también salga por el camino GuiGui | `docs/FUSION_RECETAS.md` |

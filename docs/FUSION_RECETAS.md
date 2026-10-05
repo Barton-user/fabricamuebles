@@ -128,7 +128,7 @@ profundidad del Ø8 cuando desemboca en el Ø15. Con el herraje de 34 habría es
 ### Bisagras — hechas y verificadas (22/09/2026)
 
 `PonerHerrajes` también pone bisagras, en **las dos piezas**: cazoleta Ø35 × 13 a 22,5 del
-canto más dos Ø6 × 3 a 37 del canto y ±24 a lo largo en la **puerta**, y los dos Ø6 × 3 del
+canto más dos **Ø5 × 3 a 28,5 del canto** (48/6, desde el 01/10; antes Ø6 a 37) y ±24 a lo largo en la **puerta**, y los dos Ø5 × 3 del
 herraje de la base a **20 y 52 del canto de adelante** en el **lateral**. La altura sale de
 la puerta (100 de cada punta) y la correspondencia con el lateral se calcula del ensamble.
 
