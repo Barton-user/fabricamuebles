@@ -69,13 +69,13 @@ muebles de COCINA-01. ⚠️ Los esquineros (piezas a 45°) salen con aviso: rev
 | Diseño | **Fusion** | diseño propio | scripts en `fusion/` | — | `docs/FUSION_RECETAS.md` |
 | Optimizador | **AutoCUT** (PC de la sierra) | optimiza el corte, imprime etiquetas | Windows | lista de corte Excel/CSV | `docs/SIERRA_AUTOCUT.md` |
 | Sierra | **HP280** (Huahua) | corte recto | control Huahua | `.CUT` de AutoCUT | `docs/SIERRA_AUTOCUT.md` |
-| Router | **SKG-912MZ** | nesting, contornos | Syntec | `.nc` | — (sin poner en marcha) |
+| Router | **SKG-912MZY** (Huahua) | nesting, contornos, almacén de 12 | Syntec + interfaz Huahua | `.nc` (Z0 = mesa, ver doc) | **`docs/ROUTER_SKG912.md`** · encendido y con homing; primera prueba lista en `PENDRIVE/7_ROUTER_PRUEBA/` |
 | Perforadora | **SKH-612HS** (Huahua) | agujeros 6 caras, ranuras, cazoletas | **MH2026** + CncMon32 | **XML3 = KDTXml** (1 archivo por pieza, nombre = código de barras) | **`docs/PERFORADORA_SKH612.md`** |
 | Pegadora de cantos | **HH-509R** | cantos | manual | la etiqueta | manual en `instructivo/manuales/` |
 | Etiquetas | **AIBAO BC-80152T** | térmicas con QR | driver Windows, en la PC de la sierra | — | — |
 
-Manuales: perforadora `User Manual_SKH-612 Series_260706_115944.pdf` (raíz); sierra, AutoCUT y
-pegadora en `instructivo/manuales/`. Capturas explicadas de la perforadora: `instructivo/INDICE.md`.
+Manuales: perforadora `User Manual_SKH-612 Series_260706_115944.pdf` (raíz); sierra, AutoCUT,
+pegadora y **router (manual + guía de operación Syntec)** en `instructivo/manuales/`. Capturas explicadas de la perforadora: `instructivo/INDICE.md`.
 
 **Flujo:**
 
@@ -96,7 +96,7 @@ recetas/ ──(fusion/ArmarReceta)───────────────
 
 - Formato de carga: **KDTXml** (carpeta `XML3/`). El `.ban` **no** lo lee.
 - **Cazoleta Ø35 = T184**: mecha **FUL Ø35 × 70 R** (MBD3570), salida 46 mm, tabla
-  **34,8 / 34,8 / Z 27**, avances **5000 / 500 / 250**. La Ø20x70R que estaba antes **es una mecha,
+  **34,8 / 34,8 / Z 24** (con Z 27 salía de 10; con 24 da **13**, calibre 05/10), avances **3500 / 350 / 175** (con 5000/500/250 saltaba `203h/206h` del **eje A = apoyo lateral**: la Ø35 a 13 empuja la placa; al 80 % anduvo bien). **No repasar cazoletas ya hechas.** La Ø20x70R que estaba antes **es una mecha,
   no una fresa: nunca para fresar**.
 - **Variador del husillo de arriba (Delta MS300): hoy en 100 Hz** (≈ 6000 rpm, para cazoletas).
   **Para ranurar con la T187, subirlo a 300 Hz.**
@@ -105,6 +105,7 @@ recetas/ ──(fusion/ArmarReceta)───────────────
 - **Tornillos de bisagra: Ø5 para siempre** (la Ø6 no existe en la máquina y el software crashea).
   `etapa2/ajustar_maquina.py --o6-a-o5` lo hace solo.
 - **Ranuras de cara dorso: mínimo 10 mm** (sólo hay T11 Ø10 abajo). LED: ranura **10 × 10**.
+- **Mechas de repuesto** (vinieron con las máquinas, 05/10): Ø5 (6R+5L+1 Yuwei), Ø8 (7R+1L), Ø10 (4R+3L+1 Yuwei), Ø12 (3R), Ø15 (8L+1 Yuwei), mango Ø10×70. Ninguna Ø6. Detalle en `docs/PERFORADORA_SKH612.md`.
 - Cazoletas y ranuras de menos de 10 **sólo desde arriba** → `ajustar_maquina.py` da vuelta las
   piezas solo.
 - Pieza: **250–5000 × 50–1200 mm, 10–48 de espesor**. Cajones: ninguna pieza mecanizada de menos de 250.
@@ -129,14 +130,14 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | # | Qué | Dónde está el detalle |
 |---|---|---|
 | 1 | **Corregir el mapeo de AutoCUT** (cantos y código de barras real) y volver a cortar las 7 piezas del gris. Nuestro lado ya está: la lista trae la columna `条码` con el código limpio; falta mapearla en la PC de la sierra | `docs/SIERRA_AUTOCUT.md` |
-| 2 | **Bisagra 48/6**: medir con calibre (si no da 6, cambiar sólo `herrajes/medidas.json`). **Prueba lista en `PENDRIVE/PRUEBA_BISAGRA/`** (2 puertas chicas 295 × 386,1 sin canto, `etapa2/prueba_bisagra.py`). El código ya lee de ahí (recetas, `PonerHerrajes`, `ajustar_maquina.py --bisagra` para lo de GuiGui) y COCINA-01 y Alacena Spar ya están re-exportadas con 48/6. Falta: la biblioteca STEP, el parámetro `HINGESCREW` de GuiGui y medir la placa base en el lateral (20 / 52) | `docs/HERRAJES.md` (última sección) |
+| 2 | **Bisagra 48/6: ✅ calza** en las 2 puertas chicas (05/10, `PENDRIVE/PRUEBA_BISAGRA/`, `etapa2/prueba_bisagra.py`): tornillos sobre los agujeros del ala, cazoleta centrada. Falta la profundidad (ver T184 en §4). El código ya lee de ahí (recetas, `PonerHerrajes`, `ajustar_maquina.py --bisagra` para lo de GuiGui) y COCINA-01 y Alacena Spar ya están re-exportadas con 48/6. Falta: la biblioteca STEP, el parámetro `HINGESCREW` de GuiGui y medir la placa base en el lateral (20 / 52) | `docs/HERRAJES.md` (última sección) |
 | 3 | **Pruebas de la Etapa 0 sin resultado**: medida terminada vs. de corte (⚠️ los XML3 de `PENDRIVE/4_ALACENA_SPAR` vienen en medida **terminada**, p. ej. puertas 297 × 390, y la lista de corte las corta a 295 × 388: no perforar piezas crudas con esos hasta resolverlo), ¿lee `EdgeFBLR`?, Fusion vs. GuiGui (mismas 10 piezas), pieza curva R50, veta en AutoCUT, **espejado** | `MAÑANA_EN_LA_MAQUINA.md` · `docs/PERFORADORA_SKH612.md` §14 |
 | 4 | **Perforadora**: velocidad por herramienta desde la PC, campana que no baja (M64), T187 ¿fresa o mecha?, T190, T186, filas 15–27, login, backup, lubricación vencida | `docs/PERFORADORA_SKH612.md` §14 (22 ítems) |
 | 5 | **Ranura de canto**: no sabemos el formato (¿"SlotH"?) ni si la hace la SKH-612HS; el generador se niega a escribirla | `docs/FORMATOS.md` · pregunta a Huahua |
 | 6 | Armar PRUEBA 1 completo (cantos HH-509R + armado). **Manual de armado**: ya sale de la receta (`etapa2/manual_armado.py`, ver §2); falta probarlo armando la Alacena Spar con el manual en la mano, y que también salga por el camino GuiGui | `docs/FUSION_RECETAS.md` |
 | 7 | **Perno del 3 en 1: 33 o 34** (con el herraje Grupo Euro real) · canto real (¿1 mm?) · kerf real de la sierra | `docs/HERRAJES.md` |
-| 8 | COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` |
-| 9 | Router SKG-912MZ: cargar T1 Ø6, medir mesa y herramientas | `docs/CURVADO.md` |
+| 8 | **`ArmarDesdeRender`: el canto de las piezas Lintel (listones) sale del lado equivocado** (arriba en vez de abajo; corregido a mano en la Spar 05/10) y `ExportarPiezas` da el fondo sin el encastre (564×710,6 en vez de 574×720,6) · COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` |
+| 9 | **Router**: primera prueba física (cuadrado 100, decide si los `.nc` de GuiGui necesitan encabezado `G43`), cargar y medir las fresas en el almacén, medir mesa útil. Fresas ya identificadas: 8 × Ø10 rectas de 1/2", Ø6, Ø8 | `docs/ROUTER_SKG912.md` · `PENDRIVE/7_ROUTER_PRUEBA/LEEME.txt` |
 | 10 | Curvado: probetas por material, primera pieza real, cantos en zona curva | `docs/CURVADO.md` |
 
 ---
@@ -149,7 +150,7 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 2 | Mecha vertical Ø6 | ❌ **no se compra** — Ø5 para siempre |
 | 3 | **Fresa espiral de punta plana** (Ø20, o Ø10/12) | 🕓 sólo si algún día hay que fresar contornos o cazoletas de otro diámetro (la Ø20x70R es mecha) |
 | 4 | Fresa espiral Ø6 de verdad para la T187 | ⏸ si se confirma que la actual es mecha |
-| 5 | Fresa Ø6 para el **router** (T1) | 🕓 cuando se ponga en marcha el router |
+| 5 | Fresa Ø6 para el **router** (T1) | ✅ **ya hay**: vinieron 2 (Ø6×22 y Ø6×20, mango 1/2"). Falta confirmar pinza **ER32 de 13** |
 
 No se compra: fresa de ranurar Ø9 (se diseña con ranuras de 10).
 
@@ -165,6 +166,7 @@ No se compra: fresa de ranurar Ø9 (se diseña con ranuras de 10).
 | Herrajes y bisagra | `docs/HERRAJES.md` · `herrajes/biblioteca/CATALOGO.md` |
 | Sierra y AutoCUT | `docs/SIERRA_AUTOCUT.md` |
 | GuiGui / Bluen y su MCP | `docs/GUIGUI.md` · `referencia/GUIGUI_MCP/` |
+| **Router** SKG-912MZY (operación, G54, almacén, M-codes, alarmas, fresas) | `docs/ROUTER_SKG912.md` |
 | Curvado por ranuras | `docs/CURVADO.md` · `curvado/README.md` |
 | Instructivo con capturas | `instructivo/INDICE.md` |
 | Historia: cómo se llegó a cada cosa | `BITACORA.md` |
@@ -191,6 +193,8 @@ No se compra: fresa de ranurar Ø9 (se diseña con ranuras de 10).
 4. Si dos documentos dicen cosas distintas, **manda éste**; corregir el otro en el momento.
 5. Al terminar: actualizar la fecha de arriba, `git add -A && git commit && git push`.
    (Si git se traba con "Operation not permitted", hay que borrar `.git/index.lock` y `.git/HEAD.lock`.)
+6. **Cada vez que se le pasan archivos a Pato, terminar con el comando de terminal para abrir la
+   carpeta**: `open "/Users/patriciokeogan/Documents/Claude/Projects/FABRICA MUEBLES/<carpeta>"`.
 
 ---
 

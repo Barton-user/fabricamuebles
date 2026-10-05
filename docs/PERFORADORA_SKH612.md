@@ -189,7 +189,7 @@ de esta revista; el de **abajo** (cara dorso) es el que hace las ranuras de cara
 
 | T | Qué hay | Tabla (Ø / ancho / Z) | Uso |
 |---|---|---|---|
-| **184** (puesto 4) | **Mecha FUL Ø35 × 70 R** (MBD3570, widia, mango Ø10), salida 46 | **34,8 / 34,8 / Z 27** · avances **5000/500/250** | **cazoletas** — fija para esto |
+| **184** (puesto 4) | **Mecha FUL Ø35 × 70 R** (MBD3570, widia, mango Ø10), salida 46 | **34,8 / 34,8 / Z 24** (Z 27 daba 10; Z 24 da 13, calibre 05/10) · avances **3500/350/175** (con 5000/500/250 salta 203h/206h del eje A) | **cazoletas** — fija para esto. No repasar una cazoleta hecha |
 | 187 (puesto 7) | Ø6 de ranurar | 6 / 6 | ranuras de fondo cara frente. ⚠️ **revisar si es fresa o mecha** (§14) |
 | 11 | Ø10 | 10 / 10 | ranuras de cara dorso (mínimo de esa cara: **10**) |
 | 183 | disco `62211-4T` Ø45 × 3 | 43,9 / 3 | ranura de 3 de costado; no se hunde |
@@ -299,6 +299,25 @@ verde. Apagar y prender no lo arregla.
   **MDI**: `T1` baja la mecha 1, `T1T2T3` baja la 1, 2 y 3, `T00` sube todas. **Al terminar,
   Ctrl+Alt** para que todo vuelva a reposo.
 
+### 6.x Mechas de repuesto que vinieron con las máquinas (inventario 05/10/2026)
+
+Todas con mango **Ø10 × 70 de largo total**, metal duro integral ("Plum blossom · Alloy Drilling · 整体"
+y tres Yuwei "数控排钻"). **R = giro derecha, L = izquierda** (los husillos vecinos del cabezal giran
+alternados: mirar el sentido del puesto antes de montar). Cajas en el taller.
+
+| Ø | R | L | Para qué |
+|---|---|---|---|
+| 5 | 6 + 1 Yuwei | 5 | tornillos de bisagra (patrón 48/6), tarugos |
+| 8 | 7 | 1 | tarugos, perno del 3 en 1 |
+| 10 | 4 + 1 Yuwei | 3 | excéntrico, LED, ranuras de 10 (T11) |
+| 12 | 3 | — | |
+| 15 | — + 1 Yuwei | 8 | cazoleta del excéntrico del 3 en 1 |
+
+Más una suelta sin etiqueta (medir). **No vino ninguna Ø6** (coincide con "Ø5 para siempre") y
+**ninguna fresa espiral**: todo lo de este lote es mecha; la compra de una fresa Ø6 real para la T187
+sigue pendiente. Las 13 herramientas con mango 1/2" de la misma caja son del **router**
+(`docs/ROUTER_SKG912.md` §4).
+
 ## 7. Alarmas y mensajes
 
 **Dónde se lee la causa: CncMon32 → botón `alarma` → "Alertas existentes".** El cartel de MH2026
@@ -312,7 +331,7 @@ es la consecuencia; el CNC muestra la causa, y se ve una alarma por vez.
 | `MLC 348` — modo de cambio de herramienta (R46.17) | quedó activo el modo de cambio | apagarlo en MH2026 **y** en CncMon32 |
 | `MLC 142` — señal de sujeción del husillo anormal (r48,13) | el puesto de la revista que pide está vacío | cargar un cono en ese puesto |
 | `MLC 129` — un cilindro no retornó | la placa prensora / campana quedó abajo | subirla; el reposo es arriba |
-| `Drv_M3_SYNTEC 202h / 203h / 206h` (sobrecarga, par, over torque) | herramienta trabajando de costado sin poder (una mecha usada como fresa, o pasada muy profunda) | parar; revisar herramienta y profundidad |
+| `Drv_M3_SYNTEC 202h / 203h / 206h` **AEje** (sobrecarga, par, over torque) | el **eje A es el apoyo lateral** (empuja la placa de costado): el corte arrastra la placa contra él. Pasó con la Ø20 fresando de costado, al repasar una cazoleta y con la Ø35 a 13 con avances 5000/500/250 | parar (Ctrl+Alt); **bajar el avance** de esa herramienta (la Ø35 anduvo al 80 %: quedó 3500/350/175); no repasar |
 | `System.ArgumentOutOfRangeException` (índice fuera del intervalo) | agujero sin herramienta (Ø6), o T184 con diámetro = agujero (35/35) | Ø6 → Ø5; T184 en 34,8 |
 | "Diámetro de herramienta demasiado grande" | no hay herramienta tan chica para esa cara (ranura de 9 en dorso) | ranura de 10 |
 | "No se puede usar la herramienta especificada" | se forzó una herramienta que no sirve (p. ej. T188 horizontal para cazoleta) | dejar que asigne el post |

@@ -1,0 +1,35 @@
+ALACENA SPAR (GuiGui PRUEBA 1, guardada 05/10) - PIEZAS QUE FALTAN (las 3 puertas ya estan)
+=========================================================================================
+Origen: GuiGui (render del 05/10) -> Fusion "ALACENA SPAR GUIGUI" (cocina) -> etapa2.
+Todo SIN CANTO (perforar antes de cantear). Cara de arriba en la maquina = la que dice la hoja.
+
+XML3 (Formato KDTXml)          Pieza            Corte (largo x ancho)   Canto (1 mm)
+2107738390057.xml              Techo            598 x 399               frente + 2 costados
+2107738390064.xml              Lateral IZQ      826,5 x 399             frente
+2107738390071.xml              Lateral DER      826,5 x 399             frente
+2107738390101.xml              Estante          564 x 376               frente
+2107738390118.xml              Tapa inferior    564 x 399               frente
+2107738390132.xml              Liston atras     564 x 99                abajo
+2107738390149.xml              Liston frente    564 x 99                abajo
+2107738390125.xml              Fondo (5 mm)     720,6 x 574             -   (sin mecanizado)
+
+SIERRA (placa 1832 x 2601)
+  GRIS 18  : tira 399 -> 826,5 x2 + 598 x1  ·  tira 564 -> 399 + 376 + 99 + 99
+  BLANCO 5 : tira 574 -> 720,6 x1
+
+PERFORADORA
+  - Variador en 300 Hz: hay ranura de fondo 6 x 6 (T187) en techo, laterales y tapa inferior.
+    (Volver a 100 Hz antes de hacer cazoletas.)
+  - Techo: la ranura LED 10 x 10 va por ABAJO (T11, primera vez a 10 de profundidad).
+  - Tapa inferior: los O10 de los listones van por ABAJO.
+  - Lateral IZQ y DER son espejo: no confundirlos.
+  - Codigos nuevos (no estan en la maquina). Tipearlos: la etiqueta de AutoCUT todavia sale mal.
+  - Si salta over torque del eje A en una ranura: control Velocidad G01 al 80 %.
+
+DISTINTO DE LA VERSION DEL 01/10
+  - Listones de 100 (antes 97,87): sobresalen 2,1 mm por debajo de los laterales (decision de Pato).
+  - Liston: el canto va ABAJO (el borde que se ve). GuiGui->Fusion lo ponia arriba (en la union
+    con la tapa inferior): corregido a mano en piezas.json.
+  - Tapa inferior: GuiGui la tenia en "madera multicapa"; va en GRIS 18 (avisar a la disenadora).
+  - Ranura LED del techo: 10 x 10 a 95 (GuiGui ya la trae asi).
+  - Laterales: iguales a PRUEBA_BISAGRA/9992610019132 y ...149 (mismo programa, otro codigo).

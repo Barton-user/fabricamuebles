@@ -1,0 +1,17 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/10/05 pm 3:20:50" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="595.00" Height="375.53" PlaneSize="1" Grain="2" Thickness="18" Material="PETFRONT" EdgeFBLR="1,1,1,1" Name="Alacena spar_Superior (corte)" Code="2107738390088">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="595.00 0.00 0"/>
+        <Point Value="595.00 375.53 0"/>
+        <Point Value="0.00 375.53 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="123.00 348.03 0" End="123.00 348.03 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="75.00 348.03 0" End="75.00 348.03 -3.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="99.00 354.03 0" End="99.00 354.03 -13.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="520.00 348.03 0" End="520.00 348.03 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="472.00 348.03 0" End="472.00 348.03 -3.00"/>
+    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="496.00 354.03 0" End="496.00 354.03 -13.00"/>
+</Plane>
+</MicroDrawBan_XML>

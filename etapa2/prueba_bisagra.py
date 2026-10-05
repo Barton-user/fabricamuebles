@@ -42,13 +42,31 @@ def puerta(code, nombre, ancho, alto, canto, desde_borde, b, lado):
     return p
 
 
+def puerta_arriba(code, nombre, ancho, alto, canto, desde_borde, b):
+    """Puerta rebatible: bisagras en el canto de ARRIBA (y = alto), a `desde_borde` de cada costado."""
+    cz = alto - (b["cazoleta_desde_canto"] - canto)
+    ty = cz - b["tornillos_desde_cazoleta"]
+    xs = [desde_borde - canto, ancho - (desde_borde - canto)]
+    p = Panel(code=code, name=nombre, width=ancho, height=alto, thickness=18.0,
+              material="18_PET_PET GRIS 18", edge_front=canto, edge_back=canto,
+              edge_left=canto, edge_right=canto)
+    for x in xs:
+        for dx in (b["tornillos_a_lo_largo"], -b["tornillos_a_lo_largo"]):
+            p.holes.append(Hole(x + dx, ty, b["tornillo_d"], b["tornillo_prof"], symbol="HINGESCREW"))
+        p.holes.append(Hole(x, cz, b["cazoleta_d"], b["cazoleta_prof"], symbol="HINGE"))
+    return p
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--ancho", type=float, required=True)
     ap.add_argument("--alto", type=float, required=True)
     ap.add_argument("--canto", type=float, default=1.0)
     ap.add_argument("--cazoletas", type=float, default=100.0)
-    ap.add_argument("--codigos", nargs=2, required=True, metavar=("DER", "IZQ"))
+    ap.add_argument("--codigos", nargs="+", required=True,
+                    help="DER IZQ, o un solo codigo con --arriba")
+    ap.add_argument("--arriba", action="store_true",
+                    help="una puerta rebatible con las bisagras en el canto de arriba")
     ap.add_argument("--nombre", default="PRUEBA BISAGRA")
     ap.add_argument("-o", "--salida", required=True)
     a = ap.parse_args(argv)
@@ -56,12 +74,16 @@ def main(argv=None):
     with open(os.path.join(RAIZ, "herrajes", "medidas.json"), encoding="utf-8") as fh:
         b = json.load(fh)["bisagra"]
     med = f"{a.ancho:g}x{a.alto:g} corte"
-    ps = [puerta(a.codigos[0], f"{a.nombre}_Puerta DER ({med})", a.ancho, a.alto, a.canto, a.cazoletas, b, "DER"),
-          puerta(a.codigos[1], f"{a.nombre}_Puerta IZQ ({med})", a.ancho, a.alto, a.canto, a.cazoletas, b, "IZQ")]
+    if a.arriba:
+        ps = [puerta_arriba(a.codigos[0], f"{a.nombre}_Puerta rebatible ({med})", a.ancho, a.alto, a.canto, a.cazoletas, b)]
+    else:
+      ps = [puerta(a.codigos[0], f"{a.nombre}_Puerta DER ({med})", a.ancho, a.alto, a.canto, a.cazoletas, b, "DER"),
+            puerta(a.codigos[1], f"{a.nombre}_Puerta IZQ ({med})", a.ancho, a.alto, a.canto, a.cazoletas, b, "IZQ")]
     os.makedirs(os.path.join(a.salida, "XML3"), exist_ok=True)
     for p in ps:
         write_xml3(p, os.path.join(a.salida, "XML3", p.code + ".xml"))
-    with open(os.path.join(a.salida, "HOJA_VERIFICACION.html"), "w", encoding="utf-8") as fh:
+    hoja = "HOJA_VERIFICACION_REBATIBLE.html" if a.arriba else "HOJA_VERIFICACION.html"
+    with open(os.path.join(a.salida, hoja), "w", encoding="utf-8") as fh:
         fh.write(hojas.build(ps, a.nombre))
     for p in ps:
         print(p.code, p.name)

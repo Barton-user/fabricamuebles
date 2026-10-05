@@ -1,0 +1,52 @@
+PRIMERA PRUEBA FISICA DEL ROUTER SKG-912MZY (Syntec + interfaz Huahua "CNC Monitor") — 05/10/2026
+=================================================================================================
+Fuente: instructivo/manuales/Router_guia_operacion_Syntec_开料机操作指导书.pdf (secciones 3, 4, 5, 7, 9)
+Resumen en docs/ROUTER_SKG912.md.
+
+Herramienta: fresa recta 焊片直刀 1/2" x Ø10 x 30. El husillo es ER32: hace falta la pinza
+ER32 de 12,7 (una ER32 "13" agarra 12-13 y sirve). Va en el cono del puesto T1 del almacén.
+Pieza: retazo de melamina 18, mínimo 200 x 200, apoyado contra los pilares de posicionamiento
+(定位柱, suben con "定位" en pantalla) en la esquina del origen G54.
+Convención (igual que los .nc de GuiGui y el "programa estándar" de la guía): Z0 = MESA,
+Z18 = cara de arriba de la placa, Z30/38 = altura segura. Los programas cortan un CUADRADO
+DE 100 x 100 con la esquina en X50 Y50 (centro de fresa por 45..155).
+
+ANTES DE EMPEZAR (una sola vez)
+-------------------------------
+A. Aire >= 7 bar (sin eso el botón de soltar herramienta no actúa). Vacío: botón 真空泵1.
+B. Herramienta en T1: Manual → agarrar el cono con una mano, botón verde del husillo 2 s → suelta.
+   Poner el cono con la Ø10. Puesto 1 del almacén debe ser T1 en la tabla (刀库设定).
+C. Medir la herramienta: 自动对刀 → tildar T1 → 自动模式 + 手轮模拟 → arrancar y girar el
+   volante: baja al palpador (对刀仪) y mide el largo. Después "F3 Z落差" con la fresa sobre la
+   mesa (eso carga el Z de G54 = diferencia palpador/mesa).
+D. Mirar G54 (F3 偏置/设定): X e Y deben ser ~cientos (coordenada máquina del pilar menos el
+   radio de la fresa), no 0. Si están en 0, hay que hacer el paso 3 de la guía (sección 1.3).
+E. Programa cargado desde USB: U盘导入 → tildar los .nc → F1 拷贝 → inicio → F2 程序编辑 →
+   F8 文件管理 → doble click al archivo → F1 载入执行加工.
+
+ORDEN DE LA PRUEBA
+------------------
+1. 04_AIRE_huahua_std_Z+40.nc  (formato estándar: G54 T1 M03 S18000 G43 H1 ... M30)
+   En 自动模式 + 手轮模拟 (simulación por volante: el programa avanza sólo mientras girás el
+   volante). Todo pasa 40 mm por arriba: NO toca nada. Mirar que el recorrido sea el cuadrado,
+   que el husillo arranque con M03 y a qué rpm (pantalla S / variador Folinn "F600" = 18000).
+2. 01_AIRE_cuadrado_Z+40.nc  (dialecto GuiGui puro: sin G54, sin T, sin M03, sin G43)
+   Mismo método. ESTA ES LA PREGUNTA CLAVE: ¿lo acepta y arranca el husillo solo?
+   Según la guía (5.4.2.1) un Z positivo sin G43 da "alarma límite positivo de Z": si pasa eso,
+   los .nc de GuiGui necesitan encabezado → el generador queda con el preset "huahua_std".
+   Si anda sin alarma, la interfaz Huahua le agrega el encabezado sola → preset "guigui".
+3. 03_CUADRADO_100_3pasadas_huahua_std.nc → corte real, 3 pasadas (Z12, Z6, Z-0,1),
+   avances conservadores (F4000 contorno, F1500 entrada, F3000 bajada). Primero con 手轮模拟
+   hasta que entre en la placa; si todo bien, sacar la simulación y dejarlo correr.
+4. (sólo si el paso 2 anduvo) 02_CUADRADO_100_3pasadas_guigui.nc en otro retazo.
+
+MEDIR DESPUES
+-------------
+- Cuadrado: ¿100,0 x 100,0? (más grande → Ø real de la fresa menor que 10). Anotar.
+- Esquina del cuadrado respecto a la esquina del retazo: ¿50 / 50?
+- ¿Atravesó y marcó 0,1 en la mesa? (si no: Z落差 mal o placa más gruesa)
+- Astillado arriba (melamina) y abajo. Rpm reales. Cuánto tardó.
+- Recorrido útil X e Y (coordenadas máquina en los dos extremos) → para docs/CURVADO.md.
+- Almacén: ¿qué hay en los otros 11 puestos? ¿la tabla 刀库 tiene X/Z cargados?
+
+Si algo tira alarma, anotar el texto exacto y el número. Las comunes están en docs/ROUTER_SKG912.md.

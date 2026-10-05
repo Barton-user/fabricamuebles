@@ -1,0 +1,9 @@
+﻿序号,打包二维码,工件名称,数量,长,宽,成品面积,厚,材料,开料长,开料宽,切割面积,开料厚,板件条码,板号,前封边,后封边,左封边,右封边,纹路,订单号,客户名称,项目地址,部件名称,条码
+1,PRUEBA 1_Alacena spar_Tapa superior01,PRUEBA 1_Alacena spar_Tapa superior01,1,600,400,0.24,18,18_STRUCTURE_13玛雅灰,598,399,0.24,18,2107738390057_2107738390057_2107738390057K,,1,1,1,0,竖纹,30346169,,,Alacena spar_Tapa superior01,2107738390057
+2,PRUEBA 1_Alacena spar_Lateral izquierdo01,PRUEBA 1_Alacena spar_Lateral izquierdo01,1,826.47,400,0.33,18,18_STRUCTURE_13玛雅灰,826.47,399,0.33,18,2107738390064_2107738390064,,0,0,1,0,竖纹,30346169,,,Alacena spar_Lateral izquierdo01,2107738390064
+3,PRUEBA 1_Alacena spar_Lateral derecho01,PRUEBA 1_Alacena spar_Lateral derecho01,1,826.47,400,0.33,18,18_STRUCTURE_13玛雅灰,826.47,399,0.33,18,2107738390071_2107738390071,,0,0,0,1,竖纹,30346169,,,Alacena spar_Lateral derecho01,2107738390071
+4,PRUEBA 1_Alacena spar_Estanteria01,PRUEBA 1_Alacena spar_Estanteria01,1,564,377,0.21,18,18_STRUCTURE_13玛雅灰,564,376,0.21,18,2107738390101_2107738390101,,0,0,1,0,竖纹,30346169,,,Alacena spar_Estanteria01,2107738390101
+5,PRUEBA 1_Alacena spar_INF01,PRUEBA 1_Alacena spar_INF01,1,564,400,0.23,18,18_STRUCTURE_13玛雅灰,564,399,0.23,18,2107738390118_2107738390118_2107738390118K,,0,0,0,1,竖纹,30346169,,,Alacena spar_INF01,2107738390118
+6,PRUEBA 1_Alacena spar_Fondo01,PRUEBA 1_Alacena spar_Fondo01,1,720.6,574,0.41,5,5_BACKGROUND_d02白麻面,720.6,574,0.41,5,2107738390125,,0,0,0,0,竖纹,30346169,,,Alacena spar_Fondo01,2107738390125
+7,PRUEBA 1_Alacena spar_Listón02_Vertical Partition01,PRUEBA 1_Alacena spar_Listón02_Vertical Partition01,1,100,564,0.06,18,18_STRUCTURE_13玛雅灰,99,564,0.06,18,2107738390132_2107738390132,,1,0,0,0,竖纹,30346169,,,Alacena spar_Listón02_Vertical Partition01,2107738390132
+8,PRUEBA 1_Alacena spar_Listón01_Vertical Partition01,PRUEBA 1_Alacena spar_Listón01_Vertical Partition01,1,100,564,0.06,18,18_STRUCTURE_13玛雅灰,99,564,0.06,18,2107738390149_2107738390149,,1,0,0,0,竖纹,30346169,,,Alacena spar_Listón01_Vertical Partition01,2107738390149

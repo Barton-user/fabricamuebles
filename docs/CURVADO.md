@@ -64,7 +64,7 @@ Vite. Cada push a `main` que toque `curvado/` se publica solo.
    - profundidad máxima real del disco **T183** (Ø43,9 × 3);
    - herramientas reales del **router SKG-912MZ** (T1 Ø6 sigue sin cargar en el almacén;
      ¿hay V? ¿esférica?) y su largo de corte;
-   - **mesa útil** del router (quedó 1250 × 2500 como supuesto).
+   - **mesa útil** del router: el manual dice **2800 × 1300** (plano: 2650 × 1273); el código todavía tiene 1250 × 2500 → corregir `ROUTER.mesaX/Y` cuando se mida en la máquina. Operación de la máquina en `docs/ROUTER_SKG912.md`.
 2. **Probetas por material** (MDF, aglomerado, multilaminado, MDF crudo): ranurar un retazo,
    curvarlo y ajustar piel mínima y el límite `epsMax` de `MATERIALES` en `src/motor.js`.
 3. **Primera pieza real** por perforadora y por router: medir piel, eje de la 1ª ranura desde

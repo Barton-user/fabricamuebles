@@ -1705,3 +1705,72 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   (297 × 390) y coordenadas desde el borde terminado, mientras la lista de corte corta 295 × 388.
   Anotado en CONTEXTO §5.3. Corregidos los "37 del canto" que quedaban en los LEEME de la Spar y en
   `docs/FUSION_RECETAS.md`. Hoja de taller: ítem C5 reemplazado por esta prueba (falta regenerar el PDF).
+
+## 05/10/2026 (tarde) — Resultado de la prueba de bisagra
+
+- Pato perforó las 2 puertas de `PENDRIVE/PRUEBA_BISAGRA/`. **La bisagra Grupo Euro calza**: los
+  tornillos caen sobre los Ø5 y la cazoleta queda centrada → 48/6 confirmada en la práctica.
+- **Profundidad de la cazoleta: 10 mm con calibre** (pedido 13). Con Z 27 en la tabla de la T184 faltan 3.
+  El ala no apoya del todo plana. Decidido: pasar a **Z 24** (menos valor = más hondo) y confirmarlo en un retazo.
+- Volvió a mecanizar la misma pieza en el mismo lugar → `Drv_M3_SYNTEC 203h / 206h AEje` al llegar a la
+  cazoleta ya hecha. Causa probable: la pieza no queda en el mismo lugar y la Ø35 tiene que cortar de costado
+  la pared (no está hecha para eso). Regla: **no repasar cazoletas**. Falta saber si la primera pasada también tiró alarma.
+- **Control contra GuiGui (MCP, 05/10)**: el render.json actual de PRUEBA 1 (`207960w71790863771479`, última
+  modificación 01/10) es idéntico a `5_ALACENA_SPAR_GUIGUI/render_guigui_20261001.json`. Puertas chicas
+  `7785813812561/585`: medida, cazoletas (Ø35 × 13 a 21,5 / 99 / 287,06 en corte) y Y de los tornillos (75/123,
+  263,06/311,06) **iguales** a `PRUEBA_BISAGRA`. Única diferencia, la buscada: GuiGui trae tornillos **Ø6 a 36**
+  (14,5 de la cazoleta); los nuestros **Ø5 a 27,5** (48/6, el que calza). GuiGui llama IZQ a la que tiene las
+  bisagras en x = 0 (nosotros DER): es la misma pieza girada, no importa. Salida de pieza vuelta a "Descarg" (adelante).
+- Puerta rebatible de la Spar: `PENDRIVE/PRUEBA_BISAGRA/XML3/9992610019125.xml` (595 × 375,53 de corte, sin canto,
+  bisagras en el canto largo a 100 de cada costado). `etapa2/prueba_bisagra.py --arriba`. Igual a `XML3_PUERTAS_V2`.
+- GuiGui: la diseñadora cambió en SU PC "Punch setting" a 28,5 / Ø5 (bien). En el GuiGui de Pato, aun reiniciado,
+  regenerar el mueble (alto 936,5 → 937 → 936,5) da tornillos **Ø6 a 29** (6,5): su configuración no le llegó.
+  Los muebles ya dibujados guardan la bisagra y sólo cambian al regenerarlos. Pedido a la diseñadora: regenerar y
+  guardar PRUEBA 1 y COCINA MLV desde su PC, y confirmar si usa la misma cuenta. Pato no guardó.
+- **Over torque `203h/206h AEje` resuelto (05/10)**: según el manual, el **eje A es el apoyo lateral** (empuja la
+  placa de costado y mide el ancho), no el husillo. En la rebatible (Z 24, cazoleta de 13) saltó a los ~2 mm de la
+  primera cazoleta (los 4 Ø5 ya hechos; después MLCHint 4 y 6 por el corte a mitad de ciclo). Con el control
+  "Velocidad G01" al **80 %** anduvo perfecto → era la fuerza del corte, no la bajada rápida (el control no afecta G00).
+  Decidido: avances de la T184 a **3500 / 350 / 175** (70 %, con margen) y el control de vuelta a 100 %.
+  Z 24 queda como valor de la T184 (13 de profundidad).
+- **GuiGui corregido (05/10, noche)**: la diseñadora regeneró y guardó PRUEBA 1 (`207960w11791210793061`) y COCINA MLV
+  (`207960w41791211586556`). Todas las bisagras: cazoleta Ø35 × 13 a 22,5, tornillos **Ø5 × 3 a 6 de la cazoleta**,
+  placa base **Ø5 × 3** a 20/52. PRUEBA 1: las 3 puertas dan **las mismas coordenadas que `PRUEBA_BISAGRA`**
+  (códigos nuevos 2107738390088/156/170). COCINA MLV: además cambiaron medidas (puertas de la Alacena spar
+  681,83 → 715,46; Escobero 1397,1 → 1433,1 y 896,9 → 860,9) y **el "Bajo mesada simple ajuste" quedó sin puerta**
+  (13 → 12 puertas): preguntado a Pato si es a propósito.
+- **Exportar desde GuiGui (05/10, 12:00)**: Output → layout → "Default production line" (= SIERRA + PERFORADORA)
+  → Start layout OK (4 placas) → "Output NC file" → aviso **"您已修改了所使用的五/六面钻模板…"** (alguien cambió la
+  plantilla de la perforadora; hay que hacer el mueble de muestra). Mueble de muestra: el despiece falla
+  ("Multi-board leakage detection failed!", la muestra usa 多层实木 que no está en nuestros materiales) y sin
+  despiece no destraba. Export de la muestra en `~/Downloads/NCFolder/试生产样品柜_主卧/BluenNC/` sin programas.
+  Se frenó; mensaje a Huahua/Bluen preparado. Capturas en `instructivo/capturas_guigui/` (01–11).
+- **Alacena Spar GuiGui → Fusion → programas (05/10, tarde)**: control del render nuevo de PRUEBA 1 contra el del 01/10:
+  bisagra corregida (Ø5, 6), nombres cambiados (Estanteria01, INF01, listones ahora Lintel "Vertical Partition01"),
+  **listones 100 en vez de 97,87 → sobresalen 2,1 mm bajo los laterales** (Pato: dejarlo así) y **INF01 en material
+  多层实木** (corregido a STRUCTURE en piezas.json; avisar a la diseñadora). Armada en Fusion con `ArmarDesdeRender`
+  (11 placas, 67 herrajes) y guardada como **`ALACENA SPAR GUIGUI`** (proyecto cocina; la `ALACENA SPAR` de la
+  receta no se tocó). `ExportarPiezas.recolectar` → `fusion/EXPORT_SPAR_GUIGUI_0510/`. Dos arreglos a mano:
+  fondo 564×710,6 → **574×720,6** (ExportarPiezas lee la caja visible, no la medida con encastre) y **canto de los
+  listones abajo** (ADR lo pone arriba, en la unión: bug de `_cantos` con piezas Lintel, pendiente). Programas sin
+  canto de las 8 piezas que faltan en `PENDRIVE/6_ALACENA_SPAR_RESTO/`. Control: laterales = PRUEBA_BISAGRA 132/149,
+  estante/tapa inferior/fondo = 01/10, puertas = PRUEBA_BISAGRA; techo cambia LED 303,5 → 304; listones nuevos.
+
+## 05/10/2026 (tarde) — Herramientas que vinieron con las máquinas · arranque del router
+
+- **Inventario de la caja de herramientas** (fotos): 41 mechas de perforadora (mango Ø10×70, R/L:
+  Ø5 ×12, Ø8 ×8, Ø10 ×8, Ø12 ×3, Ø15 ×9, una sin etiqueta; ninguna Ø6, ninguna fresa espiral) y
+  13 fresas de router con mango 1/2" (8 × recta Ø10×30 焊片直刀, Ø6×22, Ø6×20, Ø8×30, TCT Ø8×20,
+  una de forma 月牙扣件刀 Ø9,8 y una 拉直器刀 L83580 sin identificar). Anotado en
+  `docs/PERFORADORA_SKH612.md` §6.x y `docs/ROUTER_SKG912.md` §4. La compra 5 (fresa Ø6 router) ya está.
+- **Manuales del router** guardados en `instructivo/manuales/`: `SKG-912MZY_manual_router.pdf`
+  (mecánico + esquema eléctrico) y `Router_guia_operacion_Syntec_开料机操作指导书.pdf` (operación).
+  Leídos y resumidos en **`docs/ROUTER_SKG912.md`** (nuevo): la máquina es 912MZ**Y** (almacén de 12,
+  carga automática, rodillo), husillo 9 kW ER32, mesa 2800 × 1300, 7 zonas de vacío.
+- Lo que cambia para el generador: Z0 = mesa confirmado (programa estándar corta a Z−0,2), pero
+  **un Z positivo sin `G43 H<n>` da alarma de límite Z+** y los `.nc` de GuiGui no traen G43 ni T ni
+  M03. Hipótesis: la interfaz Huahua ("载入执行加工") agrega el encabezado sola. Lo decide la prueba.
+- **Primera prueba física preparada** en `PENDRIVE/7_ROUTER_PRUEBA/`: cuadrado 100×100 en melamina 18
+  con fresa Ø10, 4 programas (aire y corte, en dialecto GuiGui y en formato estándar Huahua con
+  G54/T1/M03 S18000/G43 H1) y LEEME con el paso a paso de la guía (pinza ER32-13, soltar herramienta
+  con el botón 2 s y ≥7 bar, 自动对刀, Z落差, U盘导入, 手轮模拟). Sin ejecutar todavía.

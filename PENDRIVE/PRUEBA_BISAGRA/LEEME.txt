@@ -49,3 +49,26 @@ centrados sobre los O5 (centro de cazoleta -> linea de tornillos = 6, entre torn
 Si no caen: medir el herraje y cambiar SOLO herrajes/medidas.json, despues regenerar con
   python3 etapa2/prueba_bisagra.py --ancho 295 --alto 386.06 --canto 1 --cazoletas 100 \
       --codigos 9992610019101 9992610019118 -o PENDRIVE/PRUEBA_BISAGRA
+
+PUERTA DE ARRIBA (REBATIBLE) - agregada el 05/10
+================================================
+  XML3/9992610019125.xml   Puerta rebatible, 595 x 375,5 de corte, SIN CANTO (PET GRIS 18)
+  Bisagras en un canto LARGO, a 100 de cada costado (terminada). La pieza es simetrica:
+  cualquiera de los dos cantos largos puede ser el de las bisagras. Cara INTERIOR arriba.
+  Igual a 5_ALACENA_SPAR_GUIGUI/XML3_PUERTAS_V2/7785813812493.xml (comparado).
+  Hoja: HOJA_VERIFICACION_REBATIBLE.html
+
+  Medir (sin canto):
+    Cazoleta: borde -> canto largo 4,0 (centro a 21,5) · centro -> costado 99 (las dos)
+    Tornillos O5: borde cercano -> canto largo 25,0 (centro a 27,5) · a 75/123 y 472/520 del costado
+    Profundidad cazoleta 13 (T184 ya corregida)
+
+LATERALES DE LA ALACENA SPAR (GuiGui) - agregados el 05/10
+==========================================================
+  XML3/9992610019132.xml  Lateral IZQ  (copia de XML3_SIN_CANTO/7785813812479, codigo nuevo)
+  XML3/9992610019149.xml  Lateral DER  (copia de XML3_SIN_CANTO/7785813812486, codigo nuevo)
+  Corte 399 x 826,5, GRIS 18, SIN CANTO (el canto de 1 mm va solo en el frente). Cara de ADENTRO arriba.
+  Ojo: el IZQ y el DER NO son la misma pieza girada (son espejo): no confundirlos.
+  Llevan: 3 en 1 (O10 x11, O15 x13,5, horizontales O8 x33 en el canto de arriba), placa base
+  de bisagra O5 a 20/52 del frente (terminado), estante O10, ranura de fondo 6 x 6 (T187).
+  RANURA -> variador del husillo en 300 Hz (y despues volver a 100 para cazoletas).

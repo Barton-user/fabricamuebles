@@ -154,8 +154,8 @@ Y: −64"/>
         <outline text="Hay dos husillos de fresado" _note="Hay dos husillos de fresado (manual cap. 4 y 6): el de arriba (cara frente) toma los conos de esta revista; el de abajo (cara dorso) es el que hace las ranuras de cara dorso — la T11 sería ése (manual 18.3.2 lo llama &quot;tool magazine W1&quot;). Por eso abajo sólo hay Ø10."/>
         <outline text="184" _note="T: 184 (puesto 4)
 Qué hay: Mecha FUL Ø35 × 70 R (MBD3570, widia, mango Ø10), salida 46
-Tabla (Ø / ancho / Z): 34,8 / 34,8 / Z 27 · avances 5000/500/250
-Uso: cazoletas — fija para esto"/>
+Tabla (Ø / ancho / Z): 34,8 / 34,8 / Z 24 (Z 27 daba 10; Z 24 da 13, calibre 05/10) · avances 3500/350/175 (con 5000/500/250 salta 203h/206h del eje A)
+Uso: cazoletas — fija para esto. No repasar una cazoleta hecha"/>
         <outline text="187" _note="T: 187 (puesto 7)
 Qué hay: Ø6 de ranurar
 Tabla (Ø / ancho / Z): 6 / 6
@@ -270,6 +270,29 @@ rpm: ≈ 18000"/>
         <outline text="Velocidades del manual" _note="Velocidades del manual: Ø5/6/8 → 4500 · Ø10/12 → hasta 4000 · Ø15 → hasta 2200 · Ø20 → hasta 1200 rpm. (Ojo: el mismo manual dice que el motor del paquete gira a 2800 rpm; esa tabla parece ser de avance, no de giro. Sin confirmar.)"/>
         <outline text="Cómo bajar mechas a mano" _note="Cómo bajar mechas a mano (manual 15.1.1 y 15.1.2): máquina en &quot;ready&quot; sin alarma → CncMon32 → botón &quot;M&quot; → modo &quot;Manual continuo&quot; → cliquear la parte a mover. O por MDI: T1 baja la mecha 1, T1T2T3 baja la 1, 2 y 3, T00 sube todas. Al terminar, Ctrl+Alt para que todo vuelva a reposo."/>
       </outline>
+      <outline text="6.x Mechas de repuesto que vinieron con las máquinas (inventario 05/10/2026)">
+        <outline text="Todas con mango Ø10 × 70 de largo total, metal duro…" _note="Todas con mango Ø10 × 70 de largo total, metal duro integral (&quot;Plum blossom · Alloy Drilling · 整体&quot; y tres Yuwei &quot;数控排钻&quot;). R = giro derecha, L = izquierda (los husillos vecinos del cabezal giran alternados: mirar el sentido del puesto antes de montar). Cajas en el taller."/>
+        <outline text="5" _note="Ø: 5
+R: 6 + 1 Yuwei
+L: 5
+Para qué: tornillos de bisagra (patrón 48/6), tarugos"/>
+        <outline text="8" _note="Ø: 8
+R: 7
+L: 1
+Para qué: tarugos, perno del 3 en 1"/>
+        <outline text="10" _note="Ø: 10
+R: 4 + 1 Yuwei
+L: 3
+Para qué: excéntrico, LED, ranuras de 10 (T11)"/>
+        <outline text="12" _note="Ø: 12
+R: 3
+L: —"/>
+        <outline text="15" _note="Ø: 15
+R: — + 1 Yuwei
+L: 8
+Para qué: cazoleta del excéntrico del 3 en 1"/>
+        <outline text="Más una suelta sin etiqueta (medir)" _note="Más una suelta sin etiqueta (medir). No vino ninguna Ø6 (coincide con &quot;Ø5 para siempre&quot;) y ninguna fresa espiral: todo lo de este lote es mecha; la compra de una fresa Ø6 real para la T187 sigue pendiente. Las 13 herramientas con mango 1/2&quot; de la misma caja son del router (docs/ROUTERSKG912.md §4)."/>
+      </outline>
     </outline>
     <outline text="7. Alarmas y mensajes">
       <outline text="Dónde se lee la causa" _note="Dónde se lee la causa: CncMon32 → botón alarma → &quot;Alertas existentes&quot;. El cartel de MH2026 es la consecuencia; el CNC muestra la causa, y se ve una alarma por vez."/>
@@ -291,9 +314,9 @@ Qué hacer: cargar un cono en ese puesto"/>
       <outline text="MLC 129" _note="Alarma / mensaje: MLC 129 — un cilindro no retornó
 Qué es: la placa prensora / campana quedó abajo
 Qué hacer: subirla; el reposo es arriba"/>
-      <outline text="DrvM3SYNTEC 202h / 203h / 206h" _note="Alarma / mensaje: DrvM3SYNTEC 202h / 203h / 206h (sobrecarga, par, over torque)
-Qué es: herramienta trabajando de costado sin poder (una mecha usada como fresa, o pasada muy profunda)
-Qué hacer: parar; revisar herramienta y profundidad"/>
+      <outline text="DrvM3SYNTEC 202h / 203h / 206h AEje" _note="Alarma / mensaje: DrvM3SYNTEC 202h / 203h / 206h AEje (sobrecarga, par, over torque)
+Qué es: el eje A es el apoyo lateral (empuja la placa de costado): el corte arrastra la placa contra él. Pasó con la Ø20 fresando de costado, al repasar una cazoleta y con la Ø35 a 13 con avances 5000/500/250
+Qué hacer: parar (Ctrl+Alt); bajar el avance de esa herramienta (la Ø35 anduvo al 80 %: quedó 3500/350/175); no repasar"/>
       <outline text="System.ArgumentOutOfRangeException" _note="Alarma / mensaje: System.ArgumentOutOfRangeException (índice fuera del intervalo)
 Qué es: agujero sin herramienta (Ø6), o T184 con diámetro = agujero (35/35)
 Qué hacer: Ø6 → Ø5; T184 en 34,8"/>
