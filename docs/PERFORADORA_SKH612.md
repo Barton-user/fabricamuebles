@@ -191,7 +191,7 @@ de esta revista; el de **abajo** (cara dorso) es el que hace las ranuras de cara
 |---|---|---|---|
 | **184** (puesto 4) | **Mecha FUL Ø35 × 70 R** (MBD3570, widia, mango Ø10), salida 46 | **34,8 / 34,8 / Z 24** (Z 27 daba 10; Z 24 da 13, calibre 05/10) · avances **3500/350/175** (con 5000/500/250 salta 203h/206h del eje A) | **cazoletas** — fija para esto. No repasar una cazoleta hecha |
 | 187 (puesto 7) | Ø6 de ranurar | 6 / 6 | ranuras de fondo cara frente. ⚠️ **revisar si es fresa o mecha** (§14) |
-| 11 | Ø10 | 10 / 10 | ranuras de cara dorso (mínimo de esa cara: **10**) |
+| 11 | Ø10 (husillo de abajo; se cambia con llave fija 28 + llave del mandril, §6.8) | 10 / 10 | ranuras de cara dorso (mínimo de esa cara: **10**). Se rompió el 06/10 |
 | 183 | disco `62211-4T` Ø45 × 3 | 43,9 / 3 | ranura de 3 de costado; no se hunde |
 | 185 (puesto 5) | Ø3,2 | 3,2 | — |
 | 186 (puesto 6) | tabla dice "sin cargar" (Ø24); se vio un cono montado | — | **mirar qué hay** (§14) |
@@ -280,6 +280,17 @@ Config. de paquete) existe pero está vacía; falta que Huahua diga cómo se con
    interruptor: se aprieta de nuevo para salir. Si queda prendido en uno: MLC 348.
 6. Tabla de esa herramienta (diámetro, ancho, Z) → "almacenar herramientas" → Generar de nuevo.
 
+**Fresa de abajo (T11, husillo de cara dorso)** — no tiene cono ni botón, se cambia a mano:
+
+1. Máquina apagada (emergencia + llave), porque se trabaja con las manos abajo.
+2. Medir cuánto sobresale la fresa vieja de la tuerca (la nueva va igual).
+3. **Llave fija de 28** para trabar el eje + **llave del mandril** para aflojar la tuerca ER25.
+4. Cambiar la fresa (Ø10), misma salida, apretar fuerte.
+5. Probar una ranura en un retazo y medir la profundidad.
+
+06/10/2026: estaba destruida y era la causa del `202h AEje` (el carro A se sobrecargaba al
+empezar la ranura). Si salta 202h justo al ranurar, **mirar primero la fresa**.
+
 **Si el husillo queda vacío pero CncMon32 muestra una herramienta** (p. ej. `T 187`): no se
 puede poner en T0 por software. **Montar a mano el cono de esa herramienta** con el botón
 verde. Apagar y prender no lo arregla.
@@ -331,7 +342,7 @@ es la consecuencia; el CNC muestra la causa, y se ve una alarma por vez.
 | `MLC 348` — modo de cambio de herramienta (R46.17) | quedó activo el modo de cambio | apagarlo en MH2026 **y** en CncMon32 |
 | `MLC 142` — señal de sujeción del husillo anormal (r48,13) | el puesto de la revista que pide está vacío | cargar un cono en ese puesto |
 | `MLC 129` — un cilindro no retornó | la placa prensora / campana quedó abajo | subirla; el reposo es arriba |
-| `Drv_M3_SYNTEC 202h / 203h / 206h` **AEje** (sobrecarga, par, over torque) | el **eje A es el apoyo lateral** (empuja la placa de costado): el corte arrastra la placa contra él. Pasó con la Ø20 fresando de costado, al repasar una cazoleta y con la Ø35 a 13 con avances 5000/500/250 | parar (Ctrl+Alt); **bajar el avance** de esa herramienta (la Ø35 anduvo al 80 %: quedó 3500/350/175); no repasar |
+| `Drv_M3_SYNTEC 202h / 203h / 206h` **AEje** (sobrecarga, par, over torque) | el **eje A es el apoyo lateral** (empuja la placa de costado): el corte arrastra la placa contra él. Pasó con la Ø20 fresando de costado, al repasar una cazoleta y con la Ø35 a 13 con avances 5000/500/250. **06/10: fresa de abajo (T11) rota** → saltaba siempre al empezar la ranura | **mirar si la fresa está rota** (la de abajo: §6.8); parar (Ctrl+Alt); **bajar el avance** de esa herramienta (la Ø35 anduvo al 80 %: quedó 3500/350/175); no repasar |
 | `System.ArgumentOutOfRangeException` (índice fuera del intervalo) | agujero sin herramienta (Ø6), o T184 con diámetro = agujero (35/35) | Ø6 → Ø5; T184 en 34,8 |
 | "Diámetro de herramienta demasiado grande" | no hay herramienta tan chica para esa cara (ranura de 9 en dorso) | ranura de 10 |
 | "No se puede usar la herramienta especificada" | se forzó una herramienta que no sirve (p. ej. T188 horizontal para cazoleta) | dejar que asigne el post |

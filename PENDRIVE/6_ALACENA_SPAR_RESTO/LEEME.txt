@@ -33,3 +33,13 @@ DISTINTO DE LA VERSION DEL 01/10
   - Tapa inferior: GuiGui la tenia en "madera multicapa"; va en GRIS 18 (avisar a la disenadora).
   - Ranura LED del techo: 10 x 10 a 95 (GuiGui ya la trae asi).
   - Laterales: iguales a PRUEBA_BISAGRA/9992610019132 y ...149 (mismo programa, otro codigo).
+
+CAMBIO 06/10 - PERNO DE ROSCA PARA MADERA
+=========================================
+Los receptores del 3 en 1 pasaron de O10 x 11 a O5 x 12 (probado en retazo: agarra bien).
+Cambian: techo (057), laterales (064, 071) y tapa inferior (118). Posiciones iguales.
+La tapa inferior lleva los 4 O5 por la cara de ABAJO. Si en la tabla esas 4 filas salen en rojo
+(no hay O5 abajo): destildarlas, mecanizar el resto, dar vuelta la pieza y pasar
+SI_FALLA_O5_ABAJO/9992610019163.xml (solo esos 4 O5, desde arriba).
+OJO: la tapa inferior ya se habia importado en la maquina con O10: borrar su fila de
+"Tipos completados" antes de volver a cargarla.

@@ -1,0 +1,11 @@
+2107738390057 Tapa superior01      VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 10x10
+2107738390064 Lateral izquierdo01  VOLTEADA (cara de trabajo arriba)
+2107738390071 Lateral derecho01    sin cambios
+2107738390088 Superior             VOLTEADA (cara de trabajo arriba)
+2107738390101 Estanteria01         VOLTEADA (cara de trabajo arriba)
+2107738390118 INF01                queda ABAJO: O5
+2107738390125 Fondo01              sin cambios
+2107738390132 Vertical Partition01 VOLTEADA (cara de trabajo arriba)
+2107738390149 Vertical Partition01 sin cambios
+2107738390156 Izquierda            VOLTEADA (cara de trabajo arriba)
+2107738390170 Derecha              VOLTEADA (cara de trabajo arriba)

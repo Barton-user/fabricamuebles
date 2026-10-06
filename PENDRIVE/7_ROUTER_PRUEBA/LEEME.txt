@@ -14,9 +14,9 @@ DE 100 x 100 con la esquina en X50 Y50 (centro de fresa por 45..155).
 ANTES DE EMPEZAR (una sola vez)
 -------------------------------
 A. Aire >= 7 bar (sin eso el botón de soltar herramienta no actúa). Vacío: botón 真空泵1.
-B. Herramienta en T1: Manual → agarrar el cono con una mano, botón verde del husillo 2 s → suelta.
-   Poner el cono con la Ø10. Puesto 1 del almacén debe ser T1 en la tabla (刀库设定).
-C. Medir la herramienta: 自动对刀 → tildar T1 → 自动模式 + 手轮模拟 → arrancar y girar el
+B. Herramienta en T2 (los programas 03 y 04 usan T2): Manual → agarrar el cono con una mano, botón verde del husillo 2 s → suelta.
+   Poner el cono con la Ø10. Verificar la numeración del almacén (ver abajo) (刀库设定).
+C. Medir la herramienta: 自动对刀 → tildar T2 (y T3) → 自动模式 + 手轮模拟 → arrancar y girar el
    volante: baja al palpador (对刀仪) y mide el largo. Después "F3 Z落差" con la fresa sobre la
    mesa (eso carga el Z de G54 = diferencia palpador/mesa).
 D. Mirar G54 (F3 偏置/设定): X e Y deben ser ~cientos (coordenada máquina del pilar menos el
@@ -26,7 +26,7 @@ E. Programa cargado desde USB: U盘导入 → tildar los .nc → F1 拷贝 → i
 
 ORDEN DE LA PRUEBA
 ------------------
-1. 04_AIRE_huahua_std_Z+40.nc  (formato estándar: G54 T1 M03 S18000 G43 H1 ... M30)
+1. 04_AIRE_huahua_std_Z+40.nc  (formato estándar: G54 T2 M03 S18000 G43 H2 ... M30)
    En 自动模式 + 手轮模拟 (simulación por volante: el programa avanza sólo mientras girás el
    volante). Todo pasa 40 mm por arriba: NO toca nada. Mirar que el recorrido sea el cuadrado,
    que el husillo arranque con M03 y a qué rpm (pantalla S / variador Folinn "F600" = 18000).
@@ -50,3 +50,28 @@ MEDIR DESPUES
 - Almacén: ¿qué hay en los otros 11 puestos? ¿la tabla 刀库 tiene X/Z cargados?
 
 Si algo tira alarma, anotar el texto exacto y el número. Las comunes están en docs/ROUTER_SKG912.md.
+
+PRUEBA DEL CAMBIO AUTOMATICO (agregado 05/10, tarde)
+----------------------------------------------------
+Conos ISO30-ER32-50L (G2.5 / 30000 rpm). T2 (puesto 2) = fresa recta Ø10×30 · T3 (puesto 3) = fresa recta Ø8×30 (puesto 1 vacío).
+Montaje: la pinza se clipea PRIMERO en la tuerca (entra inclinada y hace clic), después la tuerca
+al cono, después la fresa. Meter TODO el mango liso dentro de la pinza y dejar afuera sólo los
+30 de filo más ~5 mm de mango liso (que la pinza agarre sólo mango, nunca el filo ni el cuello).
+Las dos quedan con ~35 mm fuera de la tuerca. El largo exacto NO importa: lo mide el palpador.
+Apretar con las dos llaves, fuerte pero sin barra.
+Tabla de herramientas: T2 diámetro 10, T3 diámetro 8, tipo 排刀/recta, offset XY = 0.
+Medir las dos con 自动对刀 (tildar T2 y T3). Después:
+- 06_AIRE_CAMBIO_HERR_Z+40.nc en 手轮模拟: cambia a T2, hace el cuadrado 100 (40 mm arriba),
+  vuelve a Z máquina, cambia a T3, hace un cuadrado de 60 en X250 Y50 (40 mm arriba), termina.
+  Mirar que el cambio sea limpio: almacén sale (M52), suelta/agarra, almacén entra (M53).
+- 05_CAMBIO_HERR_T2_T3.nc = lo mismo cortando. Retazo de 18 de por lo menos 350 × 200.
+Medir después: cuadrado de T2 = 100,0 y de T3 = 60,0 (si uno sale bien y el otro corrido, el
+diámetro cargado en la tabla o el largo medido de esa herramienta está mal).
+
+NUMERACION DEL ALMACEN (verificar antes del primer cambio)
+----------------------------------------------------------
+Las horquillas no tienen número. Según la guía el puesto 1 es el de X menor y cada puesto
+siguiente está 100 mm más en X. Para confirmar: con el volante llevar el husillo justo encima del
+cono de la Ø10 y leer la X MAQUINA; tiene que coincidir con la X del puesto 2 en 刀库设定
+(= X del puesto 1 + 100). Si coincide con otro puesto, cambiar los T de los programas o mover los
+conos. Primer cambio siempre en 手轮模拟 y mirando.

@@ -1774,3 +1774,29 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   con fresa Ø10, 4 programas (aire y corte, en dialecto GuiGui y en formato estándar Huahua con
   G54/T1/M03 S18000/G43 H1) y LEEME con el paso a paso de la guía (pinza ER32-13, soltar herramienta
   con el botón 2 s y ≥7 bar, 自动对刀, Z落差, U盘导入, 手轮模拟). Sin ejecutar todavía.
+- **Perno de rosca para madera (06/10)**: los pernos que hay son de rosca directa (sin taco), Ø 5,84 por afuera de
+  los filetes; en los Ø10 × 11 del 3 en 1 bailan. Prueba: `PENDRIVE/PRUEBA_PERNO/` (565 × 100, dos Ø5 × 12 a 480,
+  centrados) para ver si Ø5 agarra. Si no, opciones: taco receptor Ø10 + perno métrico (como está diseñado) o montar
+  una Ø4,5 en el paquete. Perforadora frenada hasta decidir.
+- **Ø5 en el retazo: perfecto (06/10)**. Receptores del 3 en 1 → **Ø5 × 12** (medida en `herrajes/medidas.json`,
+  clave `tres_en_uno`). Render de la Spar con los 20 Ø10 → Ø5 (`render_guigui_20261005_O5.json`), re-armada en
+  Fusion sobre `ALACENA SPAR GUIGUI` y guardada (47 herrajes: ya no se dibuja el taco). Export en
+  `fusion/EXPORT_SPAR_GUIGUI_O5/`, programas de la carpeta 6 actualizados (cambian 057, 064, 071, 118, sólo Ø y prof).
+  Duda: la tapa inferior lleva los Ø5 por la cara dorso y no sabemos si hay Ø5 abajo → respaldo
+  `SI_FALLA_O5_ABAJO/9992610019163.xml`. A recortar: la tapa inferior (ya tenía los Ø10). Pendiente: que GuiGui
+  saque Ø5 × 12 en el receptor del 3 en 1 (avisar a la diseñadora) y que `ArmarDesdeRender` lea medidas.json.
+- **Eje A confirmado (06/10, noche)**: es el **carro del apoyo lateral** (placa con dos soportes, barra y rueda que
+  aprieta la placa de costado), sobre guías lineales. Con MDI `G91 G01 A5` salta `202h` apenas intenta moverse → el
+  carro está trabado o duro (aserrín en las guías / falta de lubricación: el mantenimiento figura vencido). La alarma
+  de presión de aire (R590.1) es consecuencia: el aire no bajó de 7 bar. Piezas en fenólico rojo; salta al empezar
+  la ranura de 6 (T187). Pendiente: limpiar y lubricar las guías del eje A y volver a probar sin placa.
+
+## 06/10/2026 — 202h AEje en la ranura de fondo (recorte Ø5, fenólico)
+- El carro del eje A se mueve libre a mano y por MDI, y se limpiaron las guías. Igual salta 202h al arrancar la ranura 6×6 (T187) en el fenólico rojo.
+- Causa probable: la T187 es **mecha** (no hay fresa espiral Ø6, §14 de PERFORADORA). Al cortar de costado en fenólico duro empuja la pieza contra el carro A y lo sobrecarga.
+- A probar: G01 al 50 %, ranura en 2 pasadas (3 y 6), o hacer la ranura en la sierra o el router. Queda pendiente comprar una fresa espiral Ø6.
+- Programas con la ranura en 2 pasadas (3 mm + final) en `PENDRIVE/8_SPAR_RANURA_2PASADAS` (codigos nuevos 9992610019217/224/231/248). Falta probarlos en los laterales 826,5×399.
+- Con 2 pasadas igual salta 202h AEje en el lateral 826,5×399. Hipótesis nueva: el carro A aprieta contra una pieza más ancha que lo programado (medir el ancho real) o la ranura no tiene nada que ver (probar destildando la Line).
+- Causa encontrada (probable): los laterales recortados miden **827×400** y no 826,5×399. El carro A aprieta al ancho programado y con 1 mm de más se traba contra la pieza: 202h siempre en el mismo lugar, sin hacer fuerza la fresa. Programas a la medida real en `8_SPAR_RANURA_2PASADAS/MEDIDA_REAL_400x827` (9992610019255 IZQ, 9992610019262 DER). Regla: medir la pieza antes de mecanizar; la sierra dejó +1 mm.
+- Pato encontró la causa real del 202h: la **fresa del husillo de abajo** (la que hace la ranura, T11 / W1) está destruida. A cambiar. Pendiente documentar el procedimiento de cambio del husillo de abajo en PERFORADORA §6.8 (con fotos).
+- **Cambio de la fresa de abajo (T11)**: llave fija de 28 + llave del mandril (ER25), sin cono ni botón. Anotado en CONTEXTO §4/§6 y PERFORADORA §6.3/§6.8 (opml regenerado) y en el tablero FigJam.

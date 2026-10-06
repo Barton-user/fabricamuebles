@@ -1,0 +1,10 @@
+ALACENA SPAR - 4 PIEZAS RECORTADAS, RECEPTORES O5 x 12 (06/10)
+Codigos NUEVOS a proposito: la maquina no tiene version vieja guardada (con O10).
+  9992610019170  Techo          598 x 399    (ex 2107738390057)
+  9992610019187  Lateral IZQ    826,5 x 399  (ex ...064)
+  9992610019194  Lateral DER    826,5 x 399  (ex ...071)
+  9992610019200  Tapa inferior  564 x 399    (ex ...118)
+Variador 300 Hz (ranura de fondo). En la tabla: O5 prof 12 donde antes era O10.
+Tapa inferior: si los 4 O5 de abajo salen en rojo -> destildarlos, mecanizar, dar vuelta la pieza
+y pasar SI_FALLA_O5_ABAJO/9992610019163.xml.
+Hojas de verificacion: ../6_ALACENA_SPAR_RESTO/HOJAS_VERIFICACION.html (mismas piezas).

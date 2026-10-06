@@ -1,0 +1,765 @@
+{
+  "version": 1,
+  "origen": "fusion",
+  "documento": "ALACENA SPAR GUIGUI",
+  "orden": "30346169",
+  "cliente": "",
+  "direccion": "",
+  "ambiente": "PRUEBA 1",
+  "piezas": [
+    {
+      "codigo": "2107738390057",
+      "nombre": "Alacena spar_Tapa superior01 (corte)",
+      "ancho": 399.0,
+      "alto": 598.0,
+      "espesor": 18.0,
+      "material": "STRUCTURE",
+      "mueble": "Alacena spar",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 51.0,
+          "y": 497.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 19.0,
+          "y": 497.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 51.0,
+          "y": 100.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 19.0,
+          "y": 100.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 39.0,
+          "y": 590.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 359.0,
+          "y": 590.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 39.0,
+          "y": 8.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 359.0,
+          "y": 8.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 304.0,
+          "y1": 0.0,
+          "x2": 304.0,
+          "y2": 598.0,
+          "ancho": 10.0,
+          "profundidad": 10.0,
+          "cara": "B"
+        },
+        {
+          "x1": 378.5,
+          "y1": 11.85,
+          "x2": 378.5,
+          "y2": 586.15,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "2107738390064",
+      "nombre": "Alacena spar_Lateral izquierdo01 (corte)",
+      "ancho": 399.0,
+      "alto": 826.47,
+      "espesor": 18.0,
+      "material": "STRUCTURE",
+      "mueble": "Alacena spar",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 51.0,
+          "y": 362.43,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 19.0,
+          "y": 362.43,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 51.0,
+          "y": 174.37,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 19.0,
+          "y": 174.37,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 390.0,
+          "y": 48.93,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 8.0,
+          "y": 48.93,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 39.0,
+          "y": 106.87,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 359.0,
+          "y": 106.87,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 43.5,
+          "y": 463.93,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 331.5,
+          "y": 463.93,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 39.0,
+          "y": 793.47,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 359.0,
+          "y": 793.47,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 39.0,
+          "y": 826.47,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 359.0,
+          "y": 826.47,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 378.5,
+          "y1": 110.72,
+          "x2": 378.5,
+          "y2": 826.47,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "2107738390071",
+      "nombre": "Alacena spar_Lateral derecho01 (corte)",
+      "ancho": 399.0,
+      "alto": 826.47,
+      "espesor": 18.0,
+      "material": "STRUCTURE",
+      "mueble": "Alacena spar",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 348.0,
+          "y": 362.43,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 380.0,
+          "y": 362.43,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 348.0,
+          "y": 174.37,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 380.0,
+          "y": 174.37,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 9.0,
+          "y": 48.93,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 391.0,
+          "y": 48.93,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 106.87,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 106.87,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 355.5,
+          "y": 463.93,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 67.5,
+          "y": 463.93,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 793.47,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 793.47,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 360.0,
+          "y": 826.47,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 40.0,
+          "y": 826.47,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 20.5,
+          "y1": 110.72,
+          "x2": 20.5,
+          "y2": 826.47,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "2107738390101",
+      "nombre": "Alacena spar_Estanteria01 (corte)",
+      "ancho": 376.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "STRUCTURE",
+      "mueble": "Alacena spar",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 43.5,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 331.5,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 43.5,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 331.5,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 43.5,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 331.5,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 43.5,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 331.5,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "2107738390118",
+      "nombre": "Alacena spar_INF01 (corte)",
+      "ancho": 399.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "STRUCTURE",
+      "mueble": "Alacena spar",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 9.0,
+          "y": 522.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 9.0,
+          "y": 42.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 391.0,
+          "y": 522.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 391.0,
+          "y": 42.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 360.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 360.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 40.0,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 360.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 40.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 360.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 40.0,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 20.5,
+          "y1": 0.0,
+          "x2": 20.5,
+          "y2": 564.0,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "2107738390125",
+      "nombre": "Alacena spar_Fondo01",
+      "ancho": 574.0,
+      "alto": 720.6,
+      "espesor": 5.0,
+      "material": "BACKGROUND",
+      "mueble": "Alacena spar",
+      "textura": "d02白麻面",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "2107738390132",
+      "nombre": "Alacena spar_Listón02_Vertical Partition01 (corte)",
+      "ancho": 564.0,
+      "alto": 99.0,
+      "espesor": 18.0,
+      "material": "STRUCTURE",
+      "mueble": "Alacena spar",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 42.0,
+          "y": 66.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 522.0,
+          "y": 66.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 50.07,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 531.0,
+          "y": 50.07,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 42.0,
+          "y": 99.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 522.0,
+          "y": 99.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 0.0,
+          "y": 50.07,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        },
+        {
+          "x": 564.0,
+          "y": 50.07,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "2107738390149",
+      "nombre": "Alacena spar_Listón01_Vertical Partition01 (corte)",
+      "ancho": 564.0,
+      "alto": 99.0,
+      "espesor": 18.0,
+      "material": "STRUCTURE",
+      "mueble": "Alacena spar",
+      "textura": "13玛雅灰",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 522.0,
+          "y": 66.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 42.0,
+          "y": 66.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 50.07,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 531.0,
+          "y": 50.07,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 522.0,
+          "y": 99.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 42.0,
+          "y": 99.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 0.0,
+          "y": 50.07,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        },
+        {
+          "x": 564.0,
+          "y": 50.07,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    }
+  ]
+}

@@ -161,9 +161,9 @@ Qué hay: Ø6 de ranurar
 Tabla (Ø / ancho / Z): 6 / 6
 Uso: ranuras de fondo cara frente. ⚠️ revisar si es fresa o mecha (§14)"/>
         <outline text="11" _note="T: 11
-Qué hay: Ø10
+Qué hay: Ø10 (husillo de abajo; se cambia con llave fija 28 + llave del mandril, §6.8)
 Tabla (Ø / ancho / Z): 10 / 10
-Uso: ranuras de cara dorso (mínimo de esa cara: 10)"/>
+Uso: ranuras de cara dorso (mínimo de esa cara: 10). Se rompió el 06/10"/>
         <outline text="183" _note="T: 183
 Qué hay: disco 62211-4T Ø45 × 3
 Tabla (Ø / ancho / Z): 43,9 / 3
@@ -261,6 +261,13 @@ rpm: ≈ 18000"/>
         <outline text="Volver a poner el cono (chavetas calzadas)" _note="Volver a poner el cono (chavetas calzadas) → botón verde → lo chupa."/>
         <outline text="Apagar el modo de cambio en MH2026 Y en CncMon32" _note="Apagar el modo de cambio en MH2026 Y en CncMon32 (&quot;Cambio de cuchillo&quot;) — es un interruptor: se aprieta de nuevo para salir. Si queda prendido en uno: MLC 348."/>
         <outline text="Tabla de esa herramienta (diámetro, ancho, Z)" _note="Tabla de esa herramienta (diámetro, ancho, Z) → &quot;almacenar herramientas&quot; → Generar de nuevo."/>
+        <outline text="Fresa de abajo (T11, husillo de cara dorso)" _note="Fresa de abajo (T11, husillo de cara dorso) — no tiene cono ni botón, se cambia a mano:"/>
+        <outline text="Máquina apagada" _note="Máquina apagada (emergencia + llave), porque se trabaja con las manos abajo."/>
+        <outline text="Medir cuánto sobresale la fresa vieja de la tuerca" _note="Medir cuánto sobresale la fresa vieja de la tuerca (la nueva va igual)."/>
+        <outline text="Llave fija de 28" _note="Llave fija de 28 para trabar el eje + llave del mandril para aflojar la tuerca ER25."/>
+        <outline text="Cambiar la fresa" _note="Cambiar la fresa (Ø10), misma salida, apretar fuerte."/>
+        <outline text="Probar una ranura en un retazo y medir la profundidad."/>
+        <outline text="06/10/2026" _note="06/10/2026: estaba destruida y era la causa del 202h AEje (el carro A se sobrecargaba al empezar la ranura). Si salta 202h justo al ranurar, mirar primero la fresa."/>
         <outline text="Si el husillo queda vacío pero CncMon32 muestra una…" _note="Si el husillo queda vacío pero CncMon32 muestra una herramienta (p. ej. T 187): no se puede poner en T0 por software. Montar a mano el cono de esa herramienta con el botón verde. Apagar y prender no lo arregla."/>
       </outline>
       <outline text="6.9 Mechas del paquete">
@@ -315,8 +322,8 @@ Qué hacer: cargar un cono en ese puesto"/>
 Qué es: la placa prensora / campana quedó abajo
 Qué hacer: subirla; el reposo es arriba"/>
       <outline text="DrvM3SYNTEC 202h / 203h / 206h AEje" _note="Alarma / mensaje: DrvM3SYNTEC 202h / 203h / 206h AEje (sobrecarga, par, over torque)
-Qué es: el eje A es el apoyo lateral (empuja la placa de costado): el corte arrastra la placa contra él. Pasó con la Ø20 fresando de costado, al repasar una cazoleta y con la Ø35 a 13 con avances 5000/500/250
-Qué hacer: parar (Ctrl+Alt); bajar el avance de esa herramienta (la Ø35 anduvo al 80 %: quedó 3500/350/175); no repasar"/>
+Qué es: el eje A es el apoyo lateral (empuja la placa de costado): el corte arrastra la placa contra él. Pasó con la Ø20 fresando de costado, al repasar una cazoleta y con la Ø35 a 13 con avances 5000/500/250. 06/10: fresa de abajo (T11) rota → saltaba siempre al empezar la ranura
+Qué hacer: mirar si la fresa está rota (la de abajo: §6.8); parar (Ctrl+Alt); bajar el avance de esa herramienta (la Ø35 anduvo al 80 %: quedó 3500/350/175); no repasar"/>
       <outline text="System.ArgumentOutOfRangeException" _note="Alarma / mensaje: System.ArgumentOutOfRangeException (índice fuera del intervalo)
 Qué es: agujero sin herramienta (Ø6), o T184 con diámetro = agujero (35/35)
 Qué hacer: Ø6 → Ø5; T184 en 34,8"/>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="2107738390101" plateNickName="Alacena spar_Estanteria01 (corte)" width="564.00" depth="376.00" height="18.00" barCode="2107738390101" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="0" bandingFront="0" bandingLeft="1"/>
+    </Bandings>
+    <Holes>
+        <Hole point="(43.50,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(331.50,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(43.50,531.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(331.50,531.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(43.50,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(331.50,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(43.50,564.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,-1,0)"/>
+        <Hole point="(331.50,564.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,-1,0)"/>
+    </Holes>
+    <Slottings/>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,564.00,18.00)" endPoint="(376.00,564.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(376.00,564.00,18.00)" endPoint="(376.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(376.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,564.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

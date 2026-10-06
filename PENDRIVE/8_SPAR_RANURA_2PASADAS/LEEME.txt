@@ -1,0 +1,8 @@
+ALACENA SPAR - RANURA EN 2 PASADAS (06/10)
+Mismas piezas que 7_SPAR_RECORTE_O5, pero cada ranura se hace 2 veces: primero a 3 mm, despues a la profundidad final.
+Es para que la T187 (que es mecha, no fresa) no sobrecargue el eje A en el fenolico.
+  9992610019217  Techo          598 x 399    (ex ...170)  tambien la ranura LED de 10 en 2 pasadas
+  9992610019224  Lateral IZQ    826,5 x 399  (ex ...187)
+  9992610019231  Lateral DER    826,5 x 399  (ex ...194)
+  9992610019248  Tapa inferior  564 x 399    (ex ...200)
+Variador 300 Hz. Si igual salta 202h: Velocidad G01 al 50 %.

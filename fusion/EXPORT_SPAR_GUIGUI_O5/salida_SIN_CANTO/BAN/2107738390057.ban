@@ -1,0 +1,21 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/10/06 pm 12:08:00" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="399.00" Height="598.00" PlaneSize="1" Grain="2" Thickness="18" Material="STRUCTURE" EdgeFBLR="1,1,1,0" Name="Alacena spar_Tapa superior01 (corte)" Code="2107738390057">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="399.00 0.00 0"/>
+        <Point Value="399.00 598.00 0"/>
+        <Point Value="0.00 598.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="51.00 497.50 0" End="51.00 497.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="19.00 497.50 0" End="19.00 497.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="51.00 100.50 0" End="51.00 100.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="19.00 100.50 0" End="19.00 100.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="39.00 590.00 0" End="39.00 590.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="359.00 590.00 0" End="359.00 590.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="39.00 8.00 0" End="39.00 8.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="359.00 8.00 0" End="359.00 8.00 -12.00"/>
+    <SlotL Name="" Face="B" Start="304.00 0.00 -10.00" End="304.00 598.00 -10.00" Width="10.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="378.50 11.85 -6.00" End="378.50 586.15 -6.00" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

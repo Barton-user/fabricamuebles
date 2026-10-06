@@ -1,6 +1,6 @@
 # FÁBRICA MUEBLES — Contexto del proyecto
 
-_Leiten Com · Pato · Última actualización: **05/10/2026**_
+_Leiten Com · Pato · Última actualización: **06/10/2026**_
 
 > **Cómo se usa este archivo.** Es lo único que hay que leer al empezar una conversación.
 > Dice **qué es cierto hoy**. El detalle de cada tema está en `docs/` (mapa en §7) y la historia
@@ -105,6 +105,7 @@ recetas/ ──(fusion/ArmarReceta)───────────────
 - **Tornillos de bisagra: Ø5 para siempre** (la Ø6 no existe en la máquina y el software crashea).
   `etapa2/ajustar_maquina.py --o6-a-o5` lo hace solo.
 - **Ranuras de cara dorso: mínimo 10 mm** (sólo hay T11 Ø10 abajo). LED: ranura **10 × 10**.
+- **Fresa de abajo (T11, husillo de cara dorso)**: se cambia a mano con una **llave fija de 28** (traba el eje) y la **llave del mandril** (tuerca ER25). No tiene cono ni botón. 06/10: estaba destruida y era la causa del `202h AEje` en la ranura. Detalle en `docs/PERFORADORA_SKH612.md` §6.8.
 - **Mechas de repuesto** (vinieron con las máquinas, 05/10): Ø5 (6R+5L+1 Yuwei), Ø8 (7R+1L), Ø10 (4R+3L+1 Yuwei), Ø12 (3R), Ø15 (8L+1 Yuwei), mango Ø10×70. Ninguna Ø6. Detalle en `docs/PERFORADORA_SKH612.md`.
 - Cazoletas y ranuras de menos de 10 **sólo desde arriba** → `ajustar_maquina.py` da vuelta las
   piezas solo.
@@ -118,6 +119,8 @@ recetas/ ──(fusion/ArmarReceta)───────────────
   Cazoleta Ø35 × 13 a 22,5 del canto. ⚠️ El 6 sale de la marca sobre la puerta: **confirmarlo con
   calibre**. La medida vive en **`herrajes/medidas.json`**; GuiGui todavía trae 14,5 → generar con
   `ajustar_maquina.py --bisagra`.
+- **3 en 1: el perno es de rosca para madera (sin taco) → receptor Ø5 × 12** (probado 06/10; el Ø10 × 11 de GuiGui
+  es para taco y el perno baila). Medida en `herrajes/medidas.json` (`tres_en_uno`). GuiGui todavía saca Ø10.
 - Biblioteca 3D en `herrajes/biblioteca/` (`CATALOGO.md`): **no volver a modelar herrajes**.
 
 **Sierra / AutoCUT**: el mapeo está **mal** (cantos cruzados → piezas 1 mm mal por lado; código de
@@ -150,6 +153,7 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 2 | Mecha vertical Ø6 | ❌ **no se compra** — Ø5 para siempre |
 | 3 | **Fresa espiral de punta plana** (Ø20, o Ø10/12) | 🕓 sólo si algún día hay que fresar contornos o cazoletas de otro diámetro (la Ø20x70R es mecha) |
 | 4 | Fresa espiral Ø6 de verdad para la T187 | ⏸ si se confirma que la actual es mecha |
+| 4b | **Fresa Ø10 de repuesto para la T11** (husillo de abajo, pinza ER25) | 🛒 la de la máquina se rompió el 06/10 — tener siempre una de repuesto |
 | 5 | Fresa Ø6 para el **router** (T1) | ✅ **ya hay**: vinieron 2 (Ø6×22 y Ø6×20, mango 1/2"). Falta confirmar pinza **ER32 de 13** |
 
 No se compra: fresa de ranurar Ø9 (se diseña con ranuras de 10).

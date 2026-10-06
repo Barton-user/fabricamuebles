@@ -1,0 +1,55 @@
+<!doctype html><html lang="es"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hojas de verificacion</title><style>
+:root{--paper:#fff;--ink:#1c1b19;--muted:#6b6862;--rule:#d9d5cc;--panel:#f4f1ea;
+--hole:#c8d9e8;--slot:#e6dcc8;--slotline:#a08d63;--side:#b5543f;--accent:#7a3c2c}
+@media screen and (prefers-color-scheme:dark){:root:not([data-theme=light]){
+--paper:#12110f;--ink:#eceae5;--muted:#9a958c;--rule:#33312c;--panel:#1e1c19;
+--hole:#2c455c;--slot:#3a3226;--slotline:#a08d63;--side:#d4735c;--accent:#e0a18c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font:14px/1.5 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:22px;margin:0 0 2px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:22px}
+.hoja{border-top:2px solid var(--ink);padding-top:14px;margin-top:34px}
+.hoja:first-of-type{margin-top:18px}
+.cod{font:600 19px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.02em}
+.nom{color:var(--muted);font-size:13px;margin:2px 0 4px}
+.dim{font-size:13px;margin-bottom:10px}
+.dim b{font-weight:600}
+svg.pz{width:100%;height:auto;display:block;margin:6px 0 4px;
+border:1px solid var(--rule);border-radius:6px;background:var(--paper)}
+text{font:10px ui-sans-serif,sans-serif;fill:var(--ink);text-anchor:middle}
+.lbl{font-size:9.5px;fill:var(--muted)}
+.lbl.side{fill:var(--side)}
+.cota{font-size:10px;fill:var(--accent);font-weight:600}
+.cota.ar{text-anchor:end}
+.med{font-size:11px;fill:var(--muted)}
+.cara{font-size:10px;fill:var(--muted);text-anchor:start;letter-spacing:.06em}
+.cot{stroke:var(--accent);stroke-width:1}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0 26px}
+th,td{text-align:left;padding:5px 8px;border-bottom:1px solid var(--rule)}
+th{font-weight:600;color:var(--muted);font-size:12px}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.nota{background:var(--panel);border-left:3px solid var(--accent);
+padding:10px 14px;border-radius:0 6px 6px 0;font-size:13px;margin:16px 0}
+@media print{.hoja{page-break-before:always;border-top:none}
+.hoja:first-of-type{page-break-before:avoid}.wrap{max-width:none;padding:0}
+:root{--paper:#fff;--ink:#000;--muted:#555;--rule:#bbb;--panel:#f2f2f2}}
+</style>
+<div class="wrap">
+<h1>Hojas de verificación — Prueba perno O5</h1>
+<div class="sub">1 piezas · cotas en mm desde el borde · medir con calibre contra estos valores</div>
+<h2 style='font-size:15px;margin:0 0 6px'>Herramientas necesarias</h2>
+<table><tr><th>Tipo</th><th>Ø / ancho</th><th>Profundidad</th><th style='text-align:right'>Cantidad</th></tr>
+<tr><td>Vertical</td><td>5 mm</td><td>12 mm</td><td class='n'>2</td></tr>
+</table>
+<div class="nota"><b>Antes de mecanizar:</b> cargar el programa y comparar el dibujo de la pantalla contra esta hoja. Si no coincide, parar.</div>
+<div class="hoja">
+<div class="cod">9992610019156</div>
+<div class="nom">PRUEBA PERNO rosca madera O5 x12 a 480</div>
+<div class="dim"><b>565 × 100 × 18 mm</b> · 18_STRUCTURE · cantos F0 B0 L0 R0</div>
+<svg viewBox="0 0 768.0 274.2" class="pz"><rect x="0" y="0" width="768.0" height="274.2" fill="var(--paper)"/><path d="M84.00,190.19 L684.00,190.19 L684.00,84.00 L84.00,84.00 L84.00,190.19" fill="var(--panel)" stroke="var(--ink)" stroke-width="1.4"/><circle cx="129.13" cy="137.10" r="2.65" fill="var(--hole)" stroke="var(--ink)" stroke-width="1"/><circle cx="638.87" cy="137.10" r="2.65" fill="var(--hole)" stroke="var(--ink)" stroke-width="1"/><text x="129.1" y="130.4" class="lbl">&#216;5&#8239;·&#8239;12</text><text x="638.9" y="130.4" class="lbl">&#216;5&#8239;·&#8239;12</text><line x1="129.13" y1="190.2" x2="129.13" y2="198.2" class="cot"/><text x="129.1" y="208.2" class="cota">42.5</text><line x1="638.87" y1="190.2" x2="638.87" y2="198.2" class="cot"/><text x="638.9" y="208.2" class="cota">522.5</text><line x1="84.0" y1="137.10" x2="76.0" y2="137.10" class="cot"/><text x="73.0" y="140.6" class="cota ar">50</text><text x="384.0" y="235.2" class="med">565 mm</text><text x="38.0" y="137.1" class="med" transform="rotate(-90 38.0 137.1)">100 mm</text><text x="90.0" y="72.0" class="cara">CARA A (frontal)</text></svg>
+</div>
+</div></html>
