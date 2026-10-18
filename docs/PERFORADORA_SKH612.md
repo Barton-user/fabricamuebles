@@ -137,7 +137,7 @@ Necesita que las etiquetas traigan **el código real** (hoy AutoCUT imprime `P01
 | **"Descarg"** | 前出料 | **salida hacia ADELANTE** — la pieza vuelve al operador. **Es la que se usa** (confirmado 01/10). |
 | **"Después"** | 后出料 | salida hacia atrás |
 | **"todo despejado"** | 解除板宽板长警报 | **borra la alarma de medida de placa** (MLC 148) |
-| "Detección de longitud" / "de ancho" | 板长检测 / 板宽检测 | verificación de medida (mejor no apagarlas; usar "todo despejado") |
+| "Detección de longitud" / "de ancho" | 板长检测 / 板宽检测 | verificación de medida. **Dejarlas PRENDIDAS**: apagadas, la máquina cree el ancho del programa y si la placa es más ancha el carro A empuja contra ella → `202h AEje` (06/10, placa 400 con programa 399). Si avisa MLC 148, la medida no coincide: revisar la pieza o el programa |
 | "Encender el ventilador" | 曲用风机 | ventilador |
 | "Apantallamiento lateral" | 屏幕演示 | demo en pantalla |
 
@@ -288,8 +288,8 @@ Config. de paquete) existe pero está vacía; falta que Huahua diga cómo se con
 4. Cambiar la fresa (Ø10), misma salida, apretar fuerte.
 5. Probar una ranura en un retazo y medir la profundidad.
 
-06/10/2026: estaba destruida y era la causa del `202h AEje` (el carro A se sobrecargaba al
-empezar la ranura). Si salta 202h justo al ranurar, **mirar primero la fresa**.
+06/10/2026: estaba gastada y se cambió (la de arriba también). **No era la causa del `202h`**:
+era la pieza más ancha que lo programado (ver alarmas).
 
 **Si el husillo queda vacío pero CncMon32 muestra una herramienta** (p. ej. `T 187`): no se
 puede poner en T0 por software. **Montar a mano el cono de esa herramienta** con el botón
@@ -342,7 +342,7 @@ es la consecuencia; el CNC muestra la causa, y se ve una alarma por vez.
 | `MLC 348` — modo de cambio de herramienta (R46.17) | quedó activo el modo de cambio | apagarlo en MH2026 **y** en CncMon32 |
 | `MLC 142` — señal de sujeción del husillo anormal (r48,13) | el puesto de la revista que pide está vacío | cargar un cono en ese puesto |
 | `MLC 129` — un cilindro no retornó | la placa prensora / campana quedó abajo | subirla; el reposo es arriba |
-| `Drv_M3_SYNTEC 202h / 203h / 206h` **AEje** (sobrecarga, par, over torque) | el **eje A es el apoyo lateral** (empuja la placa de costado): el corte arrastra la placa contra él. Pasó con la Ø20 fresando de costado, al repasar una cazoleta y con la Ø35 a 13 con avances 5000/500/250. **06/10: fresa de abajo (T11) rota** → saltaba siempre al empezar la ranura | **mirar si la fresa está rota** (la de abajo: §6.8); parar (Ctrl+Alt); **bajar el avance** de esa herramienta (la Ø35 anduvo al 80 %: quedó 3500/350/175); no repasar |
+| `Drv_M3_SYNTEC 202h / 203h / 206h` **AEje** (sobrecarga, par, over torque) | el **eje A es el carro del apoyo lateral** (aprieta la placa de costado hasta el ancho del programa). **Causa principal (confirmada 07/10): la pieza es 1–2 mm más ancha que lo programado** → el carro empuja contra la madera y se sobrecarga; salta siempre en el mismo lugar aunque la fresa no esté haciendo fuerza. Otras causas vistas: el corte arrastra la placa contra el carro (Ø20 fresando de costado, repasar una cazoleta, Ø35 con avances 5000/500/250) | **medir la pieza con calibre**: si no coincide, recortarla o hacer el programa con la medida real. Detecciones de ancho/largo prendidas. Si es por el corte: bajar el avance (Ø35: 3500/350/175), no repasar. Mover A a mano para ver que esté libre |
 | `System.ArgumentOutOfRangeException` (índice fuera del intervalo) | agujero sin herramienta (Ø6), o T184 con diámetro = agujero (35/35) | Ø6 → Ø5; T184 en 34,8 |
 | "Diámetro de herramienta demasiado grande" | no hay herramienta tan chica para esa cara (ranura de 9 en dorso) | ranura de 10 |
 | "No se puede usar la herramienta especificada" | se forzó una herramienta que no sirve (p. ej. T188 horizontal para cazoleta) | dejar que asigne el post |

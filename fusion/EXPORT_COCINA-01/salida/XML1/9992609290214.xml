@@ -12,10 +12,10 @@
         <Hole point="(37.00,275.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(413.00,85.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(37.00,85.00,18.00)" diameter="3.00" depth="10.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(571.00,710.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(50.00,751.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(50.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(530.00,9.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(571.00,710.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(50.00,751.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(50.00,9.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(530.00,9.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
     </Holes>
     <Slottings>
         <Slotting positionSide="1" slottingStartX="552.50" slottingStartY="0.00" slottingStartZ="0.000" slottingEndX="552.50" slottingEndY="760.00" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="6.00"/>

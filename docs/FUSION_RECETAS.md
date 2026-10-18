@@ -384,6 +384,57 @@ grupo rígido). Se mueven con ENSAMBLAR → *Accionar juntas* o *Estudio de movi
 
 ---
 
+### 25.2 · Rediseño como el render verde (18/10/2026)
+
+Pato pidió que COCINA-01 quede como un render de referencia (verde, vitrinas con cuadrícula,
+tiradores de cobre, cornisa). Decisiones: distribución + estilo, mismas paredes (2190 / 1368),
+**sin lavavajillas**, vitrinas de marco de melamina + vidrio, tiradores perforados (barral 128,
+perilla). Todo en `recetas/cocina01.py`; `ArmarReceta` armó el documento `COCINA-01` vaciado
+(por MCP, `armar(nuevo=False)`), 106 placas, **106/106 receta = sólido**.
+
+Qué cambió:
+
+- **B4 Bajo puerta 452** (1720–2172) donde iba el lavavajillas; `bajo_normal(..., "puerta")`:
+  una puerta a todo el alto, bisagras en el lateral del extremo. Panel terminal a 2172–2190,
+  zócalo largo hasta ahí. `REFERENCIA` sale de la receta (`modelo.json["referencia"]`).
+- **Alacenas**: cuerpo 1510–2430; **cornisa** VERDE de 60 arriba (`Cornisa`, retirada 18 como
+  la cenefa, 3 en 1 al techo). En el esquinero la cornisa es diagonal, como la cenefa.
+- **Vitrina** (`vitrina(puerta, cols, filas)`): la puerta sigue siendo **una placa de 18**; se
+  le agregan `ventanas` (huecos pasantes) y un `rebaje` de 12 × 5 por la cara A para vidrio de
+  4. Marco: montantes 60 (la cazoleta a 22,5 y el ala de la bisagra entran), travesaños 70,
+  parantes 25. A3 (puertas 397) y esquinero (633) en 2×3; **A4 (puertas 282) en 1×3** porque
+  con 2 columnas los vidrios quedan de 68. `Placa` tiene `ventanas`/`rebajes`; van a
+  `modelo.json` y a `piezas_receta.json`. **Las hace el router y el `.nc` no se genera**:
+  la perforadora sólo ve cazoletas, tornillos y perilla. Cada vidrio sale como herraje
+  (`Vidrio 300x800`) para la lista.
+- **A2 rebatible** (`alacena(..., tipo="rebatible")`): frente fijo de 300 arriba, **estante
+  fijo** 18 abajo del centro de la junta (su cara de abajo queda 16,5 arriba del canto de la
+  puerta, como un techo sobre una puerta: así la bisagra es la misma, base −6) y puerta
+  rebatible 597 × 614 con 2 bisagras en el canto de arriba + pistones a mano (como la Spar).
+- **Tiradores**: `tirador()` (2 × Ø5 **pasantes** a 128, desde la cara A; aviso si astilla),
+  `tirador_puerta()` vertical a 45 del canto que abre y 150 del borde de arriba,
+  `perilla()`. Horizontal centrado en cajones y en la rebatible (50 del borde de abajo).
+  Herrajes dibujados: `Tirador barral 128`, `Perilla` (cobre), `Vidrio` (vidrio).
+  `chequeos()` acepta el pasante sólo con `sym == "handle"` y controla que ningún agujero
+  caiga en una ventana o en el rebaje.
+- **Herrajes desde `medidas.json`**: receptor Ø5 × 12 (ya no se dibuja receptor; con rosca para
+  madera no hay pieza) y placa base **37 del frente, ±16** (`base_frente`, `base_a_lo_largo`;
+  `base_desde_frente` 20/52 queda sólo para `PonerHerrajes`).
+
+Dos cosas que se encontraron:
+
+1. **`ExportarPiezas` leía el rebaje del vidrio como una ranura de 301 × 5** y la mandaba al
+   XML3. Ahora una cara plana de más de `RANURA_ANCHO_MAX = 40` de ancho se ignora con el log
+   "CAJEADO ... es del ROUTER". (La del esquinero ya caía por la relación largo/ancho.)
+2. **Apariencias de herrajes dentro de `armar()`**: a tiradores, perillas y vidrios se les
+   asigna la apariencia sin error pero quedan "Steel - Satin" (con copias "FM ..." y con las
+   de biblioteca igual). En una corrida aparte anda: `ArmarReceta.repintar()`. No se entendió
+   por qué.
+
+Paquete regenerado en `fusion/EXPORT_COCINA-01/` (106 XML3; 11 MPR viejos en
+`salida/_obsoleto_18-10/`). El documento de Fusion **no se guardó** desde el script: lo guarda
+Pato cuando lo vea.
+
 ## 27. ALACENA SPAR — primer mueble de GuiGui rehecho en Fusion sin tocar GuiGui (01/10/2026)
 
 La diseñadora dibujó en GuiGui (PRUEBA 1, orden 260625-20) una **alacena sobre campana**: 600 × 845

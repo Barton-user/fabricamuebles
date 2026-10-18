@@ -1,11 +1,15 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/02 am 12:27:58" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="774.00" Height="954.00" PlaneSize="1" Grain="2" Thickness="5" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A3 Alacena 800_Fondo" Code="9992609290788">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:17:13" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="600.00" Height="60.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,1,1,1" Name="COCINA-01_A2 Alacena 600 rebatible_Cornisa" Code="9992609290788">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="774.00 0.00 0"/>
-        <Point Value="774.00 954.00 0"/>
-        <Point Value="0.00 954.00 0"/>
+        <Point Value="600.00 0.00 0"/>
+        <Point Value="600.00 60.00 0"/>
+        <Point Value="0.00 60.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="556.00 33.00 0" End="556.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="44.00 33.00 0" End="44.00 33.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="556.00 0.00 -9.00" End="556.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="44.00 0.00 -9.00" End="44.00 33.00 -9.00"/>
 </Plane>
 </MicroDrawBan_XML>

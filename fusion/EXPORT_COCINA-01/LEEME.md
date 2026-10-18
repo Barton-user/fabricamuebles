@@ -3,33 +3,47 @@
 Generado el 29/09/2026 desde `recetas/cocina01.py` → Fusion `COCINA-01` (proyecto cocina) →
 `ExportarPiezas` → `etapa2/`. Basado en las medidas del modelo de render `COCINA`.
 
+**Regenerado el 18/10/2026** con el diseño nuevo (como el render verde con vitrinas y cobre): sin
+lavavajillas, B4 bajo puerta 452, alacenas con cornisa, A3/A4/esquinero vitrinas, A2 rebatible,
+tiradores Ø5 pasantes, receptor Ø5×12, placa base 37/±16. **106 placas.** Los 11 archivos MPR del
+paquete viejo que ya no corresponden quedaron en `salida/_obsoleto_18-10/`.
+⚠️ **Las 5 puertas vitrina NO salen completas**: la perforadora recibe cazoletas, tornillos y
+perilla; las ventanas y el rebaje del vidrio son del **router** y el `.nc` todavía no se genera
+(la geometría está en `recetas/salida/COCINA-01/modelo.json`, claves `ventanas` y `rebajes`).
+
 ## Qué hay acá
 
 | Carpeta / archivo | Para qué |
 |---|---|
-| `salida/XML3/` | **Perforadora SKH-612HS** — cargar con Formato **KDTXml** (95 piezas) |
-| `salida/MPR/` | alternativa: Formato **Haomai MPR** (79 archivos, con los `K` de cara trasera) |
+| `salida/XML3/` | **Perforadora SKH-612HS** — cargar con Formato **KDTXml** (106 piezas) |
+| `salida/MPR/` | alternativa: Formato **Haomai MPR** (99 archivos, con los `K` de cara trasera) |
 | `salida/BAN/`, `salida/XML1/` | otros formatos (la SKH-612HS no lee BAN) |
-| `salida/lista_corte.csv` / `.xlsx` | **AutoCUT → sierra HP280** (95 piezas) |
+| `salida/lista_corte.csv` / `.xlsx` | **AutoCUT → sierra HP280** (106 piezas) |
 | `salida/HOJAS_VERIFICACION.html` | plano acotado de cada pieza con mecanizado, para imprimir y medir |
 | `piezas.json` | lo que Fusion leyó del sólido (entrada de etapa2) |
 
-## Muebles (95 placas)
+## Muebles (106 placas)
 
 B1 esquinero bajo diagonal · B2 bajo pileta 600 (frente fijo + 2 puertas) · B3 cajonera 320
-(4 cajones) · P1/P2 paneles terminales · A1 esquinero alacena diagonal · A2 alacena 600 ·
-A3 alacena 800 · A4 alacena 570 (pared corta) · zócalos.
-Cuerpos BLANCO 18, frentes/paneles/cenefas/zócalos VERDE 18, fondos 5 en ranura 6×6.
+(4 cajones) · **B4 bajo puerta 452** (una puerta) · P1/P2 paneles terminales · A1 esquinero
+alacena diagonal **vitrina 2×3** · **A2 alacena 600 rebatible** (frente fijo + puerta rebatible
+sobre estante fijo) · **A3 vitrina 800** (2 puertas 2×3) · **A4 vitrina 570** (pared corta, 2
+puertas 1×3) · zócalos. Cenefa y cornisa VERDE de 60 en todas las alacenas.
+Cuerpos BLANCO 18, frentes/paneles/cenefas/cornisas/zócalos VERDE 18, fondos 5 en ranura 6×6.
 
 ## Herrajes (para comprar)
 
 | Herraje | Cant. |
 |---|---|
-| 3 en 1 (excéntrica Ø15 + perno 33 + receptor Ø10) | 88 |
-| Bisagra de cazoleta Ø35 Grupo Euro (tornillos a 48) con base cruz | 27 |
+| 3 en 1 (excéntrica Ø15 + perno 33 rosca madera, receptor Ø5×12 sin taco) | 108 |
+| Bisagra de cazoleta Ø35 Grupo Euro (tornillos a 48) con base (37 / ±16) | 25 |
 | Corredera de bolillas 450 (pares) | 4 pares (8 rieles) |
-| Soporte de estante Ø5 | 36 |
-| Pata regulable 100 | 13 |
+| Soporte de estante Ø5 | 32 |
+| Pata regulable 100 | 17 |
+| Tirador barral cobre 128 e.c. | 9 |
+| Perilla cobre | 5 |
+| Vidrio 4 mm | 536×800 · 2 × 300×800 · 2 × 185×800 |
+| Pistón a gas (puerta rebatible A2, 597×614) | 2 |
 | Tira LED (mm) | 516 · 524 · 724 · 494 (la de 494 va pegada, sin ranura) |
 | Colgador de alacena regulable | 8 (sin perforación hasta medir el modelo) |
 | Clips de zócalo | según patas |
@@ -59,9 +73,11 @@ Cuerpos BLANCO 18, frentes/paneles/cenefas/zócalos VERDE 18, fondos 5 en ranura
 
 ## Controles que sí se hicieron
 
-- Receta vs. lo que Fusion lee del sólido: **95/95 piezas idénticas** (medidas, contorno,
-  cantos, agujeros, ranuras) — `python3 recetas/comparar.py`.
-- XML3 releído contra `piezas.json`: 95/95 (tipos de operación y medidas de placa).
+- Receta vs. lo que Fusion lee del sólido: **106/106 piezas idénticas** (18/10; medidas,
+  contorno, cantos, agujeros, ranuras) — `python3 recetas/comparar.py`. El rebaje de las
+  vitrinas lo lee Fusion como cara plana de 300 de ancho: `ExportarPiezas` lo ignora
+  (`RANURA_ANCHO_MAX = 40`) para que no salga como ranura a la perforadora.
+- XML3 releído contra `piezas.json`: 95/95 el 29/09 (no repetido el 18/10).
 - Interferencias en Fusion entre placas: ninguna (salvo el encuentro de zócalos); bisagras,
   correderas, soportes, patas y LED contra placas: ninguna.
 - Chequeos de la receta: agujeros fuera de placa o pasantes, cruces entre caras, agujeros que

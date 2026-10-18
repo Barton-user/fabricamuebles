@@ -12,22 +12,37 @@ Escribe:
     resumen.txt          lista de muebles y placas, herrajes y avisos.
 
 Sale del modelo de render "COCINA" (Fusion, proyecto cocina) — solo medidas —
-con las decisiones de Pato del 29/09/2026:
+con las decisiones de Pato del 29/09/2026, REVISADAS el 18/10/2026 para que la
+cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
 
-  * puertas y frentes lisos de melamina 18 (VERDE 18), cuerpos BLANCO 18
+  * frentes de melamina 18 (VERDE 18), cuerpos BLANCO 18
   * esquineros diagonales (bajo y alacena): la sierra corta el rectangulo y el
     chanfle a 45 se hace a mano; la puerta cuelga de un MONTANTE a 45 con la
     bisagra de cazoleta de siempre
-  * cajonera: 4 cajones, corredera de bolillas 450 Grupo Euro (agujeros 37/413
-    como GuiGui); caja de melamina 18 con 3 en 1, fondo 5 en ranura
-  * bajo pileta con frente fijo arriba
+  * pared larga, desde el esquinero: bajo pileta 600 (frente fijo + 2 puertas),
+    cajonera 320 (4 cajones), BAJO PUERTA 452 (una puerta ancha, donde iba el
+    lavavajillas: 18/10 se saco el lavavajillas) y panel terminal
+  * pared corta: esquinero, cocina 550 x 650 y panel terminal
+  * cajonera: corredera de bolillas 450 Grupo Euro (agujeros 37/413 como
+    GuiGui); caja de melamina 18 con 3 en 1, fondo 5 en ranura
   * zocalo clip sobre patas regulables (el cuerpo arranca a 100)
-  * alacenas hasta 2490 sin cornisa, cenefa verde abajo, LED en ranura 10x10
-    en el piso, estantes regulables O5 sistema 32, colgadores regulables (sin
-    perforar hasta medir el herraje)
-  * sin agujeros de tirador
+  * alacenas hasta 2490: cenefa verde de 60 abajo y CORNISA verde de 60 arriba
+    (las dos retiradas 18 del frente), LED en ranura 10x10 en el piso, estantes
+    regulables O5 sistema 32, colgadores regulables (sin perforar hasta medir)
+  * VITRINAS (A3, A4 y esquinero): la puerta es UNA placa de 18 a la que el
+    router le corta las ventanas y el rebaje del vidrio (4 mm) por la cara de
+    adentro; marco de 60 a los costados y 70 arriba/abajo, parantes de 25.
+    La perforadora hace cazoletas y perilla; las ventanas y el rebaje van al
+    router (programa .nc TODAVIA NO SE GENERA: queda en modelo.json).
+  * A2 (sobre la pileta): frente fijo arriba + puerta REBATIBLE abajo colgada
+    de un estante fijo, con pistones a gas (como la Alacena Spar)
+  * tiradores: barral de cobre 128 entre centros en los bajos (vertical en
+    puertas, horizontal en cajones y en la rebatible) y perilla en alacenas.
+    Agujeros O5 PASANTES.
+  * 3 en 1 con perno de rosca para madera: receptor O5 x 12 (medidas.json)
+  * placa base de bisagra: 2 x O5 a 37 del frente, +-16 (probada 16/10)
   * fondos de 5 en ranura 6x6
-  * mesada de otro proveedor, cocina (horno) 650 de fondo x 550, lavavajillas 450
+  * mesada de otro proveedor, cocina (horno) 650 de fondo x 550
 
 Mundo (mm): X a lo largo de la pared larga, Y saliendo de la pared larga, Z
 arriba. Pared larga en Y=0, pared corta en X=0. Los muebles de la pared larga
@@ -60,21 +75,33 @@ VERDE, BLANCO, FONDO5 = "VERDE 18", "BLANCO 18", "BLANCO 5"
 CANTO = 1.0                           # mm — SIN VERIFICAR contra el canto real
 
 # ---------------------------------------------------------------- herrajes --
-# 3 en 1 de la casa: el de PRUEBA 1 y COCINA MLV (perno 33, receptor 11)
-CAM = {"d": 15.0, "prof": 13.5, "desde_canto": 33.0}
-PERNO = {"d": 8.0, "prof": 33.0}
-RECIBE = {"d": 10.0, "prof": 11.0}
-MARGEN_MIN, PASO, LARGO_UN_CONECTOR = 40.0, 32.0, 200.0
-# bisagra de cazoleta Grupo Euro (48/6): las medidas salen de herrajes/medidas.json
-def _bisagra():
+# las medidas de herrajes salen de herrajes/medidas.json (cambiar ALLA, no aca)
+def _medidas():
     with open(os.path.join(os.path.dirname(AQUI), "herrajes", "medidas.json"), encoding="utf-8") as fh:
-        return json.load(fh)["bisagra"]
-_B = _bisagra()
+        return json.load(fh)
+_M = _medidas()
+_B, _U = _M["bisagra"], _M["tres_en_uno"]
+# 3 en 1 con perno de rosca para madera: excentrica O15, perno O8 x 33 en el canto,
+# receptor O5 x 12 (sin taco: el perno rosca directo en la placa, probado 06/10)
+CAM = {"d": _U["excentrica_d"], "prof": _U["excentrica_prof"], "desde_canto": 33.0}
+PERNO = {"d": _U["perno_canto_d"], "prof": _U["perno_canto_prof"]}
+RECIBE = {"d": _U["receptor_d"], "prof": _U["receptor_prof"]}
+MARGEN_MIN, PASO, LARGO_UN_CONECTOR = 40.0, 32.0, 200.0
+# bisagra de cazoleta Grupo Euro (48/6)
 CAZ = {"d": _B["cazoleta_d"], "prof": _B["cazoleta_prof"], "desde_canto": _B["cazoleta_desde_canto"]}
 TOR = {"d": _B["tornillo_d"], "prof": _B["tornillo_prof"],
        "adentro": _B["tornillos_desde_cazoleta"], "a_lo_largo": _B["tornillos_a_lo_largo"]}
-BASE = {"d": _B["base_d"], "prof": _B["base_prof"], "desde_frente": tuple(_B["base_desde_frente"])}
+# placa base (en el lateral / montante): 2 agujeros a `frente` del canto de adelante,
+# uno arriba del otro a +-`a_lo_largo` del centro de la cazoleta (probada 16/10/2026)
+BASE = {"d": _B["base_d"], "prof": _B["base_prof"], "frente": _B["base_frente"],
+        "a_lo_largo": _B["base_a_lo_largo"]}
 MARGEN_BISAGRA = 100.0
+# tiradores (18/10): barral 128 entre centros, perilla; tornillo M4 -> O5 pasante
+TIRADOR = {"d": 5.0, "entre_centros": 128.0, "del_canto": 45.0, "del_borde": 150.0}
+PERILLA = {"d": 5.0, "del_canto": 40.0, "del_borde": 50.0}
+# vitrina: una placa de 18 con ventanas pasantes y rebaje para vidrio de 4 (router)
+VIT = {"montante": 60.0, "travesano": 70.0, "parante": 25.0, "rebaje_ancho": 12.0, "rebaje_prof": 5.0,
+       "vidrio": 4.0}
 # corredera de bolillas 450 (COCINA MLV): O3 x 10 a 37 y 413 del frente
 CORR = {"d": 3.0, "prof": 10.0, "a": (37.0, 413.0), "largo": 450.0, "juego": 13.0}
 # estante regulable
@@ -89,9 +116,13 @@ T = 18.0
 Z_BAJO = 100.0                        # arranque del cuerpo (patas + zocalo)
 H_BAJO = 760.0                        # hasta 860; mesada 40 -> 900
 F_BAJO = 580.0                        # fondo del cuerpo bajo
-Z_ALTO0, Z_ALTO1 = 1450.0, 2490.0
+Z_ALTO0, Z_ALTO1 = 1450.0, 2490.0     # de la cenefa a la cornisa; el cuerpo va entre las dos
 CENEFA = 60.0
+CORNISA = 60.0
+Z_CUERPO0, Z_CUERPO1 = Z_ALTO0 + CENEFA, Z_ALTO1 - CORNISA     # 1510 .. 2430
 F_ALTO = 332.0
+X_FIN = 2190.0                        # largo de la pared larga (mesada)
+Y_FIN = 1368.0                        # hasta donde llega el panel de la cocina en la pared corta
 LUZ = 1.5                             # retiro de la puerta respecto del cuerpo
 JUNTA = 3.0                           # luz entre puertas / frentes
 
@@ -125,6 +156,7 @@ class Placa(object):
         self.textura, self.material, self.rol, self.veta = textura, material, rol, veta
         self.contorno = contorno            # lista de (x, y) CCW, o None = rectangulo
         self.agujeros, self.canto, self.ranuras = [], [], []
+        self.ventanas, self.rebajes = [], []         # router: huecos pasantes y cajeados (vitrinas)
         self.cantos = {"IZQ": 0.0, "DER": 0.0, "ABAJO": 0.0, "ARRIBA": 0.0}
         self._cantos_mundo = [AX[c] if isinstance(c, str) else c for c in cantos]
         self.codigo = ""
@@ -178,6 +210,15 @@ class Placa(object):
     def ranura(self, x1, y1, x2, y2, ancho, prof, cara, sym):
         self.ranuras.append(dict(x1=round(x1, 2), y1=round(y1, 2), x2=round(x2, 2), y2=round(y2, 2),
                                  ancho=ancho, prof=prof, cara=cara, sym=sym))
+
+    def ventana(self, x1, y1, x2, y2):
+        """Hueco rectangular PASANTE (lo hace el router, no la perforadora)."""
+        self.ventanas.append(dict(x1=round(x1, 2), y1=round(y1, 2), x2=round(x2, 2), y2=round(y2, 2)))
+
+    def rebaje(self, x1, y1, x2, y2, prof, cara):
+        """Cajeado rectangular de profundidad `prof` en la cara (router)."""
+        self.rebajes.append(dict(x1=round(x1, 2), y1=round(y1, 2), x2=round(x2, 2), y2=round(y2, 2),
+                                 prof=prof, cara=cara))
 
     def cara_hacia(self, p):
         """'A' si el punto del mundo p queda del lado de la cara A."""
@@ -308,9 +349,13 @@ def tres_en_uno(apoya, recibe, cara_cam, cuantos=None, en=None):
                 "excentrica", cam=CAM)
         herraje(apoya.mueble, "Perno O8 x 33", pw, adentro, (0, 0, 1) if abs(adentro[2]) < 0.9 else (1, 0, 0),
                 "perno", perno=PERNO, recibe=RECIBE)
-        zr = 0.0 if cara_r == "A" else -recibe.T
-        hz = recibe.vec(0, 0, -1) if cara_r == "A" else recibe.vec(0, 0, 1)
-        herraje(recibe.mueble, "Receptor O10", recibe.mundo(rx, ry, zr), hz, None, "receptor", recibe=RECIBE)
+        # receptor: solo si es de taco (O10). Con rosca para madera (O5) el perno
+        # entra directo en la placa y no hay pieza que dibujar.
+        if RECIBE["d"] > 6.0:
+            zr = 0.0 if cara_r == "A" else -recibe.T
+            hz = recibe.vec(0, 0, -1) if cara_r == "A" else recibe.vec(0, 0, 1)
+            herraje(recibe.mueble, "Receptor O%g" % RECIBE["d"], recibe.mundo(rx, ry, zr), hz, None,
+                    "receptor", recibe=RECIBE)
     return n
 
 
@@ -334,8 +379,10 @@ def bisagras(puerta, soporte, canto_puerta, canto_frente_soporte, cara_soporte, 
             puerta.agujero(tx, yh + sg * TOR["a_lo_largo"], TOR["d"], TOR["prof"], "A", "HINGESCREW")
         centro = puerta.mundo(cx, yh, 0.0)
         _, ys, _ = soporte.local(centro)
-        for dist in BASE["desde_frente"]:
-            soporte.agujero(x_frente + fdx * dist, ys, BASE["d"], BASE["prof"], cara_soporte, "jlHoleEX")
+        # placa base: 2 agujeros a 37 del frente, uno arriba del otro (+-16 de la cazoleta)
+        xb = x_frente + fdx * BASE["frente"]
+        for sg in (-1, 1):
+            soporte.agujero(xb, ys + sg * BASE["a_lo_largo"], BASE["d"], BASE["prof"], cara_soporte, "jlHoleEX")
         # herraje: X de la bisagra hacia el centro de la puerta, Z hacia adentro de la puerta
         x_h = puerta.vec(dx, dy, 0)
         pb = soporte.mundo(x_frente + fdx * 36.0, ys, 0.0 if cara_soporte == "A" else -soporte.T)
@@ -365,6 +412,72 @@ def pines(lateral, cara, xs, y_centros):
                 lateral.agujero(x, yc + dy, PIN["d"], PIN["prof"], cara, "shelfPin")
 
 
+# ------------------------------------------------------------- tiradores --
+def _afuera(frente):
+    """Vector del mundo que sale del frente por la cara vista (cara B)."""
+    return frente.vec(0, 0, -1)
+
+
+def tirador(frente, cx, cy, sentido):
+    """Barral de 128 entre centros. (cx, cy) = centro del barral en el marco del
+    frente; sentido = vector local (1, 0) horizontal o (0, 1) vertical. Dos
+    agujeros O5 PASANTES (tornillo M4), perforados desde la cara A."""
+    ux, uy = sentido
+    e = TIRADOR["entre_centros"] / 2.0
+    for sg in (-1, 1):
+        frente.agujero(cx + sg * ux * e, cy + sg * uy * e, TIRADOR["d"], frente.T, "A", "handle")
+    herraje(frente.mueble, "Tirador barral 128", frente.mundo(cx, cy, -frente.T), _afuera(frente),
+            frente.vec(ux, uy, 0), "tirador", entre_centros=TIRADOR["entre_centros"])
+
+
+def tirador_puerta(puerta, canto_libre):
+    """Barral vertical en una puerta de bajo mesada: a 45 del canto que abre y
+    centrado a 150 del borde de arriba."""
+    x = TIRADOR["del_canto"] if canto_libre == "IZQ" else puerta.W - TIRADOR["del_canto"]
+    tirador(puerta, x, puerta.H - TIRADOR["del_borde"], (0, 1))
+
+
+def perilla(frente, x, y):
+    frente.agujero(x, y, PERILLA["d"], frente.T, "A", "handle")
+    herraje(frente.mueble, "Perilla", frente.mundo(x, y, -frente.T), _afuera(frente), frente.vec(1, 0, 0),
+            "perilla")
+
+
+def perilla_puerta(puerta, canto_libre):
+    """Perilla de alacena: a 40 del canto que abre y 50 del borde de abajo."""
+    x = PERILLA["del_canto"] if canto_libre == "IZQ" else puerta.W - PERILLA["del_canto"]
+    perilla(puerta, x, PERILLA["del_borde"])
+
+
+# --------------------------------------------------------------- vitrina --
+def vitrina(puerta, cols=2, filas=3):
+    """Convierte una puerta lisa en puerta vitrina: ventanas pasantes en cuadricula
+    cols x filas, rebaje para el vidrio por la cara A (interior), y un vidrio
+    (herraje de referencia, para la lista de vidrios). Todo lo hace el ROUTER;
+    la perforadora solo ve cazoletas y perilla."""
+    m, t, pa = VIT["montante"], VIT["travesano"], VIT["parante"]
+    x0, x1 = m, puerta.W - m
+    y0, y1 = t, puerta.H - t
+    aw = (x1 - x0 - (cols - 1) * pa) / cols
+    ah = (y1 - y0 - (filas - 1) * pa) / filas
+    if aw < 60 or ah < 60:
+        AVISOS.append("%s / %s: vitrina con vidrios de %.0f x %.0f (muy chicos)" % (puerta.mueble, puerta.nombre, aw, ah))
+    for i in range(cols):
+        for j in range(filas):
+            vx0 = x0 + i * (aw + pa)
+            vy0 = y0 + j * (ah + pa)
+            puerta.ventana(vx0, vy0, vx0 + aw, vy0 + ah)
+    r = VIT["rebaje_ancho"]
+    puerta.rebaje(x0 - r, y0 - r, x1 + r, y1 + r, VIT["rebaje_prof"], "A")
+    puerta.vitrina = dict(cols=cols, filas=filas, vidrio=(x1 - x0 + 2 * r - 1.0, y1 - y0 + 2 * r - 1.0))
+    # el vidrio: una sola hoja de 4 que tapa toda la cuadricula, apoyada en el rebaje
+    gw, gh = puerta.vitrina["vidrio"]
+    herraje(puerta.mueble, "Vidrio %dx%d" % (int(round(gw)), int(round(gh))),
+            puerta.mundo(x0 - r + 0.5, y0 - r + 0.5, -VIT["rebaje_prof"]), puerta.vec(0, 0, 1), puerta.vec(1, 0, 0),
+            "vidrio", ancho=gw, alto=gh, espesor=VIT["vidrio"])
+    return puerta
+
+
 # ================================================================ muebles ==
 MUEBLES = []          # (nombre, [placas])
 
@@ -388,7 +501,9 @@ def fondo_bajo_normal(mu, nombre, x0, x1, P):
 
 
 def bajo_normal(nombre, x0, ancho, tipo):
-    """Bajo mesada de la pared larga. tipo: 'pileta' | 'cajonera'."""
+    """Bajo mesada de la pared larga. tipo: 'pileta' | 'cajonera' | 'puerta'
+    (una sola puerta a todo el alto, bisagras en el lateral de la izquierda
+    de quien mira = el del extremo de la pared)."""
     P = mueble(nombre)
     x1 = x0 + ancho
     z0, z1 = Z_BAJO, Z_BAJO + H_BAJO
@@ -434,6 +549,14 @@ def bajo_normal(nombre, x0, ancho, tipo):
         # pi cuelga de li (X mundo menor = su canto IZQ); li tiene el frente en x = W (DER)
         bisagras(pi, li, "IZQ", "DER", "A")
         bisagras(pd, ld, "DER", "IZQ", "A")
+        tirador_puerta(pi, "DER"); tirador_puerta(pd, "IZQ")
+    elif tipo == "puerta":
+        pu = placa_caja(nombre, "Puerta", xa, xb, Y1, Y1 + T, za, zb, "-Y", "+X", VERDE,
+                        rol="PUERTA", cantos=("+X", "-X", "+Z", "-Z"))
+        P.append(pu)
+        # cuelga de ld (X mundo mayor = canto DER = izquierda de quien mira); abre por el canto IZQ
+        bisagras(pu, ld, "DER", "IZQ", "A")
+        tirador_puerta(pu, "IZQ")
     else:
         n = 4
         hf = (zb - za - (n - 1) * JUNTA) / n
@@ -446,6 +569,7 @@ def bajo_normal(nombre, x0, ancho, tipo):
             fr = placa_caja(nombre, "Frente cajon %d" % (i + 1), xa, xb, Y1, Y1 + T, fz0, fz0 + hf, "-Y", "+X",
                             VERDE, rol="PUERTA", cantos=("+X", "-X", "+Z", "-Z"))
             P.append(fr)
+            tirador(fr, fr.W / 2.0, fr.H / 2.0, (1, 0))      # barral horizontal centrado
             cz0 = fz0 + 23.5
             cz1 = cz0 + hc
             yb0, yb1 = Y1 - CORR["largo"], Y1
@@ -605,6 +729,11 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False):
     # la puerta: su canto DER (x=W) es el de la punta A
     cara_m1 = m1.cara_hacia(add(PA, mul(t, L / 2)))
     bisagras(pu, m1, "DER", "IZQ", cara_m1)
+    if cenefa:                                # alacena: vitrina con perilla
+        perilla_puerta(pu, "IZQ")
+        vitrina(pu, cols=2, filas=3)
+    else:                                     # bajo: barral vertical
+        tirador_puerta(pu, "IZQ")
     # estantes regulables: pentagono retirado 82 de la diagonal, 1 del lateral, 31 del fondo
     off = W_M + 2.0
     k = (li + prof) - off * S2               # x + y <= k
@@ -645,21 +774,22 @@ def bajo_esquinero():
 
 def alacena_esquinero():
     nombre = "A1 Esquinero alacena"
-    z0 = Z_ALTO0 + CENEFA
-    P, piso, pu, (PA, PB, t, n, L), la, lb = esquinero(nombre, Z_ALTO1 - z0, F_ALTO, z0, Z_ALTO1,
+    z0, z1 = Z_CUERPO0, Z_CUERPO1
+    P, piso, pu, (PA, PB, t, n, L), la, lb = esquinero(nombre, z1 - z0, F_ALTO, z0, z1,
                                                        estantes=2, cenefa=True)
-    # la puerta tapa tambien la cenefa? no: la cenefa queda abajo, retirada. Cenefa diagonal:
+    tec = [p for p in P if p.nombre == "Techo"][0]
+    # cenefa (abajo) y cornisa (arriba) diagonales, retiradas 18 del frente, cara A = la de atras
     ex, ey = mul(t, -1), (0, 0, 1)
     ez = cross(ex, ey)                       # hacia adentro
-    O = add(add(PA, mul(t, L)), (0, 0, Z_ALTO0))
-    O = add(O, mul(n, -T))                   # cara A = la de atras (oculta), a 18 del frente
-    ce = Placa(nombre, "Cenefa", L, CENEFA, T, O, ex, ey, VERDE, cantos=((0, 0, -1),))
-    # comprobar que la cara A mira hacia adentro
-    if dot(ce.ez, n) > 0:
-        raise RuntimeError("cenefa al reves")
-    # cara A (z=0) queda a 18 del frente y el cuerpo hacia +n: ez = hacia adentro -> z negativo = hacia afuera
-    P.append(ce)
-    tres_en_uno(ce, piso, "A")
+    for nm, zb, alto, cantos in (("Cenefa", Z_ALTO0, CENEFA, ((0, 0, -1),)),
+                                 ("Cornisa", z1, CORNISA, ((0, 0, 1),))):
+        O = add(add(PA, mul(t, L)), (0, 0, zb))
+        O = add(O, mul(n, -T))               # cara A = la de atras (oculta), a 18 del frente
+        pl = Placa(nombre, nm, L, alto, T, O, ex, ey, VERDE, cantos=cantos)
+        if dot(pl.ez, n) > 0:
+            raise RuntimeError("%s al reves" % nm)
+        P.append(pl)
+        tres_en_uno(pl, piso if nm == "Cenefa" else tec, "A")
     led_piso(piso, nombre, diagonal_geo=(PA, PB, t, n, L))
     return P
 
@@ -684,16 +814,20 @@ def led_piso(piso, nombre, diagonal_geo=None, frente_y=None):
                       "(la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).")
 
 
-def alacena(nombre, x0, ancho, eje="X"):
+def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2):
     """Alacena normal, estilo COCINA MLV: piso y techo por fuera (a todo el ancho),
-    laterales entre ellos, cenefa abajo.
+    laterales entre ellos, cenefa abajo y cornisa arriba (las dos retiradas 18).
+
+    tipo 'vitrina': 2 puertas vitrina (cuadricula cols x 3) con perilla.
+    tipo 'rebatible': frente fijo arriba + puerta rebatible abajo colgada de un
+    estante fijo (bisagras en el canto de arriba, pistones a gas a mano).
 
     Se trabaja en (u, v, w): u a lo ancho, v hacia el frente, w arriba, siempre
     mano derecha. eje 'X' = pared larga: u = +X, v = +Y. eje 'Y' = pared corta:
     v = +X y u = -Y (u crece hacia la pared larga). x0 = coordenada del mundo
     donde arranca el mueble sobre la pared (X o Y menor)."""
     P = mueble(nombre)
-    z0, z1 = Z_ALTO0 + CENEFA, Z_ALTO1
+    z0, z1 = Z_CUERPO0, Z_CUERPO1
     D = F_ALTO
     if eje == "X":
         U, mU, V, mV = "+X", "-X", "+Y", "-Y"
@@ -721,7 +855,8 @@ def alacena(nombre, x0, ancho, eje="X"):
     fo = pc("Fondo", u0 + T - 5, u1 - T + 5, d - 2.5, d + 2.5, z0 + T - 5, z1 - T + 5, V, mU, FONDO5,
             rol="FONDO", material=FIB)
     ce = pc("Cenefa", u0, u1, D - T, D, Z_ALTO0, z0, mV, U, VERDE, cantos=("-Z", U, mU))
-    P += [piso, tec, ld, li, fo, ce]
+    co = pc("Cornisa", u0, u1, D - T, D, z1, Z_ALTO1, mV, U, VERDE, cantos=("+Z", U, mU))
+    P += [piso, tec, ld, li, fo, ce, co]
     # ranuras de fondo (cara A = interior), cortadas a 12,85 de las puntas como MLV
     piso.ranura(12.85, d, piso.W - 12.85, d, BP["ancho"], BP["prof"], "A", "BP")
     tec.ranura(12.85, tec.H - d, tec.W - 12.85, tec.H - d, BP["ancho"], BP["prof"], "A", "BP")
@@ -731,21 +866,46 @@ def alacena(nombre, x0, ancho, eje="X"):
     for l in (ld, li):
         tres_en_uno(l, piso, "A"); tres_en_uno(l, tec, "A")
     tres_en_uno(ce, piso, "A")
+    tres_en_uno(co, tec, "A")
     led_piso(piso, nombre)
-    # puertas: 2, alto completo del cuerpo (la cenefa queda abajo, retirada 18)
     ua, ub = u0 + LUZ, u1 - LUZ
     wa, wb = z0 + LUZ, z1 - LUZ
-    um = (ua + ub) / 2.0
     cant = (U, mU, "+Z", "-Z")
-    pdr = pc("Puerta der", ua, um - JUNTA / 2, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
-    piz = pc("Puerta izq", um + JUNTA / 2, ub, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
-    P += [pdr, piz]
-    bisagras(pdr, ld, "IZQ", "DER", "A")
-    bisagras(piz, li, "DER", "IZQ", "A")
-    # estantes regulables: 2
     inner0, inner1 = z0 + T, z1 - T
-    for i in range(2):
-        zs = inner0 + (inner1 - inner0) * (i + 1) / 3.0
+    if tipo == "rebatible":
+        # frente fijo arriba (300), estante fijo en la junta, puerta rebatible abajo
+        HF = 300.0
+        zj = wb - HF - JUNTA / 2.0                      # centro de la junta
+        ff = pc("Frente fijo", ua, ub, D, D + T, zj + JUNTA / 2.0, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
+        # estante fijo: cara A abajo (mira a la puerta), X local = profundidad (frente en x = W).
+        # Su cara de abajo queda 16,5 arriba del canto de la puerta, igual que un techo
+        # sobre una puerta normal: asi la bisagra es la misma de siempre (base -6).
+        es = pc("Estante fijo", u0 + T, u1 - T, d + 3.5, D, zj - T, zj, "-Z", V, BLANCO, cantos=(V,))
+        # rebatible: X local hacia abajo (x = 0 = canto de arriba, el de bisagras), Y local a lo ancho
+        pr = pc("Puerta rebatible", ua, ub, D, D + T, wa, zj - JUNTA / 2.0, mV, "-Z", VERDE, rol="PUERTA",
+                cantos=cant)
+        P += [ff, es, pr]
+        tres_en_uno(es, ld, "B"); tres_en_uno(es, li, "B")     # excentrica arriba (tapada por el frente fijo)
+        bisagras(pr, es, "IZQ", "DER", "A")
+        tirador(pr, pr.W - 50.0, pr.H / 2.0, (0, 1))           # barral horizontal, 50 del borde de abajo
+        AVISOS.append("%s: la puerta rebatible (%g x %g) lleva 2 pistones a gas, uno por lado, atornillados "
+                      "a mano (sin CNC, sin dibujar). El frente fijo se atornilla desde adentro." %
+                      (nombre, pr.H, pr.W))
+        # un estante regulable en el compartimiento de abajo
+        zs = inner0 + (zj - T - inner0) / 2.0
+        estantes = [zs]
+    else:
+        um = (ua + ub) / 2.0
+        pdr = pc("Puerta der", ua, um - JUNTA / 2, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
+        piz = pc("Puerta izq", um + JUNTA / 2, ub, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
+        P += [pdr, piz]
+        bisagras(pdr, ld, "IZQ", "DER", "A")
+        bisagras(piz, li, "DER", "IZQ", "A")
+        perilla_puerta(pdr, "DER"); perilla_puerta(piz, "IZQ")
+        vitrina(pdr, cols=cols); vitrina(piz, cols=cols)
+        estantes = [inner0 + (inner1 - inner0) * (i + 1) / 3.0 for i in range(2)]
+    # estantes regulables
+    for i, zs in enumerate(estantes):
         es = pc("Estante %d" % (i + 1), u0 + T + 1, u1 - T - 1, d + 3.5, D - 20, zs, zs + T, "+Z", U, BLANCO,
                 cantos=(V,))
         P.append(es)
@@ -770,7 +930,7 @@ def zocalos():
     # pared larga: frente del zocalo a 40 del frente del cuerpo
     yf = F_BAJO - 40.0
     x_ini = 765.0
-    z = placa_caja("Z Zocalos", "Zocalo largo", x_ini, 1720.0, yf - T, yf, 0.5, 99.5, "+Y", "-X", VERDE,
+    z = placa_caja("Z Zocalos", "Zocalo largo", x_ini, X_FIN - T, yf - T, yf, 0.5, 99.5, "+Y", "-X", VERDE,
                    rol="PUERTA", cantos=("-Z",))
     P.append(z)
     # diagonal del esquinero bajo, retirada 40
@@ -795,13 +955,24 @@ def armar():
     bajo_esquinero()
     bajo_normal("B2 Bajo pileta 600", 800.0, 600.0, "pileta")
     bajo_normal("B3 Cajonera 320", 1400.0, 320.0, "cajonera")
-    panel_terminal("P1 Panel lavavajillas", (2170.0, 2188.0, 0.0, F_BAJO + T, 0.0, Z_BAJO + H_BAJO), "+X", "+Y")
-    panel_terminal("P2 Panel cocina", (0.0, F_BAJO + T, 1350.0, 1368.0, 0.0, Z_BAJO + H_BAJO), "+Y", "-X")
+    bajo_normal("B4 Bajo puerta 452", 1720.0, X_FIN - T - 1720.0, "puerta")        # donde iba el lavavajillas
+    panel_terminal("P1 Panel terminal", (X_FIN - T, X_FIN, 0.0, F_BAJO + T, 0.0, Z_BAJO + H_BAJO), "+X", "+Y")
+    panel_terminal("P2 Panel cocina", (0.0, F_BAJO + T, Y_FIN - T, Y_FIN, 0.0, Z_BAJO + H_BAJO), "+Y", "-X")
     alacena_esquinero()
-    alacena("A2 Alacena 600", 800.0, 600.0, "X")
-    alacena("A3 Alacena 800", 1400.0, 800.0, "X")
-    alacena("A4 Alacena 570", 800.0, 570.0, "Y")
+    alacena("A2 Alacena 600 rebatible", 800.0, 600.0, "X", tipo="rebatible")
+    alacena("A3 Vitrina 800", 1400.0, 800.0, "X", cols=2)
+    alacena("A4 Vitrina 570", 800.0, 570.0, "Y", cols=1)      # puertas de 282: con 2 columnas los vidrios quedan de 68
     zocalos()
+
+
+# cuerpos de referencia (no se fabrican): mesada, cocina, bacha. Sin lavavajillas desde el 18/10.
+REFERENCIA = [
+    ("Mesada pared larga", (0, X_FIN, 0, 620, 860, 900)),
+    ("Mesada pared corta", (0, 620, 620, 800, 860, 900)),
+    ("Cocina 550x650", (0, 650, 800, 1350, 0, 900)),
+    ("Bacha (hueco)", (850, 1350, 110, 510, 660, 861)),
+]
+REF_RGB = {"Mesada": (214, 220, 222), "Cocina": (190, 180, 176), "Bacha": (200, 185, 180)}
 
 
 def ean13(doce):
@@ -818,8 +989,19 @@ def chequeos():
                 if not (0 <= h["x"] <= p.W and 0 <= h["y"] <= p.H) or not p.dentro(h["x"], h["y"], tol=0.01):
                     malos.append("%s / %s: agujero O%g fuera de la placa en (%.1f, %.1f)"
                                  % (nombre, p.nombre, h["d"], h["x"], h["y"]))
-                if h["prof"] >= p.T:
+                if h["prof"] >= p.T and h["sym"] != "handle":
                     malos.append("%s / %s: agujero O%g pasante" % (nombre, p.nombre, h["d"]))
+                if h["prof"] > p.T:
+                    malos.append("%s / %s: agujero O%g mas profundo que la placa" % (nombre, p.nombre, h["d"]))
+            # agujeros que caen en una ventana o en el rebaje de la vitrina
+            for h in p.agujeros:
+                for v in p.ventanas:
+                    if v["x1"] - h["d"] / 2 < h["x"] < v["x2"] + h["d"] / 2 and v["y1"] - h["d"] / 2 < h["y"] < v["y2"] + h["d"] / 2:
+                        malos.append("%s / %s: O%g (%s) cae en una ventana" % (nombre, p.nombre, h["d"], h["sym"]))
+                for r in p.rebajes:
+                    if r["cara"] == h["cara"] and \
+                            r["x1"] - h["d"] / 2 < h["x"] < r["x2"] + h["d"] / 2 and r["y1"] - h["d"] / 2 < h["y"] < r["y2"] + h["d"] / 2:
+                        malos.append("%s / %s: O%g (%s) cae en el rebaje del vidrio" % (nombre, p.nombre, h["d"], h["sym"]))
             for s in p.ranuras:
                 if s["cara"] == "B" and s["ancho"] < 10:
                     malos.append("%s / %s: ranura de %g en cara B (minimo 10)" % (nombre, p.nombre, s["ancho"]))
@@ -898,7 +1080,8 @@ def a_json():
                 ex=[round(c, 7) for c in p.ex], ey=[round(c, 7) for c in p.ey],
                 contorno=[[round(x, 3), round(y, 3)] for (x, y) in p.contorno] if p.contorno else None,
                 material=p.material, textura=p.textura, veta=p.veta, cantos=cantos,
-                agujeros=p.agujeros, agujeros_canto=p.canto, ranuras=p.ranuras))
+                agujeros=p.agujeros, agujeros_canto=p.canto, ranuras=p.ranuras,
+                ventanas=p.ventanas, rebajes=p.rebajes))
             piezas_exp.append({
                 "codigo": p.codigo, "nombre": p.nombre_largo, "ancho": round(p.W, 2), "alto": round(p.H, 2),
                 "espesor": p.T, "material": p.material, "mueble": nombre, "textura": p.textura,
@@ -914,10 +1097,14 @@ def a_json():
                 "ranuras_canto": [],
                 "contorno": [dict(x=round(x, 2), y=round(y, 2), arco=0.0) for (x, y) in p.contorno]
                 if p.contorno else None,
+                # ROUTER (no lo lee ExportarPiezas ni etapa2 todavia): ventanas pasantes y cajeados
+                "ventanas": p.ventanas, "rebajes": p.rebajes,
             })
     cab = dict(version=1, origen="receta", documento=AMBIENTE, orden=ORDEN, cliente=CLIENTE,
                direccion="", ambiente=AMBIENTE)
-    return dict(cab, piezas=piezas_modelo, herrajes=HERRAJES, avisos=AVISOS), dict(cab, piezas=piezas_exp)
+    ref = [(nm, caja, REF_RGB[nm.split()[0]]) for nm, caja in REFERENCIA]
+    return (dict(cab, piezas=piezas_modelo, herrajes=HERRAJES, avisos=AVISOS, referencia=ref),
+            dict(cab, piezas=piezas_exp))
 
 
 def main():
@@ -929,6 +1116,17 @@ def main():
                 AVISOS.append("%s / %s: contorno con chanfle a 45 — la sierra corta el rectangulo %g x %g, "
                               "el chanfle se hace a mano y el canto del lado diagonal se pega despues "
                               "(no figura en la lista de corte)." % (nombre, p.nombre, p.W, p.H))
+    for nombre, placas in MUEBLES:
+        for p in placas:
+            if p.ventanas:
+                v = p.vitrina
+                AVISOS.append("%s / %s: VITRINA %dx%d — las %d ventanas y el rebaje del vidrio (%g prof.) los hace "
+                              "el ROUTER; el .nc no se genera todavia (estan en modelo.json). Vidrio de %g: "
+                              "%.0f x %.0f." % (nombre, p.nombre, v["cols"], v["filas"], len(p.ventanas),
+                                                VIT["rebaje_prof"], VIT["vidrio"], v["vidrio"][0], v["vidrio"][1]))
+    if any(h["sym"] == "handle" for _, pl in MUEBLES for p in pl for h in p.agujeros):
+        AVISOS.append("Tiradores: agujeros O5 PASANTES desde la cara A (interior). Si el frente astilla a la "
+                      "salida, perforarlos desde la cara B.")
     modelo, exp = a_json()
     os.makedirs(SALIDA, exist_ok=True)
     with open(os.path.join(SALIDA, "modelo.json"), "w", encoding="utf-8") as fh:
@@ -937,7 +1135,7 @@ def main():
         json.dump(exp, fh, ensure_ascii=False, indent=1)
     from collections import Counter
     cuenta = Counter(h["nombre"].split(" base")[0] if h["nombre"].startswith("Bisagra") else
-                     (h["nombre"] if not h["nombre"].startswith("Tira LED") else "Tira LED")
+                     (h["nombre"] if not h["nombre"].startswith(("Tira LED", "Vidrio")) else h["nombre"].split()[0])
                      for h in HERRAJES)
     lin = ["COCINA-01 — receta", ""]
     for nombre, placas in MUEBLES:
@@ -945,7 +1143,8 @@ def main():
         for p in placas:
             lin.append("    %-13s %-26s %7.1f x %7.1f x %4.1f  %-9s  ag %3d  canto %2d  ran %d%s"
                        % (p.codigo, p.nombre, p.W, p.H, p.T, p.textura, len(p.agujeros), len(p.canto),
-                          len(p.ranuras), "  (contorno)" if p.contorno else ""))
+                          len(p.ranuras), ("  (contorno)" if p.contorno else "") +
+                          ("  (vitrina %d ventanas)" % len(p.ventanas) if p.ventanas else "")))
     lin.append("")
     lin.append("TOTAL %d placas" % sum(len(pl) for _, pl in MUEBLES))
     lin.append("HERRAJES:")

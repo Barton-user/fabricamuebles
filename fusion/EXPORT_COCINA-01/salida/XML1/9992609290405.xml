@@ -4,8 +4,8 @@
         <Banding bandingBack="1" bandingRight="0" bandingFront="0" bandingLeft="0"/>
     </Bandings>
     <Holes>
-        <Hole point="(9.00,90.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(249.00,90.00,18.00)" diameter="10.00" depth="11.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(9.00,90.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(249.00,90.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
     </Holes>
     <Slottings>
         <Slotting positionSide="1" slottingStartX="13.00" slottingStartY="17.50" slottingStartZ="0.000" slottingEndX="245.00" slottingEndY="17.50" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="5.50"/>

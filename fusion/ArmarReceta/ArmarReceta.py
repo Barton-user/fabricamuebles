@@ -11,6 +11,8 @@ STEP son las mismas (se importan de ArmarDesdeRender / PonerHerrajes).
     armar(ruta_modelo, nuevo=True)      -> documento nuevo, modo directo
     exportar(carpeta)                   -> piezas.json + GENERAR ARCHIVOS.command
                                            (lo mismo que ExportarPiezas, sin dialogos)
+    repintar()                          -> cobre/vidrio a tiradores, perillas y vidrios
+                                           (en otra corrida; ver la nota de la funcion)
 
 Cada placa: un componente con la placa ACOSTADA adentro (X ancho, Y alto, cara
 A en z=0, espesor hacia -Z), ubicado con la matriz de la ocurrencia. Es la
@@ -111,6 +113,15 @@ def cuerpo_placa(tbm, pz):
         else:
             za, zb = -T - 1.0, -T + s["prof"]
         herr.append(A.caja(tbm, x1, x2, y1, y2, za, zb))
+    # router: ventanas pasantes y cajeados (vitrinas)
+    for v in pz.get("ventanas", []):
+        herr.append(A.caja(tbm, v["x1"], v["x2"], v["y1"], v["y2"], -T - 1.0, 1.0))
+    for r in pz.get("rebajes", []):
+        if r["cara"] == "A":
+            za, zb = -r["prof"], 1.0
+        else:
+            za, zb = -T - 1.0, -T + r["prof"]
+        herr.append(A.caja(tbm, r["x1"], r["x2"], r["y1"], r["y2"], za, zb))
     n = A.resta(tbm, cuerpo, herr)
     return cuerpo, len(herr) - n
 
@@ -150,6 +161,31 @@ def _forma_pata(tbm):
             A.cil(tbm, (0, 0, 92.0), (0, 0, 99.5), 50.0)]
 
 
+def _forma_tirador(entre_centros):
+    """Barral: dos postes O8 de 35 y una barra O12; marco: origen en el centro del
+    barral sobre la cara vista, Z saliendo del frente, X a lo largo del barral."""
+    e = entre_centros / 2.0
+
+    def f(tbm):
+        A = ADR()
+        partes = [A.cil(tbm, (-e, 0, 0), (-e, 0, 35.0), 8.0), A.cil(tbm, (e, 0, 0), (e, 0, 35.0), 8.0),
+                  A.cil(tbm, (-e - 16.0, 0, 41.0), (e + 16.0, 0, 41.0), 12.0)]
+        return partes
+    return f
+
+
+def _forma_perilla(tbm):
+    A = ADR()
+    return [A.cil(tbm, (0, 0, 0), (0, 0, 22.0), 10.0), A.cil(tbm, (0, 0, 22.0), (0, 0, 38.0), 30.0)]
+
+
+def _forma_vidrio(a):
+    def f(tbm):
+        A = ADR()
+        return [A.caja(tbm, 0.0, a["ancho"], 0.0, a["alto"], 0.0, a["espesor"])]
+    return f
+
+
 def forma(h):
     A = ADR()
     PH = A._ph()
@@ -171,6 +207,12 @@ def forma(h):
         return _forma_pin
     if f == "pata":
         return _forma_pata
+    if f == "tirador":
+        return _forma_tirador(a["entre_centros"])
+    if f == "perilla":
+        return _forma_perilla
+    if f == "vidrio":
+        return _forma_vidrio(a)
     raise ValueError("forma desconocida: %s" % f)
 
 
@@ -200,7 +242,6 @@ REFERENCIA = [
     ("Mesada pared larga", (0, 2190, 0, 620, 860, 900), (214, 220, 222)),
     ("Mesada pared corta", (0, 620, 620, 800, 860, 900), (214, 220, 222)),
     ("Cocina 550x650", (0, 650, 800, 1350, 0, 900), (190, 180, 176)),
-    ("Lavavajillas 450", (1720, 2170, 0, 590, 40, 850), (225, 225, 225)),
     ("Bacha (hueco)", (850, 1350, 110, 510, 660, 861), (200, 185, 180)),
 ]
 
@@ -273,10 +314,15 @@ def armar(ruta_modelo, nuevo=True, herrajes=True, log_print=True):
         except Exception:
             L("  ERROR en %s:\n%s" % (pz["nombre"], traceback.format_exc()))
     n_h = 0
+    # tiradores, perillas y vidrios: dentro de armar() la apariencia no prende (ver repintar());
+    # se intenta igual y despues hay que llamar a repintar() en otra corrida.
+    ap_cobre = A._de_biblioteca(app, design, "Copper - Polished") or ap_metal
+    ap_vidrio = A._de_biblioteca(app, design, "Glass (Clear)") or ap_metal
     if herrajes:
         for h in modelo["herrajes"]:
             try:
-                ap = ap_led if h["forma"] == "led" else ap_metal
+                ap = {"led": ap_led, "tirador": ap_cobre, "perilla": ap_cobre,
+                      "vidrio": ap_vidrio}.get(h["forma"], ap_metal)
                 m = A.marco(h["origen"], h["ez"], h["ex"])
                 A.herraje(design, occs[h["mueble"]] if h["mueble"] in occs else _occ_extra(root, occs, h["mueble"]),
                           h["nombre"], m, forma(h), ap)
@@ -292,6 +338,27 @@ def armar(ruta_modelo, nuevo=True, herrajes=True, log_print=True):
     if log_print:
         print("\n".join(log))
     return log
+
+
+def repintar():
+    """Cobre a tiradores y perillas, vidrio a los vidrios. Hay que correrlo en una corrida
+    APARTE despues de armar(): dentro de armar() `cuerpo.appearance = ap` no da error pero
+    el cuerpo queda "Steel - Satin" (18/10/2026, no se entendio por que; en una corrida
+    nueva anda). Igual para las placas no hace falta."""
+    app = adsk.core.Application.get()
+    design = adsk.fusion.Design.cast(app.activeProduct)
+    A = ADR()
+    cobre = A._de_biblioteca(app, design, "Copper - Polished")
+    vidrio = A._de_biblioteca(app, design, "Glass (Clear)")
+    n = 0
+    for comp in design.allComponents:
+        ap = {"Tirador": cobre, "Perilla": cobre, "Vidrio": vidrio}.get(comp.name.split()[0])
+        if ap is None:
+            continue
+        for b in comp.bRepBodies:
+            b.appearance = ap
+            n += 1
+    return n
 
 
 def _occ_extra(root, occs, nombre):

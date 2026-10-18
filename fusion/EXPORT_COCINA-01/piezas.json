@@ -96,29 +96,29 @@
         {
           "x": 530.0,
           "y": 751.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 751.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 530.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -226,29 +226,29 @@
         {
           "x": 530.0,
           "y": 751.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 751.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 530.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -286,15 +286,15 @@
         {
           "x": 558.08,
           "y": 747.35,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 747.35,
           "y": 558.08,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
@@ -428,15 +428,15 @@
         {
           "x": 558.08,
           "y": 34.65,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 747.35,
           "y": 223.92,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
@@ -610,29 +610,29 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 52.0,
-          "y": 640.5,
+          "x": 37.0,
+          "y": 656.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 640.5,
+          "x": 37.0,
+          "y": 624.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 52.0,
-          "y": 83.5,
+          "x": 37.0,
+          "y": 99.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 83.5,
+          "x": 37.0,
+          "y": 67.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
@@ -743,6 +743,20 @@
       "canto_izq": 1.0,
       "canto_der": 1.0,
       "agujeros": [
+        {
+          "x": 45.0,
+          "y": 671.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 45.0,
+          "y": 543.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
         {
           "x": 254.17,
           "y": 681.0,
@@ -855,29 +869,29 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 528.0,
-          "y": 470.5,
+          "x": 543.0,
+          "y": 486.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 560.0,
-          "y": 470.5,
+          "x": 543.0,
+          "y": 454.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 528.0,
-          "y": 101.5,
+          "x": 543.0,
+          "y": 117.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 560.0,
-          "y": 101.5,
+          "x": 543.0,
+          "y": 85.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
@@ -885,29 +899,29 @@
         {
           "x": 9.0,
           "y": 710.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 571.0,
           "y": 710.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 530.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -943,29 +957,29 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 52.0,
-          "y": 470.5,
+          "x": 37.0,
+          "y": 486.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 470.5,
+          "x": 37.0,
+          "y": 454.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 52.0,
-          "y": 101.5,
+          "x": 37.0,
+          "y": 117.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 101.5,
+          "x": 37.0,
+          "y": 85.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
@@ -973,29 +987,29 @@
         {
           "x": 571.0,
           "y": 710.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 710.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 530.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -1272,6 +1286,20 @@
       "canto_der": 1.0,
       "agujeros": [
         {
+          "x": 252.0,
+          "y": 483.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 252.0,
+          "y": 355.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
           "x": 28.5,
           "y": 493.0,
           "diametro": 5.0,
@@ -1335,6 +1363,20 @@
       "canto_izq": 1.0,
       "canto_der": 1.0,
       "agujeros": [
+        {
+          "x": 45.0,
+          "y": 483.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 45.0,
+          "y": 355.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
         {
           "x": 268.5,
           "y": 493.0,
@@ -1458,29 +1500,29 @@
         {
           "x": 9.0,
           "y": 710.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 530.0,
           "y": 751.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 530.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -1574,29 +1616,29 @@
         {
           "x": 571.0,
           "y": 710.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 751.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 50.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 530.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -1850,7 +1892,22 @@
       "canto_arriba": 1.0,
       "canto_izq": 1.0,
       "canto_der": 1.0,
-      "agujeros": [],
+      "agujeros": [
+        {
+          "x": 222.5,
+          "y": 93.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 94.5,
+          "y": 93.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        }
+      ],
       "agujeros_canto": [],
       "ranuras": [],
       "ranuras_canto": [],
@@ -1875,15 +1932,15 @@
         {
           "x": 249.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -1921,15 +1978,15 @@
         {
           "x": 9.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 249.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -2138,7 +2195,22 @@
       "canto_arriba": 1.0,
       "canto_izq": 1.0,
       "canto_der": 1.0,
-      "agujeros": [],
+      "agujeros": [
+        {
+          "x": 222.5,
+          "y": 93.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 94.5,
+          "y": 93.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        }
+      ],
       "agujeros_canto": [],
       "ranuras": [],
       "ranuras_canto": [],
@@ -2163,15 +2235,15 @@
         {
           "x": 249.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -2209,15 +2281,15 @@
         {
           "x": 9.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 249.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -2426,7 +2498,22 @@
       "canto_arriba": 1.0,
       "canto_izq": 1.0,
       "canto_der": 1.0,
-      "agujeros": [],
+      "agujeros": [
+        {
+          "x": 222.5,
+          "y": 93.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 94.5,
+          "y": 93.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        }
+      ],
       "agujeros_canto": [],
       "ranuras": [],
       "ranuras_canto": [],
@@ -2451,15 +2538,15 @@
         {
           "x": 249.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -2497,15 +2584,15 @@
         {
           "x": 9.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 249.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -2714,7 +2801,22 @@
       "canto_arriba": 1.0,
       "canto_izq": 1.0,
       "canto_der": 1.0,
-      "agujeros": [],
+      "agujeros": [
+        {
+          "x": 222.5,
+          "y": 93.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 94.5,
+          "y": 93.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        }
+      ],
       "agujeros_canto": [],
       "ranuras": [],
       "ranuras_canto": [],
@@ -2739,15 +2841,15 @@
         {
           "x": 249.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -2785,15 +2887,15 @@
         {
           "x": 9.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 249.0,
           "y": 90.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -2989,12 +3091,458 @@
     },
     {
       "codigo": "9992609290504",
-      "nombre": "COCINA-01_P1 Panel lavavajillas_Panel terminal",
+      "nombre": "COCINA-01_B4 Bajo puerta 452_Lateral der",
+      "ancho": 580.0,
+      "alto": 760.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "B4 Bajo puerta 452",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 9.0,
+          "y": 710.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 530.0,
+          "y": 751.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 50.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 530.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 27.5,
+          "y1": 0.0,
+          "x2": 27.5,
+          "y2": 760.0,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290511",
+      "nombre": "COCINA-01_B4 Bajo puerta 452_Lateral izq",
+      "ancho": 580.0,
+      "alto": 760.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "B4 Bajo puerta 452",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 37.0,
+          "y": 674.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 642.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 117.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 85.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 571.0,
+          "y": 710.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 50.0,
+          "y": 751.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 50.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 530.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 552.5,
+          "y1": 0.0,
+          "x2": 552.5,
+          "y2": 760.0,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290528",
+      "nombre": "COCINA-01_B4 Bajo puerta 452_Piso",
+      "ancho": 416.0,
+      "alto": 580.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "B4 Bajo puerta 452",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 383.0,
+          "y": 530.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 383.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 33.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 33.0,
+          "y": 530.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 416.0,
+          "y": 530.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 416.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 0.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        },
+        {
+          "x": 0.0,
+          "y": 530.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 0.0,
+          "y1": 27.5,
+          "x2": 416.0,
+          "y2": 27.5,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290535",
+      "nombre": "COCINA-01_B4 Bajo puerta 452_Travesano delantero",
+      "ancho": 416.0,
+      "alto": 100.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "B4 Bajo puerta 452",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 383.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 416.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 0.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290542",
+      "nombre": "COCINA-01_B4 Bajo puerta 452_Travesano trasero",
+      "ancho": 416.0,
+      "alto": 100.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "B4 Bajo puerta 452",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 383.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 50.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 416.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 0.0,
+          "y": 50.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290559",
+      "nombre": "COCINA-01_B4 Bajo puerta 452_Fondo",
+      "ancho": 426.0,
+      "alto": 746.0,
+      "espesor": 5.0,
+      "material": "Melamina",
+      "mueble": "B4 Bajo puerta 452",
+      "textura": "BLANCO 5",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290566",
+      "nombre": "COCINA-01_B4 Bajo puerta 452_Puerta",
+      "ancho": 449.0,
+      "alto": 757.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "B4 Bajo puerta 452",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 45.0,
+          "y": 671.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 45.0,
+          "y": 543.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 420.5,
+          "y": 681.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 420.5,
+          "y": 633.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 426.5,
+          "y": 657.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 420.5,
+          "y": 124.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 420.5,
+          "y": 76.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 426.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290573",
+      "nombre": "COCINA-01_P1 Panel terminal_Panel terminal",
       "ancho": 598.0,
       "alto": 860.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "P1 Panel lavavajillas",
+      "mueble": "P1 Panel terminal",
       "textura": "VERDE 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -3009,7 +3557,7 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290511",
+      "codigo": "9992609290580",
       "nombre": "COCINA-01_P2 Panel cocina_Panel terminal",
       "ancho": 598.0,
       "alto": 860.0,
@@ -3030,10 +3578,10 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290528",
+      "codigo": "9992609290597",
       "nombre": "COCINA-01_A1 Esquinero alacena_Lateral A",
       "ancho": 332.0,
-      "alto": 980.0,
+      "alto": 920.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -3047,170 +3595,170 @@
       "agujeros": [
         {
           "x": 168.0,
-          "y": 703.33,
+          "y": 663.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 703.33,
+          "y": 663.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 671.33,
+          "y": 631.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 671.33,
+          "y": 631.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 639.33,
+          "y": 599.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 639.33,
+          "y": 599.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 607.33,
+          "y": 567.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 607.33,
+          "y": 567.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 575.33,
+          "y": 535.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 575.33,
+          "y": 535.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 388.67,
+          "y": 368.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 388.67,
+          "y": 368.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 356.67,
+          "y": 336.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 356.67,
+          "y": 336.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 324.67,
+          "y": 304.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 324.67,
+          "y": 304.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 292.67,
+          "y": 272.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 292.67,
+          "y": 272.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 168.0,
-          "y": 260.67,
+          "y": 240.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 260.67,
+          "y": 240.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 971.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "y": 911.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 971.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "y": 911.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 278.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -3220,7 +3768,7 @@
           "x1": 304.5,
           "y1": 0.0,
           "x2": 304.5,
-          "y2": 980.0,
+          "y2": 920.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -3230,10 +3778,10 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290535",
+      "codigo": "9992609290603",
       "nombre": "COCINA-01_A1 Esquinero alacena_Lateral B",
       "ancho": 332.0,
-      "alto": 980.0,
+      "alto": 920.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -3247,170 +3795,170 @@
       "agujeros": [
         {
           "x": 164.0,
-          "y": 703.33,
+          "y": 663.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 703.33,
+          "y": 663.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 671.33,
+          "y": 631.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 671.33,
+          "y": 631.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 639.33,
+          "y": 599.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 639.33,
+          "y": 599.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 607.33,
+          "y": 567.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 607.33,
+          "y": 567.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 575.33,
+          "y": 535.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 575.33,
+          "y": 535.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 388.67,
+          "y": 368.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 388.67,
+          "y": 368.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 356.67,
+          "y": 336.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 356.67,
+          "y": 336.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 324.67,
+          "y": 304.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 324.67,
+          "y": 304.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 292.67,
+          "y": 272.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 292.67,
+          "y": 272.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 164.0,
-          "y": 260.67,
+          "y": 240.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 260.67,
+          "y": 240.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 971.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "y": 911.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 971.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "y": 911.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 278.0,
           "y": 9.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -3420,7 +3968,7 @@
           "x1": 27.5,
           "y1": 0.0,
           "x2": 27.5,
-          "y2": 980.0,
+          "y2": 920.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -3430,7 +3978,7 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290542",
+      "codigo": "9992609290610",
       "nombre": "COCINA-01_A1 Esquinero alacena_Piso",
       "ancho": 782.0,
       "alto": 782.0,
@@ -3448,29 +3996,29 @@
         {
           "x": 358.3,
           "y": 742.97,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "B"
         },
         {
           "x": 742.97,
           "y": 358.3,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "B"
         },
         {
           "x": 310.08,
           "y": 747.35,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 747.35,
           "y": 310.08,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
@@ -3586,7 +4134,7 @@
       ]
     },
     {
-      "codigo": "9992609290559",
+      "codigo": "9992609290627",
       "nombre": "COCINA-01_A1 Esquinero alacena_Techo",
       "ancho": 782.0,
       "alto": 782.0,
@@ -3602,17 +4150,31 @@
       "canto_der": 0.0,
       "agujeros": [
         {
+          "x": 742.97,
+          "y": 423.7,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 358.3,
+          "y": 39.03,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
           "x": 310.08,
           "y": 34.65,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 747.35,
           "y": 471.92,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
@@ -3728,10 +4290,10 @@
       ]
     },
     {
-      "codigo": "9992609290566",
+      "codigo": "9992609290634",
       "nombre": "COCINA-01_A1 Esquinero alacena_Fondo A",
       "ancho": 755.0,
-      "alto": 954.0,
+      "alto": 894.0,
       "espesor": 5.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -3749,10 +4311,10 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290573",
+      "codigo": "9992609290641",
       "nombre": "COCINA-01_A1 Esquinero alacena_Fondo B",
       "ancho": 762.0,
-      "alto": 954.0,
+      "alto": 894.0,
       "espesor": 5.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -3770,10 +4332,10 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290580",
+      "codigo": "9992609290658",
       "nombre": "COCINA-01_A1 Esquinero alacena_Montante A",
       "ancho": 80.0,
-      "alto": 944.0,
+      "alto": 884.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -3786,50 +4348,50 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 52.0,
-          "y": 860.5,
+          "x": 37.0,
+          "y": 816.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 860.5,
+          "x": 37.0,
+          "y": 784.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 52.0,
-          "y": 472.0,
+          "x": 37.0,
+          "y": 458.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 472.0,
+          "x": 37.0,
+          "y": 426.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 52.0,
-          "y": 83.5,
+          "x": 37.0,
+          "y": 99.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 83.5,
+          "x": 37.0,
+          "y": 67.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 40.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -3845,7 +4407,7 @@
       "agujeros_canto": [
         {
           "x": 40.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -3865,10 +4427,10 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290597",
+      "codigo": "9992609290665",
       "nombre": "COCINA-01_A1 Esquinero alacena_Montante B",
       "ancho": 80.0,
-      "alto": 944.0,
+      "alto": 884.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -3882,7 +4444,7 @@
       "agujeros": [
         {
           "x": 40.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -3898,7 +4460,7 @@
       "agujeros_canto": [
         {
           "x": 40.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -3918,10 +4480,10 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290603",
+      "codigo": "9992609290672",
       "nombre": "COCINA-01_A1 Esquinero alacena_Puerta",
       "ancho": 633.4,
-      "alto": 977.0,
+      "alto": 917.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -3934,43 +4496,50 @@
       "canto_der": 1.0,
       "agujeros": [
         {
+          "x": 40.0,
+          "y": 50.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
           "x": 604.9,
-          "y": 901.0,
+          "y": 841.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 604.9,
-          "y": 853.0,
+          "y": 793.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 610.9,
-          "y": 877.0,
+          "y": 817.0,
           "diametro": 35.0,
           "profundidad": 13.0,
           "cara": "A"
         },
         {
           "x": 604.9,
-          "y": 512.5,
+          "y": 482.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 604.9,
-          "y": 464.5,
+          "y": 434.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 610.9,
-          "y": 488.5,
+          "y": 458.5,
           "diametro": 35.0,
           "profundidad": 13.0,
           "cara": "A"
@@ -4003,7 +4572,7 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290610",
+      "codigo": "9992609290689",
       "nombre": "COCINA-01_A1 Esquinero alacena_Estante 1",
       "ancho": 750.0,
       "alto": 750.0,
@@ -4050,7 +4619,7 @@
       ]
     },
     {
-      "codigo": "9992609290627",
+      "codigo": "9992609290696",
       "nombre": "COCINA-01_A1 Esquinero alacena_Estante 2",
       "ancho": 750.0,
       "alto": 750.0,
@@ -4097,7 +4666,7 @@
       ]
     },
     {
-      "codigo": "9992609290634",
+      "codigo": "9992609290702",
       "nombre": "COCINA-01_A1 Esquinero alacena_Cenefa",
       "ancho": 636.4,
       "alto": 60.0,
@@ -4150,13 +4719,66 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290641",
-      "nombre": "COCINA-01_A2 Alacena 600_Piso",
+      "codigo": "9992609290719",
+      "nombre": "COCINA-01_A1 Esquinero alacena_Cornisa",
+      "ancho": 636.4,
+      "alto": 60.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A1 Esquinero alacena",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 590.2,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 46.2,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 590.2,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 46.2,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290726",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Piso",
       "ancho": 600.0,
       "alto": 332.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A2 Alacena 600",
+      "mueble": "A2 Alacena 600 rebatible",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -4168,43 +4790,43 @@
         {
           "x": 44.0,
           "y": 323.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "B"
         },
         {
           "x": 556.0,
           "y": 323.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "B"
         },
         {
           "x": 591.0,
           "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 591.0,
           "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -4233,13 +4855,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290658",
-      "nombre": "COCINA-01_A2 Alacena 600_Techo",
+      "codigo": "9992609290733",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Techo",
       "ancho": 600.0,
       "alto": 332.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A2 Alacena 600",
+      "mueble": "A2 Alacena 600 rebatible",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -4249,31 +4871,45 @@
       "canto_der": 0.0,
       "agujeros": [
         {
+          "x": 556.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 44.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
           "x": 591.0,
           "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 591.0,
           "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -4293,13 +4929,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290665",
-      "nombre": "COCINA-01_A2 Alacena 600_Lateral der",
+      "codigo": "9992609290740",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Lateral der",
       "ancho": 332.0,
-      "alto": 944.0,
+      "alto": 884.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A2 Alacena 600",
+      "mueble": "A2 Alacena 600 rebatible",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -4310,196 +4946,98 @@
       "agujeros": [
         {
           "x": 295.0,
-          "y": 685.33,
+          "y": 346.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 685.33,
+          "y": 346.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 653.33,
+          "y": 314.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 653.33,
+          "y": 314.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 621.33,
+          "y": 282.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 621.33,
+          "y": 282.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 589.33,
+          "y": 250.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 589.33,
+          "y": 250.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 557.33,
+          "y": 218.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 557.33,
+          "y": 218.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 295.0,
-          "y": 370.67,
+          "x": 277.5,
+          "y": 590.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 68.0,
-          "y": 370.67,
+          "x": 85.5,
+          "y": 590.0,
           "diametro": 5.0,
           "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 338.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 338.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 306.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 306.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 274.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 274.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 242.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 242.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 280.0,
-          "y": 860.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 312.0,
-          "y": 860.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 280.0,
-          "y": 472.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 312.0,
-          "y": 472.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 280.0,
-          "y": 83.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 312.0,
-          "y": 83.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -4522,7 +5060,7 @@
       "agujeros_canto": [
         {
           "x": 54.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -4530,7 +5068,7 @@
         },
         {
           "x": 278.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -4558,7 +5096,7 @@
           "x1": 27.5,
           "y1": 0.0,
           "x2": 27.5,
-          "y2": 944.0,
+          "y2": 884.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -4568,13 +5106,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290672",
-      "nombre": "COCINA-01_A2 Alacena 600_Lateral izq",
+      "codigo": "9992609290757",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Lateral izq",
       "ancho": 332.0,
-      "alto": 944.0,
+      "alto": 884.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A2 Alacena 600",
+      "mueble": "A2 Alacena 600 rebatible",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -4585,196 +5123,98 @@
       "agujeros": [
         {
           "x": 37.0,
-          "y": 685.33,
+          "y": 346.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 685.33,
+          "y": 346.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 653.33,
+          "y": 314.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 653.33,
+          "y": 314.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 621.33,
+          "y": 282.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 621.33,
+          "y": 282.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 589.33,
+          "y": 250.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 589.33,
+          "y": 250.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 557.33,
+          "y": 218.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 557.33,
+          "y": 218.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 37.0,
-          "y": 370.67,
+          "x": 246.5,
+          "y": 590.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 264.0,
-          "y": 370.67,
+          "x": 54.5,
+          "y": 590.0,
           "diametro": 5.0,
           "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 338.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 338.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 306.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 306.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 274.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 274.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 242.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 242.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 52.0,
-          "y": 860.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 20.0,
-          "y": 860.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 52.0,
-          "y": 472.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 20.0,
-          "y": 472.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 52.0,
-          "y": 83.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 20.0,
-          "y": 83.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -4797,7 +5237,7 @@
       "agujeros_canto": [
         {
           "x": 54.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -4805,7 +5245,7 @@
         },
         {
           "x": 278.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -4833,7 +5273,7 @@
           "x1": 304.5,
           "y1": 0.0,
           "x2": 304.5,
-          "y2": 944.0,
+          "y2": 884.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -4843,13 +5283,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290689",
-      "nombre": "COCINA-01_A2 Alacena 600_Fondo",
+      "codigo": "9992609290764",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Fondo",
       "ancho": 574.0,
-      "alto": 954.0,
+      "alto": 894.0,
       "espesor": 5.0,
       "material": "Melamina",
-      "mueble": "A2 Alacena 600",
+      "mueble": "A2 Alacena 600 rebatible",
       "textura": "BLANCO 5",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -4864,13 +5304,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290696",
-      "nombre": "COCINA-01_A2 Alacena 600_Cenefa",
+      "codigo": "9992609290771",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Cenefa",
       "ancho": 600.0,
       "alto": 60.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A2 Alacena 600",
+      "mueble": "A2 Alacena 600 rebatible",
       "textura": "VERDE 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -4917,13 +5357,198 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290702",
-      "nombre": "COCINA-01_A2 Alacena 600_Puerta der",
-      "ancho": 297.0,
-      "alto": 977.0,
+      "codigo": "9992609290788",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Cornisa",
+      "ancho": 600.0,
+      "alto": 60.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A2 Alacena 600",
+      "mueble": "A2 Alacena 600 rebatible",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 556.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 44.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 556.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 44.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290795",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Frente fijo",
+      "ancho": 597.0,
+      "alto": 300.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A2 Alacena 600 rebatible",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290801",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante fijo",
+      "ancho": 301.0,
+      "alto": 564.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A2 Alacena 600 rebatible",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 264.0,
+          "y": 496.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 464.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 99.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 67.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 54.5,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 246.5,
+          "y": 531.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 246.5,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        },
+        {
+          "x": 54.5,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "B"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 54.5,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 246.5,
+          "y": 564.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 246.5,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 54.5,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290818",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible",
+      "ancho": 614.0,
+      "alto": 597.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A2 Alacena 600 rebatible",
       "textura": "VERDE 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -4933,43 +5558,36 @@
       "canto_der": 1.0,
       "agujeros": [
         {
+          "x": 564.0,
+          "y": 362.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 564.0,
+          "y": 234.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
           "x": 28.5,
-          "y": 901.0,
+          "y": 521.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 28.5,
-          "y": 853.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 22.5,
-          "y": 877.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 512.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 464.5,
+          "y": 473.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 22.5,
-          "y": 488.5,
+          "y": 497.0,
           "diametro": 35.0,
           "profundidad": 13.0,
           "cara": "A"
@@ -5002,98 +5620,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290719",
-      "nombre": "COCINA-01_A2 Alacena 600_Puerta izq",
-      "ancho": 297.0,
-      "alto": 977.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A2 Alacena 600",
-      "textura": "VERDE 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 1.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 1.0,
-      "canto_der": 1.0,
-      "agujeros": [
-        {
-          "x": 268.5,
-          "y": 901.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 268.5,
-          "y": 853.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 274.5,
-          "y": 877.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 268.5,
-          "y": 512.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 268.5,
-          "y": 464.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 274.5,
-          "y": 488.5,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 268.5,
-          "y": 124.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 268.5,
-          "y": 76.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 274.5,
-          "y": 100.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290726",
-      "nombre": "COCINA-01_A2 Alacena 600_Estante 1",
+      "codigo": "9992609290825",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante 1",
       "ancho": 562.0,
       "alto": 281.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A2 Alacena 600",
+      "mueble": "A2 Alacena 600 rebatible",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -5108,34 +5641,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290733",
-      "nombre": "COCINA-01_A2 Alacena 600_Estante 2",
-      "ancho": 562.0,
-      "alto": 281.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A2 Alacena 600",
-      "textura": "BLANCO 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290740",
-      "nombre": "COCINA-01_A3 Alacena 800_Piso",
+      "codigo": "9992609290832",
+      "nombre": "COCINA-01_A3 Vitrina 800_Piso",
       "ancho": 800.0,
       "alto": 332.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A3 Alacena 800",
+      "mueble": "A3 Vitrina 800",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -5147,43 +5659,43 @@
         {
           "x": 48.0,
           "y": 323.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "B"
         },
         {
           "x": 752.0,
           "y": 323.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "B"
         },
         {
           "x": 791.0,
           "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 791.0,
           "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -5212,13 +5724,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290757",
-      "nombre": "COCINA-01_A3 Alacena 800_Techo",
+      "codigo": "9992609290849",
+      "nombre": "COCINA-01_A3 Vitrina 800_Techo",
       "ancho": 800.0,
       "alto": 332.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A3 Alacena 800",
+      "mueble": "A3 Vitrina 800",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -5228,31 +5740,45 @@
       "canto_der": 0.0,
       "agujeros": [
         {
+          "x": 752.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 48.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
           "x": 791.0,
           "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 791.0,
           "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
           "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
@@ -5272,13 +5798,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290764",
-      "nombre": "COCINA-01_A3 Alacena 800_Lateral der",
+      "codigo": "9992609290856",
+      "nombre": "COCINA-01_A3 Vitrina 800_Lateral der",
       "ancho": 332.0,
-      "alto": 944.0,
+      "alto": 884.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A3 Alacena 800",
+      "mueble": "A3 Vitrina 800",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -5289,196 +5815,196 @@
       "agujeros": [
         {
           "x": 295.0,
-          "y": 685.33,
+          "y": 645.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 685.33,
+          "y": 645.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 653.33,
+          "y": 613.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 653.33,
+          "y": 613.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 621.33,
+          "y": 581.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 621.33,
+          "y": 581.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 589.33,
+          "y": 549.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 589.33,
+          "y": 549.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 557.33,
+          "y": 517.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 557.33,
+          "y": 517.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 370.67,
+          "y": 350.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 370.67,
+          "y": 350.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 338.67,
+          "y": 318.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 338.67,
+          "y": 318.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 306.67,
+          "y": 286.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 306.67,
+          "y": 286.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 274.67,
+          "y": 254.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 274.67,
+          "y": 254.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 242.67,
+          "y": 222.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 242.67,
+          "y": 222.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 280.0,
-          "y": 860.5,
+          "x": 295.0,
+          "y": 816.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 312.0,
-          "y": 860.5,
+          "x": 295.0,
+          "y": 784.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 280.0,
-          "y": 472.0,
+          "x": 295.0,
+          "y": 458.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 312.0,
-          "y": 472.0,
+          "x": 295.0,
+          "y": 426.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 280.0,
-          "y": 83.5,
+          "x": 295.0,
+          "y": 99.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 312.0,
-          "y": 83.5,
+          "x": 295.0,
+          "y": 67.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -5501,7 +6027,7 @@
       "agujeros_canto": [
         {
           "x": 54.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -5509,7 +6035,7 @@
         },
         {
           "x": 278.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -5537,711 +6063,7 @@
           "x1": 27.5,
           "y1": 0.0,
           "x2": 27.5,
-          "y2": 944.0,
-          "ancho": 6.0,
-          "profundidad": 6.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290771",
-      "nombre": "COCINA-01_A3 Alacena 800_Lateral izq",
-      "ancho": 332.0,
-      "alto": 944.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A3 Alacena 800",
-      "textura": "BLANCO 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 1.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 37.0,
-          "y": 685.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 685.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 653.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 653.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 621.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 621.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 589.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 589.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 557.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 557.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 370.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 370.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 338.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 338.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 306.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 306.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 274.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 274.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 242.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 242.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 52.0,
-          "y": 860.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 20.0,
-          "y": 860.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 52.0,
-          "y": 472.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 20.0,
-          "y": 472.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 52.0,
-          "y": 83.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 20.0,
-          "y": 83.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 54.0,
-          "y": 911.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 278.0,
-          "y": 911.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 278.0,
-          "y": 33.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 54.0,
-          "y": 33.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 54.0,
-          "y": 944.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "U"
-        },
-        {
-          "x": 278.0,
-          "y": 944.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "U"
-        },
-        {
-          "x": 278.0,
-          "y": 0.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "D"
-        },
-        {
-          "x": 54.0,
-          "y": 0.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "D"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 304.5,
-          "y1": 0.0,
-          "x2": 304.5,
-          "y2": 944.0,
-          "ancho": 6.0,
-          "profundidad": 6.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290788",
-      "nombre": "COCINA-01_A3 Alacena 800_Fondo",
-      "ancho": 774.0,
-      "alto": 954.0,
-      "espesor": 5.0,
-      "material": "Melamina",
-      "mueble": "A3 Alacena 800",
-      "textura": "BLANCO 5",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290795",
-      "nombre": "COCINA-01_A3 Alacena 800_Cenefa",
-      "ancho": 800.0,
-      "alto": 60.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A3 Alacena 800",
-      "textura": "VERDE 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 1.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 1.0,
-      "canto_der": 1.0,
-      "agujeros": [
-        {
-          "x": 48.0,
-          "y": 27.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 752.0,
-          "y": 27.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 48.0,
-          "y": 60.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "U"
-        },
-        {
-          "x": 752.0,
-          "y": 60.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "U"
-        }
-      ],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290801",
-      "nombre": "COCINA-01_A3 Alacena 800_Puerta der",
-      "ancho": 397.0,
-      "alto": 977.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A3 Alacena 800",
-      "textura": "VERDE 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 1.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 1.0,
-      "canto_der": 1.0,
-      "agujeros": [
-        {
-          "x": 28.5,
-          "y": 901.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 853.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 22.5,
-          "y": 877.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 512.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 464.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 22.5,
-          "y": 488.5,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 124.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 76.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 22.5,
-          "y": 100.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290818",
-      "nombre": "COCINA-01_A3 Alacena 800_Puerta izq",
-      "ancho": 397.0,
-      "alto": 977.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A3 Alacena 800",
-      "textura": "VERDE 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 1.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 1.0,
-      "canto_der": 1.0,
-      "agujeros": [
-        {
-          "x": 368.5,
-          "y": 901.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 368.5,
-          "y": 853.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 374.5,
-          "y": 877.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 368.5,
-          "y": 512.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 368.5,
-          "y": 464.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 374.5,
-          "y": 488.5,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 368.5,
-          "y": 124.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 368.5,
-          "y": 76.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 374.5,
-          "y": 100.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290825",
-      "nombre": "COCINA-01_A3 Alacena 800_Estante 1",
-      "ancho": 762.0,
-      "alto": 281.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A3 Alacena 800",
-      "textura": "BLANCO 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290832",
-      "nombre": "COCINA-01_A3 Alacena 800_Estante 2",
-      "ancho": 762.0,
-      "alto": 281.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A3 Alacena 800",
-      "textura": "BLANCO 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290849",
-      "nombre": "COCINA-01_A4 Alacena 570_Piso",
-      "ancho": 570.0,
-      "alto": 332.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A4 Alacena 570",
-      "textura": "BLANCO 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 45.0,
-          "y": 323.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "B"
-        },
-        {
-          "x": 525.0,
-          "y": 323.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "B"
-        },
-        {
-          "x": 561.0,
-          "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "A"
-        },
-        {
-          "x": 561.0,
-          "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "A"
-        },
-        {
-          "x": 9.0,
-          "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "A"
-        },
-        {
-          "x": 9.0,
-          "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [],
-      "ranuras": [
-        {
-          "x1": 38.0,
-          "y1": 287.0,
-          "x2": 532.0,
-          "y2": 287.0,
-          "ancho": 10.0,
-          "profundidad": 10.0,
-          "cara": "B"
-        },
-        {
-          "x1": 12.85,
-          "y1": 27.5,
-          "x2": 557.15,
-          "y2": 27.5,
-          "ancho": 6.0,
-          "profundidad": 6.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290856",
-      "nombre": "COCINA-01_A4 Alacena 570_Techo",
-      "ancho": 570.0,
-      "alto": 332.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A4 Alacena 570",
-      "textura": "BLANCO 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 1.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 561.0,
-          "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "A"
-        },
-        {
-          "x": 561.0,
-          "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "A"
-        },
-        {
-          "x": 9.0,
-          "y": 278.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "A"
-        },
-        {
-          "x": 9.0,
-          "y": 54.0,
-          "diametro": 10.0,
-          "profundidad": 11.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [],
-      "ranuras": [
-        {
-          "x1": 12.85,
-          "y1": 304.5,
-          "x2": 557.15,
-          "y2": 304.5,
+          "y2": 884.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -6252,287 +6074,12 @@
     },
     {
       "codigo": "9992609290863",
-      "nombre": "COCINA-01_A4 Alacena 570_Lateral der",
+      "nombre": "COCINA-01_A3 Vitrina 800_Lateral izq",
       "ancho": 332.0,
-      "alto": 944.0,
+      "alto": 884.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Alacena 570",
-      "textura": "BLANCO 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 1.0,
-      "agujeros": [
-        {
-          "x": 295.0,
-          "y": 685.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 685.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 653.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 653.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 621.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 621.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 589.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 589.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 557.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 557.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 370.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 370.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 338.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 338.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 306.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 306.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 274.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 274.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 242.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 242.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 280.0,
-          "y": 860.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 312.0,
-          "y": 860.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 280.0,
-          "y": 472.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 312.0,
-          "y": 472.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 280.0,
-          "y": 83.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 312.0,
-          "y": 83.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 54.0,
-          "y": 911.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 278.0,
-          "y": 911.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 278.0,
-          "y": 33.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 54.0,
-          "y": 33.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 54.0,
-          "y": 944.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "U"
-        },
-        {
-          "x": 278.0,
-          "y": 944.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "U"
-        },
-        {
-          "x": 278.0,
-          "y": 0.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "D"
-        },
-        {
-          "x": 54.0,
-          "y": 0.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "D"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 27.5,
-          "y1": 0.0,
-          "x2": 27.5,
-          "y2": 944.0,
-          "ancho": 6.0,
-          "profundidad": 6.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290870",
-      "nombre": "COCINA-01_A4 Alacena 570_Lateral izq",
-      "ancho": 332.0,
-      "alto": 944.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A4 Alacena 570",
+      "mueble": "A3 Vitrina 800",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -6543,196 +6090,196 @@
       "agujeros": [
         {
           "x": 37.0,
-          "y": 685.33,
+          "y": 645.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 685.33,
+          "y": 645.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 653.33,
+          "y": 613.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 653.33,
+          "y": 613.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 621.33,
+          "y": 581.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 621.33,
+          "y": 581.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 589.33,
+          "y": 549.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 589.33,
+          "y": 549.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 557.33,
+          "y": 517.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 557.33,
+          "y": 517.33,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 370.67,
+          "y": 350.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 370.67,
+          "y": 350.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 338.67,
+          "y": 318.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 338.67,
+          "y": 318.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 306.67,
+          "y": 286.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 306.67,
+          "y": 286.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 274.67,
+          "y": 254.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 274.67,
+          "y": 254.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 242.67,
+          "y": 222.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 242.67,
+          "y": 222.67,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 52.0,
-          "y": 860.5,
+          "x": 37.0,
+          "y": 816.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 860.5,
+          "x": 37.0,
+          "y": 784.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 52.0,
-          "y": 472.0,
+          "x": 37.0,
+          "y": 458.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 472.0,
+          "x": 37.0,
+          "y": 426.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 52.0,
-          "y": 83.5,
+          "x": 37.0,
+          "y": 99.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 20.0,
-          "y": 83.5,
+          "x": 37.0,
+          "y": 67.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 911.0,
+          "y": 851.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -6755,7 +6302,7 @@
       "agujeros_canto": [
         {
           "x": 54.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -6763,7 +6310,7 @@
         },
         {
           "x": 278.0,
-          "y": 944.0,
+          "y": 884.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -6791,7 +6338,7 @@
           "x1": 304.5,
           "y1": 0.0,
           "x2": 304.5,
-          "y2": 944.0,
+          "y2": 884.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -6801,13 +6348,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290887",
-      "nombre": "COCINA-01_A4 Alacena 570_Fondo",
-      "ancho": 544.0,
-      "alto": 954.0,
+      "codigo": "9992609290870",
+      "nombre": "COCINA-01_A3 Vitrina 800_Fondo",
+      "ancho": 774.0,
+      "alto": 894.0,
       "espesor": 5.0,
       "material": "Melamina",
-      "mueble": "A4 Alacena 570",
+      "mueble": "A3 Vitrina 800",
       "textura": "BLANCO 5",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -6822,13 +6369,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290894",
-      "nombre": "COCINA-01_A4 Alacena 570_Cenefa",
-      "ancho": 570.0,
+      "codigo": "9992609290887",
+      "nombre": "COCINA-01_A3 Vitrina 800_Cenefa",
+      "ancho": 800.0,
       "alto": 60.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Alacena 570",
+      "mueble": "A3 Vitrina 800",
       "textura": "VERDE 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -6838,14 +6385,14 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 45.0,
+          "x": 48.0,
           "y": 27.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 525.0,
+          "x": 752.0,
           "y": 27.0,
           "diametro": 15.0,
           "profundidad": 13.5,
@@ -6854,7 +6401,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 45.0,
+          "x": 48.0,
           "y": 60.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -6862,7 +6409,7 @@
           "canto": "U"
         },
         {
-          "x": 525.0,
+          "x": 752.0,
           "y": 60.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -6875,13 +6422,66 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290900",
-      "nombre": "COCINA-01_A4 Alacena 570_Puerta der",
-      "ancho": 282.0,
-      "alto": 977.0,
+      "codigo": "9992609290894",
+      "nombre": "COCINA-01_A3 Vitrina 800_Cornisa",
+      "ancho": 800.0,
+      "alto": 60.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Alacena 570",
+      "mueble": "A3 Vitrina 800",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 752.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 48.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 752.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 48.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290900",
+      "nombre": "COCINA-01_A3 Vitrina 800_Puerta der",
+      "ancho": 397.0,
+      "alto": 917.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A3 Vitrina 800",
       "textura": "VERDE 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -6891,43 +6491,50 @@
       "canto_der": 1.0,
       "agujeros": [
         {
+          "x": 357.0,
+          "y": 50.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
           "x": 28.5,
-          "y": 901.0,
+          "y": 841.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 28.5,
-          "y": 853.0,
+          "y": 793.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 22.5,
-          "y": 877.0,
+          "y": 817.0,
           "diametro": 35.0,
           "profundidad": 13.0,
           "cara": "A"
         },
         {
           "x": 28.5,
-          "y": 512.5,
+          "y": 482.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 28.5,
-          "y": 464.5,
+          "y": 434.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 22.5,
-          "y": 488.5,
+          "y": 458.5,
           "diametro": 35.0,
           "profundidad": 13.0,
           "cara": "A"
@@ -6961,12 +6568,12 @@
     },
     {
       "codigo": "9992609290917",
-      "nombre": "COCINA-01_A4 Alacena 570_Puerta izq",
-      "ancho": 282.0,
-      "alto": 977.0,
+      "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq",
+      "ancho": 397.0,
+      "alto": 917.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Alacena 570",
+      "mueble": "A3 Vitrina 800",
       "textura": "VERDE 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -6976,43 +6583,1110 @@
       "canto_der": 1.0,
       "agujeros": [
         {
+          "x": 40.0,
+          "y": 50.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 368.5,
+          "y": 841.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 368.5,
+          "y": 793.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 374.5,
+          "y": 817.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 368.5,
+          "y": 482.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 368.5,
+          "y": 434.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 374.5,
+          "y": 458.5,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 368.5,
+          "y": 124.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 368.5,
+          "y": 76.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 374.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290924",
+      "nombre": "COCINA-01_A3 Vitrina 800_Estante 1",
+      "ancho": 762.0,
+      "alto": 281.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A3 Vitrina 800",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290931",
+      "nombre": "COCINA-01_A3 Vitrina 800_Estante 2",
+      "ancho": 762.0,
+      "alto": 281.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A3 Vitrina 800",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290948",
+      "nombre": "COCINA-01_A4 Vitrina 570_Piso",
+      "ancho": 570.0,
+      "alto": 332.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 45.0,
+          "y": 323.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 525.0,
+          "y": 323.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 561.0,
+          "y": 54.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 561.0,
+          "y": 278.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 9.0,
+          "y": 278.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 9.0,
+          "y": 54.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 38.0,
+          "y1": 287.0,
+          "x2": 532.0,
+          "y2": 287.0,
+          "ancho": 10.0,
+          "profundidad": 10.0,
+          "cara": "B"
+        },
+        {
+          "x1": 12.85,
+          "y1": 27.5,
+          "x2": 557.15,
+          "y2": 27.5,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290955",
+      "nombre": "COCINA-01_A4 Vitrina 570_Techo",
+      "ancho": 570.0,
+      "alto": 332.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 525.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 45.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "B"
+        },
+        {
+          "x": 561.0,
+          "y": 54.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 561.0,
+          "y": 278.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 9.0,
+          "y": 278.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 9.0,
+          "y": 54.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [
+        {
+          "x1": 12.85,
+          "y1": 304.5,
+          "x2": 557.15,
+          "y2": 304.5,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290962",
+      "nombre": "COCINA-01_A4 Vitrina 570_Lateral der",
+      "ancho": 332.0,
+      "alto": 884.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 295.0,
+          "y": 645.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 645.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 613.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 613.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 581.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 581.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 549.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 549.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 517.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 517.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 350.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 350.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 318.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 318.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 286.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 286.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 254.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 254.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 222.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 68.0,
+          "y": 222.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 816.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 784.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 458.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 426.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 99.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 295.0,
+          "y": 67.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 54.0,
+          "y": 851.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 278.0,
+          "y": 851.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 278.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 54.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 54.0,
+          "y": 884.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 278.0,
+          "y": 884.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 278.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 54.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 27.5,
+          "y1": 0.0,
+          "x2": 27.5,
+          "y2": 884.0,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290979",
+      "nombre": "COCINA-01_A4 Vitrina 570_Lateral izq",
+      "ancho": 332.0,
+      "alto": 884.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 37.0,
+          "y": 645.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 645.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 613.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 613.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 581.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 581.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 549.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 549.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 517.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 517.33,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 350.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 350.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 318.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 318.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 286.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 286.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 254.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 254.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 222.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 264.0,
+          "y": 222.67,
+          "diametro": 5.0,
+          "profundidad": 12.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 816.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 784.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 458.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 426.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 99.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 37.0,
+          "y": 67.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 54.0,
+          "y": 851.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 278.0,
+          "y": 851.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 278.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 54.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 54.0,
+          "y": 884.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 278.0,
+          "y": 884.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 278.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 54.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [
+        {
+          "x1": 304.5,
+          "y1": 0.0,
+          "x2": 304.5,
+          "y2": 884.0,
+          "ancho": 6.0,
+          "profundidad": 6.0,
+          "cara": "A"
+        }
+      ],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290986",
+      "nombre": "COCINA-01_A4 Vitrina 570_Fondo",
+      "ancho": 544.0,
+      "alto": 894.0,
+      "espesor": 5.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "BLANCO 5",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290993",
+      "nombre": "COCINA-01_A4 Vitrina 570_Cenefa",
+      "ancho": 570.0,
+      "alto": 60.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 45.0,
+          "y": 27.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 525.0,
+          "y": 27.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 45.0,
+          "y": 60.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        },
+        {
+          "x": 525.0,
+          "y": 60.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "U"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609291006",
+      "nombre": "COCINA-01_A4 Vitrina 570_Cornisa",
+      "ancho": 570.0,
+      "alto": 60.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 0.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 525.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 45.0,
+          "y": 33.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 525.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        },
+        {
+          "x": 45.0,
+          "y": 0.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "D"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609291013",
+      "nombre": "COCINA-01_A4 Vitrina 570_Puerta der",
+      "ancho": 282.0,
+      "alto": 917.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 242.0,
+          "y": 50.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 841.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 793.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 817.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 482.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 434.5,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 458.5,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 124.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 76.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609291020",
+      "nombre": "COCINA-01_A4 Vitrina 570_Puerta izq",
+      "ancho": 282.0,
+      "alto": 917.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A4 Vitrina 570",
+      "textura": "VERDE 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 40.0,
+          "y": 50.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
           "x": 253.5,
-          "y": 901.0,
+          "y": 841.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 253.5,
-          "y": 853.0,
+          "y": 793.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 259.5,
-          "y": 877.0,
+          "y": 817.0,
           "diametro": 35.0,
           "profundidad": 13.0,
           "cara": "A"
         },
         {
           "x": 253.5,
-          "y": 512.5,
+          "y": 482.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 253.5,
-          "y": 464.5,
+          "y": 434.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 259.5,
-          "y": 488.5,
+          "y": 458.5,
           "diametro": 35.0,
           "profundidad": 13.0,
           "cara": "A"
@@ -7045,13 +7719,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290924",
-      "nombre": "COCINA-01_A4 Alacena 570_Estante 1",
+      "codigo": "9992609291037",
+      "nombre": "COCINA-01_A4 Vitrina 570_Estante 1",
       "ancho": 532.0,
       "alto": 281.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Alacena 570",
+      "mueble": "A4 Vitrina 570",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -7066,13 +7740,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290931",
-      "nombre": "COCINA-01_A4 Alacena 570_Estante 2",
+      "codigo": "9992609291044",
+      "nombre": "COCINA-01_A4 Vitrina 570_Estante 2",
       "ancho": 532.0,
       "alto": 281.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Alacena 570",
+      "mueble": "A4 Vitrina 570",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -7087,9 +7761,9 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290948",
+      "codigo": "9992609291051",
       "nombre": "COCINA-01_Z Zocalos_Zocalo largo",
-      "ancho": 955.0,
+      "ancho": 1407.0,
       "alto": 99.0,
       "espesor": 18.0,
       "material": "Melamina",
@@ -7108,7 +7782,7 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290955",
+      "codigo": "9992609291068",
       "nombre": "COCINA-01_Z Zocalos_Zocalo diagonal",
       "ancho": 367.7,
       "alto": 99.0,

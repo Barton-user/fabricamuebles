@@ -4,6 +4,8 @@
         <Banding bandingBack="1" bandingRight="1" bandingFront="1" bandingLeft="1"/>
     </Bandings>
     <Holes>
+        <Hole point="(252.00,483.00,18.00)" diameter="5.00" depth="18.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(252.00,355.00,18.00)" diameter="5.00" depth="18.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(28.50,493.00,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(28.50,445.00,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
         <Hole point="(22.50,469.00,18.00)" diameter="35.00" depth="13.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>

@@ -1822,3 +1822,29 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   Pato: "las medidas aparentemente están ok". Disco de la Mac lleno a mitad de sesión (reinicio liberó 15 GB).
 - Esquema para la diseñadora (GuiGui) en Figma: archivo de herrajes FBehv5P3VSuDUbLplOPRit, página "Bisagra – medidas para GuiGui".
 - Pendiente: cambiar `base_desde_frente` en medidas.json y el código (hoy 20/52 a lo largo).
+
+
+## 18/10/2026 — COCINA-01 rediseñada como el render (vitrinas, rebatible, cornisa, tiradores)
+
+- Pato mostró un render (cocina verde, alacenas vitrina 2×3 con perillas de cobre, barrales de
+  cobre en los bajos, cornisa, pileta en la pared larga con cajonera al lado, cocina en la corta)
+  y pidió COCINA-01 igual. Decidido por AskUserQuestion: distribución + estilo, paredes de
+  COCINA-01 **sin lavavajillas**, vitrinas de marco de melamina 18 + vidrio, tiradores perforados
+  (barral 128 + perilla, Ø5 pasante).
+- MCP de Fusion: anda. Se leyó el árbol de COCINA-01 y se re-armó el documento vaciado con
+  `ArmarReceta.armar(nuevo=False)` (3 veces mientras se ajustaba). **No se guardó.**
+- Receta (`recetas/cocina01.py`): B4 Bajo puerta 452 en lugar del lavavajillas; cornisa 60 en
+  todas las alacenas (cuerpo 1510–2430); vitrinas A3 2×3, A4 1×3 (puertas de 282), esquinero 2×3;
+  A2 frente fijo + rebatible sobre estante fijo; tiradores y perillas con herraje dibujado;
+  receptor Ø5×12 y placa base 37/±16 desde `medidas.json`. 106 placas, 0 errores de chequeo,
+  **106/106 receta = sólido**. Detalle en `docs/FUSION_RECETAS.md` §25.2.
+- Hallazgos: (1) `ExportarPiezas` tomaba el rebaje del vidrio (301 de ancho) como ranura → filtro
+  `RANURA_ANCHO_MAX = 40`. (2) El estante fijo de la rebatible centrado en la junta daba bisagra
+  "base −15": se bajó 18 para que la cara quede a 16,5 del canto, como un techo (base −6).
+  (3) Apariencias cobre/vidrio no prenden dentro de `armar()`; `ArmarReceta.repintar()` aparte.
+- Paquete `fusion/EXPORT_COCINA-01/` regenerado (XML3 106, MPR 99, lista, hojas); MPR viejos a
+  `salida/_obsoleto_18-10/`. LEEME actualizado.
+- **Pendiente nuevo**: programa `.nc` del router para las 5 puertas vitrina (ventanas + rebaje);
+  pistones de la rebatible; `PonerHerrajes` con placa base 37/±16; confirmar la cuadrícula de A4
+  (1×3) y si la cornisa va retirada 18 o a ras de las puertas.
+- Disco de la Mac lleno al empezar (100 MB libres): Pato reinició y quedaron 12 GB.

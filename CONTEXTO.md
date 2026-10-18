@@ -1,6 +1,6 @@
 # FÁBRICA MUEBLES — Contexto del proyecto
 
-_Leiten Com · Pato · Última actualización: **16/10/2026**_
+_Leiten Com · Pato · Última actualización: **18/10/2026**_
 
 > **Cómo se usa este archivo.** Es lo único que hay que leer al empezar una conversación.
 > Dice **qué es cierto hoy**. El detalle de cada tema está en `docs/` (mapa en §7) y la historia
@@ -46,7 +46,7 @@ enteran (especificación en `docs/FORMATOS.md`).
 |---|---|---|
 | **0 · Sobre metal** | probar en las máquinas lo que sólo se contesta ahí | 🟡 casi: la perforadora lee **KDTXml** y mecaniza; Ø35 resuelta. Faltan las pruebas de `MAÑANA_EN_LA_MAQUINA.md` (§5) |
 | **1 · Paquete de producción** | etiquetas propias, manual de armado, ranura de canto, **fabricar y armar PRUEBA 1** | 🟡 en curso: Alacena Spar (PRUEBA 1) perforada; `etapa2/etiquetas.py` funciona por los dos caminos; AutoCUT sigue mal mapeado |
-| **2 · Estresar Fusion** | 2-3 muebles distintos de cero, cada herraje nuevo **medido** | 🟡 COCINA-01 (cajonera, zócalo, esquineros, estantes) diseñada y exportada, sin fabricar |
+| **2 · Estresar Fusion** | 2-3 muebles distintos de cero, cada herraje nuevo **medido** | 🟡 COCINA-01 rediseñada 18/10 como el render (vitrinas, rebatible, cornisa, tiradores; 106 placas, 106/106 receta = sólido), sin fabricar. **Vitrinas: falta el `.nc` del router** |
 | **3 · Recetas** | los 10 modelos como código paramétrico + CLI | 🟡 empezada: `recetas/cocina01.py`, `recetas/alacena_spar.py` |
 | 4 · Visor / configurador 3D | three.js sobre las recetas | ⬜ no empezar antes de la 3 |
 | 5 · Tienda y disparo | catálogo, Mercado Pago, pedido → paquete | ⬜ |
@@ -117,11 +117,11 @@ recetas/ ──(fusion/ArmarReceta)───────────────
 
 - La marca es **Grupo Euro**, no Häfele (los STEP de Häfele se usan como 3D de referencia).
 - **Bisagra: tornillos a 6 mm del centro de la cazoleta, ±24 (patrón 48/6), x = 28,5 del canto.**
-  Cazoleta Ø35 × 13 a 22,5 del canto. **Placa base (lateral): 2 × Ø5 × 3 a 37 del frente, uno arriba del otro a ±16 de la cazoleta** (Häfele 311.04.003 codo 0, probada 16/10; `PENDRIVE/PRUEBA_BISAGRA_HAFELE/`). Falta pasarlo a `medidas.json` y al código (hoy 20/52 a lo largo). Esquema para la diseñadora en Figma (página "Bisagra – medidas para GuiGui" del archivo de herrajes). ⚠️ El 6 sale de la marca sobre la puerta: **confirmarlo con
+  Cazoleta Ø35 × 13 a 22,5 del canto. **Placa base (lateral): 2 × Ø5 × 3 a 37 del frente, uno arriba del otro a ±16 de la cazoleta** (Häfele 311.04.003 codo 0, probada 16/10; `PENDRIVE/PRUEBA_BISAGRA_HAFELE/`). Está en `medidas.json` (`base_frente` / `base_a_lo_largo`) y las recetas lo usan desde el 18/10; `fusion/PonerHerrajes` (camino GuiGui) sigue con 20/52. Esquema para la diseñadora en Figma (página "Bisagra – medidas para GuiGui" del archivo de herrajes). ⚠️ El 6 sale de la marca sobre la puerta: **confirmarlo con
   calibre**. La medida vive en **`herrajes/medidas.json`**; GuiGui todavía trae 14,5 → generar con
   `ajustar_maquina.py --bisagra`.
 - **3 en 1: el perno es de rosca para madera (sin taco) → receptor Ø5 × 12** (probado 06/10; el Ø10 × 11 de GuiGui
-  es para taco y el perno baila). Medida en `herrajes/medidas.json` (`tres_en_uno`). GuiGui todavía saca Ø10.
+  es para taco y el perno baila). Medida en `herrajes/medidas.json` (`tres_en_uno`); las recetas la leen desde el 18/10 (ya no dibujan receptor). GuiGui todavía saca Ø10.
 - Biblioteca 3D en `herrajes/biblioteca/` (`CATALOGO.md`): **no volver a modelar herrajes**.
 
 **Sierra / AutoCUT**: el mapeo está **mal** (cantos cruzados → piezas 1 mm mal por lado; código de
@@ -140,7 +140,7 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 5 | **Ranura de canto**: no sabemos el formato (¿"SlotH"?) ni si la hace la SKH-612HS; el generador se niega a escribirla | `docs/FORMATOS.md` · pregunta a Huahua |
 | 6 | Armar PRUEBA 1 completo (cantos HH-509R + armado). **Manual de armado**: ya sale de la receta (`etapa2/manual_armado.py`, ver §2); falta probarlo armando la Alacena Spar con el manual en la mano, y que también salga por el camino GuiGui | `docs/FUSION_RECETAS.md` |
 | 7 | **Perno del 3 en 1: 33 o 34** (con el herraje Grupo Euro real) · canto real (¿1 mm?) · kerf real de la sierra | `docs/HERRAJES.md` |
-| 8 | **`ArmarDesdeRender`: el canto de las piezas Lintel (listones) sale del lado equivocado** (arriba en vez de abajo; corregido a mano en la Spar 05/10) y `ExportarPiezas` da el fondo sin el encastre (564×710,6 en vez de 574×720,6) · COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` |
+| 8 | **`ArmarDesdeRender`: el canto de las piezas Lintel (listones) sale del lado equivocado** (arriba en vez de abajo; corregido a mano en la Spar 05/10) y `ExportarPiezas` da el fondo sin el encastre (564×710,6 en vez de 574×720,6) · COCINA-01: **programa `.nc` del router para las 5 puertas vitrina** (ventanas + rebaje; hoy sólo en `modelo.json`), Ø3 de corredera (no hay en la máquina), colgadores sin medir, pistones de la rebatible; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
 | 9 | **Router**: primera prueba física (cuadrado 100, decide si los `.nc` de GuiGui necesitan encabezado `G43`), cargar y medir las fresas en el almacén, medir mesa útil. Fresas ya identificadas: 8 × Ø10 rectas de 1/2", Ø6, Ø8 | `docs/ROUTER_SKG912.md` · `PENDRIVE/7_ROUTER_PRUEBA/LEEME.txt` |
 | 10 | Curvado: probetas por material, primera pieza real, cantos en zona curva | `docs/CURVADO.md` |
 

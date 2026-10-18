@@ -11,11 +11,13 @@
     "tornillo_prof": 3.0,
     "base_d": 5.0,
     "base_prof": 3.0,
+    "base_frente": 37.0,
+    "base_a_lo_largo": 16.0,
     "base_desde_frente": [
       20.0,
       52.0
     ],
-    "_estado": "tornillos_desde_cazoleta = 6 sale de la marca sobre la puerta (01/10/2026): FALTA confirmarlo con calibre. base_desde_frente (20/52) SIN VERIFICAR contra la placa base cruciforme real. Diametros 5: no hay mecha O6 en la perforadora (decision del 01/10).",
+    "_estado": "tornillos_desde_cazoleta = 6 sale de la marca sobre la puerta (01/10/2026): FALTA confirmarlo con calibre. PLACA BASE (probada 16/10/2026, Hafele 311.04.003 codo 0, PENDRIVE/PRUEBA_BISAGRA_HAFELE): 2 x O5 x 3 a base_frente=37 del frente, uno arriba del otro a +-base_a_lo_largo=16 de la cazoleta. Lo usan las recetas (cocina01.py). base_desde_frente (20/52, a lo largo de la profundidad) es lo VIEJO y queda solo porque fusion/PonerHerrajes todavia lo lee: pendiente pasarlo a 37/+-16. Diametros 5: no hay mecha O6 en la perforadora (decision del 01/10).",
     "_antes_guigui": {
       "tornillos_desde_cazoleta": 14.5,
       "tornillo_d": 6.0,

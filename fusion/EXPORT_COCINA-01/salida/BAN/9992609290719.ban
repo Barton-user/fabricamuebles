@@ -1,20 +1,15 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/02 am 12:27:58" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="297.00" Height="977.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,1,1,1" Name="COCINA-01_A2 Alacena 600_Puerta izq" Code="9992609290719">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:17:13" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="636.40" Height="60.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,1,0,0" Name="COCINA-01_A1 Esquinero alacena_Cornisa" Code="9992609290719">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="297.00 0.00 0"/>
-        <Point Value="297.00 977.00 0"/>
-        <Point Value="0.00 977.00 0"/>
+        <Point Value="636.40 0.00 0"/>
+        <Point Value="636.40 60.00 0"/>
+        <Point Value="0.00 60.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="268.50 901.00 0" End="268.50 901.00 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="268.50 853.00 0" End="268.50 853.00 -3.00"/>
-    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="274.50 877.00 0" End="274.50 877.00 -13.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="268.50 512.50 0" End="268.50 512.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="268.50 464.50 0" End="268.50 464.50 -3.00"/>
-    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="274.50 488.50 0" End="274.50 488.50 -13.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="268.50 124.00 0" End="268.50 124.00 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="268.50 76.00 0" End="268.50 76.00 -3.00"/>
-    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="274.50 100.00 0" End="274.50 100.00 -13.00"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="590.20 33.00 0" End="590.20 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="46.20 33.00 0" End="46.20 33.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="590.20 0.00 -9.00" End="590.20 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="46.20 0.00 -9.00" End="46.20 33.00 -9.00"/>
 </Plane>
 </MicroDrawBan_XML>

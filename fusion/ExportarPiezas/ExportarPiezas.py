@@ -50,6 +50,7 @@ R_MAX_AGUJERO = 40.0  # mm — radio por encima del cual no se considera agujero
 COMPLETITUD_MIN = 0.55  # fraccion de cilindro completo para contar como agujero
 RANURA_ASPECTO_MIN = 2.0   # largo / ancho minimo de una ranura
 RANURA_LARGO_MIN = 20.0    # mm
+RANURA_ANCHO_MAX = 40.0    # mas ancho que esto es un cajeado del router, no una ranura (18/10/2026)
 
 # Profundidad real del agujero de canto segun diametro.
 #
@@ -515,6 +516,13 @@ def leer_ranuras(body, marco):
         if ancho <= TOL or largo < RANURA_LARGO_MIN or largo / ancho < RANURA_ASPECTO_MIN:
             log("  cara plana en z=%.2f de %.1f x %.1f ignorada: no parece ranura"
                 % (z, dx, dy))
+            continue
+        if ancho > RANURA_ANCHO_MAX:
+            # el rebaje del vidrio de una vitrina (18/10/2026): un cajeado de 300 de ancho
+            # NO es una ranura de la perforadora; lo hace el router. Si no se filtra, sale
+            # al XML3 como ranura de 301 x 5 y la maquina la intenta fresar.
+            log("  CAJEADO en z=%.2f de %.1f x %.1f ignorado: mas ancho que %g, es del ROUTER "
+                "(rebaje de vitrina), no una ranura" % (z, dx, dy, RANURA_ANCHO_MAX))
             continue
         candidatas.append({
             "z": z, "dx": dx, "dy": dy, "largo": largo, "ancho": ancho,

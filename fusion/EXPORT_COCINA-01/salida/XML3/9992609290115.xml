@@ -13,8 +13,8 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>528.00</X1>
-        <Y1>470.50</Y1>
+        <X1>543.00</X1>
+        <Y1>486.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -25,8 +25,8 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>560.00</X1>
-        <Y1>470.50</Y1>
+        <X1>543.00</X1>
+        <Y1>454.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -37,8 +37,8 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>528.00</X1>
-        <Y1>101.50</Y1>
+        <X1>543.00</X1>
+        <Y1>117.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -49,8 +49,8 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>560.00</X1>
-        <Y1>101.50</Y1>
+        <X1>543.00</X1>
+        <Y1>85.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -63,8 +63,8 @@
         <TypeName>Vertical Hole</TypeName>
         <X1>9.00</X1>
         <Y1>710.00</Y1>
-        <Depth>11.00</Depth>
-        <Diameter>10.00</Diameter>
+        <Depth>12.00</Depth>
+        <Diameter>5.00</Diameter>
         <Enable>1</Enable>
         <HoleNo>1</HoleNo>
         <IntervalX>0.00</IntervalX>
@@ -75,8 +75,8 @@
         <TypeName>Vertical Hole</TypeName>
         <X1>571.00</X1>
         <Y1>710.00</Y1>
-        <Depth>11.00</Depth>
-        <Diameter>10.00</Diameter>
+        <Depth>12.00</Depth>
+        <Diameter>5.00</Diameter>
         <Enable>1</Enable>
         <HoleNo>1</HoleNo>
         <IntervalX>0.00</IntervalX>
@@ -87,8 +87,8 @@
         <TypeName>Vertical Hole</TypeName>
         <X1>50.00</X1>
         <Y1>9.00</Y1>
-        <Depth>11.00</Depth>
-        <Diameter>10.00</Diameter>
+        <Depth>12.00</Depth>
+        <Diameter>5.00</Diameter>
         <Enable>1</Enable>
         <HoleNo>1</HoleNo>
         <IntervalX>0.00</IntervalX>
@@ -99,8 +99,8 @@
         <TypeName>Vertical Hole</TypeName>
         <X1>530.00</X1>
         <Y1>9.00</Y1>
-        <Depth>11.00</Depth>
-        <Diameter>10.00</Diameter>
+        <Depth>12.00</Depth>
+        <Diameter>5.00</Diameter>
         <Enable>1</Enable>
         <HoleNo>1</HoleNo>
         <IntervalX>0.00</IntervalX>
