@@ -1,4 +1,4 @@
-[H\Left:0;Bottom:0;Right:0;Top:1
+[H\Left:0;Bottom:1;Right:0;Top:0
 VERSION="4.0 Alpha"
 VIEW="NOMIRROR"
 OP="1"
@@ -124,10 +124,10 @@ MZF="1"
 
 <109 \Nuten\
 XA="12.85"
-YA="27.5"
+YA="304.5"
 WI="0"
 XE="557.15"
-YE="27.5"
+YE="304.5"
 NB="6"
 RK="NoWRK"
 EM="MOD1"
@@ -154,5 +154,5 @@ MYF="1"
 MZF="1"
 
 <101 \Kommentar\
-KM="COCINA-01_A4 Vitrina 570_Piso"
+KM="COCINA-01_A4 Vitrina 570_Techo"
 !

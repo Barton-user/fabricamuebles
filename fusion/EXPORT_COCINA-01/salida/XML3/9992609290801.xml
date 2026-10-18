@@ -1,20 +1,20 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>297.00</PanelLength>
-        <PanelWidth>688.00</PanelWidth>
+        <PanelLength>688.00</PanelLength>
+        <PanelWidth>597.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_A2 Alacena 600 rebatible_Puerta der</PanelName>
+        <PanelName>COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible abajo</PanelName>
         <Params>
-            <Param Key="L" Value="297.00" Comment="板长"/>
-            <Param Key="W" Value="688.00" Comment="板宽"/>
+            <Param Key="L" Value="688.00" Comment="板长"/>
+            <Param Key="W" Value="597.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>252.00</X1>
-        <Y1>602.00</Y1>
+        <X1>638.00</X1>
+        <Y1>362.50</Y1>
         <Depth>18.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -25,8 +25,8 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>252.00</X1>
-        <Y1>474.00</Y1>
+        <X1>638.00</X1>
+        <Y1>234.50</Y1>
         <Depth>18.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -38,7 +38,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>28.50</X1>
-        <Y1>612.00</Y1>
+        <Y1>521.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -50,7 +50,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>28.50</X1>
-        <Y1>564.00</Y1>
+        <Y1>473.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -62,7 +62,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>22.50</X1>
-        <Y1>588.00</Y1>
+        <Y1>497.00</Y1>
         <Depth>13.00</Depth>
         <Diameter>35.00</Diameter>
         <Enable>1</Enable>

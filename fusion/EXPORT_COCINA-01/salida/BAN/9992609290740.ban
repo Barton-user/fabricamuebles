@@ -1,4 +1,4 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:39:38" Source="fabrica-muebles" SourceType="BAN">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:44:35" Source="fabrica-muebles" SourceType="BAN">
 <Plane Width="332.00" Height="1004.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,1" Name="COCINA-01_A2 Alacena 600 rebatible_Lateral der" Code="9992609290740">
     <Outline>
         <Point Value="0.00 0.00 0"/>
@@ -17,12 +17,8 @@
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="68.00 292.00 0" End="68.00 292.00 -12.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 260.00 0" End="295.00 260.00 -12.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="68.00 260.00 0" End="68.00 260.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 587.50 0" End="295.00 587.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 555.50 0" End="295.00 555.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 99.50 0" End="295.00 99.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 67.50 0" End="295.00 67.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="277.50 673.00 0" End="277.50 673.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="85.50 673.00 0" End="85.50 673.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="277.50 664.00 0" End="277.50 664.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="85.50 664.00 0" End="85.50 664.00 -12.00"/>
     <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="54.00 971.00 0" End="54.00 971.00 -13.50"/>
     <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="278.00 971.00 0" End="278.00 971.00 -13.50"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="9.00 964.00 0" End="9.00 964.00 -12.00"/>

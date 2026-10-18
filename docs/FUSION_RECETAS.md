@@ -390,7 +390,7 @@ Pato pidió que COCINA-01 quede como un render de referencia (verde, vitrinas co
 tiradores de cobre, cornisa). Decisiones: distribución + estilo, mismas paredes (2190 / 1368),
 **sin lavavajillas**, vitrinas de marco de melamina + vidrio, tiradores perforados (barral 128,
 perilla). Todo en `recetas/cocina01.py`; `ArmarReceta` armó el documento `COCINA-01` vaciado
-(por MCP, `armar(nuevo=False)`), 104 placas, **104/104 receta = sólido**.
+(por MCP, `armar(nuevo=False)`), 103 placas, **103/103 receta = sólido**.
 
 Qué cambió:
 
@@ -413,9 +413,11 @@ Qué cambió:
   la perforadora sólo ve cazoletas, tornillos y perilla. Cada vidrio sale como herraje
   (`Vidrio 300x800`) para la lista.
 - **A2 rebatible** (`alacena(..., tipo="rebatible")`), versión final del 18/10 (Pato: "que sea
-  rebatible hacia arriba"): **como la Spar**, hoja rebatible de un tercio **arriba**, colgada del
-  techo con 2 bisagras en su canto de arriba + pistones a mano, barral horizontal al pie; abajo
-  2 puertas comunes con barral vertical; estante fijo centrado en la junta. Para que
+  rebatible hacia arriba", y nada de 2 puertas): **dos hojas rebatibles hacia arriba**, la de
+  arriba (un tercio, 597×346) colgada del techo y la de abajo (597×688) del estante fijo, cada
+  una con 2 bisagras en su canto de arriba, pistones a mano y barral horizontal al pie. El
+  estante fijo va con X local = profundidad y su cara de abajo a 16,5 del canto de la hoja de
+  abajo (como un techo sobre una puerta: base −6). Para que
   `bisagras()` pueda usar el techo de soporte, en este tipo el techo se rehace con X local =
   profundidad (frente en x = W) y la ranura de fondo en coordenadas giradas. (La primera
   versión tenía frente fijo arriba y la hoja grande rebatible abajo; se descartó.)
@@ -439,7 +441,7 @@ Dos cosas que se encontraron:
    de biblioteca igual). En una corrida aparte anda: `ArmarReceta.repintar()`. No se entendió
    por qué.
 
-Paquete regenerado en `fusion/EXPORT_COCINA-01/` (104 XML3; los archivos viejos que sobran en
+Paquete regenerado en `fusion/EXPORT_COCINA-01/` (103 XML3; los archivos viejos que sobran en
 `salida/_obsoleto_18-10/`). El documento de Fusion **no se guardó** desde el script: lo guarda
 Pato cuando lo vea.
 

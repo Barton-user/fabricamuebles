@@ -1,5 +1,5 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:39:38" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="346.00" Height="597.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,1,1,1" Name="COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible" Code="9992609290795">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:44:35" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="346.00" Height="597.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,1,1,1" Name="COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible arriba" Code="9992609290795">
     <Outline>
         <Point Value="0.00 0.00 0"/>
         <Point Value="346.00 0.00 0"/>

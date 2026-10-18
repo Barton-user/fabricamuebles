@@ -46,7 +46,7 @@ enteran (especificación en `docs/FORMATOS.md`).
 |---|---|---|
 | **0 · Sobre metal** | probar en las máquinas lo que sólo se contesta ahí | 🟡 casi: la perforadora lee **KDTXml** y mecaniza; Ø35 resuelta. Faltan las pruebas de `MAÑANA_EN_LA_MAQUINA.md` (§5) |
 | **1 · Paquete de producción** | etiquetas propias, manual de armado, ranura de canto, **fabricar y armar PRUEBA 1** | 🟡 en curso: Alacena Spar (PRUEBA 1) perforada; `etapa2/etiquetas.py` funciona por los dos caminos; AutoCUT sigue mal mapeado |
-| **2 · Estresar Fusion** | 2-3 muebles distintos de cero, cada herraje nuevo **medido** | 🟡 COCINA-01 rediseñada 18/10 como el render (vitrinas, rebatible, tiradores, travesaño para colgar, sin cenefa; 104 placas, 104/104 receta = sólido), sin fabricar. **Vitrinas: falta el `.nc` del router** |
+| **2 · Estresar Fusion** | 2-3 muebles distintos de cero, cada herraje nuevo **medido** | 🟡 COCINA-01 rediseñada 18/10 como el render (vitrinas, rebatible, tiradores, travesaño para colgar, sin cenefa; 103 placas, 103/103 receta = sólido), sin fabricar. **Vitrinas: falta el `.nc` del router** |
 | **3 · Recetas** | los 10 modelos como código paramétrico + CLI | 🟡 empezada: `recetas/cocina01.py`, `recetas/alacena_spar.py` |
 | 4 · Visor / configurador 3D | three.js sobre las recetas | ⬜ no empezar antes de la 3 |
 | 5 · Tienda y disparo | catálogo, Mercado Pago, pedido → paquete | ⬜ |

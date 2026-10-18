@@ -35,9 +35,8 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
     adentro; marco de 60 a los costados y 70 arriba/abajo, parantes de 25.
     La perforadora hace cazoletas y perilla; las ventanas y el rebaje van al
     router (programa .nc TODAVIA NO SE GENERA: queda en modelo.json).
-  * A2 (sobre la pileta): hoja REBATIBLE arriba (1/3, colgada del techo, con
-    pistones a gas) + 2 puertas comunes abajo, estante fijo en la junta (como
-    la Alacena Spar; 18/10, pedido de Pato)
+  * A2 (sobre la pileta): DOS hojas rebatibles hacia arriba, con pistones: la
+    de arriba (1/3) colgada del techo, la de abajo del estante fijo (18/10)
   * tiradores: barral de cobre 128 entre centros en los bajos (vertical en
     puertas, horizontal en cajones y en la rebatible) y perilla en alacenas.
     Agujeros O5 PASANTES.
@@ -820,8 +819,8 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2):
     laterales entre ellos, cenefa abajo y cornisa arriba (las dos retiradas 18).
 
     tipo 'vitrina': 2 puertas vitrina (cuadricula cols x 3) con perilla.
-    tipo 'rebatible': hoja rebatible arriba (un tercio) colgada del techo + 2
-    puertas comunes abajo, estante fijo en la junta (como la Alacena Spar).
+    tipo 'rebatible': dos hojas rebatibles hacia arriba, la de arriba (un tercio)
+    colgada del techo y la de abajo del estante fijo que separa las dos.
 
     Se trabaja en (u, v, w): u a lo ancho, v hacia el frente, w arriba, siempre
     mano derecha. eje 'X' = pared larga: u = +X, v = +Y. eje 'Y' = pared corta:
@@ -890,25 +889,24 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2):
         P.insert(1, tec)
         for l in (ld, li):
             tres_en_uno(l, tec, "A")
-        es = pc("Estante fijo", u0 + T, u1 - T, d + 3.5, D, zj - T / 2.0, zj + T / 2.0, "-Z", U, BLANCO,
-                cantos=(V,))
-        # rebatible: X local hacia abajo (x = 0 = canto de arriba, el de bisagras), Y local a lo ancho
-        pr = pc("Puerta rebatible", ua, ub, D, D + T, zj + JUNTA / 2.0, wb, mV, "-Z", VERDE, rol="PUERTA",
-                cantos=cant)
-        um = (ua + ub) / 2.0
-        pdr = pc("Puerta der", ua, um - JUNTA / 2, D, D + T, wa, zj - JUNTA / 2.0, mV, U, VERDE, rol="PUERTA",
-                 cantos=cant)
-        piz = pc("Puerta izq", um + JUNTA / 2, ub, D, D + T, wa, zj - JUNTA / 2.0, mV, U, VERDE, rol="PUERTA",
-                 cantos=cant)
-        P += [es, pr, pdr, piz]
-        tres_en_uno(es, ld, "A"); tres_en_uno(es, li, "A")      # excentrica abajo
-        bisagras(pr, tec, "IZQ", "DER", "A")
-        tirador(pr, pr.W - 50.0, pr.H / 2.0, (0, 1))           # barral horizontal, 50 del borde de abajo
-        bisagras(pdr, ld, "IZQ", "DER", "A")
-        bisagras(piz, li, "DER", "IZQ", "A")
-        tirador_puerta(pdr, "DER"); tirador_puerta(piz, "IZQ")
-        AVISOS.append("%s: la hoja rebatible de arriba (%g x %g) lleva 2 pistones a gas, uno por lado, "
-                      "atornillados a mano (sin CNC, sin dibujar)." % (nombre, pr.H, pr.W))
+        # estante fijo: cara A abajo (mira a la hoja de abajo), X local = profundidad (frente en
+        # x = W); su cara de abajo queda 16,5 arriba del canto de la hoja de abajo, como un techo
+        # sobre una puerta, asi la bisagra es la de siempre (base -6)
+        es = pc("Estante fijo", u0 + T, u1 - T, d + 3.5, D, zj - T, zj, "-Z", V, BLANCO, cantos=(V,))
+        # dos hojas REBATIBLES hacia arriba (X local hacia abajo: x = 0 = canto de arriba, el de
+        # bisagras; Y local a lo ancho): la de arriba cuelga del techo, la de abajo del estante fijo
+        pa_ = pc("Puerta rebatible arriba", ua, ub, D, D + T, zj + JUNTA / 2.0, wb, mV, "-Z", VERDE,
+                 rol="PUERTA", cantos=cant)
+        pb_ = pc("Puerta rebatible abajo", ua, ub, D, D + T, wa, zj - JUNTA / 2.0, mV, "-Z", VERDE,
+                 rol="PUERTA", cantos=cant)
+        P += [es, pa_, pb_]
+        tres_en_uno(es, ld, "B"); tres_en_uno(es, li, "B")      # excentrica arriba
+        bisagras(pa_, tec, "IZQ", "DER", "A")
+        bisagras(pb_, es, "IZQ", "DER", "A")
+        for h in (pa_, pb_):
+            tirador(h, h.W - 50.0, h.H / 2.0, (0, 1))          # barral horizontal, 50 del borde de abajo
+        AVISOS.append("%s: las dos hojas rebatibles (%g x %g arriba, %g x %g abajo) llevan 2 pistones a gas "
+                      "cada una, atornillados a mano (sin CNC, sin dibujar)." % (nombre, pa_.H, pa_.W, pb_.H, pb_.W))
         # un estante regulable en el compartimiento de abajo
         zs = inner0 + (zj - T / 2.0 - inner0) / 2.0
         estantes = [zs]

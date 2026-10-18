@@ -1859,3 +1859,6 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   arriba (597×346, colgada del techo, pistones), 2 puertas comunes abajo, estante fijo en la
   junta. El techo de ese tipo se rehace con X = profundidad para que `bisagras()` lo use de
   soporte. 104 placas, 104/104, paquete regenerado. Fusion re-armado, sin guardar.
+- Pato: "nonono, convertiste de una puerta a 2 puertas, no me gusta" → A2 definitivo: DOS hojas
+  rebatibles hacia arriba (597×346 arriba del techo, 597×688 abajo del estante fijo), 4 pistones,
+  barral al pie de cada una. 103 placas, 103/103, paquete regenerado. Fusion re-armado, sin guardar.

@@ -3,7 +3,7 @@
         <PanelLength>332.00</PanelLength>
         <PanelWidth>1004.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_A3 Vitrina 800_Lateral der</PanelName>
+        <PanelName>COCINA-01_A3 Vitrina 800_Lateral izq</PanelName>
         <Params>
             <Param Key="L" Value="332.00" Comment="板长"/>
             <Param Key="W" Value="1004.00" Comment="板宽"/>
@@ -13,7 +13,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>725.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -25,7 +25,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>725.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -37,7 +37,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>693.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -49,7 +49,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>693.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -61,7 +61,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>661.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -73,7 +73,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>661.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -85,7 +85,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>629.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -97,7 +97,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>629.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -109,7 +109,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>597.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -121,7 +121,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>597.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -133,7 +133,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>390.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -145,7 +145,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>390.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -157,7 +157,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>358.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -169,7 +169,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>358.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -181,7 +181,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>326.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -193,7 +193,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>326.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -205,7 +205,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>294.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -217,7 +217,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>294.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -229,7 +229,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>262.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -241,7 +241,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>68.00</X1>
+        <X1>264.00</X1>
         <Y1>262.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -253,7 +253,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>936.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -265,7 +265,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>904.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -277,7 +277,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>518.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -289,7 +289,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>486.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -301,7 +301,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>99.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -313,7 +313,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>295.00</X1>
+        <X1>37.00</X1>
         <Y1>67.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -325,7 +325,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>9.00</X1>
+        <X1>323.00</X1>
         <Y1>964.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -445,9 +445,9 @@
     <CAD>
         <TypeNo>3</TypeNo>
         <TypeName>Line</TypeName>
-        <BeginX>27.50</BeginX>
+        <BeginX>304.50</BeginX>
         <BeginY>0.00</BeginY>
-        <EndX>27.50</EndX>
+        <EndX>304.50</EndX>
         <EndY>1004.00</EndY>
         <Correction>0</Correction>
         <Width>6.00</Width>

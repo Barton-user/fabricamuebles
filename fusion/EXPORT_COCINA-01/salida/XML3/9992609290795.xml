@@ -3,7 +3,7 @@
         <PanelLength>346.00</PanelLength>
         <PanelWidth>597.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible</PanelName>
+        <PanelName>COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible arriba</PanelName>
         <Params>
             <Param Key="L" Value="346.00" Comment="板长"/>
             <Param Key="W" Value="597.00" Comment="板宽"/>
