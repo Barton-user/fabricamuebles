@@ -1,2 +1,2 @@
-TOTAL: 103 placas (0 mecanizados fallidos), 313 herrajes
-export: piezas 103 saltadas 17 dup []
+TOTAL: 104 placas (0 mecanizados fallidos), 319 herrajes
+export: piezas 104 saltadas 17 dup []

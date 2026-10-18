@@ -1855,3 +1855,7 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   techo en cada alacena (dos en el esquinero), 3 en 1 a laterales/techo, tornillos a la pared a
   mano. Rebatible ahora 597×688 (frente fijo = 1/3). 103 placas, 103/103 receta = sólido,
   paquete regenerado. Documento de Fusion re-armado, sin guardar.
+- Pato: "hagamos que sea rebatible hacia arriba" → A2 queda como la Spar: hoja rebatible de 1/3
+  arriba (597×346, colgada del techo, pistones), 2 puertas comunes abajo, estante fijo en la
+  junta. El techo de ese tipo se rehace con X = profundidad para que `bisagras()` lo use de
+  soporte. 104 placas, 104/104, paquete regenerado. Fusion re-armado, sin guardar.

@@ -6686,22 +6686,22 @@
    "pieza": "Techo",
    "codigo": "9992609290733",
    "rol": "",
-   "W": 600.0,
-   "H": 332.0,
+   "W": 332.0,
+   "H": 600.0,
    "T": 18.0,
    "O": [
     800.0,
-    332.0,
+    0,
     2472.0
    ],
    "ex": [
-    1.0,
     0.0,
+    1.0,
     0.0
    ],
    "ey": [
+    1.0,
     0.0,
-    -1.0,
     0.0
    ],
    "contorno": null,
@@ -6710,51 +6710,83 @@
    "veta": "VERTICAL",
    "cantos": {
     "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 1.0,
+    "DER": 1.0,
+    "ABAJO": 0.0,
     "ARRIBA": 0.0
    },
    "agujeros": [
     {
-     "x": 9.0,
-     "y": 54.0,
+     "x": 278.0,
+     "y": 9.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
     {
-     "x": 9.0,
-     "y": 278.0,
+     "x": 54.0,
+     "y": 9.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
     {
-     "x": 591.0,
-     "y": 278.0,
+     "x": 54.0,
+     "y": 591.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
     {
-     "x": 591.0,
-     "y": 54.0,
+     "x": 278.0,
+     "y": 591.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
+    },
+    {
+     "x": 295.0,
+     "y": 85.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 295.0,
+     "y": 117.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 295.0,
+     "y": 482.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 295.0,
+     "y": 514.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
     }
    ],
    "agujeros_canto": [],
    "ranuras": [
     {
-     "x1": 12.85,
-     "y1": 304.5,
-     "x2": 587.15,
-     "y2": 304.5,
+     "x1": 27.5,
+     "y1": 12.85,
+     "x2": 27.5,
+     "y2": 587.15,
      "ancho": 6.0,
      "prof": 6.0,
      "cara": "A",
@@ -6816,6 +6848,14 @@
      "sym": "3in1"
     },
     {
+     "x": 9.0,
+     "y": 964.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
      "x": 278.0,
      "y": 971.0,
      "d": 15.0,
@@ -6832,16 +6872,8 @@
      "sym": "3in1"
     },
     {
-     "x": 9.0,
-     "y": 964.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "3in1"
-    },
-    {
      "x": 85.5,
-     "y": 664.0,
+     "y": 673.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6849,15 +6881,47 @@
     },
     {
      "x": 277.5,
-     "y": 664.0,
+     "y": 673.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
     {
+     "x": 295.0,
+     "y": 67.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 295.0,
+     "y": 99.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 295.0,
+     "y": 555.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 295.0,
+     "y": 587.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
      "x": 68.0,
-     "y": 255.5,
+     "y": 260.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6865,7 +6929,7 @@
     },
     {
      "x": 295.0,
-     "y": 255.5,
+     "y": 260.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6873,7 +6937,7 @@
     },
     {
      "x": 68.0,
-     "y": 287.5,
+     "y": 292.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6881,7 +6945,7 @@
     },
     {
      "x": 295.0,
-     "y": 287.5,
+     "y": 292.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6889,7 +6953,7 @@
     },
     {
      "x": 68.0,
-     "y": 319.5,
+     "y": 324.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6897,7 +6961,7 @@
     },
     {
      "x": 295.0,
-     "y": 319.5,
+     "y": 324.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6905,7 +6969,7 @@
     },
     {
      "x": 68.0,
-     "y": 351.5,
+     "y": 356.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6913,7 +6977,7 @@
     },
     {
      "x": 295.0,
-     "y": 351.5,
+     "y": 356.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6921,7 +6985,7 @@
     },
     {
      "x": 68.0,
-     "y": 383.5,
+     "y": 388.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -6929,7 +6993,7 @@
     },
     {
      "x": 295.0,
-     "y": 383.5,
+     "y": 388.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7041,6 +7105,14 @@
      "sym": "3in1"
     },
     {
+     "x": 323.0,
+     "y": 964.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
      "x": 278.0,
      "y": 971.0,
      "d": 15.0,
@@ -7057,16 +7129,8 @@
      "sym": "3in1"
     },
     {
-     "x": 323.0,
-     "y": 964.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "3in1"
-    },
-    {
      "x": 54.5,
-     "y": 664.0,
+     "y": 673.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7074,15 +7138,47 @@
     },
     {
      "x": 246.5,
-     "y": 664.0,
+     "y": 673.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
     {
+     "x": 37.0,
+     "y": 67.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 37.0,
+     "y": 99.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 37.0,
+     "y": 555.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
+     "x": 37.0,
+     "y": 587.5,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "jlHoleEX"
+    },
+    {
      "x": 264.0,
-     "y": 255.5,
+     "y": 260.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7090,7 +7186,7 @@
     },
     {
      "x": 37.0,
-     "y": 255.5,
+     "y": 260.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7098,7 +7194,7 @@
     },
     {
      "x": 264.0,
-     "y": 287.5,
+     "y": 292.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7106,7 +7202,7 @@
     },
     {
      "x": 37.0,
-     "y": 287.5,
+     "y": 292.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7114,7 +7210,7 @@
     },
     {
      "x": 264.0,
-     "y": 319.5,
+     "y": 324.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7122,7 +7218,7 @@
     },
     {
      "x": 37.0,
-     "y": 319.5,
+     "y": 324.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7130,7 +7226,7 @@
     },
     {
      "x": 264.0,
-     "y": 351.5,
+     "y": 356.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7138,7 +7234,7 @@
     },
     {
      "x": 37.0,
-     "y": 351.5,
+     "y": 356.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7146,7 +7242,7 @@
     },
     {
      "x": 264.0,
-     "y": 383.5,
+     "y": 388.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7154,7 +7250,7 @@
     },
     {
      "x": 37.0,
-     "y": 383.5,
+     "y": 388.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -7332,66 +7428,26 @@
   },
   {
    "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "COCINA-01_A2 Alacena 600 rebatible_Frente fijo",
-   "pieza": "Frente fijo",
-   "codigo": "9992609290788",
-   "rol": "PUERTA",
-   "W": 597.0,
-   "H": 346.0,
-   "T": 18.0,
-   "O": [
-    801.5,
-    332.0,
-    2142.5
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ey": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "contorno": null,
-   "material": "Melamina",
-   "textura": "VERDE 18",
-   "veta": "VERTICAL",
-   "cantos": {
-    "IZQ": 1.0,
-    "DER": 1.0,
-    "ABAJO": 1.0,
-    "ARRIBA": 1.0
-   },
-   "agujeros": [],
-   "agujeros_canto": [],
-   "ranuras": [],
-   "ventanas": [],
-   "rebajes": []
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante fijo",
    "pieza": "Estante fijo",
-   "codigo": "9992609290795",
+   "codigo": "9992609290788",
    "rol": "",
-   "W": 301.0,
-   "H": 564.0,
+   "W": 564.0,
+   "H": 301.0,
    "T": 18.0,
    "O": [
     818.0,
-    31.0,
-    2123.0
+    332.0,
+    2132.0
    ],
    "ex": [
-    0.0,
     1.0,
+    0.0,
     0.0
    ],
    "ey": [
-    1.0,
     0.0,
+    -1.0,
     0.0
    ],
    "contorno": null,
@@ -7400,111 +7456,79 @@
    "veta": "VERTICAL",
    "cantos": {
     "IZQ": 0.0,
-    "DER": 1.0,
-    "ABAJO": 0.0,
+    "DER": 0.0,
+    "ABAJO": 1.0,
     "ARRIBA": 0.0
    },
    "agujeros": [
     {
-     "x": 54.5,
-     "y": 33.0,
+     "x": 33.0,
+     "y": 246.5,
      "d": 15.0,
      "prof": 13.5,
-     "cara": "B",
+     "cara": "A",
      "sym": "3in1"
     },
     {
-     "x": 246.5,
-     "y": 33.0,
+     "x": 33.0,
+     "y": 54.5,
      "d": 15.0,
      "prof": 13.5,
-     "cara": "B",
+     "cara": "A",
      "sym": "3in1"
     },
     {
-     "x": 246.5,
-     "y": 531.0,
+     "x": 531.0,
+     "y": 54.5,
      "d": 15.0,
      "prof": 13.5,
-     "cara": "B",
+     "cara": "A",
      "sym": "3in1"
     },
     {
-     "x": 54.5,
-     "y": 531.0,
+     "x": 531.0,
+     "y": 246.5,
      "d": 15.0,
      "prof": 13.5,
-     "cara": "B",
+     "cara": "A",
      "sym": "3in1"
-    },
-    {
-     "x": 264.0,
-     "y": 67.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 264.0,
-     "y": 99.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 264.0,
-     "y": 464.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 264.0,
-     "y": 496.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
     }
    ],
    "agujeros_canto": [
     {
-     "x": 54.5,
-     "y": 0.0,
+     "x": 0.0,
+     "y": 246.5,
      "z": 9.0,
      "d": 8.0,
      "prof": 33.0,
-     "canto": "ABAJO",
+     "canto": "IZQ",
      "sym": "3in1"
     },
     {
-     "x": 246.5,
-     "y": 0.0,
+     "x": 0.0,
+     "y": 54.5,
      "z": 9.0,
      "d": 8.0,
      "prof": 33.0,
-     "canto": "ABAJO",
+     "canto": "IZQ",
      "sym": "3in1"
     },
     {
-     "x": 246.5,
-     "y": 564.0,
+     "x": 564.0,
+     "y": 54.5,
      "z": 9.0,
      "d": 8.0,
      "prof": 33.0,
-     "canto": "ARRIBA",
+     "canto": "DER",
      "sym": "3in1"
     },
     {
-     "x": 54.5,
-     "y": 564.0,
+     "x": 564.0,
+     "y": 246.5,
      "z": 9.0,
      "d": 8.0,
      "prof": 33.0,
-     "canto": "ARRIBA",
+     "canto": "DER",
      "sym": "3in1"
     }
    ],
@@ -7516,15 +7540,15 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible",
    "pieza": "Puerta rebatible",
-   "codigo": "9992609290801",
+   "codigo": "9992609290795",
    "rol": "PUERTA",
-   "W": 688.0,
+   "W": 346.0,
    "H": 597.0,
    "T": 18.0,
    "O": [
     801.5,
     332.0,
-    2139.5
+    2488.5
    ],
    "ex": [
     0.0,
@@ -7596,7 +7620,7 @@
      "sym": "HINGESCREW"
     },
     {
-     "x": 638.0,
+     "x": 296.0,
      "y": 234.5,
      "d": 5.0,
      "prof": 18.0,
@@ -7604,8 +7628,218 @@
      "sym": "handle"
     },
     {
-     "x": 638.0,
+     "x": 296.0,
      "y": 362.5,
+     "d": 5.0,
+     "prof": 18.0,
+     "cara": "A",
+     "sym": "handle"
+    }
+   ],
+   "agujeros_canto": [],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta der",
+   "pieza": "Puerta der",
+   "codigo": "9992609290801",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 688.0,
+   "T": 18.0,
+   "O": [
+    801.5,
+    332.0,
+    1451.5
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "VERDE 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 1.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [
+    {
+     "x": 22.5,
+     "y": 100.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 28.5,
+     "y": 76.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 28.5,
+     "y": 124.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 22.5,
+     "y": 588.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 28.5,
+     "y": 564.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 28.5,
+     "y": 612.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 252.0,
+     "y": 474.0,
+     "d": 5.0,
+     "prof": 18.0,
+     "cara": "A",
+     "sym": "handle"
+    },
+    {
+     "x": 252.0,
+     "y": 602.0,
+     "d": 5.0,
+     "prof": 18.0,
+     "cara": "A",
+     "sym": "handle"
+    }
+   ],
+   "agujeros_canto": [],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta izq",
+   "pieza": "Puerta izq",
+   "codigo": "9992609290818",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 688.0,
+   "T": 18.0,
+   "O": [
+    1101.5,
+    332.0,
+    1451.5
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "VERDE 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 1.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [
+    {
+     "x": 274.5,
+     "y": 100.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 268.5,
+     "y": 76.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 268.5,
+     "y": 124.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 274.5,
+     "y": 588.0,
+     "d": 35.0,
+     "prof": 13.0,
+     "cara": "A",
+     "sym": "HINGE"
+    },
+    {
+     "x": 268.5,
+     "y": 564.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 268.5,
+     "y": 612.0,
+     "d": 5.0,
+     "prof": 3.0,
+     "cara": "A",
+     "sym": "HINGESCREW"
+    },
+    {
+     "x": 45.0,
+     "y": 474.0,
+     "d": 5.0,
+     "prof": 18.0,
+     "cara": "A",
+     "sym": "handle"
+    },
+    {
+     "x": 45.0,
+     "y": 602.0,
      "d": 5.0,
      "prof": 18.0,
      "cara": "A",
@@ -7621,7 +7855,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609290818",
+   "codigo": "9992609290825",
    "rol": "",
    "W": 562.0,
    "H": 281.0,
@@ -7629,7 +7863,7 @@
    "O": [
     819.0,
     31.0,
-    1813.5
+    1818.0
    ],
    "ex": [
     1.0,
@@ -7661,7 +7895,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Piso",
    "pieza": "Piso",
-   "codigo": "9992609290825",
+   "codigo": "9992609290832",
    "rol": "",
    "W": 800.0,
    "H": 332.0,
@@ -7755,7 +7989,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Techo",
    "pieza": "Techo",
-   "codigo": "9992609290832",
+   "codigo": "9992609290849",
    "rol": "",
    "W": 800.0,
    "H": 332.0,
@@ -7839,7 +8073,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609290849",
+   "codigo": "9992609290856",
    "rol": "",
    "W": 332.0,
    "H": 1004.0,
@@ -8176,7 +8410,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609290856",
+   "codigo": "9992609290863",
    "rol": "",
    "W": 332.0,
    "H": 1004.0,
@@ -8513,7 +8747,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609290863",
+   "codigo": "9992609290870",
    "rol": "FONDO",
    "W": 774.0,
    "H": 1014.0,
@@ -8553,7 +8787,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609290870",
+   "codigo": "9992609290887",
    "rol": "",
    "W": 764.0,
    "H": 80.0,
@@ -8629,7 +8863,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Puerta der",
    "pieza": "Puerta der",
-   "codigo": "9992609290887",
+   "codigo": "9992609290894",
    "rol": "PUERTA",
    "W": 397.0,
    "H": 1037.0,
@@ -8796,7 +9030,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq",
    "pieza": "Puerta izq",
-   "codigo": "9992609290894",
+   "codigo": "9992609290900",
    "rol": "PUERTA",
    "W": 397.0,
    "H": 1037.0,
@@ -8963,7 +9197,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609290900",
+   "codigo": "9992609290917",
    "rol": "",
    "W": 762.0,
    "H": 281.0,
@@ -9003,7 +9237,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Estante 2",
    "pieza": "Estante 2",
-   "codigo": "9992609290917",
+   "codigo": "9992609290924",
    "rol": "",
    "W": 762.0,
    "H": 281.0,
@@ -9043,7 +9277,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Piso",
    "pieza": "Piso",
-   "codigo": "9992609290924",
+   "codigo": "9992609290931",
    "rol": "",
    "W": 570.0,
    "H": 332.0,
@@ -9137,7 +9371,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Techo",
    "pieza": "Techo",
-   "codigo": "9992609290931",
+   "codigo": "9992609290948",
    "rol": "",
    "W": 570.0,
    "H": 332.0,
@@ -9221,7 +9455,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609290948",
+   "codigo": "9992609290955",
    "rol": "",
    "W": 332.0,
    "H": 1004.0,
@@ -9558,7 +9792,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609290955",
+   "codigo": "9992609290962",
    "rol": "",
    "W": 332.0,
    "H": 1004.0,
@@ -9895,7 +10129,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609290962",
+   "codigo": "9992609290979",
    "rol": "FONDO",
    "W": 544.0,
    "H": 1014.0,
@@ -9935,7 +10169,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609290979",
+   "codigo": "9992609290986",
    "rol": "",
    "W": 534.0,
    "H": 80.0,
@@ -10011,7 +10245,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Puerta der",
    "pieza": "Puerta der",
-   "codigo": "9992609290986",
+   "codigo": "9992609290993",
    "rol": "PUERTA",
    "W": 282.0,
    "H": 1037.0,
@@ -10160,7 +10394,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Puerta izq",
    "pieza": "Puerta izq",
-   "codigo": "9992609290993",
+   "codigo": "9992609291006",
    "rol": "PUERTA",
    "W": 282.0,
    "H": 1037.0,
@@ -10309,7 +10543,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609291006",
+   "codigo": "9992609291013",
    "rol": "",
    "W": 532.0,
    "H": 281.0,
@@ -10349,7 +10583,7 @@
    "mueble": "A4 Vitrina 570",
    "nombre": "COCINA-01_A4 Vitrina 570_Estante 2",
    "pieza": "Estante 2",
-   "codigo": "9992609291013",
+   "codigo": "9992609291020",
    "rol": "",
    "W": 532.0,
    "H": 281.0,
@@ -10389,7 +10623,7 @@
    "mueble": "Z Zocalos",
    "nombre": "COCINA-01_Z Zocalos_Zocalo largo",
    "pieza": "Zocalo largo",
-   "codigo": "9992609291020",
+   "codigo": "9992609291037",
    "rol": "PUERTA",
    "W": 1407.0,
    "H": 99.0,
@@ -10429,7 +10663,7 @@
    "mueble": "Z Zocalos",
    "nombre": "COCINA-01_Z Zocalos_Zocalo diagonal",
    "pieza": "Zocalo diagonal",
-   "codigo": "9992609291037",
+   "codigo": "9992609291044",
    "rol": "PUERTA",
    "W": 367.696,
    "H": 99.0,
@@ -15874,120 +16108,6 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "Excentrica O15",
    "origen": [
-    818.0,
-    278.0,
-    2439.0
-   ],
-   "ez": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    809.0,
-    278.0,
-    2472.0
-   ],
-   "ez": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "ex": [
-    1,
-    0,
-    0
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "Excentrica O15",
-   "origen": [
-    818.0,
-    54.0,
-    2439.0
-   ],
-   "ez": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    809.0,
-    54.0,
-    2472.0
-   ],
-   "ez": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "ex": [
-    1,
-    0,
-    0
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "Excentrica O15",
-   "origen": [
     1382.0,
     278.0,
     1501.0
@@ -16080,120 +16200,6 @@
     0.0,
     0.0,
     1.0
-   ],
-   "ex": [
-    1,
-    0,
-    0
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "Excentrica O15",
-   "origen": [
-    1382.0,
-    54.0,
-    2439.0
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    1391.0,
-    54.0,
-    2472.0
-   ],
-   "ez": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "ex": [
-    1,
-    0,
-    0
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "Excentrica O15",
-   "origen": [
-    1382.0,
-    278.0,
-    2439.0
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A2 Alacena 600 rebatible",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    1391.0,
-    278.0,
-    2472.0
-   ],
-   "ez": [
-    0.0,
-    0.0,
-    -1.0
    ],
    "ex": [
     1,
@@ -16353,14 +16359,242 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "Excentrica O15",
    "origen": [
-    851.0,
-    85.5,
-    2141.0
+    818.0,
+    278.0,
+    2439.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    809.0,
+    278.0,
+    2472.0
    ],
    "ez": [
     0.0,
     0.0,
     -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Excentrica O15",
+   "origen": [
+    818.0,
+    54.0,
+    2439.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    809.0,
+    54.0,
+    2472.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Excentrica O15",
+   "origen": [
+    1382.0,
+    54.0,
+    2439.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    1391.0,
+    54.0,
+    2472.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Excentrica O15",
+   "origen": [
+    1382.0,
+    278.0,
+    2439.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    1391.0,
+    278.0,
+    2472.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Excentrica O15",
+   "origen": [
+    851.0,
+    85.5,
+    2132.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
    ],
    "ex": [
     1.0,
@@ -16382,7 +16616,7 @@
    "origen": [
     818.0,
     85.5,
-    2132.0
+    2141.0
    ],
    "ez": [
     1.0,
@@ -16412,12 +16646,12 @@
    "origen": [
     851.0,
     277.5,
-    2141.0
+    2132.0
    ],
    "ez": [
     0.0,
     0.0,
-    -1.0
+    1.0
    ],
    "ex": [
     1.0,
@@ -16439,7 +16673,7 @@
    "origen": [
     818.0,
     277.5,
-    2132.0
+    2141.0
    ],
    "ez": [
     1.0,
@@ -16469,12 +16703,12 @@
    "origen": [
     1349.0,
     277.5,
-    2141.0
+    2132.0
    ],
    "ez": [
     0.0,
     0.0,
-    -1.0
+    1.0
    ],
    "ex": [
     -1.0,
@@ -16496,7 +16730,7 @@
    "origen": [
     1382.0,
     277.5,
-    2132.0
+    2141.0
    ],
    "ez": [
     -1.0,
@@ -16526,12 +16760,12 @@
    "origen": [
     1349.0,
     85.5,
-    2141.0
+    2132.0
    ],
    "ez": [
     0.0,
     0.0,
-    -1.0
+    1.0
    ],
    "ex": [
     -1.0,
@@ -16553,7 +16787,7 @@
    "origen": [
     1382.0,
     85.5,
-    2132.0
+    2141.0
    ],
    "ez": [
     -1.0,
@@ -16583,7 +16817,7 @@
    "origen": [
     901.5,
     332.0,
-    2117.0
+    2466.0
    ],
    "ez": [
     0.0,
@@ -16606,7 +16840,7 @@
    "origen": [
     1298.5,
     332.0,
-    2117.0
+    2466.0
    ],
    "ez": [
     0.0,
@@ -16629,7 +16863,7 @@
    "origen": [
     1100.0,
     350.0,
-    1501.5
+    2192.5
    ],
    "ez": [
     0.0,
@@ -16648,11 +16882,149 @@
   },
   {
    "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    824.0,
+    332.0,
+    1551.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    824.0,
+    332.0,
+    2039.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    1376.0,
+    332.0,
+    1551.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Bisagra O35 base -6",
+   "origen": [
+    1376.0,
+    332.0,
+    2039.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "bisagra",
+   "args": {
+    "dx_lat": -6.0
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Tirador barral 128",
+   "origen": [
+    1053.5,
+    350.0,
+    1989.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "tirador",
+   "args": {
+    "entre_centros": 128.0
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
+   "nombre": "Tirador barral 128",
+   "origen": [
+    1146.5,
+    350.0,
+    1989.5
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "tirador",
+   "args": {
+    "entre_centros": 128.0
+   }
+  },
+  {
+   "mueble": "A2 Alacena 600 rebatible",
    "nombre": "Soporte estante O5",
    "origen": [
     818.0,
     68.0,
-    1787.5
+    1792.0
    ],
    "ez": [
     -1.0,
@@ -16673,7 +17045,7 @@
    "origen": [
     818.0,
     295.0,
-    1787.5
+    1792.0
    ],
    "ez": [
     -1.0,
@@ -16694,7 +17066,7 @@
    "origen": [
     1382.0,
     68.0,
-    1787.5
+    1792.0
    ],
    "ez": [
     1.0,
@@ -16715,7 +17087,7 @@
    "origen": [
     1382.0,
     295.0,
-    1787.5
+    1792.0
    ],
    "ez": [
     1.0,
@@ -18717,7 +19089,7 @@
   "A1 Esquinero alacena: se cuelga por los dos travesanos traseros (18 x 80) con 2 tornillos a la pared cada uno, a mano.",
   "A1 Esquinero alacena: la tira LED va PEGADA bajo el piso, sin ranura (la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).",
   "A2 Alacena 600 rebatible: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
-  "A2 Alacena 600 rebatible: la puerta rebatible (597 x 688) lleva 2 pistones a gas, uno por lado, atornillados a mano (sin CNC, sin dibujar). El frente fijo se atornilla desde adentro.",
+  "A2 Alacena 600 rebatible: la hoja rebatible de arriba (597 x 346) lleva 2 pistones a gas, uno por lado, atornillados a mano (sin CNC, sin dibujar).",
   "A3 Vitrina 800: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
   "A4 Vitrina 570: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
   "Zocalos: las puntas se ajustan en obra (encuentro a 45 entre el largo y el diagonal).",

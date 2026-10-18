@@ -6,7 +6,7 @@ Generado el 29/09/2026 desde `recetas/cocina01.py` → Fusion `COCINA-01` (proye
 **Regenerado el 18/10/2026** con el diseño nuevo (como el render verde con vitrinas y cobre): sin
 lavavajillas, B4 bajo puerta 452, alacenas de 1450 a 2490 **sin cenefa ni cornisa** (LED embutido) y con
 **travesaño trasero 18×80 para colgarlas**, A3/A4/esquinero vitrinas, A2 rebatible, tiradores Ø5
-pasantes, receptor Ø5×12, placa base 37/±16. **103 placas.** Los archivos del paquete viejo que ya no
+pasantes, receptor Ø5×12, placa base 37/±16. **104 placas.** Los archivos del paquete viejo que ya no
 corresponden quedaron en `salida/_obsoleto_18-10/`.
 ⚠️ **Las 5 puertas vitrina NO salen completas**: la perforadora recibe cazoletas, tornillos y
 perilla; las ventanas y el rebaje del vidrio son del **router** y el `.nc` todavía no se genera
@@ -16,19 +16,19 @@ perilla; las ventanas y el rebaje del vidrio son del **router** y el `.nc` todav
 
 | Carpeta / archivo | Para qué |
 |---|---|
-| `salida/XML3/` | **Perforadora SKH-612HS** — cargar con Formato **KDTXml** (103 piezas) |
+| `salida/XML3/` | **Perforadora SKH-612HS** — cargar con Formato **KDTXml** (104 piezas) |
 | `salida/MPR/` | alternativa: Formato **Haomai MPR** (92 archivos, con los `K` de cara trasera) |
 | `salida/BAN/`, `salida/XML1/` | otros formatos (la SKH-612HS no lee BAN) |
-| `salida/lista_corte.csv` / `.xlsx` | **AutoCUT → sierra HP280** (103 piezas) |
+| `salida/lista_corte.csv` / `.xlsx` | **AutoCUT → sierra HP280** (104 piezas) |
 | `salida/HOJAS_VERIFICACION.html` | plano acotado de cada pieza con mecanizado, para imprimir y medir |
 | `piezas.json` | lo que Fusion leyó del sólido (entrada de etapa2) |
 
-## Muebles (103 placas)
+## Muebles (104 placas)
 
 B1 esquinero bajo diagonal · B2 bajo pileta 600 (frente fijo + 2 puertas) · B3 cajonera 320
 (4 cajones) · **B4 bajo puerta 452** (una puerta) · P1/P2 paneles terminales · A1 esquinero
-alacena diagonal **vitrina 2×3** · **A2 alacena 600 rebatible** (frente fijo + puerta rebatible
-sobre estante fijo) · **A3 vitrina 800** (2 puertas 2×3) · **A4 vitrina 570** (pared corta, 2
+alacena diagonal **vitrina 2×3** · **A2 alacena 600 rebatible** (hoja rebatible arriba colgada del
+techo + 2 puertas abajo, estante fijo en la junta) · **A3 vitrina 800** (2 puertas 2×3) · **A4 vitrina 570** (pared corta, 2
 puertas 1×3) · zócalos. Alacenas sin cenefa ni cornisa; travesaño trasero para colgar.
 Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 
@@ -37,14 +37,14 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 | Herraje | Cant. |
 |---|---|
 | 3 en 1 (excéntrica Ø15 + perno 33 rosca madera, receptor Ø5×12 sin taco) | 106 |
-| Bisagra de cazoleta Ø35 Grupo Euro (tornillos a 48) con base (37 / ±16) | 25 |
+| Bisagra de cazoleta Ø35 Grupo Euro (tornillos a 48) con base (37 / ±16) | 29 |
 | Corredera de bolillas 450 (pares) | 4 pares (8 rieles) |
 | Soporte de estante Ø5 | 32 |
 | Pata regulable 100 | 17 |
-| Tirador barral cobre 128 e.c. | 9 |
+| Tirador barral cobre 128 e.c. | 11 |
 | Perilla cobre | 5 |
 | Vidrio 4 mm | 536×800 · 2 × 300×800 · 2 × 185×800 |
-| Pistón a gas (puerta rebatible A2, 597×688) | 2 |
+| Pistón a gas (hoja rebatible A2, 597×346) | 2 |
 | Perfil de aluminio con difusor para LED embutido | 4 tiras |
 | Tornillos a la pared por travesaño trasero | 2 por alacena (4 en el esquinero) |
 | Tira LED (mm) | 516 · 524 · 724 · 494 (la de 494 va pegada, sin ranura) |
@@ -76,7 +76,7 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 
 ## Controles que sí se hicieron
 
-- Receta vs. lo que Fusion lee del sólido: **103/103 piezas idénticas** (18/10; medidas,
+- Receta vs. lo que Fusion lee del sólido: **104/104 piezas idénticas** (18/10; medidas,
   contorno, cantos, agujeros, ranuras) — `python3 recetas/comparar.py`. El rebaje de las
   vitrinas lo lee Fusion como cara plana de 300 de ancho: `ExportarPiezas` lo ignora
   (`RANURA_ANCHO_MAX = 40`) para que no salga como ranura a la perforadora.

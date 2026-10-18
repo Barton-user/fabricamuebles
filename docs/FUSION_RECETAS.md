@@ -390,7 +390,7 @@ Pato pidió que COCINA-01 quede como un render de referencia (verde, vitrinas co
 tiradores de cobre, cornisa). Decisiones: distribución + estilo, mismas paredes (2190 / 1368),
 **sin lavavajillas**, vitrinas de marco de melamina + vidrio, tiradores perforados (barral 128,
 perilla). Todo en `recetas/cocina01.py`; `ArmarReceta` armó el documento `COCINA-01` vaciado
-(por MCP, `armar(nuevo=False)`), 103 placas, **103/103 receta = sólido**.
+(por MCP, `armar(nuevo=False)`), 104 placas, **104/104 receta = sólido**.
 
 Qué cambió:
 
@@ -412,10 +412,13 @@ Qué cambió:
   `modelo.json` y a `piezas_receta.json`. **Las hace el router y el `.nc` no se genera**:
   la perforadora sólo ve cazoletas, tornillos y perilla. Cada vidrio sale como herraje
   (`Vidrio 300x800`) para la lista.
-- **A2 rebatible** (`alacena(..., tipo="rebatible")`): frente fijo de un tercio del alto arriba, **estante
-  fijo** 18 abajo del centro de la junta (su cara de abajo queda 16,5 arriba del canto de la
-  puerta, como un techo sobre una puerta: así la bisagra es la misma, base −6) y puerta
-  rebatible 597 × 688 con 2 bisagras en el canto de arriba + pistones a mano (como la Spar).
+- **A2 rebatible** (`alacena(..., tipo="rebatible")`), versión final del 18/10 (Pato: "que sea
+  rebatible hacia arriba"): **como la Spar**, hoja rebatible de un tercio **arriba**, colgada del
+  techo con 2 bisagras en su canto de arriba + pistones a mano, barral horizontal al pie; abajo
+  2 puertas comunes con barral vertical; estante fijo centrado en la junta. Para que
+  `bisagras()` pueda usar el techo de soporte, en este tipo el techo se rehace con X local =
+  profundidad (frente en x = W) y la ranura de fondo en coordenadas giradas. (La primera
+  versión tenía frente fijo arriba y la hoja grande rebatible abajo; se descartó.)
 - **Tiradores**: `tirador()` (2 × Ø5 **pasantes** a 128, desde la cara A; aviso si astilla),
   `tirador_puerta()` vertical a 45 del canto que abre y 150 del borde de arriba,
   `perilla()`. Horizontal centrado en cajones y en la rebatible (50 del borde de abajo).
@@ -436,7 +439,7 @@ Dos cosas que se encontraron:
    de biblioteca igual). En una corrida aparte anda: `ArmarReceta.repintar()`. No se entendió
    por qué.
 
-Paquete regenerado en `fusion/EXPORT_COCINA-01/` (103 XML3; los archivos viejos que sobran en
+Paquete regenerado en `fusion/EXPORT_COCINA-01/` (104 XML3; los archivos viejos que sobran en
 `salida/_obsoleto_18-10/`). El documento de Fusion **no se guardó** desde el script: lo guarda
 Pato cuando lo vea.
 
