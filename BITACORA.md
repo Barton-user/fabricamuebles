@@ -1800,3 +1800,25 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - Causa encontrada (probable): los laterales recortados miden **827×400** y no 826,5×399. El carro A aprieta al ancho programado y con 1 mm de más se traba contra la pieza: 202h siempre en el mismo lugar, sin hacer fuerza la fresa. Programas a la medida real en `8_SPAR_RANURA_2PASADAS/MEDIDA_REAL_400x827` (9992610019255 IZQ, 9992610019262 DER). Regla: medir la pieza antes de mecanizar; la sierra dejó +1 mm.
 - Pato encontró la causa real del 202h: la **fresa del husillo de abajo** (la que hace la ranura, T11 / W1) está destruida. A cambiar. Pendiente documentar el procedimiento de cambio del husillo de abajo en PERFORADORA §6.8 (con fotos).
 - **Cambio de la fresa de abajo (T11)**: llave fija de 28 + llave del mandril (ER25), sin cono ni botón. Anotado en CONTEXTO §4/§6 y PERFORADORA §6.3/§6.8 (opml regenerado) y en el tablero FigJam.
+- Cambiadas la fresa de arriba (T187) y la de abajo (T11), ambas medio rotas. **Sigue el 202h AEje.** Descartado: fresas. A probar: programas a medida real 400×827 (…255/…262), ranura destildada, mirar qué hace el carro A en el momento de la alarma.
+- Respuesta de Huahua al 202h: (1) mover A a mano y ver que esté libre; (2) causa: **el ancho de placa del programa no coincide con el real**; (3) apagar el apoyo lateral (侧靠); (4) arman un grupo de servicio aparte para la perforadora (谭小姐). Coincide con lo de 399 vs 400 → usar …255/…262.
+- Las detecciones de ancho y largo estaban **apagadas** → la máquina usa el ancho del programa (399) y el carro A empuja contra la placa real (400). Regla: dejarlas prendidas.
+- Techo cortado a 401×598 (HP280 cortó mal). El Trim ("valor límite" 5) no se puede cambiar sin la contraseña de parámetro. Programa del techo a 401 con todo corrido +2 (los 2 mm de más quedan adelante, ranura y receptores en su lugar respecto de atrás): 9992610019279 en MEDIDA_REAL_400x827.
+- Techo 9992610019279 (401, +2 adelante): **anduvo perfecto**. Laterales 827×400: IZQ nuevo **9992610019286** (todo +1 → el mm de más queda adelante, igual que el techo); DER **9992610019262** ya quedaba así (espejado). El 9992610019255 queda descartado.
+
+## 07/10/2026 — 202h AEje RESUELTO
+- **Causa confirmada por Pato**: la pieza cargada era 1–2 mm más ancha que la del programa (sierra HP280 cortó 400/401 en vez de 399). El carro del eje A aprieta hasta el ancho programado, choca con el material de más y hace mucha fuerza → `202h AEje` (motor sobrecargado). Las fresas gastadas no eran la causa.
+- Solución: programas con la medida real (techo 9992610019279, laterales …286 y …262) → anduvieron perfecto.
+- Regla: **medir cada pieza con calibre antes de mecanizar** y dejar prendidas las detecciones de ancho/largo. Corregido en CONTEXTO §4, PERFORADORA (alarmas, §6.8) y tablero FigJam.
+- Pendiente: la HP280 corta 1–2 mm de más → revisar con Huahua; pedir a la Sra. Tan la contraseña de "parámetro" (para el Trim).
+
+## 16/10/2026 — Prueba bisagra Häfele Metalla clip suave codo 0 (311.04.003)
+
+- Pato tiene una Häfele 311.04.003 en la mano; la midió: ala **48/6**, igual que la Grupo Euro.
+- Generado `PENDRIVE/PRUEBA_BISAGRA_HAFELE/` con `etapa2/prueba_bisagra.py` (297 × 377, sin canto,
+  cazoletas a 100): códigos 9992610019293 / 9992610019309.
+- Placa base: sin medir. Se marca en seco contra el lateral y se mide (pendiente; decide `base_desde_frente`).
+- Lateral generado (9992610019316): placa en cruz, entrecentro **32** (medido), a **37** del frente, uno arriba del otro.
+  Pato: "las medidas aparentemente están ok". Disco de la Mac lleno a mitad de sesión (reinicio liberó 15 GB).
+- Esquema para la diseñadora (GuiGui) en Figma: archivo de herrajes FBehv5P3VSuDUbLplOPRit, página "Bisagra – medidas para GuiGui".
+- Pendiente: cambiar `base_desde_frente` en medidas.json y el código (hoy 20/52 a lo largo).

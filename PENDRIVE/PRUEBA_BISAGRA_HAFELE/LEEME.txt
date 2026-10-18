@@ -1,0 +1,20 @@
+PRUEBA BISAGRA HAFELE Metalla clip suave, codo 0 (sobrepuesta), 311.04.003 - 16/10/2026
+=========================================================================================
+Piezas: 2 retazos de 297 x 377, SIN CANTO. Una es la PUERTA (297 ancho x 377 alto),
+la otra el LATERAL (297 profundidad x 377 alto).
+
+PUERTA (perforadora):
+  XML3/9992610019293.xml  bisagras en el canto x = 0   (usar este)
+  XML3/9992610019309.xml  la misma girada 180 (bisagras en x = 297), por si conviene cargarla al reves
+  Codigos nuevos: tipearlos a mano.
+  Cazoleta O35 x 13 (T184) a 22,5 del canto, a 100 de arriba y de abajo.
+  Tornillos O5 x 3 (T162) a 28,5 del canto, +-24 de cada cazoleta (patron 48/6, confirmado por Pato).
+  Variador en 100 Hz. Cara de adentro ARRIBA. Medir la pieza con calibre antes (alarma 202h).
+  Hafele pide cazoleta 11-12: 13 sobra pero queda 5 de placa, anda.
+
+LATERAL (perforadora):
+  XML3/9992610019316.xml  297 profundidad x 377 alto, frente en x = 0, SIN CANTO, cara de adentro ARRIBA.
+  Placa base Hafele en cruz: 2 agujeros uno ARRIBA del otro, entrecentro 32 (medido por Pato).
+  4 x O5 x 3 (T162) a x = 37 del frente (catalogo Hafele, SIN VERIFICAR), y = 84/116 y 261/293.
+  ANTES de perforarlo: perforar la puerta, poner la bisagra y presentarla en seco contra el lateral
+  (canto de la puerta tapando el canto del frente). Si la placa no cae a 37, medir y regenerar.

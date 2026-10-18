@@ -243,8 +243,9 @@ puertas de esta alacena ya tienen los Ø5 viejos a 14,5; quedan esos agujeros de
    corregirlo al generar (hoy se hizo a mano para la Spar).
 5. **Generador `etapa2/`**: opcional, una corrección automática de `HINGESCREW` (como
    `ajustar_maquina.py --o6-a-o5`) para no depender de que GuiGui esté bien.
-6. **Placa base en el lateral** (`jlHoleEX`, hoy Ø6/Ø5 a 20 y 52 del frente): **sin verificar**
-   contra la placa base cruciforme real. Medirla.
+6. **Placa base en el lateral** (`jlHoleEX`): ✅ **medida 16/10** con la Häfele 311.04.003: 2 × Ø5 × 3
+   a **37 del frente**, uno **arriba del otro** a ±16 de la altura de la cazoleta (32 entre sí). No es 20/52 a lo
+   largo. Falta: `herrajes/medidas.json`, recetas/PonerHerrajes y el parámetro de GuiGui.
 7. `herrajes/biblioteca/CATALOGO.md` y §24: actualizar la tabla de la bisagra con esta medida.
 
 ---

@@ -1,6 +1,6 @@
 # FÁBRICA MUEBLES — Contexto del proyecto
 
-_Leiten Com · Pato · Última actualización: **06/10/2026**_
+_Leiten Com · Pato · Última actualización: **16/10/2026**_
 
 > **Cómo se usa este archivo.** Es lo único que hay que leer al empezar una conversación.
 > Dice **qué es cierto hoy**. El detalle de cada tema está en `docs/` (mapa en §7) y la historia
@@ -105,7 +105,8 @@ recetas/ ──(fusion/ArmarReceta)───────────────
 - **Tornillos de bisagra: Ø5 para siempre** (la Ø6 no existe en la máquina y el software crashea).
   `etapa2/ajustar_maquina.py --o6-a-o5` lo hace solo.
 - **Ranuras de cara dorso: mínimo 10 mm** (sólo hay T11 Ø10 abajo). LED: ranura **10 × 10**.
-- **Fresa de abajo (T11, husillo de cara dorso)**: se cambia a mano con una **llave fija de 28** (traba el eje) y la **llave del mandril** (tuerca ER25). No tiene cono ni botón. 06/10: estaba destruida y era la causa del `202h AEje` en la ranura. Detalle en `docs/PERFORADORA_SKH612.md` §6.8.
+- **Alarma `202h AEje` (motor sobrecargado) = la pieza es más ancha que lo programado.** El eje A es el carro del apoyo lateral: aprieta la placa hasta el ancho del programa, y si la pieza tiene 1–2 mm de más empuja contra la madera y se sobrecarga. **Medir cada pieza con calibre antes de mecanizar**; si no coincide, recortarla o pedir el programa con la medida real (resuelto 07/10, Spar en fenólico: placas de 400/401 con programa de 399). Dejar prendidas las detecciones de ancho y largo.
+- **Fresa de abajo (T11, husillo de cara dorso)**: se cambia a mano con una **llave fija de 28** (traba el eje) y la **llave del mandril** (tuerca ER25). No tiene cono ni botón. 06/10: estaba gastada y se cambió. Detalle en `docs/PERFORADORA_SKH612.md` §6.8.
 - **Mechas de repuesto** (vinieron con las máquinas, 05/10): Ø5 (6R+5L+1 Yuwei), Ø8 (7R+1L), Ø10 (4R+3L+1 Yuwei), Ø12 (3R), Ø15 (8L+1 Yuwei), mango Ø10×70. Ninguna Ø6. Detalle en `docs/PERFORADORA_SKH612.md`.
 - Cazoletas y ranuras de menos de 10 **sólo desde arriba** → `ajustar_maquina.py` da vuelta las
   piezas solo.
@@ -116,7 +117,7 @@ recetas/ ──(fusion/ArmarReceta)───────────────
 
 - La marca es **Grupo Euro**, no Häfele (los STEP de Häfele se usan como 3D de referencia).
 - **Bisagra: tornillos a 6 mm del centro de la cazoleta, ±24 (patrón 48/6), x = 28,5 del canto.**
-  Cazoleta Ø35 × 13 a 22,5 del canto. ⚠️ El 6 sale de la marca sobre la puerta: **confirmarlo con
+  Cazoleta Ø35 × 13 a 22,5 del canto. **Placa base (lateral): 2 × Ø5 × 3 a 37 del frente, uno arriba del otro a ±16 de la cazoleta** (Häfele 311.04.003 codo 0, probada 16/10; `PENDRIVE/PRUEBA_BISAGRA_HAFELE/`). Falta pasarlo a `medidas.json` y al código (hoy 20/52 a lo largo). Esquema para la diseñadora en Figma (página "Bisagra – medidas para GuiGui" del archivo de herrajes). ⚠️ El 6 sale de la marca sobre la puerta: **confirmarlo con
   calibre**. La medida vive en **`herrajes/medidas.json`**; GuiGui todavía trae 14,5 → generar con
   `ajustar_maquina.py --bisagra`.
 - **3 en 1: el perno es de rosca para madera (sin taco) → receptor Ø5 × 12** (probado 06/10; el Ø10 × 11 de GuiGui
