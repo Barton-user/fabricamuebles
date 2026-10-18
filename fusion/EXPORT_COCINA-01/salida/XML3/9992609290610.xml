@@ -11,30 +11,6 @@
         </Params>
     </PANEL>
     <CAD>
-        <TypeNo>8</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>358.30</X1>
-        <Y1>742.97</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>8</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>742.97</X1>
-        <Y1>358.30</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>310.08</X1>

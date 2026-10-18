@@ -1,3 +1,2 @@
-TOTAL: 106 placas (0 mecanizados fallidos), 321 herrajes
-export: piezas 106 saltadas 17 dup []
-apariencias al final: [('Perilla', 'Steel - Satin'), ('Tirador', 'Steel - Satin'), ('Vidrio', 'Steel - Satin')]
+TOTAL: 103 placas (0 mecanizados fallidos), 313 herrajes
+export: piezas 103 saltadas 17 dup []

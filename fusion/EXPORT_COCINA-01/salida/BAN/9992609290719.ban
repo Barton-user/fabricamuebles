@@ -1,15 +1,17 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:17:13" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="636.40" Height="60.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,1,0,0" Name="COCINA-01_A1 Esquinero alacena_Cornisa" Code="9992609290719">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:30:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="751.00" Height="80.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A1 Esquinero alacena_Travesano B" Code="9992609290719">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="636.40 0.00 0"/>
-        <Point Value="636.40 60.00 0"/>
-        <Point Value="0.00 60.00 0"/>
+        <Point Value="751.00 0.00 0"/>
+        <Point Value="751.00 80.00 0"/>
+        <Point Value="0.00 80.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="590.20 33.00 0" End="590.20 33.00 -13.50"/>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="46.20 33.00 0" End="46.20 33.00 -13.50"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="590.20 0.00 -9.00" End="590.20 33.00 -9.00"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="46.20 0.00 -9.00" End="46.20 33.00 -9.00"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="55.50 47.00 0" End="55.50 47.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="695.50 47.00 0" End="695.50 47.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 40.00 0" End="33.00 40.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="55.50 80.00 -9.00" End="55.50 47.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="695.50 80.00 -9.00" End="695.50 47.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 40.00 -9.00" End="33.00 40.00 -9.00"/>
 </Plane>
 </MicroDrawBan_XML>

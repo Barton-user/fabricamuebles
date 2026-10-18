@@ -26,9 +26,10 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
   * cajonera: corredera de bolillas 450 Grupo Euro (agujeros 37/413 como
     GuiGui); caja de melamina 18 con 3 en 1, fondo 5 en ranura
   * zocalo clip sobre patas regulables (el cuerpo arranca a 100)
-  * alacenas hasta 2490: cenefa verde de 60 abajo y CORNISA verde de 60 arriba
-    (las dos retiradas 18 del frente), LED en ranura 10x10 en el piso, estantes
-    regulables O5 sistema 32, colgadores regulables (sin perforar hasta medir)
+  * alacenas de 1450 a 2490, SIN cenefa ni cornisa (18/10: quedaban feas); LED
+    embutido con perfil de aluminio en la ranura 10x10 del piso; estantes
+    regulables O5 sistema 32; se cuelgan por un TRAVESANO TRASERO 18 x 80 bajo el
+    techo (dos en el esquinero), atornillado a la pared a mano
   * VITRINAS (A3, A4 y esquinero): la puerta es UNA placa de 18 a la que el
     router le corta las ventanas y el rebaje del vidrio (4 mm) por la cara de
     adentro; marco de 60 a los costados y 70 arriba/abajo, parantes de 25.
@@ -116,10 +117,10 @@ T = 18.0
 Z_BAJO = 100.0                        # arranque del cuerpo (patas + zocalo)
 H_BAJO = 760.0                        # hasta 860; mesada 40 -> 900
 F_BAJO = 580.0                        # fondo del cuerpo bajo
-Z_ALTO0, Z_ALTO1 = 1450.0, 2490.0     # de la cenefa a la cornisa; el cuerpo va entre las dos
-CENEFA = 60.0
-CORNISA = 60.0
-Z_CUERPO0, Z_CUERPO1 = Z_ALTO0 + CENEFA, Z_ALTO1 - CORNISA     # 1510 .. 2430
+Z_ALTO0, Z_ALTO1 = 1450.0, 2490.0     # cuerpo de las alacenas, de punta a punta (18/10: sin cenefa ni cornisa)
+Z_CUERPO0, Z_CUERPO1 = Z_ALTO0, Z_ALTO1
+TRAV_ALTO = 80.0                      # travesano trasero de las alacenas (para colgarlas)
+TRAV_TORNILLOS = 2                    # tornillos a la pared por travesano (a mano, en obra)
 F_ALTO = 332.0
 X_FIN = 2190.0                        # largo de la pared larga (mesada)
 Y_FIN = 1368.0                        # hasta donde llega el panel de la cocina en la pared corta
@@ -778,18 +779,17 @@ def alacena_esquinero():
     P, piso, pu, (PA, PB, t, n, L), la, lb = esquinero(nombre, z1 - z0, F_ALTO, z0, z1,
                                                        estantes=2, cenefa=True)
     tec = [p for p in P if p.nombre == "Techo"][0]
-    # cenefa (abajo) y cornisa (arriba) diagonales, retiradas 18 del frente, cara A = la de atras
-    ex, ey = mul(t, -1), (0, 0, 1)
-    ez = cross(ex, ey)                       # hacia adentro
-    for nm, zb, alto, cantos in (("Cenefa", Z_ALTO0, CENEFA, ((0, 0, -1),)),
-                                 ("Cornisa", z1, CORNISA, ((0, 0, 1),))):
-        O = add(add(PA, mul(t, L)), (0, 0, zb))
-        O = add(O, mul(n, -T))               # cara A = la de atras (oculta), a 18 del frente
-        pl = Placa(nombre, nm, L, alto, T, O, ex, ey, VERDE, cantos=cantos)
-        if dot(pl.ez, n) > 0:
-            raise RuntimeError("%s al reves" % nm)
-        P.append(pl)
-        tres_en_uno(pl, piso if nm == "Cenefa" else tec, "A")
+    # dos travesanos traseros bajo el techo, uno por pared, detras de los fondos (que van a 25..30):
+    # 3 en 1 al lateral de su punta y al techo; por ellos se cuelga el mueble.
+    li_ = 800.0 - T
+    zt0, zt1 = z1 - T - TRAV_ALTO, z1 - T
+    ta = placa_caja(nombre, "Travesano A", 31.0, li_, 0, T, zt0, zt1, "-Y", "+X", BLANCO)
+    tb = placa_caja(nombre, "Travesano B", 0, T, 31.0, li_, zt0, zt1, "-X", "-Y", BLANCO)
+    P += [ta, tb]
+    tres_en_uno(ta, la, "A", cuantos=1); tres_en_uno(tb, lb, "A", cuantos=1)
+    tres_en_uno(ta, tec, "A", cuantos=2); tres_en_uno(tb, tec, "A", cuantos=2)
+    AVISOS.append("%s: se cuelga por los dos travesanos traseros (18 x %g) con %d tornillos a la pared "
+                  "cada uno, a mano." % (nombre, TRAV_ALTO, TRAV_TORNILLOS))
     led_piso(piso, nombre, diagonal_geo=(PA, PB, t, n, L))
     return P
 
@@ -854,9 +854,10 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2):
     d = BP["desde_atras"]
     fo = pc("Fondo", u0 + T - 5, u1 - T + 5, d - 2.5, d + 2.5, z0 + T - 5, z1 - T + 5, V, mU, FONDO5,
             rol="FONDO", material=FIB)
-    ce = pc("Cenefa", u0, u1, D - T, D, Z_ALTO0, z0, mV, U, VERDE, cantos=("-Z", U, mU))
-    co = pc("Cornisa", u0, u1, D - T, D, z1, Z_ALTO1, mV, U, VERDE, cantos=("+Z", U, mU))
-    P += [piso, tec, ld, li, fo, ce, co]
+    # travesano trasero bajo el techo, contra la pared, detras del fondo: por ahi se cuelga
+    # (tornillos a la pared a mano). Cara A = la que mira a la pared (excentricas ocultas).
+    tt = pc("Travesano trasero", u0 + T, u1 - T, 0, T, z1 - T - TRAV_ALTO, z1 - T, mV, U, BLANCO)
+    P += [piso, tec, ld, li, fo, tt]
     # ranuras de fondo (cara A = interior), cortadas a 12,85 de las puntas como MLV
     piso.ranura(12.85, d, piso.W - 12.85, d, BP["ancho"], BP["prof"], "A", "BP")
     tec.ranura(12.85, tec.H - d, tec.W - 12.85, tec.H - d, BP["ancho"], BP["prof"], "A", "BP")
@@ -865,16 +866,17 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2):
     # uniones: los laterales apoyan en piso y techo (excentrica en la cara interior)
     for l in (ld, li):
         tres_en_uno(l, piso, "A"); tres_en_uno(l, tec, "A")
-    tres_en_uno(ce, piso, "A")
-    tres_en_uno(co, tec, "A")
+    tres_en_uno(tt, ld, "A"); tres_en_uno(tt, li, "A")
+    AVISOS.append("%s: se cuelga por el travesano trasero (18 x %g, bajo el techo) con %d tornillos a la "
+                  "pared, a mano." % (nombre, TRAV_ALTO, TRAV_TORNILLOS))
     led_piso(piso, nombre)
     ua, ub = u0 + LUZ, u1 - LUZ
     wa, wb = z0 + LUZ, z1 - LUZ
     cant = (U, mU, "+Z", "-Z")
     inner0, inner1 = z0 + T, z1 - T
     if tipo == "rebatible":
-        # frente fijo arriba (300), estante fijo en la junta, puerta rebatible abajo
-        HF = 300.0
+        # frente fijo arriba (un tercio del alto), estante fijo en la junta, puerta rebatible abajo
+        HF = round((wb - wa) / 3.0)
         zj = wb - HF - JUNTA / 2.0                      # centro de la junta
         ff = pc("Frente fijo", ua, ub, D, D + T, zj + JUNTA / 2.0, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
         # estante fijo: cara A abajo (mira a la puerta), X local = profundidad (frente en x = W).
@@ -1124,6 +1126,8 @@ def main():
                               "el ROUTER; el .nc no se genera todavia (estan en modelo.json). Vidrio de %g: "
                               "%.0f x %.0f." % (nombre, p.nombre, v["cols"], v["filas"], len(p.ventanas),
                                                 VIT["rebaje_prof"], VIT["vidrio"], v["vidrio"][0], v["vidrio"][1]))
+    AVISOS.append("Alacenas sin cenefa ni cornisa (18/10): la tira LED va EMBUTIDA en la ranura 10x10 del piso "
+                  "con perfil de aluminio y difusor a ras.")
     if any(h["sym"] == "handle" for _, pl in MUEBLES for p in pl for h in p.agujeros):
         AVISOS.append("Tiradores: agujeros O5 PASANTES desde la cara A (interior). Si el frente astilla a la "
                       "salida, perforarlos desde la cara B.")

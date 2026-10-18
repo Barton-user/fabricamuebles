@@ -1,332 +1,20 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>332.00</PanelLength>
-        <PanelWidth>884.00</PanelWidth>
+        <PanelLength>534.00</PanelLength>
+        <PanelWidth>80.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_A4 Vitrina 570_Lateral izq</PanelName>
+        <PanelName>COCINA-01_A4 Vitrina 570_Travesano trasero</PanelName>
         <Params>
-            <Param Key="L" Value="332.00" Comment="板长"/>
-            <Param Key="W" Value="884.00" Comment="板宽"/>
+            <Param Key="L" Value="534.00" Comment="板长"/>
+            <Param Key="W" Value="80.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>645.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>645.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>613.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>613.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>581.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>581.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>549.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>549.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>517.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>517.33</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>350.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>350.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>318.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>318.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>286.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>286.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>254.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>254.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>222.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>264.00</X1>
-        <Y1>222.67</Y1>
-        <Depth>12.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>816.50</Y1>
-        <Depth>3.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>784.50</Y1>
-        <Depth>3.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>458.00</Y1>
-        <Depth>3.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>426.00</Y1>
-        <Depth>3.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>99.50</Y1>
-        <Depth>3.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>37.00</X1>
-        <Y1>67.50</Y1>
-        <Depth>3.00</Depth>
-        <Diameter>5.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>54.00</X1>
-        <Y1>851.00</Y1>
+        <X1>501.00</X1>
+        <Y1>40.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
         <Enable>1</Enable>
@@ -337,32 +25,8 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>278.00</X1>
-        <Y1>851.00</Y1>
-        <Depth>13.50</Depth>
-        <Diameter>15.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>278.00</X1>
-        <Y1>33.00</Y1>
-        <Depth>13.50</Depth>
-        <Diameter>15.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-    </CAD>
-    <CAD>
-        <TypeNo>1</TypeNo>
-        <TypeName>Vertical Hole</TypeName>
-        <X1>54.00</X1>
-        <Y1>33.00</Y1>
+        <X1>33.00</X1>
+        <Y1>40.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
         <Enable>1</Enable>
@@ -373,10 +37,10 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>54.00</X1>
-        <Y1>884.00</Y1>
+        <X1>534.00</X1>
+        <Y1>40.00</Y1>
         <Z1>9.00</Z1>
-        <Quadrant>3</Quadrant>
+        <Quadrant>1</Quadrant>
         <Depth>33.00</Depth>
         <Diameter>8.00</Diameter>
         <Enable>1</Enable>
@@ -388,10 +52,10 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>278.00</X1>
-        <Y1>884.00</Y1>
+        <X1>0.00</X1>
+        <Y1>40.00</Y1>
         <Z1>9.00</Z1>
-        <Quadrant>3</Quadrant>
+        <Quadrant>2</Quadrant>
         <Depth>33.00</Depth>
         <Diameter>8.00</Diameter>
         <Enable>1</Enable>
@@ -399,47 +63,5 @@
         <IntervalX>0.00</IntervalX>
         <IntervalY>0.00</IntervalY>
         <IntervalZ>0.00</IntervalZ>
-    </CAD>
-    <CAD>
-        <TypeNo>2</TypeNo>
-        <TypeName>Horizontal Hole</TypeName>
-        <X1>278.00</X1>
-        <Y1>0.00</Y1>
-        <Z1>9.00</Z1>
-        <Quadrant>4</Quadrant>
-        <Depth>33.00</Depth>
-        <Diameter>8.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-        <IntervalZ>0.00</IntervalZ>
-    </CAD>
-    <CAD>
-        <TypeNo>2</TypeNo>
-        <TypeName>Horizontal Hole</TypeName>
-        <X1>54.00</X1>
-        <Y1>0.00</Y1>
-        <Z1>9.00</Z1>
-        <Quadrant>4</Quadrant>
-        <Depth>33.00</Depth>
-        <Diameter>8.00</Diameter>
-        <Enable>1</Enable>
-        <HoleNo>1</HoleNo>
-        <IntervalX>0.00</IntervalX>
-        <IntervalY>0.00</IntervalY>
-        <IntervalZ>0.00</IntervalZ>
-    </CAD>
-    <CAD>
-        <TypeNo>3</TypeNo>
-        <TypeName>Line</TypeName>
-        <BeginX>304.50</BeginX>
-        <BeginY>0.00</BeginY>
-        <EndX>304.50</EndX>
-        <EndY>884.00</EndY>
-        <Correction>0</Correction>
-        <Width>6.00</Width>
-        <Depth>6.00</Depth>
-        <Enable>1</Enable>
     </CAD>
 </KDTPanelFormat>

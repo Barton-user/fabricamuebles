@@ -1,36 +1,37 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:17:13" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="332.00" Height="920.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,1,0" Name="COCINA-01_A1 Esquinero alacena_Lateral A" Code="9992609290597">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:30:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="332.00" Height="1040.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,1,0" Name="COCINA-01_A1 Esquinero alacena_Lateral A" Code="9992609290597">
     <Outline>
         <Point Value="0.00 0.00 0"/>
         <Point Value="332.00 0.00 0"/>
-        <Point Value="332.00 920.00 0"/>
-        <Point Value="0.00 920.00 0"/>
+        <Point Value="332.00 1040.00 0"/>
+        <Point Value="0.00 1040.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 663.33 0" End="168.00 663.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 663.33 0" End="264.00 663.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 631.33 0" End="168.00 631.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 631.33 0" End="264.00 631.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 599.33 0" End="168.00 599.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 599.33 0" End="264.00 599.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 567.33 0" End="168.00 567.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 567.33 0" End="264.00 567.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 535.33 0" End="168.00 535.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 535.33 0" End="264.00 535.33 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 368.67 0" End="168.00 368.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 368.67 0" End="264.00 368.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 336.67 0" End="168.00 336.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 336.67 0" End="264.00 336.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 304.67 0" End="168.00 304.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 304.67 0" End="264.00 304.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 272.67 0" End="168.00 272.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 272.67 0" End="264.00 272.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 240.67 0" End="168.00 240.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 240.67 0" End="264.00 240.67 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="278.00 911.00 0" End="278.00 911.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="54.00 911.00 0" End="54.00 911.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="323.00 982.00 0" End="323.00 982.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 743.33 0" End="168.00 743.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 743.33 0" End="264.00 743.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 711.33 0" End="168.00 711.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 711.33 0" End="264.00 711.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 679.33 0" End="168.00 679.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 679.33 0" End="264.00 679.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 647.33 0" End="168.00 647.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 647.33 0" End="264.00 647.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 615.33 0" End="168.00 615.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 615.33 0" End="264.00 615.33 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 408.67 0" End="168.00 408.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 408.67 0" End="264.00 408.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 376.67 0" End="168.00 376.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 376.67 0" End="264.00 376.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 344.67 0" End="168.00 344.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 344.67 0" End="264.00 344.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 312.67 0" End="168.00 312.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 312.67 0" End="264.00 312.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="168.00 280.67 0" End="168.00 280.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="264.00 280.67 0" End="264.00 280.67 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="278.00 1031.00 0" End="278.00 1031.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="54.00 1031.00 0" End="54.00 1031.00 -12.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="54.00 9.00 0" End="54.00 9.00 -12.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="278.00 9.00 0" End="278.00 9.00 -12.00"/>
-    <SlotL Name="" Face="A" Start="304.50 0.00 -6.00" End="304.50 920.00 -6.00" Width="6.00" IsCuted="0"/>
+    <SlotL Name="" Face="A" Start="304.50 0.00 -6.00" End="304.50 1040.00 -6.00" Width="6.00" IsCuted="0"/>
 </Plane>
 </MicroDrawBan_XML>

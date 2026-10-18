@@ -390,15 +390,20 @@ Pato pidió que COCINA-01 quede como un render de referencia (verde, vitrinas co
 tiradores de cobre, cornisa). Decisiones: distribución + estilo, mismas paredes (2190 / 1368),
 **sin lavavajillas**, vitrinas de marco de melamina + vidrio, tiradores perforados (barral 128,
 perilla). Todo en `recetas/cocina01.py`; `ArmarReceta` armó el documento `COCINA-01` vaciado
-(por MCP, `armar(nuevo=False)`), 106 placas, **106/106 receta = sólido**.
+(por MCP, `armar(nuevo=False)`), 103 placas, **103/103 receta = sólido**.
 
 Qué cambió:
 
 - **B4 Bajo puerta 452** (1720–2172) donde iba el lavavajillas; `bajo_normal(..., "puerta")`:
   una puerta a todo el alto, bisagras en el lateral del extremo. Panel terminal a 2172–2190,
   zócalo largo hasta ahí. `REFERENCIA` sale de la receta (`modelo.json["referencia"]`).
-- **Alacenas**: cuerpo 1510–2430; **cornisa** VERDE de 60 arriba (`Cornisa`, retirada 18 como
-  la cenefa, 3 en 1 al techo). En el esquinero la cornisa es diagonal, como la cenefa.
+- **Alacenas**: cuerpo 1450–2490 **sin cenefa ni cornisa** (primero se puso cornisa como en el
+  render; Pato: "horribles", se sacaron las dos). El LED queda embutido en la ranura 10×10 del
+  piso con perfil de aluminio y difusor. **Travesaño trasero 18 × 80** bajo el techo, contra la
+  pared y detrás del fondo (que va a 25–30), con 3 en 1 a los laterales: por ahí se cuelga, con
+  2 tornillos a la pared a mano. El esquinero lleva dos (`Travesano A` / `B`), uno por pared,
+  con 3 en 1 al lateral de su punta y al techo. Antes no había nada para colgar: el fondo de 5
+  no sirve y los colgadores regulables nunca se midieron (siguen como opción a futuro).
 - **Vitrina** (`vitrina(puerta, cols, filas)`): la puerta sigue siendo **una placa de 18**; se
   le agregan `ventanas` (huecos pasantes) y un `rebaje` de 12 × 5 por la cara A para vidrio de
   4. Marco: montantes 60 (la cazoleta a 22,5 y el ala de la bisagra entran), travesaños 70,
@@ -407,10 +412,10 @@ Qué cambió:
   `modelo.json` y a `piezas_receta.json`. **Las hace el router y el `.nc` no se genera**:
   la perforadora sólo ve cazoletas, tornillos y perilla. Cada vidrio sale como herraje
   (`Vidrio 300x800`) para la lista.
-- **A2 rebatible** (`alacena(..., tipo="rebatible")`): frente fijo de 300 arriba, **estante
+- **A2 rebatible** (`alacena(..., tipo="rebatible")`): frente fijo de un tercio del alto arriba, **estante
   fijo** 18 abajo del centro de la junta (su cara de abajo queda 16,5 arriba del canto de la
   puerta, como un techo sobre una puerta: así la bisagra es la misma, base −6) y puerta
-  rebatible 597 × 614 con 2 bisagras en el canto de arriba + pistones a mano (como la Spar).
+  rebatible 597 × 688 con 2 bisagras en el canto de arriba + pistones a mano (como la Spar).
 - **Tiradores**: `tirador()` (2 × Ø5 **pasantes** a 128, desde la cara A; aviso si astilla),
   `tirador_puerta()` vertical a 45 del canto que abre y 150 del borde de arriba,
   `perilla()`. Horizontal centrado en cajones y en la rebatible (50 del borde de abajo).
@@ -431,7 +436,7 @@ Dos cosas que se encontraron:
    de biblioteca igual). En una corrida aparte anda: `ArmarReceta.repintar()`. No se entendió
    por qué.
 
-Paquete regenerado en `fusion/EXPORT_COCINA-01/` (106 XML3; 11 MPR viejos en
+Paquete regenerado en `fusion/EXPORT_COCINA-01/` (103 XML3; los archivos viejos que sobran en
 `salida/_obsoleto_18-10/`). El documento de Fusion **no se guardó** desde el script: lo guarda
 Pato cuando lo vea.
 

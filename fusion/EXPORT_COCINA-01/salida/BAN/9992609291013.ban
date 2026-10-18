@@ -1,21 +1,11 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:17:13" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="282.00" Height="917.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,1,1,1" Name="COCINA-01_A4 Vitrina 570_Puerta der" Code="9992609291013">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:30:24" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="532.00" Height="281.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,1,0,0" Name="COCINA-01_A4 Vitrina 570_Estante 2" Code="9992609291013">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="282.00 0.00 0"/>
-        <Point Value="282.00 917.00 0"/>
-        <Point Value="0.00 917.00 0"/>
+        <Point Value="532.00 0.00 0"/>
+        <Point Value="532.00 281.00 0"/>
+        <Point Value="0.00 281.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="242.00 50.00 0" End="242.00 50.00 -18.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="28.50 841.00 0" End="28.50 841.00 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="28.50 793.00 0" End="28.50 793.00 -3.00"/>
-    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="22.50 817.00 0" End="22.50 817.00 -13.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="28.50 482.50 0" End="28.50 482.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="28.50 434.50 0" End="28.50 434.50 -3.00"/>
-    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="22.50 458.50 0" End="22.50 458.50 -13.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="28.50 124.00 0" End="28.50 124.00 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="28.50 76.00 0" End="28.50 76.00 -3.00"/>
-    <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="22.50 100.00 0" End="22.50 100.00 -13.00"/>
 </Plane>
 </MicroDrawBan_XML>

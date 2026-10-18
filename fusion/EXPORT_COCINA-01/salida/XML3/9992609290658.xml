@@ -1,12 +1,12 @@
 <KDTPanelFormat>
     <PANEL>
         <PanelLength>80.00</PanelLength>
-        <PanelWidth>884.00</PanelWidth>
+        <PanelWidth>1004.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
         <PanelName>COCINA-01_A1 Esquinero alacena_Montante A</PanelName>
         <Params>
             <Param Key="L" Value="80.00" Comment="板长"/>
-            <Param Key="W" Value="884.00" Comment="板宽"/>
+            <Param Key="W" Value="1004.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
@@ -14,7 +14,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>37.00</X1>
-        <Y1>816.50</Y1>
+        <Y1>936.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -26,7 +26,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>37.00</X1>
-        <Y1>784.50</Y1>
+        <Y1>904.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -38,7 +38,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>37.00</X1>
-        <Y1>458.00</Y1>
+        <Y1>518.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -50,7 +50,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>37.00</X1>
-        <Y1>426.00</Y1>
+        <Y1>486.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -86,7 +86,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>40.00</X1>
-        <Y1>851.00</Y1>
+        <Y1>971.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
         <Enable>1</Enable>
@@ -110,7 +110,7 @@
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
         <X1>40.00</X1>
-        <Y1>884.00</Y1>
+        <Y1>1004.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>3</Quadrant>
         <Depth>33.00</Depth>

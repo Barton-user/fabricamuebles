@@ -1848,3 +1848,10 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   pistones de la rebatible; `PonerHerrajes` con placa base 37/±16; confirmar la cuadrícula de A4
   (1×3) y si la cornisa va retirada 18 o a ras de las puertas.
 - Disco de la Mac lleno al empezar (100 MB libres): Pato reinició y quedaron 12 GB.
+- **Revisión de Pato sobre las alacenas** (misma sesión): (1) cenefa y cornisa "horribles" → se
+  sacaron las dos, cuerpo 1450–2490, LED embutido con perfil; (2) la manija de la rebatible sí
+  está (barral al pie, se ve chico en la captura); (3) vitrina = una placa con ventanas y rebaje
+  por router, se explicó y queda así; (4) no había cómo colgar → travesaño trasero 18×80 bajo el
+  techo en cada alacena (dos en el esquinero), 3 en 1 a laterales/techo, tornillos a la pared a
+  mano. Rebatible ahora 597×688 (frente fijo = 1/3). 103 placas, 103/103 receta = sólido,
+  paquete regenerado. Documento de Fusion re-armado, sin guardar.

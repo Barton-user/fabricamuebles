@@ -1,12 +1,12 @@
 <KDTPanelFormat>
     <PANEL>
         <PanelLength>633.40</PanelLength>
-        <PanelWidth>917.00</PanelWidth>
+        <PanelWidth>1037.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
         <PanelName>COCINA-01_A1 Esquinero alacena_Puerta</PanelName>
         <Params>
             <Param Key="L" Value="633.40" Comment="板长"/>
-            <Param Key="W" Value="917.00" Comment="板宽"/>
+            <Param Key="W" Value="1037.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
@@ -26,7 +26,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>604.90</X1>
-        <Y1>841.00</Y1>
+        <Y1>961.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -38,7 +38,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>604.90</X1>
-        <Y1>793.00</Y1>
+        <Y1>913.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -50,7 +50,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>610.90</X1>
-        <Y1>817.00</Y1>
+        <Y1>937.00</Y1>
         <Depth>13.00</Depth>
         <Diameter>35.00</Diameter>
         <Enable>1</Enable>
@@ -62,7 +62,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>604.90</X1>
-        <Y1>482.50</Y1>
+        <Y1>542.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -74,7 +74,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>604.90</X1>
-        <Y1>434.50</Y1>
+        <Y1>494.50</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -86,7 +86,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>610.90</X1>
-        <Y1>458.50</Y1>
+        <Y1>518.50</Y1>
         <Depth>13.00</Depth>
         <Diameter>35.00</Diameter>
         <Enable>1</Enable>

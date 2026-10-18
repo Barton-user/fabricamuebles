@@ -1,4 +1,4 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:17:13" Source="fabrica-muebles" SourceType="BAN">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/18 pm 8:30:24" Source="fabrica-muebles" SourceType="BAN">
 <Plane Width="600.00" Height="332.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,1,0,0" Name="COCINA-01_A2 Alacena 600 rebatible_Piso" Code="9992609290726">
     <Outline>
         <Point Value="0.00 0.00 0"/>
@@ -7,8 +7,6 @@
         <Point Value="0.00 332.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="B" Start="44.00 323.00 -18.00" End="44.00 323.00 -6.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="B" Start="556.00 323.00 -18.00" End="556.00 323.00 -6.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="591.00 54.00 0" End="591.00 54.00 -12.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="591.00 278.00 0" End="591.00 278.00 -12.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="9.00 278.00 0" End="9.00 278.00 -12.00"/>

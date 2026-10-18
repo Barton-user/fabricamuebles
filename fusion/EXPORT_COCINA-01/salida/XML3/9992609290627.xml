@@ -11,10 +11,10 @@
         </Params>
     </PANEL>
     <CAD>
-        <TypeNo>8</TypeNo>
+        <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>742.97</X1>
-        <Y1>423.70</Y1>
+        <X1>9.00</X1>
+        <Y1>55.50</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -23,10 +23,34 @@
         <IntervalY>0.00</IntervalY>
     </CAD>
     <CAD>
-        <TypeNo>8</TypeNo>
+        <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>358.30</X1>
-        <Y1>39.03</Y1>
+        <X1>9.00</X1>
+        <Y1>695.50</Y1>
+        <Depth>12.00</Depth>
+        <Diameter>5.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>86.50</X1>
+        <Y1>773.00</Y1>
+        <Depth>12.00</Depth>
+        <Diameter>5.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>726.50</X1>
+        <Y1>773.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>

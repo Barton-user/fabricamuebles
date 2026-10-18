@@ -12,7 +12,7 @@ ModusMirror="1"
 
 <100 \WerkStck\
 LA="633.4"
-BR="917"
+BR="1037"
 DI="18"
 FNX="0"
 FNY="0"
@@ -49,7 +49,7 @@ MZF="1"
 
 <102 \V_DRILLING\
 XA="604.9"
-YA="841"
+YA="961"
 BM="LS"
 TI="3"
 DU="5"
@@ -74,7 +74,7 @@ MZF="1"
 
 <102 \V_DRILLING\
 XA="604.9"
-YA="793"
+YA="913"
 BM="LS"
 TI="3"
 DU="5"
@@ -99,7 +99,7 @@ MZF="1"
 
 <102 \V_DRILLING\
 XA="610.9"
-YA="817"
+YA="937"
 BM="LS"
 TI="13"
 DU="35"
@@ -124,7 +124,7 @@ MZF="1"
 
 <102 \V_DRILLING\
 XA="604.9"
-YA="482.5"
+YA="542.5"
 BM="LS"
 TI="3"
 DU="5"
@@ -149,7 +149,7 @@ MZF="1"
 
 <102 \V_DRILLING\
 XA="604.9"
-YA="434.5"
+YA="494.5"
 BM="LS"
 TI="3"
 DU="5"
@@ -174,7 +174,7 @@ MZF="1"
 
 <102 \V_DRILLING\
 XA="610.9"
-YA="458.5"
+YA="518.5"
 BM="LS"
 TI="13"
 DU="35"
