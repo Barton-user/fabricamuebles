@@ -30,11 +30,11 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
     embutido con perfil de aluminio en la ranura 10x10 del piso; estantes
     regulables O5 sistema 32; se cuelgan por un TRAVESANO TRASERO 18 x 80 bajo el
     techo (dos en el esquinero), atornillado a la pared a mano
-  * VITRINAS (A3, A4 y esquinero): la puerta es UNA placa de 18 a la que el
-    router le corta las ventanas y el rebaje del vidrio (4 mm) por la cara de
-    adentro; marco de 60 a los costados y 70 arriba/abajo, parantes de 25.
-    La perforadora hace cazoletas y perilla; las ventanas y el rebaje van al
-    router (programa .nc TODAVIA NO SE GENERA: queda en modelo.json).
+  * VITRINAS (A3 2 puertas, A4 1 puerta de 567, esquinero): MARCO DE 4 PIEZAS
+    DE MADERA MACIZA de 18 (montantes 60, travesanos 70) unido con Minifix +
+    tarugo O8, vidrio de 4 en ranura 12 x 5 por atras, cruz de listones 25 x 8
+    pegada al vidrio. Todo lo perfora la SKH-612 (la ranura con la T11); la
+    madera va en lista de corte aparte de la melamina (no es para AutoCUT).
   * A2 (sobre la pileta): DOS hojas rebatibles hacia arriba, con pistones: la
     de arriba (1/3) colgada del techo, la de abajo del estante fijo (18/10)
   * tiradores: barral de cobre 128 entre centros en los bajos (vertical en
@@ -100,9 +100,16 @@ MARGEN_BISAGRA = 100.0
 # tiradores (18/10): barral 128 entre centros, perilla; tornillo M4 -> O5 pasante
 TIRADOR = {"d": 5.0, "entre_centros": 128.0, "del_canto": 45.0, "del_borde": 150.0}
 PERILLA = {"d": 5.0, "del_canto": 40.0, "del_borde": 50.0}
-# vitrina: una placa de 18 con ventanas pasantes y rebaje para vidrio de 4 (router)
-VIT = {"montante": 60.0, "travesano": 70.0, "parante": 25.0, "rebaje_ancho": 12.0, "rebaje_prof": 5.0,
-       "vidrio": 4.0}
+# vitrina (18/10, decision de Pato): MARCO DE 4 PIEZAS DE MADERA MACIZA de 18 unido con
+# Minifix (el 3 en 1 de siempre: excentrica O15 en la cara de atras del travesano, perno O8 x 33
+# en su punta, O5 x 12 en el canto interior del montante) + un tarugo O8 por esquina para que no
+# gire. Vidrio de 4 en una ranura-rebaje de 12 x 5 por la cara de atras (T11 O10), sujeto con
+# junquillos. La cruz que imita los 6 vidrios es una parrilla de listones 25 x 8 pegada al vidrio.
+MADERA = "Madera maciza"
+MACIZA = "MADERA VERDE 18"                       # textura: 'VERDE' -> se pinta verde en Fusion
+VIT = {"montante": 60.0, "travesano": 70.0, "parante": 25.0, "parante_esp": 8.0,
+       "rebaje_ancho": 12.0, "rebaje_prof": 5.0, "vidrio": 4.0}
+TARUGO = {"d": 8.0, "prof": 15.0, "del_borde": 12.0}
 # corredera de bolillas 450 (COCINA MLV): O3 x 10 a 37 y 413 del frente
 CORR = {"d": 3.0, "prof": 10.0, "a": (37.0, 413.0), "largo": 450.0, "juego": 13.0}
 # estante regulable
@@ -451,32 +458,94 @@ def perilla_puerta(puerta, canto_libre):
 
 
 # --------------------------------------------------------------- vitrina --
-def vitrina(puerta, cols=2, filas=3):
-    """Convierte una puerta lisa en puerta vitrina: ventanas pasantes en cuadricula
-    cols x filas, rebaje para el vidrio por la cara A (interior), y un vidrio
-    (herraje de referencia, para la lista de vidrios). Todo lo hace el ROUTER;
-    la perforadora solo ve cazoletas y perilla."""
-    m, t, pa = VIT["montante"], VIT["travesano"], VIT["parante"]
-    x0, x1 = m, puerta.W - m
-    y0, y1 = t, puerta.H - t
-    aw = (x1 - x0 - (cols - 1) * pa) / cols
-    ah = (y1 - y0 - (filas - 1) * pa) / filas
-    if aw < 60 or ah < 60:
-        AVISOS.append("%s / %s: vitrina con vidrios de %.0f x %.0f (muy chicos)" % (puerta.mueble, puerta.nombre, aw, ah))
-    for i in range(cols):
-        for j in range(filas):
-            vx0 = x0 + i * (aw + pa)
-            vy0 = y0 + j * (ah + pa)
-            puerta.ventana(vx0, vy0, vx0 + aw, vy0 + ah)
-    r = VIT["rebaje_ancho"]
-    puerta.rebaje(x0 - r, y0 - r, x1 + r, y1 + r, VIT["rebaje_prof"], "A")
-    puerta.vitrina = dict(cols=cols, filas=filas, vidrio=(x1 - x0 + 2 * r - 1.0, y1 - y0 + 2 * r - 1.0))
-    # el vidrio: una sola hoja de 4 que tapa toda la cuadricula, apoyada en el rebaje
-    gw, gh = puerta.vitrina["vidrio"]
-    herraje(puerta.mueble, "Vidrio %dx%d" % (int(round(gw)), int(round(gh))),
-            puerta.mundo(x0 - r + 0.5, y0 - r + 0.5, -VIT["rebaje_prof"]), puerta.vec(0, 0, 1), puerta.vec(1, 0, 0),
+def minifix_marco(trav, lado, mont, canto_mont, y_cam, y_tarugo):
+    """Union de la punta `lado` ('IZQ'/'DER') del travesano con el canto interior
+    `canto_mont` del montante: Minifix (perno en la punta del travesano, excentrica
+    en su cara A = atras, O5 x 12 en el canto del montante) + tarugo O8."""
+    dx = 1 if lado == "IZQ" else -1
+    xe = 0.0 if lado == "IZQ" else trav.W
+    # perno + excentrica en el travesano
+    trav.agujero_canto(xe, y_cam, PERNO["d"], PERNO["prof"], lado, "3in1")
+    cx = xe + dx * CAM["desde_canto"]
+    trav.agujero(cx, y_cam, CAM["d"], CAM["prof"], "A", "3in1")
+    # tarugo en la punta del travesano
+    trav.agujero_canto(xe, y_tarugo, TARUGO["d"], TARUGO["prof"], lado, "dowel")
+    # en el canto del montante: receptor O5 y tarugo, donde caen los del travesano
+    for y, d, prof, sym in ((y_cam, RECIBE["d"], RECIBE["prof"], "3in1"),
+                            (y_tarugo, TARUGO["d"], TARUGO["prof"], "dowel")):
+        pw = trav.mundo(xe, y, -trav.T / 2.0)
+        mx, my, _ = mont.local(pw)
+        xm = 0.0 if canto_mont == "IZQ" else mont.W
+        if abs(mx - xm) > 0.5:
+            raise RuntimeError("marco: la punta del travesano no cae en el canto del montante (%s)" % trav.nombre)
+        mont.agujero_canto(xm, my, d, prof, canto_mont, sym)
+    # herrajes (como en tres_en_uno)
+    adentro = trav.vec(dx, 0, 0)
+    herraje(trav.mueble, "Excentrica O15", trav.mundo(cx, y_cam, 0.0), trav.vec(0, 0, -1), adentro, "excentrica", cam=CAM)
+    pw = trav.mundo(xe, y_cam, -trav.T / 2.0)
+    herraje(trav.mueble, "Perno O8 x 33", pw, adentro, (0, 0, 1) if abs(adentro[2]) < 0.9 else (1, 0, 0),
+            "perno", perno=PERNO, recibe=RECIBE)
+
+
+def vitrina_marco(puerta, cols=2, filas=3):
+    """Puerta vitrina como MARCO de 4 piezas de madera maciza en el lugar de `puerta`
+    (que se usa solo como marco de referencia y NO se agrega al mueble). Devuelve
+    {'IZQ': montante, 'DER': montante, 'ABAJO': travesano, 'ARRIBA': travesano}.
+    El que llama cuelga las bisagras del montante que corresponda y pone la perilla."""
+    m, t = VIT["montante"], VIT["travesano"]
+    W, H, mu = puerta.W, puerta.H, puerta.mueble
+    nm = puerta.nombre
+
+    def pieza(sufijo, x0, y0, w, h):
+        return Placa(mu, "%s montante %s" % (nm, sufijo) if w == m else "%s travesano %s" % (nm, sufijo),
+                     w, h, T, puerta.mundo(x0, y0, 0.0), puerta.ex, puerta.ey, MACIZA, rol="PUERTA",
+                     material=MADERA, veta="VERTICAL" if w == m else "HORIZONTAL")
+
+    mi = pieza("izq", 0.0, 0.0, m, H)
+    md = pieza("der", W - m, 0.0, m, H)
+    ta = pieza("abajo", m, 0.0, W - 2 * m, t)
+    tr = pieza("arriba", m, H - t, W - 2 * m, t)
+    r, prof = VIT["rebaje_ancho"], VIT["rebaje_prof"]
+    # rebaje del vidrio = ranura de 12 x 5 por la cara A (atras) sobre el canto interior.
+    # En los montantes va solo entre los travesanos (hasta donde llega el vidrio).
+    mi.ranura(m - r / 2.0, t - r, m - r / 2.0, H - t + r, r, prof, "A", "glassSlot")
+    md.ranura(r / 2.0, t - r, r / 2.0, H - t + r, r, prof, "A", "glassSlot")
+    ta.ranura(0.0, t - r / 2.0, ta.W, t - r / 2.0, r, prof, "A", "glassSlot")
+    tr.ranura(0.0, r / 2.0, tr.W, r / 2.0, r, prof, "A", "glassSlot")
+    # uniones: Minifix al centro del travesano, tarugo a 12 del borde de afuera
+    yc = t / 2.0
+    minifix_marco(ta, "IZQ", mi, "DER", yc, TARUGO["del_borde"])
+    minifix_marco(ta, "DER", md, "IZQ", yc, TARUGO["del_borde"])
+    minifix_marco(tr, "IZQ", mi, "DER", yc, t - TARUGO["del_borde"])
+    minifix_marco(tr, "DER", md, "IZQ", yc, t - TARUGO["del_borde"])
+    # vidrio: una hoja de 4 que entra 11 en cada ranura (1 de juego)
+    gw, gh = W - 2 * m + 2 * r - 2.0, H - 2 * t + 2 * r - 2.0
+    herraje(mu, "Vidrio %dx%d" % (int(round(gw)), int(round(gh))),
+            puerta.mundo(m - r + 1.0, t - r + 1.0, -prof), puerta.vec(0, 0, 1), puerta.vec(1, 0, 0),
             "vidrio", ancho=gw, alto=gh, espesor=VIT["vidrio"])
-    return puerta
+    # cruz de listones 25 x 8 pegada al frente del vidrio, dentro del hueco
+    aw, ah = W - 2 * m, H - 2 * t
+    herraje(mu, "Parrilla %dx%d %dx%d" % (int(round(aw)), int(round(ah)), cols, filas),
+            puerta.mundo(m, t + ah, -prof), puerta.vec(0, 0, -1), puerta.vec(1, 0, 0),   # esquina de ARRIBA: ey local queda hacia abajo
+            "parrilla", ancho=aw, alto=ah, cols=cols, filas=filas, liston=VIT["parante"], esp=VIT["parante_esp"])
+    piezas = {"IZQ": mi, "DER": md, "ABAJO": ta, "ARRIBA": tr}
+    for p in piezas.values():
+        p.vitrina = dict(cols=cols, filas=filas, vidrio=(gw, gh))
+    AVISOS.append("%s / %s: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de %.0f x %.0f "
+                  "en ranura 12 x 5 (junquillos a mano); cruz de listones %gx%g (%dx%d) a mano. Piezas de madera: "
+                  "NO van a AutoCUT (lista aparte)." % (mu, nm, gw, gh, VIT["parante"], VIT["parante_esp"], cols, filas))
+    return piezas
+
+
+def puerta_vitrina(P, puerta, canto_bisagra, soporte, canto_frente_soporte, cara_soporte, cols=2, filas=3):
+    """Arma el marco en el lugar de `puerta`, lo agrega a P, cuelga las bisagras del
+    montante del lado `canto_bisagra` y pone la perilla en el otro."""
+    mk = vitrina_marco(puerta, cols, filas)
+    P += [mk["IZQ"], mk["DER"], mk["ABAJO"], mk["ARRIBA"]]
+    libre = "DER" if canto_bisagra == "IZQ" else "IZQ"
+    bisagras(mk[canto_bisagra], soporte, canto_bisagra, canto_frente_soporte, cara_soporte)
+    perilla_puerta(mk[libre], libre)
+    return mk
 
 
 # ================================================================ muebles ==
@@ -726,14 +795,13 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False):
     Op = add(Op, mul(n, 0.0))
     pu = Placa(nombre, "Puerta", s_b - s_a, zd1 - zd0, T, Op, ex_p, ey_p, VERDE, rol="PUERTA",
                cantos=(t, mul(t, -1), (0, 0, 1), (0, 0, -1)))
-    P.append(pu)
     # la puerta: su canto DER (x=W) es el de la punta A
     cara_m1 = m1.cara_hacia(add(PA, mul(t, L / 2)))
-    bisagras(pu, m1, "DER", "IZQ", cara_m1)
-    if cenefa:                                # alacena: vitrina con perilla
-        perilla_puerta(pu, "IZQ")
-        vitrina(pu, cols=2, filas=3)
-    else:                                     # bajo: barral vertical
+    if cenefa:                                # alacena: vitrina de madera (marco de 4), perilla
+        puerta_vitrina(P, pu, "DER", m1, "IZQ", cara_m1, cols=2, filas=3)
+    else:                                     # bajo: puerta lisa con barral vertical
+        P.append(pu)
+        bisagras(pu, m1, "DER", "IZQ", cara_m1)
         tirador_puerta(pu, "IZQ")
     # estantes regulables: pentagono retirado 82 de la diagonal, 1 del lateral, 31 del fondo
     off = W_M + 2.0
@@ -814,11 +882,12 @@ def led_piso(piso, nombre, diagonal_geo=None, frente_y=None):
                       "(la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).")
 
 
-def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2):
+def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2):
     """Alacena normal, estilo COCINA MLV: piso y techo por fuera (a todo el ancho),
     laterales entre ellos, cenefa abajo y cornisa arriba (las dos retiradas 18).
 
-    tipo 'vitrina': 2 puertas vitrina (cuadricula cols x 3) con perilla.
+    tipo 'vitrina': `puertas` (1 o 2) puertas vitrina de madera maciza (marco de 4
+    piezas con Minifix, vidrio, cruz cols x 3) con perilla.
     tipo 'rebatible': dos hojas rebatibles hacia arriba, la de arriba (un tercio)
     colgada del techo y la de abajo del estante fijo que separa las dos.
 
@@ -879,7 +948,7 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2):
     if tipo == "rebatible":
         # como la Alacena Spar: hoja REBATIBLE arriba (un tercio), colgada del techo con 2 bisagras
         # en su canto de arriba + pistones a gas; abajo 2 puertas comunes. Estante fijo en la junta.
-        HF = round((wb - wa) / 3.0)
+        HF = round((wb - wa) * 0.45)                    # proporcion del render: ~45 % arriba, 55 % abajo
         zj = wb - HF - JUNTA / 2.0                      # centro de la junta
         # el techo se rehace con X local = profundidad (frente en x = W) para que bisagras() pueda
         # usarlo de soporte; misma ranura de fondo, en coordenadas giradas
@@ -910,15 +979,17 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2):
         # un estante regulable en el compartimiento de abajo
         zs = inner0 + (zj - T / 2.0 - inner0) / 2.0
         estantes = [zs]
+    elif puertas == 1:
+        # una sola puerta vitrina, bisagras en el lateral derecho de quien mira (u0)
+        pu = pc("Puerta", ua, ub, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
+        puerta_vitrina(P, pu, "IZQ", ld, "DER", "A", cols=cols)
+        estantes = [inner0 + (inner1 - inner0) * (i + 1) / 3.0 for i in range(2)]
     else:
         um = (ua + ub) / 2.0
         pdr = pc("Puerta der", ua, um - JUNTA / 2, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
         piz = pc("Puerta izq", um + JUNTA / 2, ub, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
-        P += [pdr, piz]
-        bisagras(pdr, ld, "IZQ", "DER", "A")
-        bisagras(piz, li, "DER", "IZQ", "A")
-        perilla_puerta(pdr, "DER"); perilla_puerta(piz, "IZQ")
-        vitrina(pdr, cols=cols); vitrina(piz, cols=cols)
+        puerta_vitrina(P, pdr, "IZQ", ld, "DER", "A", cols=cols)
+        puerta_vitrina(P, piz, "DER", li, "IZQ", "A", cols=cols)
         estantes = [inner0 + (inner1 - inner0) * (i + 1) / 3.0 for i in range(2)]
     # estantes regulables
     for i, zs in enumerate(estantes):
@@ -977,7 +1048,7 @@ def armar():
     alacena_esquinero()
     alacena("A2 Alacena 600 rebatible", 800.0, 600.0, "X", tipo="rebatible")
     alacena("A3 Vitrina 800", 1400.0, 800.0, "X", cols=2)
-    alacena("A4 Vitrina 570", 800.0, 570.0, "Y", cols=1)      # puertas de 282: con 2 columnas los vidrios quedan de 68
+    alacena("A4 Vitrina 570", 800.0, 570.0, "Y", cols=2, puertas=1)   # una puerta de 567 (con 2 los travesanos quedan < 250)
     zocalos()
 
 

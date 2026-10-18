@@ -390,7 +390,7 @@ Pato pidió que COCINA-01 quede como un render de referencia (verde, vitrinas co
 tiradores de cobre, cornisa). Decisiones: distribución + estilo, mismas paredes (2190 / 1368),
 **sin lavavajillas**, vitrinas de marco de melamina + vidrio, tiradores perforados (barral 128,
 perilla). Todo en `recetas/cocina01.py`; `ArmarReceta` armó el documento `COCINA-01` vaciado
-(por MCP, `armar(nuevo=False)`), 103 placas, **103/103 receta = sólido**.
+(por MCP, `armar(nuevo=False)`), 114 placas, **114/114 receta = sólido**.
 
 Qué cambió:
 
@@ -404,14 +404,24 @@ Qué cambió:
   2 tornillos a la pared a mano. El esquinero lleva dos (`Travesano A` / `B`), uno por pared,
   con 3 en 1 al lateral de su punta y al techo. Antes no había nada para colgar: el fondo de 5
   no sirve y los colgadores regulables nunca se midieron (siguen como opción a futuro).
-- **Vitrina** (`vitrina(puerta, cols, filas)`): la puerta sigue siendo **una placa de 18**; se
-  le agregan `ventanas` (huecos pasantes) y un `rebaje` de 12 × 5 por la cara A para vidrio de
-  4. Marco: montantes 60 (la cazoleta a 22,5 y el ala de la bisagra entran), travesaños 70,
-  parantes 25. A3 (puertas 397) y esquinero (633) en 2×3; **A4 (puertas 282) en 1×3** porque
-  con 2 columnas los vidrios quedan de 68. `Placa` tiene `ventanas`/`rebajes`; van a
-  `modelo.json` y a `piezas_receta.json`. **Las hace el router y el `.nc` no se genera**:
-  la perforadora sólo ve cazoletas, tornillos y perilla. Cada vidrio sale como herraje
-  (`Vidrio 300x800`) para la lista.
+- **Vitrina** (`vitrina_marco()` / `puerta_vitrina()`), versión final del 18/10: a Pato no le
+  gustó la puerta de melamina ruteada ("no las voy a hacer de melamina"), así que la puerta es un
+  **marco de 4 piezas de madera maciza de 18** (montantes 60, travesaños 70) en el lugar de la
+  puerta de referencia (que no se agrega al mueble). Unión por esquina con **Minifix**
+  (`minifix_marco()`: perno Ø8 × 33 en la punta del travesaño, excéntrica Ø15 en su cara de
+  atrás a 33, Ø5 × 12 en el canto interior del montante) **+ tarugo Ø8 × 15** a 12 del borde
+  exterior. Vidrio de 4 en **ranura 12 × 5** por la cara de atrás (`glassSlot`, la hace la T11;
+  en los montantes sólo entre travesaños). Cruz de listones 25 × 8 (`Parrilla`, herraje
+  dibujado) pegada al frente del vidrio, a mano. Cazoletas y tornillos en el montante de las
+  bisagras, perilla en el otro. Material `Madera maciza`, textura `MADERA VERDE 18`: **no va a
+  AutoCUT**, sale en `lista_corte_MADERA_MACIZA.csv`. A4 pasó a **una puerta de 567** (con dos,
+  los travesaños quedaban de 162 < 250). Vidrios: 535×919, 2 × 299×919, 469×919.
+  (La versión anterior, una placa con ventanas y rebaje por router, queda en el código como
+  `Placa.ventana()/rebaje()` y el filtro `RANURA_ANCHO_MAX` de ExportarPiezas, por si sirve.)
+- **`ExportarPiezas` y la profundidad del Ø8 de canto**: la regla "un Ø8 de canto medido corto
+  se estira a 33 (desemboca en la excéntrica)" convertía los tarugos Ø8 × 15 en 33. Ahora hay
+  una segunda pasada que sólo estira si hay un agujero de cara ≥ Ø12 sobre el eje, entre lo
+  medido y lo marcado.
 - **A2 rebatible** (`alacena(..., tipo="rebatible")`), versión final del 18/10 (Pato: "que sea
   rebatible hacia arriba", y nada de 2 puertas): **dos hojas rebatibles hacia arriba**, la de
   arriba (un tercio, 597×346) colgada del techo y la de abajo (597×688) del estante fijo, cada
@@ -441,7 +451,7 @@ Dos cosas que se encontraron:
    de biblioteca igual). En una corrida aparte anda: `ArmarReceta.repintar()`. No se entendió
    por qué.
 
-Paquete regenerado en `fusion/EXPORT_COCINA-01/` (103 XML3; los archivos viejos que sobran en
+Paquete regenerado en `fusion/EXPORT_COCINA-01/` (114 XML3; los archivos viejos que sobran en
 `salida/_obsoleto_18-10/`). El documento de Fusion **no se guardó** desde el script: lo guarda
 Pato cuando lo vea.
 

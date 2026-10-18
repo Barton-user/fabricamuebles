@@ -1862,3 +1862,15 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - Pato: "nonono, convertiste de una puerta a 2 puertas, no me gusta" → A2 definitivo: DOS hojas
   rebatibles hacia arriba (597×346 arriba del techo, 597×688 abajo del estante fijo), 4 pistones,
   barral al pie de cada una. 103 placas, 103/103, paquete regenerado. Fusion re-armado, sin guardar.
+- Pato: "no me simpatiza cómo se resuelven las vitrinas, no las voy a hacer de melamina" → madera
+  maciza, 4 piezas unidas con **Minifix** (lo llamó "isofix"/"fast fill") + tarugo Ø8, 18 de
+  espesor, A4 con UNA puerta de 567, esquinero también vitrina. Implementado como `vitrina_marco()`;
+  vidrio en ranura 12×5, cruz de listones dibujada (`Parrilla`). 114 placas (98 melamina + 16
+  madera), 114/114 receta = sólido. Lista de madera aparte (`lista_corte_MADERA_MACIZA.csv`).
+- Bug encontrado y corregido en `ExportarPiezas`: todo Ø8 de canto se estiraba a 33 por el
+  atributo `PROF_CANTO_8`; los tarugos Ø8×15 salían de 33. Ahora sólo si desemboca en un Ø15.
+- La parrilla salió dos veces en el lugar equivocado (ey del marco de herraje apunta hacia abajo):
+  origen en la esquina de ARRIBA del hueco y dibujar en +y.
+- Disco: la Mac se llenó dos veces en la sesión (~12 GB/h); el reinicio libera ~15 GB. Fusion
+  perdió el re-armado sin guardar al reiniciar (se volvió a armar desde la receta, 1 minuto).
+  Documento COCINA-01 re-armado con la versión final, **sin guardar**.

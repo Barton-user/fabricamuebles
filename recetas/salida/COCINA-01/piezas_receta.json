@@ -4627,83 +4627,20 @@
   },
   {
    "codigo": "9992609290672",
-   "nombre": "COCINA-01_A1 Esquinero alacena_Puerta",
-   "ancho": 633.4,
+   "nombre": "COCINA-01_A1 Esquinero alacena_Puerta montante izq",
+   "ancho": 60.0,
    "alto": 1037.0,
    "espesor": 18.0,
-   "material": "Melamina",
+   "material": "Madera maciza",
    "mueble": "A1 Esquinero alacena",
-   "textura": "VERDE 18",
+   "textura": "MADERA VERDE 18",
    "veta": "VERTICAL",
    "cantidad": 1,
-   "canto_abajo": 1.0,
-   "canto_arriba": 1.0,
-   "canto_izq": 1.0,
-   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
    "agujeros": [
-    {
-     "x": 610.9,
-     "y": 100.0,
-     "diametro": 35.0,
-     "profundidad": 13.0,
-     "cara": "A"
-    },
-    {
-     "x": 604.9,
-     "y": 76.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 604.9,
-     "y": 124.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 610.9,
-     "y": 518.5,
-     "diametro": 35.0,
-     "profundidad": 13.0,
-     "cara": "A"
-    },
-    {
-     "x": 604.9,
-     "y": 494.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 604.9,
-     "y": 542.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 610.9,
-     "y": 937.0,
-     "diametro": 35.0,
-     "profundidad": 13.0,
-     "cara": "A"
-    },
-    {
-     "x": 604.9,
-     "y": 913.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 604.9,
-     "y": 961.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
     {
      "x": 40.0,
      "y": 50.0,
@@ -4712,61 +4649,350 @@
      "cara": "A"
     }
    ],
-   "agujeros_canto": [],
-   "ranuras": [],
-   "ranuras_canto": [],
-   "contorno": null,
-   "ventanas": [
+   "agujeros_canto": [
     {
-     "x1": 60.0,
-     "y1": 70.0,
-     "x2": 304.2,
-     "y2": 352.33
+     "x": 60.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "R"
     },
     {
-     "x1": 60.0,
-     "y1": 377.33,
-     "x2": 304.2,
-     "y2": 659.67
+     "x": 60.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
     },
     {
-     "x1": 60.0,
-     "y1": 684.67,
-     "x2": 304.2,
-     "y2": 967.0
+     "x": 60.0,
+     "y": 1002.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "R"
     },
     {
-     "x1": 329.2,
-     "y1": 70.0,
-     "x2": 573.4,
-     "y2": 352.33
-    },
-    {
-     "x1": 329.2,
-     "y1": 377.33,
-     "x2": 573.4,
-     "y2": 659.67
-    },
-    {
-     "x1": 329.2,
-     "y1": 684.67,
-     "x2": 573.4,
-     "y2": 967.0
+     "x": 60.0,
+     "y": 1025.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
     }
    ],
-   "rebajes": [
+   "ranuras": [
     {
-     "x1": 48.0,
+     "x1": 54.0,
      "y1": 58.0,
-     "x2": 585.4,
+     "x2": 54.0,
      "y2": 979.0,
-     "prof": 5.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
      "cara": "A"
     }
-   ]
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
   },
   {
    "codigo": "9992609290689",
+   "nombre": "COCINA-01_A1 Esquinero alacena_Puerta montante der",
+   "ancho": 60.0,
+   "alto": 1037.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A1 Esquinero alacena",
+   "textura": "MADERA VERDE 18",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 37.5,
+     "y": 100.0,
+     "diametro": 35.0,
+     "profundidad": 13.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 76.0,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 124.0,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 37.5,
+     "y": 518.5,
+     "diametro": 35.0,
+     "profundidad": 13.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 494.5,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 542.5,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 37.5,
+     "y": 937.0,
+     "diametro": 35.0,
+     "profundidad": 13.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 913.0,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 961.0,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 1002.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 1025.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 6.0,
+     "y1": 58.0,
+     "x2": 6.0,
+     "y2": 979.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290696",
+   "nombre": "COCINA-01_A1 Esquinero alacena_Puerta travesano abajo",
+   "ancho": 513.4,
+   "alto": 70.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A1 Esquinero alacena",
+   "textura": "MADERA VERDE 18",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 480.4,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 513.4,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "R"
+    },
+    {
+     "x": 513.4,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 0.0,
+     "y1": 64.0,
+     "x2": 513.4,
+     "y2": 64.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290702",
+   "nombre": "COCINA-01_A1 Esquinero alacena_Puerta travesano arriba",
+   "ancho": 513.4,
+   "alto": 70.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A1 Esquinero alacena",
+   "textura": "MADERA VERDE 18",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 480.4,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 58.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 513.4,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "R"
+    },
+    {
+     "x": 513.4,
+     "y": 58.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 0.0,
+     "y1": 6.0,
+     "x2": 513.4,
+     "y2": 6.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290719",
    "nombre": "COCINA-01_A1 Esquinero alacena_Estante 1",
    "ancho": 750.0,
    "alto": 750.0,
@@ -4815,7 +5041,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290696",
+   "codigo": "9992609290726",
    "nombre": "COCINA-01_A1 Esquinero alacena_Estante 2",
    "ancho": 750.0,
    "alto": 750.0,
@@ -4864,7 +5090,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290702",
+   "codigo": "9992609290733",
    "nombre": "COCINA-01_A1 Esquinero alacena_Travesano A",
    "ancho": 751.0,
    "alto": 80.0,
@@ -4934,7 +5160,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290719",
+   "codigo": "9992609290740",
    "nombre": "COCINA-01_A1 Esquinero alacena_Travesano B",
    "ancho": 751.0,
    "alto": 80.0,
@@ -5004,7 +5230,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290726",
+   "codigo": "9992609290757",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Piso",
    "ancho": 600.0,
    "alto": 332.0,
@@ -5075,7 +5301,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290733",
+   "codigo": "9992609290764",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Techo",
    "ancho": 332.0,
    "alto": 600.0,
@@ -5165,7 +5391,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290740",
+   "codigo": "9992609290771",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Lateral der",
    "ancho": 332.0,
    "alto": 1004.0,
@@ -5217,84 +5443,84 @@
     },
     {
      "x": 85.5,
-     "y": 664.0,
+     "y": 543.0,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 277.5,
-     "y": 664.0,
+     "y": 543.0,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 68.0,
-     "y": 260.0,
+     "y": 199.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 295.0,
-     "y": 260.0,
+     "y": 199.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 68.0,
-     "y": 292.0,
+     "y": 231.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 295.0,
-     "y": 292.0,
+     "y": 231.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 68.0,
-     "y": 324.0,
+     "y": 263.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 295.0,
-     "y": 324.0,
+     "y": 263.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 68.0,
-     "y": 356.0,
+     "y": 295.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 295.0,
-     "y": 356.0,
+     "y": 295.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 68.0,
-     "y": 388.0,
+     "y": 327.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 295.0,
-     "y": 388.0,
+     "y": 327.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
@@ -5351,7 +5577,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290757",
+   "codigo": "9992609290788",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Lateral izq",
    "ancho": 332.0,
    "alto": 1004.0,
@@ -5403,84 +5629,84 @@
     },
     {
      "x": 54.5,
-     "y": 664.0,
+     "y": 543.0,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 246.5,
-     "y": 664.0,
+     "y": 543.0,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 264.0,
-     "y": 260.0,
+     "y": 199.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 37.0,
-     "y": 260.0,
+     "y": 199.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 264.0,
-     "y": 292.0,
+     "y": 231.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 37.0,
-     "y": 292.0,
+     "y": 231.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 264.0,
-     "y": 324.0,
+     "y": 263.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 37.0,
-     "y": 324.0,
+     "y": 263.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 264.0,
-     "y": 356.0,
+     "y": 295.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 37.0,
-     "y": 356.0,
+     "y": 295.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 264.0,
-     "y": 388.0,
+     "y": 327.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
     },
     {
      "x": 37.0,
-     "y": 388.0,
+     "y": 327.5,
      "diametro": 5.0,
      "profundidad": 12.0,
      "cara": "A"
@@ -5537,7 +5763,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290764",
+   "codigo": "9992609290795",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Fondo",
    "ancho": 574.0,
    "alto": 1014.0,
@@ -5560,7 +5786,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290771",
+   "codigo": "9992609290801",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Travesano trasero",
    "ancho": 564.0,
    "alto": 80.0,
@@ -5615,7 +5841,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290788",
+   "codigo": "9992609290818",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante fijo",
    "ancho": 301.0,
    "alto": 564.0,
@@ -5728,9 +5954,9 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290795",
+   "codigo": "9992609290825",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible arriba",
-   "ancho": 346.0,
+   "ancho": 467.0,
    "alto": 597.0,
    "espesor": 18.0,
    "material": "Melamina",
@@ -5786,14 +6012,14 @@
      "cara": "A"
     },
     {
-     "x": 296.0,
+     "x": 417.0,
      "y": 234.5,
      "diametro": 5.0,
      "profundidad": 18.0,
      "cara": "A"
     },
     {
-     "x": 296.0,
+     "x": 417.0,
      "y": 362.5,
      "diametro": 5.0,
      "profundidad": 18.0,
@@ -5808,9 +6034,9 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290801",
+   "codigo": "9992609290832",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible abajo",
-   "ancho": 688.0,
+   "ancho": 567.0,
    "alto": 597.0,
    "espesor": 18.0,
    "material": "Melamina",
@@ -5866,14 +6092,14 @@
      "cara": "A"
     },
     {
-     "x": 638.0,
+     "x": 517.0,
      "y": 234.5,
      "diametro": 5.0,
      "profundidad": 18.0,
      "cara": "A"
     },
     {
-     "x": 638.0,
+     "x": 517.0,
      "y": 362.5,
      "diametro": 5.0,
      "profundidad": 18.0,
@@ -5888,7 +6114,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290818",
+   "codigo": "9992609290849",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante 1",
    "ancho": 562.0,
    "alto": 281.0,
@@ -5911,7 +6137,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290825",
+   "codigo": "9992609290856",
    "nombre": "COCINA-01_A3 Vitrina 800_Piso",
    "ancho": 800.0,
    "alto": 332.0,
@@ -5982,7 +6208,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290832",
+   "codigo": "9992609290863",
    "nombre": "COCINA-01_A3 Vitrina 800_Techo",
    "ancho": 800.0,
    "alto": 332.0,
@@ -6044,7 +6270,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290849",
+   "codigo": "9992609290870",
    "nombre": "COCINA-01_A3 Vitrina 800_Lateral der",
    "ancho": 332.0,
    "alto": 1004.0,
@@ -6328,7 +6554,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290856",
+   "codigo": "9992609290887",
    "nombre": "COCINA-01_A3 Vitrina 800_Lateral izq",
    "ancho": 332.0,
    "alto": 1004.0,
@@ -6612,7 +6838,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290863",
+   "codigo": "9992609290894",
    "nombre": "COCINA-01_A3 Vitrina 800_Fondo",
    "ancho": 774.0,
    "alto": 1014.0,
@@ -6635,7 +6861,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290870",
+   "codigo": "9992609290900",
    "nombre": "COCINA-01_A3 Vitrina 800_Travesano trasero",
    "ancho": 764.0,
    "alto": 80.0,
@@ -6690,20 +6916,20 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290887",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der",
-   "ancho": 397.0,
+   "codigo": "9992609290917",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der montante izq",
+   "ancho": 60.0,
    "alto": 1037.0,
    "espesor": 18.0,
-   "material": "Melamina",
+   "material": "Madera maciza",
    "mueble": "A3 Vitrina 800",
-   "textura": "VERDE 18",
+   "textura": "MADERA VERDE 18",
    "veta": "VERTICAL",
    "cantidad": 1,
-   "canto_abajo": 1.0,
-   "canto_arriba": 1.0,
-   "canto_izq": 1.0,
-   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
    "agujeros": [
     {
      "x": 22.5,
@@ -6767,147 +6993,310 @@
      "diametro": 5.0,
      "profundidad": 3.0,
      "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 60.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "R"
     },
     {
-     "x": 357.0,
+     "x": 60.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    },
+    {
+     "x": 60.0,
+     "y": 1002.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "R"
+    },
+    {
+     "x": 60.0,
+     "y": 1025.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 54.0,
+     "y1": 58.0,
+     "x2": 54.0,
+     "y2": 979.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290924",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der montante der",
+   "ancho": 60.0,
+   "alto": 1037.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A3 Vitrina 800",
+   "textura": "MADERA VERDE 18",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 20.0,
      "y": 50.0,
      "diametro": 5.0,
      "profundidad": 18.0,
      "cara": "A"
     }
    ],
-   "agujeros_canto": [],
-   "ranuras": [],
-   "ranuras_canto": [],
-   "contorno": null,
-   "ventanas": [
+   "agujeros_canto": [
     {
-     "x1": 60.0,
-     "y1": 70.0,
-     "x2": 186.0,
-     "y2": 352.33
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "L"
     },
     {
-     "x1": 60.0,
-     "y1": 377.33,
-     "x2": 186.0,
-     "y2": 659.67
+     "x": 0.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
     },
     {
-     "x1": 60.0,
-     "y1": 684.67,
-     "x2": 186.0,
-     "y2": 967.0
+     "x": 0.0,
+     "y": 1002.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "L"
     },
     {
-     "x1": 211.0,
-     "y1": 70.0,
-     "x2": 337.0,
-     "y2": 352.33
-    },
-    {
-     "x1": 211.0,
-     "y1": 377.33,
-     "x2": 337.0,
-     "y2": 659.67
-    },
-    {
-     "x1": 211.0,
-     "y1": 684.67,
-     "x2": 337.0,
-     "y2": 967.0
+     "x": 0.0,
+     "y": 1025.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
     }
    ],
-   "rebajes": [
+   "ranuras": [
     {
-     "x1": 48.0,
+     "x1": 6.0,
      "y1": 58.0,
-     "x2": 349.0,
+     "x2": 6.0,
      "y2": 979.0,
-     "prof": 5.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
      "cara": "A"
     }
-   ]
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
   },
   {
-   "codigo": "9992609290894",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq",
-   "ancho": 397.0,
-   "alto": 1037.0,
+   "codigo": "9992609290931",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der travesano abajo",
+   "ancho": 277.0,
+   "alto": 70.0,
    "espesor": 18.0,
-   "material": "Melamina",
+   "material": "Madera maciza",
    "mueble": "A3 Vitrina 800",
-   "textura": "VERDE 18",
-   "veta": "VERTICAL",
+   "textura": "MADERA VERDE 18",
+   "veta": "HORIZONTAL",
    "cantidad": 1,
-   "canto_abajo": 1.0,
-   "canto_arriba": 1.0,
-   "canto_izq": 1.0,
-   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
    "agujeros": [
     {
-     "x": 374.5,
-     "y": 100.0,
-     "diametro": 35.0,
-     "profundidad": 13.0,
+     "x": 33.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
      "cara": "A"
     },
     {
-     "x": 368.5,
-     "y": 76.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
+     "x": 244.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 277.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "R"
+    },
+    {
+     "x": 277.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 0.0,
+     "y1": 64.0,
+     "x2": 277.0,
+     "y2": 64.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290948",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der travesano arriba",
+   "ancho": 277.0,
+   "alto": 70.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A3 Vitrina 800",
+   "textura": "MADERA VERDE 18",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
      "cara": "A"
     },
     {
-     "x": 368.5,
-     "y": 124.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
+     "x": 244.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
      "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "L"
     },
     {
-     "x": 374.5,
-     "y": 518.5,
-     "diametro": 35.0,
-     "profundidad": 13.0,
-     "cara": "A"
+     "x": 0.0,
+     "y": 58.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
     },
     {
-     "x": 368.5,
-     "y": 494.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
+     "x": 277.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "R"
     },
     {
-     "x": 368.5,
-     "y": 542.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
+     "x": 277.0,
+     "y": 58.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
     {
-     "x": 374.5,
-     "y": 937.0,
-     "diametro": 35.0,
-     "profundidad": 13.0,
+     "x1": 0.0,
+     "y1": 6.0,
+     "x2": 277.0,
+     "y2": 6.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
      "cara": "A"
-    },
-    {
-     "x": 368.5,
-     "y": 913.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 368.5,
-     "y": 961.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290955",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq montante izq",
+   "ancho": 60.0,
+   "alto": 1037.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A3 Vitrina 800",
+   "textura": "MADERA VERDE 18",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
     {
      "x": 40.0,
      "y": 50.0,
@@ -6916,61 +7305,350 @@
      "cara": "A"
     }
    ],
-   "agujeros_canto": [],
-   "ranuras": [],
-   "ranuras_canto": [],
-   "contorno": null,
-   "ventanas": [
+   "agujeros_canto": [
     {
-     "x1": 60.0,
-     "y1": 70.0,
-     "x2": 186.0,
-     "y2": 352.33
+     "x": 60.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "R"
     },
     {
-     "x1": 60.0,
-     "y1": 377.33,
-     "x2": 186.0,
-     "y2": 659.67
+     "x": 60.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
     },
     {
-     "x1": 60.0,
-     "y1": 684.67,
-     "x2": 186.0,
-     "y2": 967.0
+     "x": 60.0,
+     "y": 1002.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "R"
     },
     {
-     "x1": 211.0,
-     "y1": 70.0,
-     "x2": 337.0,
-     "y2": 352.33
-    },
-    {
-     "x1": 211.0,
-     "y1": 377.33,
-     "x2": 337.0,
-     "y2": 659.67
-    },
-    {
-     "x1": 211.0,
-     "y1": 684.67,
-     "x2": 337.0,
-     "y2": 967.0
+     "x": 60.0,
+     "y": 1025.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
     }
    ],
-   "rebajes": [
+   "ranuras": [
     {
-     "x1": 48.0,
+     "x1": 54.0,
      "y1": 58.0,
-     "x2": 349.0,
+     "x2": 54.0,
      "y2": 979.0,
-     "prof": 5.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
      "cara": "A"
     }
-   ]
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
   },
   {
-   "codigo": "9992609290900",
+   "codigo": "9992609290962",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq montante der",
+   "ancho": 60.0,
+   "alto": 1037.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A3 Vitrina 800",
+   "textura": "MADERA VERDE 18",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 37.5,
+     "y": 100.0,
+     "diametro": 35.0,
+     "profundidad": 13.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 76.0,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 124.0,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 37.5,
+     "y": 518.5,
+     "diametro": 35.0,
+     "profundidad": 13.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 494.5,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 542.5,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 37.5,
+     "y": 937.0,
+     "diametro": 35.0,
+     "profundidad": 13.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 913.0,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    },
+    {
+     "x": 31.5,
+     "y": 961.0,
+     "diametro": 5.0,
+     "profundidad": 3.0,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 1002.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 1025.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 6.0,
+     "y1": 58.0,
+     "x2": 6.0,
+     "y2": 979.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290979",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq travesano abajo",
+   "ancho": 277.0,
+   "alto": 70.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A3 Vitrina 800",
+   "textura": "MADERA VERDE 18",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 244.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 277.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "R"
+    },
+    {
+     "x": 277.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 0.0,
+     "y1": 64.0,
+     "x2": 277.0,
+     "y2": 64.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290986",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq travesano arriba",
+   "ancho": 277.0,
+   "alto": 70.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A3 Vitrina 800",
+   "textura": "MADERA VERDE 18",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 244.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 58.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 277.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "R"
+    },
+    {
+     "x": 277.0,
+     "y": 58.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 0.0,
+     "y1": 6.0,
+     "x2": 277.0,
+     "y2": 6.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609290993",
    "nombre": "COCINA-01_A3 Vitrina 800_Estante 1",
    "ancho": 762.0,
    "alto": 281.0,
@@ -6993,7 +7671,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290917",
+   "codigo": "9992609291006",
    "nombre": "COCINA-01_A3 Vitrina 800_Estante 2",
    "ancho": 762.0,
    "alto": 281.0,
@@ -7016,7 +7694,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290924",
+   "codigo": "9992609291013",
    "nombre": "COCINA-01_A4 Vitrina 570_Piso",
    "ancho": 570.0,
    "alto": 332.0,
@@ -7087,7 +7765,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290931",
+   "codigo": "9992609291020",
    "nombre": "COCINA-01_A4 Vitrina 570_Techo",
    "ancho": 570.0,
    "alto": 332.0,
@@ -7149,7 +7827,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290948",
+   "codigo": "9992609291037",
    "nombre": "COCINA-01_A4 Vitrina 570_Lateral der",
    "ancho": 332.0,
    "alto": 1004.0,
@@ -7433,7 +8111,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290955",
+   "codigo": "9992609291044",
    "nombre": "COCINA-01_A4 Vitrina 570_Lateral izq",
    "ancho": 332.0,
    "alto": 1004.0,
@@ -7481,48 +8159,6 @@
      "y": 964.0,
      "diametro": 5.0,
      "profundidad": 12.0,
-     "cara": "A"
-    },
-    {
-     "x": 37.0,
-     "y": 67.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 37.0,
-     "y": 99.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 37.0,
-     "y": 486.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 37.0,
-     "y": 518.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 37.0,
-     "y": 904.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 37.0,
-     "y": 936.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
      "cara": "A"
     },
     {
@@ -7717,7 +8353,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290962",
+   "codigo": "9992609291051",
    "nombre": "COCINA-01_A4 Vitrina 570_Fondo",
    "ancho": 544.0,
    "alto": 1014.0,
@@ -7740,7 +8376,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290979",
+   "codigo": "9992609291068",
    "nombre": "COCINA-01_A4 Vitrina 570_Travesano trasero",
    "ancho": 534.0,
    "alto": 80.0,
@@ -7795,20 +8431,20 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609290986",
-   "nombre": "COCINA-01_A4 Vitrina 570_Puerta der",
-   "ancho": 282.0,
+   "codigo": "9992609291075",
+   "nombre": "COCINA-01_A4 Vitrina 570_Puerta montante izq",
+   "ancho": 60.0,
    "alto": 1037.0,
    "espesor": 18.0,
-   "material": "Melamina",
+   "material": "Madera maciza",
    "mueble": "A4 Vitrina 570",
-   "textura": "VERDE 18",
+   "textura": "MADERA VERDE 18",
    "veta": "VERTICAL",
    "cantidad": 1,
-   "canto_abajo": 1.0,
-   "canto_arriba": 1.0,
-   "canto_izq": 1.0,
-   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
    "agujeros": [
     {
      "x": 22.5,
@@ -7872,174 +8508,296 @@
      "diametro": 5.0,
      "profundidad": 3.0,
      "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 60.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "R"
     },
     {
-     "x": 242.0,
-     "y": 50.0,
+     "x": 60.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    },
+    {
+     "x": 60.0,
+     "y": 1002.0,
+     "z": 9.0,
      "diametro": 5.0,
-     "profundidad": 18.0,
+     "profundidad": 12.0,
+     "canto": "R"
+    },
+    {
+     "x": 60.0,
+     "y": 1025.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 54.0,
+     "y1": 58.0,
+     "x2": 54.0,
+     "y2": 979.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
      "cara": "A"
     }
    ],
-   "agujeros_canto": [],
-   "ranuras": [],
    "ranuras_canto": [],
    "contorno": null,
-   "ventanas": [
-    {
-     "x1": 60.0,
-     "y1": 70.0,
-     "x2": 222.0,
-     "y2": 352.33
-    },
-    {
-     "x1": 60.0,
-     "y1": 377.33,
-     "x2": 222.0,
-     "y2": 659.67
-    },
-    {
-     "x1": 60.0,
-     "y1": 684.67,
-     "x2": 222.0,
-     "y2": 967.0
-    }
-   ],
-   "rebajes": [
-    {
-     "x1": 48.0,
-     "y1": 58.0,
-     "x2": 234.0,
-     "y2": 979.0,
-     "prof": 5.0,
-     "cara": "A"
-    }
-   ]
+   "ventanas": [],
+   "rebajes": []
   },
   {
-   "codigo": "9992609290993",
-   "nombre": "COCINA-01_A4 Vitrina 570_Puerta izq",
-   "ancho": 282.0,
+   "codigo": "9992609291082",
+   "nombre": "COCINA-01_A4 Vitrina 570_Puerta montante der",
+   "ancho": 60.0,
    "alto": 1037.0,
    "espesor": 18.0,
-   "material": "Melamina",
+   "material": "Madera maciza",
    "mueble": "A4 Vitrina 570",
-   "textura": "VERDE 18",
+   "textura": "MADERA VERDE 18",
    "veta": "VERTICAL",
    "cantidad": 1,
-   "canto_abajo": 1.0,
-   "canto_arriba": 1.0,
-   "canto_izq": 1.0,
-   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
    "agujeros": [
     {
-     "x": 259.5,
-     "y": 100.0,
-     "diametro": 35.0,
-     "profundidad": 13.0,
-     "cara": "A"
-    },
-    {
-     "x": 253.5,
-     "y": 76.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 253.5,
-     "y": 124.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 259.5,
-     "y": 518.5,
-     "diametro": 35.0,
-     "profundidad": 13.0,
-     "cara": "A"
-    },
-    {
-     "x": 253.5,
-     "y": 494.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 253.5,
-     "y": 542.5,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 259.5,
-     "y": 937.0,
-     "diametro": 35.0,
-     "profundidad": 13.0,
-     "cara": "A"
-    },
-    {
-     "x": 253.5,
-     "y": 913.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 253.5,
-     "y": 961.0,
-     "diametro": 5.0,
-     "profundidad": 3.0,
-     "cara": "A"
-    },
-    {
-     "x": 40.0,
+     "x": 20.0,
      "y": 50.0,
      "diametro": 5.0,
      "profundidad": 18.0,
      "cara": "A"
     }
    ],
-   "agujeros_canto": [],
-   "ranuras": [],
-   "ranuras_canto": [],
-   "contorno": null,
-   "ventanas": [
+   "agujeros_canto": [
     {
-     "x1": 60.0,
-     "y1": 70.0,
-     "x2": 222.0,
-     "y2": 352.33
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "L"
     },
     {
-     "x1": 60.0,
-     "y1": 377.33,
-     "x2": 222.0,
-     "y2": 659.67
+     "x": 0.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
     },
     {
-     "x1": 60.0,
-     "y1": 684.67,
-     "x2": 222.0,
-     "y2": 967.0
+     "x": 0.0,
+     "y": 1002.0,
+     "z": 9.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 1025.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
     }
    ],
-   "rebajes": [
+   "ranuras": [
     {
-     "x1": 48.0,
+     "x1": 6.0,
      "y1": 58.0,
-     "x2": 234.0,
+     "x2": 6.0,
      "y2": 979.0,
-     "prof": 5.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
      "cara": "A"
     }
-   ]
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
   },
   {
-   "codigo": "9992609291006",
+   "codigo": "9992609291099",
+   "nombre": "COCINA-01_A4 Vitrina 570_Puerta travesano abajo",
+   "ancho": 447.0,
+   "alto": 70.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A4 Vitrina 570",
+   "textura": "MADERA VERDE 18",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 414.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 447.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "R"
+    },
+    {
+     "x": 447.0,
+     "y": 12.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 0.0,
+     "y1": 64.0,
+     "x2": 447.0,
+     "y2": 64.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609291105",
+   "nombre": "COCINA-01_A4 Vitrina 570_Puerta travesano arriba",
+   "ancho": 447.0,
+   "alto": 70.0,
+   "espesor": 18.0,
+   "material": "Madera maciza",
+   "mueble": "A4 Vitrina 570",
+   "textura": "MADERA VERDE 18",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 414.0,
+     "y": 35.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "L"
+    },
+    {
+     "x": 0.0,
+     "y": 58.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "L"
+    },
+    {
+     "x": 447.0,
+     "y": 35.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "R"
+    },
+    {
+     "x": 447.0,
+     "y": 58.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 15.0,
+     "canto": "R"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 0.0,
+     "y1": 6.0,
+     "x2": 447.0,
+     "y2": 6.0,
+     "ancho": 12.0,
+     "profundidad": 5.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": null,
+   "ventanas": [],
+   "rebajes": []
+  },
+  {
+   "codigo": "9992609291112",
    "nombre": "COCINA-01_A4 Vitrina 570_Estante 1",
    "ancho": 532.0,
    "alto": 281.0,
@@ -8062,7 +8820,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609291013",
+   "codigo": "9992609291129",
    "nombre": "COCINA-01_A4 Vitrina 570_Estante 2",
    "ancho": 532.0,
    "alto": 281.0,
@@ -8085,7 +8843,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609291020",
+   "codigo": "9992609291136",
    "nombre": "COCINA-01_Z Zocalos_Zocalo largo",
    "ancho": 1407.0,
    "alto": 99.0,
@@ -8108,7 +8866,7 @@
    "rebajes": []
   },
   {
-   "codigo": "9992609291037",
+   "codigo": "9992609291143",
    "nombre": "COCINA-01_Z Zocalos_Zocalo diagonal",
    "ancho": 367.7,
    "alto": 99.0,

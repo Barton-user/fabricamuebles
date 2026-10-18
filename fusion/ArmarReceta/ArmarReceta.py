@@ -186,6 +186,25 @@ def _forma_vidrio(a):
     return f
 
 
+def _forma_parrilla(a):
+    """Cruz de listones pegada al frente del vidrio: origen en la esquina del hueco,
+    Z hacia el frente; cols-1 listones verticales y filas-1 horizontales."""
+    def f(tbm):
+        A = ADR()
+        w, h, L, e = a["ancho"], a["alto"], a["liston"], a["esp"]
+        partes = []
+        # el marco (ez hacia el frente, ex a lo ancho) tiene ey hacia ABAJO: origen en la
+        # esquina de arriba del hueco y se dibuja en +y
+        for i in range(1, a["cols"]):
+            x = w * i / a["cols"]
+            partes.append(A.caja(tbm, x - L / 2.0, x + L / 2.0, 0.0, h, 0.0, e))
+        for j in range(1, a["filas"]):
+            y = h * j / a["filas"]
+            partes.append(A.caja(tbm, 0.0, w, y - L / 2.0, y + L / 2.0, 0.0, e))
+        return partes
+    return f
+
+
 def forma(h):
     A = ADR()
     PH = A._ph()
@@ -213,6 +232,8 @@ def forma(h):
         return _forma_perilla
     if f == "vidrio":
         return _forma_vidrio(a)
+    if f == "parrilla":
+        return _forma_parrilla(a)
     raise ValueError("forma desconocida: %s" % f)
 
 
@@ -322,7 +343,7 @@ def armar(ruta_modelo, nuevo=True, herrajes=True, log_print=True):
         for h in modelo["herrajes"]:
             try:
                 ap = {"led": ap_led, "tirador": ap_cobre, "perilla": ap_cobre,
-                      "vidrio": ap_vidrio}.get(h["forma"], ap_metal)
+                      "vidrio": ap_vidrio, "parrilla": _apariencia(app, design, "VERDE")}.get(h["forma"], ap_metal)
                 m = A.marco(h["origen"], h["ez"], h["ex"])
                 A.herraje(design, occs[h["mueble"]] if h["mueble"] in occs else _occ_extra(root, occs, h["mueble"]),
                           h["nombre"], m, forma(h), ap)
@@ -352,7 +373,8 @@ def repintar():
     vidrio = A._de_biblioteca(app, design, "Glass (Clear)")
     n = 0
     for comp in design.allComponents:
-        ap = {"Tirador": cobre, "Perilla": cobre, "Vidrio": vidrio}.get(comp.name.split()[0])
+        ap = {"Tirador": cobre, "Perilla": cobre, "Vidrio": vidrio,
+              "Parrilla": _apariencia(app, design, "VERDE")}.get(comp.name.split()[0])
         if ap is None:
             continue
         for b in comp.bRepBodies:

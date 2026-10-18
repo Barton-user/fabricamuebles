@@ -304,9 +304,34 @@ def leer_agujeros(body, marco):
                     break
             horizontales.append({"x": round(entrada[0], 2), "y": round(entrada[1], 2),
                                  "z": round(z, 2), "diametro": round(diam, 2),
-                                 "profundidad": round(prof, 2), "canto": canto})
+                                 "profundidad": round(prof, 2), "canto": canto,
+                                 "_medido": round(alto, 2)})
             log("  agujero de canto  O%.1f prof %.1f  canto %s  en (%.1f, %.1f) z=%.1f"
                 % (diam, prof, canto, entrada[0], entrada[1], z))
+    # Segunda pasada (18/10/2026): la profundidad "de herraje/tabla" solo vale si el agujero
+    # de canto realmente desemboca en un agujero de cara (la excentrica O15 del 3 en 1). Un
+    # tarugo O8 x 15 en la misma pieza que un perno O8 x 33 se leia como 33: ahora se mira si
+    # hay un agujero vertical grande (>= 12) sobre el eje, entre lo medido y lo marcado.
+    for h in horizontales:
+        medido = h.pop("_medido")
+        if abs(h["profundidad"] - medido) <= 0.1:
+            continue
+        dx, dy = {"L": (1, 0), "R": (-1, 0), "D": (0, 1), "U": (0, -1)}[h["canto"]]
+        desemboca = False
+        for v in verticales:
+            if v["diametro"] < 12.0:
+                continue
+            a_lo_largo = (v["x"] - h["x"]) * dx + (v["y"] - h["y"]) * dy
+            perp = abs((v["x"] - h["x"]) * dy - (v["y"] - h["y"]) * dx)
+            if perp <= v["diametro"] / 2.0 and medido - 1.0 <= a_lo_largo + v["diametro"] / 2.0 and \
+                    a_lo_largo - v["diametro"] / 2.0 <= h["profundidad"] + 1.0:
+                desemboca = True
+                break
+        if not desemboca:
+            log("  (O%.1f en (%.1f, %.1f) canto %s: no desemboca en ningun agujero de cara; "
+                "se deja lo medido, %.1f, en vez de %.1f)"
+                % (h["diametro"], h["x"], h["y"], h["canto"], medido, h["profundidad"]))
+            h["profundidad"] = medido
     return verticales, horizontales
 
 
