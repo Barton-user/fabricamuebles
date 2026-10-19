@@ -1909,3 +1909,5 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   dos esquineros, fondos y travesaños desde después de la columna, pata corrida, mesada recortada.
   ArmarReceta: semiplanos sólo para lados diagonales + cajas para escotaduras (chanfle y rincón juntos).
   Columna y viga ahora en REFERENCIA. 108/108, paquete regenerado, Fusion re-armado sin guardar.
+- Pato guardó el documento de Fusion `COCINA-01` (proyecto `cocina`) con la versión final: **es la cocina
+  de JUJUY**. Queda anotado en CONTEXTO §2 y §5 (pendiente 11) y en el LEEME del paquete. Fin de la sesión.

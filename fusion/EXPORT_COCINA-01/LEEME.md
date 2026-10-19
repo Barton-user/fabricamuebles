@@ -1,4 +1,6 @@
-# COCINA-01 — paquete de producción (pedido de prueba)
+# COCINA-01 — la cocina de JUJUY — paquete de producción
+
+Fusion: documento **`COCINA-01`**, proyecto y carpeta **`cocina`** (guardado 18/10/2026 con la versión final).
 
 Generado el 29/09/2026 desde `recetas/cocina01.py` → Fusion `COCINA-01` (proyecto cocina) →
 `ExportarPiezas` → `etapa2/`. Basado en las medidas del modelo de render `COCINA`.
