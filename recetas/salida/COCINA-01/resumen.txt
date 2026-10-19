@@ -128,6 +128,7 @@ Z Zocalos                    2 placas
 
 TOTAL 114 placas
 HERRAJES:
+    Bacha Tawak Delta Simple 55     1
     Bisagra O35                    24
     Corredera bolas 450             8
     Excentrica O15                120
@@ -142,6 +143,7 @@ HERRAJES:
     Tirador barral 128             10
     Vidrio                          4
 
+AVISO: B2 Bajo pileta 600: bacha Bacha Tawak Delta Simple 55 (550 x 460 x 220, sobre mesada) centrada en X=1100, Y=300; calado de mesada SUPUESTO 530 x 440: confirmar con la plantilla de la bacha antes de cortar.
 AVISO: A1 Esquinero alacena / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 535 x 919 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).
 AVISO: A1 Esquinero alacena: se cuelga por los dos travesanos traseros (18 x 80) con 2 tornillos a la pared cada uno, a mano.
 AVISO: A1 Esquinero alacena: la tira LED va PEGADA bajo el piso, sin ranura (la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).

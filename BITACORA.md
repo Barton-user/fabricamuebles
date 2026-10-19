@@ -1874,3 +1874,8 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - Disco: la Mac se llenó dos veces en la sesión (~12 GB/h); el reinicio libera ~15 GB. Fusion
   perdió el re-armado sin guardar al reiniciar (se volvió a armar desde la receta, 1 minuto).
   Documento COCINA-01 re-armado con la versión final, **sin guardar**.
+- Bacha elegida por Pato: Tawak Delta Simple 55 (ML MLA80311064; 55×46×22, sobre mesada; la ficha
+  dice 3 mm y la descripción 4 mm de chapa). Modelada como herraje del B2 (lista de compra) y calado
+  530×440 en la mesada de referencia, a confirmar con la plantilla. Cosa aparte: el disco lleno era
+  Cowork (`vm_bundles` 8,2 GB + `local-agent-mode-sessions` 2,3 GB en Application Support/Claude),
+  no Fusion. Fusion re-armado, sin guardar.

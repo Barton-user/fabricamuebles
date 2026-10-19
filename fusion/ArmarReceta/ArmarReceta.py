@@ -186,6 +186,27 @@ def _forma_vidrio(a):
     return f
 
 
+def _forma_bacha(a):
+    """Bacha sobre mesada: origen en el centro, sobre la cara de la mesada, Z arriba.
+    Pestana apoyada sobre la mesada, cuba por el calado, agujero del desague."""
+    def f(tbm):
+        A = ADR()
+        L, W, P = a["largo"], a["ancho"], a["prof"]
+        cL, cW = a["corte"]
+        e = a["pestana"]
+        pest = A.caja(tbm, -L / 2, L / 2, -W / 2, W / 2, 0.0, e)
+        cuba = A.caja(tbm, -cL / 2, cL / 2, -cW / 2, cW / 2, -P, 0.0)
+        hueco = A.caja(tbm, -cL / 2 + 10, cL / 2 - 10, -cW / 2 + 10, cW / 2 - 10, -P + 10, e + 1)
+        desague = A.cil(tbm, (0, 0, -P - 1), (0, 0, -P + 11), a["desague_d"])
+        try:
+            tbm.booleanOperation(cuba, pest, adsk.fusion.BooleanTypes.UnionBooleanType)
+        except Exception:
+            pass
+        A.resta(tbm, cuba, [hueco, desague])
+        return [cuba]
+    return f
+
+
 def _forma_parrilla(a):
     """Cruz de listones pegada al frente del vidrio: origen en la esquina del hueco,
     Z hacia el frente; cols-1 listones verticales y filas-1 horizontales."""
@@ -234,6 +255,8 @@ def forma(h):
         return _forma_vidrio(a)
     if f == "parrilla":
         return _forma_parrilla(a)
+    if f == "bacha":
+        return _forma_bacha(a)
     raise ValueError("forma desconocida: %s" % f)
 
 
@@ -246,8 +269,13 @@ def referencia(design, root, app, cajas):
     comp = occ.component
     comp.name = "Referencia (no se fabrica)"
     comp.attributes.add(GRUPO, "TIPO", "REFERENCIA")
-    for nombre, (x0, x1, y0, y1, z0, z1), rgb in cajas:
-        b = comp.bRepBodies.add(A.caja(tbm, x0, x1, y0, y1, z0, z1))
+    for item in cajas:
+        nombre, (x0, x1, y0, y1, z0, z1), rgb = item[0], item[1], item[2]
+        cuerpo_t = A.caja(tbm, x0, x1, y0, y1, z0, z1)
+        restas = [A.caja(tbm, *r) for r in (item[3] if len(item) > 3 else [])]   # p. ej. el calado de la bacha
+        if restas:
+            A.resta(tbm, cuerpo_t, restas)
+        b = comp.bRepBodies.add(cuerpo_t)
         b.name = nombre
         b.attributes.add(GRUPO, "TIPO", "REFERENCIA")
         ap = A._color(app, design, rgb, "ref " + nombre)

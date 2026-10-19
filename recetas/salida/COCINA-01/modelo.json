@@ -13127,6 +13127,37 @@
   },
   {
    "mueble": "B2 Bajo pileta 600",
+   "nombre": "Bacha Tawak Delta Simple 55",
+   "origen": [
+    1100.0,
+    300.0,
+    900.0
+   ],
+   "ez": [
+    0,
+    0,
+    1
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "bacha",
+   "args": {
+    "largo": 550.0,
+    "ancho": 460.0,
+    "prof": 220.0,
+    "corte": [
+     530.0,
+     440.0
+    ],
+    "pestana": 3.0,
+    "desague_d": 90.0
+   }
+  },
+  {
+   "mueble": "B2 Bajo pileta 600",
    "nombre": "Pata regulable",
    "origen": [
     860.0,
@@ -20814,6 +20845,7 @@
   }
  ],
  "avisos": [
+  "B2 Bajo pileta 600: bacha Bacha Tawak Delta Simple 55 (550 x 460 x 220, sobre mesada) centrada en X=1100, Y=300; calado de mesada SUPUESTO 530 x 440: confirmar con la plantilla de la bacha antes de cortar.",
   "A1 Esquinero alacena / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 535 x 919 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).",
   "A1 Esquinero alacena: se cuelga por los dos travesanos traseros (18 x 80) con 2 tornillos a la pared cada uno, a mano.",
   "A1 Esquinero alacena: la tira LED va PEGADA bajo el piso, sin ranura (la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).",
@@ -20844,12 +20876,22 @@
     0,
     620,
     860,
-    900
+    900.0
    ],
    [
     214,
     220,
     222
+   ],
+   [
+    [
+     835.0,
+     1365.0,
+     80.0,
+     520.0,
+     850,
+     910
+    ]
    ]
   ],
   [
@@ -20860,7 +20902,7 @@
     620,
     800,
     860,
-    900
+    900.0
    ],
    [
     214,
@@ -20882,22 +20924,6 @@
     190,
     180,
     176
-   ]
-  ],
-  [
-   "Bacha (hueco)",
-   [
-    850,
-    1350,
-    110,
-    510,
-    660,
-    861
-   ],
-   [
-    200,
-    185,
-    180
    ]
   ]
  ]

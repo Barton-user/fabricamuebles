@@ -451,6 +451,11 @@ Dos cosas que se encontraron:
    de biblioteca igual). En una corrida aparte anda: `ArmarReceta.repintar()`. No se entendió
    por qué.
 
+- **Bacha** (18/10): Tawak Delta Simple 55 (55 × 46 × 22, acero 304, sobre mesada; ML MLA80311064),
+  como herraje `bacha` del B2, centrada en X = 1100, Y = 300, apoyada en Z = 900. La mesada de
+  referencia sale con el **calado** (supuesto 530 × 440, 10 de pestaña por lado: confirmar con la
+  plantilla de la bacha). `REFERENCIA` acepta ahora un 4.º elemento con cajas a restar.
+
 Paquete regenerado en `fusion/EXPORT_COCINA-01/` (114 XML3; los archivos viejos que sobran en
 `salida/_obsoleto_18-10/`). El documento de Fusion **no se guardó** desde el script: lo guarda
 Pato cuando lo vea.

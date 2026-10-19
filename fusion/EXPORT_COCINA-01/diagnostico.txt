@@ -1855,6 +1855,7 @@ SALTADA: Bisagra O35 base -6 — marcada TIPO distinto de PLACA
 SALTADA: Tirador barral 128 — marcada TIPO distinto de PLACA
 SALTADA: Soporte estante O5 — marcada TIPO distinto de PLACA
 SALTADA: Pata regulable — marcada TIPO distinto de PLACA
+SALTADA: Bacha Tawak Delta Simple 55 — marcada TIPO distinto de PLACA
 SALTADA: Corredera bolas 450 — marcada TIPO distinto de PLACA
 SALTADA: Vidrio 535x919 — marcada TIPO distinto de PLACA
 SALTADA: Parrilla 513x897 2x3 — marcada TIPO distinto de PLACA

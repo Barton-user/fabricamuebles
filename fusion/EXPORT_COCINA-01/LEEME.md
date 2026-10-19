@@ -45,6 +45,7 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 | Pata regulable 100 | 17 |
 | Tirador barral cobre 128 e.c. | 10 |
 | Perilla cobre | 4 |
+| **Bacha Tawak Delta Simple 55** (55×46×22, acero 304, sobre mesada, MLA80311064) | 1 — calado de mesada supuesto 530×440, confirmar con la plantilla |
 | Vidrio 4 mm | 535×919 · 2 × 299×919 · 469×919 |
 | Tarugo Ø8 × 30 | 16 |
 | Listones 25 × 8 para las cruces (2×3 por puerta) | 4 puertas |

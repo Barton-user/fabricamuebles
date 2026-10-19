@@ -43,7 +43,8 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
   * 3 en 1 con perno de rosca para madera: receptor O5 x 12 (medidas.json)
   * placa base de bisagra: 2 x O5 a 37 del frente, +-16 (probada 16/10)
   * fondos de 5 en ranura 6x6
-  * mesada de otro proveedor, cocina (horno) 650 de fondo x 550
+  * mesada de otro proveedor (con el calado de la bacha), cocina (horno) 650 de
+    fondo x 550, bacha Tawak Delta Simple 55 (55 x 46 x 22, sobre mesada)
 
 Mundo (mm): X a lo largo de la pared larga, Y saliendo de la pared larga, Z
 arriba. Pared larga en Y=0, pared corta en X=0. Los muebles de la pared larga
@@ -110,6 +111,13 @@ MACIZA = "MADERA VERDE 18"                       # textura: 'VERDE' -> se pinta 
 VIT = {"montante": 60.0, "travesano": 70.0, "parante": 25.0, "parante_esp": 8.0,
        "rebaje_ancho": 12.0, "rebaje_prof": 5.0, "vidrio": 4.0}
 TARUGO = {"d": 8.0, "prof": 15.0, "del_borde": 12.0}
+# bacha (18/10): Tawak Delta Simple 55, acero 304, SOBRE mesada (MLA80311064): 55 x 46 x 22 cm,
+# borde redondeado. Calado SUPUESTO 530 x 440 (10 de pestana por lado): confirmar con la plantilla
+# que trae la bacha antes de que el marmolero corte.
+BACHA = {"nombre": "Bacha Tawak Delta Simple 55", "largo": 550.0, "ancho": 460.0, "prof": 220.0,
+         "corte": (530.0, 440.0), "pestana": 3.0, "desague_d": 90.0,
+         "centro_y": 300.0}                 # centro de la bacha medido desde la pared (mesada de 620)
+Z_MESADA = 900.0
 # corredera de bolillas 450 (COCINA MLV): O3 x 10 a 37 y 413 del frente
 CORR = {"d": 3.0, "prof": 10.0, "a": (37.0, 413.0), "largo": 450.0, "juego": 13.0}
 # estante regulable
@@ -620,6 +628,15 @@ def bajo_normal(nombre, x0, ancho, tipo):
         bisagras(pi, li, "IZQ", "DER", "A")
         bisagras(pd, ld, "DER", "IZQ", "A")
         tirador_puerta(pi, "DER"); tirador_puerta(pd, "IZQ")
+        # la bacha, centrada en el modulo, apoyada sobre la mesada (referencia + lista de compra)
+        cx = (x0 + x1) / 2.0
+        herraje(nombre, BACHA["nombre"], (cx, BACHA["centro_y"], Z_MESADA), (0, 0, 1), (1, 0, 0), "bacha",
+                largo=BACHA["largo"], ancho=BACHA["ancho"], prof=BACHA["prof"], corte=list(BACHA["corte"]),
+                pestana=BACHA["pestana"], desague_d=BACHA["desague_d"])
+        AVISOS.append("%s: bacha %s (%g x %g x %g, sobre mesada) centrada en X=%g, Y=%g; calado de mesada "
+                      "SUPUESTO %g x %g: confirmar con la plantilla de la bacha antes de cortar."
+                      % (nombre, BACHA["nombre"], BACHA["largo"], BACHA["ancho"], BACHA["prof"], cx,
+                         BACHA["centro_y"], BACHA["corte"][0], BACHA["corte"][1]))
     elif tipo == "puerta":
         pu = placa_caja(nombre, "Puerta", xa, xb, Y1, Y1 + T, za, zb, "-Y", "+X", VERDE,
                         rol="PUERTA", cantos=("+X", "-X", "+Z", "-Z"))
@@ -1053,13 +1070,15 @@ def armar():
 
 
 # cuerpos de referencia (no se fabrican): mesada, cocina, bacha. Sin lavavajillas desde el 18/10.
+_BX, _BY = 1100.0, BACHA["centro_y"]
+_CALADO = (_BX - BACHA["corte"][0] / 2, _BX + BACHA["corte"][0] / 2, _BY - BACHA["corte"][1] / 2,
+           _BY + BACHA["corte"][1] / 2, 850, 910)
 REFERENCIA = [
-    ("Mesada pared larga", (0, X_FIN, 0, 620, 860, 900)),
-    ("Mesada pared corta", (0, 620, 620, 800, 860, 900)),
+    ("Mesada pared larga", (0, X_FIN, 0, 620, 860, Z_MESADA), [_CALADO]),     # con el calado de la bacha
+    ("Mesada pared corta", (0, 620, 620, 800, 860, Z_MESADA)),
     ("Cocina 550x650", (0, 650, 800, 1350, 0, 900)),
-    ("Bacha (hueco)", (850, 1350, 110, 510, 660, 861)),
 ]
-REF_RGB = {"Mesada": (214, 220, 222), "Cocina": (190, 180, 176), "Bacha": (200, 185, 180)}
+REF_RGB = {"Mesada": (214, 220, 222), "Cocina": (190, 180, 176)}
 
 
 def ean13(doce):
@@ -1189,7 +1208,7 @@ def a_json():
             })
     cab = dict(version=1, origen="receta", documento=AMBIENTE, orden=ORDEN, cliente=CLIENTE,
                direccion="", ambiente=AMBIENTE)
-    ref = [(nm, caja, REF_RGB[nm.split()[0]]) for nm, caja in REFERENCIA]
+    ref = [(it[0], it[1], REF_RGB[it[0].split()[0]]) + tuple(it[2:]) for it in REFERENCIA]
     return (dict(cab, piezas=piezas_modelo, herrajes=HERRAJES, avisos=AVISOS, referencia=ref),
             dict(cab, piezas=piezas_exp))
 
