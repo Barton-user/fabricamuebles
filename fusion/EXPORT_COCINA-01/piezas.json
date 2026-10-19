@@ -3594,7 +3594,7 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 323.0,
+          "x": 198.0,
           "y": 942.0,
           "diametro": 5.0,
           "profundidad": 12.0,
@@ -3608,13 +3608,6 @@
           "cara": "A"
         },
         {
-          "x": 264.0,
-          "y": 716.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
           "x": 168.0,
           "y": 684.67,
           "diametro": 5.0,
@@ -3741,14 +3734,14 @@
           "cara": "A"
         },
         {
-          "x": 278.0,
+          "x": 151.5,
           "y": 991.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 54.0,
+          "x": 55.5,
           "y": 991.0,
           "diametro": 5.0,
           "profundidad": 12.0,
@@ -3775,14 +3768,45 @@
           "x1": 304.5,
           "y1": 0.0,
           "x2": 304.5,
-          "y2": 1000.0,
+          "y2": 705.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
         }
       ],
       "ranuras_canto": [],
-      "contorno": []
+      "contorno": [
+        {
+          "x": 207.0,
+          "y": 1000.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 1000.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 705.0,
+          "arco": -0.0
+        },
+        {
+          "x": 207.0,
+          "y": 705.0,
+          "arco": -0.0
+        }
+      ]
     },
     {
       "codigo": "9992609290603",
@@ -4137,7 +4161,7 @@
       "codigo": "9992609290627",
       "nombre": "COCINA-01_A1 Esquinero alacena_Techo",
       "ancho": 782.0,
-      "alto": 782.0,
+      "alto": 657.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -4151,28 +4175,28 @@
       "agujeros": [
         {
           "x": 9.0,
-          "y": 55.5,
+          "y": 538.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
-          "y": 695.5,
+          "y": 100.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 86.5,
-          "y": 773.0,
+          "x": 682.0,
+          "y": 648.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 726.5,
-          "y": 773.0,
+          "x": 131.0,
+          "y": 648.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
@@ -4207,14 +4231,14 @@
         },
         {
           "x": 749.0,
-          "y": 728.0,
+          "y": 601.5,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 749.0,
-          "y": 504.0,
+          "y": 505.5,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -4239,7 +4263,7 @@
         },
         {
           "x": 782.0,
-          "y": 728.0,
+          "y": 601.5,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -4247,7 +4271,7 @@
         },
         {
           "x": 782.0,
-          "y": 504.0,
+          "y": 505.5,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -4259,16 +4283,7 @@
           "x1": 27.5,
           "y1": 0.0,
           "x2": 27.5,
-          "y2": 757.5,
-          "ancho": 6.0,
-          "profundidad": 6.0,
-          "cara": "A"
-        },
-        {
-          "x1": 31.5,
-          "y1": 754.5,
-          "x2": 782.0,
-          "y2": 754.5,
+          "y2": 657.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -4283,12 +4298,12 @@
         },
         {
           "x": 782.0,
-          "y": 782.0,
+          "y": 657.0,
           "arco": -0.0
         },
         {
           "x": 0.0,
-          "y": 782.0,
+          "y": 657.0,
           "arco": -0.0
         },
         {
@@ -4307,7 +4322,7 @@
       "codigo": "9992609290634",
       "nombre": "COCINA-01_A1 Esquinero alacena_Fondo A",
       "ancho": 755.0,
-      "alto": 974.0,
+      "alto": 689.0,
       "espesor": 5.0,
       "material": "Melamina",
       "mueble": "A1 Esquinero alacena",
@@ -4343,7 +4358,38 @@
       "agujeros_canto": [],
       "ranuras": [],
       "ranuras_canto": [],
-      "contorno": []
+      "contorno": [
+        {
+          "x": 100.0,
+          "y": 692.0,
+          "arco": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 692.0,
+          "arco": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "arco": 0.0
+        },
+        {
+          "x": 762.0,
+          "y": 0.0,
+          "arco": 0.0
+        },
+        {
+          "x": 762.0,
+          "y": 974.0,
+          "arco": 0.0
+        },
+        {
+          "x": 100.0,
+          "y": 974.0,
+          "arco": 0.0
+        }
+      ]
     },
     {
       "codigo": "9992609290658",
@@ -4962,14 +5008,14 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 55.5,
+          "x": 651.0,
           "y": 47.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 695.5,
+          "x": 100.0,
           "y": 47.0,
           "diametro": 15.0,
           "profundidad": 13.5,
@@ -4985,7 +5031,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 55.5,
+          "x": 651.0,
           "y": 80.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -4993,7 +5039,7 @@
           "canto": "U"
         },
         {
-          "x": 695.5,
+          "x": 100.0,
           "y": 80.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -5016,7 +5062,7 @@
     {
       "codigo": "9992609290740",
       "nombre": "COCINA-01_A1 Esquinero alacena_Travesano B",
-      "ancho": 751.0,
+      "ancho": 638.0,
       "alto": 80.0,
       "espesor": 18.0,
       "material": "Melamina",
@@ -5030,14 +5076,14 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 55.5,
+          "x": 538.0,
           "y": 47.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 695.5,
+          "x": 100.0,
           "y": 47.0,
           "diametro": 15.0,
           "profundidad": 13.5,
@@ -5053,7 +5099,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 55.5,
+          "x": 538.0,
           "y": 80.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -5061,7 +5107,7 @@
           "canto": "U"
         },
         {
-          "x": 695.5,
+          "x": 100.0,
           "y": 80.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -5147,7 +5193,7 @@
     {
       "codigo": "9992609290764",
       "nombre": "COCINA-01_A2 Alacena 600 rebatible_Techo",
-      "ancho": 332.0,
+      "ancho": 207.0,
       "alto": 600.0,
       "espesor": 18.0,
       "material": "Melamina",
@@ -5161,56 +5207,56 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 295.0,
+          "x": 170.0,
           "y": 514.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 295.0,
+          "x": 170.0,
           "y": 482.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 295.0,
+          "x": 170.0,
           "y": 117.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 295.0,
+          "x": 170.0,
           "y": 85.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
-          "x": 278.0,
+          "x": 151.5,
           "y": 591.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 54.0,
+          "x": 55.5,
           "y": 591.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 54.0,
+          "x": 55.5,
           "y": 9.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 278.0,
+          "x": 151.5,
           "y": 9.0,
           "diametro": 5.0,
           "profundidad": 12.0,
@@ -5218,17 +5264,7 @@
         }
       ],
       "agujeros_canto": [],
-      "ranuras": [
-        {
-          "x1": 27.5,
-          "y1": 12.85,
-          "x2": 27.5,
-          "y2": 587.15,
-          "ancho": 6.0,
-          "profundidad": 6.0,
-          "cara": "A"
-        }
-      ],
+      "ranuras": [],
       "ranuras_canto": [],
       "contorno": []
     },
@@ -5263,21 +5299,21 @@
           "cara": "A"
         },
         {
-          "x": 54.0,
+          "x": 180.5,
           "y": 949.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 278.0,
+          "x": 276.5,
           "y": 949.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 9.0,
+          "x": 134.0,
           "y": 942.0,
           "diametro": 5.0,
           "profundidad": 12.0,
@@ -5300,7 +5336,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 54.0,
+          "x": 180.5,
           "y": 982.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -5308,7 +5344,7 @@
           "canto": "U"
         },
         {
-          "x": 278.0,
+          "x": 276.5,
           "y": 982.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -5321,14 +5357,45 @@
           "x1": 27.5,
           "y1": 0.0,
           "x2": 27.5,
-          "y2": 982.0,
+          "y2": 705.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
         }
       ],
       "ranuras_canto": [],
-      "contorno": []
+      "contorno": [
+        {
+          "x": 125.0,
+          "y": 705.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 705.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 982.0,
+          "arco": -0.0
+        },
+        {
+          "x": 125.0,
+          "y": 982.0,
+          "arco": -0.0
+        }
+      ]
     },
     {
       "codigo": "9992609290788",
@@ -5361,21 +5428,21 @@
           "cara": "A"
         },
         {
-          "x": 54.0,
+          "x": 55.5,
           "y": 949.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 278.0,
+          "x": 151.5,
           "y": 949.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 323.0,
+          "x": 198.0,
           "y": 942.0,
           "diametro": 5.0,
           "profundidad": 12.0,
@@ -5398,7 +5465,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 54.0,
+          "x": 55.5,
           "y": 982.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -5406,7 +5473,7 @@
           "canto": "U"
         },
         {
-          "x": 278.0,
+          "x": 151.5,
           "y": 982.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -5419,20 +5486,51 @@
           "x1": 304.5,
           "y1": 0.0,
           "x2": 304.5,
-          "y2": 982.0,
+          "y2": 705.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
         }
       ],
       "ranuras_canto": [],
-      "contorno": []
+      "contorno": [
+        {
+          "x": 207.0,
+          "y": 982.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 982.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 705.0,
+          "arco": -0.0
+        },
+        {
+          "x": 207.0,
+          "y": 705.0,
+          "arco": -0.0
+        }
+      ]
     },
     {
       "codigo": "9992609290795",
       "nombre": "COCINA-01_A2 Alacena 600 rebatible_Fondo",
       "ancho": 574.0,
-      "alto": 974.0,
+      "alto": 689.0,
       "espesor": 5.0,
       "material": "Melamina",
       "mueble": "A2 Alacena 600 rebatible",
@@ -5895,7 +5993,7 @@
       "codigo": "9992609290863",
       "nombre": "COCINA-01_A3 Vitrina 800_Techo",
       "ancho": 800.0,
-      "alto": 332.0,
+      "alto": 207.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A3 Vitrina 800",
@@ -5909,45 +6007,35 @@
       "agujeros": [
         {
           "x": 791.0,
-          "y": 54.0,
+          "y": 55.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 791.0,
-          "y": 278.0,
+          "y": 151.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
-          "y": 278.0,
+          "y": 151.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 9.0,
-          "y": 54.0,
+          "y": 55.5,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         }
       ],
       "agujeros_canto": [],
-      "ranuras": [
-        {
-          "x1": 12.85,
-          "y1": 304.5,
-          "x2": 787.15,
-          "y2": 304.5,
-          "ancho": 6.0,
-          "profundidad": 6.0,
-          "cara": "A"
-        }
-      ],
+      "ranuras": [],
       "ranuras_canto": [],
       "contorno": []
     },
@@ -5969,13 +6057,6 @@
       "agujeros": [
         {
           "x": 295.0,
-          "y": 698.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
           "y": 698.67,
           "diametro": 5.0,
           "profundidad": 12.0,
@@ -6150,21 +6231,21 @@
           "cara": "A"
         },
         {
-          "x": 9.0,
+          "x": 134.0,
           "y": 924.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 54.0,
+          "x": 180.5,
           "y": 931.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 278.0,
+          "x": 276.5,
           "y": 931.0,
           "diametro": 15.0,
           "profundidad": 13.5,
@@ -6187,7 +6268,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 54.0,
+          "x": 180.5,
           "y": 964.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -6195,7 +6276,7 @@
           "canto": "U"
         },
         {
-          "x": 278.0,
+          "x": 276.5,
           "y": 964.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -6224,14 +6305,45 @@
           "x1": 27.5,
           "y1": 0.0,
           "x2": 27.5,
-          "y2": 964.0,
+          "y2": 687.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
         }
       ],
       "ranuras_canto": [],
-      "contorno": []
+      "contorno": [
+        {
+          "x": 125.0,
+          "y": 687.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 687.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 964.0,
+          "arco": -0.0
+        },
+        {
+          "x": 125.0,
+          "y": 964.0,
+          "arco": -0.0
+        }
+      ]
     },
     {
       "codigo": "9992609290887",
@@ -6251,13 +6363,6 @@
       "agujeros": [
         {
           "x": 37.0,
-          "y": 698.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
           "y": 698.67,
           "diametro": 5.0,
           "profundidad": 12.0,
@@ -6432,21 +6537,21 @@
           "cara": "A"
         },
         {
-          "x": 323.0,
+          "x": 198.0,
           "y": 924.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 54.0,
+          "x": 55.5,
           "y": 931.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 278.0,
+          "x": 151.5,
           "y": 931.0,
           "diametro": 15.0,
           "profundidad": 13.5,
@@ -6469,7 +6574,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 54.0,
+          "x": 55.5,
           "y": 964.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -6477,7 +6582,7 @@
           "canto": "U"
         },
         {
-          "x": 278.0,
+          "x": 151.5,
           "y": 964.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -6506,20 +6611,51 @@
           "x1": 304.5,
           "y1": 0.0,
           "x2": 304.5,
-          "y2": 964.0,
+          "y2": 687.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
         }
       ],
       "ranuras_canto": [],
-      "contorno": []
+      "contorno": [
+        {
+          "x": 207.0,
+          "y": 964.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 964.0,
+          "arco": -0.0
+        },
+        {
+          "x": 0.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 0.0,
+          "arco": -0.0
+        },
+        {
+          "x": 332.0,
+          "y": 687.0,
+          "arco": -0.0
+        },
+        {
+          "x": 207.0,
+          "y": 687.0,
+          "arco": -0.0
+        }
+      ]
     },
     {
       "codigo": "9992609290894",
       "nombre": "COCINA-01_A3 Vitrina 800_Fondo",
       "ancho": 774.0,
-      "alto": 974.0,
+      "alto": 689.0,
       "espesor": 5.0,
       "material": "Melamina",
       "mueble": "A3 Vitrina 800",

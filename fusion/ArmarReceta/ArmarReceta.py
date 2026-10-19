@@ -66,8 +66,14 @@ def cuerpo_placa(tbm, pz):
     W, H, T = pz["W"], pz["H"], pz["T"]
     cuerpo = A.caja(tbm, 0.0, W, 0.0, H, -T, 0.0)
     herr = []
+    # escotaduras (esquinas recortadas, p. ej. por la viga): se restan como cajas. El contorno
+    # resultante NO es convexo, asi que en ese caso no se usa el recorte por semiplanos de abajo.
+    for e in pz.get("escotaduras", []):
+        herr.append(A.caja(tbm, e["x1"] - 1.0 if e["x1"] <= 0.01 else e["x1"], e["x2"] + 1.0 if e["x2"] >= W - 0.01 else e["x2"],
+                           e["y1"] - 1.0 if e["y1"] <= 0.01 else e["y1"], e["y2"] + 1.0 if e["y2"] >= H - 0.01 else e["y2"],
+                           -T - 1.0, 1.0))
     # contorno: cada lado que no cae sobre el rectangulo se recorta con una caja grande
-    if pz.get("contorno"):
+    if pz.get("contorno") and not pz.get("escotaduras"):
         pts = pz["contorno"]
         B = 3000.0
         for i in range(len(pts)):

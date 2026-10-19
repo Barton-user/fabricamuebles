@@ -144,6 +144,13 @@ Z_BAJO = 100.0                        # arranque del cuerpo (patas + zocalo)
 H_BAJO = 760.0                        # hasta 860; mesada 40 -> 900
 F_BAJO = 580.0                        # fondo del cuerpo bajo
 H_TECHO = 2470.0                      # piso a techo del ambiente (medido por Pato, 18/10)
+# VIGA en la pared larga (Y=0), de punta a punta: arranca a 2160 del piso y sale 120 de la pared.
+# Las alacenas de esa pared llevan ESCOTADURA atras-arriba (125 x hasta el techo del mueble, 5 de
+# luz), el techo arranca a 125 de la pared, el travesano de colgar se atornilla a la viga y el
+# fondo de 5 llega hasta la viga; de ahi para arriba la viga queda a la vista adentro (decision 18/10).
+VIGA = {"z0": 2160.0, "prof": 120.0, "luz": 5.0}
+VIGA_Y = VIGA["prof"] + VIGA["luz"]           # 125: hasta donde llega la escotadura desde la pared
+VIGA_Z = VIGA["z0"] - VIGA["luz"]             # 2155: desde donde arranca
 Z_ALTO0, Z_ALTO1 = 1450.0, H_TECHO - 20.0   # alacenas 1450..2450: 20 de aire al techo para colgarlas / techo torcido
 Z_CUERPO0, Z_CUERPO1 = Z_ALTO0, Z_ALTO1
 TRAV_ALTO = 80.0                      # travesano trasero de las alacenas (para colgarlas)
@@ -185,6 +192,7 @@ class Placa(object):
         self.contorno = contorno            # lista de (x, y) CCW, o None = rectangulo
         self.agujeros, self.canto, self.ranuras = [], [], []
         self.ventanas, self.rebajes = [], []         # router: huecos pasantes y cajeados (vitrinas)
+        self.escotaduras = []                        # recortes rectangulares en una esquina (viga)
         self.cantos = {"IZQ": 0.0, "DER": 0.0, "ABAJO": 0.0, "ARRIBA": 0.0}
         self._cantos_mundo = [AX[c] if isinstance(c, str) else c for c in cantos]
         self.codigo = ""
@@ -216,16 +224,43 @@ class Placa(object):
         return self.contorno or [(0, 0), (self.W, 0), (self.W, self.H), (0, self.H)]
 
     def dentro(self, x, y, tol=0.5):
-        """Punto (x, y) dentro del contorno (convexo, CCW) con tolerancia."""
+        """Punto (x, y) dentro del contorno (CCW, puede ser NO convexo) con tolerancia:
+        ray casting + distancia a los lados."""
         pts = self.poligono()
-        for i in range(len(pts)):
-            (x1, y1), (x2, y2) = pts[i], pts[(i + 1) % len(pts)]
-            # normal hacia afuera de un CCW: (dy, -dx)
-            nx, ny = (y2 - y1), -(x2 - x1)
-            L = math.hypot(nx, ny)
-            if ((x - x1) * nx + (y - y1) * ny) / L > tol:
-                return False
-        return True
+        n = len(pts)
+        adentro = False
+        for i in range(n):
+            (x1, y1), (x2, y2) = pts[i], pts[(i + 1) % n]
+            # distancia al segmento
+            dx, dy = x2 - x1, y2 - y1
+            L2 = dx * dx + dy * dy
+            t = 0.0 if L2 == 0 else max(0.0, min(1.0, ((x - x1) * dx + (y - y1) * dy) / L2))
+            if math.hypot(x - (x1 + t * dx), y - (y1 + t * dy)) <= tol:
+                return True
+            if (y1 > y) != (y2 > y):
+                xi = x1 + (y - y1) * dx / dy
+                if x < xi:
+                    adentro = not adentro
+        return adentro
+
+    def escotadura(self, esquina, ancho, alto):
+        """Recorte rectangular en una esquina ('IZQ-ARRIBA', 'DER-ARRIBA', ...): ancho a lo
+        largo de X, alto a lo largo de Y. Rehace el contorno (CCW, 6 vertices)."""
+        W, H = self.W, self.H
+        a, b = ancho, alto
+        if esquina == "DER-ARRIBA":
+            self.contorno = [(0, 0), (W, 0), (W, H - b), (W - a, H - b), (W - a, H), (0, H)]
+            rect = (W - a, H - b, W, H)
+        elif esquina == "IZQ-ARRIBA":
+            self.contorno = [(0, 0), (W, 0), (W, H), (a, H), (a, H - b), (0, H - b)]
+            rect = (0, H - b, a, H)
+        elif esquina == "DER-ABAJO":
+            self.contorno = [(0, 0), (W - a, 0), (W - a, b), (W, b), (W, H), (0, H)]
+            rect = (W - a, 0, W, b)
+        else:  # IZQ-ABAJO
+            self.contorno = [(a, 0), (W, 0), (W, H), (0, H), (0, b), (a, b)]
+            rect = (0, 0, a, b)
+        self.escotaduras.append(dict(x1=rect[0], y1=rect[1], x2=rect[2], y2=rect[3]))
 
     # --- mecanizados
     def agujero(self, x, y, d, prof, cara, sym):
@@ -437,6 +472,10 @@ def pines(lateral, cara, xs, y_centros):
     for yc in y_centros:
         for dy in PIN["banda"]:
             for x in xs:
+                if not lateral.dentro(x, yc + dy, tol=-PIN["d"]):   # fuera de la placa (escotadura de la viga)
+                    AVISOS.append("%s / %s: pin O5 en (%g, %g) cae en la escotadura: se omite" %
+                                  (lateral.mueble, lateral.nombre, x, yc + dy))
+                    continue
                 lateral.agujero(x, yc + dy, PIN["d"], PIN["prof"], cara, "shelfPin")
 
 
@@ -719,7 +758,7 @@ def diagonal(PA, PB):
     return t, n
 
 
-def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False):
+def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False, viga=False):
     """Esquinero diagonal 800 x 800. Laterales por fuera (en las puntas de las dos
     alas), piso y techo pentagonales entre ellos, dos fondos, dos montantes a 45
     y una puerta sobre la diagonal colgada del montante de la punta A."""
@@ -739,13 +778,15 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False):
 
     def horizontal(nm, zb, A, poli, rol="", cantos_diag=True, tex=BLANCO):
         # A = '+Z' (cara A arriba) o '-Z'
+        # el marco de la placa es la CAJA del poligono (puede no arrancar en y = 0: techo con viga)
+        ymin, ymax = min(y for _, y in poli), max(y for _, y in poli)
         if A == "+Z":
-            p = Placa(nombre, nm, li, li, T, (0, 0, zb + T), (1, 0, 0), (0, 1, 0), tex, rol=rol,
-                      contorno=poli)
+            p = Placa(nombre, nm, li, ymax - ymin, T, (0, ymin, zb + T), (1, 0, 0), (0, 1, 0), tex, rol=rol,
+                      contorno=[(x, y - ymin) for (x, y) in poli])
         else:
-            # cara A abajo: X local = +X, Y local = -Y -> O en (0, li, zb)
-            p = Placa(nombre, nm, li, li, T, (0, li, zb), (1, 0, 0), (0, -1, 0), tex, rol=rol,
-                      contorno=[(x, li - y) for (x, y) in reversed(poli)])
+            # cara A abajo: X local = +X, Y local = -Y -> O en (0, ymax, zb)
+            p = Placa(nombre, nm, li, ymax - ymin, T, (0, ymax, zb), (1, 0, 0), (0, -1, 0), tex, rol=rol,
+                      contorno=[(x, ymax - y) for (x, y) in reversed(poli)])
         if cantos_diag:
             p.cantos_diagonal = CANTO
         return p
@@ -753,7 +794,9 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False):
     piso = horizontal("Piso", z0 + (0 if not cenefa else 0), "+Z", penta)
     P.append(piso)
     if techo:
-        tec = horizontal("Techo", z1 - T, "-Z", penta)
+        # con viga el techo arranca a 125 de la pared larga (Y)
+        penta_t = [(0, VIGA_Y), (li, VIGA_Y), (li, prof), (prof, li), (0, li)] if viga else penta
+        tec = horizontal("Techo", z1 - T, "-Z", penta_t)
         P.append(tec)
     # ranuras de fondo en L (cara A = interior): piso arriba, techo abajo
     d = BP["desde_atras"]
@@ -765,18 +808,27 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False):
         if p is piso:
             p.ranura(xa0, d, li, d, BP["ancho"], BP["prof"], "A", "BP")            # a lo largo de X
             p.ranura(d, d - 3.0, d, li, BP["ancho"], BP["prof"], "A", "BP")        # a lo largo de Y
+        elif viga:
+            # techo recortado: solo la ranura del fondo B, hasta donde llega el techo (y = 125)
+            p.ranura(d, 0.0, d, p.H, BP["ancho"], BP["prof"], "A", "BP")      # y' = 0 en el lateral B, H en la viga
         else:
             p.ranura(xa0, li - d, li, li - d, BP["ancho"], BP["prof"], "A", "BP")
             p.ranura(d, li - d + 3.0, d, 0, BP["ancho"], BP["prof"], "A", "BP")
-    la.ranura(la.W - d, 0, la.W - d, la.H, BP["ancho"], BP["prof"], "A", "BP")
+    la.ranura(la.W - d, 0, la.W - d, (VIGA_Z - z0) if viga else la.H, BP["ancho"], BP["prof"], "A", "BP")
     lb.ranura(d, 0, d, lb.H, BP["ancho"], BP["prof"], "A", "BP")
     # fondos
     zf0 = z0 + T - 5
     zf1 = (z1 - T + 5) if techo else (z1 - 1)
-    fa = placa_caja(nombre, "Fondo A", xa0 + 0.5, li + 5, d - 2.5, d + 2.5, zf0, zf1, "+Y", "-X", FONDO5,
+    zfa = (VIGA_Z - 3.0) if viga else zf1                  # fondo A (pared larga) termina bajo la viga
+    fa = placa_caja(nombre, "Fondo A", xa0 + 0.5, li + 5, d - 2.5, d + 2.5, zf0, zfa, "+Y", "-X", FONDO5,
                     rol="FONDO", material=FIB)
     fb = placa_caja(nombre, "Fondo B", d - 2.5, d + 2.5, d - 2.5, li + 5, zf0, zf1, "+X", "+Y", FONDO5,
                     rol="FONDO", material=FIB)
+    if viga:
+        # fondo B (pared corta): su esquina atras-arriba choca con la viga -> escotadura
+        # (x local = Y del mundo desde d-2,5; la viga ocupa Y < 125 arriba de 2155)
+        fb.escotadura("IZQ-ARRIBA", VIGA_Y - (d - 2.5), fb.H - (VIGA_Z - zf0))
+        la.escotadura("DER-ARRIBA", VIGA_Y, la.H - (VIGA_Z - z0))      # lateral A: x = W en la pared
     P += [fa, fb]
     # montantes a 45: 80 de ancho hacia adentro, 18 a lo largo de la diagonal
     W_M = 80.0
@@ -874,17 +926,20 @@ def alacena_esquinero():
     nombre = "A1 Esquinero alacena"
     z0, z1 = Z_CUERPO0, Z_CUERPO1
     P, piso, pu, (PA, PB, t, n, L), la, lb = esquinero(nombre, z1 - z0, F_ALTO, z0, z1,
-                                                       estantes=2, cenefa=True)
+                                                       estantes=2, cenefa=True, viga=True)
     tec = [p for p in P if p.nombre == "Techo"][0]
     # dos travesanos traseros bajo el techo, uno por pared, detras de los fondos (que van a 25..30):
     # 3 en 1 al lateral de su punta y al techo; por ellos se cuelga el mueble.
     li_ = 800.0 - T
     zt0, zt1 = z1 - T - TRAV_ALTO, z1 - T
-    ta = placa_caja(nombre, "Travesano A", 31.0, li_, 0, T, zt0, zt1, "-Y", "+X", BLANCO)
-    tb = placa_caja(nombre, "Travesano B", 0, T, 31.0, li_, zt0, zt1, "-X", "-Y", BLANCO)
+    # con la viga: el A va contra la cara de la viga (Y 125..143) y el B arranca delante de ella
+    ta = placa_caja(nombre, "Travesano A", 31.0, li_, VIGA_Y, VIGA_Y + T, zt0, zt1, "-Y", "+X", BLANCO)
+    tb = placa_caja(nombre, "Travesano B", 0, T, VIGA_Y + T + 1.0, li_, zt0, zt1, "-X", "-Y", BLANCO)
+    AVISOS.append("%s: viga en la pared larga: escotadura en Lateral A y Fondo B, techo desde Y=%g, "
+                  "Travesano A atornillado a la viga, Fondo A hasta Z=%g." % (nombre, VIGA_Y, VIGA_Z - 3.0))
     P += [ta, tb]
     tres_en_uno(ta, la, "A", cuantos=1); tres_en_uno(tb, lb, "A", cuantos=1)
-    tres_en_uno(ta, tec, "A", cuantos=2); tres_en_uno(tb, tec, "A", cuantos=2)
+    tres_en_uno(ta, tec, "A", en=[100.0, ta.W - 100.0]); tres_en_uno(tb, tec, "A", en=[100.0, tb.W - 100.0])
     AVISOS.append("%s: se cuelga por los dos travesanos traseros (18 x %g) con %d tornillos a la pared "
                   "cada uno, a mano." % (nombre, TRAV_ALTO, TRAV_TORNILLOS))
     led_piso(piso, nombre, diagonal_geo=(PA, PB, t, n, L))
@@ -944,7 +999,9 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escur
         b = caja(a0, a1, b0, b1, c0, c1)
         return placa_caja(nombre, nm, b[0], b[1], b[2], b[3], b[4], b[5], A, X, tex, **kw)
 
-    tec = pc("Techo", u0, u1, 0, D, z1 - T, z1, "-Z", U, BLANCO, cantos=(V,))          # y hacia atras
+    viga = (eje == "X")                       # la viga esta en la pared larga
+    yv = VIGA_Y if viga else 0.0              # el techo y el travesano arrancan delante de la viga
+    tec = pc("Techo", u0, u1, yv, D, z1 - T, z1, "-Z", U, BLANCO, cantos=(V,))         # y hacia atras
     if escurridor:
         # SIN PISO: abierta abajo sobre la bacha (lo que gotea del escurreplatos cae a la pileta).
         # Los laterales llegan hasta abajo; entre ellos un liston al frente (lleva el LED, tapado
@@ -961,18 +1018,29 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escur
         ld = pc("Lateral der", u0, u0 + T, 0, D, z0 + T, z1 - T, U, V, BLANCO, cantos=(V,))
         li = pc("Lateral izq", u1 - T, u1, 0, D, z0 + T, z1 - T, mU, mV, BLANCO, cantos=(V,))
     d = BP["desde_atras"]
-    fo = pc("Fondo", u0 + T - 5, u1 - T + 5, d - 2.5, d + 2.5, z0 + T - 5, z1 - T + 5, V, mU, FONDO5,
+    zf1 = (VIGA_Z - 3.0) if viga else (z1 - T + 5)       # con viga el fondo termina debajo de ella
+    fo = pc("Fondo", u0 + T - 5, u1 - T + 5, d - 2.5, d + 2.5, z0 + T - 5, zf1, V, mU, FONDO5,
             rol="FONDO", material=FIB)
-    # travesano trasero bajo el techo, contra la pared, detras del fondo: por ahi se cuelga
-    # (tornillos a la pared a mano). Cara A = la que mira a la pared (excentricas ocultas).
-    tt = pc("Travesano trasero", u0 + T, u1 - T, 0, T, z1 - T - TRAV_ALTO, z1 - T, mV, U, BLANCO)
+    # travesano trasero bajo el techo, contra la pared (o contra la viga), detras del fondo: por ahi se
+    # cuelga (tornillos a mano). Cara A = la que mira a la pared (excentricas ocultas).
+    tt = pc("Travesano trasero", u0 + T, u1 - T, yv, yv + T, z1 - T - TRAV_ALTO, z1 - T, mV, U, BLANCO)
+    if viga:
+        # escotadura atras-arriba de los laterales: ld tiene x = 0 en la pared, li x = W en la pared
+        ld.escotadura("IZQ-ARRIBA", VIGA_Y, ld.H - (VIGA_Z - ld.O[2]))
+        li.escotadura("DER-ARRIBA", VIGA_Y, li.H - (VIGA_Z - li.O[2]))
+        AVISOS.append("%s: ESCOTADURA de %g x %g atras-arriba en los laterales por la viga (2160 al techo, "
+                      "120 de saliente); el techo arranca a %g de la pared; el travesano se atornilla a la "
+                      "viga; el fondo termina en Z=%g y arriba la viga queda a la vista." %
+                      (nombre, VIGA_Y, ld.H - (VIGA_Z - ld.O[2]), VIGA_Y, zf1))
     P += [piso, tec, ld, li, fo, tt] + ([tb] if escurridor else [])
     # ranuras de fondo (cara A = interior), cortadas a 12,85 de las puntas como MLV
     if not escurridor:
         piso.ranura(12.85, d, piso.W - 12.85, d, BP["ancho"], BP["prof"], "A", "BP")
-    tec.ranura(12.85, tec.H - d, tec.W - 12.85, tec.H - d, BP["ancho"], BP["prof"], "A", "BP")
-    ld.ranura(d, 0, d, ld.H, BP["ancho"], BP["prof"], "A", "BP")
-    li.ranura(li.W - d, 0, li.W - d, li.H, BP["ancho"], BP["prof"], "A", "BP")
+    if not viga:
+        tec.ranura(12.85, tec.H - d, tec.W - 12.85, tec.H - d, BP["ancho"], BP["prof"], "A", "BP")
+    yr = (VIGA_Z - ld.O[2]) if viga else ld.H          # con viga la ranura termina en la escotadura
+    ld.ranura(d, 0, d, yr, BP["ancho"], BP["prof"], "A", "BP")
+    li.ranura(li.W - d, 0, li.W - d, yr, BP["ancho"], BP["prof"], "A", "BP")
     # uniones: los laterales apoyan en piso y techo (excentrica en la cara interior)
     for l in (ld, li):
         if escurridor:
@@ -999,8 +1067,9 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escur
         # el techo se rehace con X local = profundidad (frente en x = W) para que bisagras() pueda
         # usarlo de soporte; misma ranura de fondo, en coordenadas giradas
         P.remove(tec)
-        tec = pc("Techo", u0, u1, 0, D, z1 - T, z1, "-Z", V, BLANCO, cantos=(V,))
-        tec.ranura(d, 12.85, d, tec.H - 12.85, BP["ancho"], BP["prof"], "A", "BP")
+        tec = pc("Techo", u0, u1, yv, D, z1 - T, z1, "-Z", V, BLANCO, cantos=(V,))
+        if not viga:
+            tec.ranura(d, 12.85, d, tec.H - 12.85, BP["ancho"], BP["prof"], "A", "BP")
         P.insert(1, tec)
         for l in (ld, li):
             tres_en_uno(l, tec, "A")
@@ -1239,7 +1308,7 @@ def a_json():
                 contorno=[[round(x, 3), round(y, 3)] for (x, y) in p.contorno] if p.contorno else None,
                 material=p.material, textura=p.textura, veta=p.veta, cantos=cantos,
                 agujeros=p.agujeros, agujeros_canto=p.canto, ranuras=p.ranuras,
-                ventanas=p.ventanas, rebajes=p.rebajes))
+                ventanas=p.ventanas, rebajes=p.rebajes, escotaduras=p.escotaduras))
             piezas_exp.append({
                 "codigo": p.codigo, "nombre": p.nombre_largo, "ancho": round(p.W, 2), "alto": round(p.H, 2),
                 "espesor": p.T, "material": p.material, "mueble": nombre, "textura": p.textura,

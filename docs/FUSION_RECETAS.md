@@ -468,6 +468,17 @@ Dos cosas que se encontraron:
   elevables Blum Aventos HK-S / HK top (o Häfele Free Flap) y el **Aventos HF plegable**, que es lo que
   muestra el render (dos hojas unidas que suben juntas); se puede pasar a HF más adelante agregando
   sólo los agujeros de los brazos.
+- **Viga** (18/10, medida por Pato): en la pared larga, de 2160 al techo, 120 de saliente (`VIGA`,
+  `VIGA_Y = 125`, `VIGA_Z = 2155`, 5 de luz). `Placa.escotadura(esquina, ancho, alto)` recorta una
+  esquina y rehace el contorno (6 vértices, NO convexo): `Placa.dentro()` pasó a ray casting +
+  distancia a los lados, y `ArmarReceta.cuerpo_placa` resta las escotaduras como cajas en vez del
+  recorte por semiplanos (que sólo sirve para contornos convexos). Afecta a las alacenas de eje X
+  (A2, A3) y al esquinero (`viga=True`): laterales con escotadura, techo desde Y = 125 (en el
+  esquinero el pentágono pierde la franja de atrás y `horizontal()` toma la caja real del polígono),
+  travesaño trasero contra la cara de la viga (Y 125–143), fondo de 5 hasta 2152, ranura de fondo de
+  los laterales hasta la escotadura, Fondo B del esquinero con escotadura, Travesano B desde Y = 144.
+  `pines()` omite los agujeros que caen fuera de la placa. A4 no cambia. La viga está en Fusion como
+  cuerpo de referencia (agregado a mano en el re-armado, no en `REFERENCIA`).
 - **Bacha** (18/10): Tawak Delta Simple 55 (55 × 46 × 22, acero 304, sobre mesada; ML MLA80311064),
   como herraje `bacha` del B2, centrada en X = 1100, Y = 300, apoyada en Z = 900. La mesada de
   referencia sale con el **calado** (supuesto 530 × 440, 10 de pestaña por lado: confirmar con la

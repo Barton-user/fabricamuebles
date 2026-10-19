@@ -1888,3 +1888,9 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   como alternativa futura. Sólo cambia el aviso de la receta; el modelo ya estaba así.
 - Medida real: piso a techo **2470**. Alacenas pasan a 1450–2450 (20 de aire). Hojas de A2 597×379 /
   597×615, montantes de vitrina 997, vidrios ×879. 114/114, paquete regenerado, Fusion sin guardar.
+- Viga en la pared larga (2160 al techo, saliente 120): escotaduras 125×277 en laterales de A2/A3 y
+  Lateral A + Fondo B del esquinero, techos desde Y=125, travesaños contra la viga, fondos hasta 2152,
+  viga a la vista adentro (decisión de Pato). `Placa.escotadura()`, `dentro()` no convexo, ArmarReceta
+  resta escotaduras como cajas, `horizontal()` toma la caja real del polígono. Dos iteraciones por la
+  ranura del fondo (receta decía hasta arriba, el sólido hasta la escotadura) y por el techo del
+  esquinero (782 vs 657). 114/114, paquete regenerado, Fusion re-armado sin guardar.

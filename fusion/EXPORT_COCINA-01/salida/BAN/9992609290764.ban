@@ -1,20 +1,19 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:39:22" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="332.00" Height="600.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,1" Name="COCINA-01_A2 Alacena 600 rebatible_Techo" Code="9992609290764">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:54:28" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="207.00" Height="600.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,1" Name="COCINA-01_A2 Alacena 600 rebatible_Techo" Code="9992609290764">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="332.00 0.00 0"/>
-        <Point Value="332.00 600.00 0"/>
+        <Point Value="207.00 0.00 0"/>
+        <Point Value="207.00 600.00 0"/>
         <Point Value="0.00 600.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 514.50 0" End="295.00 514.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 482.50 0" End="295.00 482.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 117.50 0" End="295.00 117.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="295.00 85.50 0" End="295.00 85.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="278.00 591.00 0" End="278.00 591.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="54.00 591.00 0" End="54.00 591.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="54.00 9.00 0" End="54.00 9.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="278.00 9.00 0" End="278.00 9.00 -12.00"/>
-    <SlotL Name="" Face="A" Start="27.50 12.85 -6.00" End="27.50 587.15 -6.00" Width="6.00" IsCuted="0"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="170.00 514.50 0" End="170.00 514.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="170.00 482.50 0" End="170.00 482.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="170.00 117.50 0" End="170.00 117.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="170.00 85.50 0" End="170.00 85.50 -3.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="151.50 591.00 0" End="151.50 591.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="55.50 591.00 0" End="55.50 591.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="55.50 9.00 0" End="55.50 9.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="151.50 9.00 0" End="151.50 9.00 -12.00"/>
 </Plane>
 </MicroDrawBan_XML>

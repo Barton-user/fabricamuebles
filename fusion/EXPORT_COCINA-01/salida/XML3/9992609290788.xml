@@ -37,7 +37,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>54.00</X1>
+        <X1>55.50</X1>
         <Y1>949.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
@@ -49,7 +49,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>278.00</X1>
+        <X1>151.50</X1>
         <Y1>949.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
@@ -61,7 +61,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>323.00</X1>
+        <X1>198.00</X1>
         <Y1>942.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -97,7 +97,7 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>54.00</X1>
+        <X1>55.50</X1>
         <Y1>982.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>3</Quadrant>
@@ -112,7 +112,7 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>278.00</X1>
+        <X1>151.50</X1>
         <Y1>982.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>3</Quadrant>
@@ -130,7 +130,7 @@
         <BeginX>304.50</BeginX>
         <BeginY>0.00</BeginY>
         <EndX>304.50</EndX>
-        <EndY>982.00</EndY>
+        <EndY>705.00</EndY>
         <Correction>0</Correction>
         <Width>6.00</Width>
         <Depth>6.00</Depth>

@@ -1,10 +1,10 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:39:22" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="774.00" Height="974.00" PlaneSize="1" Grain="2" Thickness="5" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A3 Vitrina 800_Fondo" Code="9992609290894">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:54:28" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="774.00" Height="689.00" PlaneSize="1" Grain="2" Thickness="5" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A3 Vitrina 800_Fondo" Code="9992609290894">
     <Outline>
         <Point Value="0.00 0.00 0"/>
         <Point Value="774.00 0.00 0"/>
-        <Point Value="774.00 974.00 0"/>
-        <Point Value="0.00 974.00 0"/>
+        <Point Value="774.00 689.00 0"/>
+        <Point Value="0.00 689.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
 </Plane>

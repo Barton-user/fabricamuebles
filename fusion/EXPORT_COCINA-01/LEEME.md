@@ -59,6 +59,16 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 | Colgador de alacena regulable | 8 (sin perforación hasta medir el modelo) |
 | Clips de zócalo | según patas |
 
+## Viga en la pared larga (18/10)
+
+Hay una viga de 120 de saliente desde 2160 hasta el techo (2470), de punta a punta en la pared de la
+bacha. A1, A2 y A3 llevan **escotadura de 125 × 277** atrás-arriba en los laterales (y en el Fondo B del
+esquinero), el techo arranca a 125 de la pared, el fondo de 5 termina a 2152 y la viga queda a la vista
+adentro; el travesaño de colgar va **atornillado a la viga**. Los pines de estante que caían en la
+escotadura se omitieron (una posición menos arriba de todo, en la columna de atrás). A4 (pared corta)
+no cambia. El corte de la escotadura lo hace la sierra (dos cortes) o el router; en el XML3 va como
+contorno de 6 vértices.
+
 ## Orden de trabajo para los esquineros (piso, techo y estantes con chanfle)
 
 1. La sierra corta el **rectángulo** (782 × 782 y 750 × 750).
