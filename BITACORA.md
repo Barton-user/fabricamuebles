@@ -1894,3 +1894,9 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   resta escotaduras como cajas, `horizontal()` toma la caja real del polígono. Dos iteraciones por la
   ranura del fondo (receta decía hasta arriba, el sólido hasta la escotadura) y por el techo del
   esquinero (782 vs 657). 114/114, paquete regenerado, Fusion re-armado sin guardar.
+- Extractor sobre la cocina: Pato propuso la SDC-100 extensible de 60 (ML MLA47228749, $295–314k). Le
+  mostré el grupo filtrante de 52 (Spar Inca Box $864k, Hausar, Bosch) que entra integrado en los 534 de
+  luz; "carísimos" → SDC-100 colgada bajo el piso de A4, que pasa a ser mueble campana 1794–2450 con
+  puerta ciega (ya no vitrina). Salida de aire existente Ø150 a Z 2120 / Y 1120 (dato de Pato); ducto
+  dibujado con codo; pasos a caladora en piso, fondo y estante. 106 placas, 106/106, paquete regenerado,
+  Fusion re-armado sin guardar.

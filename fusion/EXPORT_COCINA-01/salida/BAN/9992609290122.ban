@@ -1,4 +1,4 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:54:28" Source="fabrica-muebles" SourceType="BAN">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:17:16" Source="fabrica-muebles" SourceType="BAN">
 <Plane Width="580.00" Height="760.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,1,0" Name="COCINA-01_B2 Bajo pileta 600_Lateral izq" Code="9992609290122">
     <Outline>
         <Point Value="0.00 0.00 0"/>

@@ -1,11 +1,11 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>277.00</PanelLength>
+        <PanelLength>677.00</PanelLength>
         <PanelWidth>70.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_A3 Vitrina 800_Puerta der travesano abajo</PanelName>
+        <PanelName>COCINA-01_A3 Vitrina 800_Puerta travesano abajo</PanelName>
         <Params>
-            <Param Key="L" Value="277.00" Comment="板长"/>
+            <Param Key="L" Value="677.00" Comment="板长"/>
             <Param Key="W" Value="70.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
@@ -13,7 +13,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>244.00</X1>
+        <X1>644.00</X1>
         <Y1>35.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
@@ -37,7 +37,7 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>277.00</X1>
+        <X1>677.00</X1>
         <Y1>12.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>1</Quadrant>
@@ -52,7 +52,7 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>277.00</X1>
+        <X1>677.00</X1>
         <Y1>35.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>1</Quadrant>
@@ -99,7 +99,7 @@
         <TypeName>Line</TypeName>
         <BeginX>0.00</BeginX>
         <BeginY>64.00</BeginY>
-        <EndX>277.00</EndX>
+        <EndX>677.00</EndX>
         <EndY>64.00</EndY>
         <Correction>0</Correction>
         <Width>12.00</Width>

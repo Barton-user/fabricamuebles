@@ -1,13 +1,13 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>544.00</PanelLength>
-        <PanelWidth>974.00</PanelWidth>
-        <PanelThickness>5.00</PanelThickness>
-        <PanelName>COCINA-01_A4 Vitrina 570_Fondo</PanelName>
+        <PanelLength>1407.00</PanelLength>
+        <PanelWidth>99.00</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>COCINA-01_Z Zocalos_Zocalo largo</PanelName>
         <Params>
-            <Param Key="L" Value="544.00" Comment="板长"/>
-            <Param Key="W" Value="974.00" Comment="板宽"/>
-            <Param Key="T" Value="5.00" Comment="板厚"/>
+            <Param Key="L" Value="1407.00" Comment="板长"/>
+            <Param Key="W" Value="99.00" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
 </KDTPanelFormat>

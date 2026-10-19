@@ -6495,48 +6495,6 @@
           "cara": "A"
         },
         {
-          "x": 37.0,
-          "y": 896.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 864.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 498.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 466.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 99.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 67.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
           "x": 198.0,
           "y": 924.0,
           "diametro": 5.0,
@@ -6727,7 +6685,7 @@
     },
     {
       "codigo": "9992609290917",
-      "nombre": "COCINA-01_A3 Vitrina 800_Puerta der montante izq",
+      "nombre": "COCINA-01_A3 Vitrina 800_Puerta montante izq",
       "ancho": 60.0,
       "alto": 997.0,
       "espesor": 18.0,
@@ -6855,7 +6813,7 @@
     },
     {
       "codigo": "9992609290924",
-      "nombre": "COCINA-01_A3 Vitrina 800_Puerta der montante der",
+      "nombre": "COCINA-01_A3 Vitrina 800_Puerta montante der",
       "ancho": 60.0,
       "alto": 997.0,
       "espesor": 18.0,
@@ -6927,8 +6885,8 @@
     },
     {
       "codigo": "9992609290931",
-      "nombre": "COCINA-01_A3 Vitrina 800_Puerta der travesano abajo",
-      "ancho": 277.0,
+      "nombre": "COCINA-01_A3 Vitrina 800_Puerta travesano abajo",
+      "ancho": 677.0,
       "alto": 70.0,
       "espesor": 18.0,
       "material": "Madera maciza",
@@ -6942,7 +6900,7 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 244.0,
+          "x": 644.0,
           "y": 35.0,
           "diametro": 15.0,
           "profundidad": 13.5,
@@ -6958,7 +6916,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 277.0,
+          "x": 677.0,
           "y": 12.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -6966,7 +6924,7 @@
           "canto": "R"
         },
         {
-          "x": 277.0,
+          "x": 677.0,
           "y": 35.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -6994,7 +6952,7 @@
         {
           "x1": 0.0,
           "y1": 64.0,
-          "x2": 277.0,
+          "x2": 677.0,
           "y2": 64.0,
           "ancho": 12.0,
           "profundidad": 5.0,
@@ -7006,8 +6964,8 @@
     },
     {
       "codigo": "9992609290948",
-      "nombre": "COCINA-01_A3 Vitrina 800_Puerta der travesano arriba",
-      "ancho": 277.0,
+      "nombre": "COCINA-01_A3 Vitrina 800_Puerta travesano arriba",
+      "ancho": 677.0,
       "alto": 70.0,
       "espesor": 18.0,
       "material": "Madera maciza",
@@ -7021,7 +6979,7 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 244.0,
+          "x": 644.0,
           "y": 35.0,
           "diametro": 15.0,
           "profundidad": 13.5,
@@ -7037,7 +6995,7 @@
       ],
       "agujeros_canto": [
         {
-          "x": 277.0,
+          "x": 677.0,
           "y": 58.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -7045,7 +7003,7 @@
           "canto": "R"
         },
         {
-          "x": 277.0,
+          "x": 677.0,
           "y": 35.0,
           "z": 9.0,
           "diametro": 8.0,
@@ -7073,7 +7031,7 @@
         {
           "x1": 0.0,
           "y1": 6.0,
-          "x2": 277.0,
+          "x2": 677.0,
           "y2": 6.0,
           "ancho": 12.0,
           "profundidad": 5.0,
@@ -7085,364 +7043,6 @@
     },
     {
       "codigo": "9992609290955",
-      "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq montante izq",
-      "ancho": 60.0,
-      "alto": 997.0,
-      "espesor": 18.0,
-      "material": "Madera maciza",
-      "mueble": "A3 Vitrina 800",
-      "textura": "MADERA VERDE 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 40.0,
-          "y": 50.0,
-          "diametro": 5.0,
-          "profundidad": 18.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 60.0,
-          "y": 985.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "R"
-        },
-        {
-          "x": 60.0,
-          "y": 962.0,
-          "z": 9.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "canto": "R"
-        },
-        {
-          "x": 60.0,
-          "y": 12.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "R"
-        },
-        {
-          "x": 60.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "canto": "R"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 54.0,
-          "y1": 58.0,
-          "x2": 54.0,
-          "y2": 939.0,
-          "ancho": 12.0,
-          "profundidad": 5.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290962",
-      "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq montante der",
-      "ancho": 60.0,
-      "alto": 997.0,
-      "espesor": 18.0,
-      "material": "Madera maciza",
-      "mueble": "A3 Vitrina 800",
-      "textura": "MADERA VERDE 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 31.5,
-          "y": 921.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 31.5,
-          "y": 873.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.5,
-          "y": 897.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 31.5,
-          "y": 522.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 31.5,
-          "y": 474.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.5,
-          "y": 498.5,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 31.5,
-          "y": 124.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 31.5,
-          "y": 76.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.5,
-          "y": 100.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 0.0,
-          "y": 985.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 962.0,
-          "z": 9.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 12.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "canto": "L"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 6.0,
-          "y1": 58.0,
-          "x2": 6.0,
-          "y2": 939.0,
-          "ancho": 12.0,
-          "profundidad": 5.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290979",
-      "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq travesano abajo",
-      "ancho": 277.0,
-      "alto": 70.0,
-      "espesor": 18.0,
-      "material": "Madera maciza",
-      "mueble": "A3 Vitrina 800",
-      "textura": "MADERA VERDE 18",
-      "veta": "HORIZONTAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 244.0,
-          "y": 35.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 33.0,
-          "y": 35.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 277.0,
-          "y": 12.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "R"
-        },
-        {
-          "x": 277.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "R"
-        },
-        {
-          "x": 0.0,
-          "y": 12.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "L"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 0.0,
-          "y1": 64.0,
-          "x2": 277.0,
-          "y2": 64.0,
-          "ancho": 12.0,
-          "profundidad": 5.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290986",
-      "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq travesano arriba",
-      "ancho": 277.0,
-      "alto": 70.0,
-      "espesor": 18.0,
-      "material": "Madera maciza",
-      "mueble": "A3 Vitrina 800",
-      "textura": "MADERA VERDE 18",
-      "veta": "HORIZONTAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 244.0,
-          "y": 35.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 33.0,
-          "y": 35.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 277.0,
-          "y": 58.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "R"
-        },
-        {
-          "x": 277.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "R"
-        },
-        {
-          "x": 0.0,
-          "y": 58.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "L"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 0.0,
-          "y1": 6.0,
-          "x2": 277.0,
-          "y2": 6.0,
-          "ancho": 12.0,
-          "profundidad": 5.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609290993",
       "nombre": "COCINA-01_A3 Vitrina 800_Estante 1",
       "ancho": 762.0,
       "alto": 281.0,
@@ -7463,7 +7063,7 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291006",
+      "codigo": "9992609290962",
       "nombre": "COCINA-01_A3 Vitrina 800_Estante 2",
       "ancho": 762.0,
       "alto": 281.0,
@@ -7484,13 +7084,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291013",
-      "nombre": "COCINA-01_A4 Vitrina 570_Piso",
+      "codigo": "9992609290979",
+      "nombre": "COCINA-01_A4 Campana 570_Piso",
       "ancho": 570.0,
       "alto": 332.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Vitrina 570",
+      "mueble": "A4 Campana 570",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -7531,15 +7131,6 @@
       "agujeros_canto": [],
       "ranuras": [
         {
-          "x1": 38.0,
-          "y1": 287.0,
-          "x2": 532.0,
-          "y2": 287.0,
-          "ancho": 10.0,
-          "profundidad": 10.0,
-          "cara": "B"
-        },
-        {
           "x1": 12.85,
           "y1": 27.5,
           "x2": 557.15,
@@ -7553,13 +7144,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291020",
-      "nombre": "COCINA-01_A4 Vitrina 570_Techo",
+      "codigo": "9992609290986",
+      "nombre": "COCINA-01_A4 Campana 570_Techo",
       "ancho": 570.0,
       "alto": 332.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Vitrina 570",
+      "mueble": "A4 Campana 570",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -7613,13 +7204,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291037",
-      "nombre": "COCINA-01_A4 Vitrina 570_Lateral der",
+      "codigo": "9992609290993",
+      "nombre": "COCINA-01_A4 Campana 570_Lateral der",
       "ancho": 332.0,
-      "alto": 964.0,
+      "alto": 620.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Vitrina 570",
+      "mueble": "A4 Campana 570",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -7630,168 +7221,84 @@
       "agujeros": [
         {
           "x": 295.0,
-          "y": 698.67,
+          "y": 366.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 698.67,
+          "y": 366.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 666.67,
+          "y": 334.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 666.67,
+          "y": 334.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 634.67,
+          "y": 302.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 634.67,
+          "y": 302.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 602.67,
+          "y": 270.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 602.67,
+          "y": 270.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 570.67,
+          "y": 238.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 68.0,
-          "y": 570.67,
+          "y": 238.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 377.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 377.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 345.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 345.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 313.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 313.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 281.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 281.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 249.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 249.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 896.5,
+          "y": 552.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 295.0,
-          "y": 864.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 498.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 466.0,
+          "y": 520.5,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
@@ -7812,21 +7319,21 @@
         },
         {
           "x": 9.0,
-          "y": 924.0,
+          "y": 580.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 931.0,
+          "y": 587.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 931.0,
+          "y": 587.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -7849,7 +7356,7 @@
       "agujeros_canto": [
         {
           "x": 54.0,
-          "y": 964.0,
+          "y": 620.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -7857,7 +7364,7 @@
         },
         {
           "x": 278.0,
-          "y": 964.0,
+          "y": 620.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -7885,7 +7392,7 @@
           "x1": 27.5,
           "y1": 0.0,
           "x2": 27.5,
-          "y2": 964.0,
+          "y2": 620.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -7895,13 +7402,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291044",
-      "nombre": "COCINA-01_A4 Vitrina 570_Lateral izq",
+      "codigo": "9992609291006",
+      "nombre": "COCINA-01_A4 Campana 570_Lateral izq",
       "ancho": 332.0,
-      "alto": 964.0,
+      "alto": 620.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Vitrina 570",
+      "mueble": "A4 Campana 570",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -7912,161 +7419,91 @@
       "agujeros": [
         {
           "x": 37.0,
-          "y": 698.67,
+          "y": 366.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 698.67,
+          "y": 366.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 666.67,
+          "y": 334.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 666.67,
+          "y": 334.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 634.67,
+          "y": 302.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 634.67,
+          "y": 302.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 602.67,
+          "y": 270.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 602.67,
+          "y": 270.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 37.0,
-          "y": 570.67,
+          "y": 238.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 264.0,
-          "y": 570.67,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 377.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 377.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 345.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 345.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 313.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 313.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 281.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 281.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 249.33,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 249.33,
+          "y": 238.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 323.0,
-          "y": 924.0,
+          "y": 580.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 931.0,
+          "y": 587.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 931.0,
+          "y": 587.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
@@ -8089,7 +7526,7 @@
       "agujeros_canto": [
         {
           "x": 54.0,
-          "y": 964.0,
+          "y": 620.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -8097,7 +7534,7 @@
         },
         {
           "x": 278.0,
-          "y": 964.0,
+          "y": 620.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -8125,7 +7562,7 @@
           "x1": 304.5,
           "y1": 0.0,
           "x2": 304.5,
-          "y2": 964.0,
+          "y2": 620.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -8135,13 +7572,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291051",
-      "nombre": "COCINA-01_A4 Vitrina 570_Fondo",
+      "codigo": "9992609291013",
+      "nombre": "COCINA-01_A4 Campana 570_Fondo",
       "ancho": 544.0,
-      "alto": 974.0,
+      "alto": 630.0,
       "espesor": 5.0,
       "material": "Melamina",
-      "mueble": "A4 Vitrina 570",
+      "mueble": "A4 Campana 570",
       "textura": "BLANCO 5",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -8156,13 +7593,13 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291068",
-      "nombre": "COCINA-01_A4 Vitrina 570_Travesano trasero",
+      "codigo": "9992609291020",
+      "nombre": "COCINA-01_A4 Campana 570_Travesano trasero",
       "ancho": 534.0,
       "alto": 80.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Vitrina 570",
+      "mueble": "A4 Campana 570",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -8209,59 +7646,52 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291075",
-      "nombre": "COCINA-01_A4 Vitrina 570_Puerta montante izq",
-      "ancho": 60.0,
-      "alto": 997.0,
+      "codigo": "9992609291037",
+      "nombre": "COCINA-01_A4 Campana 570_Puerta",
+      "ancho": 567.0,
+      "alto": 653.0,
       "espesor": 18.0,
-      "material": "Madera maciza",
-      "mueble": "A4 Vitrina 570",
-      "textura": "MADERA VERDE 18",
+      "material": "Melamina",
+      "mueble": "A4 Campana 570",
+      "textura": "VERDE 18",
       "veta": "VERTICAL",
       "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
+      "canto_abajo": 1.0,
+      "canto_arriba": 1.0,
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
       "agujeros": [
         {
+          "x": 522.0,
+          "y": 567.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 522.0,
+          "y": 439.0,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
           "x": 28.5,
-          "y": 921.0,
+          "y": 577.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 28.5,
-          "y": 873.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 22.5,
-          "y": 897.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 522.5,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 474.5,
+          "y": 529.0,
           "diametro": 5.0,
           "profundidad": 3.0,
           "cara": "A"
         },
         {
           "x": 22.5,
-          "y": 498.5,
+          "y": 553.0,
           "diametro": 35.0,
           "profundidad": 13.0,
           "cara": "A"
@@ -8288,292 +7718,19 @@
           "cara": "A"
         }
       ],
-      "agujeros_canto": [
-        {
-          "x": 60.0,
-          "y": 985.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "R"
-        },
-        {
-          "x": 60.0,
-          "y": 962.0,
-          "z": 9.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "canto": "R"
-        },
-        {
-          "x": 60.0,
-          "y": 12.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "R"
-        },
-        {
-          "x": 60.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "canto": "R"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 54.0,
-          "y1": 58.0,
-          "x2": 54.0,
-          "y2": 939.0,
-          "ancho": 12.0,
-          "profundidad": 5.0,
-          "cara": "A"
-        }
-      ],
+      "agujeros_canto": [],
+      "ranuras": [],
       "ranuras_canto": [],
       "contorno": []
     },
     {
-      "codigo": "9992609291082",
-      "nombre": "COCINA-01_A4 Vitrina 570_Puerta montante der",
-      "ancho": 60.0,
-      "alto": 997.0,
-      "espesor": 18.0,
-      "material": "Madera maciza",
-      "mueble": "A4 Vitrina 570",
-      "textura": "MADERA VERDE 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 20.0,
-          "y": 50.0,
-          "diametro": 5.0,
-          "profundidad": 18.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 0.0,
-          "y": 985.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 962.0,
-          "z": 9.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 12.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "canto": "L"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 6.0,
-          "y1": 58.0,
-          "x2": 6.0,
-          "y2": 939.0,
-          "ancho": 12.0,
-          "profundidad": 5.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609291099",
-      "nombre": "COCINA-01_A4 Vitrina 570_Puerta travesano abajo",
-      "ancho": 447.0,
-      "alto": 70.0,
-      "espesor": 18.0,
-      "material": "Madera maciza",
-      "mueble": "A4 Vitrina 570",
-      "textura": "MADERA VERDE 18",
-      "veta": "HORIZONTAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 414.0,
-          "y": 35.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 33.0,
-          "y": 35.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 447.0,
-          "y": 12.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "R"
-        },
-        {
-          "x": 447.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "R"
-        },
-        {
-          "x": 0.0,
-          "y": 12.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "L"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 0.0,
-          "y1": 64.0,
-          "x2": 447.0,
-          "y2": 64.0,
-          "ancho": 12.0,
-          "profundidad": 5.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609291105",
-      "nombre": "COCINA-01_A4 Vitrina 570_Puerta travesano arriba",
-      "ancho": 447.0,
-      "alto": 70.0,
-      "espesor": 18.0,
-      "material": "Madera maciza",
-      "mueble": "A4 Vitrina 570",
-      "textura": "MADERA VERDE 18",
-      "veta": "HORIZONTAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 0.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [
-        {
-          "x": 414.0,
-          "y": 35.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        },
-        {
-          "x": 33.0,
-          "y": 35.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [
-        {
-          "x": 447.0,
-          "y": 58.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "R"
-        },
-        {
-          "x": 447.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "R"
-        },
-        {
-          "x": 0.0,
-          "y": 58.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 15.0,
-          "canto": "L"
-        },
-        {
-          "x": 0.0,
-          "y": 35.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "L"
-        }
-      ],
-      "ranuras": [
-        {
-          "x1": 0.0,
-          "y1": 6.0,
-          "x2": 447.0,
-          "y2": 6.0,
-          "ancho": 12.0,
-          "profundidad": 5.0,
-          "cara": "A"
-        }
-      ],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609291112",
-      "nombre": "COCINA-01_A4 Vitrina 570_Estante 1",
+      "codigo": "9992609291044",
+      "nombre": "COCINA-01_A4 Campana 570_Estante 1",
       "ancho": 532.0,
       "alto": 281.0,
       "espesor": 18.0,
       "material": "Melamina",
-      "mueble": "A4 Vitrina 570",
+      "mueble": "A4 Campana 570",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
@@ -8588,28 +7745,7 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291129",
-      "nombre": "COCINA-01_A4 Vitrina 570_Estante 2",
-      "ancho": 532.0,
-      "alto": 281.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A4 Vitrina 570",
-      "textura": "BLANCO 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 0.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
-      "codigo": "9992609291136",
+      "codigo": "9992609291051",
       "nombre": "COCINA-01_Z Zocalos_Zocalo largo",
       "ancho": 1407.0,
       "alto": 99.0,
@@ -8630,7 +7766,7 @@
       "contorno": []
     },
     {
-      "codigo": "9992609291143",
+      "codigo": "9992609291068",
       "nombre": "COCINA-01_Z Zocalos_Zocalo diagonal",
       "ancho": 367.7,
       "alto": 99.0,

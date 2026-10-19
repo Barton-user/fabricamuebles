@@ -1,17 +1,9 @@
 codigo,mueble,pieza,largo,ancho,espesor,veta
-9992609290672,A1 Esquinero alacena,Puerta montante izq,1037.0,60.0,18.0,VERTICAL
-9992609290689,A1 Esquinero alacena,Puerta montante der,1037.0,60.0,18.0,VERTICAL
+9992609290672,A1 Esquinero alacena,Puerta montante izq,997.0,60.0,18.0,VERTICAL
+9992609290689,A1 Esquinero alacena,Puerta montante der,997.0,60.0,18.0,VERTICAL
 9992609290696,A1 Esquinero alacena,Puerta travesano abajo,513.4,70.0,18.0,HORIZONTAL
 9992609290702,A1 Esquinero alacena,Puerta travesano arriba,513.4,70.0,18.0,HORIZONTAL
-9992609290917,A3 Vitrina 800,Puerta der montante izq,1037.0,60.0,18.0,VERTICAL
-9992609290924,A3 Vitrina 800,Puerta der montante der,1037.0,60.0,18.0,VERTICAL
-9992609290931,A3 Vitrina 800,Puerta der travesano abajo,277.0,70.0,18.0,HORIZONTAL
-9992609290948,A3 Vitrina 800,Puerta der travesano arriba,277.0,70.0,18.0,HORIZONTAL
-9992609290955,A3 Vitrina 800,Puerta izq montante izq,1037.0,60.0,18.0,VERTICAL
-9992609290962,A3 Vitrina 800,Puerta izq montante der,1037.0,60.0,18.0,VERTICAL
-9992609290979,A3 Vitrina 800,Puerta izq travesano abajo,277.0,70.0,18.0,HORIZONTAL
-9992609290986,A3 Vitrina 800,Puerta izq travesano arriba,277.0,70.0,18.0,HORIZONTAL
-9992609291075,A4 Vitrina 570,Puerta montante izq,1037.0,60.0,18.0,VERTICAL
-9992609291082,A4 Vitrina 570,Puerta montante der,1037.0,60.0,18.0,VERTICAL
-9992609291099,A4 Vitrina 570,Puerta travesano abajo,447.0,70.0,18.0,HORIZONTAL
-9992609291105,A4 Vitrina 570,Puerta travesano arriba,447.0,70.0,18.0,HORIZONTAL
+9992609290917,A3 Vitrina 800,Puerta montante izq,997.0,60.0,18.0,VERTICAL
+9992609290924,A3 Vitrina 800,Puerta montante der,997.0,60.0,18.0,VERTICAL
+9992609290931,A3 Vitrina 800,Puerta travesano abajo,677.0,70.0,18.0,HORIZONTAL
+9992609290948,A3 Vitrina 800,Puerta travesano arriba,677.0,70.0,18.0,HORIZONTAL

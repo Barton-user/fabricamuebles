@@ -92,58 +92,52 @@ A2 Alacena 600 rebatible    10 placas
     9992609290825 Estante fijo                 301.0 x   564.0 x 18.0  BLANCO 18  ag   8  canto  4  ran 0
     9992609290832 Puerta rebatible arriba      379.0 x   597.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
     9992609290849 Puerta rebatible abajo       615.0 x   597.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
-A3 Vitrina 800              16 placas
+A3 Vitrina 800              12 placas
     9992609290856 Piso                         800.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 2
     9992609290863 Techo                        800.0 x   207.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 0
     9992609290870 Lateral der                  332.0 x   964.0 x 18.0  BLANCO 18  ag  30  canto  4  ran 1  (contorno)
-    9992609290887 Lateral izq                  332.0 x   964.0 x 18.0  BLANCO 18  ag  30  canto  4  ran 1  (contorno)
+    9992609290887 Lateral izq                  332.0 x   964.0 x 18.0  BLANCO 18  ag  24  canto  4  ran 1  (contorno)
     9992609290894 Fondo                        774.0 x   689.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
     9992609290900 Travesano trasero            764.0 x    80.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
-    9992609290917 Puerta der montante izq       60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   9  canto  4  ran 1
-    9992609290924 Puerta der montante der       60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   1  canto  4  ran 1
-    9992609290931 Puerta der travesano abajo   277.0 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
-    9992609290948 Puerta der travesano arriba   277.0 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
-    9992609290955 Puerta izq montante izq       60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   1  canto  4  ran 1
-    9992609290962 Puerta izq montante der       60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   9  canto  4  ran 1
-    9992609290979 Puerta izq travesano abajo   277.0 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
-    9992609290986 Puerta izq travesano arriba   277.0 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
-    9992609290993 Estante 1                    762.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
-    9992609291006 Estante 2                    762.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
-A4 Vitrina 570              12 placas
-    9992609291013 Piso                         570.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 2
-    9992609291020 Techo                        570.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 1
-    9992609291037 Lateral der                  332.0 x   964.0 x 18.0  BLANCO 18  ag  31  canto  4  ran 1
-    9992609291044 Lateral izq                  332.0 x   964.0 x 18.0  BLANCO 18  ag  25  canto  4  ran 1
-    9992609291051 Fondo                        544.0 x   974.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-    9992609291068 Travesano trasero            534.0 x    80.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
-    9992609291075 Puerta montante izq           60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   9  canto  4  ran 1
-    9992609291082 Puerta montante der           60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   1  canto  4  ran 1
-    9992609291099 Puerta travesano abajo       447.0 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
-    9992609291105 Puerta travesano arriba      447.0 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
-    9992609291112 Estante 1                    532.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
-    9992609291129 Estante 2                    532.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+    9992609290917 Puerta montante izq           60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   9  canto  4  ran 1
+    9992609290924 Puerta montante der           60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   1  canto  4  ran 1
+    9992609290931 Puerta travesano abajo       677.0 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
+    9992609290948 Puerta travesano arriba      677.0 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
+    9992609290955 Estante 1                    762.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+    9992609290962 Estante 2                    762.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+A4 Campana 570               8 placas
+    9992609290979 Piso                         570.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 1  (vitrina 1 ventanas)
+    9992609290986 Techo                        570.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 1
+    9992609290993 Lateral der                  332.0 x   620.0 x 18.0  BLANCO 18  ag  19  canto  4  ran 1
+    9992609291006 Lateral izq                  332.0 x   620.0 x 18.0  BLANCO 18  ag  15  canto  4  ran 1
+    9992609291013 Fondo                        544.0 x   630.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0  (vitrina 1 ventanas)
+    9992609291020 Travesano trasero            534.0 x    80.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609291037 Puerta                       567.0 x   653.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
+    9992609291044 Estante 1                    532.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0  (vitrina 1 ventanas)
 Z Zocalos                    2 placas
-    9992609291136 Zocalo largo                1407.0 x    99.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
-    9992609291143 Zocalo diagonal              367.7 x    99.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+    9992609291051 Zocalo largo                1407.0 x    99.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
+    9992609291068 Zocalo diagonal              367.7 x    99.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
 
-TOTAL 114 placas
+TOTAL 106 placas
 HERRAJES:
     Bacha Tawak Delta Simple 55     1
-    Bisagra O35                    24
+    Bisagra O35                    20
+    Campana Serie Dorada SDC-100    1
     Corredera bolas 450             8
     Cubiertero colgante Toly Poken 3 comp.    1
+    Ducto O150 campana              1
     Escurreplatos Bronzen LC-560    1
-    Excentrica O15                120
-    Parrilla 277x857 2x3            2
-    Parrilla 447x857 2x3            1
+    Excentrica O15                112
     Parrilla 513x857 2x3            1
+    Parrilla 677x857 2x3            1
     Pata regulable                 17
-    Perilla                         4
-    Perno O8 x 33                 120
-    Soporte estante O5             28
-    Tira                            4
-    Tirador barral 128             10
-    Vidrio                          4
+    Perilla                         2
+    Perno O8 x 33                 112
+    Salida de aire O150 (existente)    1
+    Soporte estante O5             24
+    Tira                            3
+    Tirador barral 128             11
+    Vidrio                          2
 
 AVISO: B2 Bajo pileta 600: bacha Bacha Tawak Delta Simple 55 (550 x 460 x 220, sobre mesada) centrada en X=1100, Y=300; calado de mesada SUPUESTO 530 x 440: confirmar con la plantilla de la bacha antes de cortar.
 AVISO: A1 Esquinero alacena / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 535 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).
@@ -157,12 +151,11 @@ AVISO: A2 Alacena 600 rebatible: hojas rebatibles con bisagras de cazoleta codo 
 AVISO: A2 Alacena 600 rebatible: SIN PISO, abierta sobre la bacha. Escurreplatos Bronzen LC-560 (564 x 270) + Cubiertero colgante Toly Poken 3 comp. colgados de los laterales bajo el estante fijo, tornillos O3 a mano. Alturas supuestas (platos 280, vasos 130, cubiertero 140): el cubiertero termina en Z=1480 (boca del mueble Z=1450). Confirmar con el herraje real.
 AVISO: A3 Vitrina 800: ESCOTADURA de 125 x 277 atras-arriba en los laterales por la viga (2160 al techo, 120 de saliente); el techo arranca a 125 de la pared; el travesano se atornilla a la viga; el fondo termina en Z=2152 y arriba la viga queda a la vista.
 AVISO: A3 Vitrina 800: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.
-AVISO: A3 Vitrina 800 / Puerta der: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 299 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).
-AVISO: A3 Vitrina 800 / Puerta izq: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 299 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).
+AVISO: A3 Vitrina 800 / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 699 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).
 AVISO: A3 Vitrina 800 / Lateral der: pin O5 en (68, 698.667) cae en la escotadura: se omite
 AVISO: A3 Vitrina 800 / Lateral izq: pin O5 en (264, 698.667) cae en la escotadura: se omite
-AVISO: A4 Vitrina 570: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.
-AVISO: A4 Vitrina 570 / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 469 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).
+AVISO: A4 Campana 570: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.
+AVISO: A4 Campana 570: MUEBLE CAMPANA 1794-2450; Campana Serie Dorada SDC-100 colgada debajo del piso (boca a 700 sobre la mesada, asoma 15 por lado), ducto O150 por adentro hasta la salida de aire (Y=1120, Z=2120); paso de 170x170 en el piso y en el fondo A CALADORA/ROUTER (no CNC); posicion de la salida de la campana (150 de la pared) SUPUESTA: confirmar con la campana en mano. Puerta ciega.
 AVISO: Zocalos: las puntas se ajustan en obra (encuentro a 45 entre el largo y el diagonal).
 AVISO: B1 Esquinero bajo / Piso: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
 AVISO: B1 Esquinero bajo / Techo: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
@@ -177,5 +170,8 @@ AVISO: A2 Alacena 600 rebatible / Lateral der: contorno con chanfle a 45 — la 
 AVISO: A2 Alacena 600 rebatible / Lateral izq: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 982, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
 AVISO: A3 Vitrina 800 / Lateral der: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 964, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
 AVISO: A3 Vitrina 800 / Lateral izq: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 964, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
+AVISO: A4 Campana 570 / Piso: 1 ventana(s) pasante(s) (170x170) — a CALADORA o ROUTER, no salen en los archivos de la perforadora.
+AVISO: A4 Campana 570 / Fondo: 1 ventana(s) pasante(s) (170x170) — a CALADORA o ROUTER, no salen en los archivos de la perforadora.
+AVISO: A4 Campana 570 / Estante 1: 1 ventana(s) pasante(s) (180x180) — a CALADORA o ROUTER, no salen en los archivos de la perforadora.
 AVISO: Alacenas sin cenefa ni cornisa (18/10): la tira LED va EMBUTIDA en la ranura 10x10 del piso con perfil de aluminio y difusor a ras.
 AVISO: Tiradores: agujeros O5 PASANTES desde la cara A (interior). Si el frente astilla a la salida, perforarlos desde la cara B.

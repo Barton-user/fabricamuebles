@@ -253,6 +253,38 @@ def _forma_cubiertero(a):
     return f
 
 
+def _forma_campana(a):
+    """Campana extensible colgada bajo el piso: origen en el centro del mueble sobre la pared, a la
+    altura del piso; Z arriba, Y hacia el frente. Cuerpo + visor extensible (cerrado) + filtros."""
+    def f(tbm):
+        A = ADR()
+        w, h, p, fr = a["ancho"], a["alto"], a["prof"], a["frente"]
+        cuerpo = A.caja(tbm, -w / 2, w / 2, fr - p, fr, -h, 0.0)
+        hueco = A.caja(tbm, -w / 2 + 15, w / 2 - 15, fr - p + 15, fr - 60, -h - 1, -8.0)   # rejilla de filtros
+        A.resta(tbm, cuerpo, [hueco])
+        filtros = A.caja(tbm, -w / 2 + 20, w / 2 - 20, fr - p + 20, fr - 65, -h + 2, -h + 10)
+        visor = A.caja(tbm, -w / 2, w / 2, fr - 60, fr + 2, -h, -h + 40)
+        return [cuerpo, filtros, visor]
+    return f
+
+
+def _forma_ducto(a):
+    """Ducto O150: vertical desde la salida de la campana (y = prof de la pared) hasta `alto`, y codo
+    horizontal hasta la pared (y = -30, dentro de la salida de aire)."""
+    def f(tbm):
+        A = ADR()
+        d, yp, h = a["d"], a["prof"], a["alto"]
+        return [A.cil(tbm, (0, yp, 0), (0, yp, h), d), A.cil(tbm, (0, yp, h), (0, -30.0, h), d)]
+    return f
+
+
+def _forma_salida_aire(a):
+    def f(tbm):
+        A = ADR()
+        return [A.cil(tbm, (0, 0, -60.0), (0, 0, 2.0), a["d"] + 20), A.cil(tbm, (0, 0, -61.0), (0, 0, 3.0), a["d"])]
+    return f
+
+
 def _forma_parrilla(a):
     """Cruz de listones pegada al frente del vidrio: origen en la esquina del hueco,
     Z hacia el frente; cols-1 listones verticales y filas-1 horizontales."""
@@ -303,6 +335,12 @@ def forma(h):
         return _forma_parrilla(a)
     if f == "bacha":
         return _forma_bacha(a)
+    if f == "campana":
+        return _forma_campana(a)
+    if f == "ducto":
+        return _forma_ducto(a)
+    if f == "salida_aire":
+        return _forma_salida_aire(a)
     if f == "escurreplatos":
         return _forma_escurreplatos(a)
     if f == "cubiertero":

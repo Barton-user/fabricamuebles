@@ -1,4 +1,4 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:54:28" Source="fabrica-muebles" SourceType="BAN">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:17:16" Source="fabrica-muebles" SourceType="BAN">
 <Plane Width="574.00" Height="689.00" PlaneSize="1" Grain="2" Thickness="5" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A2 Alacena 600 rebatible_Fondo" Code="9992609290795">
     <Outline>
         <Point Value="0.00 0.00 0"/>

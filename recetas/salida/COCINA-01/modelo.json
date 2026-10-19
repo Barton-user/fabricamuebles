@@ -8703,54 +8703,6 @@
      "sym": "3in1"
     },
     {
-     "x": 37.0,
-     "y": 67.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 37.0,
-     "y": 99.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 37.0,
-     "y": 466.0,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 37.0,
-     "y": 498.0,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 37.0,
-     "y": 864.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 37.0,
-     "y": 896.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
      "x": 264.0,
      "y": 249.33,
      "d": 5.0,
@@ -9084,8 +9036,8 @@
   },
   {
    "mueble": "A3 Vitrina 800",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der montante izq",
-   "pieza": "Puerta der montante izq",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta montante izq",
+   "pieza": "Puerta montante izq",
    "codigo": "9992609290917",
    "rol": "PUERTA",
    "W": 60.0,
@@ -9246,15 +9198,15 @@
   },
   {
    "mueble": "A3 Vitrina 800",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der montante der",
-   "pieza": "Puerta der montante der",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta montante der",
+   "pieza": "Puerta montante der",
    "codigo": "9992609290924",
    "rol": "PUERTA",
    "W": 60.0,
    "H": 997.0,
    "T": 18.0,
    "O": [
-    1738.5,
+    2138.5,
     332.0,
     1451.5
    ],
@@ -9344,11 +9296,11 @@
   },
   {
    "mueble": "A3 Vitrina 800",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der travesano abajo",
-   "pieza": "Puerta der travesano abajo",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta travesano abajo",
+   "pieza": "Puerta travesano abajo",
    "codigo": "9992609290931",
    "rol": "PUERTA",
-   "W": 277.0,
+   "W": 677.0,
    "H": 70.0,
    "T": 18.0,
    "O": [
@@ -9386,7 +9338,7 @@
      "sym": "3in1"
     },
     {
-     "x": 244.0,
+     "x": 644.0,
      "y": 35.0,
      "d": 15.0,
      "prof": 13.5,
@@ -9414,7 +9366,7 @@
      "sym": "dowel"
     },
     {
-     "x": 277.0,
+     "x": 677.0,
      "y": 35.0,
      "z": 9.0,
      "d": 8.0,
@@ -9423,7 +9375,7 @@
      "sym": "3in1"
     },
     {
-     "x": 277.0,
+     "x": 677.0,
      "y": 12.0,
      "z": 9.0,
      "d": 8.0,
@@ -9436,7 +9388,7 @@
     {
      "x1": 0.0,
      "y1": 64.0,
-     "x2": 277.0,
+     "x2": 677.0,
      "y2": 64.0,
      "ancho": 12.0,
      "prof": 5.0,
@@ -9450,11 +9402,11 @@
   },
   {
    "mueble": "A3 Vitrina 800",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta der travesano arriba",
-   "pieza": "Puerta der travesano arriba",
+   "nombre": "COCINA-01_A3 Vitrina 800_Puerta travesano arriba",
+   "pieza": "Puerta travesano arriba",
    "codigo": "9992609290948",
    "rol": "PUERTA",
-   "W": 277.0,
+   "W": 677.0,
    "H": 70.0,
    "T": 18.0,
    "O": [
@@ -9492,7 +9444,7 @@
      "sym": "3in1"
     },
     {
-     "x": 244.0,
+     "x": 644.0,
      "y": 35.0,
      "d": 15.0,
      "prof": 13.5,
@@ -9520,7 +9472,7 @@
      "sym": "dowel"
     },
     {
-     "x": 277.0,
+     "x": 677.0,
      "y": 35.0,
      "z": 9.0,
      "d": 8.0,
@@ -9529,479 +9481,7 @@
      "sym": "3in1"
     },
     {
-     "x": 277.0,
-     "y": 58.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "DER",
-     "sym": "dowel"
-    }
-   ],
-   "ranuras": [
-    {
-     "x1": 0.0,
-     "y1": 6.0,
-     "x2": 277.0,
-     "y2": 6.0,
-     "ancho": 12.0,
-     "prof": 5.0,
-     "cara": "A",
-     "sym": "glassSlot"
-    }
-   ],
-   "ventanas": [],
-   "rebajes": [],
-   "escotaduras": []
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq montante izq",
-   "pieza": "Puerta izq montante izq",
-   "codigo": "9992609290955",
-   "rol": "PUERTA",
-   "W": 60.0,
-   "H": 997.0,
-   "T": 18.0,
-   "O": [
-    1801.5,
-    332.0,
-    1451.5
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ey": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "contorno": null,
-   "material": "Madera maciza",
-   "textura": "MADERA VERDE 18",
-   "veta": "VERTICAL",
-   "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 0.0
-   },
-   "agujeros": [
-    {
-     "x": 40.0,
-     "y": 50.0,
-     "d": 5.0,
-     "prof": 18.0,
-     "cara": "A",
-     "sym": "handle"
-    }
-   ],
-   "agujeros_canto": [
-    {
-     "x": 60.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "canto": "DER",
-     "sym": "3in1"
-    },
-    {
-     "x": 60.0,
-     "y": 12.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "DER",
-     "sym": "dowel"
-    },
-    {
-     "x": 60.0,
-     "y": 962.0,
-     "z": 9.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "canto": "DER",
-     "sym": "3in1"
-    },
-    {
-     "x": 60.0,
-     "y": 985.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "DER",
-     "sym": "dowel"
-    }
-   ],
-   "ranuras": [
-    {
-     "x1": 54.0,
-     "y1": 58.0,
-     "x2": 54.0,
-     "y2": 939.0,
-     "ancho": 12.0,
-     "prof": 5.0,
-     "cara": "A",
-     "sym": "glassSlot"
-    }
-   ],
-   "ventanas": [],
-   "rebajes": [],
-   "escotaduras": []
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq montante der",
-   "pieza": "Puerta izq montante der",
-   "codigo": "9992609290962",
-   "rol": "PUERTA",
-   "W": 60.0,
-   "H": 997.0,
-   "T": 18.0,
-   "O": [
-    2138.5,
-    332.0,
-    1451.5
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ey": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "contorno": null,
-   "material": "Madera maciza",
-   "textura": "MADERA VERDE 18",
-   "veta": "VERTICAL",
-   "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 0.0
-   },
-   "agujeros": [
-    {
-     "x": 37.5,
-     "y": 100.0,
-     "d": 35.0,
-     "prof": 13.0,
-     "cara": "A",
-     "sym": "HINGE"
-    },
-    {
-     "x": 31.5,
-     "y": 76.0,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "HINGESCREW"
-    },
-    {
-     "x": 31.5,
-     "y": 124.0,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "HINGESCREW"
-    },
-    {
-     "x": 37.5,
-     "y": 498.5,
-     "d": 35.0,
-     "prof": 13.0,
-     "cara": "A",
-     "sym": "HINGE"
-    },
-    {
-     "x": 31.5,
-     "y": 474.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "HINGESCREW"
-    },
-    {
-     "x": 31.5,
-     "y": 522.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "HINGESCREW"
-    },
-    {
-     "x": 37.5,
-     "y": 897.0,
-     "d": 35.0,
-     "prof": 13.0,
-     "cara": "A",
-     "sym": "HINGE"
-    },
-    {
-     "x": 31.5,
-     "y": 873.0,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "HINGESCREW"
-    },
-    {
-     "x": 31.5,
-     "y": 921.0,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "HINGESCREW"
-    }
-   ],
-   "agujeros_canto": [
-    {
-     "x": 0.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "canto": "IZQ",
-     "sym": "3in1"
-    },
-    {
-     "x": 0.0,
-     "y": 12.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "IZQ",
-     "sym": "dowel"
-    },
-    {
-     "x": 0.0,
-     "y": 962.0,
-     "z": 9.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "canto": "IZQ",
-     "sym": "3in1"
-    },
-    {
-     "x": 0.0,
-     "y": 985.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "IZQ",
-     "sym": "dowel"
-    }
-   ],
-   "ranuras": [
-    {
-     "x1": 6.0,
-     "y1": 58.0,
-     "x2": 6.0,
-     "y2": 939.0,
-     "ancho": 12.0,
-     "prof": 5.0,
-     "cara": "A",
-     "sym": "glassSlot"
-    }
-   ],
-   "ventanas": [],
-   "rebajes": [],
-   "escotaduras": []
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq travesano abajo",
-   "pieza": "Puerta izq travesano abajo",
-   "codigo": "9992609290979",
-   "rol": "PUERTA",
-   "W": 277.0,
-   "H": 70.0,
-   "T": 18.0,
-   "O": [
-    1861.5,
-    332.0,
-    1451.5
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ey": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "contorno": null,
-   "material": "Madera maciza",
-   "textura": "MADERA VERDE 18",
-   "veta": "HORIZONTAL",
-   "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 0.0
-   },
-   "agujeros": [
-    {
-     "x": 33.0,
-     "y": 35.0,
-     "d": 15.0,
-     "prof": 13.5,
-     "cara": "A",
-     "sym": "3in1"
-    },
-    {
-     "x": 244.0,
-     "y": 35.0,
-     "d": 15.0,
-     "prof": 13.5,
-     "cara": "A",
-     "sym": "3in1"
-    }
-   ],
-   "agujeros_canto": [
-    {
-     "x": 0.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 33.0,
-     "canto": "IZQ",
-     "sym": "3in1"
-    },
-    {
-     "x": 0.0,
-     "y": 12.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "IZQ",
-     "sym": "dowel"
-    },
-    {
-     "x": 277.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 33.0,
-     "canto": "DER",
-     "sym": "3in1"
-    },
-    {
-     "x": 277.0,
-     "y": 12.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "DER",
-     "sym": "dowel"
-    }
-   ],
-   "ranuras": [
-    {
-     "x1": 0.0,
-     "y1": 64.0,
-     "x2": 277.0,
-     "y2": 64.0,
-     "ancho": 12.0,
-     "prof": 5.0,
-     "cara": "A",
-     "sym": "glassSlot"
-    }
-   ],
-   "ventanas": [],
-   "rebajes": [],
-   "escotaduras": []
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "COCINA-01_A3 Vitrina 800_Puerta izq travesano arriba",
-   "pieza": "Puerta izq travesano arriba",
-   "codigo": "9992609290986",
-   "rol": "PUERTA",
-   "W": 277.0,
-   "H": 70.0,
-   "T": 18.0,
-   "O": [
-    1861.5,
-    332.0,
-    2378.5
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ey": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "contorno": null,
-   "material": "Madera maciza",
-   "textura": "MADERA VERDE 18",
-   "veta": "HORIZONTAL",
-   "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 0.0
-   },
-   "agujeros": [
-    {
-     "x": 33.0,
-     "y": 35.0,
-     "d": 15.0,
-     "prof": 13.5,
-     "cara": "A",
-     "sym": "3in1"
-    },
-    {
-     "x": 244.0,
-     "y": 35.0,
-     "d": 15.0,
-     "prof": 13.5,
-     "cara": "A",
-     "sym": "3in1"
-    }
-   ],
-   "agujeros_canto": [
-    {
-     "x": 0.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 33.0,
-     "canto": "IZQ",
-     "sym": "3in1"
-    },
-    {
-     "x": 0.0,
-     "y": 58.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "IZQ",
-     "sym": "dowel"
-    },
-    {
-     "x": 277.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 33.0,
-     "canto": "DER",
-     "sym": "3in1"
-    },
-    {
-     "x": 277.0,
+     "x": 677.0,
      "y": 58.0,
      "z": 9.0,
      "d": 8.0,
@@ -10014,7 +9494,7 @@
     {
      "x1": 0.0,
      "y1": 6.0,
-     "x2": 277.0,
+     "x2": 677.0,
      "y2": 6.0,
      "ancho": 12.0,
      "prof": 5.0,
@@ -10030,7 +9510,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609290993",
+   "codigo": "9992609290955",
    "rol": "",
    "W": 762.0,
    "H": 281.0,
@@ -10071,7 +9551,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Estante 2",
    "pieza": "Estante 2",
-   "codigo": "9992609291006",
+   "codigo": "9992609290962",
    "rol": "",
    "W": 762.0,
    "H": 281.0,
@@ -10109,10 +9589,10 @@
    "escotaduras": []
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Piso",
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Piso",
    "pieza": "Piso",
-   "codigo": "9992609291013",
+   "codigo": "9992609290979",
    "rol": "",
    "W": 570.0,
    "H": 332.0,
@@ -10120,7 +9600,7 @@
    "O": [
     0,
     1370.0,
-    1468.0
+    1812.0
    ],
    "ex": [
     0.0,
@@ -10187,27 +9667,24 @@
      "prof": 6.0,
      "cara": "A",
      "sym": "BP"
-    },
-    {
-     "x1": 38.0,
-     "y1": 287.0,
-     "x2": 532.0,
-     "y2": 287.0,
-     "ancho": 10.0,
-     "prof": 10.0,
-     "cara": "B",
-     "sym": "lightSlot"
     }
    ],
-   "ventanas": [],
+   "ventanas": [
+    {
+     "x1": 165.0,
+     "y1": 65.0,
+     "x2": 335.0,
+     "y2": 235.0
+    }
+   ],
    "rebajes": [],
    "escotaduras": []
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Techo",
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Techo",
    "pieza": "Techo",
-   "codigo": "9992609291020",
+   "codigo": "9992609290986",
    "rol": "",
    "W": 570.0,
    "H": 332.0,
@@ -10289,18 +9766,18 @@
    "escotaduras": []
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Lateral der",
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609291037",
+   "codigo": "9992609290993",
    "rol": "",
    "W": 332.0,
-   "H": 964.0,
+   "H": 620.0,
    "T": 18.0,
    "O": [
     0,
     1352.0,
-    1468.0
+    1812.0
    ],
    "ex": [
     1.0,
@@ -10341,7 +9818,7 @@
     },
     {
      "x": 278.0,
-     "y": 931.0,
+     "y": 587.0,
      "d": 15.0,
      "prof": 13.5,
      "cara": "A",
@@ -10349,7 +9826,7 @@
     },
     {
      "x": 54.0,
-     "y": 931.0,
+     "y": 587.0,
      "d": 15.0,
      "prof": 13.5,
      "cara": "A",
@@ -10357,7 +9834,7 @@
     },
     {
      "x": 9.0,
-     "y": 924.0,
+     "y": 580.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10381,7 +9858,7 @@
     },
     {
      "x": 295.0,
-     "y": 466.0,
+     "y": 520.5,
      "d": 5.0,
      "prof": 3.0,
      "cara": "A",
@@ -10389,23 +9866,7 @@
     },
     {
      "x": 295.0,
-     "y": 498.0,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 295.0,
-     "y": 864.5,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "jlHoleEX"
-    },
-    {
-     "x": 295.0,
-     "y": 896.5,
+     "y": 552.5,
      "d": 5.0,
      "prof": 3.0,
      "cara": "A",
@@ -10413,7 +9874,7 @@
     },
     {
      "x": 68.0,
-     "y": 249.33,
+     "y": 238.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10421,7 +9882,7 @@
     },
     {
      "x": 295.0,
-     "y": 249.33,
+     "y": 238.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10429,7 +9890,7 @@
     },
     {
      "x": 68.0,
-     "y": 281.33,
+     "y": 270.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10437,7 +9898,7 @@
     },
     {
      "x": 295.0,
-     "y": 281.33,
+     "y": 270.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10445,7 +9906,7 @@
     },
     {
      "x": 68.0,
-     "y": 313.33,
+     "y": 302.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10453,7 +9914,7 @@
     },
     {
      "x": 295.0,
-     "y": 313.33,
+     "y": 302.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10461,7 +9922,7 @@
     },
     {
      "x": 68.0,
-     "y": 345.33,
+     "y": 334.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10469,7 +9930,7 @@
     },
     {
      "x": 295.0,
-     "y": 345.33,
+     "y": 334.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10477,7 +9938,7 @@
     },
     {
      "x": 68.0,
-     "y": 377.33,
+     "y": 366.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10485,87 +9946,7 @@
     },
     {
      "x": 295.0,
-     "y": 377.33,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 68.0,
-     "y": 570.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 295.0,
-     "y": 570.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 68.0,
-     "y": 602.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 295.0,
-     "y": 602.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 68.0,
-     "y": 634.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 295.0,
-     "y": 634.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 68.0,
-     "y": 666.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 295.0,
-     "y": 666.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 68.0,
-     "y": 698.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 295.0,
-     "y": 698.67,
+     "y": 366.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10593,7 +9974,7 @@
     },
     {
      "x": 278.0,
-     "y": 964.0,
+     "y": 620.0,
      "z": 9.0,
      "d": 8.0,
      "prof": 33.0,
@@ -10602,7 +9983,7 @@
     },
     {
      "x": 54.0,
-     "y": 964.0,
+     "y": 620.0,
      "z": 9.0,
      "d": 8.0,
      "prof": 33.0,
@@ -10615,7 +9996,7 @@
      "x1": 27.5,
      "y1": 0,
      "x2": 27.5,
-     "y2": 964.0,
+     "y2": 620.0,
      "ancho": 6.0,
      "prof": 6.0,
      "cara": "A",
@@ -10627,18 +10008,18 @@
    "escotaduras": []
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Lateral izq",
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609291044",
+   "codigo": "9992609291006",
    "rol": "",
    "W": 332.0,
-   "H": 964.0,
+   "H": 620.0,
    "T": 18.0,
    "O": [
     332.0,
     818.0,
-    1468.0
+    1812.0
    ],
    "ex": [
     -1.0,
@@ -10679,7 +10060,7 @@
     },
     {
      "x": 278.0,
-     "y": 931.0,
+     "y": 587.0,
      "d": 15.0,
      "prof": 13.5,
      "cara": "A",
@@ -10687,7 +10068,7 @@
     },
     {
      "x": 54.0,
-     "y": 931.0,
+     "y": 587.0,
      "d": 15.0,
      "prof": 13.5,
      "cara": "A",
@@ -10695,7 +10076,7 @@
     },
     {
      "x": 323.0,
-     "y": 924.0,
+     "y": 580.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10703,7 +10084,7 @@
     },
     {
      "x": 264.0,
-     "y": 249.33,
+     "y": 238.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10711,7 +10092,7 @@
     },
     {
      "x": 37.0,
-     "y": 249.33,
+     "y": 238.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10719,7 +10100,7 @@
     },
     {
      "x": 264.0,
-     "y": 281.33,
+     "y": 270.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10727,7 +10108,7 @@
     },
     {
      "x": 37.0,
-     "y": 281.33,
+     "y": 270.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10735,7 +10116,7 @@
     },
     {
      "x": 264.0,
-     "y": 313.33,
+     "y": 302.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10743,7 +10124,7 @@
     },
     {
      "x": 37.0,
-     "y": 313.33,
+     "y": 302.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10751,7 +10132,7 @@
     },
     {
      "x": 264.0,
-     "y": 345.33,
+     "y": 334.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10759,7 +10140,7 @@
     },
     {
      "x": 37.0,
-     "y": 345.33,
+     "y": 334.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10767,7 +10148,7 @@
     },
     {
      "x": 264.0,
-     "y": 377.33,
+     "y": 366.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10775,87 +10156,7 @@
     },
     {
      "x": 37.0,
-     "y": 377.33,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 264.0,
-     "y": 570.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 37.0,
-     "y": 570.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 264.0,
-     "y": 602.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 37.0,
-     "y": 602.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 264.0,
-     "y": 634.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 37.0,
-     "y": 634.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 264.0,
-     "y": 666.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 37.0,
-     "y": 666.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 264.0,
-     "y": 698.67,
-     "d": 5.0,
-     "prof": 12.0,
-     "cara": "A",
-     "sym": "shelfPin"
-    },
-    {
-     "x": 37.0,
-     "y": 698.67,
+     "y": 366.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -10883,7 +10184,7 @@
     },
     {
      "x": 278.0,
-     "y": 964.0,
+     "y": 620.0,
      "z": 9.0,
      "d": 8.0,
      "prof": 33.0,
@@ -10892,7 +10193,7 @@
     },
     {
      "x": 54.0,
-     "y": 964.0,
+     "y": 620.0,
      "z": 9.0,
      "d": 8.0,
      "prof": 33.0,
@@ -10905,7 +10206,7 @@
      "x1": 304.5,
      "y1": 0,
      "x2": 304.5,
-     "y2": 964.0,
+     "y2": 620.0,
      "ancho": 6.0,
      "prof": 6.0,
      "cara": "A",
@@ -10917,18 +10218,18 @@
    "escotaduras": []
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Fondo",
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609291051",
+   "codigo": "9992609291013",
    "rol": "FONDO",
    "W": 544.0,
-   "H": 974.0,
+   "H": 630.0,
    "T": 5.0,
    "O": [
     30.0,
     813.0,
-    1463.0
+    1807.0
    ],
    "ex": [
     0.0,
@@ -10953,15 +10254,22 @@
    "agujeros": [],
    "agujeros_canto": [],
    "ranuras": [],
-   "ventanas": [],
+   "ventanas": [
+    {
+     "x1": 222.0,
+     "y1": 228.0,
+     "x2": 392.0,
+     "y2": 398.0
+    }
+   ],
    "rebajes": [],
    "escotaduras": []
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Travesano trasero",
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609291068",
+   "codigo": "9992609291020",
    "rol": "",
    "W": 534.0,
    "H": 80.0,
@@ -11035,18 +10343,18 @@
    "escotaduras": []
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Puerta montante izq",
-   "pieza": "Puerta montante izq",
-   "codigo": "9992609291075",
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Puerta",
+   "pieza": "Puerta",
+   "codigo": "9992609291037",
    "rol": "PUERTA",
-   "W": 60.0,
-   "H": 997.0,
+   "W": 567.0,
+   "H": 653.0,
    "T": 18.0,
    "O": [
     332.0,
     1368.5,
-    1451.5
+    1795.5
    ],
    "ex": [
     0.0,
@@ -11059,14 +10367,14 @@
     1.0
    ],
    "contorno": null,
-   "material": "Madera maciza",
-   "textura": "MADERA VERDE 18",
+   "material": "Melamina",
+   "textura": "VERDE 18",
    "veta": "VERTICAL",
    "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 0.0
+    "IZQ": 1.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
    },
    "agujeros": [
     {
@@ -11095,7 +10403,7 @@
     },
     {
      "x": 22.5,
-     "y": 498.5,
+     "y": 553.0,
      "d": 35.0,
      "prof": 13.0,
      "cara": "A",
@@ -11103,7 +10411,7 @@
     },
     {
      "x": 28.5,
-     "y": 474.5,
+     "y": 529.0,
      "d": 5.0,
      "prof": 3.0,
      "cara": "A",
@@ -11111,406 +10419,40 @@
     },
     {
      "x": 28.5,
-     "y": 522.5,
+     "y": 577.0,
      "d": 5.0,
      "prof": 3.0,
      "cara": "A",
      "sym": "HINGESCREW"
     },
     {
-     "x": 22.5,
-     "y": 897.0,
-     "d": 35.0,
-     "prof": 13.0,
-     "cara": "A",
-     "sym": "HINGE"
-    },
-    {
-     "x": 28.5,
-     "y": 873.0,
+     "x": 522.0,
+     "y": 439.0,
      "d": 5.0,
-     "prof": 3.0,
+     "prof": 18.0,
      "cara": "A",
-     "sym": "HINGESCREW"
+     "sym": "handle"
     },
     {
-     "x": 28.5,
-     "y": 921.0,
-     "d": 5.0,
-     "prof": 3.0,
-     "cara": "A",
-     "sym": "HINGESCREW"
-    }
-   ],
-   "agujeros_canto": [
-    {
-     "x": 60.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "canto": "DER",
-     "sym": "3in1"
-    },
-    {
-     "x": 60.0,
-     "y": 12.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "DER",
-     "sym": "dowel"
-    },
-    {
-     "x": 60.0,
-     "y": 962.0,
-     "z": 9.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "canto": "DER",
-     "sym": "3in1"
-    },
-    {
-     "x": 60.0,
-     "y": 985.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "DER",
-     "sym": "dowel"
-    }
-   ],
-   "ranuras": [
-    {
-     "x1": 54.0,
-     "y1": 58.0,
-     "x2": 54.0,
-     "y2": 939.0,
-     "ancho": 12.0,
-     "prof": 5.0,
-     "cara": "A",
-     "sym": "glassSlot"
-    }
-   ],
-   "ventanas": [],
-   "rebajes": [],
-   "escotaduras": []
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Puerta montante der",
-   "pieza": "Puerta montante der",
-   "codigo": "9992609291082",
-   "rol": "PUERTA",
-   "W": 60.0,
-   "H": 997.0,
-   "T": 18.0,
-   "O": [
-    332.0,
-    861.5,
-    1451.5
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ey": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "contorno": null,
-   "material": "Madera maciza",
-   "textura": "MADERA VERDE 18",
-   "veta": "VERTICAL",
-   "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 0.0
-   },
-   "agujeros": [
-    {
-     "x": 20.0,
-     "y": 50.0,
+     "x": 522.0,
+     "y": 567.0,
      "d": 5.0,
      "prof": 18.0,
      "cara": "A",
      "sym": "handle"
     }
    ],
-   "agujeros_canto": [
-    {
-     "x": 0.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "canto": "IZQ",
-     "sym": "3in1"
-    },
-    {
-     "x": 0.0,
-     "y": 12.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "IZQ",
-     "sym": "dowel"
-    },
-    {
-     "x": 0.0,
-     "y": 962.0,
-     "z": 9.0,
-     "d": 5.0,
-     "prof": 12.0,
-     "canto": "IZQ",
-     "sym": "3in1"
-    },
-    {
-     "x": 0.0,
-     "y": 985.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "IZQ",
-     "sym": "dowel"
-    }
-   ],
-   "ranuras": [
-    {
-     "x1": 6.0,
-     "y1": 58.0,
-     "x2": 6.0,
-     "y2": 939.0,
-     "ancho": 12.0,
-     "prof": 5.0,
-     "cara": "A",
-     "sym": "glassSlot"
-    }
-   ],
+   "agujeros_canto": [],
+   "ranuras": [],
    "ventanas": [],
    "rebajes": [],
    "escotaduras": []
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Puerta travesano abajo",
-   "pieza": "Puerta travesano abajo",
-   "codigo": "9992609291099",
-   "rol": "PUERTA",
-   "W": 447.0,
-   "H": 70.0,
-   "T": 18.0,
-   "O": [
-    332.0,
-    1308.5,
-    1451.5
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ey": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "contorno": null,
-   "material": "Madera maciza",
-   "textura": "MADERA VERDE 18",
-   "veta": "HORIZONTAL",
-   "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 0.0
-   },
-   "agujeros": [
-    {
-     "x": 33.0,
-     "y": 35.0,
-     "d": 15.0,
-     "prof": 13.5,
-     "cara": "A",
-     "sym": "3in1"
-    },
-    {
-     "x": 414.0,
-     "y": 35.0,
-     "d": 15.0,
-     "prof": 13.5,
-     "cara": "A",
-     "sym": "3in1"
-    }
-   ],
-   "agujeros_canto": [
-    {
-     "x": 0.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 33.0,
-     "canto": "IZQ",
-     "sym": "3in1"
-    },
-    {
-     "x": 0.0,
-     "y": 12.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "IZQ",
-     "sym": "dowel"
-    },
-    {
-     "x": 447.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 33.0,
-     "canto": "DER",
-     "sym": "3in1"
-    },
-    {
-     "x": 447.0,
-     "y": 12.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "DER",
-     "sym": "dowel"
-    }
-   ],
-   "ranuras": [
-    {
-     "x1": 0.0,
-     "y1": 64.0,
-     "x2": 447.0,
-     "y2": 64.0,
-     "ancho": 12.0,
-     "prof": 5.0,
-     "cara": "A",
-     "sym": "glassSlot"
-    }
-   ],
-   "ventanas": [],
-   "rebajes": [],
-   "escotaduras": []
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Puerta travesano arriba",
-   "pieza": "Puerta travesano arriba",
-   "codigo": "9992609291105",
-   "rol": "PUERTA",
-   "W": 447.0,
-   "H": 70.0,
-   "T": 18.0,
-   "O": [
-    332.0,
-    1308.5,
-    2378.5
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ey": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "contorno": null,
-   "material": "Madera maciza",
-   "textura": "MADERA VERDE 18",
-   "veta": "HORIZONTAL",
-   "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 0.0
-   },
-   "agujeros": [
-    {
-     "x": 33.0,
-     "y": 35.0,
-     "d": 15.0,
-     "prof": 13.5,
-     "cara": "A",
-     "sym": "3in1"
-    },
-    {
-     "x": 414.0,
-     "y": 35.0,
-     "d": 15.0,
-     "prof": 13.5,
-     "cara": "A",
-     "sym": "3in1"
-    }
-   ],
-   "agujeros_canto": [
-    {
-     "x": 0.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 33.0,
-     "canto": "IZQ",
-     "sym": "3in1"
-    },
-    {
-     "x": 0.0,
-     "y": 58.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "IZQ",
-     "sym": "dowel"
-    },
-    {
-     "x": 447.0,
-     "y": 35.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 33.0,
-     "canto": "DER",
-     "sym": "3in1"
-    },
-    {
-     "x": 447.0,
-     "y": 58.0,
-     "z": 9.0,
-     "d": 8.0,
-     "prof": 15.0,
-     "canto": "DER",
-     "sym": "dowel"
-    }
-   ],
-   "ranuras": [
-    {
-     "x1": 0.0,
-     "y1": 6.0,
-     "x2": 447.0,
-     "y2": 6.0,
-     "ancho": 12.0,
-     "prof": 5.0,
-     "cara": "A",
-     "sym": "glassSlot"
-    }
-   ],
-   "ventanas": [],
-   "rebajes": [],
-   "escotaduras": []
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Estante 1",
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609291112",
+   "codigo": "9992609291044",
    "rol": "",
    "W": 532.0,
    "H": 281.0,
@@ -11518,7 +10460,7 @@
    "O": [
     31.0,
     1351.0,
-    1807.3333
+    2140.0
    ],
    "ex": [
     0.0,
@@ -11543,48 +10485,14 @@
    "agujeros": [],
    "agujeros_canto": [],
    "ranuras": [],
-   "ventanas": [],
-   "rebajes": [],
-   "escotaduras": []
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "COCINA-01_A4 Vitrina 570_Estante 2",
-   "pieza": "Estante 2",
-   "codigo": "9992609291129",
-   "rol": "",
-   "W": 532.0,
-   "H": 281.0,
-   "T": 18.0,
-   "O": [
-    31.0,
-    1351.0,
-    2128.6667
+   "ventanas": [
+    {
+     "x1": 141.0,
+     "y1": 29.0,
+     "x2": 321.0,
+     "y2": 209.0
+    }
    ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ey": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "contorno": null,
-   "material": "Melamina",
-   "textura": "BLANCO 18",
-   "veta": "VERTICAL",
-   "cantos": {
-    "IZQ": 0.0,
-    "DER": 0.0,
-    "ABAJO": 0.0,
-    "ARRIBA": 1.0
-   },
-   "agujeros": [],
-   "agujeros_canto": [],
-   "ranuras": [],
-   "ventanas": [],
    "rebajes": [],
    "escotaduras": []
   },
@@ -11592,7 +10500,7 @@
    "mueble": "Z Zocalos",
    "nombre": "COCINA-01_Z Zocalos_Zocalo largo",
    "pieza": "Zocalo largo",
-   "codigo": "9992609291136",
+   "codigo": "9992609291051",
    "rol": "PUERTA",
    "W": 1407.0,
    "H": 99.0,
@@ -11633,7 +10541,7 @@
    "mueble": "Z Zocalos",
    "nombre": "COCINA-01_Z Zocalos_Zocalo diagonal",
    "pieza": "Zocalo diagonal",
-   "codigo": "9992609291143",
+   "codigo": "9992609291068",
    "rol": "PUERTA",
    "W": 367.696,
    "H": 99.0,
@@ -18914,7 +17822,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "Excentrica O15",
    "origen": [
-    1705.5,
+    2105.5,
     332.0,
     1486.5
    ],
@@ -18941,7 +17849,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "Perno O8 x 33",
    "origen": [
-    1738.5,
+    2138.5,
     341.0,
     1486.5
    ],
@@ -19028,7 +17936,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "Excentrica O15",
    "origen": [
-    1705.5,
+    2105.5,
     332.0,
     2413.5
    ],
@@ -19055,7 +17963,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "Perno O8 x 33",
    "origen": [
-    1738.5,
+    2138.5,
     341.0,
     2413.5
    ],
@@ -19083,7 +17991,7 @@
   },
   {
    "mueble": "A3 Vitrina 800",
-   "nombre": "Vidrio 299x879",
+   "nombre": "Vidrio 699x879",
    "origen": [
     1450.5,
     337.0,
@@ -19101,14 +18009,14 @@
    ],
    "forma": "vidrio",
    "args": {
-    "ancho": 299.0,
+    "ancho": 699.0,
     "alto": 879.0,
     "espesor": 4.0
    }
   },
   {
    "mueble": "A3 Vitrina 800",
-   "nombre": "Parrilla 277x857 2x3",
+   "nombre": "Parrilla 677x857 2x3",
    "origen": [
     1461.5,
     337.0,
@@ -19126,7 +18034,7 @@
    ],
    "forma": "parrilla",
    "args": {
-    "ancho": 277.0,
+    "ancho": 677.0,
     "alto": 857.0,
     "cols": 2,
     "filas": 3,
@@ -19207,378 +18115,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "Perilla",
    "origen": [
-    1758.5,
-    350.0,
-    1501.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "perilla",
-   "args": {}
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Excentrica O15",
-   "origen": [
-    1894.5,
-    332.0,
-    1486.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    1861.5,
-    341.0,
-    1486.5
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Excentrica O15",
-   "origen": [
-    2105.5,
-    332.0,
-    1486.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    2138.5,
-    341.0,
-    1486.5
-   ],
-   "ez": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Excentrica O15",
-   "origen": [
-    1894.5,
-    332.0,
-    2413.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    1861.5,
-    341.0,
-    2413.5
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Excentrica O15",
-   "origen": [
-    2105.5,
-    332.0,
-    2413.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    2138.5,
-    341.0,
-    2413.5
-   ],
-   "ez": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Vidrio 299x879",
-   "origen": [
-    1850.5,
-    337.0,
-    1510.5
-   ],
-   "ez": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "vidrio",
-   "args": {
-    "ancho": 299.0,
-    "alto": 879.0,
-    "espesor": 4.0
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Parrilla 277x857 2x3",
-   "origen": [
-    1861.5,
-    337.0,
-    2378.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "parrilla",
-   "args": {
-    "ancho": 277.0,
-    "alto": 857.0,
-    "cols": 2,
-    "filas": 3,
-    "liston": 25.0,
-    "esp": 8.0
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Bisagra O35 base -6",
-   "origen": [
-    2176.0,
-    332.0,
-    1551.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "bisagra",
-   "args": {
-    "dx_lat": -6.0
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Bisagra O35 base -6",
-   "origen": [
-    2176.0,
-    332.0,
-    1950.0
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "bisagra",
-   "args": {
-    "dx_lat": -6.0
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Bisagra O35 base -6",
-   "origen": [
-    2176.0,
-    332.0,
-    2348.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "forma": "bisagra",
-   "args": {
-    "dx_lat": -6.0
-   }
-  },
-  {
-   "mueble": "A3 Vitrina 800",
-   "nombre": "Perilla",
-   "origen": [
-    1841.5,
+    2158.5,
     350.0,
     1501.5
    ],
@@ -19764,12 +18301,12 @@
    "args": {}
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     54.0,
     1352.0,
-    1501.0
+    1845.0
    ],
    "ez": [
     0.0,
@@ -19791,12 +18328,12 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     54.0,
     1361.0,
-    1468.0
+    1812.0
    ],
    "ez": [
     0.0,
@@ -19821,12 +18358,12 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     278.0,
     1352.0,
-    1501.0
+    1845.0
    ],
    "ez": [
     0.0,
@@ -19848,12 +18385,12 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     278.0,
     1361.0,
-    1468.0
+    1812.0
    ],
    "ez": [
     0.0,
@@ -19878,7 +18415,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     278.0,
@@ -19905,67 +18442,10 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     278.0,
-    1361.0,
-    2432.0
-   ],
-   "ez": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "ex": [
-    1,
-    0,
-    0
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Excentrica O15",
-   "origen": [
-    54.0,
-    1352.0,
-    2399.0
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    0.0,
-    -1.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    54.0,
     1361.0,
     2432.0
    ],
@@ -19992,12 +18472,69 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
+   "nombre": "Excentrica O15",
+   "origen": [
+    54.0,
+    1352.0,
+    2399.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    54.0,
+    1361.0,
+    2432.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     278.0,
     818.0,
-    1501.0
+    1845.0
    ],
    "ez": [
     0.0,
@@ -20019,12 +18556,12 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     278.0,
     809.0,
-    1468.0
+    1812.0
    ],
    "ez": [
     0.0,
@@ -20049,12 +18586,12 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     54.0,
     818.0,
-    1501.0
+    1845.0
    ],
    "ez": [
     0.0,
@@ -20076,12 +18613,12 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     54.0,
     809.0,
-    1468.0
+    1812.0
    ],
    "ez": [
     0.0,
@@ -20106,7 +18643,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     54.0,
@@ -20133,7 +18670,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     54.0,
@@ -20163,7 +18700,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     278.0,
@@ -20190,7 +18727,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     278.0,
@@ -20220,7 +18757,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     0.0,
@@ -20247,7 +18784,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     9.0,
@@ -20277,7 +18814,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
     0.0,
@@ -20304,7 +18841,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Perno O8 x 33",
    "origen": [
     9.0,
@@ -20334,316 +18871,12 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Tira LED 494",
-   "origen": [
-    287.0,
-    1332.0,
-    1450.0
-   ],
-   "ez": [
-    0.0,
-    0.0,
-    1.0
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "forma": "led",
-   "args": {
-    "largo": 494.0
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Excentrica O15",
-   "origen": [
-    332.0,
-    1275.5,
-    1486.5
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    341.0,
-    1308.5,
-    1486.5
-   ],
-   "ez": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Excentrica O15",
-   "origen": [
-    332.0,
-    894.5,
-    1486.5
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    341.0,
-    861.5,
-    1486.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Excentrica O15",
-   "origen": [
-    332.0,
-    1275.5,
-    2413.5
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    341.0,
-    1308.5,
-    2413.5
-   ],
-   "ez": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Excentrica O15",
-   "origen": [
-    332.0,
-    894.5,
-    2413.5
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "forma": "excentrica",
-   "args": {
-    "cam": {
-     "d": 15.0,
-     "prof": 13.5,
-     "desde_canto": 33.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Perno O8 x 33",
-   "origen": [
-    341.0,
-    861.5,
-    2413.5
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "perno",
-   "args": {
-    "perno": {
-     "d": 8.0,
-     "prof": 33.0
-    },
-    "recibe": {
-     "d": 5.0,
-     "prof": 12.0
-    }
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Vidrio 469x879",
-   "origen": [
-    337.0,
-    1319.5,
-    1510.5
-   ],
-   "ez": [
-    -1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "forma": "vidrio",
-   "args": {
-    "ancho": 469.0,
-    "alto": 879.0,
-    "espesor": 4.0
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Parrilla 447x857 2x3",
-   "origen": [
-    337.0,
-    1308.5,
-    2378.5
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "forma": "parrilla",
-   "args": {
-    "ancho": 447.0,
-    "alto": 857.0,
-    "cols": 2,
-    "filas": 3,
-    "liston": 25.0,
-    "esp": 8.0
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Bisagra O35 base -6",
    "origen": [
     332.0,
     1346.0,
-    1551.5
+    1895.5
    ],
    "ez": [
     1.0,
@@ -20661,30 +18894,7 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Bisagra O35 base -6",
-   "origen": [
-    332.0,
-    1346.0,
-    1950.0
-   ],
-   "ez": [
-    1.0,
-    0.0,
-    0.0
-   ],
-   "ex": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "forma": "bisagra",
-   "args": {
-    "dx_lat": -6.0
-   }
-  },
-  {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Bisagra O35 base -6",
    "origen": [
     332.0,
@@ -20707,12 +18917,12 @@
    }
   },
   {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Perilla",
+   "mueble": "A4 Campana 570",
+   "nombre": "Tirador barral 128",
    "origen": [
     350.0,
-    841.5,
-    1501.5
+    846.5,
+    2298.5
    ],
    "ez": [
     1.0,
@@ -20721,19 +18931,96 @@
    ],
    "ex": [
     0.0,
-    -1.0,
-    0.0
+    0.0,
+    1.0
    ],
-   "forma": "perilla",
-   "args": {}
+   "forma": "tirador",
+   "args": {
+    "entre_centros": 128.0
+   }
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
+   "nombre": "Campana Serie Dorada SDC-100",
+   "origen": [
+    0.0,
+    1085.0,
+    1794.0
+   ],
+   "ez": [
+    0,
+    0,
+    1
+   ],
+   "ex": [
+    0,
+    -1,
+    0
+   ],
+   "forma": "campana",
+   "args": {
+    "ancho": 600.0,
+    "alto": 194.0,
+    "prof": 284.0,
+    "frente": 350.0
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
+   "nombre": "Ducto O150 campana",
+   "origen": [
+    0.0,
+    1120.0,
+    1794.0
+   ],
+   "ez": [
+    0,
+    0,
+    1
+   ],
+   "ex": [
+    0,
+    -1,
+    0
+   ],
+   "forma": "ducto",
+   "args": {
+    "d": 150.0,
+    "prof": 150.0,
+    "alto": 326.0,
+    "desvio": 0.0
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
+   "nombre": "Salida de aire O150 (existente)",
+   "origen": [
+    0.0,
+    1120.0,
+    2120.0
+   ],
+   "ez": [
+    1,
+    0,
+    0
+   ],
+   "ex": [
+    0,
+    1,
+    0
+   ],
+   "forma": "salida_aire",
+   "args": {
+    "d": 150.0
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
    "nombre": "Soporte estante O5",
    "origen": [
     68.0,
     1352.0,
-    1781.333
+    2114.0
    ],
    "ez": [
     0.0,
@@ -20749,12 +19036,12 @@
    "args": {}
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Soporte estante O5",
    "origen": [
     295.0,
     1352.0,
-    1781.333
+    2114.0
    ],
    "ez": [
     0.0,
@@ -20770,96 +19057,12 @@
    "args": {}
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Soporte estante O5",
    "origen": [
     68.0,
     818.0,
-    1781.333
-   ],
-   "ez": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "pin",
-   "args": {}
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Soporte estante O5",
-   "origen": [
-    295.0,
-    818.0,
-    1781.333
-   ],
-   "ez": [
-    0.0,
-    -1.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "pin",
-   "args": {}
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Soporte estante O5",
-   "origen": [
-    68.0,
-    1352.0,
-    2102.667
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "pin",
-   "args": {}
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Soporte estante O5",
-   "origen": [
-    295.0,
-    1352.0,
-    2102.667
-   ],
-   "ez": [
-    0.0,
-    1.0,
-    0.0
-   ],
-   "ex": [
-    0,
-    0,
-    1
-   ],
-   "forma": "pin",
-   "args": {}
-  },
-  {
-   "mueble": "A4 Vitrina 570",
-   "nombre": "Soporte estante O5",
-   "origen": [
-    68.0,
-    818.0,
-    2102.667
+    2114.0
    ],
    "ez": [
     0.0,
@@ -20875,12 +19078,12 @@
    "args": {}
   },
   {
-   "mueble": "A4 Vitrina 570",
+   "mueble": "A4 Campana 570",
    "nombre": "Soporte estante O5",
    "origen": [
     295.0,
     818.0,
-    2102.667
+    2114.0
    ],
    "ez": [
     0.0,
@@ -20909,12 +19112,11 @@
   "A2 Alacena 600 rebatible: SIN PISO, abierta sobre la bacha. Escurreplatos Bronzen LC-560 (564 x 270) + Cubiertero colgante Toly Poken 3 comp. colgados de los laterales bajo el estante fijo, tornillos O3 a mano. Alturas supuestas (platos 280, vasos 130, cubiertero 140): el cubiertero termina en Z=1480 (boca del mueble Z=1450). Confirmar con el herraje real.",
   "A3 Vitrina 800: ESCOTADURA de 125 x 277 atras-arriba en los laterales por la viga (2160 al techo, 120 de saliente); el techo arranca a 125 de la pared; el travesano se atornilla a la viga; el fondo termina en Z=2152 y arriba la viga queda a la vista.",
   "A3 Vitrina 800: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
-  "A3 Vitrina 800 / Puerta der: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 299 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).",
-  "A3 Vitrina 800 / Puerta izq: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 299 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).",
+  "A3 Vitrina 800 / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 699 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).",
   "A3 Vitrina 800 / Lateral der: pin O5 en (68, 698.667) cae en la escotadura: se omite",
   "A3 Vitrina 800 / Lateral izq: pin O5 en (264, 698.667) cae en la escotadura: se omite",
-  "A4 Vitrina 570: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
-  "A4 Vitrina 570 / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 469 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).",
+  "A4 Campana 570: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
+  "A4 Campana 570: MUEBLE CAMPANA 1794-2450; Campana Serie Dorada SDC-100 colgada debajo del piso (boca a 700 sobre la mesada, asoma 15 por lado), ducto O150 por adentro hasta la salida de aire (Y=1120, Z=2120); paso de 170x170 en el piso y en el fondo A CALADORA/ROUTER (no CNC); posicion de la salida de la campana (150 de la pared) SUPUESTA: confirmar con la campana en mano. Puerta ciega.",
   "Zocalos: las puntas se ajustan en obra (encuentro a 45 entre el largo y el diagonal).",
   "B1 Esquinero bajo / Piso: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
   "B1 Esquinero bajo / Techo: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
@@ -20929,6 +19131,9 @@
   "A2 Alacena 600 rebatible / Lateral izq: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 982, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
   "A3 Vitrina 800 / Lateral der: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 964, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
   "A3 Vitrina 800 / Lateral izq: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 964, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
+  "A4 Campana 570 / Piso: 1 ventana(s) pasante(s) (170x170) — a CALADORA o ROUTER, no salen en los archivos de la perforadora.",
+  "A4 Campana 570 / Fondo: 1 ventana(s) pasante(s) (170x170) — a CALADORA o ROUTER, no salen en los archivos de la perforadora.",
+  "A4 Campana 570 / Estante 1: 1 ventana(s) pasante(s) (180x180) — a CALADORA o ROUTER, no salen en los archivos de la perforadora.",
   "Alacenas sin cenefa ni cornisa (18/10): la tira LED va EMBUTIDA en la ranura 10x10 del piso con perfil de aluminio y difusor a ras.",
   "Tiradores: agujeros O5 PASANTES desde la cara A (interior). Si el frente astilla a la salida, perforarlos desde la cara B."
  ],

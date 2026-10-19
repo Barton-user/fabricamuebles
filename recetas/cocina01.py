@@ -30,7 +30,11 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
     embutido con perfil de aluminio en la ranura 10x10 del piso; estantes
     regulables O5 sistema 32; se cuelgan por un TRAVESANO TRASERO 18 x 80 bajo el
     techo (dos en el esquinero), atornillado a la pared a mano
-  * VITRINAS (A3 2 puertas, A4 1 puerta de 567, esquinero): MARCO DE 4 PIEZAS
+  * A4 (sobre la cocina): MUEBLE CAMPANA 1794-2450, puerta ciega, con la SDC-100
+    colgada debajo (boca a 1600 = 700 sobre la mesada, gas) y ducto O150 a la
+    salida de aire de la pared (Y 1120, Z 2120). Asoma 15 por lado (campana 600,
+    mueble 570): decision de Pato 18/10 (el grupo filtrante de 52 era carisimo).
+  * VITRINAS (A3 2 puertas, esquinero): MARCO DE 4 PIEZAS
     DE MADERA MACIZA de 18 (montantes 60, travesanos 70) unido con Minifix +
     tarugo O8, vidrio de 4 en ranura 12 x 5 por atras, cruz de listones 25 x 8
     pegada al vidrio. Todo lo perfora la SKH-612 (la ranura con la T11); la
@@ -128,6 +132,16 @@ ESCURRIDOR = {"nombre": "Escurreplatos Bronzen LC-560", "prof": 270.0, "rejilla"
               "platos": 280.0, "vasos": 130.0, "del_frente": 20.0,
               "cubiertero": {"nombre": "Cubiertero colgante Toly Poken 3 comp.", "ancho": 240.0, "prof": 120.0,
                              "alto": 140.0}}      # ML MLA2121276022; medidas SUPUESTAS, la ficha no las trae
+# campana (18/10): Serie Dorada SDC-100 extensible (ML MLA47228749): 600 x 194 x 284, salida O150 arriba,
+# 300 m3/h. Se cuelga DEBAJO del piso de A4 (que pasa a ser mueble campana), a 700 sobre la mesada
+# (cocina a gas). Salida de aire existente en la pared corta: O150, centro a 2120 del piso y 1120 de
+# la pared larga. El ducto sube por adentro de A4 y entra a la pared con un codo.
+CAMPANA = {"nombre": "Campana Serie Dorada SDC-100", "ancho": 600.0, "alto": 194.0, "prof": 284.0,
+           "sobre_mesada": 700.0, "salida_desde_pared": 150.0,      # posicion del O150 de la campana: SUPUESTA
+           "ducto_d": 150.0, "ventana": 170.0}                      # paso del ducto en piso/estante/fondo
+SALIDA_AIRE = {"y": 1120.0, "z": 2120.0, "d": 150.0}
+Z_CAMPANA = Z_MESADA + CAMPANA["sobre_mesada"]                      # 1600: boca de la campana
+Z_PISO_CAMPANA = Z_CAMPANA + CAMPANA["alto"]                        # 1794: piso del mueble campana
 LISTON_FRENTE = 80.0                  # listón que reemplaza al piso en la alacena sin piso (lleva el LED)
 # corredera de bolillas 450 (COCINA MLV): O3 x 10 a 37 y 413 del frente
 CORR = {"d": 3.0, "prof": 10.0, "a": (37.0, 413.0), "largo": 450.0, "juego": 13.0}
@@ -966,7 +980,7 @@ def led_piso(piso, nombre, diagonal_geo=None, frente_y=None):
                       "(la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).")
 
 
-def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escurridor=False):
+def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=1, escurridor=False, z_piso=None):
     """Alacena normal, estilo COCINA MLV: piso y techo por fuera (a todo el ancho),
     laterales entre ellos, cenefa abajo y cornisa arriba (las dos retiradas 18).
 
@@ -974,13 +988,16 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escur
     piezas con Minifix, vidrio, cruz cols x 3) con perilla.
     tipo 'rebatible': dos hojas rebatibles hacia arriba, la de arriba (un tercio)
     colgada del techo y la de abajo del estante fijo que separa las dos.
+    tipo 'campana': mueble corto (piso en z_piso) con la campana SDC-100 colgada
+    debajo, puerta ciega, paso del ducto en piso y estante, ventana en el fondo
+    para la salida de aire.
 
     Se trabaja en (u, v, w): u a lo ancho, v hacia el frente, w arriba, siempre
     mano derecha. eje 'X' = pared larga: u = +X, v = +Y. eje 'Y' = pared corta:
     v = +X y u = -Y (u crece hacia la pared larga). x0 = coordenada del mundo
     donde arranca el mueble sobre la pared (X o Y menor)."""
     P = mueble(nombre)
-    z0, z1 = Z_CUERPO0, Z_CUERPO1
+    z0, z1 = (z_piso if z_piso else Z_CUERPO0), Z_CUERPO1
     D = F_ALTO
     if eje == "X":
         U, mU, V, mV = "+X", "-X", "+Y", "-Y"
@@ -1054,7 +1071,8 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escur
     tres_en_uno(tt, ld, "A"); tres_en_uno(tt, li, "A")
     AVISOS.append("%s: se cuelga por el travesano trasero (18 x %g, bajo el techo) con %d tornillos a la "
                   "pared, a mano." % (nombre, TRAV_ALTO, TRAV_TORNILLOS))
-    led_piso(piso, nombre)
+    if tipo != "campana":
+        led_piso(piso, nombre)                 # la campana tiene su luz y tapa el piso
     ua, ub = u0 + LUZ, u1 - LUZ
     wa, wb = z0 + LUZ, z1 - LUZ
     cant = (U, mU, "+Z", "-Z")
@@ -1117,6 +1135,49 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escur
             # un estante regulable en el compartimiento de abajo
             zs = inner0 + (zj - T / 2.0 - inner0) / 2.0
             estantes = [zs]
+    elif tipo == "campana":
+        # puerta ciega, bisagras en el lateral de u0 (el del extremo de la pared), barral vertical
+        pu = pc("Puerta", ua, ub, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
+        P.append(pu)
+        bisagras(pu, ld, "IZQ", "DER", "A")
+        tirador_puerta(pu, "DER")
+        C = CAMPANA
+        # mundo: la campana centrada en el mueble, colgada bajo el piso, visor a ras de la puerta
+        uc = (u0 + u1) / 2.0
+        if eje == "X":
+            centro = (uc, 0.0, z0)
+            def mundo_uv(u, v, z): return (u, v, z)
+        else:
+            centro = (0.0, -uc, z0)
+            def mundo_uv(u, v, z): return (v, -u, z)
+        herraje(nombre, C["nombre"], centro, (0, 0, 1), AX[U], "campana", ancho=C["ancho"], alto=C["alto"],
+                prof=C["prof"], frente=D + T)
+        # ducto: sube desde la salida de la campana (a `salida_desde_pared` de la pared) hasta la altura
+        # de la salida de aire y entra a la pared con un codo
+        yd = C["salida_desde_pared"]
+        ud = -SALIDA_AIRE["y"] if eje == "Y" else uc       # el ducto sube alineado con la salida de aire
+        o_ducto = mundo_uv(ud, 0.0, z0)
+        herraje(nombre, "Ducto O150 campana", o_ducto, (0, 0, 1), AX[U], "ducto", d=C["ducto_d"], prof=yd,
+                alto=SALIDA_AIRE["z"] - z0, desvio=0.0)
+        # paso del ducto por el piso (ventana cuadrada, a caladora o router)
+        v = C["ventana"]
+        pcen = piso.local(mundo_uv(ud, yd, z0 + T))
+        piso.ventana(pcen[0] - v / 2, pcen[1] - v / 2, pcen[0] + v / 2, pcen[1] + v / 2)
+        # salida de aire existente (referencia) y ventana en el fondo para el codo
+        if eje == "Y":
+            herraje(nombre, "Salida de aire O150 (existente)", (0.0, SALIDA_AIRE["y"], SALIDA_AIRE["z"]), (1, 0, 0),
+                    (0, 1, 0), "salida_aire", d=SALIDA_AIRE["d"])
+            fcen = fo.local((d, SALIDA_AIRE["y"], SALIDA_AIRE["z"]))
+            fo.ventana(fcen[0] - v / 2, fcen[1] - v / 2, fcen[0] + v / 2, fcen[1] + v / 2)
+        AVISOS.append("%s: MUEBLE CAMPANA %g-%g; %s colgada debajo del piso (boca a %g sobre la mesada, asoma %g "
+                      "por lado), ducto O150 por adentro hasta la salida de aire (Y=%g, Z=%g); paso de %gx%g en el "
+                      "piso y en el fondo A CALADORA/ROUTER (no CNC); posicion de la salida de la campana (%g de la "
+                      "pared) SUPUESTA: confirmar con la campana en mano. Puerta ciega." %
+                      (nombre, z0, z1, C["nombre"], C["sobre_mesada"], (C["ancho"] - ancho) / 2.0,
+                       SALIDA_AIRE["y"], SALIDA_AIRE["z"], v, v, yd))
+        # un estante regulable con paso para el ducto
+        estantes = [inner0 + (inner1 - inner0) / 2.0]
+        estante_ventana = (ud, yd, v)
     elif puertas == 1:
         # una sola puerta vitrina, bisagras en el lateral derecho de quien mira (u0)
         pu = pc("Puerta", ua, ub, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
@@ -1133,6 +1194,10 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escur
     for i, zs in enumerate(estantes):
         es = pc("Estante %d" % (i + 1), u0 + T + 1, u1 - T - 1, d + 3.5, D - 20, zs, zs + T, "+Z", U, BLANCO,
                 cantos=(V,))
+        if tipo == "campana":
+            uc, yd, v = estante_ventana
+            ec = es.local(mundo_uv(uc, yd, zs + T))
+            es.ventana(ec[0] - v / 2 - 5, ec[1] - v / 2 - 5, ec[0] + v / 2 + 5, ec[1] + v / 2 + 5)
         P.append(es)
         yl = zs - inner0 - 8.0
         for (lat, xs) in ((ld, (68.0, ld.W - 37.0)), (li, (li.W - 68.0, 37.0))):
@@ -1186,7 +1251,7 @@ def armar():
     alacena_esquinero()
     alacena("A2 Alacena 600 rebatible", 800.0, 600.0, "X", tipo="rebatible", escurridor=True)
     alacena("A3 Vitrina 800", 1400.0, 800.0, "X", cols=2)
-    alacena("A4 Vitrina 570", 800.0, 570.0, "Y", cols=2, puertas=1)   # una puerta de 567 (con 2 los travesanos quedan < 250)
+    alacena("A4 Campana 570", 800.0, 570.0, "Y", tipo="campana", z_piso=Z_PISO_CAMPANA)   # mueble campana sobre la cocina
     zocalos()
 
 
@@ -1346,11 +1411,9 @@ def main():
     for nombre, placas in MUEBLES:
         for p in placas:
             if p.ventanas:
-                v = p.vitrina
-                AVISOS.append("%s / %s: VITRINA %dx%d — las %d ventanas y el rebaje del vidrio (%g prof.) los hace "
-                              "el ROUTER; el .nc no se genera todavia (estan en modelo.json). Vidrio de %g: "
-                              "%.0f x %.0f." % (nombre, p.nombre, v["cols"], v["filas"], len(p.ventanas),
-                                                VIT["rebaje_prof"], VIT["vidrio"], v["vidrio"][0], v["vidrio"][1]))
+                AVISOS.append("%s / %s: %d ventana(s) pasante(s) (%s) — a CALADORA o ROUTER, no salen en los "
+                              "archivos de la perforadora." % (nombre, p.nombre, len(p.ventanas),
+                              ", ".join("%gx%g" % (w["x2"] - w["x1"], w["y2"] - w["y1"]) for w in p.ventanas)))
     AVISOS.append("Alacenas sin cenefa ni cornisa (18/10): la tira LED va EMBUTIDA en la ranura 10x10 del piso "
                   "con perfil de aluminio y difusor a ras.")
     if any(h["sym"] == "handle" for _, pl in MUEBLES for p in pl for h in p.agujeros):

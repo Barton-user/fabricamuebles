@@ -1,15 +1,11 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:54:28" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="534.00" Height="80.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A4 Vitrina 570_Travesano trasero" Code="9992609291068">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:17:16" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="367.70" Height="99.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,0,0,0" Name="COCINA-01_Z Zocalos_Zocalo diagonal" Code="9992609291068">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="534.00 0.00 0"/>
-        <Point Value="534.00 80.00 0"/>
-        <Point Value="0.00 80.00 0"/>
+        <Point Value="367.70 0.00 0"/>
+        <Point Value="367.70 99.00 0"/>
+        <Point Value="0.00 99.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="501.00 40.00 0" End="501.00 40.00 -13.50"/>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 40.00 0" End="33.00 40.00 -13.50"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="534.00 40.00 -9.00" End="501.00 40.00 -9.00"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 40.00 -9.00" End="33.00 40.00 -9.00"/>
 </Plane>
 </MicroDrawBan_XML>

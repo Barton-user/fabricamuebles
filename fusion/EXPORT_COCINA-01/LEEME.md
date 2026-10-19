@@ -12,26 +12,26 @@ corresponden quedaron en `salida/_obsoleto_18-10/`.
 travesaños 70) unidos con Minifix + tarugo Ø8; vidrio de 4 en ranura 12 × 5 por atrás; cruz de
 listones 25 × 8 pegada al vidrio (a mano). Todo lo perfora la SKH-612. **Las 16 piezas de madera
 están en `lista_corte.csv` con material "Madera maciza" y aparte en `lista_corte_MADERA_MACIZA.csv`:
-no cargarlas en AutoCUT** (eso es sólo para la placa). **114 placas.**
+no cargarlas en AutoCUT** (eso es sólo para la placa). **106 placas.**
 
 ## Qué hay acá
 
 | Carpeta / archivo | Para qué |
 |---|---|
-| `salida/XML3/` | **Perforadora SKH-612HS** — cargar con Formato **KDTXml** (114 piezas) |
-| `salida/MPR/` | alternativa: Formato **Haomai MPR** (104 archivos, con los `K` de cara trasera) |
+| `salida/XML3/` | **Perforadora SKH-612HS** — cargar con Formato **KDTXml** (106 piezas) |
+| `salida/MPR/` | alternativa: Formato **Haomai MPR** (97 archivos, con los `K` de cara trasera) |
 | `salida/BAN/`, `salida/XML1/` | otros formatos (la SKH-612HS no lee BAN) |
-| `salida/lista_corte.csv` / `.xlsx` | **AutoCUT → sierra HP280** (114 piezas) |
+| `salida/lista_corte.csv` / `.xlsx` | **AutoCUT → sierra HP280** (106 piezas) |
 | `salida/HOJAS_VERIFICACION.html` | plano acotado de cada pieza con mecanizado, para imprimir y medir |
 | `piezas.json` | lo que Fusion leyó del sólido (entrada de etapa2) |
 
-## Muebles (114 placas: 98 de melamina + 16 de madera maciza)
+## Muebles (106 placas: 98 de melamina + 8 de madera maciza)
 
 B1 esquinero bajo diagonal · B2 bajo pileta 600 (frente fijo + 2 puertas) · B3 cajonera 320
 (4 cajones) · **B4 bajo puerta 452** (una puerta) · P1/P2 paneles terminales · A1 esquinero
 alacena diagonal **vitrina** (1 puerta de 633) · **A2 alacena 600 rebatible** (dos hojas rebatibles hacia
 arriba, 38/62; **sin piso**, abierta sobre la bacha, con escurreplatos; listón frente con el LED y travesaño trasero inferior) · **A3 vitrina 800** (2 puertas de
-397) · **A4 vitrina 570** (pared corta, **1 puerta de 567**) · zócalos. Vitrinas = marcos de madera maciza. Alacenas sin cenefa ni cornisa; travesaño trasero para colgar.
+397) · **A4 mueble campana 570** (pared corta, 1794–2450, puerta ciega, campana SDC-100 colgada debajo, ducto Ø150 a la salida de aire) · zócalos. Vitrinas = marcos de madera maciza. Alacenas sin cenefa ni cornisa; travesaño trasero para colgar.
 Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 
 ## Herrajes (para comprar)
@@ -43,12 +43,14 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 | Corredera de bolillas 450 (pares) | 4 pares (8 rieles) |
 | Soporte de estante Ø5 | 32 |
 | Pata regulable 100 | 17 |
-| Tirador barral cobre 128 e.c. | 10 |
-| Perilla cobre | 4 |
+| Tirador barral cobre 128 e.c. | 11 |
+| Perilla cobre | 3 |
 | **Escurreplatos Bronzen LC-560** (564×270, 2 rejillas, inox, MLAU156309472) | 1 — se atornilla a los laterales de A2 (Ø3 a mano); alturas supuestas 280/130 bajo el estante fijo |
 | **Cubiertero colgante 3 compartimentos Toly Poken** (MLA2121276022) | 1 — colgado de la rejilla de abajo; medidas supuestas 240×120×140 |
 | **Bacha Tawak Delta Simple 55** (55×46×22, acero 304, sobre mesada, MLA80311064) | 1 — calado de mesada supuesto 530×440, confirmar con la plantilla |
-| Vidrio 4 mm | 535×879 · 2 × 299×879 · 469×879 |
+| Vidrio 4 mm | 535×879 · 2 × 299×879 |
+| **Campana Serie Dorada SDC-100** extensible 60 (600×194×284, Ø150, MLA47228749) | 1 — colgada bajo el piso de A4, boca a 1600 |
+| Ducto Ø150 flexible + codo + abrazaderas, hasta la salida de aire (Y 1120 / Z 2120) | 1 |
 | Tarugo Ø8 × 30 | 16 |
 | Listones 25 × 8 para las cruces (2×3 por puerta) | 4 puertas |
 | Junquillos para el vidrio | 4 puertas |
@@ -58,6 +60,15 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 | Tira LED (mm) | 516 · 524 · 724 · 494 (la de 494 va pegada, sin ranura) |
 | Colgador de alacena regulable | 8 (sin perforación hasta medir el modelo) |
 | Clips de zócalo | según patas |
+
+## Mueble campana A4 (18/10)
+
+A4 es ahora un mueble corto **1794–2450** con puerta ciega; la **campana extensible SDC-100** (600 ancho) va
+atornillada bajo el piso con el visor a ras de la puerta, boca a 700 sobre la mesada (gas). Asoma 15 mm por
+lado (el mueble mide 570). El ducto Ø150 sube por adentro y entra a la **salida de aire existente** (Ø150,
+centro a 2120 del piso y 1120 de la pared larga) con un codo. Pasos de 170×170 en el piso y en el fondo y
+de 180×180 en el estante: **a caladora o router, no salen en los archivos de la perforadora.** La posición
+de la salida de la campana (150 de la pared) está supuesta: confirmar con la campana en mano.
 
 ## Viga en la pared larga (18/10)
 
@@ -94,7 +105,7 @@ contorno de 6 vértices.
 
 ## Controles que sí se hicieron
 
-- Receta vs. lo que Fusion lee del sólido: **114/114 piezas idénticas** (18/10; medidas,
+- Receta vs. lo que Fusion lee del sólido: **106/106 piezas idénticas** (18/10; medidas,
   contorno, cantos, agujeros, ranuras) — `python3 recetas/comparar.py`. `ExportarPiezas`
   ahora ignora cajeados de más de 40 de ancho (`RANURA_ANCHO_MAX`) y sólo estira un Ø8 de canto a
   33 si de verdad desemboca en la excéntrica (los tarugos quedan en 15).
