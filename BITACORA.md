@@ -1905,3 +1905,7 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   108 placas, 108/108, paquete regenerado, Fusion re-armado sin guardar.
 - Interferencia campana/frentes (la campana estaba a ras de la cara exterior de las puertas): ahora su
   cara delantera queda en 332, detrás de los frentes. Sin cambio de placas.
+- Columna en el rincón (60 × 180, piso a techo): rincón recortado 65×185 en piso/techo/estantes de los
+  dos esquineros, fondos y travesaños desde después de la columna, pata corrida, mesada recortada.
+  ArmarReceta: semiplanos sólo para lados diagonales + cajas para escotaduras (chanfle y rincón juntos).
+  Columna y viga ahora en REFERENCIA. 108/108, paquete regenerado, Fusion re-armado sin guardar.

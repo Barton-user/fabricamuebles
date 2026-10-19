@@ -363,7 +363,7 @@
    ],
    "contorno": [
     [
-     0,
+     65.0,
      0
     ],
     [
@@ -381,6 +381,14 @@
     [
      0,
      782.0
+    ],
+    [
+     0,
+     185.0
+    ],
+    [
+     65.0,
+     185.0
     ]
    ],
    "material": "Melamina",
@@ -482,7 +490,7 @@
    ],
    "ranuras": [
     {
-     "x1": 31.5,
+     "x1": 65.0,
      "y1": 27.5,
      "x2": 782.0,
      "y2": 27.5,
@@ -493,7 +501,7 @@
     },
     {
      "x1": 27.5,
-     "y1": 24.5,
+     "y1": 185.0,
      "x2": 27.5,
      "y2": 782.0,
      "ancho": 6.0,
@@ -504,7 +512,14 @@
    ],
    "ventanas": [],
    "rebajes": [],
-   "escotaduras": []
+   "escotaduras": [
+    {
+     "x1": 0,
+     "y1": 0,
+     "x2": 65.0,
+     "y2": 185.0
+    }
+   ]
   },
   {
    "mueble": "B1 Esquinero bajo",
@@ -532,6 +547,14 @@
    ],
    "contorno": [
     [
+     65.0,
+     597.0
+    ],
+    [
+     0,
+     597.0
+    ],
+    [
      0,
      0.0
     ],
@@ -548,7 +571,7 @@
      782.0
     ],
     [
-     0,
+     65.0,
      782.0
     ]
    ],
@@ -651,7 +674,7 @@
    ],
    "ranuras": [
     {
-     "x1": 31.5,
+     "x1": 65.0,
      "y1": 754.5,
      "x2": 782.0,
      "y2": 754.5,
@@ -662,7 +685,7 @@
     },
     {
      "x1": 27.5,
-     "y1": 757.5,
+     "y1": 597.0,
      "x2": 27.5,
      "y2": 0,
      "ancho": 6.0,
@@ -673,7 +696,14 @@
    ],
    "ventanas": [],
    "rebajes": [],
-   "escotaduras": []
+   "escotaduras": [
+    {
+     "x1": 0,
+     "y1": 597.0,
+     "x2": 65.0,
+     "y2": 782.0
+    }
+   ]
   },
   {
    "mueble": "B1 Esquinero bajo",
@@ -681,7 +711,7 @@
    "pieza": "Fondo A",
    "codigo": "9992609290054",
    "rol": "FONDO",
-   "W": 755.0,
+   "W": 722.0,
    "H": 734.0,
    "T": 5.0,
    "O": [
@@ -722,12 +752,12 @@
    "pieza": "Fondo B",
    "codigo": "9992609290061",
    "rol": "FONDO",
-   "W": 762.0,
+   "W": 602.0,
    "H": 734.0,
    "T": 5.0,
    "O": [
     30.0,
-    25.0,
+    185.0,
     113.0
    ],
    "ex": [
@@ -1075,7 +1105,7 @@
    ],
    "contorno": [
     [
-     0.0,
+     34.0,
      0.0
     ],
     [
@@ -1093,6 +1123,14 @@
     [
      0.0,
      750.0
+    ],
+    [
+     0.0,
+     154.0
+    ],
+    [
+     34.0,
+     154.0
     ]
    ],
    "material": "Melamina",
@@ -1109,7 +1147,14 @@
    "ranuras": [],
    "ventanas": [],
    "rebajes": [],
-   "escotaduras": []
+   "escotaduras": [
+    {
+     "x1": 0.0,
+     "y1": 0.0,
+     "x2": 34.0,
+     "y2": 154.0
+    }
+   ]
   },
   {
    "mueble": "B2 Bajo pileta 600",
@@ -5573,7 +5618,7 @@
    ],
    "contorno": [
     [
-     0,
+     65.0,
      0
     ],
     [
@@ -5591,6 +5636,14 @@
     [
      0,
      782.0
+    ],
+    [
+     0,
+     185.0
+    ],
+    [
+     65.0,
+     185.0
     ]
    ],
    "material": "Melamina",
@@ -5692,7 +5745,7 @@
    ],
    "ranuras": [
     {
-     "x1": 31.5,
+     "x1": 65.0,
      "y1": 27.5,
      "x2": 782.0,
      "y2": 27.5,
@@ -5703,7 +5756,7 @@
     },
     {
      "x1": 27.5,
-     "y1": 24.5,
+     "y1": 185.0,
      "x2": 27.5,
      "y2": 782.0,
      "ancho": 6.0,
@@ -5714,7 +5767,14 @@
    ],
    "ventanas": [],
    "rebajes": [],
-   "escotaduras": []
+   "escotaduras": [
+    {
+     "x1": 0,
+     "y1": 0,
+     "x2": 65.0,
+     "y2": 185.0
+    }
+   ]
   },
   {
    "mueble": "A1 Esquinero alacena",
@@ -5742,6 +5802,14 @@
    ],
    "contorno": [
     [
+     65.0,
+     597.0
+    ],
+    [
+     0,
+     597.0
+    ],
+    [
      0,
      0.0
     ],
@@ -5758,7 +5826,7 @@
      657.0
     ],
     [
-     0,
+     65.0,
      657.0
     ]
    ],
@@ -5821,7 +5889,7 @@
      "sym": "3in1"
     },
     {
-     "x": 131.0,
+     "x": 165.0,
      "y": 648.0,
      "d": 5.0,
      "prof": 12.0,
@@ -5846,7 +5914,7 @@
     },
     {
      "x": 9.0,
-     "y": 538.0,
+     "y": 497.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -5896,7 +5964,7 @@
      "x1": 27.5,
      "y1": 0.0,
      "x2": 27.5,
-     "y2": 657.0,
+     "y2": 597.0,
      "ancho": 6.0,
      "prof": 6.0,
      "cara": "A",
@@ -5905,7 +5973,14 @@
    ],
    "ventanas": [],
    "rebajes": [],
-   "escotaduras": []
+   "escotaduras": [
+    {
+     "x1": 0,
+     "y1": 597.0,
+     "x2": 65.0,
+     "y2": 657.0
+    }
+   ]
   },
   {
    "mueble": "A1 Esquinero alacena",
@@ -5913,7 +5988,7 @@
    "pieza": "Fondo A",
    "codigo": "9992609290634",
    "rol": "FONDO",
-   "W": 755.0,
+   "W": 722.0,
    "H": 689.0,
    "T": 5.0,
    "O": [
@@ -5954,12 +6029,12 @@
    "pieza": "Fondo B",
    "codigo": "9992609290641",
    "rol": "FONDO",
-   "W": 762.0,
+   "W": 602.0,
    "H": 974.0,
    "T": 5.0,
    "O": [
     30.0,
-    25.0,
+    185.0,
     1463.0
    ],
    "ex": [
@@ -5972,32 +6047,7 @@
     0.0,
     1.0
    ],
-   "contorno": [
-    [
-     0,
-     0
-    ],
-    [
-     762.0,
-     0
-    ],
-    [
-     762.0,
-     974.0
-    ],
-    [
-     100.0,
-     974.0
-    ],
-    [
-     100.0,
-     692.0
-    ],
-    [
-     0,
-     692.0
-    ]
-   ],
+   "contorno": null,
    "material": "Melamina",
    "textura": "BLANCO 5",
    "veta": "VERTICAL",
@@ -6012,14 +6062,7 @@
    "ranuras": [],
    "ventanas": [],
    "rebajes": [],
-   "escotaduras": [
-    {
-     "x1": 0,
-     "y1": 692.0,
-     "x2": 100.0,
-     "y2": 974.0
-    }
-   ]
+   "escotaduras": []
   },
   {
    "mueble": "A1 Esquinero alacena",
@@ -6721,7 +6764,7 @@
    ],
    "contorno": [
     [
-     0.0,
+     34.0,
      0.0
     ],
     [
@@ -6739,6 +6782,14 @@
     [
      0.0,
      750.0
+    ],
+    [
+     0.0,
+     154.0
+    ],
+    [
+     34.0,
+     154.0
     ]
    ],
    "material": "Melamina",
@@ -6755,7 +6806,14 @@
    "ranuras": [],
    "ventanas": [],
    "rebajes": [],
-   "escotaduras": []
+   "escotaduras": [
+    {
+     "x1": 0.0,
+     "y1": 0.0,
+     "x2": 34.0,
+     "y2": 154.0
+    }
+   ]
   },
   {
    "mueble": "A1 Esquinero alacena",
@@ -6783,7 +6841,7 @@
    ],
    "contorno": [
     [
-     0.0,
+     34.0,
      0.0
     ],
     [
@@ -6801,6 +6859,14 @@
     [
      0.0,
      750.0
+    ],
+    [
+     0.0,
+     154.0
+    ],
+    [
+     34.0,
+     154.0
     ]
    ],
    "material": "Melamina",
@@ -6817,7 +6883,14 @@
    "ranuras": [],
    "ventanas": [],
    "rebajes": [],
-   "escotaduras": []
+   "escotaduras": [
+    {
+     "x1": 0.0,
+     "y1": 0.0,
+     "x2": 34.0,
+     "y2": 154.0
+    }
+   ]
   },
   {
    "mueble": "A1 Esquinero alacena",
@@ -6825,11 +6898,11 @@
    "pieza": "Travesano A",
    "codigo": "9992609290733",
    "rol": "",
-   "W": 751.0,
+   "W": 717.0,
    "H": 80.0,
    "T": 18.0,
    "O": [
-    31.0,
+    65.0,
     125.0,
     2352.0
    ],
@@ -6855,7 +6928,7 @@
    },
    "agujeros": [
     {
-     "x": 718.0,
+     "x": 684.0,
      "y": 40.0,
      "d": 15.0,
      "prof": 13.5,
@@ -6871,7 +6944,7 @@
      "sym": "3in1"
     },
     {
-     "x": 651.0,
+     "x": 617.0,
      "y": 47.0,
      "d": 15.0,
      "prof": 13.5,
@@ -6881,7 +6954,7 @@
    ],
    "agujeros_canto": [
     {
-     "x": 751.0,
+     "x": 717.0,
      "y": 40.0,
      "z": 9.0,
      "d": 8.0,
@@ -6899,7 +6972,7 @@
      "sym": "3in1"
     },
     {
-     "x": 651.0,
+     "x": 617.0,
      "y": 80.0,
      "z": 9.0,
      "d": 8.0,
@@ -6919,7 +6992,7 @@
    "pieza": "Travesano B",
    "codigo": "9992609290740",
    "rol": "",
-   "W": 638.0,
+   "W": 597.0,
    "H": 80.0,
    "T": 18.0,
    "O": [
@@ -6965,7 +7038,7 @@
      "sym": "3in1"
     },
     {
-     "x": 538.0,
+     "x": 497.0,
      "y": 47.0,
      "d": 15.0,
      "prof": 13.5,
@@ -6993,7 +7066,7 @@
      "sym": "3in1"
     },
     {
-     "x": 538.0,
+     "x": 497.0,
      "y": 80.0,
      "z": 9.0,
      "d": 8.0,
@@ -11503,8 +11576,8 @@
    "mueble": "B1 Esquinero bajo",
    "nombre": "Pata regulable",
    "origen": [
-    60,
-    60,
+    130,
+    250,
     100.0
    ],
    "ez": [
@@ -15991,7 +16064,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "Excentrica O15",
    "origen": [
-    131.0,
+    165.0,
     125.0,
     2399.0
    ],
@@ -16018,7 +16091,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "Perno O8 x 33",
    "origen": [
-    131.0,
+    165.0,
     134.0,
     2432.0
    ],
@@ -16163,7 +16236,7 @@
    "nombre": "Excentrica O15",
    "origen": [
     0.0,
-    244.0,
+    285.0,
     2399.0
    ],
    "ez": [
@@ -16190,7 +16263,7 @@
    "nombre": "Perno O8 x 33",
    "origen": [
     9.0,
-    244.0,
+    285.0,
     2432.0
    ],
    "ez": [
@@ -19182,7 +19255,9 @@
   }
  ],
  "avisos": [
+  "B1 Esquinero bajo: rincon recortado 65 x 185 en piso, techo y estantes por la COLUMNA (60 x 180 + 5 de luz); los fondos y travesanos arrancan despues de ella.",
   "B2 Bajo pileta 600: bacha Bacha Tawak Delta Simple 55 (550 x 460 x 220, sobre mesada) centrada en X=1100, Y=300; calado de mesada SUPUESTO 530 x 440: confirmar con la plantilla de la bacha antes de cortar.",
+  "A1 Esquinero alacena: rincon recortado 65 x 185 en piso, techo y estantes por la COLUMNA (60 x 180 + 5 de luz); los fondos y travesanos arrancan despues de ella.",
   "A1 Esquinero alacena / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 535 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).",
   "A1 Esquinero alacena / Lateral A: pin O5 en (264, 716.667) cae en la escotadura: se omite",
   "A1 Esquinero alacena: viga en la pared larga: escotadura en Lateral A y Fondo B, techo desde Y=125, Travesano A atornillado a la viga, Fondo A hasta Z=2152.",
@@ -19207,7 +19282,6 @@
   "A1 Esquinero alacena / Lateral A: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 1000, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
   "A1 Esquinero alacena / Piso: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
   "A1 Esquinero alacena / Techo: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 657, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
-  "A1 Esquinero alacena / Fondo B: contorno con chanfle a 45 — la sierra corta el rectangulo 762 x 974, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
   "A1 Esquinero alacena / Estante 1: contorno con chanfle a 45 — la sierra corta el rectangulo 750 x 750, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
   "A1 Esquinero alacena / Estante 2: contorno con chanfle a 45 — la sierra corta el rectangulo 750 x 750, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
   "A2 Alacena 600 rebatible / Lateral der: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 982, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",
@@ -19244,6 +19318,14 @@
      520.0,
      850,
      910
+    ],
+    [
+     -1,
+     60.0,
+     -1,
+     180.0,
+     850,
+     910
     ]
    ]
   ],
@@ -19277,6 +19359,38 @@
     190,
     180,
     176
+   ]
+  ],
+  [
+   "Columna 60x180",
+   [
+    0,
+    60.0,
+    0,
+    180.0,
+    0,
+    2470.0
+   ],
+   [
+    200,
+    200,
+    205
+   ]
+  ],
+  [
+   "Viga pared larga",
+   [
+    -50,
+    2240.0,
+    0,
+    120.0,
+    2160.0,
+    2470.0
+   ],
+   [
+    200,
+    200,
+    205
    ]
   ]
  ]

@@ -72,16 +72,15 @@ def cuerpo_placa(tbm, pz):
         herr.append(A.caja(tbm, e["x1"] - 1.0 if e["x1"] <= 0.01 else e["x1"], e["x2"] + 1.0 if e["x2"] >= W - 0.01 else e["x2"],
                            e["y1"] - 1.0 if e["y1"] <= 0.01 else e["y1"], e["y2"] + 1.0 if e["y2"] >= H - 0.01 else e["y2"],
                            -T - 1.0, 1.0))
-    # contorno: cada lado que no cae sobre el rectangulo se recorta con una caja grande
-    if pz.get("contorno") and not pz.get("escotaduras"):
+    # contorno: cada lado DIAGONAL se recorta con una caja grande (semiplano). Los lados paralelos a
+    # los ejes que no caen sobre el rectangulo son de una escotadura y ya se restaron como caja.
+    if pz.get("contorno"):
         pts = pz["contorno"]
         B = 3000.0
         for i in range(len(pts)):
             (x1, y1), (x2, y2) = pts[i], pts[(i + 1) % len(pts)]
-            sobre = (abs(x1 - x2) < 1e-6 and (abs(x1) < 1e-6 or abs(x1 - W) < 1e-6)) or \
-                    (abs(y1 - y2) < 1e-6 and (abs(y1) < 1e-6 or abs(y1 - H) < 1e-6))
-            if sobre:
-                continue
+            if abs(x1 - x2) < 1e-6 or abs(y1 - y2) < 1e-6:
+                continue                        # paralelo a un eje: borde o escotadura
             L = math.hypot(x2 - x1, y2 - y1)
             ux, uy = (x2 - x1) / L, (y2 - y1) / L
             nx, ny = uy, -ux                     # hacia afuera (contorno CCW)

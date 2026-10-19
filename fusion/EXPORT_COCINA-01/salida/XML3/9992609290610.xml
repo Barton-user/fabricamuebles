@@ -146,7 +146,7 @@
         <TypeNo>3</TypeNo>
         <TypeName>Line</TypeName>
         <BeginX>27.50</BeginX>
-        <BeginY>24.50</BeginY>
+        <BeginY>185.00</BeginY>
         <EndX>27.50</EndX>
         <EndY>782.00</EndY>
         <Correction>0</Correction>
@@ -157,7 +157,7 @@
     <CAD>
         <TypeNo>3</TypeNo>
         <TypeName>Line</TypeName>
-        <BeginX>31.50</BeginX>
+        <BeginX>65.00</BeginX>
         <BeginY>27.50</BeginY>
         <EndX>782.00</EndX>
         <EndY>27.50</EndY>

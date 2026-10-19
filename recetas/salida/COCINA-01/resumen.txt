@@ -5,8 +5,8 @@ B1 Esquinero bajo           10 placas
     9992609290023 Lateral B                    580.0 x   760.0 x 18.0  BLANCO 18  ag  14  canto  0  ran 1
     9992609290030 Piso                         782.0 x   782.0 x 18.0  BLANCO 18  ag   6  canto  4  ran 2  (contorno)
     9992609290047 Techo                        782.0 x   782.0 x 18.0  BLANCO 18  ag   6  canto  4  ran 2  (contorno)
-    9992609290054 Fondo A                      755.0 x   734.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-    9992609290061 Fondo B                      762.0 x   734.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290054 Fondo A                      722.0 x   734.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290061 Fondo B                      602.0 x   734.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
     9992609290078 Montante A                    80.0 x   724.0 x 18.0  BLANCO 18  ag   6  canto  2  ran 0
     9992609290085 Montante B                    80.0 x   724.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
     9992609290092 Puerta                       282.7 x   757.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
@@ -69,8 +69,8 @@ A1 Esquinero alacena        16 placas
     9992609290603 Lateral B                    332.0 x  1000.0 x 18.0  BLANCO 18  ag  25  canto  0  ran 1
     9992609290610 Piso                         782.0 x   782.0 x 18.0  BLANCO 18  ag   6  canto  4  ran 2  (contorno)
     9992609290627 Techo                        782.0 x   657.0 x 18.0  BLANCO 18  ag  10  canto  4  ran 1  (contorno)
-    9992609290634 Fondo A                      755.0 x   689.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-    9992609290641 Fondo B                      762.0 x   974.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0  (contorno)
+    9992609290634 Fondo A                      722.0 x   689.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290641 Fondo B                      602.0 x   974.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
     9992609290658 Montante A                    80.0 x   964.0 x 18.0  BLANCO 18  ag   8  canto  2  ran 0
     9992609290665 Montante B                    80.0 x   964.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
     9992609290672 Puerta montante izq           60.0 x   997.0 x 18.0  MADERA VERDE 18  ag   1  canto  4  ran 1
@@ -79,8 +79,8 @@ A1 Esquinero alacena        16 placas
     9992609290702 Puerta travesano arriba      513.4 x    70.0 x 18.0  MADERA VERDE 18  ag   2  canto  4  ran 1
     9992609290719 Estante 1                    750.0 x   750.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0  (contorno)
     9992609290726 Estante 2                    750.0 x   750.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0  (contorno)
-    9992609290733 Travesano A                  751.0 x    80.0 x 18.0  BLANCO 18  ag   3  canto  3  ran 0
-    9992609290740 Travesano B                  638.0 x    80.0 x 18.0  BLANCO 18  ag   3  canto  3  ran 0
+    9992609290733 Travesano A                  717.0 x    80.0 x 18.0  BLANCO 18  ag   3  canto  3  ran 0
+    9992609290740 Travesano B                  597.0 x    80.0 x 18.0  BLANCO 18  ag   3  canto  3  ran 0
 A2 Alacena 600 rebatible    10 placas
     9992609290757 Liston frente                564.0 x    80.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 1
     9992609290764 Techo                        207.0 x   600.0 x 18.0  BLANCO 18  ag   8  canto  0  ran 0
@@ -141,7 +141,9 @@ HERRAJES:
     Tirador barral 128             11
     Vidrio                          2
 
+AVISO: B1 Esquinero bajo: rincon recortado 65 x 185 en piso, techo y estantes por la COLUMNA (60 x 180 + 5 de luz); los fondos y travesanos arrancan despues de ella.
 AVISO: B2 Bajo pileta 600: bacha Bacha Tawak Delta Simple 55 (550 x 460 x 220, sobre mesada) centrada en X=1100, Y=300; calado de mesada SUPUESTO 530 x 440: confirmar con la plantilla de la bacha antes de cortar.
+AVISO: A1 Esquinero alacena: rincon recortado 65 x 185 en piso, techo y estantes por la COLUMNA (60 x 180 + 5 de luz); los fondos y travesanos arrancan despues de ella.
 AVISO: A1 Esquinero alacena / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 535 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).
 AVISO: A1 Esquinero alacena / Lateral A: pin O5 en (264, 716.667) cae en la escotadura: se omite
 AVISO: A1 Esquinero alacena: viga en la pared larga: escotadura en Lateral A y Fondo B, techo desde Y=125, Travesano A atornillado a la viga, Fondo A hasta Z=2152.
@@ -166,7 +168,6 @@ AVISO: B1 Esquinero bajo / Estante 1: contorno con chanfle a 45 — la sierra co
 AVISO: A1 Esquinero alacena / Lateral A: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 1000, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
 AVISO: A1 Esquinero alacena / Piso: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
 AVISO: A1 Esquinero alacena / Techo: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 657, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
-AVISO: A1 Esquinero alacena / Fondo B: contorno con chanfle a 45 — la sierra corta el rectangulo 762 x 974, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
 AVISO: A1 Esquinero alacena / Estante 1: contorno con chanfle a 45 — la sierra corta el rectangulo 750 x 750, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
 AVISO: A1 Esquinero alacena / Estante 2: contorno con chanfle a 45 — la sierra corta el rectangulo 750 x 750, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).
 AVISO: A2 Alacena 600 rebatible / Lateral der: contorno con chanfle a 45 — la sierra corta el rectangulo 332 x 982, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).

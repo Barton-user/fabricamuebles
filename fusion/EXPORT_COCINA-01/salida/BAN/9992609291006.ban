@@ -1,4 +1,4 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:25:11" Source="fabrica-muebles" SourceType="BAN">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:32:27" Source="fabrica-muebles" SourceType="BAN">
 <Plane Width="332.00" Height="620.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,1,0" Name="COCINA-01_A4 Campana 570_Lateral izq" Code="9992609291006">
     <Outline>
         <Point Value="0.00 0.00 0"/>

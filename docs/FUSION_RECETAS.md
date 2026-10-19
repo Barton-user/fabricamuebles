@@ -480,6 +480,14 @@ Dos cosas que se encontraron:
   oculta**: `Frente campana fijo` (567 × 149,5, de 1643 a 1792,5, con escuadras al piso) + `Frente campana
   visor` (567 × 188,5, de 1451,5 a 1640) atornillado al visor extensible; el frente de A4 queda de 1450 a
   2450 como las vitrinas. Alto del visor (40) supuesto.
+- **Columna del rincón** (18/10, dato de Pato): 60 (X) × 180 (Y), de piso a techo (`COLUMNA`, `COL_X = 65`,
+  `COL_Y = 185`). En `esquinero()`: `con_columna(poli, cx, cy)` le saca el rincón al pentágono (7 vértices,
+  no convexo) y `horizontal()` anota la escotadura; piso, techo y estantes la llevan. Fondos y ranuras
+  arrancan después de la columna (ya no se tocan en L), travesaños de A1 ídem, la pata del rincón de B1
+  se corrió a (130, 250). `ArmarReceta.cuerpo_placa` ahora resta las escotaduras como cajas y aplica el
+  semiplano **sólo a los lados diagonales** del contorno (los lados paralelos a los ejes que no están en
+  el borde son de escotaduras), así conviven chanfle y rincón. Columna y viga pasaron a `REFERENCIA`
+  (ya no se agregan a mano en el re-armado).
 - **Viga** (18/10, medida por Pato): en la pared larga, de 2160 al techo, 120 de saliente (`VIGA`,
   `VIGA_Y = 125`, `VIGA_Z = 2155`, 5 de luz). `Placa.escotadura(esquina, ancho, alto)` recorta una
   esquina y rehace el contorno (6 vértices, NO convexo): `Placa.dentro()` pasó a ray casting +

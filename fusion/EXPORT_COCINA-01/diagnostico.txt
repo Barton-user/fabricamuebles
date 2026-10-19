@@ -65,11 +65,13 @@ Exportar Piezas — COCINA-01
   ranura 6.0 x 6.0  cara A  de (27.5, 0.0) a (27.5, 760.0)
 
 === Piso 9992609290030 / 9992609290030 ===
-  contorno: las dos caras difieren (582074.0 vs 591122.0 mm2); se usa la mayor
-  contorno irregular: 5 vertices (5 rectas, 0 arcos)
+  contorno: las dos caras difieren (539020.0 vs 579097.0 mm2); se usa la mayor
+  contorno irregular: 7 vertices (7 rectas, 0 arcos)
     (580.00, 782.00)
     (0.00, 782.00)
-    (0.00, 0.00)
+    (0.00, 185.00)
+    (65.00, 185.00)
+    (65.00, 0.00)
     (782.00, 0.00)
     (782.00, 580.00)
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
@@ -92,15 +94,17 @@ Exportar Piezas — COCINA-01
   cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
-  ranura 6.0 x 6.0  cara A  de (27.5, 24.5) a (27.5, 782.0)
-  ranura 6.0 x 6.0  cara A  de (31.5, 27.5) a (782.0, 27.5)
+  ranura 6.0 x 6.0  cara A  de (27.5, 185.0) a (27.5, 782.0)
+  ranura 6.0 x 6.0  cara A  de (65.0, 27.5) a (782.0, 27.5)
 
 === Techo 9992609290047 / 9992609290047 ===
-  contorno: las dos caras difieren (582074.0 vs 591122.0 mm2); se usa la mayor
-  contorno irregular: 5 vertices (5 rectas, 0 arcos)
+  contorno: las dos caras difieren (539020.0 vs 579097.0 mm2); se usa la mayor
+  contorno irregular: 7 vertices (7 rectas, 0 arcos)
     (782.00, 202.00)
     (782.00, 782.00)
-    (0.00, 782.00)
+    (65.00, 782.00)
+    (65.00, 597.00)
+    (0.00, 597.00)
     (0.00, 0.00)
     (580.00, 0.00)
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
@@ -123,8 +127,8 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
-  ranura 6.0 x 6.0  cara A  de (27.5, 0.0) a (27.5, 757.5)
-  ranura 6.0 x 6.0  cara A  de (31.5, 754.5) a (782.0, 754.5)
+  ranura 6.0 x 6.0  cara A  de (27.5, 0.0) a (27.5, 597.0)
+  ranura 6.0 x 6.0  cara A  de (65.0, 754.5) a (782.0, 754.5)
 
 === Fondo A 9992609290054 / 9992609290054 ===
 
@@ -175,10 +179,12 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
 === Estante 1 9992609290108 / 9992609290108 ===
-  contorno irregular: 5 vertices (5 rectas, 0 arcos)
+  contorno irregular: 7 vertices (7 rectas, 0 arcos)
     (434.03, 750.00)
     (0.00, 750.00)
-    (0.00, 0.00)
+    (0.00, 154.00)
+    (34.00, 154.00)
+    (34.00, 0.00)
     (750.00, 0.00)
     (750.00, 434.03)
 
@@ -812,11 +818,13 @@ Exportar Piezas — COCINA-01
   ranura 6.0 x 6.0  cara A  de (27.5, 0.0) a (27.5, 1000.0)
 
 === Piso 9992609290610 / 9992609290610 ===
-  contorno: las dos caras difieren (501226.0 vs 510274.0 mm2); se usa la mayor
-  contorno irregular: 5 vertices (5 rectas, 0 arcos)
+  contorno: las dos caras difieren (458172.0 vs 498249.0 mm2); se usa la mayor
+  contorno irregular: 7 vertices (7 rectas, 0 arcos)
     (332.00, 782.00)
     (0.00, 782.00)
-    (0.00, 0.00)
+    (0.00, 185.00)
+    (65.00, 185.00)
+    (65.00, 0.00)
     (782.00, 0.00)
     (782.00, 332.00)
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
@@ -839,15 +847,17 @@ Exportar Piezas — COCINA-01
   cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
-  ranura 6.0 x 6.0  cara A  de (27.5, 24.5) a (27.5, 782.0)
-  ranura 6.0 x 6.0  cara A  de (31.5, 27.5) a (782.0, 27.5)
+  ranura 6.0 x 6.0  cara A  de (27.5, 185.0) a (27.5, 782.0)
+  ranura 6.0 x 6.0  cara A  de (65.0, 27.5) a (782.0, 27.5)
 
 === Techo 9992609290627 / 9992609290627 ===
-  contorno: las dos caras difieren (392485.5 vs 412524.0 mm2); se usa la mayor
-  contorno irregular: 5 vertices (5 rectas, 0 arcos)
+  contorno: las dos caras difieren (390415.5 vs 408624.0 mm2); se usa la mayor
+  contorno irregular: 7 vertices (7 rectas, 0 arcos)
     (782.00, 450.00)
     (782.00, 657.00)
-    (0.00, 657.00)
+    (65.00, 657.00)
+    (65.00, 597.00)
+    (0.00, 597.00)
     (0.00, 0.00)
     (332.00, 0.00)
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
@@ -858,10 +868,10 @@ Exportar Piezas — COCINA-01
   agujero de canto  O8.0 prof 33.0  canto R  en (782.0, 601.5) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
   agujero de canto  O8.0 prof 33.0  canto R  en (782.0, 505.5) z=9.0
-  agujero vertical  O5.0 prof 12.0  cara A  en (9.0, 538.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (9.0, 497.0)
   agujero vertical  O5.0 prof 12.0  cara A  en (9.0, 100.0)
   agujero vertical  O5.0 prof 12.0  cara A  en (682.0, 648.0)
-  agujero vertical  O5.0 prof 12.0  cara A  en (131.0, 648.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (165.0, 648.0)
   agujero vertical  O5.0 prof 12.0  cara A  en (310.1, 34.6)
   agujero vertical  O5.0 prof 12.0  cara A  en (747.4, 471.9)
   agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
@@ -878,18 +888,11 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
-  ranura 6.0 x 6.0  cara A  de (27.5, 0.0) a (27.5, 657.0)
+  ranura 6.0 x 6.0  cara A  de (27.5, 0.0) a (27.5, 597.0)
 
 === Fondo A 9992609290634 / 9992609290634 ===
 
 === Fondo B 9992609290641 / 9992609290641 ===
-  contorno irregular: 6 vertices (6 rectas, 0 arcos)
-    (100.00, 692.00)
-    (0.00, 692.00)
-    (0.00, 0.00)
-    (762.00, 0.00)
-    (762.00, 974.00)
-    (100.00, 974.00)
 
 === Montante A 9992609290658 / 9992609290658 ===
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
@@ -1007,43 +1010,47 @@ Exportar Piezas — COCINA-01
   ranura 12.0 x 5.0  cara A  de (0.0, 6.0) a (513.4, 6.0)
 
 === Estante 1 9992609290719 / 9992609290719 ===
-  contorno irregular: 5 vertices (5 rectas, 0 arcos)
+  contorno irregular: 7 vertices (7 rectas, 0 arcos)
     (186.03, 750.00)
     (0.00, 750.00)
-    (0.00, 0.00)
+    (0.00, 154.00)
+    (34.00, 154.00)
+    (34.00, 0.00)
     (750.00, 0.00)
     (750.00, 186.03)
 
 === Estante 2 9992609290726 / 9992609290726 ===
-  contorno irregular: 5 vertices (5 rectas, 0 arcos)
+  contorno irregular: 7 vertices (7 rectas, 0 arcos)
     (186.03, 750.00)
     (0.00, 750.00)
-    (0.00, 0.00)
+    (0.00, 154.00)
+    (34.00, 154.00)
+    (34.00, 0.00)
     (750.00, 0.00)
     (750.00, 186.03)
 
 === Travesano A 9992609290733 / 9992609290733 ===
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto U  en (651.0, 80.0) z=9.0
+  agujero de canto  O8.0 prof 33.0  canto U  en (617.0, 80.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
   agujero de canto  O8.0 prof 33.0  canto U  en (100.0, 80.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto R  en (751.0, 40.0) z=9.0
-  agujero vertical  O15.0 prof 13.5  cara A  en (651.0, 47.0)
+  agujero de canto  O8.0 prof 33.0  canto R  en (717.0, 40.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (617.0, 47.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (100.0, 47.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (718.0, 40.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (684.0, 40.0)
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
 === Travesano B 9992609290740 / 9992609290740 ===
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto U  en (538.0, 80.0) z=9.0
+  agujero de canto  O8.0 prof 33.0  canto U  en (497.0, 80.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
   agujero de canto  O8.0 prof 33.0  canto U  en (100.0, 80.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
   agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 40.0) z=9.0
-  agujero vertical  O15.0 prof 13.5  cara A  en (538.0, 47.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (497.0, 47.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (100.0, 47.0)
   agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 40.0)
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura

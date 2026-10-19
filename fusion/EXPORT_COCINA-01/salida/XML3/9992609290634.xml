@@ -1,11 +1,11 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>755.00</PanelLength>
+        <PanelLength>722.00</PanelLength>
         <PanelWidth>689.00</PanelWidth>
         <PanelThickness>5.00</PanelThickness>
         <PanelName>COCINA-01_A1 Esquinero alacena_Fondo A</PanelName>
         <Params>
-            <Param Key="L" Value="755.00" Comment="板长"/>
+            <Param Key="L" Value="722.00" Comment="板长"/>
             <Param Key="W" Value="689.00" Comment="板宽"/>
             <Param Key="T" Value="5.00" Comment="板厚"/>
         </Params>

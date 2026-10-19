@@ -11,7 +11,7 @@ DW="0"
 ModusMirror="1"
 
 <100 \WerkStck\
-LA="751"
+LA="717"
 BR="80"
 DI="18"
 FNX="0"
@@ -23,7 +23,7 @@ AX="0"
 AY="0"
 
 <102 \V_DRILLING\
-XA="651"
+XA="617"
 YA="47"
 BM="LS"
 TI="13.5"
@@ -73,7 +73,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="718"
+XA="684"
 YA="40"
 BM="LS"
 TI="13.5"
@@ -99,7 +99,7 @@ MZF="1"
 
 <103 \End_Boring\
 MI="0"
-XA="651"
+XA="617"
 YA="80"
 ZA="9"
 DU="8"
@@ -149,7 +149,7 @@ MZF="1"
 
 <103 \End_Boring\
 MI="0"
-XA="751"
+XA="717"
 YA="40"
 ZA="9"
 DU="8"

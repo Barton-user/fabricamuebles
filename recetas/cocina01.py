@@ -145,6 +145,11 @@ CAMPANA = {"nombre": "Campana Serie Dorada SDC-100", "ancho": 600.0, "alto": 194
 SALIDA_AIRE = {"y": 1120.0, "z": 2120.0, "d": 150.0}
 Z_CAMPANA = Z_MESADA + CAMPANA["sobre_mesada"]                      # 1600: boca de la campana
 Z_PISO_CAMPANA = Z_CAMPANA + CAMPANA["alto"]                        # 1794: piso del mueble campana
+# COLUMNA en el rincon (18/10, dato de Pato): sale 60 de la pared corta (X 0..60) y 180 de la pared
+# larga (Y 0..180), de piso a techo. Los esquineros llevan el rincon recortado (con 5 de luz) en piso,
+# techo y estantes; los fondos y travesanos arrancan despues de la columna.
+COLUMNA = {"x": 60.0, "y": 180.0, "luz": 5.0}
+COL_X, COL_Y = COLUMNA["x"] + COLUMNA["luz"], COLUMNA["y"] + COLUMNA["luz"]      # 65, 185
 LISTON_FRENTE = 80.0                  # listón que reemplaza al piso en la alacena sin piso (lleva el LED)
 # corredera de bolillas 450 (COCINA MLV): O3 x 10 a 37 y 413 del frente
 CORR = {"d": 3.0, "prof": 10.0, "a": (37.0, 413.0), "largo": 450.0, "juego": 13.0}
@@ -793,58 +798,81 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False, vi
     # pentagono en el plano (X local = +X mundo, Y local = +Y mundo)
     penta = [(0, 0), (li, 0), (li, prof), (prof, li), (0, li)]
 
-    def horizontal(nm, zb, A, poli, rol="", cantos_diag=True, tex=BLANCO):
+    def con_columna(poli, cx, cy):
+        """Le saca al poligono (CCW, arranca en la esquina (0, ymin)) el rincon de la columna:
+        (0, ymin) -> (cx, ymin) ... (0, ymax) -> (0, cy) -> (cx, cy). Devuelve (poligono, rect)."""
+        (x0, y0) = poli[0]
+        if cx <= x0 or cy <= y0:
+            return poli, None
+        nuevo = [(cx, y0)] + poli[1:] + [(x0, cy), (cx, cy)]
+        return nuevo, (x0, y0, cx, cy)
+
+    def horizontal(nm, zb, A, poli, rol="", cantos_diag=True, tex=BLANCO, columna=None):
         # A = '+Z' (cara A arriba) o '-Z'
         # el marco de la placa es la CAJA del poligono (puede no arrancar en y = 0: techo con viga)
+        rect = None
+        if columna:
+            poli, rect = con_columna(poli, columna[0], columna[1])
         ymin, ymax = min(y for _, y in poli), max(y for _, y in poli)
         if A == "+Z":
             p = Placa(nombre, nm, li, ymax - ymin, T, (0, ymin, zb + T), (1, 0, 0), (0, 1, 0), tex, rol=rol,
                       contorno=[(x, y - ymin) for (x, y) in poli])
+            if rect:
+                p.escotaduras.append(dict(x1=rect[0], y1=rect[1] - ymin, x2=rect[2], y2=rect[3] - ymin))
         else:
             # cara A abajo: X local = +X, Y local = -Y -> O en (0, ymax, zb)
             p = Placa(nombre, nm, li, ymax - ymin, T, (0, ymax, zb), (1, 0, 0), (0, -1, 0), tex, rol=rol,
                       contorno=[(x, ymax - y) for (x, y) in reversed(poli)])
+            if rect:
+                p.escotaduras.append(dict(x1=rect[0], y1=ymax - rect[3], x2=rect[2], y2=ymax - rect[1]))
         if cantos_diag:
             p.cantos_diagonal = CANTO
         return p
 
-    piso = horizontal("Piso", z0 + (0 if not cenefa else 0), "+Z", penta)
+    COL = (COL_X, COL_Y)
+    piso = horizontal("Piso", z0 + (0 if not cenefa else 0), "+Z", penta, columna=COL)
     P.append(piso)
     if techo:
         # con viga el techo arranca a 125 de la pared larga (Y)
         penta_t = [(0, VIGA_Y), (li, VIGA_Y), (li, prof), (prof, li), (0, li)] if viga else penta
-        tec = horizontal("Techo", z1 - T, "-Z", penta_t)
+        tec = horizontal("Techo", z1 - T, "-Z", penta_t, columna=COL)
         P.append(tec)
+    AVISOS.append("%s: rincon recortado %g x %g en piso%s por la COLUMNA (60 x 180 + 5 de luz); los fondos y "
+                  "travesanos arrancan despues de ella." % (nombre, COL_X, COL_Y, ", techo y estantes" if techo else " y estante"))
     # ranuras de fondo en L (cara A = interior): piso arriba, techo abajo
     d = BP["desde_atras"]
     # Las dos ranuras NO se tocan: en L forman un solo fondo de ranura que ExportarPiezas
     # no reconoce (se probo el 29/09). La del fondo B va desde atras (y = d-3) hasta el
     # lateral; la del fondo A arranca 1 mm despues de la otra (x = d+4).
-    xa0 = d + 3.0 + 1.0
+    # con la columna en el rincon las dos ranuras ya no se tocan: cada una arranca despues de ella
+    xa0 = COL_X                              # fondo A (a lo largo de X) arranca en el borde del rincon
+    yb0 = COL_Y                              # fondo B (a lo largo de Y) idem (la ranura sale abierta al rincon)
     for p in [piso] + ([tec] if techo else []):
         if p is piso:
             p.ranura(xa0, d, li, d, BP["ancho"], BP["prof"], "A", "BP")            # a lo largo de X
-            p.ranura(d, d - 3.0, d, li, BP["ancho"], BP["prof"], "A", "BP")        # a lo largo de Y
+            p.ranura(d, yb0, d, li, BP["ancho"], BP["prof"], "A", "BP")            # a lo largo de Y
         elif viga:
-            # techo recortado: solo la ranura del fondo B, hasta donde llega el techo (y = 125)
-            p.ranura(d, 0.0, d, p.H, BP["ancho"], BP["prof"], "A", "BP")      # y' = 0 en el lateral B, H en la viga
+            # techo recortado: solo la ranura del fondo B (y' = 0 en el lateral B), hasta la columna
+            p.ranura(d, 0.0, d, li - yb0, BP["ancho"], BP["prof"], "A", "BP")
         else:
             p.ranura(xa0, li - d, li, li - d, BP["ancho"], BP["prof"], "A", "BP")
-            p.ranura(d, li - d + 3.0, d, 0, BP["ancho"], BP["prof"], "A", "BP")
+            p.ranura(d, li - yb0, d, 0, BP["ancho"], BP["prof"], "A", "BP")
     la.ranura(la.W - d, 0, la.W - d, (VIGA_Z - z0) if viga else la.H, BP["ancho"], BP["prof"], "A", "BP")
     lb.ranura(d, 0, d, lb.H, BP["ancho"], BP["prof"], "A", "BP")
     # fondos
     zf0 = z0 + T - 5
     zf1 = (z1 - T + 5) if techo else (z1 - 1)
     zfa = (VIGA_Z - 3.0) if viga else zf1                  # fondo A (pared larga) termina bajo la viga
-    fa = placa_caja(nombre, "Fondo A", xa0 + 0.5, li + 5, d - 2.5, d + 2.5, zf0, zfa, "+Y", "-X", FONDO5,
+    fa = placa_caja(nombre, "Fondo A", COL_X, li + 5, d - 2.5, d + 2.5, zf0, zfa, "+Y", "-X", FONDO5,
                     rol="FONDO", material=FIB)
-    fb = placa_caja(nombre, "Fondo B", d - 2.5, d + 2.5, d - 2.5, li + 5, zf0, zf1, "+X", "+Y", FONDO5,
+    fb = placa_caja(nombre, "Fondo B", d - 2.5, d + 2.5, COL_Y, li + 5, zf0, zf1, "+X", "+Y", FONDO5,
                     rol="FONDO", material=FIB)
     if viga:
         # fondo B (pared corta): su esquina atras-arriba choca con la viga -> escotadura
         # (x local = Y del mundo desde d-2,5; la viga ocupa Y < 125 arriba de 2155)
-        fb.escotadura("IZQ-ARRIBA", VIGA_Y - (d - 2.5), fb.H - (VIGA_Z - zf0))
+        if VIGA_Y > COL_Y:
+            fb.escotadura("IZQ-ARRIBA", VIGA_Y - COL_Y, fb.H - (VIGA_Z - zf0))
+        # (con la columna de 180 el fondo B arranca en Y=185, ya pasada la viga de 120: sin escotadura)
         la.escotadura("DER-ARRIBA", VIGA_Y, la.H - (VIGA_Z - z0))      # lateral A: x = W en la pared
     P += [fa, fb]
     # montantes a 45: 80 de ancho hacia adentro, 18 a lo largo de la diagonal
@@ -918,8 +946,11 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False, vi
     fila_adel = fila_atras + PASO * math.floor((k - lim - 25.0 - fila_atras) / PASO)
     for i, yc in enumerate(ycs):
         zs = interior0 + yc
+        poli_e, rect_e = con_columna(poli, COL_X - base_f, COL_Y - base_f)
         es = Placa(nombre, "Estante %d" % (i + 1), lim - base_f, lim - base_f, T,
-                   (base_f, base_f, zs + T), (1, 0, 0), (0, 1, 0), BLANCO, contorno=poli)
+                   (base_f, base_f, zs + T), (1, 0, 0), (0, 1, 0), BLANCO, contorno=poli_e)
+        if rect_e:
+            es.escotaduras.append(dict(x1=rect_e[0], y1=rect_e[1], x2=rect_e[2], y2=rect_e[3]))
         es.cantos_diagonal = CANTO
         P.append(es)
         for (lat, xs) in ((la, (la.W - fila_atras, la.W - fila_adel)), (lb, (fila_atras, fila_adel))):
@@ -934,7 +965,7 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False, vi
 def bajo_esquinero():
     nombre = "B1 Esquinero bajo"
     P, piso, pu, geo, la, lb = esquinero(nombre, H_BAJO, F_BAJO, Z_BAJO, Z_BAJO + H_BAJO, estantes=1)
-    for (px, py) in ((60, 60), (740, 60), (60, 740), (740, 500), (500, 740)):
+    for (px, py) in ((130, 250), (740, 60), (60, 740), (740, 500), (500, 740)):     # la del rincon, fuera de la columna
         herraje(nombre, "Pata regulable", (px, py, Z_BAJO), (0, 0, -1), (1, 0, 0), "pata")
     return P
 
@@ -950,8 +981,8 @@ def alacena_esquinero():
     li_ = 800.0 - T
     zt0, zt1 = z1 - T - TRAV_ALTO, z1 - T
     # con la viga: el A va contra la cara de la viga (Y 125..143) y el B arranca delante de ella
-    ta = placa_caja(nombre, "Travesano A", 31.0, li_, VIGA_Y, VIGA_Y + T, zt0, zt1, "-Y", "+X", BLANCO)
-    tb = placa_caja(nombre, "Travesano B", 0, T, VIGA_Y + T + 1.0, li_, zt0, zt1, "-X", "-Y", BLANCO)
+    ta = placa_caja(nombre, "Travesano A", COL_X, li_, VIGA_Y, VIGA_Y + T, zt0, zt1, "-Y", "+X", BLANCO)
+    tb = placa_caja(nombre, "Travesano B", 0, T, max(VIGA_Y + T + 1.0, COL_Y), li_, zt0, zt1, "-X", "-Y", BLANCO)
     AVISOS.append("%s: viga en la pared larga: escotadura en Lateral A y Fondo B, techo desde Y=%g, "
                   "Travesano A atornillado a la viga, Fondo A hasta Z=%g." % (nombre, VIGA_Y, VIGA_Z - 3.0))
     P += [ta, tb]
@@ -1278,12 +1309,15 @@ def armar():
 _BX, _BY = 1100.0, BACHA["centro_y"]
 _CALADO = (_BX - BACHA["corte"][0] / 2, _BX + BACHA["corte"][0] / 2, _BY - BACHA["corte"][1] / 2,
            _BY + BACHA["corte"][1] / 2, 850, 910)
+_COLUMNA_CAJA = (0, COLUMNA["x"], 0, COLUMNA["y"], 0, H_TECHO)
 REFERENCIA = [
-    ("Mesada pared larga", (0, X_FIN, 0, 620, 860, Z_MESADA), [_CALADO]),     # con el calado de la bacha
+    ("Mesada pared larga", (0, X_FIN, 0, 620, 860, Z_MESADA), [_CALADO, (-1, COLUMNA["x"], -1, COLUMNA["y"], 850, 910)]),
     ("Mesada pared corta", (0, 620, 620, 800, 860, Z_MESADA)),
     ("Cocina 550x650", (0, 650, 800, 1350, 0, 900)),
+    ("Columna 60x180", _COLUMNA_CAJA),
+    ("Viga pared larga", (-50, X_FIN + 50, 0, VIGA["prof"], VIGA["z0"], H_TECHO)),
 ]
-REF_RGB = {"Mesada": (214, 220, 222), "Cocina": (190, 180, 176)}
+REF_RGB = {"Mesada": (214, 220, 222), "Cocina": (190, 180, 176), "Columna": (200, 200, 205), "Viga": (200, 200, 205)}
 
 
 def ean13(doce):

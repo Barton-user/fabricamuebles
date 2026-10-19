@@ -72,6 +72,15 @@ centro a 2120 del piso y 1120 de la pared larga) con un codo. Pasos de 170×170 
 de 180×180 en el estante: **a caladora o router, no salen en los archivos de la perforadora.** La posición
 de la salida de la campana (150 de la pared) está supuesta: confirmar con la campana en mano.
 
+## Columna en el rincón (18/10)
+
+En el rincón entre las dos paredes hay una columna que sale **60 de la pared corta y 180 de la pared larga**,
+de piso a techo. Los dos esquineros (B1 y A1) llevan el rincón recortado **65 × 185** en piso, techo y
+estantes (contorno de 7 vértices: el chanfle a 45° más el rincón); los fondos arrancan después de la columna
+(Fondo A desde X = 65, Fondo B desde Y = 185) y las ranuras de fondo salen abiertas al rincón; los travesaños
+de colgar de A1 también arrancan después de ella. La mesada lleva el recorte. El rincón se corta con la
+sierra (dos cortes) o el router, igual que el chanfle.
+
 ## Viga en la pared larga (18/10)
 
 Hay una viga de 120 de saliente desde 2160 hasta el techo (2470), de punta a punta en la pared de la

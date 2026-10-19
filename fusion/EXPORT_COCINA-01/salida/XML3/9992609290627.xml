@@ -14,7 +14,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>9.00</X1>
-        <Y1>538.00</Y1>
+        <Y1>497.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -49,7 +49,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>131.00</X1>
+        <X1>165.00</X1>
         <Y1>648.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
@@ -196,7 +196,7 @@
         <BeginX>27.50</BeginX>
         <BeginY>0.00</BeginY>
         <EndX>27.50</EndX>
-        <EndY>657.00</EndY>
+        <EndY>597.00</EndY>
         <Correction>0</Correction>
         <Width>6.00</Width>
         <Depth>6.00</Depth>
