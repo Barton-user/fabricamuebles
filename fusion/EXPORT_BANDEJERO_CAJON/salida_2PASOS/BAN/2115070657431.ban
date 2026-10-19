@@ -1,0 +1,19 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 pm 5:53:34" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="299.00" Height="202.00" PlaneSize="1" Grain="1" Thickness="18" Material="NEstructura" EdgeFBLR="0,0,1,0" Name="00-Bandejero_Cajón01_Frente01 SOLO AGUJEROS" Code="2115070657431">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="299.00 0.00 0"/>
+        <Point Value="299.00 202.00 0"/>
+        <Point Value="0.00 202.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="31.00 168.00 0" End="31.00 168.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="267.00 168.00 0" End="267.00 168.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="31.00 34.00 0" End="31.00 34.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="267.00 34.00 0" End="267.00 34.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="31.00 202.00 -9.00" End="31.00 169.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="U" Start="267.00 202.00 -9.00" End="267.00 169.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="31.00 0.00 -9.00" End="31.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="267.00 0.00 -9.00" End="267.00 33.00 -9.00"/>
+</Plane>
+</MicroDrawBan_XML>

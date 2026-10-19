@@ -31,3 +31,21 @@ CAMBIOS A MANO RESPECTO DE LO QUE SALE DE FUSION (ver fusion/EXPORT_BANDEJERO_CA
   - Receptores O5 x 11 (GuiGui) -> O5 x 12 (CONTEXTO §4).
   - Canto: ArmarDesdeRender lo puso del lado de la ranura (abajo); corregido al borde de arriba.
   - Sacados los O3 x 2 de la corredera.
+
+19/10 (en la maquina): el 2115070657431 tiro error de conversion por "diametro 6" -> la T187 ya no es O6
+(se cambio el 06/10 y no hay O6 de repuesto; en la maquina venian cambiando la ranura a 5 a mano).
+XML3_RANURA_5/ = los mismos 3 programas con la ranura de ancho 5 (lo demas identico). Usar esos.
+Pendiente: anotar en la tabla de herramientas que la T187 es O5 y que ajustar_maquina.py saque las ranuras de 6 como 5.
+
+19/10 (mas tarde): con ranura 5 y con ranura 6x6 sigue "diametro de herramienta demasiado grande".
+Lo unico que tienen distinto estos programas de los que anduvieron (techo 279, laterales 286/262) es que
+TODOS los agujeros verticales son de cara trasera (TypeNo 8) y la ranura de cara frontal: la hipotesis es
+que MH2026 da vuelta la pieza cuando no hay nada arriba y la ranura de 6 le cae a la cara de abajo (T11 O10).
+Solucion: XML3_2PASOS/ = Frente y Fondo en DOS programas cada uno, sin cara trasera en ninguno:
+  2115070657431  Frente SOLO AGUJEROS (4 x O15 arriba + 4 x O8 de canto)      -> cara con O15 ARRIBA
+  9992610019323  Frente SOLO RANURA (6 x 6 a 17,5 del borde sin canto)       -> dar vuelta: cara con O15 ABAJO
+  2115070657462  Fondo  SOLO AGUJEROS                                        -> cara con O15 ARRIBA
+  9992610019330  Fondo  SOLO RANURA                                          -> cara con O15 ABAJO
+Marcar con lapiz el borde del canto (arriba del cajon) antes de mecanizar: la ranura va en el borde OPUESTO.
+Comparar el dibujo de la pantalla con HOJAS_2PASOS.html antes de largar.
+El lateral 2115070657455 (O5 arriba + ranura arriba, sin cara trasera) deberia convertir tal cual.

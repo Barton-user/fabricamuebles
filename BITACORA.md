@@ -1820,7 +1820,7 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - Placa base: sin medir. Se marca en seco contra el lateral y se mide (pendiente; decide `base_desde_frente`).
 - Lateral generado (9992610019316): placa en cruz, entrecentro **32** (medido), a **37** del frente, uno arriba del otro.
   Pato: "las medidas aparentemente están ok". Disco de la Mac lleno a mitad de sesión (reinicio liberó 15 GB).
-- Esquema para la diseñadora (GuiGui) en Figma: archivo de herrajes FBehv5P3VSuDUbLplOPRit, página "Bisagra – medidas para GuiGui".
+- Esquema para la diseñadora (GuiGui) en Figma: ~~hecho el 16/10~~ **no existía** (revisado 19/10: el archivo tenía una sola página). Hecho el 19/10: archivo de herrajes FBehv5P3VSuDUbLplOPRit, página "Bisagra – medidas para GuiGui" (plano acotado puerta + lateral, y tabla verificado vs GuiGui 19/10).
 - Pendiente: cambiar `base_desde_frente` en medidas.json y el código (hoy 20/52 a lo largo).
 
 
@@ -1962,3 +1962,4 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   de la corredera → `a_medida_corte` (299 de ancho) → `ajustar_maquina` (Frente y Lateral volteadas: ranura de 6
   arriba con T187; Ø15 del Frente y del Fondo quedan ABAJO, TypeNo 8 — primera vez Ø15 desde abajo) → `exportar`.
   Sin referencia contra qué validar: control a mano de los XML3 contra los `ocenter` del render (espejo x→W−x OK).
+- **Plano de la bisagra en Figma** (página "Bisagra – medidas para GuiGui" del archivo de herrajes FBehv5P3VSuDUbLplOPRit, nodo 36:2): puerta (cazoleta Ø35 × 13 a 22,5; Ø5 × 3 a 28,5, ±24) y lateral (placa base Ø5 × 3 a 37, ±16, con lo de GuiGui en rojo) + tabla verificado / GuiGui 19/10 / qué cambiar. La entrada del 16/10 decía que ya existía y no era así: corregida.

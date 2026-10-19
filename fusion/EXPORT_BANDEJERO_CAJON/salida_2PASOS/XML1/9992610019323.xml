@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Plate plateNumber="9992610019323" plateNickName="00-Bandejero_Cajón01_Frente01 SOLO RANURA" width="202.00" depth="299.00" height="18.00" barCode="9992610019323" barCode1="">
+    <Bandings>
+        <Banding bandingBack="0" bandingRight="1" bandingFront="0" bandingLeft="0"/>
+    </Bandings>
+    <Holes/>
+    <Slottings>
+        <Slotting positionSide="1" slottingStartX="17.50" slottingStartY="0.00" slottingStartZ="0.000" slottingEndX="17.50" slottingEndY="202.00" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="6.00"/>
+    </Slottings>
+    <YXJSlottings/>
+    <H_Slottings/>
+    <Points>
+        <Point startPoint="(0.00,202.00,18.00)" endPoint="(299.00,202.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(299.00,202.00,18.00)" endPoint="(299.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(299.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,202.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+    </Points>
+</Plate>

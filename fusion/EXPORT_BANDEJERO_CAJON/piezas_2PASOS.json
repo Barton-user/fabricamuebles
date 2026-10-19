@@ -1,0 +1,235 @@
+{
+ "version": 1,
+ "origen": "fusion",
+ "documento": "COCINA MLV",
+ "piezas": [
+  {
+   "codigo": "2115070657431",
+   "nombre": "00-Bandejero_Cajón01_Frente01 SOLO AGUJEROS",
+   "ancho": 299.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 31.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 267.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 31.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 267.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 31.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U"
+    },
+    {
+     "x": 267.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U"
+    },
+    {
+     "x": 31.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D"
+    },
+    {
+     "x": 267.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": []
+  },
+  {
+   "codigo": "9992610019323",
+   "nombre": "00-Bandejero_Cajón01_Frente01 SOLO RANURA",
+   "ancho": 299.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 281.5,
+     "y1": 0.0,
+     "x2": 281.5,
+     "y2": 202.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "B"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": []
+  },
+  {
+   "codigo": "2115070657462",
+   "nombre": "00-Bandejero_Cajón01_Fondo01 SOLO AGUJEROS",
+   "ancho": 299.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "agujeros": [
+    {
+     "x": 31.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "B"
+    },
+    {
+     "x": 267.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "B"
+    },
+    {
+     "x": 31.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "B"
+    },
+    {
+     "x": 267.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "B"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 31.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U"
+    },
+    {
+     "x": 267.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U"
+    },
+    {
+     "x": 31.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D"
+    },
+    {
+     "x": 267.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": []
+  },
+  {
+   "codigo": "9992610019330",
+   "nombre": "00-Bandejero_Cajón01_Fondo01 SOLO RANURA",
+   "ancho": 299.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 281.5,
+     "y1": 0.0,
+     "x2": 281.5,
+     "y2": 202.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": []
+  }
+ ]
+}
