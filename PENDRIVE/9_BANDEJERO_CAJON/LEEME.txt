@@ -2,7 +2,8 @@ CAJON DEL BANDEJERO (COCINA MLV, GuiGui del 19/10) - PRUEBA DE 4 PIEZAS
 =======================================================================
 Origen: GuiGui render 19/10 -> Fusion "COCINA MLV" (re-armado 19/10) -> etapa2.
 Todo en medida de CORTE (sin canto): perforar antes de cantear. El canto (1 mm) va en el
-borde de ARRIBA del cajon, que en la maquina es el borde X = 0 de las tres piezas de 18.
+borde de ARRIBA del cajon = el borde OPUESTO a la ranura del fondo en las tres piezas de 18
+(Lateral y Frente: X = 299, ranura a 17,5 de X = 0 · Fondo: X = 0, ranura a 281,5).
 Cara de arriba en la maquina = la que dice HOJAS_VERIFICACION.html.
 
 XML3 (KDTXml)        Pieza                 Corte (X x Y)   Mecanizado
