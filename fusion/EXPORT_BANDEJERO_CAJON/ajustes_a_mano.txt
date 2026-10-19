@@ -1,0 +1,4 @@
+2115070657455: sacados 3 agujeros O3x2 de corredera (no hay O3 en la maquina; se hacen a mano)
+fondo de cajon 414x202 -> 424x212 (encastre 5 mm en la ranura, ExportarPiezas lee la caja visible)
+receptores O5 x 11 -> O5 x 12 (CONTEXTO §4, herrajes/medidas.json)
+canto del cajon: ArmarDesdeRender lo puso en DER (x=W), que en estas piezas giradas es el borde de ABAJO (la ranura del fondo esta a 17,5 de ese borde). Pasado a IZQ (x=0) = borde de ARRIBA, el que se ve (GuiGui: 上1). Mismo bug que los listones (pendiente #8).

@@ -1,0 +1,16 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 pm 5:23:57" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="299.00" Height="450.00" PlaneSize="1" Grain="1" Thickness="18" Material="NEstructura" EdgeFBLR="0,0,0,1" Name="00-Bandejero_Cajón01_Lateral izquierdo01 (corte)" Code="2115070657455">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="299.00 0.00 0"/>
+        <Point Value="299.00 450.00 0"/>
+        <Point Value="0.00 450.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="268.00 9.00 0" End="268.00 9.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="32.00 9.00 0" End="32.00 9.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="268.00 441.00 0" End="268.00 441.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="32.00 441.00 0" End="32.00 441.00 -12.00"/>
+    <SlotL Name="" Face="A" Start="17.50 12.85 -5.50" End="17.50 437.15 -5.50" Width="6.00" IsCuted="0"/>
+</Plane>
+</MicroDrawBan_XML>

@@ -1,0 +1,4 @@
+2115070657431 Frente01 (corte)     VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2115070657455 Lateral izquierdo01 (corte) VOLTEADA (cara de trabajo arriba)
+2115070657462 Fondo01 (corte)      queda ABAJO: O15
+2115070657479 Drawer base board01  sin cambios

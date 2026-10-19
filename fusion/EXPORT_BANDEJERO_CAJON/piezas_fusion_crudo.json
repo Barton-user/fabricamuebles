@@ -1,0 +1,295 @@
+{
+ "version": 1,
+ "origen": "fusion",
+ "documento": "COCINA MLV",
+ "piezas": [
+  {
+   "codigo": "2115070657431",
+   "nombre": "00-Bandejero_Cajón01_Frente01",
+   "ancho": 300.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "agujeros": [
+    {
+     "x": 32.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 268.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 32.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    },
+    {
+     "x": 268.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 32.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U"
+    },
+    {
+     "x": 268.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U"
+    },
+    {
+     "x": 32.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D"
+    },
+    {
+     "x": 268.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 282.5,
+     "y1": 0.0,
+     "x2": 282.5,
+     "y2": 202.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "B"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": []
+  },
+  {
+   "codigo": "2115070657455",
+   "nombre": "00-Bandejero_Cajón01_Lateral izquierdo01",
+   "ancho": 300.0,
+   "alto": 450.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "agujeros": [
+    {
+     "x": 32.0,
+     "y": 9.0,
+     "diametro": 5.0,
+     "profundidad": 11.0,
+     "cara": "B"
+    },
+    {
+     "x": 268.0,
+     "y": 9.0,
+     "diametro": 5.0,
+     "profundidad": 11.0,
+     "cara": "B"
+    },
+    {
+     "x": 32.0,
+     "y": 441.0,
+     "diametro": 5.0,
+     "profundidad": 11.0,
+     "cara": "B"
+    },
+    {
+     "x": 268.0,
+     "y": 441.0,
+     "diametro": 5.0,
+     "profundidad": 11.0,
+     "cara": "B"
+    },
+    {
+     "x": 150.0,
+     "y": 191.0,
+     "diametro": 3.0,
+     "profundidad": 2.0,
+     "cara": "A"
+    },
+    {
+     "x": 150.0,
+     "y": 287.0,
+     "diametro": 3.0,
+     "profundidad": 2.0,
+     "cara": "A"
+    },
+    {
+     "x": 150.0,
+     "y": 415.0,
+     "diametro": 3.0,
+     "profundidad": 2.0,
+     "cara": "A"
+    }
+   ],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 282.5,
+     "y1": 12.85,
+     "x2": 282.5,
+     "y2": 437.15,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "B"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": []
+  },
+  {
+   "codigo": "2115070657462",
+   "nombre": "00-Bandejero_Cajón01_Fondo01",
+   "ancho": 300.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "agujeros": [
+    {
+     "x": 32.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "B"
+    },
+    {
+     "x": 268.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "B"
+    },
+    {
+     "x": 32.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "B"
+    },
+    {
+     "x": 268.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "B"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 32.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U"
+    },
+    {
+     "x": 268.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U"
+    },
+    {
+     "x": 32.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D"
+    },
+    {
+     "x": 268.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 282.5,
+     "y1": 0.0,
+     "x2": 282.5,
+     "y2": 202.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": []
+  },
+  {
+   "codigo": "2115070657479",
+   "nombre": "00-Bandejero_Cajón01_Drawer base board01",
+   "ancho": 414.0,
+   "alto": 202.0,
+   "espesor": 5.0,
+   "material": "装饰板",
+   "mueble": "00-Bandejero",
+   "textura": "01暖白",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "canto_izq": 0.0,
+   "canto_der": 0.0,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": []
+  }
+ ]
+}

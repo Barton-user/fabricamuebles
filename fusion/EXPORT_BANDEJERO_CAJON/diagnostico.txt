@@ -1,0 +1,94 @@
+
+=== Listón superior01 2115070657417 / 2115070657417 ===
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (264.0, 100.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (264.0, 50.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 100.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 50.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (230.0, 100.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (230.0, 50.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (34.0, 100.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (34.0, 50.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+
+=== Frente01 2115070657431 / 2115070657431 ===
+  contorno: las dos caras difieren (60600.0 vs 56459.0 mm2); se usa la mayor
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto U  en (32.0, 202.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto U  en (268.0, 202.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto D  en (32.0, 0.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto D  en (268.0, 0.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (32.0, 168.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (268.0, 168.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (32.0, 34.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (268.0, 34.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  ranura 6.0 x 5.5  cara B  de (282.5, 0.0) a (282.5, 202.0)
+
+=== Lateral derecho01 2115070657448 / 2115070657448 ===
+  agujero vertical  O5.0 prof 11.0  cara A  en (32.0, 9.0)
+  agujero vertical  O5.0 prof 11.0  cara A  en (268.0, 9.0)
+  agujero vertical  O5.0 prof 11.0  cara A  en (32.0, 441.0)
+  agujero vertical  O5.0 prof 11.0  cara A  en (268.0, 441.0)
+  agujero vertical  O3.0 prof 2.0  cara B  en (150.0, 191.0)
+  agujero vertical  O3.0 prof 2.0  cara B  en (150.0, 287.0)
+  agujero vertical  O3.0 prof 2.0  cara B  en (150.0, 415.0)
+  cara plana en z=-11.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-11.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-16.00 de 3.0 x 3.0 ignorada: no parece ranura
+  cara plana en z=-16.00 de 3.0 x 3.0 ignorada: no parece ranura
+  cara plana en z=-16.00 de 3.0 x 3.0 ignorada: no parece ranura
+  ranura 6.0 x 5.5  cara A  de (282.5, 12.9) a (282.5, 437.2)
+
+=== Lateral izquierdo01 2115070657455 / 2115070657455 ===
+  agujero vertical  O5.0 prof 11.0  cara B  en (32.0, 9.0)
+  agujero vertical  O5.0 prof 11.0  cara B  en (268.0, 9.0)
+  agujero vertical  O5.0 prof 11.0  cara B  en (32.0, 441.0)
+  agujero vertical  O5.0 prof 11.0  cara B  en (268.0, 441.0)
+  agujero vertical  O3.0 prof 2.0  cara A  en (150.0, 191.0)
+  agujero vertical  O3.0 prof 2.0  cara A  en (150.0, 287.0)
+  agujero vertical  O3.0 prof 2.0  cara A  en (150.0, 415.0)
+  cara plana en z=-7.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-7.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-7.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-7.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-2.00 de 3.0 x 3.0 ignorada: no parece ranura
+  cara plana en z=-2.00 de 3.0 x 3.0 ignorada: no parece ranura
+  cara plana en z=-2.00 de 3.0 x 3.0 ignorada: no parece ranura
+  ranura 6.0 x 5.5  cara B  de (282.5, 12.9) a (282.5, 437.2)
+
+=== Fondo01 2115070657462 / 2115070657462 ===
+  contorno: las dos caras difieren (56459.0 vs 60600.0 mm2); se usa la mayor
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto U  en (32.0, 202.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto U  en (268.0, 202.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto D  en (32.0, 0.0) z=9.0
+  (O8.0: medido 27.7, se usa 33.0 de tabla — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto D  en (268.0, 0.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara B  en (32.0, 168.0)
+  agujero vertical  O15.0 prof 13.5  cara B  en (268.0, 168.0)
+  agujero vertical  O15.0 prof 13.5  cara B  en (32.0, 34.0)
+  agujero vertical  O15.0 prof 13.5  cara B  en (268.0, 34.0)
+  cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
+  ranura 6.0 x 5.5  cara A  de (282.5, 0.0) a (282.5, 202.0)
+
+=== Drawer base board01 2115070657479 / 2115070657479 ===

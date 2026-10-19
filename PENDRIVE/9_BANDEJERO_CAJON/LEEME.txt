@@ -1,0 +1,32 @@
+CAJON DEL BANDEJERO (COCINA MLV, GuiGui del 19/10) - PRUEBA DE 4 PIEZAS
+=======================================================================
+Origen: GuiGui render 19/10 -> Fusion "COCINA MLV" (re-armado 19/10) -> etapa2.
+Todo en medida de CORTE (sin canto): perforar antes de cantear. El canto (1 mm) va en el
+borde de ARRIBA del cajon, que en la maquina es el borde X = 0 de las tres piezas de 18.
+Cara de arriba en la maquina = la que dice HOJAS_VERIFICACION.html.
+
+XML3 (KDTXml)        Pieza                 Corte (X x Y)   Mecanizado
+2115070657455.xml    Lateral IZQ cajon     299 x 450       4 x O5x12 (receptores) arriba · ranura 6x5,5 a 17,5 arriba (T187)
+2115070657431.xml    Frente interior       299 x 202       4 x O15x13,5 ABAJO · 4 x O8x33 de canto (cantos de 202) · ranura 6x5,5 a 17,5 arriba (T187)
+2115070657462.xml    Fondo (trasera)       299 x 202       idem Frente
+2115070657479.xml    Fondo de cajon 5 mm   424 x 212       sin mecanizado (solo corte)
+
+SIERRA
+  BLANCO 18 (NEstructura): 299 x 450 (1) · 299 x 202 (2)   -> veta horizontal (a lo largo del 450 / 300)
+  BLANCO 5  (01暖白):      424 x 212 (1)
+
+PERFORADORA
+  - Variador en 300 Hz: las 3 piezas llevan ranura de 6 con la T187. (Volver a 100 Hz para cazoletas.)
+  - Frente y Fondo: los O15 de la excentrica van por ABAJO (TypeNo 8). Primera vez que probamos
+    O15 desde el cabezal de abajo: si la maquina lo rechaza, dar vuelta la pieza y hacer la ranura
+    de 6 aparte (o pedir el programa sin volteo).
+  - Lateral: los 3 agujeros O3 de la corredera NO estan (no hay mecha O3). Se marcan a mano con la
+    corredera; con Hafele 494.02.074 van a 35 / 163 / 259 del frente de todos modos.
+  - Medir ancho con calibre antes de mecanizar: 299 (alarma 202h si la pieza tiene 1-2 mm de mas).
+  - Codigos nuevos: tipearlos (la etiqueta de AutoCUT todavia sale mal).
+
+CAMBIOS A MANO RESPECTO DE LO QUE SALE DE FUSION (ver fusion/EXPORT_BANDEJERO_CAJON/ajustes_a_mano.txt)
+  - Fondo de cajon 414x202 -> 424x212 (ExportarPiezas lee la caja visible, sin el encastre de 5 en las ranuras).
+  - Receptores O5 x 11 (GuiGui) -> O5 x 12 (CONTEXTO §4).
+  - Canto: ArmarDesdeRender lo puso del lado de la ranura (abajo); corregido al borde de arriba.
+  - Sacados los O3 x 2 de la corredera.

@@ -1954,3 +1954,11 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   render (`extraParts`): colgadores KA.2251 290.21.901/900 (7 pares), pistón ST.2145 100 N 373.82.902 (1), push open BP.6110
   356.01.550 + 246.03.790 (4: spar y escobero), tacho BM.0144 502.12.529, fuente LED LE.9103 12 V 60 W. Ranuras LED ahora 18 × 11
   (perfil Loox embutido). Dudas: 6 puertas de alacena sin tirador ni push, un solo pistón, fuente 12 V con Loox5 de 24 V, escobero colgado.
+- **Prueba: 4 piezas del cajón del Bandejero (COCINA MLV)** → `fusion/EXPORT_BANDEJERO_CAJON/` y
+  `PENDRIVE/9_BANDEJERO_CAJON/` (XML3, lista de corte, hojas, LEEME). Lateral izq. 2115070657455 (300×450),
+  Frente 2115070657431 y Fondo 2115070657462 (300×202), fondo de cajón 2115070657479 (424×212×5).
+  `ExportarPiezas.recolectar` por el MCP de Fusion (filtrado a los 4 códigos) → a mano: fondo 414×202 → 424×212,
+  receptores Ø5×11 → ×12, canto DER → IZQ (bug de `_cantos` con cajones, mismo que los listones), sacados los Ø3×2
+  de la corredera → `a_medida_corte` (299 de ancho) → `ajustar_maquina` (Frente y Lateral volteadas: ranura de 6
+  arriba con T187; Ø15 del Frente y del Fondo quedan ABAJO, TypeNo 8 — primera vez Ø15 desde abajo) → `exportar`.
+  Sin referencia contra qué validar: control a mano de los XML3 contra los `ocenter` del render (espejo x→W−x OK).
