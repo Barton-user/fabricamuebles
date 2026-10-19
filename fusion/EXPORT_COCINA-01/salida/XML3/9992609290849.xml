@@ -1,11 +1,11 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>640.00</PanelLength>
+        <PanelLength>615.00</PanelLength>
         <PanelWidth>597.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
         <PanelName>COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible abajo</PanelName>
         <Params>
-            <Param Key="L" Value="640.00" Comment="板长"/>
+            <Param Key="L" Value="615.00" Comment="板长"/>
             <Param Key="W" Value="597.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
@@ -13,7 +13,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>590.00</X1>
+        <X1>565.00</X1>
         <Y1>362.50</Y1>
         <Depth>18.00</Depth>
         <Diameter>5.00</Diameter>
@@ -25,7 +25,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>590.00</X1>
+        <X1>565.00</X1>
         <Y1>234.50</Y1>
         <Depth>18.00</Depth>
         <Diameter>5.00</Diameter>

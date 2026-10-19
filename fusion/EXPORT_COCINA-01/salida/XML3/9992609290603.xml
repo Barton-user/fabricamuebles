@@ -1,12 +1,12 @@
 <KDTPanelFormat>
     <PANEL>
         <PanelLength>332.00</PanelLength>
-        <PanelWidth>1040.00</PanelWidth>
+        <PanelWidth>1000.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
         <PanelName>COCINA-01_A1 Esquinero alacena_Lateral B</PanelName>
         <Params>
             <Param Key="L" Value="332.00" Comment="板长"/>
-            <Param Key="W" Value="1040.00" Comment="板宽"/>
+            <Param Key="W" Value="1000.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
@@ -14,7 +14,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>9.00</X1>
-        <Y1>982.00</Y1>
+        <Y1>942.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -26,7 +26,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>743.33</Y1>
+        <Y1>716.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -38,7 +38,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>743.33</Y1>
+        <Y1>716.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -50,7 +50,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>711.33</Y1>
+        <Y1>684.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -62,7 +62,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>711.33</Y1>
+        <Y1>684.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -74,7 +74,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>679.33</Y1>
+        <Y1>652.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -86,7 +86,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>679.33</Y1>
+        <Y1>652.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -98,7 +98,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>647.33</Y1>
+        <Y1>620.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -110,7 +110,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>647.33</Y1>
+        <Y1>620.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -122,7 +122,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>615.33</Y1>
+        <Y1>588.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -134,7 +134,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>615.33</Y1>
+        <Y1>588.67</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -146,7 +146,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>408.67</Y1>
+        <Y1>395.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -158,7 +158,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>408.67</Y1>
+        <Y1>395.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -170,7 +170,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>376.67</Y1>
+        <Y1>363.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -182,7 +182,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>376.67</Y1>
+        <Y1>363.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -194,7 +194,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>344.67</Y1>
+        <Y1>331.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -206,7 +206,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>344.67</Y1>
+        <Y1>331.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -218,7 +218,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>312.67</Y1>
+        <Y1>299.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -230,7 +230,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>312.67</Y1>
+        <Y1>299.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -242,7 +242,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>164.00</X1>
-        <Y1>280.67</Y1>
+        <Y1>267.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -254,7 +254,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>68.00</X1>
-        <Y1>280.67</Y1>
+        <Y1>267.33</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -266,7 +266,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>278.00</X1>
-        <Y1>1031.00</Y1>
+        <Y1>991.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -278,7 +278,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>54.00</X1>
-        <Y1>1031.00</Y1>
+        <Y1>991.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -316,7 +316,7 @@
         <BeginX>27.50</BeginX>
         <BeginY>0.00</BeginY>
         <EndX>27.50</EndX>
-        <EndY>1040.00</EndY>
+        <EndY>1000.00</EndY>
         <Correction>0</Correction>
         <Width>6.00</Width>
         <Depth>6.00</Depth>

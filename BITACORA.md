@@ -1886,3 +1886,5 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   Fusion re-armado sin guardar.
 - Herrajes de las rebatibles: opción 1 (cazoleta arriba + pistones 60 N / 80–100 N). Aventos HF anotado
   como alternativa futura. Sólo cambia el aviso de la receta; el modelo ya estaba así.
+- Medida real: piso a techo **2470**. Alacenas pasan a 1450–2450 (20 de aire). Hojas de A2 597×379 /
+  597×615, montantes de vitrina 997, vidrios ×879. 114/114, paquete regenerado, Fusion sin guardar.

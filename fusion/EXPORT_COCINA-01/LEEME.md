@@ -4,7 +4,7 @@ Generado el 29/09/2026 desde `recetas/cocina01.py` → Fusion `COCINA-01` (proye
 `ExportarPiezas` → `etapa2/`. Basado en las medidas del modelo de render `COCINA`.
 
 **Regenerado el 18/10/2026** con el diseño nuevo (como el render verde con vitrinas y cobre): sin
-lavavajillas, B4 bajo puerta 452, alacenas de 1450 a 2490 **sin cenefa ni cornisa** (LED embutido) y con
+lavavajillas, B4 bajo puerta 452, alacenas de 1450 a 2450 (techo a 2470) **sin cenefa ni cornisa** (LED embutido) y con
 **travesaño trasero 18×80 para colgarlas**, A3/A4/esquinero vitrinas, A2 rebatible, tiradores Ø5
 pasantes, receptor Ø5×12, placa base 37/±16.  Los archivos del paquete viejo que ya no
 corresponden quedaron en `salida/_obsoleto_18-10/`.
@@ -48,7 +48,7 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 | **Escurreplatos Bronzen LC-560** (564×270, 2 rejillas, inox, MLAU156309472) | 1 — se atornilla a los laterales de A2 (Ø3 a mano); alturas supuestas 280/130 bajo el estante fijo |
 | **Cubiertero colgante 3 compartimentos Toly Poken** (MLA2121276022) | 1 — colgado de la rejilla de abajo; medidas supuestas 240×120×140 |
 | **Bacha Tawak Delta Simple 55** (55×46×22, acero 304, sobre mesada, MLA80311064) | 1 — calado de mesada supuesto 530×440, confirmar con la plantilla |
-| Vidrio 4 mm | 535×919 · 2 × 299×919 · 469×919 |
+| Vidrio 4 mm | 535×879 · 2 × 299×879 · 469×879 |
 | Tarugo Ø8 × 30 | 16 |
 | Listones 25 × 8 para las cruces (2×3 por puerta) | 4 puertas |
 | Junquillos para el vidrio | 4 puertas |

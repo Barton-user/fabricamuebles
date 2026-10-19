@@ -26,7 +26,7 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
   * cajonera: corredera de bolillas 450 Grupo Euro (agujeros 37/413 como
     GuiGui); caja de melamina 18 con 3 en 1, fondo 5 en ranura
   * zocalo clip sobre patas regulables (el cuerpo arranca a 100)
-  * alacenas de 1450 a 2490, SIN cenefa ni cornisa (18/10: quedaban feas); LED
+  * alacenas de 1450 a 2450 (techo a 2470, 20 de aire), SIN cenefa ni cornisa (18/10: quedaban feas); LED
     embutido con perfil de aluminio en la ranura 10x10 del piso; estantes
     regulables O5 sistema 32; se cuelgan por un TRAVESANO TRASERO 18 x 80 bajo el
     techo (dos en el esquinero), atornillado a la pared a mano
@@ -143,7 +143,8 @@ T = 18.0
 Z_BAJO = 100.0                        # arranque del cuerpo (patas + zocalo)
 H_BAJO = 760.0                        # hasta 860; mesada 40 -> 900
 F_BAJO = 580.0                        # fondo del cuerpo bajo
-Z_ALTO0, Z_ALTO1 = 1450.0, 2490.0     # cuerpo de las alacenas, de punta a punta (18/10: sin cenefa ni cornisa)
+H_TECHO = 2470.0                      # piso a techo del ambiente (medido por Pato, 18/10)
+Z_ALTO0, Z_ALTO1 = 1450.0, H_TECHO - 20.0   # alacenas 1450..2450: 20 de aire al techo para colgarlas / techo torcido
 Z_CUERPO0, Z_CUERPO1 = Z_ALTO0, Z_ALTO1
 TRAV_ALTO = 80.0                      # travesano trasero de las alacenas (para colgarlas)
 TRAV_TORNILLOS = 2                    # tornillos a la pared por travesano (a mano, en obra)

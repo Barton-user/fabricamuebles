@@ -397,7 +397,7 @@ Qué cambió:
 - **B4 Bajo puerta 452** (1720–2172) donde iba el lavavajillas; `bajo_normal(..., "puerta")`:
   una puerta a todo el alto, bisagras en el lateral del extremo. Panel terminal a 2172–2190,
   zócalo largo hasta ahí. `REFERENCIA` sale de la receta (`modelo.json["referencia"]`).
-- **Alacenas**: cuerpo 1450–2490 **sin cenefa ni cornisa** (primero se puso cornisa como en el
+- **Alacenas**: cuerpo 1450–**2450** (techo del ambiente a 2470, medido 18/10; 20 de aire) **sin cenefa ni cornisa** (primero se puso cornisa como en el
   render; Pato: "horribles", se sacaron las dos). El LED queda embutido en la ranura 10×10 del
   piso con perfil de aluminio y difusor. **Travesaño trasero 18 × 80** bajo el techo, contra la
   pared y detrás del fondo (que va a 25–30), con 3 en 1 a los laterales: por ahí se cuelga, con
@@ -415,7 +415,7 @@ Qué cambió:
   dibujado) pegada al frente del vidrio, a mano. Cazoletas y tornillos en el montante de las
   bisagras, perilla en el otro. Material `Madera maciza`, textura `MADERA VERDE 18`: **no va a
   AutoCUT**, sale en `lista_corte_MADERA_MACIZA.csv`. A4 pasó a **una puerta de 567** (con dos,
-  los travesaños quedaban de 162 < 250). Vidrios: 535×919, 2 × 299×919, 469×919.
+  los travesaños quedaban de 162 < 250). Vidrios: 535×879, 2 × 299×879, 469×879.
   (La versión anterior, una placa con ventanas y rebaje por router, queda en el código como
   `Placa.ventana()/rebaje()` y el filtro `RANURA_ANCHO_MAX` de ExportarPiezas, por si sirve.)
 - **`ExportarPiezas` y la profundidad del Ø8 de canto**: la regla "un Ø8 de canto medido corto
@@ -456,7 +456,7 @@ Dos cosas que se encontraron:
   que gotea caiga a la pileta. Los laterales llegan hasta abajo (canto abajo); entre ellos un **listón
   frente 18 × 80** (3 en 1 a los laterales con el conector a 65 del fondo para no cruzar la ranura del
   LED, que sigue a 45 del frente) y un **travesaño trasero inferior 18 × 80** contra la pared, al que
-  se atornilla el fondo. Junta al **38 %** (hoja de arriba 597 × 394, de abajo 597 × 640) para que
+  se atornilla el fondo. Junta al **38 %** (hoja de arriba 597 × 379, de abajo 597 × 615) para que
   entren platos, vasos y cubiertero. Herrajes dibujados: `Escurreplatos Bronzen LC-560` (564 × 270,
   2 rejillas; ML MLAU156309472, $58k) y `Cubiertero colgante Toly Poken 3 comp.` (MLA2121276022,
   $15,6k). **Alturas supuestas** (platos a 280 bajo el estante fijo, vasos +130, cubiertero 140): el

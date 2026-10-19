@@ -11,7 +11,7 @@ DW="0"
 ModusMirror="1"
 
 <100 \WerkStck\
-LA="394"
+LA="379"
 BR="597"
 DI="18"
 FNX="0"
@@ -23,7 +23,7 @@ AX="0"
 AY="0"
 
 <102 \V_DRILLING\
-XA="344"
+XA="329"
 YA="362.5"
 BM="LS"
 TI="18"
@@ -48,7 +48,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="344"
+XA="329"
 YA="234.5"
 BM="LS"
 TI="18"

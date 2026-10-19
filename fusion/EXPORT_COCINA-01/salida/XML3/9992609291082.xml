@@ -1,12 +1,12 @@
 <KDTPanelFormat>
     <PANEL>
         <PanelLength>60.00</PanelLength>
-        <PanelWidth>1037.00</PanelWidth>
+        <PanelWidth>997.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
         <PanelName>COCINA-01_A4 Vitrina 570_Puerta montante der</PanelName>
         <Params>
             <Param Key="L" Value="60.00" Comment="板长"/>
-            <Param Key="W" Value="1037.00" Comment="板宽"/>
+            <Param Key="W" Value="997.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
@@ -26,7 +26,7 @@
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
         <X1>0.00</X1>
-        <Y1>1025.00</Y1>
+        <Y1>985.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>2</Quadrant>
         <Depth>15.00</Depth>
@@ -41,7 +41,7 @@
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
         <X1>0.00</X1>
-        <Y1>1002.00</Y1>
+        <Y1>962.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>2</Quadrant>
         <Depth>12.00</Depth>
@@ -88,7 +88,7 @@
         <BeginX>6.00</BeginX>
         <BeginY>58.00</BeginY>
         <EndX>6.00</EndX>
-        <EndY>979.00</EndY>
+        <EndY>939.00</EndY>
         <Correction>0</Correction>
         <Width>12.00</Width>
         <Depth>5.00</Depth>

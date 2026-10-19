@@ -1,4 +1,4 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:28:43" Source="fabrica-muebles" SourceType="BAN">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:39:22" Source="fabrica-muebles" SourceType="BAN">
 <Plane Width="277.00" Height="70.00" PlaneSize="1" Grain="1" Thickness="18" Material="Madera maciza" EdgeFBLR="0,0,0,0" Name="COCINA-01_A3 Vitrina 800_Puerta izq travesano arriba" Code="9992609290986">
     <Outline>
         <Point Value="0.00 0.00 0"/>
