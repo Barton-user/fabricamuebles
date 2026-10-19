@@ -1884,3 +1884,5 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   $58k) + cubiertero Toly Poken 3 compartimentos ($15,6k) dibujados como herrajes con alturas supuestas.
   Búsqueda hecha en ML con el Chrome de Pato (ML bloquea el fetch). 114/114, paquete regenerado,
   Fusion re-armado sin guardar.
+- Herrajes de las rebatibles: opción 1 (cazoleta arriba + pistones 60 N / 80–100 N). Aventos HF anotado
+  como alternativa futura. Sólo cambia el aviso de la receta; el modelo ya estaba así.

@@ -1019,8 +1019,10 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escur
         bisagras(pb_, es, "IZQ", "DER", "A")
         for h in (pa_, pb_):
             tirador(h, h.W - 50.0, h.H / 2.0, (0, 1))          # barral horizontal, 50 del borde de abajo
-        AVISOS.append("%s: las dos hojas rebatibles (%g x %g arriba, %g x %g abajo) llevan 2 pistones a gas "
-                      "cada una, atornillados a mano (sin CNC, sin dibujar)." % (nombre, pa_.H, pa_.W, pb_.H, pb_.W))
+        AVISOS.append("%s: hojas rebatibles con bisagras de cazoleta codo recto en el canto de arriba (base en "
+                      "techo / estante fijo, ya perforadas) + 2 pistones a gas por hoja atornillados a mano: "
+                      "arriba %g x %g -> 60 N, abajo %g x %g -> 80-100 N (decision 18/10, opcion 1; alternativa "
+                      "futura Aventos HF plegable)." % (nombre, pa_.H, pa_.W, pb_.H, pb_.W))
         if escurridor:
             # escurreplatos colgado de los laterales bajo el estante fijo; sin estante regulable
             E = ESCURRIDOR

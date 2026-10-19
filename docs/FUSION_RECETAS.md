@@ -462,6 +462,12 @@ Dos cosas que se encontraron:
   $15,6k). **Alturas supuestas** (platos a 280 bajo el estante fijo, vasos +130, cubiertero 140): el
   cubiertero termina 55 arriba de la boca; confirmar con el herraje. Se atornillan a mano (Ø3).
   Se descartó el Häfele 544.17.014 (trae bandeja, $183k) y el cubiertero Häfele 522.66.270 (un vaso Ø11).
+- **Herrajes de las hojas rebatibles** (decisión 18/10, "opción 1"): bisagras de cazoleta de codo recto
+  en el canto superior (placa base en techo / estante fijo, ya perforadas 37/±16) + 2 pistones a gas por
+  hoja, a mano: 60 N arriba, 80–100 N abajo. Alternativas vistas y descartadas por ahora: brazos
+  elevables Blum Aventos HK-S / HK top (o Häfele Free Flap) y el **Aventos HF plegable**, que es lo que
+  muestra el render (dos hojas unidas que suben juntas); se puede pasar a HF más adelante agregando
+  sólo los agujeros de los brazos.
 - **Bacha** (18/10): Tawak Delta Simple 55 (55 × 46 × 22, acero 304, sobre mesada; ML MLA80311064),
   como herraje `bacha` del B2, centrada en X = 1100, Y = 300, apoyada en Z = 900. La mesada de
   referencia sale con el **calado** (supuesto 530 × 440, 10 de pestaña por lado: confirmar con la

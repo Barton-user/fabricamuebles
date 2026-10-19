@@ -20652,7 +20652,7 @@
   "A1 Esquinero alacena: se cuelga por los dos travesanos traseros (18 x 80) con 2 tornillos a la pared cada uno, a mano.",
   "A1 Esquinero alacena: la tira LED va PEGADA bajo el piso, sin ranura (la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).",
   "A2 Alacena 600 rebatible: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
-  "A2 Alacena 600 rebatible: las dos hojas rebatibles (597 x 394 arriba, 597 x 640 abajo) llevan 2 pistones a gas cada una, atornillados a mano (sin CNC, sin dibujar).",
+  "A2 Alacena 600 rebatible: hojas rebatibles con bisagras de cazoleta codo recto en el canto de arriba (base en techo / estante fijo, ya perforadas) + 2 pistones a gas por hoja atornillados a mano: arriba 597 x 394 -> 60 N, abajo 597 x 640 -> 80-100 N (decision 18/10, opcion 1; alternativa futura Aventos HF plegable).",
   "A2 Alacena 600 rebatible: SIN PISO, abierta sobre la bacha. Escurreplatos Bronzen LC-560 (564 x 270) + Cubiertero colgante Toly Poken 3 comp. colgados de los laterales bajo el estante fijo, tornillos O3 a mano. Alturas supuestas (platos 280, vasos 130, cubiertero 140): el cubiertero termina en Z=1505 (boca del mueble Z=1450). Confirmar con el herraje real.",
   "A3 Vitrina 800: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
   "A3 Vitrina 800 / Puerta der: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 299 x 919 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).",
