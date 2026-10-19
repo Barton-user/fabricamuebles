@@ -52,7 +52,7 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 | Tarugo Ø8 × 30 | 16 |
 | Listones 25 × 8 para las cruces (2×3 por puerta) | 4 puertas |
 | Junquillos para el vidrio | 4 puertas |
-| Pistón a gas (hojas rebatibles A2: 597×346 y 597×688) | 4 |
+| Pistón a gas para rebatible (A2): 2 × 60 N para la hoja de arriba 597×379, 2 × 80–100 N para la de abajo 597×615 | 4 |
 | Perfil de aluminio con difusor para LED embutido | 4 tiras |
 | Tornillos a la pared por travesaño trasero | 2 por alacena (4 en el esquinero) |
 | Tira LED (mm) | 516 · 524 · 724 · 494 (la de 494 va pegada, sin ranura) |
