@@ -153,6 +153,22 @@
      "prof": 12.0,
      "cara": "A",
      "sym": "shelfPin"
+    },
+    {
+     "x": 571.0,
+     "y": 58.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 571.0,
+     "y": 702.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
     }
    ],
    "agujeros_canto": [],
@@ -318,6 +334,22 @@
      "prof": 12.0,
      "cara": "A",
      "sym": "shelfPin"
+    },
+    {
+     "x": 9.0,
+     "y": 58.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 702.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
     }
    ],
    "agujeros_canto": [],
@@ -444,6 +476,38 @@
     {
      "x": 558.08,
      "y": 747.35,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 165.0,
+     "y": 9.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 682.0,
+     "y": 9.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 682.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 285.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -628,6 +692,38 @@
     {
      "x": 558.08,
      "y": 34.65,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 165.0,
+     "y": 773.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 682.0,
+     "y": 773.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 100.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 497.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -1157,10 +1253,386 @@
    ]
   },
   {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "COCINA-01_B1 Esquinero bajo_Travesano A inferior",
+   "pieza": "Travesano A inferior",
+   "codigo": "9992609290115",
+   "rol": "",
+   "W": 717.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    65.0,
+    0.0,
+    118.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 684.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 33.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 617.0,
+     "y": 33.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 717.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 0.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ABAJO",
+     "sym": "3in1"
+    },
+    {
+     "x": 617.0,
+     "y": 0.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ABAJO",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "COCINA-01_B1 Esquinero bajo_Travesano B inferior",
+   "pieza": "Travesano B inferior",
+   "codigo": "9992609290122",
+   "rol": "",
+   "W": 597.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    0,
+    782.0,
+    118.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 33.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 497.0,
+     "y": 33.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 0.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ABAJO",
+     "sym": "3in1"
+    },
+    {
+     "x": 497.0,
+     "y": 0.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ABAJO",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "COCINA-01_B1 Esquinero bajo_Travesano A superior",
+   "pieza": "Travesano A superior",
+   "codigo": "9992609290139",
+   "rol": "",
+   "W": 717.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    65.0,
+    0.0,
+    762.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 684.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 47.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 617.0,
+     "y": 47.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 717.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 80.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ARRIBA",
+     "sym": "3in1"
+    },
+    {
+     "x": 617.0,
+     "y": 80.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ARRIBA",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "COCINA-01_B1 Esquinero bajo_Travesano B superior",
+   "pieza": "Travesano B superior",
+   "codigo": "9992609290146",
+   "rol": "",
+   "W": 597.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    0,
+    782.0,
+    762.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 47.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 497.0,
+     "y": 47.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 80.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ARRIBA",
+     "sym": "3in1"
+    },
+    {
+     "x": 497.0,
+     "y": 80.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ARRIBA",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
    "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609290115",
+   "codigo": "9992609290153",
    "rol": "",
    "W": 580.0,
    "H": 760.0,
@@ -1224,6 +1696,14 @@
      "sym": "3in1"
     },
     {
+     "x": 9.0,
+     "y": 58.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
      "x": 543.0,
      "y": 85.5,
      "d": 5.0,
@@ -1277,7 +1757,7 @@
    "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609290122",
+   "codigo": "9992609290160",
    "rol": "",
    "W": 580.0,
    "H": 760.0,
@@ -1341,6 +1821,14 @@
      "sym": "3in1"
     },
     {
+     "x": 571.0,
+     "y": 58.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
      "x": 37.0,
      "y": 85.5,
      "d": 5.0,
@@ -1394,7 +1882,7 @@
    "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Piso",
    "pieza": "Piso",
-   "codigo": "9992609290139",
+   "codigo": "9992609290177",
    "rol": "",
    "W": 564.0,
    "H": 580.0,
@@ -1516,7 +2004,7 @@
    "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Travesano delantero",
    "pieza": "Travesano delantero",
-   "codigo": "9992609290146",
+   "codigo": "9992609290184",
    "rol": "",
    "W": 564.0,
    "H": 100.0,
@@ -1593,7 +2081,7 @@
    "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609290153",
+   "codigo": "9992609290191",
    "rol": "",
    "W": 564.0,
    "H": 100.0,
@@ -1668,9 +2156,86 @@
   },
   {
    "mueble": "B2 Bajo pileta 600",
+   "nombre": "COCINA-01_B2 Bajo pileta 600_Travesano trasero inferior",
+   "pieza": "Travesano trasero inferior",
+   "codigo": "9992609290207",
+   "rol": "",
+   "W": 564.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    818.0,
+    0,
+    118.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 531.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 564.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609290160",
+   "codigo": "9992609290214",
    "rol": "FONDO",
    "W": 574.0,
    "H": 746.0,
@@ -1711,7 +2276,7 @@
    "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Frente fijo",
    "pieza": "Frente fijo",
-   "codigo": "9992609290177",
+   "codigo": "9992609290221",
    "rol": "PUERTA",
    "W": 597.0,
    "H": 185.0,
@@ -1752,7 +2317,7 @@
    "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Puerta der",
    "pieza": "Puerta der",
-   "codigo": "9992609290184",
+   "codigo": "9992609290238",
    "rol": "PUERTA",
    "W": 297.0,
    "H": 569.0,
@@ -1858,7 +2423,7 @@
    "mueble": "B2 Bajo pileta 600",
    "nombre": "COCINA-01_B2 Bajo pileta 600_Puerta izq",
    "pieza": "Puerta izq",
-   "codigo": "9992609290191",
+   "codigo": "9992609290245",
    "rol": "PUERTA",
    "W": 297.0,
    "H": 569.0,
@@ -1964,7 +2529,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609290207",
+   "codigo": "9992609290252",
    "rol": "",
    "W": 580.0,
    "H": 760.0,
@@ -2022,6 +2587,14 @@
     {
      "x": 9.0,
      "y": 710.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 58.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -2113,7 +2686,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609290214",
+   "codigo": "9992609290269",
    "rol": "",
    "W": 580.0,
    "H": 760.0,
@@ -2171,6 +2744,14 @@
     {
      "x": 571.0,
      "y": 710.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 571.0,
+     "y": 58.0,
      "d": 5.0,
      "prof": 12.0,
      "cara": "A",
@@ -2262,7 +2843,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Piso",
    "pieza": "Piso",
-   "codigo": "9992609290221",
+   "codigo": "9992609290276",
    "rol": "",
    "W": 414.0,
    "H": 580.0,
@@ -2384,7 +2965,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Travesano delantero",
    "pieza": "Travesano delantero",
-   "codigo": "9992609290238",
+   "codigo": "9992609290283",
    "rol": "",
    "W": 414.0,
    "H": 100.0,
@@ -2461,7 +3042,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609290245",
+   "codigo": "9992609290290",
    "rol": "",
    "W": 414.0,
    "H": 100.0,
@@ -2536,9 +3117,86 @@
   },
   {
    "mueble": "B3 Cajonera 450",
+   "nombre": "COCINA-01_B3 Cajonera 450_Travesano trasero inferior",
+   "pieza": "Travesano trasero inferior",
+   "codigo": "9992609290306",
+   "rol": "",
+   "W": 414.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    1418.0,
+    0,
+    118.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 381.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 414.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609290252",
+   "codigo": "9992609290313",
    "rol": "FONDO",
    "W": 424.0,
    "H": 746.0,
@@ -2579,7 +3237,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Frente cajon 1",
    "pieza": "Frente cajon 1",
-   "codigo": "9992609290269",
+   "codigo": "9992609290320",
    "rol": "PUERTA",
    "W": 447.0,
    "H": 187.0,
@@ -2637,7 +3295,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 1 frente",
    "pieza": "Cajon 1 frente",
-   "codigo": "9992609290276",
+   "codigo": "9992609290337",
    "rol": "",
    "W": 388.0,
    "H": 120.0,
@@ -2706,7 +3364,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 1 contrafrente",
    "pieza": "Cajon 1 contrafrente",
-   "codigo": "9992609290283",
+   "codigo": "9992609290344",
    "rol": "",
    "W": 388.0,
    "H": 120.0,
@@ -2775,7 +3433,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 1 costado der",
    "pieza": "Cajon 1 costado der",
-   "codigo": "9992609290290",
+   "codigo": "9992609290351",
    "rol": "",
    "W": 414.0,
    "H": 120.0,
@@ -2879,7 +3537,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 1 costado izq",
    "pieza": "Cajon 1 costado izq",
-   "codigo": "9992609290306",
+   "codigo": "9992609290368",
    "rol": "",
    "W": 414.0,
    "H": 120.0,
@@ -2983,7 +3641,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 1 fondo",
    "pieza": "Cajon 1 fondo",
-   "codigo": "9992609290313",
+   "codigo": "9992609290375",
    "rol": "FONDO",
    "W": 361.0,
    "H": 423.0,
@@ -3024,7 +3682,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Frente cajon 2",
    "pieza": "Frente cajon 2",
-   "codigo": "9992609290320",
+   "codigo": "9992609290382",
    "rol": "PUERTA",
    "W": 447.0,
    "H": 187.0,
@@ -3082,7 +3740,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 2 frente",
    "pieza": "Cajon 2 frente",
-   "codigo": "9992609290337",
+   "codigo": "9992609290399",
    "rol": "",
    "W": 388.0,
    "H": 120.0,
@@ -3151,7 +3809,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 2 contrafrente",
    "pieza": "Cajon 2 contrafrente",
-   "codigo": "9992609290344",
+   "codigo": "9992609290405",
    "rol": "",
    "W": 388.0,
    "H": 120.0,
@@ -3220,7 +3878,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 2 costado der",
    "pieza": "Cajon 2 costado der",
-   "codigo": "9992609290351",
+   "codigo": "9992609290412",
    "rol": "",
    "W": 414.0,
    "H": 120.0,
@@ -3324,7 +3982,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 2 costado izq",
    "pieza": "Cajon 2 costado izq",
-   "codigo": "9992609290368",
+   "codigo": "9992609290429",
    "rol": "",
    "W": 414.0,
    "H": 120.0,
@@ -3428,7 +4086,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 2 fondo",
    "pieza": "Cajon 2 fondo",
-   "codigo": "9992609290375",
+   "codigo": "9992609290436",
    "rol": "FONDO",
    "W": 361.0,
    "H": 423.0,
@@ -3469,7 +4127,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Frente cajon 3",
    "pieza": "Frente cajon 3",
-   "codigo": "9992609290382",
+   "codigo": "9992609290443",
    "rol": "PUERTA",
    "W": 447.0,
    "H": 187.0,
@@ -3527,7 +4185,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 3 frente",
    "pieza": "Cajon 3 frente",
-   "codigo": "9992609290399",
+   "codigo": "9992609290450",
    "rol": "",
    "W": 388.0,
    "H": 120.0,
@@ -3596,7 +4254,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 3 contrafrente",
    "pieza": "Cajon 3 contrafrente",
-   "codigo": "9992609290405",
+   "codigo": "9992609290467",
    "rol": "",
    "W": 388.0,
    "H": 120.0,
@@ -3665,7 +4323,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 3 costado der",
    "pieza": "Cajon 3 costado der",
-   "codigo": "9992609290412",
+   "codigo": "9992609290474",
    "rol": "",
    "W": 414.0,
    "H": 120.0,
@@ -3769,7 +4427,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 3 costado izq",
    "pieza": "Cajon 3 costado izq",
-   "codigo": "9992609290429",
+   "codigo": "9992609290481",
    "rol": "",
    "W": 414.0,
    "H": 120.0,
@@ -3873,7 +4531,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 3 fondo",
    "pieza": "Cajon 3 fondo",
-   "codigo": "9992609290436",
+   "codigo": "9992609290498",
    "rol": "FONDO",
    "W": 361.0,
    "H": 423.0,
@@ -3914,7 +4572,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Frente cajon 4",
    "pieza": "Frente cajon 4",
-   "codigo": "9992609290443",
+   "codigo": "9992609290504",
    "rol": "PUERTA",
    "W": 447.0,
    "H": 187.0,
@@ -3972,7 +4630,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 4 frente",
    "pieza": "Cajon 4 frente",
-   "codigo": "9992609290450",
+   "codigo": "9992609290511",
    "rol": "",
    "W": 388.0,
    "H": 120.0,
@@ -4041,7 +4699,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 4 contrafrente",
    "pieza": "Cajon 4 contrafrente",
-   "codigo": "9992609290467",
+   "codigo": "9992609290528",
    "rol": "",
    "W": 388.0,
    "H": 120.0,
@@ -4110,7 +4768,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 4 costado der",
    "pieza": "Cajon 4 costado der",
-   "codigo": "9992609290474",
+   "codigo": "9992609290535",
    "rol": "",
    "W": 414.0,
    "H": 120.0,
@@ -4214,7 +4872,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 4 costado izq",
    "pieza": "Cajon 4 costado izq",
-   "codigo": "9992609290481",
+   "codigo": "9992609290542",
    "rol": "",
    "W": 414.0,
    "H": 120.0,
@@ -4318,7 +4976,7 @@
    "mueble": "B3 Cajonera 450",
    "nombre": "COCINA-01_B3 Cajonera 450_Cajon 4 fondo",
    "pieza": "Cajon 4 fondo",
-   "codigo": "9992609290498",
+   "codigo": "9992609290559",
    "rol": "FONDO",
    "W": 361.0,
    "H": 423.0,
@@ -4359,7 +5017,7 @@
    "mueble": "B4 Bajo tacho 322",
    "nombre": "COCINA-01_B4 Bajo tacho 322_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609290504",
+   "codigo": "9992609290566",
    "rol": "",
    "W": 580.0,
    "H": 760.0,
@@ -4421,6 +5079,14 @@
      "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 58.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
     }
    ],
    "agujeros_canto": [],
@@ -4444,7 +5110,7 @@
    "mueble": "B4 Bajo tacho 322",
    "nombre": "COCINA-01_B4 Bajo tacho 322_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609290511",
+   "codigo": "9992609290573",
    "rol": "",
    "W": 580.0,
    "H": 760.0,
@@ -4508,6 +5174,14 @@
      "sym": "3in1"
     },
     {
+     "x": 571.0,
+     "y": 58.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
      "x": 37.0,
      "y": 85.5,
      "d": 5.0,
@@ -4561,7 +5235,7 @@
    "mueble": "B4 Bajo tacho 322",
    "nombre": "COCINA-01_B4 Bajo tacho 322_Piso",
    "pieza": "Piso",
-   "codigo": "9992609290528",
+   "codigo": "9992609290580",
    "rol": "",
    "W": 286.0,
    "H": 580.0,
@@ -4683,7 +5357,7 @@
    "mueble": "B4 Bajo tacho 322",
    "nombre": "COCINA-01_B4 Bajo tacho 322_Travesano delantero",
    "pieza": "Travesano delantero",
-   "codigo": "9992609290535",
+   "codigo": "9992609290597",
    "rol": "",
    "W": 286.0,
    "H": 100.0,
@@ -4760,7 +5434,7 @@
    "mueble": "B4 Bajo tacho 322",
    "nombre": "COCINA-01_B4 Bajo tacho 322_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609290542",
+   "codigo": "9992609290603",
    "rol": "",
    "W": 286.0,
    "H": 100.0,
@@ -4835,9 +5509,86 @@
   },
   {
    "mueble": "B4 Bajo tacho 322",
+   "nombre": "COCINA-01_B4 Bajo tacho 322_Travesano trasero inferior",
+   "pieza": "Travesano trasero inferior",
+   "codigo": "9992609290610",
+   "rol": "",
+   "W": 286.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    1868.0,
+    0,
+    118.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 253.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 286.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "B4 Bajo tacho 322",
    "nombre": "COCINA-01_B4 Bajo tacho 322_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609290559",
+   "codigo": "9992609290627",
    "rol": "FONDO",
    "W": 296.0,
    "H": 746.0,
@@ -4878,7 +5629,7 @@
    "mueble": "B4 Bajo tacho 322",
    "nombre": "COCINA-01_B4 Bajo tacho 322_Puerta",
    "pieza": "Puerta",
-   "codigo": "9992609290566",
+   "codigo": "9992609290634",
    "rol": "PUERTA",
    "W": 319.0,
    "H": 757.0,
@@ -4984,7 +5735,7 @@
    "mueble": "P1 Panel terminal",
    "nombre": "COCINA-01_P1 Panel terminal_Panel terminal",
    "pieza": "Panel terminal",
-   "codigo": "9992609290573",
+   "codigo": "9992609290641",
    "rol": "PUERTA",
    "W": 598.0,
    "H": 860.0,
@@ -5025,7 +5776,7 @@
    "mueble": "P2 Panel cocina",
    "nombre": "COCINA-01_P2 Panel cocina_Panel terminal",
    "pieza": "Panel terminal",
-   "codigo": "9992609290580",
+   "codigo": "9992609290658",
    "rol": "PUERTA",
    "W": 598.0,
    "H": 860.0,
@@ -5066,7 +5817,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Lateral A",
    "pieza": "Lateral A",
-   "codigo": "9992609290597",
+   "codigo": "9992609290665",
    "rol": "",
    "W": 332.0,
    "H": 1000.0,
@@ -5307,6 +6058,14 @@
      "sym": "shelfPin"
     },
     {
+     "x": 323.0,
+     "y": 58.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
      "x": 198.0,
      "y": 942.0,
      "d": 5.0,
@@ -5343,7 +6102,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Lateral B",
    "pieza": "Lateral B",
-   "codigo": "9992609290603",
+   "codigo": "9992609290672",
    "rol": "",
    "W": 332.0,
    "H": 1000.0,
@@ -5568,6 +6327,14 @@
     },
     {
      "x": 9.0,
+     "y": 58.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
      "y": 942.0,
      "d": 5.0,
      "prof": 12.0,
@@ -5596,7 +6363,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Piso",
    "pieza": "Piso",
-   "codigo": "9992609290610",
+   "codigo": "9992609290689",
    "rol": "",
    "W": 782.0,
    "H": 782.0,
@@ -5703,6 +6470,38 @@
      "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
+    },
+    {
+     "x": 165.0,
+     "y": 9.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 682.0,
+     "y": 9.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 682.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 285.0,
+     "d": 5.0,
+     "prof": 12.0,
+     "cara": "A",
+     "sym": "3in1"
     }
    ],
    "agujeros_canto": [
@@ -5780,7 +6579,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Techo",
    "pieza": "Techo",
-   "codigo": "9992609290627",
+   "codigo": "9992609290696",
    "rol": "",
    "W": 782.0,
    "H": 657.0,
@@ -5986,7 +6785,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Fondo A",
    "pieza": "Fondo A",
-   "codigo": "9992609290634",
+   "codigo": "9992609290702",
    "rol": "FONDO",
    "W": 722.0,
    "H": 689.0,
@@ -6027,7 +6826,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Fondo B",
    "pieza": "Fondo B",
-   "codigo": "9992609290641",
+   "codigo": "9992609290719",
    "rol": "FONDO",
    "W": 602.0,
    "H": 974.0,
@@ -6068,7 +6867,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Montante A",
    "pieza": "Montante A",
-   "codigo": "9992609290658",
+   "codigo": "9992609290726",
    "rol": "",
    "W": 80.0,
    "H": 964.0,
@@ -6193,7 +6992,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Montante B",
    "pieza": "Montante B",
-   "codigo": "9992609290665",
+   "codigo": "9992609290733",
    "rol": "",
    "W": 80.0,
    "H": 964.0,
@@ -6270,7 +7069,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Puerta montante izq",
    "pieza": "Puerta montante izq",
-   "codigo": "9992609290672",
+   "codigo": "9992609290740",
    "rol": "PUERTA",
    "W": 60.0,
    "H": 997.0,
@@ -6368,7 +7167,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Puerta montante der",
    "pieza": "Puerta montante der",
-   "codigo": "9992609290689",
+   "codigo": "9992609290757",
    "rol": "PUERTA",
    "W": 60.0,
    "H": 997.0,
@@ -6530,7 +7329,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Puerta travesano abajo",
    "pieza": "Puerta travesano abajo",
-   "codigo": "9992609290696",
+   "codigo": "9992609290764",
    "rol": "PUERTA",
    "W": 513.396,
    "H": 70.0,
@@ -6636,7 +7435,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Puerta travesano arriba",
    "pieza": "Puerta travesano arriba",
-   "codigo": "9992609290702",
+   "codigo": "9992609290771",
    "rol": "PUERTA",
    "W": 513.396,
    "H": 70.0,
@@ -6742,7 +7541,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609290719",
+   "codigo": "9992609290788",
    "rol": "",
    "W": 750.0,
    "H": 750.0,
@@ -6819,7 +7618,7 @@
    "mueble": "A1 Esquinero alacena",
    "nombre": "COCINA-01_A1 Esquinero alacena_Estante 2",
    "pieza": "Estante 2",
-   "codigo": "9992609290726",
+   "codigo": "9992609290795",
    "rol": "",
    "W": 750.0,
    "H": 750.0,
@@ -6894,9 +7693,197 @@
   },
   {
    "mueble": "A1 Esquinero alacena",
-   "nombre": "COCINA-01_A1 Esquinero alacena_Travesano A",
-   "pieza": "Travesano A",
-   "codigo": "9992609290733",
+   "nombre": "COCINA-01_A1 Esquinero alacena_Travesano A inferior",
+   "pieza": "Travesano A inferior",
+   "codigo": "9992609290801",
+   "rol": "",
+   "W": 717.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    65.0,
+    0.0,
+    1468.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 684.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 33.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 617.0,
+     "y": 33.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 717.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 0.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ABAJO",
+     "sym": "3in1"
+    },
+    {
+     "x": 617.0,
+     "y": 0.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ABAJO",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "COCINA-01_A1 Esquinero alacena_Travesano B inferior",
+   "pieza": "Travesano B inferior",
+   "codigo": "9992609290818",
+   "rol": "",
+   "W": 597.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    0,
+    782.0,
+    1468.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 33.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 497.0,
+     "y": 33.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 100.0,
+     "y": 0.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ABAJO",
+     "sym": "3in1"
+    },
+    {
+     "x": 497.0,
+     "y": 0.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "ABAJO",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "COCINA-01_A1 Esquinero alacena_Travesano A superior",
+   "pieza": "Travesano A superior",
+   "codigo": "9992609290825",
    "rol": "",
    "W": 717.0,
    "H": 80.0,
@@ -6988,9 +7975,9 @@
   },
   {
    "mueble": "A1 Esquinero alacena",
-   "nombre": "COCINA-01_A1 Esquinero alacena_Travesano B",
-   "pieza": "Travesano B",
-   "codigo": "9992609290740",
+   "nombre": "COCINA-01_A1 Esquinero alacena_Travesano B superior",
+   "pieza": "Travesano B superior",
+   "codigo": "9992609290832",
    "rol": "",
    "W": 597.0,
    "H": 80.0,
@@ -7084,7 +8071,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Liston frente",
    "pieza": "Liston frente",
-   "codigo": "9992609290757",
+   "codigo": "9992609290849",
    "rol": "",
    "W": 564.0,
    "H": 80.0,
@@ -7172,7 +8159,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Techo",
    "pieza": "Techo",
-   "codigo": "9992609290764",
+   "codigo": "9992609290856",
    "rol": "",
    "W": 207.0,
    "H": 600.0,
@@ -7278,7 +8265,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609290771",
+   "codigo": "9992609290863",
    "rol": "",
    "W": 332.0,
    "H": 982.0,
@@ -7438,7 +8425,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609290788",
+   "codigo": "9992609290870",
    "rol": "",
    "W": 332.0,
    "H": 982.0,
@@ -7598,7 +8585,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609290795",
+   "codigo": "9992609290887",
    "rol": "FONDO",
    "W": 574.0,
    "H": 689.0,
@@ -7639,7 +8626,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609290801",
+   "codigo": "9992609290894",
    "rol": "",
    "W": 564.0,
    "H": 80.0,
@@ -7716,7 +8703,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Travesano trasero inferior",
    "pieza": "Travesano trasero inferior",
-   "codigo": "9992609290818",
+   "codigo": "9992609290900",
    "rol": "",
    "W": 564.0,
    "H": 80.0,
@@ -7793,7 +8780,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante fijo",
    "pieza": "Estante fijo",
-   "codigo": "9992609290825",
+   "codigo": "9992609290917",
    "rol": "",
    "W": 301.0,
    "H": 564.0,
@@ -7936,7 +8923,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible arriba",
    "pieza": "Puerta rebatible arriba",
-   "codigo": "9992609290832",
+   "codigo": "9992609290924",
    "rol": "PUERTA",
    "W": 379.0,
    "H": 597.0,
@@ -8042,7 +9029,7 @@
    "mueble": "A2 Alacena 600 rebatible",
    "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible abajo",
    "pieza": "Puerta rebatible abajo",
-   "codigo": "9992609290849",
+   "codigo": "9992609290931",
    "rol": "PUERTA",
    "W": 615.0,
    "H": 597.0,
@@ -8148,7 +9135,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Piso",
    "pieza": "Piso",
-   "codigo": "9992609290856",
+   "codigo": "9992609290948",
    "rol": "",
    "W": 800.0,
    "H": 332.0,
@@ -8243,7 +9230,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Techo",
    "pieza": "Techo",
-   "codigo": "9992609290863",
+   "codigo": "9992609290955",
    "rol": "",
    "W": 800.0,
    "H": 207.0,
@@ -8317,7 +9304,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609290870",
+   "codigo": "9992609290962",
    "rol": "",
    "W": 332.0,
    "H": 964.0,
@@ -8386,6 +9373,14 @@
      "y": 33.0,
      "d": 15.0,
      "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 40.0,
+     "d": 5.0,
+     "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
@@ -8679,7 +9674,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609290887",
+   "codigo": "9992609290979",
    "rol": "",
    "W": 332.0,
    "H": 964.0,
@@ -8748,6 +9743,14 @@
      "y": 33.0,
      "d": 15.0,
      "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 323.0,
+     "y": 40.0,
+     "d": 5.0,
+     "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
@@ -8993,7 +9996,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609290894",
+   "codigo": "9992609290986",
    "rol": "FONDO",
    "W": 774.0,
    "H": 689.0,
@@ -9034,7 +10037,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609290900",
+   "codigo": "9992609290993",
    "rol": "",
    "W": 764.0,
    "H": 80.0,
@@ -9109,9 +10112,86 @@
   },
   {
    "mueble": "A3 Vitrina 800",
+   "nombre": "COCINA-01_A3 Vitrina 800_Travesano trasero inferior",
+   "pieza": "Travesano trasero inferior",
+   "codigo": "9992609291006",
+   "rol": "",
+   "W": 764.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    1418.0,
+    0,
+    1468.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 731.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 764.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Puerta montante izq",
    "pieza": "Puerta montante izq",
-   "codigo": "9992609290917",
+   "codigo": "9992609291013",
    "rol": "PUERTA",
    "W": 60.0,
    "H": 997.0,
@@ -9273,7 +10353,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Puerta montante der",
    "pieza": "Puerta montante der",
-   "codigo": "9992609290924",
+   "codigo": "9992609291020",
    "rol": "PUERTA",
    "W": 60.0,
    "H": 997.0,
@@ -9371,7 +10451,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Puerta travesano abajo",
    "pieza": "Puerta travesano abajo",
-   "codigo": "9992609290931",
+   "codigo": "9992609291037",
    "rol": "PUERTA",
    "W": 677.0,
    "H": 70.0,
@@ -9477,7 +10557,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Puerta travesano arriba",
    "pieza": "Puerta travesano arriba",
-   "codigo": "9992609290948",
+   "codigo": "9992609291044",
    "rol": "PUERTA",
    "W": 677.0,
    "H": 70.0,
@@ -9583,7 +10663,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609290955",
+   "codigo": "9992609291051",
    "rol": "",
    "W": 762.0,
    "H": 281.0,
@@ -9624,7 +10704,7 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "COCINA-01_A3 Vitrina 800_Estante 2",
    "pieza": "Estante 2",
-   "codigo": "9992609290962",
+   "codigo": "9992609291068",
    "rol": "",
    "W": 762.0,
    "H": 281.0,
@@ -9665,7 +10745,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Piso",
    "pieza": "Piso",
-   "codigo": "9992609290979",
+   "codigo": "9992609291075",
    "rol": "",
    "W": 570.0,
    "H": 332.0,
@@ -9757,7 +10837,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Techo",
    "pieza": "Techo",
-   "codigo": "9992609290986",
+   "codigo": "9992609291082",
    "rol": "",
    "W": 570.0,
    "H": 332.0,
@@ -9842,7 +10922,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Lateral der",
    "pieza": "Lateral der",
-   "codigo": "9992609290993",
+   "codigo": "9992609291099",
    "rol": "",
    "W": 332.0,
    "H": 620.0,
@@ -9886,6 +10966,14 @@
      "y": 33.0,
      "d": 15.0,
      "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 9.0,
+     "y": 40.0,
+     "d": 5.0,
+     "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
@@ -10084,7 +11172,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Lateral izq",
    "pieza": "Lateral izq",
-   "codigo": "9992609291006",
+   "codigo": "9992609291105",
    "rol": "",
    "W": 332.0,
    "H": 620.0,
@@ -10128,6 +11216,14 @@
      "y": 33.0,
      "d": 15.0,
      "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 323.0,
+     "y": 40.0,
+     "d": 5.0,
+     "prof": 12.0,
      "cara": "A",
      "sym": "3in1"
     },
@@ -10294,7 +11390,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Fondo",
    "pieza": "Fondo",
-   "codigo": "9992609291013",
+   "codigo": "9992609291112",
    "rol": "FONDO",
    "W": 544.0,
    "H": 630.0,
@@ -10342,7 +11438,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Travesano trasero",
    "pieza": "Travesano trasero",
-   "codigo": "9992609291020",
+   "codigo": "9992609291129",
    "rol": "",
    "W": 534.0,
    "H": 80.0,
@@ -10417,9 +11513,86 @@
   },
   {
    "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Travesano trasero inferior",
+   "pieza": "Travesano trasero inferior",
+   "codigo": "9992609291136",
+   "rol": "",
+   "W": 534.0,
+   "H": 80.0,
+   "T": 18.0,
+   "O": [
+    0,
+    1352.0,
+    1812.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "BLANCO 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 0.0,
+    "DER": 0.0,
+    "ABAJO": 0.0,
+    "ARRIBA": 0.0
+   },
+   "agujeros": [
+    {
+     "x": 33.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    },
+    {
+     "x": 501.0,
+     "y": 40.0,
+     "d": 15.0,
+     "prof": 13.5,
+     "cara": "A",
+     "sym": "3in1"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 0.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "IZQ",
+     "sym": "3in1"
+    },
+    {
+     "x": 534.0,
+     "y": 40.0,
+     "z": 9.0,
+     "d": 8.0,
+     "prof": 33.0,
+     "canto": "DER",
+     "sym": "3in1"
+    }
+   ],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Puerta",
    "pieza": "Puerta",
-   "codigo": "9992609291037",
+   "codigo": "9992609291143",
    "rol": "PUERTA",
    "W": 567.0,
    "H": 653.0,
@@ -10525,7 +11698,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Frente campana fijo",
    "pieza": "Frente campana fijo",
-   "codigo": "9992609291044",
+   "codigo": "9992609291150",
    "rol": "PUERTA",
    "W": 567.0,
    "H": 149.5,
@@ -10566,7 +11739,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Frente campana visor",
    "pieza": "Frente campana visor",
-   "codigo": "9992609291051",
+   "codigo": "9992609291167",
    "rol": "PUERTA",
    "W": 567.0,
    "H": 188.5,
@@ -10607,7 +11780,7 @@
    "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609291068",
+   "codigo": "9992609291174",
    "rol": "",
    "W": 532.0,
    "H": 281.0,
@@ -10655,7 +11828,7 @@
    "mueble": "Z Zocalos",
    "nombre": "COCINA-01_Z Zocalos_Zocalo largo",
    "pieza": "Zocalo largo",
-   "codigo": "9992609291075",
+   "codigo": "9992609291181",
    "rol": "PUERTA",
    "W": 1407.0,
    "H": 99.0,
@@ -10696,7 +11869,7 @@
    "mueble": "Z Zocalos",
    "nombre": "COCINA-01_Z Zocalos_Zocalo diagonal",
    "pieza": "Zocalo diagonal",
-   "codigo": "9992609291082",
+   "codigo": "9992609291198",
    "rol": "PUERTA",
    "W": 367.696,
    "H": 99.0,
@@ -11574,6 +12747,690 @@
   },
   {
    "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    749.0,
+    0.0,
+    158.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    782.0,
+    9.0,
+    158.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    749.0,
+    158.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    782.0,
+    158.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    165.0,
+    0.0,
+    151.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    165.0,
+    9.0,
+    118.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    682.0,
+    0.0,
+    151.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    682.0,
+    9.0,
+    118.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    682.0,
+    151.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    682.0,
+    118.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    285.0,
+    151.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    285.0,
+    118.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    749.0,
+    0.0,
+    802.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    782.0,
+    9.0,
+    802.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    749.0,
+    802.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    782.0,
+    802.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    165.0,
+    0.0,
+    809.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    165.0,
+    9.0,
+    842.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    682.0,
+    0.0,
+    809.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    682.0,
+    9.0,
+    842.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    682.0,
+    809.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    682.0,
+    842.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    285.0,
+    809.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    285.0,
+    842.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B1 Esquinero bajo",
    "nombre": "Pata regulable",
    "origen": [
     130,
@@ -12110,6 +13967,120 @@
     1382.0,
     9.0,
     810.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B2 Bajo pileta 600",
+   "nombre": "Excentrica O15",
+   "origen": [
+    851.0,
+    0.0,
+    158.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B2 Bajo pileta 600",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    818.0,
+    9.0,
+    158.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B2 Bajo pileta 600",
+   "nombre": "Excentrica O15",
+   "origen": [
+    1349.0,
+    0.0,
+    158.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B2 Bajo pileta 600",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    1382.0,
+    9.0,
+    158.0
    ],
    "ez": [
     -1.0,
@@ -12819,6 +14790,120 @@
     1832.0,
     9.0,
     810.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B3 Cajonera 450",
+   "nombre": "Excentrica O15",
+   "origen": [
+    1451.0,
+    0.0,
+    158.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B3 Cajonera 450",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    1418.0,
+    9.0,
+    158.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B3 Cajonera 450",
+   "nombre": "Excentrica O15",
+   "origen": [
+    1799.0,
+    0.0,
+    158.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B3 Cajonera 450",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    1832.0,
+    9.0,
+    158.0
    ],
    "ez": [
     -1.0,
@@ -14572,6 +16657,120 @@
   },
   {
    "mueble": "B4 Bajo tacho 322",
+   "nombre": "Excentrica O15",
+   "origen": [
+    1901.0,
+    0.0,
+    158.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B4 Bajo tacho 322",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    1868.0,
+    9.0,
+    158.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B4 Bajo tacho 322",
+   "nombre": "Excentrica O15",
+   "origen": [
+    2121.0,
+    0.0,
+    158.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "B4 Bajo tacho 322",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    2154.0,
+    9.0,
+    158.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "B4 Bajo tacho 322",
    "nombre": "Bisagra O35 base -6",
    "origen": [
     2148.0,
@@ -15945,6 +18144,348 @@
    ],
    "forma": "pin",
    "args": {}
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Excentrica O15",
+   "origen": [
+    749.0,
+    0.0,
+    1508.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    782.0,
+    9.0,
+    1508.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    749.0,
+    1508.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    782.0,
+    1508.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Excentrica O15",
+   "origen": [
+    165.0,
+    0.0,
+    1501.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    165.0,
+    9.0,
+    1468.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Excentrica O15",
+   "origen": [
+    682.0,
+    0.0,
+    1501.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    682.0,
+    9.0,
+    1468.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    682.0,
+    1501.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    682.0,
+    1468.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    285.0,
+    1501.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A1 Esquinero alacena",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    285.0,
+    1468.0
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "ex": [
+    1,
+    0,
+    0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
   },
   {
    "mueble": "A1 Esquinero alacena",
@@ -17441,6 +19982,63 @@
    "mueble": "A3 Vitrina 800",
    "nombre": "Excentrica O15",
    "origen": [
+    1451.0,
+    0.0,
+    1508.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A3 Vitrina 800",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    1418.0,
+    9.0,
+    1508.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A3 Vitrina 800",
+   "nombre": "Excentrica O15",
+   "origen": [
     1418.0,
     276.5,
     2399.0
@@ -17652,6 +20250,63 @@
     1,
     0,
     0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A3 Vitrina 800",
+   "nombre": "Excentrica O15",
+   "origen": [
+    2149.0,
+    0.0,
+    1508.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A3 Vitrina 800",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    2182.0,
+    9.0,
+    1508.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
    ],
    "forma": "perno",
    "args": {
@@ -18573,6 +21228,63 @@
    "mueble": "A4 Campana 570",
    "nombre": "Excentrica O15",
    "origen": [
+    0.0,
+    1319.0,
+    1852.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    1352.0,
+    1852.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
+   "nombre": "Excentrica O15",
+   "origen": [
     278.0,
     1352.0,
     2399.0
@@ -18784,6 +21496,63 @@
     1,
     0,
     0
+   ],
+   "forma": "perno",
+   "args": {
+    "perno": {
+     "d": 8.0,
+     "prof": 33.0
+    },
+    "recibe": {
+     "d": 5.0,
+     "prof": 12.0
+    }
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
+   "nombre": "Excentrica O15",
+   "origen": [
+    0.0,
+    851.0,
+    1852.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "ex": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "forma": "excentrica",
+   "args": {
+    "cam": {
+     "d": 15.0,
+     "prof": 13.5,
+     "desde_canto": 33.0
+    }
+   }
+  },
+  {
+   "mueble": "A4 Campana 570",
+   "nombre": "Perno O8 x 33",
+   "origen": [
+    9.0,
+    818.0,
+    1852.0
+   ],
+   "ez": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "ex": [
+    0,
+    0,
+    1
    ],
    "forma": "perno",
    "args": {
@@ -19260,7 +22029,7 @@
   "A1 Esquinero alacena: rincon recortado 65 x 185 en piso, techo y estantes por la COLUMNA (60 x 180 + 5 de luz); los fondos y travesanos arrancan despues de ella.",
   "A1 Esquinero alacena / Puerta: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 535 x 879 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).",
   "A1 Esquinero alacena / Lateral A: pin O5 en (264, 716.667) cae en la escotadura: se omite",
-  "A1 Esquinero alacena: viga en la pared larga: escotadura en Lateral A y Fondo B, techo desde Y=125, Travesano A atornillado a la viga, Fondo A hasta Z=2152.",
+  "A1 Esquinero alacena: viga en la pared larga: escotadura en Lateral A y Fondo B, techo desde Y=125, Travesano A superior atornillado a la viga, Fondo A hasta Z=2152.",
   "A1 Esquinero alacena: se cuelga por los dos travesanos traseros (18 x 80) con 2 tornillos a la pared cada uno, a mano.",
   "A1 Esquinero alacena: la tira LED va PEGADA bajo el piso, sin ranura (la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).",
   "A2 Alacena 600 rebatible: ESCOTADURA de 125 x 277 atras-arriba en los laterales por la viga (2160 al techo, 120 de saliente); el techo arranca a 125 de la pared; el travesano se atornilla a la viga; el fondo termina en Z=2152 y arriba la viga queda a la vista.",

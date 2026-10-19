@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>567.00</PanelLength>
+        <PanelWidth>149.50</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>COCINA-01_A4 Campana 570_Frente campana fijo</PanelName>
+        <Params>
+            <Param Key="L" Value="567.00" Comment="板长"/>
+            <Param Key="W" Value="149.50" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

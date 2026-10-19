@@ -390,7 +390,7 @@ Pato pidió que COCINA-01 quede como un render de referencia (verde, vitrinas co
 tiradores de cobre, cornisa). Decisiones: distribución + estilo, mismas paredes (2190 / 1368),
 **sin lavavajillas**, vitrinas de marco de melamina + vidrio, tiradores perforados (barral 128,
 perilla). Todo en `recetas/cocina01.py`; `ArmarReceta` armó el documento `COCINA-01` vaciado
-(por MCP, `armar(nuevo=False)`), 108 placas, **108/108 receta = sólido**.
+(por MCP, `armar(nuevo=False)`), 119 placas, **119/119 receta = sólido**.
 
 Qué cambió:
 
@@ -481,6 +481,11 @@ Dos cosas que se encontraron:
   oculta**: `Frente campana fijo` (567 × 149,5, de 1643 a 1792,5, con escuadras al piso) + `Frente campana
   visor` (567 × 188,5, de 1451,5 a 1640) atornillado al visor extensible; el frente de A4 queda de 1450 a
   2450 como las vitrinas. Alto del visor (40) supuesto.
+- **Refuerzos traseros arriba y abajo** (18/10, pedido de Pato al ver los bajos de atrás): `bajo_normal()`
+  suma `Travesano trasero inferior` (18 × 80 sobre el piso), `alacena()` lo suma cuando hay piso (el
+  escurridor ya lo tenía), y `esquinero()` pone ahora los cuatro (`Travesano A/B inferior/superior`) para
+  el bajo y la alacena (antes sólo la alacena tenía los dos de arriba, puestos en `alacena_esquinero`).
+  Todos con Minifix a los laterales y al piso/techo (esquineros).
 - **Columna del rincón** (18/10, dato de Pato): 60 (X) × 180 (Y), de piso a techo (`COLUMNA`, `COL_X = 65`,
   `COL_Y = 185`). En `esquinero()`: `con_columna(poli, cx, cy)` le saca el rincón al pentágono (7 vértices,
   no convexo) y `horizontal()` anota la escotadura; piso, techo y estantes la llevan. Fondos y ranuras

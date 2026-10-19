@@ -1,20 +1,14 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:40:00" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="580.00" Height="760.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,1,0" Name="COCINA-01_B4 Bajo tacho 322_Lateral izq" Code="9992609290511">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 11:26:00" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="388.00" Height="120.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,1,0,0" Name="COCINA-01_B3 Cajonera 450_Cajon 4 frente" Code="9992609290511">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="580.00 0.00 0"/>
-        <Point Value="580.00 760.00 0"/>
-        <Point Value="0.00 760.00 0"/>
+        <Point Value="388.00 0.00 0"/>
+        <Point Value="388.00 120.00 0"/>
+        <Point Value="0.00 120.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="37.00 674.50 0" End="37.00 674.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="37.00 642.50 0" End="37.00 642.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="37.00 117.50 0" End="37.00 117.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="37.00 85.50 0" End="37.00 85.50 -3.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="571.00 710.00 0" End="571.00 710.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="50.00 751.00 0" End="50.00 751.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="50.00 9.00 0" End="50.00 9.00 -12.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="530.00 9.00 0" End="530.00 9.00 -12.00"/>
-    <SlotL Name="" Face="A" Start="552.50 0.00 -6.00" End="552.50 760.00 -6.00" Width="6.00" IsCuted="0"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="379.00 90.00 0" End="379.00 90.00 -12.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="9.00 90.00 0" End="9.00 90.00 -12.00"/>
+    <SlotL Name="" Face="A" Start="13.00 17.50 -5.50" End="375.00 17.50 -5.50" Width="6.00" IsCuted="0"/>
 </Plane>
 </MicroDrawBan_XML>

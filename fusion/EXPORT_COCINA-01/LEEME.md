@@ -14,20 +14,20 @@ corresponden quedaron en `salida/_obsoleto_18-10/`.
 travesaños 70) unidos con Minifix + tarugo Ø8; vidrio de 4 en ranura 12 × 5 por atrás; cruz de
 listones 25 × 8 pegada al vidrio (a mano). Todo lo perfora la SKH-612. **Las 16 piezas de madera
 están en `lista_corte.csv` con material "Madera maciza" y aparte en `lista_corte_MADERA_MACIZA.csv`:
-no cargarlas en AutoCUT** (eso es sólo para la placa). **108 placas.**
+no cargarlas en AutoCUT** (eso es sólo para la placa). **119 placas.**
 
 ## Qué hay acá
 
 | Carpeta / archivo | Para qué |
 |---|---|
-| `salida/XML3/` | **Perforadora SKH-612HS** — cargar con Formato **KDTXml** (108 piezas) |
+| `salida/XML3/` | **Perforadora SKH-612HS** — cargar con Formato **KDTXml** (119 piezas) |
 | `salida/MPR/` | alternativa: Formato **Haomai MPR** (97 archivos, con los `K` de cara trasera) |
 | `salida/BAN/`, `salida/XML1/` | otros formatos (la SKH-612HS no lee BAN) |
-| `salida/lista_corte.csv` / `.xlsx` | **AutoCUT → sierra HP280** (108 piezas) |
+| `salida/lista_corte.csv` / `.xlsx` | **AutoCUT → sierra HP280** (119 piezas) |
 | `salida/HOJAS_VERIFICACION.html` | plano acotado de cada pieza con mecanizado, para imprimir y medir |
 | `piezas.json` | lo que Fusion leyó del sólido (entrada de etapa2) |
 
-## Muebles (108 placas: 100 de melamina + 8 de madera maciza)
+## Muebles (119 placas: 111 de melamina + 8 de madera maciza)
 
 B1 esquinero bajo diagonal · B2 bajo pileta 600 (frente fijo + 2 puertas) · B3 cajonera 450
 (4 cajones) · **B4 bajo tacho 322** (una puerta, para tacho extraíble de módulo 300) · P1/P2 paneles terminales · A1 esquinero
@@ -40,7 +40,7 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 
 | Herraje | Cant. |
 |---|---|
-| 3 en 1 / Minifix (excéntrica Ø15 + perno 33 rosca madera, receptor Ø5×12 sin taco) | 122 (106 cuerpos + 16 marcos) |
+| 3 en 1 / Minifix (excéntrica Ø15 + perno 33 rosca madera, receptor Ø5×12 sin taco) | 140 (contados sobre el sólido) |
 | Bisagra de cazoleta Ø35 Grupo Euro (tornillos a 48) con base (37 / ±16) | 27 |
 | Corredera de bolillas 450 (pares) | 4 pares (8 rieles) |
 | Soporte de estante Ø5 | 32 |
@@ -73,6 +73,12 @@ lado (el mueble mide 570). El ducto Ø150 sube por adentro y entra a la **salida
 centro a 2120 del piso y 1120 de la pared larga) con un codo. Pasos de 170×170 en el piso y en el fondo y
 de 180×180 en el estante: **a caladora o router, no salen en los archivos de la perforadora.** La posición
 de la salida de la campana (150 de la pared) está supuesta: confirmar con la campana en mano.
+
+## Refuerzos traseros (18/10)
+
+Todos los muebles llevan **travesaño trasero de 18 × 80 arriba y abajo** (parados sobre el piso / bajo el techo,
+detrás del fondo, con Minifix a los laterales); los esquineros llevan dos por fila, uno por pared, después de
+la columna. Por los de arriba se cuelgan las alacenas.
 
 ## Columna en el rincón (18/10)
 
@@ -118,7 +124,7 @@ contorno de 6 vértices.
 
 ## Controles que sí se hicieron
 
-- Receta vs. lo que Fusion lee del sólido: **108/108 piezas idénticas** (18/10; medidas,
+- Receta vs. lo que Fusion lee del sólido: **119/119 piezas idénticas** (18/10; medidas,
   contorno, cantos, agujeros, ranuras) — `python3 recetas/comparar.py`. `ExportarPiezas`
   ahora ignora cajeados de más de 40 de ancho (`RANURA_ANCHO_MAX`) y sólo estira un Ø8 de canto a
   33 si de verdad desemboca en la excéntrica (los tarugos quedan en 15).

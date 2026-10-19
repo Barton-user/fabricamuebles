@@ -1,42 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Plate plateNumber="9992609290993" plateNickName="COCINA-01_A4 Campana 570_Lateral der" width="620.00" depth="332.00" height="18.00" barCode="9992609290993" barCode1="">
+<Plate plateNumber="9992609290993" plateNickName="COCINA-01_A3 Vitrina 800_Travesano trasero" width="80.00" depth="764.00" height="18.00" barCode="9992609290993" barCode1="">
     <Bandings>
-        <Banding bandingBack="0" bandingRight="1" bandingFront="0" bandingLeft="0"/>
+        <Banding bandingBack="0" bandingRight="0" bandingFront="0" bandingLeft="0"/>
     </Bandings>
     <Holes>
-        <Hole point="(295.00,366.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(68.00,366.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(295.00,334.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(68.00,334.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(295.00,302.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(68.00,302.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(295.00,270.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(68.00,270.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(295.00,238.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(68.00,238.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(295.00,552.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(295.00,520.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(295.00,99.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(295.00,67.50,18.00)" diameter="5.00" depth="3.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(9.00,580.00,18.00)" diameter="5.00" depth="12.00" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(54.00,587.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(278.00,587.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(278.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(54.00,33.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
-        <Hole point="(54.00,620.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,-1,0)"/>
-        <Hole point="(278.00,620.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,-1,0)"/>
-        <Hole point="(278.00,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
-        <Hole point="(54.00,0.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(0,1,0)"/>
+        <Hole point="(731.00,40.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(33.00,40.00,18.00)" diameter="15.00" depth="13.50" direction="1" positionSide="1" drillDirection="(0,0,-1)"/>
+        <Hole point="(764.00,40.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(-1,0,0)"/>
+        <Hole point="(0.00,40.00,9.00)" diameter="8.00" depth="33.00" direction="0" positionSide="1" drillDirection="(1,0,0)"/>
     </Holes>
-    <Slottings>
-        <Slotting positionSide="1" slottingStartX="27.50" slottingStartY="0.00" slottingStartZ="0.000" slottingEndX="27.50" slottingEndY="620.00" slottingEndZ="0.000" slottingWidth="6.00" slottingDepth="6.00"/>
-    </Slottings>
+    <Slottings/>
     <YXJSlottings/>
     <H_Slottings/>
     <Points>
-        <Point startPoint="(0.00,620.00,18.00)" endPoint="(332.00,620.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
-        <Point startPoint="(332.00,620.00,18.00)" endPoint="(332.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
-        <Point startPoint="(332.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
-        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,620.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,80.00,18.00)" endPoint="(764.00,80.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(764.00,80.00,18.00)" endPoint="(764.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(764.00,0.00,18.00)" endPoint="(0.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,0.00,18.00)" endPoint="(0.00,80.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
     </Points>
 </Plate>

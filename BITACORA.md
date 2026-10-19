@@ -1913,3 +1913,5 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   de JUJUY**. Queda anotado en CONTEXTO §2 y §5 (pendiente 11) y en el LEEME del paquete. Fin de la sesión.
 - Último cambio: cajonera B3 de 320 a **450** y B4 pasa a **322** (módulo tacho extraíble). 108/108, paquete
   regenerado, Fusion re-armado (Pato ya lo había guardado con la versión anterior: **volver a guardar**).
+- Refuerzos traseros arriba y abajo en todos los muebles (travesaños 18×80 con Minifix; esquineros 4 c/u).
+  119 placas, 119/119, paquete regenerado. Fusion re-armado: **Pato tiene que volver a guardar**.

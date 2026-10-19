@@ -1,20 +1,20 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>800.00</PanelLength>
-        <PanelWidth>207.00</PanelWidth>
+        <PanelLength>332.00</PanelLength>
+        <PanelWidth>982.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_A3 Vitrina 800_Techo</PanelName>
+        <PanelName>COCINA-01_A2 Alacena 600 rebatible_Lateral der</PanelName>
         <Params>
-            <Param Key="L" Value="800.00" Comment="板长"/>
-            <Param Key="W" Value="207.00" Comment="板宽"/>
+            <Param Key="L" Value="332.00" Comment="板长"/>
+            <Param Key="W" Value="982.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>791.00</X1>
-        <Y1>55.50</Y1>
+        <X1>277.50</X1>
+        <Y1>609.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -25,8 +25,44 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>791.00</X1>
-        <Y1>151.50</Y1>
+        <X1>85.50</X1>
+        <Y1>609.00</Y1>
+        <Depth>12.00</Depth>
+        <Diameter>5.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>180.50</X1>
+        <Y1>949.00</Y1>
+        <Depth>13.50</Depth>
+        <Diameter>15.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>276.50</X1>
+        <Y1>949.00</Y1>
+        <Depth>13.50</Depth>
+        <Diameter>15.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>1</TypeNo>
+        <TypeName>Vertical Hole</TypeName>
+        <X1>134.00</X1>
+        <Y1>942.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -38,7 +74,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>9.00</X1>
-        <Y1>151.50</Y1>
+        <Y1>40.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
@@ -49,13 +85,55 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>9.00</X1>
-        <Y1>55.50</Y1>
+        <X1>317.00</X1>
+        <Y1>9.00</Y1>
         <Depth>12.00</Depth>
         <Diameter>5.00</Diameter>
         <Enable>1</Enable>
         <HoleNo>1</HoleNo>
         <IntervalX>0.00</IntervalX>
         <IntervalY>0.00</IntervalY>
+    </CAD>
+    <CAD>
+        <TypeNo>2</TypeNo>
+        <TypeName>Horizontal Hole</TypeName>
+        <X1>180.50</X1>
+        <Y1>982.00</Y1>
+        <Z1>9.00</Z1>
+        <Quadrant>3</Quadrant>
+        <Depth>33.00</Depth>
+        <Diameter>8.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+        <IntervalZ>0.00</IntervalZ>
+    </CAD>
+    <CAD>
+        <TypeNo>2</TypeNo>
+        <TypeName>Horizontal Hole</TypeName>
+        <X1>276.50</X1>
+        <Y1>982.00</Y1>
+        <Z1>9.00</Z1>
+        <Quadrant>3</Quadrant>
+        <Depth>33.00</Depth>
+        <Diameter>8.00</Diameter>
+        <Enable>1</Enable>
+        <HoleNo>1</HoleNo>
+        <IntervalX>0.00</IntervalX>
+        <IntervalY>0.00</IntervalY>
+        <IntervalZ>0.00</IntervalZ>
+    </CAD>
+    <CAD>
+        <TypeNo>3</TypeNo>
+        <TypeName>Line</TypeName>
+        <BeginX>27.50</BeginX>
+        <BeginY>0.00</BeginY>
+        <EndX>27.50</EndX>
+        <EndY>705.00</EndY>
+        <Correction>0</Correction>
+        <Width>6.00</Width>
+        <Depth>6.00</Depth>
+        <Enable>1</Enable>
     </CAD>
 </KDTPanelFormat>

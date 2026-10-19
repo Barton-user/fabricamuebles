@@ -672,7 +672,10 @@ def bajo_normal(nombre, x0, ancho, tipo):
         tf = placa_caja(nombre, "Travesano delantero", x0 + T, x1 - T, Y1 - 100, Y1, z1 - T, z1, "-Z", "+X",
                         BLANCO, cantos=frente)
     tb = placa_caja(nombre, "Travesano trasero", x0 + T, x1 - T, 0, T, z1 - 100, z1, "-Y", "+X", BLANCO)
-    P += [tf, tb]
+    # refuerzo trasero INFERIOR (18/10, pedido de Pato): parado sobre el piso, detras del fondo
+    tbi = placa_caja(nombre, "Travesano trasero inferior", x0 + T, x1 - T, 0, T, z0 + T, z0 + T + TRAV_ALTO,
+                     "-Y", "+X", BLANCO)
+    P += [tf, tb, tbi]
     fondo = fondo_bajo_normal(P, nombre, x0, x1, P)
     # ranuras del fondo: laterales (cara A = interior; li: x desde atras, ld: x desde el frente)
     li.ranura(BP["desde_atras"], 0, BP["desde_atras"], li.H, BP["ancho"], BP["prof"], "A", "BP")
@@ -683,6 +686,7 @@ def bajo_normal(nombre, x0, ancho, tipo):
     cam_tf = "A"
     tres_en_uno(tf, li, cam_tf); tres_en_uno(tf, ld, cam_tf)
     tres_en_uno(tb, li, "A"); tres_en_uno(tb, ld, "A")
+    tres_en_uno(tbi, li, "A"); tres_en_uno(tbi, ld, "A")
     # frentes
     xa, xb = x0 + LUZ, x1 - LUZ
     za, zb = z0 + LUZ, z1 - LUZ
@@ -959,6 +963,20 @@ def esquinero(nombre, alto, prof, z0, z1, estantes, techo=True, cenefa=False, vi
             for x in xs:
                 herraje(nombre, "Soporte estante O5", lat.mundo(x, zs - z0 - 8.0, 0.0), lat.vec(0, 0, -1),
                         (0, 0, 1), "pin")
+    # refuerzos traseros, uno por pared, detras de los fondos (que van a 25..30), despues de la columna:
+    # abajo parados sobre el piso; arriba bajo el techo (en la alacena con viga, el A contra la viga)
+    li_ = E - T
+    ya = VIGA_Y if viga else 0.0
+    filas = [("inferior", z0 + T, z0 + T + TRAV_ALTO, 0.0, COL_Y)]
+    if techo:
+        filas.append(("superior", z1 - T - TRAV_ALTO, z1 - T, ya, max(ya + T + 1.0, COL_Y)))
+    for (suf, zt0, zt1, yA, yB) in filas:
+        ta = placa_caja(nombre, "Travesano A %s" % suf, COL_X, li_, yA, yA + T, zt0, zt1, "-Y", "+X", BLANCO)
+        tb = placa_caja(nombre, "Travesano B %s" % suf, 0, T, yB, li_, zt0, zt1, "-X", "-Y", BLANCO)
+        P += [ta, tb]
+        tres_en_uno(ta, la, "A", cuantos=1); tres_en_uno(tb, lb, "A", cuantos=1)
+        horiz = piso if suf == "inferior" else tec
+        tres_en_uno(ta, horiz, "A", en=[100.0, ta.W - 100.0]); tres_en_uno(tb, horiz, "A", en=[100.0, tb.W - 100.0])
     return P, piso, pu, (PA, PB, t, n, L), la, lb
 
 
@@ -975,19 +993,8 @@ def alacena_esquinero():
     z0, z1 = Z_CUERPO0, Z_CUERPO1
     P, piso, pu, (PA, PB, t, n, L), la, lb = esquinero(nombre, z1 - z0, F_ALTO, z0, z1,
                                                        estantes=2, cenefa=True, viga=True)
-    tec = [p for p in P if p.nombre == "Techo"][0]
-    # dos travesanos traseros bajo el techo, uno por pared, detras de los fondos (que van a 25..30):
-    # 3 en 1 al lateral de su punta y al techo; por ellos se cuelga el mueble.
-    li_ = 800.0 - T
-    zt0, zt1 = z1 - T - TRAV_ALTO, z1 - T
-    # con la viga: el A va contra la cara de la viga (Y 125..143) y el B arranca delante de ella
-    ta = placa_caja(nombre, "Travesano A", COL_X, li_, VIGA_Y, VIGA_Y + T, zt0, zt1, "-Y", "+X", BLANCO)
-    tb = placa_caja(nombre, "Travesano B", 0, T, max(VIGA_Y + T + 1.0, COL_Y), li_, zt0, zt1, "-X", "-Y", BLANCO)
     AVISOS.append("%s: viga en la pared larga: escotadura en Lateral A y Fondo B, techo desde Y=%g, "
-                  "Travesano A atornillado a la viga, Fondo A hasta Z=%g." % (nombre, VIGA_Y, VIGA_Z - 3.0))
-    P += [ta, tb]
-    tres_en_uno(ta, la, "A", cuantos=1); tres_en_uno(tb, lb, "A", cuantos=1)
-    tres_en_uno(ta, tec, "A", en=[100.0, ta.W - 100.0]); tres_en_uno(tb, tec, "A", en=[100.0, tb.W - 100.0])
+                  "Travesano A superior atornillado a la viga, Fondo A hasta Z=%g." % (nombre, VIGA_Y, VIGA_Z - 3.0))
     AVISOS.append("%s: se cuelga por los dos travesanos traseros (18 x %g) con %d tornillos a la pared "
                   "cada uno, a mano." % (nombre, TRAV_ALTO, TRAV_TORNILLOS))
     led_piso(piso, nombre, diagonal_geo=(PA, PB, t, n, L))
@@ -1083,7 +1090,10 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=1, escur
                       "120 de saliente); el techo arranca a %g de la pared; el travesano se atornilla a la "
                       "viga; el fondo termina en Z=%g y arriba la viga queda a la vista." %
                       (nombre, VIGA_Y, ld.H - (VIGA_Z - ld.O[2]), VIGA_Y, zf1))
-    P += [piso, tec, ld, li, fo, tt] + ([tb] if escurridor else [])
+    if not escurridor:
+        # refuerzo trasero inferior parado sobre el piso, detras del fondo (18/10, pedido de Pato)
+        tb = pc("Travesano trasero inferior", u0 + T, u1 - T, 0, T, z0 + T, z0 + T + TRAV_ALTO, mV, U, BLANCO)
+    P += [piso, tec, ld, li, fo, tt, tb]
     # ranuras de fondo (cara A = interior), cortadas a 12,85 de las puntas como MLV
     if not escurridor:
         piso.ranura(12.85, d, piso.W - 12.85, d, BP["ancho"], BP["prof"], "A", "BP")
@@ -1100,6 +1110,7 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=1, escur
             tres_en_uno(tb, l, "A")
         else:
             tres_en_uno(l, piso, "A")
+            tres_en_uno(tb, l, "A")
         if tipo != "rebatible":
             tres_en_uno(l, tec, "A")           # el rebatible rehace el techo mas abajo y lo une ahi
     tres_en_uno(tt, ld, "A"); tres_en_uno(tt, li, "A")

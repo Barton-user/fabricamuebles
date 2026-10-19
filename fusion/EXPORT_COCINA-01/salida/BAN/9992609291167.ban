@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 11:26:01" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="567.00" Height="188.50" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,1,1,1" Name="COCINA-01_A4 Campana 570_Frente campana visor" Code="9992609291167">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="567.00 0.00 0"/>
+        <Point Value="567.00 188.50 0"/>
+        <Point Value="0.00 188.50 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>

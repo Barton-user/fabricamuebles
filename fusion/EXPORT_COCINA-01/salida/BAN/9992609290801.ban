@@ -1,15 +1,17 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:40:00" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="564.00" Height="80.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A2 Alacena 600 rebatible_Travesano trasero" Code="9992609290801">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 11:26:01" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="717.00" Height="80.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A1 Esquinero alacena_Travesano A inferior" Code="9992609290801">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="564.00 0.00 0"/>
-        <Point Value="564.00 80.00 0"/>
+        <Point Value="717.00 0.00 0"/>
+        <Point Value="717.00 80.00 0"/>
         <Point Value="0.00 80.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="531.00 40.00 0" End="531.00 40.00 -13.50"/>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 40.00 0" End="33.00 40.00 -13.50"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="564.00 40.00 -9.00" End="531.00 40.00 -9.00"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 40.00 -9.00" End="33.00 40.00 -9.00"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="617.00 33.00 0" End="617.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="100.00 33.00 0" End="100.00 33.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="684.00 40.00 0" End="684.00 40.00 -13.50"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="617.00 0.00 -9.00" End="617.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="D" Start="100.00 0.00 -9.00" End="100.00 33.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="717.00 40.00 -9.00" End="684.00 40.00 -9.00"/>
 </Plane>
 </MicroDrawBan_XML>

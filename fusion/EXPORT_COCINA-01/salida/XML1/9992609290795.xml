@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Plate plateNumber="9992609290795" plateNickName="COCINA-01_A2 Alacena 600 rebatible_Fondo" width="689.00" depth="574.00" height="5.00" barCode="9992609290795" barCode1="">
+<Plate plateNumber="9992609290795" plateNickName="COCINA-01_A1 Esquinero alacena_Estante 2" width="750.00" depth="750.00" height="18.00" barCode="9992609290795" barCode1="">
     <Bandings>
         <Banding bandingBack="0" bandingRight="0" bandingFront="0" bandingLeft="0"/>
     </Bandings>
@@ -8,9 +8,12 @@
     <YXJSlottings/>
     <H_Slottings/>
     <Points>
-        <Point startPoint="(0.00,689.00,5.00)" endPoint="(574.00,689.00,5.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
-        <Point startPoint="(574.00,689.00,5.00)" endPoint="(574.00,0.00,5.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
-        <Point startPoint="(574.00,0.00,5.00)" endPoint="(0.00,0.00,5.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
-        <Point startPoint="(0.00,0.00,5.00)" endPoint="(0.00,689.00,5.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(750.00,186.03,18.00)" endPoint="(750.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(750.00,0.00,18.00)" endPoint="(34.00,0.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(34.00,0.00,18.00)" endPoint="(34.00,154.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(34.00,154.00,18.00)" endPoint="(0.00,154.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,154.00,18.00)" endPoint="(0.00,750.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(0.00,750.00,18.00)" endPoint="(186.03,750.00,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
+        <Point startPoint="(186.03,750.00,18.00)" endPoint="(750.00,186.03,18.00)" center="(0,0,0)" radius="" arcDirection="0" millingIndex="0" cutHeight="" isLagestEdge="1" cutPositionSide="正面"/>
     </Points>
 </Plate>

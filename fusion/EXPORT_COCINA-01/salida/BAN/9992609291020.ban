@@ -1,15 +1,17 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:40:00" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="534.00" Height="80.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_A4 Campana 570_Travesano trasero" Code="9992609291020">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 11:26:01" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="60.00" Height="997.00" PlaneSize="1" Grain="2" Thickness="18" Material="Madera maciza" EdgeFBLR="0,0,0,0" Name="COCINA-01_A3 Vitrina 800_Puerta montante der" Code="9992609291020">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="534.00 0.00 0"/>
-        <Point Value="534.00 80.00 0"/>
-        <Point Value="0.00 80.00 0"/>
+        <Point Value="60.00 0.00 0"/>
+        <Point Value="60.00 997.00 0"/>
+        <Point Value="0.00 997.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="501.00 40.00 0" End="501.00 40.00 -13.50"/>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 40.00 0" End="33.00 40.00 -13.50"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="534.00 40.00 -9.00" End="501.00 40.00 -9.00"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 40.00 -9.00" End="33.00 40.00 -9.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="20.00 50.00 0" End="20.00 50.00 -18.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 985.00 -9.00" End="15.00 985.00 -9.00"/>
+    <HoleH Name="" Diameter="5.00" IsCuted="0" Face="L" Start="0.00 962.00 -9.00" End="12.00 962.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 12.00 -9.00" End="15.00 12.00 -9.00"/>
+    <HoleH Name="" Diameter="5.00" IsCuted="0" Face="L" Start="0.00 35.00 -9.00" End="12.00 35.00 -9.00"/>
+    <SlotL Name="" Face="A" Start="6.00 58.00 -5.00" End="6.00 939.00 -5.00" Width="12.00" IsCuted="0"/>
 </Plane>
 </MicroDrawBan_XML>
