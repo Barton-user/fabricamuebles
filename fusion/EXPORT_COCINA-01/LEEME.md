@@ -6,7 +6,7 @@ Generado el 29/09/2026 desde `recetas/cocina01.py` → Fusion `COCINA-01` (proye
 `ExportarPiezas` → `etapa2/`. Basado en las medidas del modelo de render `COCINA`.
 
 **Regenerado el 18/10/2026** con el diseño nuevo (como el render verde con vitrinas y cobre): sin
-lavavajillas, B4 bajo puerta 452, alacenas de 1450 a 2450 (techo a 2470) **sin cenefa ni cornisa** (LED embutido) y con
+lavavajillas, cajonera 450 + B4 bajo tacho 322, alacenas de 1450 a 2450 (techo a 2470) **sin cenefa ni cornisa** (LED embutido) y con
 **travesaño trasero 18×80 para colgarlas**, A3/A4/esquinero vitrinas, A2 rebatible, tiradores Ø5
 pasantes, receptor Ø5×12, placa base 37/±16.  Los archivos del paquete viejo que ya no
 corresponden quedaron en `salida/_obsoleto_18-10/`.
@@ -29,8 +29,8 @@ no cargarlas en AutoCUT** (eso es sólo para la placa). **108 placas.**
 
 ## Muebles (108 placas: 100 de melamina + 8 de madera maciza)
 
-B1 esquinero bajo diagonal · B2 bajo pileta 600 (frente fijo + 2 puertas) · B3 cajonera 320
-(4 cajones) · **B4 bajo puerta 452** (una puerta) · P1/P2 paneles terminales · A1 esquinero
+B1 esquinero bajo diagonal · B2 bajo pileta 600 (frente fijo + 2 puertas) · B3 cajonera 450
+(4 cajones) · **B4 bajo tacho 322** (una puerta, para tacho extraíble de módulo 300) · P1/P2 paneles terminales · A1 esquinero
 alacena diagonal **vitrina** (1 puerta de 633) · **A2 alacena 600 rebatible** (dos hojas rebatibles hacia
 arriba, 38/62; **sin piso**, abierta sobre la bacha, con escurreplatos; listón frente con el LED y travesaño trasero inferior) · **A3 vitrina 800** (2 puertas de
 397) · **A4 mueble campana 570** (pared corta, 1794–2450, puerta ciega, campana SDC-100 colgada debajo, ducto Ø150 a la salida de aire) · zócalos. Vitrinas = marcos de madera maciza. Alacenas sin cenefa ni cornisa; travesaño trasero para colgar.

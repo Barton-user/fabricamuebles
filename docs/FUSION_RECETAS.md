@@ -394,8 +394,9 @@ perilla). Todo en `recetas/cocina01.py`; `ArmarReceta` armó el documento `COCIN
 
 Qué cambió:
 
-- **B4 Bajo puerta 452** (1720–2172) donde iba el lavavajillas; `bajo_normal(..., "puerta")`:
-  una puerta a todo el alto, bisagras en el lateral del extremo. Panel terminal a 2172–2190,
+- **B3 Cajonera 450** (1400–1850; era 320) y **B4 Bajo tacho 322** (1850–2172, para un tacho
+  extraíble de módulo 300; `bajo_normal(..., "puerta")`: una puerta a todo el alto, bisagras en el
+  lateral del extremo). Último cambio del 18/10: Pato quiso cajones más anchos al sacar el lavavajillas. Panel terminal a 2172–2190,
   zócalo largo hasta ahí. `REFERENCIA` sale de la receta (`modelo.json["referencia"]`).
 - **Alacenas**: cuerpo 1450–**2450** (techo del ambiente a 2470, medido 18/10; 20 de aire) **sin cenefa ni cornisa** (primero se puso cornisa como en el
   render; Pato: "horribles", se sacaron las dos). El LED queda embutido en la ranura 10×10 del

@@ -1,11 +1,11 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>416.00</PanelLength>
+        <PanelLength>286.00</PanelLength>
         <PanelWidth>580.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_B4 Bajo puerta 452_Piso</PanelName>
+        <PanelName>COCINA-01_B4 Bajo tacho 322_Piso</PanelName>
         <Params>
-            <Param Key="L" Value="416.00" Comment="板长"/>
+            <Param Key="L" Value="286.00" Comment="板长"/>
             <Param Key="W" Value="580.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
@@ -13,7 +13,7 @@
     <CAD>
         <TypeNo>8</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>383.00</X1>
+        <X1>253.00</X1>
         <Y1>530.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
@@ -25,7 +25,7 @@
     <CAD>
         <TypeNo>8</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>383.00</X1>
+        <X1>253.00</X1>
         <Y1>50.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
@@ -61,7 +61,7 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>416.00</X1>
+        <X1>286.00</X1>
         <Y1>530.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>1</Quadrant>
@@ -76,7 +76,7 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>416.00</X1>
+        <X1>286.00</X1>
         <Y1>50.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>1</Quadrant>
@@ -123,7 +123,7 @@
         <TypeName>Line</TypeName>
         <BeginX>0.00</BeginX>
         <BeginY>27.50</BeginY>
-        <EndX>416.00</EndX>
+        <EndX>286.00</EndX>
         <EndY>27.50</EndY>
         <Correction>0</Correction>
         <Width>6.00</Width>

@@ -11,7 +11,7 @@ DW="0"
 ModusMirror="1"
 
 <100 \WerkStck\
-LA="416"
+LA="286"
 BR="100"
 DI="18"
 FNX="0"
@@ -23,7 +23,7 @@ AX="0"
 AY="0"
 
 <102 \V_DRILLING\
-XA="383"
+XA="253"
 YA="50"
 BM="LS"
 TI="13.5"
@@ -74,7 +74,7 @@ MZF="1"
 
 <103 \End_Boring\
 MI="0"
-XA="416"
+XA="286"
 YA="50"
 ZA="9"
 DU="8"
@@ -123,5 +123,5 @@ MYF="1"
 MZF="1"
 
 <101 \Kommentar\
-KM="COCINA-01_B4 Bajo puerta 452_Travesano delantero"
+KM="COCINA-01_B4 Bajo tacho 322_Travesano delantero"
 !

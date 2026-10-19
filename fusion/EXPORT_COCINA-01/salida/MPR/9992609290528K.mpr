@@ -11,7 +11,7 @@ DW="0"
 ModusMirror="1"
 
 <100 \WerkStck\
-LA="416"
+LA="286"
 BR="580"
 DI="18"
 FNX="0"
@@ -73,7 +73,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="383"
+XA="253"
 YA="50"
 BM="LS"
 TI="13.5"
@@ -98,7 +98,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="383"
+XA="253"
 YA="530"
 BM="LS"
 TI="13.5"
@@ -123,5 +123,5 @@ MYF="1"
 MZF="1"
 
 <101 \Kommentar\
-KM="COCINA-01_B4 Bajo puerta 452_Piso"
+KM="COCINA-01_B4 Bajo tacho 322_Piso"
 !

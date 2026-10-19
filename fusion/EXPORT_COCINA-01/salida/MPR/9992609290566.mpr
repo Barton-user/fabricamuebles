@@ -11,7 +11,7 @@ DW="0"
 ModusMirror="1"
 
 <100 \WerkStck\
-LA="449"
+LA="319"
 BR="757"
 DI="18"
 FNX="0"
@@ -73,7 +73,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="420.5"
+XA="290.5"
 YA="681"
 BM="LS"
 TI="3"
@@ -98,7 +98,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="420.5"
+XA="290.5"
 YA="633"
 BM="LS"
 TI="3"
@@ -123,7 +123,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="426.5"
+XA="296.5"
 YA="657"
 BM="LS"
 TI="13"
@@ -148,7 +148,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="420.5"
+XA="290.5"
 YA="124"
 BM="LS"
 TI="3"
@@ -173,7 +173,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="420.5"
+XA="290.5"
 YA="76"
 BM="LS"
 TI="3"
@@ -198,7 +198,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="426.5"
+XA="296.5"
 YA="100"
 BM="LS"
 TI="13"
@@ -223,5 +223,5 @@ MYF="1"
 MZF="1"
 
 <101 \Kommentar\
-KM="COCINA-01_B4 Bajo puerta 452_Puerta"
+KM="COCINA-01_B4 Bajo tacho 322_Puerta"
 !

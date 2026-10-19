@@ -21,45 +21,45 @@ B2 Bajo pileta 600           9 placas
     9992609290177 Frente fijo                  597.0 x   185.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
     9992609290184 Puerta der                   297.0 x   569.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
     9992609290191 Puerta izq                   297.0 x   569.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
-B3 Cajonera 320             30 placas
+B3 Cajonera 450             30 placas
     9992609290207 Lateral der                  580.0 x   760.0 x 18.0  BLANCO 18  ag  12  canto  0  ran 1
     9992609290214 Lateral izq                  580.0 x   760.0 x 18.0  BLANCO 18  ag  12  canto  0  ran 1
-    9992609290221 Piso                         284.0 x   580.0 x 18.0  BLANCO 18  ag   4  canto  4  ran 1
-    9992609290238 Travesano delantero          284.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
-    9992609290245 Travesano trasero            284.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
-    9992609290252 Fondo                        294.0 x   746.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-    9992609290269 Frente cajon 1               317.0 x   187.0 x 18.0  VERDE 18   ag   2  canto  0  ran 0
-    9992609290276 Cajon 1 frente               258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
-    9992609290283 Cajon 1 contrafrente         258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290221 Piso                         414.0 x   580.0 x 18.0  BLANCO 18  ag   4  canto  4  ran 1
+    9992609290238 Travesano delantero          414.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290245 Travesano trasero            414.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290252 Fondo                        424.0 x   746.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290269 Frente cajon 1               447.0 x   187.0 x 18.0  VERDE 18   ag   2  canto  0  ran 0
+    9992609290276 Cajon 1 frente               388.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290283 Cajon 1 contrafrente         388.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
     9992609290290 Cajon 1 costado der          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
     9992609290306 Cajon 1 costado izq          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
-    9992609290313 Cajon 1 fondo                231.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-    9992609290320 Frente cajon 2               317.0 x   187.0 x 18.0  VERDE 18   ag   2  canto  0  ran 0
-    9992609290337 Cajon 2 frente               258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
-    9992609290344 Cajon 2 contrafrente         258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290313 Cajon 1 fondo                361.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290320 Frente cajon 2               447.0 x   187.0 x 18.0  VERDE 18   ag   2  canto  0  ran 0
+    9992609290337 Cajon 2 frente               388.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290344 Cajon 2 contrafrente         388.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
     9992609290351 Cajon 2 costado der          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
     9992609290368 Cajon 2 costado izq          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
-    9992609290375 Cajon 2 fondo                231.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-    9992609290382 Frente cajon 3               317.0 x   187.0 x 18.0  VERDE 18   ag   2  canto  0  ran 0
-    9992609290399 Cajon 3 frente               258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
-    9992609290405 Cajon 3 contrafrente         258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290375 Cajon 2 fondo                361.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290382 Frente cajon 3               447.0 x   187.0 x 18.0  VERDE 18   ag   2  canto  0  ran 0
+    9992609290399 Cajon 3 frente               388.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290405 Cajon 3 contrafrente         388.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
     9992609290412 Cajon 3 costado der          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
     9992609290429 Cajon 3 costado izq          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
-    9992609290436 Cajon 3 fondo                231.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-    9992609290443 Frente cajon 4               317.0 x   187.0 x 18.0  VERDE 18   ag   2  canto  0  ran 0
-    9992609290450 Cajon 4 frente               258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
-    9992609290467 Cajon 4 contrafrente         258.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290436 Cajon 3 fondo                361.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290443 Frente cajon 4               447.0 x   187.0 x 18.0  VERDE 18   ag   2  canto  0  ran 0
+    9992609290450 Cajon 4 frente               388.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
+    9992609290467 Cajon 4 contrafrente         388.0 x   120.0 x 18.0  BLANCO 18  ag   2  canto  0  ran 1
     9992609290474 Cajon 4 costado der          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
     9992609290481 Cajon 4 costado izq          414.0 x   120.0 x 18.0  BLANCO 18  ag   4  canto  2  ran 1
-    9992609290498 Cajon 4 fondo                231.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-B4 Bajo puerta 452           7 placas
+    9992609290498 Cajon 4 fondo                361.0 x   423.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+B4 Bajo tacho 322            7 placas
     9992609290504 Lateral der                  580.0 x   760.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 1
     9992609290511 Lateral izq                  580.0 x   760.0 x 18.0  BLANCO 18  ag   8  canto  0  ran 1
-    9992609290528 Piso                         416.0 x   580.0 x 18.0  BLANCO 18  ag   4  canto  4  ran 1
-    9992609290535 Travesano delantero          416.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
-    9992609290542 Travesano trasero            416.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
-    9992609290559 Fondo                        426.0 x   746.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
-    9992609290566 Puerta                       449.0 x   757.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
+    9992609290528 Piso                         286.0 x   580.0 x 18.0  BLANCO 18  ag   4  canto  4  ran 1
+    9992609290535 Travesano delantero          286.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290542 Travesano trasero            286.0 x   100.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290559 Fondo                        296.0 x   746.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
+    9992609290566 Puerta                       319.0 x   757.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
 P1 Panel terminal            1 placas
     9992609290573 Panel terminal               598.0 x   860.0 x 18.0  VERDE 18   ag   0  canto  0  ran 0
 P2 Panel cocina              1 placas

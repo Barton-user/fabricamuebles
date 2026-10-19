@@ -1911,3 +1911,5 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   Columna y viga ahora en REFERENCIA. 108/108, paquete regenerado, Fusion re-armado sin guardar.
 - Pato guardó el documento de Fusion `COCINA-01` (proyecto `cocina`) con la versión final: **es la cocina
   de JUJUY**. Queda anotado en CONTEXTO §2 y §5 (pendiente 11) y en el LEEME del paquete. Fin de la sesión.
+- Último cambio: cajonera B3 de 320 a **450** y B4 pasa a **322** (módulo tacho extraíble). 108/108, paquete
+  regenerado, Fusion re-armado (Pato ya lo había guardado con la versión anterior: **volver a guardar**).

@@ -20,8 +20,8 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
     chanfle a 45 se hace a mano; la puerta cuelga de un MONTANTE a 45 con la
     bisagra de cazoleta de siempre
   * pared larga, desde el esquinero: bajo pileta 600 (frente fijo + 2 puertas),
-    cajonera 320 (4 cajones), BAJO PUERTA 452 (una puerta ancha, donde iba el
-    lavavajillas: 18/10 se saco el lavavajillas) y panel terminal
+    cajonera 450 (4 cajones; era 320), BAJO TACHO 322 (una puerta, para un tacho
+    extraible de modulo 300; donde iba el lavavajillas) y panel terminal
   * pared corta: esquinero, cocina 550 x 650 y panel terminal
   * cajonera: corredera de bolillas 450 Grupo Euro (agujeros 37/413 como
     GuiGui); caja de melamina 18 con 3 en 1, fondo 5 en ranura
@@ -1294,8 +1294,8 @@ def zocalos():
 def armar():
     bajo_esquinero()
     bajo_normal("B2 Bajo pileta 600", 800.0, 600.0, "pileta")
-    bajo_normal("B3 Cajonera 320", 1400.0, 320.0, "cajonera")
-    bajo_normal("B4 Bajo puerta 452", 1720.0, X_FIN - T - 1720.0, "puerta")        # donde iba el lavavajillas
+    bajo_normal("B3 Cajonera 450", 1400.0, 450.0, "cajonera")                      # 18/10: de 320 a 450
+    bajo_normal("B4 Bajo tacho 322", 1850.0, X_FIN - T - 1850.0, "puerta")         # donde iba el lavavajillas; tacho extraible
     panel_terminal("P1 Panel terminal", (X_FIN - T, X_FIN, 0.0, F_BAJO + T, 0.0, Z_BAJO + H_BAJO), "+X", "+Y")
     panel_terminal("P2 Panel cocina", (0.0, F_BAJO + T, Y_FIN - T, Y_FIN, 0.0, Z_BAJO + H_BAJO), "+Y", "-X")
     alacena_esquinero()

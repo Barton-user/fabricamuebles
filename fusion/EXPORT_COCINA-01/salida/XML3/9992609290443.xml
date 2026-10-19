@@ -1,11 +1,11 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>317.00</PanelLength>
+        <PanelLength>447.00</PanelLength>
         <PanelWidth>187.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_B3 Cajonera 320_Frente cajon 4</PanelName>
+        <PanelName>COCINA-01_B3 Cajonera 450_Frente cajon 4</PanelName>
         <Params>
-            <Param Key="L" Value="317.00" Comment="板长"/>
+            <Param Key="L" Value="447.00" Comment="板长"/>
             <Param Key="W" Value="187.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
@@ -13,7 +13,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>222.50</X1>
+        <X1>287.50</X1>
         <Y1>93.50</Y1>
         <Depth>18.00</Depth>
         <Diameter>5.00</Diameter>
@@ -25,7 +25,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>94.50</X1>
+        <X1>159.50</X1>
         <Y1>93.50</Y1>
         <Depth>18.00</Depth>
         <Diameter>5.00</Diameter>

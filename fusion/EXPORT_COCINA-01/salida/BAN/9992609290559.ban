@@ -1,9 +1,9 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:32:27" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="426.00" Height="746.00" PlaneSize="1" Grain="2" Thickness="5" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_B4 Bajo puerta 452_Fondo" Code="9992609290559">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:40:00" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="296.00" Height="746.00" PlaneSize="1" Grain="2" Thickness="5" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_B4 Bajo tacho 322_Fondo" Code="9992609290559">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="426.00 0.00 0"/>
-        <Point Value="426.00 746.00 0"/>
+        <Point Value="296.00 0.00 0"/>
+        <Point Value="296.00 746.00 0"/>
         <Point Value="0.00 746.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>

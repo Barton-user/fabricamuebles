@@ -1,15 +1,15 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:32:27" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="416.00" Height="100.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_B4 Bajo puerta 452_Travesano trasero" Code="9992609290542">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:40:00" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="286.00" Height="100.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="0,0,0,0" Name="COCINA-01_B4 Bajo tacho 322_Travesano trasero" Code="9992609290542">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="416.00 0.00 0"/>
-        <Point Value="416.00 100.00 0"/>
+        <Point Value="286.00 0.00 0"/>
+        <Point Value="286.00 100.00 0"/>
         <Point Value="0.00 100.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="383.00 50.00 0" End="383.00 50.00 -13.50"/>
+    <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="253.00 50.00 0" End="253.00 50.00 -13.50"/>
     <HoleV Name="" Diameter="15.00" IsCuted="0" Face="A" Start="33.00 50.00 0" End="33.00 50.00 -13.50"/>
-    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="416.00 50.00 -9.00" End="383.00 50.00 -9.00"/>
+    <HoleH Name="" Diameter="8.00" IsCuted="0" Face="R" Start="286.00 50.00 -9.00" End="253.00 50.00 -9.00"/>
     <HoleH Name="" Diameter="8.00" IsCuted="0" Face="L" Start="0.00 50.00 -9.00" End="33.00 50.00 -9.00"/>
 </Plane>
 </MicroDrawBan_XML>

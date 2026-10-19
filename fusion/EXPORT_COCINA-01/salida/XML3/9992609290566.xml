@@ -1,11 +1,11 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>449.00</PanelLength>
+        <PanelLength>319.00</PanelLength>
         <PanelWidth>757.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_B4 Bajo puerta 452_Puerta</PanelName>
+        <PanelName>COCINA-01_B4 Bajo tacho 322_Puerta</PanelName>
         <Params>
-            <Param Key="L" Value="449.00" Comment="板长"/>
+            <Param Key="L" Value="319.00" Comment="板长"/>
             <Param Key="W" Value="757.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
@@ -37,7 +37,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>420.50</X1>
+        <X1>290.50</X1>
         <Y1>681.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -49,7 +49,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>420.50</X1>
+        <X1>290.50</X1>
         <Y1>633.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -61,7 +61,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>426.50</X1>
+        <X1>296.50</X1>
         <Y1>657.00</Y1>
         <Depth>13.00</Depth>
         <Diameter>35.00</Diameter>
@@ -73,7 +73,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>420.50</X1>
+        <X1>290.50</X1>
         <Y1>124.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -85,7 +85,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>420.50</X1>
+        <X1>290.50</X1>
         <Y1>76.00</Y1>
         <Depth>3.00</Depth>
         <Diameter>5.00</Diameter>
@@ -97,7 +97,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>426.50</X1>
+        <X1>296.50</X1>
         <Y1>100.00</Y1>
         <Depth>13.00</Depth>
         <Diameter>35.00</Diameter>

@@ -11,7 +11,7 @@ DW="0"
 ModusMirror="1"
 
 <100 \WerkStck\
-LA="317"
+LA="447"
 BR="187"
 DI="18"
 FNX="0"
@@ -23,7 +23,7 @@ AX="0"
 AY="0"
 
 <102 \V_DRILLING\
-XA="222.5"
+XA="287.5"
 YA="93.5"
 BM="LS"
 TI="18"
@@ -48,7 +48,7 @@ MYF="1"
 MZF="1"
 
 <102 \V_DRILLING\
-XA="94.5"
+XA="159.5"
 YA="93.5"
 BM="LS"
 TI="18"
@@ -73,5 +73,5 @@ MYF="1"
 MZF="1"
 
 <101 \Kommentar\
-KM="COCINA-01_B3 Cajonera 320_Frente cajon 1"
+KM="COCINA-01_B3 Cajonera 450_Frente cajon 1"
 !

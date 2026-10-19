@@ -1,11 +1,11 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>284.00</PanelLength>
+        <PanelLength>414.00</PanelLength>
         <PanelWidth>100.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
-        <PanelName>COCINA-01_B3 Cajonera 320_Travesano trasero</PanelName>
+        <PanelName>COCINA-01_B3 Cajonera 450_Travesano trasero</PanelName>
         <Params>
-            <Param Key="L" Value="284.00" Comment="板长"/>
+            <Param Key="L" Value="414.00" Comment="板长"/>
             <Param Key="W" Value="100.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
@@ -13,7 +13,7 @@
     <CAD>
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
-        <X1>251.00</X1>
+        <X1>381.00</X1>
         <Y1>50.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
@@ -37,7 +37,7 @@
     <CAD>
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
-        <X1>284.00</X1>
+        <X1>414.00</X1>
         <Y1>50.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>1</Quadrant>

@@ -1,11 +1,11 @@
 <KDTPanelFormat>
     <PANEL>
-        <PanelLength>426.00</PanelLength>
+        <PanelLength>296.00</PanelLength>
         <PanelWidth>746.00</PanelWidth>
         <PanelThickness>5.00</PanelThickness>
-        <PanelName>COCINA-01_B4 Bajo puerta 452_Fondo</PanelName>
+        <PanelName>COCINA-01_B4 Bajo tacho 322_Fondo</PanelName>
         <Params>
-            <Param Key="L" Value="426.00" Comment="板长"/>
+            <Param Key="L" Value="296.00" Comment="板长"/>
             <Param Key="W" Value="746.00" Comment="板宽"/>
             <Param Key="T" Value="5.00" Comment="板厚"/>
         </Params>
