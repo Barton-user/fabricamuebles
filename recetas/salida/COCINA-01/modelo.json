@@ -10450,9 +10450,91 @@
   },
   {
    "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Frente campana fijo",
+   "pieza": "Frente campana fijo",
+   "codigo": "9992609291044",
+   "rol": "PUERTA",
+   "W": 567.0,
+   "H": 149.5,
+   "T": 18.0,
+   "O": [
+    332.0,
+    1368.5,
+    1643.0
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "VERDE 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 1.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "A4 Campana 570",
+   "nombre": "COCINA-01_A4 Campana 570_Frente campana visor",
+   "pieza": "Frente campana visor",
+   "codigo": "9992609291051",
+   "rol": "PUERTA",
+   "W": 567.0,
+   "H": 188.5,
+   "T": 18.0,
+   "O": [
+    332.0,
+    1368.5,
+    1451.5
+   ],
+   "ex": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "ey": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "contorno": null,
+   "material": "Melamina",
+   "textura": "VERDE 18",
+   "veta": "VERTICAL",
+   "cantos": {
+    "IZQ": 1.0,
+    "DER": 1.0,
+    "ABAJO": 1.0,
+    "ARRIBA": 1.0
+   },
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [],
+   "ventanas": [],
+   "rebajes": [],
+   "escotaduras": []
+  },
+  {
+   "mueble": "A4 Campana 570",
    "nombre": "COCINA-01_A4 Campana 570_Estante 1",
    "pieza": "Estante 1",
-   "codigo": "9992609291044",
+   "codigo": "9992609291068",
    "rol": "",
    "W": 532.0,
    "H": 281.0,
@@ -10500,7 +10582,7 @@
    "mueble": "Z Zocalos",
    "nombre": "COCINA-01_Z Zocalos_Zocalo largo",
    "pieza": "Zocalo largo",
-   "codigo": "9992609291051",
+   "codigo": "9992609291075",
    "rol": "PUERTA",
    "W": 1407.0,
    "H": 99.0,
@@ -10541,7 +10623,7 @@
    "mueble": "Z Zocalos",
    "nombre": "COCINA-01_Z Zocalos_Zocalo diagonal",
    "pieza": "Zocalo diagonal",
-   "codigo": "9992609291068",
+   "codigo": "9992609291082",
    "rol": "PUERTA",
    "W": 367.696,
    "H": 99.0,
@@ -19116,6 +19198,7 @@
   "A3 Vitrina 800 / Lateral der: pin O5 en (68, 698.667) cae en la escotadura: se omite",
   "A3 Vitrina 800 / Lateral izq: pin O5 en (264, 698.667) cae en la escotadura: se omite",
   "A4 Campana 570: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.",
+  "A4 Campana 570: FRENTE DE CAMPANA en la linea de las puertas: fijo 567 x 149.5 (de 1643 a 1792.5, con escuadras al piso del mueble) + movil 567 x 188.5 (de 1451.5 a 1640) atornillado al VISOR extensible, se mueve con el. Confirmar que el visor admite el frente (peso ~1.3 kg) y su altura real (40 supuesta).",
   "A4 Campana 570: MUEBLE CAMPANA 1794-2450; Campana Serie Dorada SDC-100 colgada debajo del piso (boca a 700 sobre la mesada, asoma 15 por lado), ducto O150 por adentro hasta la salida de aire (Y=1120, Z=2120); paso de 170x170 en el piso y en el fondo A CALADORA/ROUTER (no CNC); posicion de la salida de la campana (150 de la pared) SUPUESTA: confirmar con la campana en mano. Puerta ciega.",
   "Zocalos: las puntas se ajustan en obra (encuentro a 45 entre el largo y el diagonal).",
   "B1 Esquinero bajo / Piso: contorno con chanfle a 45 — la sierra corta el rectangulo 782 x 782, el chanfle se hace a mano y el canto del lado diagonal se pega despues (no figura en la lista de corte).",

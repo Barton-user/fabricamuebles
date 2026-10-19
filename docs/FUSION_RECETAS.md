@@ -390,7 +390,7 @@ Pato pidió que COCINA-01 quede como un render de referencia (verde, vitrinas co
 tiradores de cobre, cornisa). Decisiones: distribución + estilo, mismas paredes (2190 / 1368),
 **sin lavavajillas**, vitrinas de marco de melamina + vidrio, tiradores perforados (barral 128,
 perilla). Todo en `recetas/cocina01.py`; `ArmarReceta` armó el documento `COCINA-01` vaciado
-(por MCP, `armar(nuevo=False)`), 106 placas, **106/106 receta = sólido**.
+(por MCP, `armar(nuevo=False)`), 108 placas, **108/108 receta = sólido**.
 
 Qué cambió:
 
@@ -476,7 +476,10 @@ Dos cosas que se encontraron:
   dibujado hasta la **salida de aire existente** (Ø150, Y 1120, Z 2120, pared corta), con ventanas de
   170×170 en piso y fondo (`Placa.ventana`, a caladora). Herrajes dibujados: `campana`, `ducto`,
   `salida_aire`. A4 deja de ser vitrina (quedan 2 vitrinas + esquinero, 8 piezas de madera). `alacena()`
-  tiene ahora `z_piso` para muebles cortos.
+  tiene ahora `z_piso` para muebles cortos. A Pato no le gustó que A4 quedara más corto → **campana
+  oculta**: `Frente campana fijo` (567 × 149,5, de 1643 a 1792,5, con escuadras al piso) + `Frente campana
+  visor` (567 × 188,5, de 1451,5 a 1640) atornillado al visor extensible; el frente de A4 queda de 1450 a
+  2450 como las vitrinas. Alto del visor (40) supuesto.
 - **Viga** (18/10, medida por Pato): en la pared larga, de 2160 al techo, 120 de saliente (`VIGA`,
   `VIGA_Y = 125`, `VIGA_Z = 2155`, 5 de luz). `Placa.escotadura(esquina, ancho, alto)` recorta una
   esquina y rehace el contorno (6 vértices, NO convexo): `Placa.dentro()` pasó a ray casting +

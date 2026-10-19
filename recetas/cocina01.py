@@ -34,6 +34,8 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
     colgada debajo (boca a 1600 = 700 sobre la mesada, gas) y ducto O150 a la
     salida de aire de la pared (Y 1120, Z 2120). Asoma 15 por lado (campana 600,
     mueble 570): decision de Pato 18/10 (el grupo filtrante de 52 era carisimo).
+    FRENTE DE CAMPANA de 1450 a 1794 en la linea de las puertas (fijo + movil
+    sobre el visor) para que el frente quede parejo con las vitrinas.
   * VITRINAS (A3 2 puertas, esquinero): MARCO DE 4 PIEZAS
     DE MADERA MACIZA de 18 (montantes 60, travesanos 70) unido con Minifix +
     tarugo O8, vidrio de 4 en ranura 12 x 5 por atras, cruz de listones 25 x 8
@@ -137,6 +139,7 @@ ESCURRIDOR = {"nombre": "Escurreplatos Bronzen LC-560", "prof": 270.0, "rejilla"
 # (cocina a gas). Salida de aire existente en la pared corta: O150, centro a 2120 del piso y 1120 de
 # la pared larga. El ducto sube por adentro de A4 y entra a la pared con un codo.
 CAMPANA = {"nombre": "Campana Serie Dorada SDC-100", "ancho": 600.0, "alto": 194.0, "prof": 284.0,
+           "visor_alto": 40.0,                                      # alto del visor extensible: SUPUESTO
            "sobre_mesada": 700.0, "salida_desde_pared": 150.0,      # posicion del O150 de la campana: SUPUESTA
            "ducto_d": 150.0, "ventana": 170.0}                      # paso del ducto en piso/estante/fondo
 SALIDA_AIRE = {"y": 1120.0, "z": 2120.0, "d": 150.0}
@@ -1169,6 +1172,21 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=1, escur
                     (0, 1, 0), "salida_aire", d=SALIDA_AIRE["d"])
             fcen = fo.local((d, SALIDA_AIRE["y"], SALIDA_AIRE["z"]))
             fo.ventana(fcen[0] - v / 2, fcen[1] - v / 2, fcen[0] + v / 2, fcen[1] + v / 2)
+        # frente de campana en la linea de las puertas, hasta la linea de las otras alacenas (Z_ALTO0):
+        # uno FIJO que tapa el cuerpo (atornillado a los laterales desde adentro... no: los laterales
+        # terminan en el piso; va atornillado al piso del mueble por arriba con escuadras) y uno MOVIL
+        # atornillado al visor extensible, que se mueve con el.
+        z_visor = Z_CAMPANA + C["visor_alto"]
+        ff = pc("Frente campana fijo", ua, ub, D, D + T, z_visor + JUNTA, z0 - LUZ, mV, U, VERDE, rol="PUERTA",
+                cantos=cant)
+        fm = pc("Frente campana visor", ua, ub, D, D + T, Z_ALTO0 + LUZ, z_visor, mV, U, VERDE, rol="PUERTA",
+                cantos=cant)
+        P += [ff, fm]
+        AVISOS.append("%s: FRENTE DE CAMPANA en la linea de las puertas: fijo %g x %g (de %g a %g, con escuadras "
+                      "al piso del mueble) + movil %g x %g (de %g a %g) atornillado al VISOR extensible, se mueve "
+                      "con el. Confirmar que el visor admite el frente (peso ~%.1f kg) y su altura real (%g supuesta)."
+                      % (nombre, ff.W, ff.H, z_visor + JUNTA, z0 - LUZ, fm.W, fm.H, Z_ALTO0 + LUZ, z_visor,
+                         fm.W * fm.H * 18 * 0.65e-6, C["visor_alto"]))
         AVISOS.append("%s: MUEBLE CAMPANA %g-%g; %s colgada debajo del piso (boca a %g sobre la mesada, asoma %g "
                       "por lado), ducto O150 por adentro hasta la salida de aire (Y=%g, Z=%g); paso de %gx%g en el "
                       "piso y en el fondo A CALADORA/ROUTER (no CNC); posicion de la salida de la campana (%g de la "

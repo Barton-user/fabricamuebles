@@ -1626,11 +1626,15 @@ Exportar Piezas — COCINA-01
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
-=== Estante 1 9992609291044 / 9992609291044 ===
+=== Frente campana fijo 9992609291044 / 9992609291044 ===
 
-=== Zocalo largo 9992609291051 / 9992609291051 ===
+=== Frente campana visor 9992609291051 / 9992609291051 ===
 
-=== Zocalo diagonal 9992609291068 / 9992609291068 ===
+=== Estante 1 9992609291068 / 9992609291068 ===
+
+=== Zocalo largo 9992609291075 / 9992609291075 ===
+
+=== Zocalo diagonal 9992609291082 / 9992609291082 ===
 lanzador escrito: /Users/patriciokeogan/Documents/Claude/Projects/FABRICA MUEBLES/fusion/EXPORT_COCINA-01/GENERAR ARCHIVOS.command  (generador en /Users/patriciokeogan/Documents/Claude/Projects/FABRICA MUEBLES/etapa2)
 SALTADA: Excentrica O15 — marcada TIPO distinto de PLACA
 SALTADA: Perno O8 x 33 — marcada TIPO distinto de PLACA

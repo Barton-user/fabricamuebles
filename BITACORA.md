@@ -1900,3 +1900,6 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   puerta ciega (ya no vitrina). Salida de aire existente Ø150 a Z 2120 / Y 1120 (dato de Pato); ducto
   dibujado con codo; pasos a caladora en piso, fondo y estante. 106 placas, 106/106, paquete regenerado,
   Fusion re-armado sin guardar.
+- Pato: "no me gusta que hayas cambiado la altura" → explicado (boca de campana a 700 sobre hornallas
+  a gas) y resuelto con **campana oculta**: frente fijo + frente móvil sobre el visor, línea pareja a 1450.
+  108 placas, 108/108, paquete regenerado, Fusion re-armado sin guardar.

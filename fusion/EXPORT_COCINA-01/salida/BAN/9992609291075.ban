@@ -1,0 +1,11 @@
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 2:25:11" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="1407.00" Height="99.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,0,0,0" Name="COCINA-01_Z Zocalos_Zocalo largo" Code="9992609291075">
+    <Outline>
+        <Point Value="0.00 0.00 0"/>
+        <Point Value="1407.00 0.00 0"/>
+        <Point Value="1407.00 99.00 0"/>
+        <Point Value="0.00 99.00 0"/>
+        <Point Value="0.00 0.00 0"/>
+    </Outline>
+</Plane>
+</MicroDrawBan_XML>
