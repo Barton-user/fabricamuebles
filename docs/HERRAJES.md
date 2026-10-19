@@ -238,9 +238,11 @@ puertas de esta alacena ya tienen los Ø5 viejos a 14,5; quedan esos agujeros de
 2. **Recetas**: `recetas/cocina01.py` → `TOR = {"adentro": 14.5}` pasa a **6.0** (afecta a todas
    las recetas que lo importan, p. ej. `alacena_spar.py`). Regenerar COCINA-01 y ALACENA-SPAR.
 3. **PonerHerrajes / ArmarDesdeRender** (`_forma_bisagra`, posiciones `HINGESCREW`): misma corrección.
-4. **GuiGui** (la diseñadora): parámetro de bisagra **`HINGESCREW`** → tornillos a 6 del centro
-   de la cazoleta (48/6). Mientras no se cambie, todo lo que salga de GuiGui trae 14,5 y hay que
-   corregirlo al generar (hoy se hizo a mano para la Spar).
+4. **GuiGui** (la diseñadora): parámetro de bisagra **`HINGESCREW`** → tornillos a 6 del centro de la
+   cazoleta (48/6). ✅ Posición corregida (05/10). ⚠️ **Al 19/10 (COCINA MLV)** los tornillos de puerta y los de la placa
+   base salen como **Ø3 × 0,5** (marcas, no agujeros: no hay mecha Ø3 en la perforadora), la cazoleta como
+   **Ø35 × 12** y la placa base **a 37 y 69 del frente, a lo largo** (debe ser 37 del frente, uno arriba del otro
+   ±16). Pedirle Ø5 × 3, cazoleta 13 y placa vertical. Receptor del 3 en 1 ya es Ø5 × 11; perno Ø8 × 34.
 5. **Generador `etapa2/`**: opcional, una corrección automática de `HINGESCREW` (como
    `ajustar_maquina.py --o6-a-o5`) para no depender de que GuiGui esté bien.
 6. **Placa base en el lateral** (`jlHoleEX`): ✅ **medida 16/10** con la Häfele 311.04.003: 2 × Ø5 × 3

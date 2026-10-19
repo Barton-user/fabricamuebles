@@ -1915,3 +1915,31 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   regenerado, Fusion re-armado (Pato ya lo había guardado con la versión anterior: **volver a guardar**).
 - Refuerzos traseros arriba y abajo en todos los muebles (travesaños 18×80 con Minifix; esquineros 4 c/u).
   119 placas, 119/119, paquete regenerado. Fusion re-armado: **Pato tiene que volver a guardar**.
+
+
+## 19/10/2026 — COCINA MLV: GuiGui (19/10) vs Fusion (v7) vs bisagra Häfele verificada
+
+- Se leyó GuiGui por su MCP desde el navegador integrado (página `http://127.0.0.1:8010/guigui-mcp`,
+  `fetch` mismo origen; `project_search_order` con `key_words="PRUEBA", search_key="buyer_address"`).
+  La orden tiene ahora 4 habitaciones: PRUEBA 1 (15/10), PLACARD MLV (06/10), **COCINA MLV (room nuevo
+  117131062, guardado 19/10 20:08 hora China)** y WIP (08/10). Render bajado a
+  `referencia/GUIGUI_MCP/1019/` con `resumen_guigui.txt`, `bisagras_guigui.py` y `bisagras_guigui.txt`.
+- **GuiGui COCINA MLV 19/10**: 13 muebles, 126 placas (un solo Uñero de 2482; antes dos). Cambios respecto
+  de lo que tiene Fusion: Alacena spar puertas 297 × 711,18, laterales 776, fondo 663, listones 104,84,
+  estante 390; Alacena microondas puerta 597 × 554,79 y estantes 367/377; estantes de las alacenas 367–370
+  de profundidad (Fusion 360/400); Alacena s/heladera rehecha (tapa 682, lateral izq. 388 en PET, puerta
+  697 × 410); Escobero puertas 860,9 / 1433,1 y estantes 577 × 264; Alacena simple ajuste toda en NPetfrente
+  con listón de ajuste 50 × 876,5. Iguales: Horno y anafe, Lavarropa, Cajonera, Bandejero, Bajo mesada doble.
+- **Fusion `COCINA MLV` (v7, guardado 15/10) NO está actualizado**: es el armado del 24–27/09 (códigos
+  7432755750xxx, 14 muebles con dos uñeros) y conserva la **bisagra vieja**: tornillos Ø6 × 3 a 14,5 de la
+  cazoleta (x = 37), placa base Ø6 × 3 a 20/52, receptor Ø10 × 11. Para actualizarlo: `ArmarDesdeRender`
+  con el render del 19/10 (y `PonerHerrajes` sigue con base 20/52).
+- **Herrajes en GuiGui 19/10 vs. verificación Häfele 311.04.003 (16/10)**: cazoleta Ø35 a 22,5 ✓ pero
+  **profundidad 12** (verificado 13); tornillos de puerta a **6 de la cazoleta, ±24 ✓** pero como **Ø3 × 0,5**
+  (verificado Ø5 × 3); placa base en el lateral **Ø3 × 0,5 a 37 y 69 del frente, en línea a la altura de la
+  cazoleta** (verificado: Ø5 × 3 a 37 del frente, uno arriba del otro ±16). Alturas puerta ↔ lateral cierran
+  en los 13 pares (cazoleta y base a la misma Y). No hay mecha Ø3 en la perforadora (tampoco para los Ø3 × 2
+  de las correderas: 48). 3 en 1: receptor **Ø5 × 11** (ya no Ø10), excéntrica Ø15 × 13,5, perno Ø8 × 34.
+  Ranuras de fondo de 6 × 6 / 6 × 5,5 (mínimo de máquina 10 → `ajustar_maquina.py`).
+- Decidido: pedir a la diseñadora Ø5 × 3 en tornillos y placa base, cazoleta 13 y placa base vertical
+  (37, ±16). Re-armar COCINA MLV en Fusion recién con el render corregido.
