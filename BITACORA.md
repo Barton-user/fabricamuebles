@@ -1950,3 +1950,7 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   los dibuja sólo en Ø10). El render ya no trae `texName` (materiales `NEstructura`/`NPetfrente`/`NFondo`), así
   que `apariencia_textura` no pinta nada: se pintó por `matCode` con un script suelto. Pendiente: sumar esa
   paleta por `matCode` a `ArmarDesdeRender`/`PintarMueble`, y el receptor Ø5. Documento quedó **sin guardar**.
+- **Lista de compra Häfele de COCINA MLV** → `herrajes/COMPRAS_COCINA_MLV_HAFELE.md`. La diseñadora cargó códigos Häfele en el
+  render (`extraParts`): colgadores KA.2251 290.21.901/900 (7 pares), pistón ST.2145 100 N 373.82.902 (1), push open BP.6110
+  356.01.550 + 246.03.790 (4: spar y escobero), tacho BM.0144 502.12.529, fuente LED LE.9103 12 V 60 W. Ranuras LED ahora 18 × 11
+  (perfil Loox embutido). Dudas: 6 puertas de alacena sin tirador ni push, un solo pistón, fuente 12 V con Loox5 de 24 V, escobero colgado.
