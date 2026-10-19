@@ -1903,3 +1903,5 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - Pato: "no me gusta que hayas cambiado la altura" → explicado (boca de campana a 700 sobre hornallas
   a gas) y resuelto con **campana oculta**: frente fijo + frente móvil sobre el visor, línea pareja a 1450.
   108 placas, 108/108, paquete regenerado, Fusion re-armado sin guardar.
+- Interferencia campana/frentes (la campana estaba a ras de la cara exterior de las puertas): ahora su
+  cara delantera queda en 332, detrás de los frentes. Sin cambio de placas.

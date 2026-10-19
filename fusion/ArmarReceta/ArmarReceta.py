@@ -263,7 +263,7 @@ def _forma_campana(a):
         hueco = A.caja(tbm, -w / 2 + 15, w / 2 - 15, fr - p + 15, fr - 60, -h - 1, -8.0)   # rejilla de filtros
         A.resta(tbm, cuerpo, [hueco])
         filtros = A.caja(tbm, -w / 2 + 20, w / 2 - 20, fr - p + 20, fr - 65, -h + 2, -h + 10)
-        visor = A.caja(tbm, -w / 2, w / 2, fr - 60, fr + 2, -h, -h + 40)
+        visor = A.caja(tbm, -w / 2, w / 2, fr - 60, fr, -h, -h + 40)
         return [cuerpo, filtros, visor]
     return f
 

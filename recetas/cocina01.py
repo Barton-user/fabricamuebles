@@ -1145,7 +1145,7 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=1, escur
         bisagras(pu, ld, "IZQ", "DER", "A")
         tirador_puerta(pu, "DER")
         C = CAMPANA
-        # mundo: la campana centrada en el mueble, colgada bajo el piso, visor a ras de la puerta
+        # mundo: la campana centrada en el mueble, colgada bajo el piso, detras de los frentes de campana
         uc = (u0 + u1) / 2.0
         if eje == "X":
             centro = (uc, 0.0, z0)
@@ -1153,8 +1153,9 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=1, escur
         else:
             centro = (0.0, -uc, z0)
             def mundo_uv(u, v, z): return (v, -u, z)
+        # la campana va DETRAS de los frentes de campana: su cara delantera a D (332), los frentes en D..D+T
         herraje(nombre, C["nombre"], centro, (0, 0, 1), AX[U], "campana", ancho=C["ancho"], alto=C["alto"],
-                prof=C["prof"], frente=D + T)
+                prof=C["prof"], frente=D)
         # ducto: sube desde la salida de la campana (a `salida_desde_pared` de la pared) hasta la altura
         # de la salida de aire y entra a la pared con un codo
         yd = C["salida_desde_pared"]
