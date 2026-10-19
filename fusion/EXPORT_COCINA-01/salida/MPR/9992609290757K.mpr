@@ -11,8 +11,8 @@ DW="0"
 ModusMirror="1"
 
 <100 \WerkStck\
-LA="600"
-BR="332"
+LA="564"
+BR="80"
 DI="18"
 FNX="0"
 FNY="0"
@@ -23,11 +23,11 @@ AX="0"
 AY="0"
 
 <109 \Nuten\
-XA="562"
-YA="287"
+XA="526"
+YA="35"
 WI="0"
 XE="38"
-YE="287"
+YE="35"
 NB="10"
 RK="NoWRK"
 EM="MOD1"
@@ -54,5 +54,5 @@ MYF="1"
 MZF="1"
 
 <101 \Kommentar\
-KM="COCINA-01_A2 Alacena 600 rebatible_Piso"
+KM="COCINA-01_A2 Alacena 600 rebatible_Liston frente"
 !

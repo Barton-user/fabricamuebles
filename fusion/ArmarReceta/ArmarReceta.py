@@ -207,6 +207,46 @@ def _forma_bacha(a):
     return f
 
 
+def _forma_escurreplatos(a):
+    """Dos rejillas de alambre entre laterales. Origen: centro en planta, a la altura de la cara
+    de abajo del estante fijo; Z hacia ABAJO. Rejilla = marco O8 + alambres O4 cada 40."""
+    def f(tbm):
+        A = ADR()
+        w, p, h = a["ancho"], a["prof"], a["rejilla"]
+        partes = []
+        for zt in (a["z_platos"], a["z_vasos"]):
+            zb = zt + h
+            for (x0, x1, y0, y1) in ((-w / 2, w / 2, -p / 2, -p / 2 + 8), (-w / 2, w / 2, p / 2 - 8, p / 2),
+                                     (-w / 2, -w / 2 + 8, -p / 2, p / 2), (w / 2 - 8, w / 2, -p / 2, p / 2)):
+                partes.append(A.caja(tbm, x0, x1, y0, y1, zt, zb))
+            n = int(w // 40)
+            for i in range(1, n):
+                x = -w / 2 + i * w / n
+                partes.append(A.caja(tbm, x - 2, x + 2, -p / 2, p / 2, zb - 4, zb))
+            # alambres verticales (apoyo de los platos) cada 40, 60 de alto
+            if zt == a["z_platos"]:
+                for i in range(1, n):
+                    x = -w / 2 + i * w / n
+                    partes.append(A.caja(tbm, x - 2, x + 2, -p / 2 + 60, -p / 2 + 64, zt - 60, zt))
+                    partes.append(A.caja(tbm, x - 2, x + 2, p / 2 - 64, p / 2 - 60, zt - 60, zt))
+        return partes
+    return f
+
+
+def _forma_cubiertero(a):
+    """Canasto de cubiertos colgado de la rejilla de abajo: caja de malla (paredes de 2)."""
+    def f(tbm):
+        A = ADR()
+        w, p, h, z0 = a["ancho"], a["prof"], a["alto"], a["z0"]
+        caja = A.caja(tbm, -w / 2, w / 2, -p / 2, p / 2, z0, z0 + h)
+        hueco = A.caja(tbm, -w / 2 + 2, w / 2 - 2, -p / 2 + 2, p / 2 - 2, z0 - 1, z0 + h - 2)
+        A.resta(tbm, caja, [hueco])
+        ganchos = [A.caja(tbm, -w / 2 + 10, -w / 2 + 14, -p / 2, p / 2, z0 - 8, z0 + 2),
+                   A.caja(tbm, w / 2 - 14, w / 2 - 10, -p / 2, p / 2, z0 - 8, z0 + 2)]
+        return [caja] + ganchos
+    return f
+
+
 def _forma_parrilla(a):
     """Cruz de listones pegada al frente del vidrio: origen en la esquina del hueco,
     Z hacia el frente; cols-1 listones verticales y filas-1 horizontales."""
@@ -257,6 +297,10 @@ def forma(h):
         return _forma_parrilla(a)
     if f == "bacha":
         return _forma_bacha(a)
+    if f == "escurreplatos":
+        return _forma_escurreplatos(a)
+    if f == "cubiertero":
+        return _forma_cubiertero(a)
     raise ValueError("forma desconocida: %s" % f)
 
 

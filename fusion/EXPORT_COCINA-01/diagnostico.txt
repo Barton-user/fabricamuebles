@@ -1039,17 +1039,16 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
-=== Piso 9992609290757 / 9992609290757 ===
-  agujero vertical  O5.0 prof 12.0  cara A  en (591.0, 54.0)
-  agujero vertical  O5.0 prof 12.0  cara A  en (591.0, 278.0)
-  agujero vertical  O5.0 prof 12.0  cara A  en (9.0, 278.0)
-  agujero vertical  O5.0 prof 12.0  cara A  en (9.0, 54.0)
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  ranura 10.0 x 10.0  cara B  de (38.0, 287.0) a (562.0, 287.0)
-  ranura 6.0 x 6.0  cara A  de (12.9, 27.5) a (587.2, 27.5)
+=== Liston frente 9992609290757 / 9992609290757 ===
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 65.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 65.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 65.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 65.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  ranura 10.0 x 10.0  cara B  de (38.0, 35.0) a (526.0, 35.0)
 
 === Techo 9992609290764 / 9992609290764 ===
   agujero vertical  O5.0 prof 3.0  cara A  en (295.0, 514.5)
@@ -1071,96 +1070,48 @@ Exportar Piezas — COCINA-01
   ranura 6.0 x 6.0  cara A  de (27.5, 12.9) a (27.5, 587.2)
 
 === Lateral der 9992609290771 / 9992609290771 ===
-  contorno: las dos caras difieren (302706.0 vs 333328.0 mm2); se usa la mayor
+  contorno: las dos caras difieren (308133.0 vs 339304.0 mm2); se usa la mayor
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto U  en (54.0, 1004.0) z=9.0
+  agujero de canto  O8.0 prof 33.0  canto U  en (54.0, 1022.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto U  en (278.0, 1004.0) z=9.0
-  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto D  en (278.0, 0.0) z=9.0
-  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto D  en (54.0, 0.0) z=9.0
-  agujero vertical  O5.0 prof 12.0  cara A  en (295.0, 327.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 327.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (295.0, 295.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 295.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (295.0, 263.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 263.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (295.0, 231.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 231.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (295.0, 199.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (68.0, 199.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (277.5, 543.0)
-  agujero vertical  O5.0 prof 12.0  cara A  en (85.5, 543.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 971.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 971.0)
-  agujero vertical  O5.0 prof 12.0  cara A  en (9.0, 964.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 33.0)
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
+  agujero de canto  O8.0 prof 33.0  canto U  en (278.0, 1022.0) z=9.0
+  agujero vertical  O5.0 prof 12.0  cara A  en (277.5, 634.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (85.5, 634.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 989.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 989.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (9.0, 982.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (9.0, 40.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (317.0, 9.0)
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
-  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
-  ranura 6.0 x 6.0  cara A  de (27.5, 0.0) a (27.5, 1004.0)
+  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
+  ranura 6.0 x 6.0  cara A  de (27.5, 0.0) a (27.5, 1022.0)
 
 === Lateral izq 9992609290788 / 9992609290788 ===
-  contorno: las dos caras difieren (302706.0 vs 333328.0 mm2); se usa la mayor
+  contorno: las dos caras difieren (308133.0 vs 339304.0 mm2); se usa la mayor
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto U  en (54.0, 1004.0) z=9.0
+  agujero de canto  O8.0 prof 33.0  canto U  en (54.0, 1022.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto U  en (278.0, 1004.0) z=9.0
-  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto D  en (278.0, 0.0) z=9.0
-  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
-  agujero de canto  O8.0 prof 33.0  canto D  en (54.0, 0.0) z=9.0
-  agujero vertical  O5.0 prof 12.0  cara A  en (37.0, 327.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 327.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (37.0, 295.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 295.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (37.0, 263.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 263.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (37.0, 231.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 231.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (37.0, 199.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (264.0, 199.5)
-  agujero vertical  O5.0 prof 12.0  cara A  en (246.5, 543.0)
-  agujero vertical  O5.0 prof 12.0  cara A  en (54.5, 543.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 971.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 971.0)
-  agujero vertical  O5.0 prof 12.0  cara A  en (323.0, 964.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 33.0)
-  agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 33.0)
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
+  agujero de canto  O8.0 prof 33.0  canto U  en (278.0, 1022.0) z=9.0
+  agujero vertical  O5.0 prof 12.0  cara A  en (246.5, 634.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (54.5, 634.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (54.0, 989.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (278.0, 989.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (323.0, 982.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (323.0, 40.0)
+  agujero vertical  O5.0 prof 12.0  cara A  en (15.0, 9.0)
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
-  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
-  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
-  ranura 6.0 x 6.0  cara A  de (304.5, 0.0) a (304.5, 1004.0)
+  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
+  cara plana en z=-12.00 de 5.0 x 5.0 ignorada: no parece ranura
+  ranura 6.0 x 6.0  cara A  de (304.5, 0.0) a (304.5, 1022.0)
 
 === Fondo 9992609290795 / 9992609290795 ===
 
@@ -1174,7 +1125,17 @@ Exportar Piezas — COCINA-01
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
 
-=== Estante fijo 9992609290818 / 9992609290818 ===
+=== Travesano trasero inferior 9992609290818 / 9992609290818 ===
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto R  en (564.0, 40.0) z=9.0
+  (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
+  agujero de canto  O8.0 prof 33.0  canto L  en (0.0, 40.0) z=9.0
+  agujero vertical  O15.0 prof 13.5  cara A  en (531.0, 40.0)
+  agujero vertical  O15.0 prof 13.5  cara A  en (33.0, 40.0)
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+  cara plana en z=-13.50 de 15.0 x 15.0 ignorada: no parece ranura
+
+=== Estante fijo 9992609290825 / 9992609290825 ===
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
   agujero de canto  O8.0 prof 33.0  canto U  en (54.5, 564.0) z=9.0
   (O8.0: medido 26.7, se usa 33.0 del herraje puesto en esta pieza — el agujero desemboca en otro)
@@ -1200,9 +1161,9 @@ Exportar Piezas — COCINA-01
   cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
   cara plana en z=-4.50 de 15.0 x 15.0 ignorada: no parece ranura
 
-=== Puerta rebatible arriba 9992609290825 / 9992609290825 ===
-  agujero vertical  O5.0 prof 18.0  cara A  en (417.0, 362.5)
-  agujero vertical  O5.0 prof 18.0  cara A  en (417.0, 234.5)
+=== Puerta rebatible arriba 9992609290832 / 9992609290832 ===
+  agujero vertical  O5.0 prof 18.0  cara A  en (344.0, 362.5)
+  agujero vertical  O5.0 prof 18.0  cara A  en (344.0, 234.5)
   agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 521.0)
   agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 473.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 497.0)
@@ -1216,9 +1177,9 @@ Exportar Piezas — COCINA-01
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
 
-=== Puerta rebatible abajo 9992609290832 / 9992609290832 ===
-  agujero vertical  O5.0 prof 18.0  cara A  en (517.0, 362.5)
-  agujero vertical  O5.0 prof 18.0  cara A  en (517.0, 234.5)
+=== Puerta rebatible abajo 9992609290849 / 9992609290849 ===
+  agujero vertical  O5.0 prof 18.0  cara A  en (590.0, 362.5)
+  agujero vertical  O5.0 prof 18.0  cara A  en (590.0, 234.5)
   agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 521.0)
   agujero vertical  O5.0 prof 3.0  cara A  en (28.5, 473.0)
   agujero vertical  O35.0 prof 13.0  cara A  en (22.5, 497.0)
@@ -1231,8 +1192,6 @@ Exportar Piezas — COCINA-01
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-3.00 de 5.0 x 5.0 ignorada: no parece ranura
   cara plana en z=-13.00 de 35.0 x 35.0 ignorada: no parece ranura
-
-=== Estante 1 9992609290849 / 9992609290849 ===
 
 === Piso 9992609290856 / 9992609290856 ===
   agujero vertical  O5.0 prof 12.0  cara A  en (791.0, 54.0)
@@ -1861,7 +1820,9 @@ SALTADA: Vidrio 535x919 — marcada TIPO distinto de PLACA
 SALTADA: Parrilla 513x897 2x3 — marcada TIPO distinto de PLACA
 SALTADA: Perilla — marcada TIPO distinto de PLACA
 SALTADA: Tira LED 516 — marcada TIPO distinto de PLACA
-SALTADA: Tira LED 524 — marcada TIPO distinto de PLACA
+SALTADA: Tira LED 488 — marcada TIPO distinto de PLACA
+SALTADA: Escurreplatos Bronzen LC-560 — marcada TIPO distinto de PLACA
+SALTADA: Cubiertero colgante Toly Poken 3 comp. — marcada TIPO distinto de PLACA
 SALTADA: Tira LED 724 — marcada TIPO distinto de PLACA
 SALTADA: Vidrio 299x919 — marcada TIPO distinto de PLACA
 SALTADA: Parrilla 277x897 2x3 — marcada TIPO distinto de PLACA

@@ -1879,3 +1879,8 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   530×440 en la mesada de referencia, a confirmar con la plantilla. Cosa aparte: el disco lleno era
   Cowork (`vm_bundles` 8,2 GB + `local-agent-mode-sessions` 2,3 GB en Application Support/Claude),
   no Fusion. Fusion re-armado, sin guardar.
+- Escurreplatos: Pato quiere que lo que gotea caiga a la bacha → A2 sin piso (listón frente con LED +
+  travesaño trasero inferior), junta al 38 % para que entre todo, escurreplatos Bronzen LC-560 (564×270,
+  $58k) + cubiertero Toly Poken 3 compartimentos ($15,6k) dibujados como herrajes con alturas supuestas.
+  Búsqueda hecha en ML con el Chrome de Pato (ML bloquea el fetch). 114/114, paquete regenerado,
+  Fusion re-armado sin guardar.

@@ -30,7 +30,7 @@ no cargarlas en AutoCUT** (eso es sólo para la placa). **114 placas.**
 B1 esquinero bajo diagonal · B2 bajo pileta 600 (frente fijo + 2 puertas) · B3 cajonera 320
 (4 cajones) · **B4 bajo puerta 452** (una puerta) · P1/P2 paneles terminales · A1 esquinero
 alacena diagonal **vitrina** (1 puerta de 633) · **A2 alacena 600 rebatible** (dos hojas rebatibles hacia
-arriba: la de arriba colgada del techo, la de abajo del estante fijo) · **A3 vitrina 800** (2 puertas de
+arriba, 38/62; **sin piso**, abierta sobre la bacha, con escurreplatos; listón frente con el LED y travesaño trasero inferior) · **A3 vitrina 800** (2 puertas de
 397) · **A4 vitrina 570** (pared corta, **1 puerta de 567**) · zócalos. Vitrinas = marcos de madera maciza. Alacenas sin cenefa ni cornisa; travesaño trasero para colgar.
 Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 
@@ -45,6 +45,8 @@ Cuerpos BLANCO 18, frentes/paneles/zócalos VERDE 18, fondos 5 en ranura 6×6.
 | Pata regulable 100 | 17 |
 | Tirador barral cobre 128 e.c. | 10 |
 | Perilla cobre | 4 |
+| **Escurreplatos Bronzen LC-560** (564×270, 2 rejillas, inox, MLAU156309472) | 1 — se atornilla a los laterales de A2 (Ø3 a mano); alturas supuestas 280/130 bajo el estante fijo |
+| **Cubiertero colgante 3 compartimentos Toly Poken** (MLA2121276022) | 1 — colgado de la rejilla de abajo; medidas supuestas 240×120×140 |
 | **Bacha Tawak Delta Simple 55** (55×46×22, acero 304, sobre mesada, MLA80311064) | 1 — calado de mesada supuesto 530×440, confirmar con la plantilla |
 | Vidrio 4 mm | 535×919 · 2 × 299×919 · 469×919 |
 | Tarugo Ø8 × 30 | 16 |

@@ -451,6 +451,17 @@ Dos cosas que se encontraron:
    de biblioteca igual). En una corrida aparte anda: `ArmarReceta.repintar()`. No se entendió
    por qué.
 
+- **Escurreplatos en A2** (18/10, `alacena(..., escurridor=True)`): a pedido de Pato, el compartimiento
+  de abajo de A2 es un escurreplatos "a la italiana": **sin piso**, abierto sobre la bacha, para que lo
+  que gotea caiga a la pileta. Los laterales llegan hasta abajo (canto abajo); entre ellos un **listón
+  frente 18 × 80** (3 en 1 a los laterales con el conector a 65 del fondo para no cruzar la ranura del
+  LED, que sigue a 45 del frente) y un **travesaño trasero inferior 18 × 80** contra la pared, al que
+  se atornilla el fondo. Junta al **38 %** (hoja de arriba 597 × 394, de abajo 597 × 640) para que
+  entren platos, vasos y cubiertero. Herrajes dibujados: `Escurreplatos Bronzen LC-560` (564 × 270,
+  2 rejillas; ML MLAU156309472, $58k) y `Cubiertero colgante Toly Poken 3 comp.` (MLA2121276022,
+  $15,6k). **Alturas supuestas** (platos a 280 bajo el estante fijo, vasos +130, cubiertero 140): el
+  cubiertero termina 55 arriba de la boca; confirmar con el herraje. Se atornillan a mano (Ø3).
+  Se descartó el Häfele 544.17.014 (trae bandeja, $183k) y el cubiertero Häfele 522.66.270 (un vaso Ø11).
 - **Bacha** (18/10): Tawak Delta Simple 55 (55 × 46 × 22, acero 304, sobre mesada; ML MLA80311064),
   como herraje `bacha` del B2, centrada en X = 1100, Y = 300, apoyada en Z = 900. La mesada de
   referencia sale con el **calado** (supuesto 530 × 440, 10 de pestaña por lado: confirmar con la

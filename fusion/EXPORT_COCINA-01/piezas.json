@@ -5083,9 +5083,9 @@
     },
     {
       "codigo": "9992609290757",
-      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Piso",
-      "ancho": 600.0,
-      "alto": 332.0,
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Liston frente",
+      "ancho": 564.0,
+      "alto": 80.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A2 Alacena 600 rebatible",
@@ -5098,53 +5098,47 @@
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 591.0,
-          "y": 54.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
+          "x": 531.0,
+          "y": 65.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
           "cara": "A"
         },
         {
-          "x": 591.0,
-          "y": 278.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 9.0,
-          "y": 278.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 9.0,
-          "y": 54.0,
-          "diametro": 5.0,
-          "profundidad": 12.0,
+          "x": 33.0,
+          "y": 65.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
           "cara": "A"
         }
       ],
-      "agujeros_canto": [],
+      "agujeros_canto": [
+        {
+          "x": 564.0,
+          "y": 65.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 0.0,
+          "y": 65.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        }
+      ],
       "ranuras": [
         {
           "x1": 38.0,
-          "y1": 287.0,
-          "x2": 562.0,
-          "y2": 287.0,
+          "y1": 35.0,
+          "x2": 526.0,
+          "y2": 35.0,
           "ancho": 10.0,
           "profundidad": 10.0,
           "cara": "B"
-        },
-        {
-          "x1": 12.85,
-          "y1": 27.5,
-          "x2": 587.15,
-          "y2": 27.5,
-          "ancho": 6.0,
-          "profundidad": 6.0,
-          "cara": "A"
         }
       ],
       "ranuras_canto": [],
@@ -5242,142 +5236,72 @@
       "codigo": "9992609290771",
       "nombre": "COCINA-01_A2 Alacena 600 rebatible_Lateral der",
       "ancho": 332.0,
-      "alto": 1004.0,
+      "alto": 1022.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A2 Alacena 600 rebatible",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
-      "canto_abajo": 0.0,
+      "canto_abajo": 1.0,
       "canto_arriba": 0.0,
       "canto_izq": 0.0,
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 295.0,
-          "y": 327.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 327.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 295.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 295.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 263.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 263.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 231.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 231.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 295.0,
-          "y": 199.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 68.0,
-          "y": 199.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
           "x": 277.5,
-          "y": 543.0,
+          "y": 634.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 85.5,
-          "y": 543.0,
+          "y": 634.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 971.0,
+          "y": 989.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 971.0,
+          "y": 989.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 9.0,
-          "y": 964.0,
+          "y": 982.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 278.0,
-          "y": 33.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
+          "x": 9.0,
+          "y": 40.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 54.0,
-          "y": 33.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
+          "x": 317.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
       "agujeros_canto": [
         {
           "x": 54.0,
-          "y": 1004.0,
+          "y": 1022.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -5385,27 +5309,11 @@
         },
         {
           "x": 278.0,
-          "y": 1004.0,
+          "y": 1022.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
           "canto": "U"
-        },
-        {
-          "x": 278.0,
-          "y": 0.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "D"
-        },
-        {
-          "x": 54.0,
-          "y": 0.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "D"
         }
       ],
       "ranuras": [
@@ -5413,7 +5321,7 @@
           "x1": 27.5,
           "y1": 0.0,
           "x2": 27.5,
-          "y2": 1004.0,
+          "y2": 1022.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -5426,142 +5334,72 @@
       "codigo": "9992609290788",
       "nombre": "COCINA-01_A2 Alacena 600 rebatible_Lateral izq",
       "ancho": 332.0,
-      "alto": 1004.0,
+      "alto": 1022.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A2 Alacena 600 rebatible",
       "textura": "BLANCO 18",
       "veta": "VERTICAL",
       "cantidad": 1,
-      "canto_abajo": 0.0,
+      "canto_abajo": 1.0,
       "canto_arriba": 0.0,
       "canto_izq": 1.0,
       "canto_der": 0.0,
       "agujeros": [
         {
-          "x": 37.0,
-          "y": 327.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 327.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 295.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 295.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 263.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 263.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 231.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 231.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 37.0,
-          "y": 199.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
-          "x": 264.0,
-          "y": 199.5,
-          "diametro": 5.0,
-          "profundidad": 12.0,
-          "cara": "A"
-        },
-        {
           "x": 246.5,
-          "y": 543.0,
+          "y": 634.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.5,
-          "y": 543.0,
+          "y": 634.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
           "x": 54.0,
-          "y": 971.0,
+          "y": 989.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 278.0,
-          "y": 971.0,
+          "y": 989.0,
           "diametro": 15.0,
           "profundidad": 13.5,
           "cara": "A"
         },
         {
           "x": 323.0,
-          "y": 964.0,
+          "y": 982.0,
           "diametro": 5.0,
           "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 278.0,
-          "y": 33.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
+          "x": 323.0,
+          "y": 40.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         },
         {
-          "x": 54.0,
-          "y": 33.0,
-          "diametro": 15.0,
-          "profundidad": 13.5,
+          "x": 15.0,
+          "y": 9.0,
+          "diametro": 5.0,
+          "profundidad": 12.0,
           "cara": "A"
         }
       ],
       "agujeros_canto": [
         {
           "x": 54.0,
-          "y": 1004.0,
+          "y": 1022.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
@@ -5569,27 +5407,11 @@
         },
         {
           "x": 278.0,
-          "y": 1004.0,
+          "y": 1022.0,
           "z": 9.0,
           "diametro": 8.0,
           "profundidad": 33.0,
           "canto": "U"
-        },
-        {
-          "x": 278.0,
-          "y": 0.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "D"
-        },
-        {
-          "x": 54.0,
-          "y": 0.0,
-          "z": 9.0,
-          "diametro": 8.0,
-          "profundidad": 33.0,
-          "canto": "D"
         }
       ],
       "ranuras": [
@@ -5597,7 +5419,7 @@
           "x1": 304.5,
           "y1": 0.0,
           "x2": 304.5,
-          "y2": 1004.0,
+          "y2": 1022.0,
           "ancho": 6.0,
           "profundidad": 6.0,
           "cara": "A"
@@ -5682,6 +5504,59 @@
     },
     {
       "codigo": "9992609290818",
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Travesano trasero inferior",
+      "ancho": 564.0,
+      "alto": 80.0,
+      "espesor": 18.0,
+      "material": "Melamina",
+      "mueble": "A2 Alacena 600 rebatible",
+      "textura": "BLANCO 18",
+      "veta": "VERTICAL",
+      "cantidad": 1,
+      "canto_abajo": 1.0,
+      "canto_arriba": 0.0,
+      "canto_izq": 0.0,
+      "canto_der": 0.0,
+      "agujeros": [
+        {
+          "x": 531.0,
+          "y": 40.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        },
+        {
+          "x": 33.0,
+          "y": 40.0,
+          "diametro": 15.0,
+          "profundidad": 13.5,
+          "cara": "A"
+        }
+      ],
+      "agujeros_canto": [
+        {
+          "x": 564.0,
+          "y": 40.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "R"
+        },
+        {
+          "x": 0.0,
+          "y": 40.0,
+          "z": 9.0,
+          "diametro": 8.0,
+          "profundidad": 33.0,
+          "canto": "L"
+        }
+      ],
+      "ranuras": [],
+      "ranuras_canto": [],
+      "contorno": []
+    },
+    {
+      "codigo": "9992609290825",
       "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante fijo",
       "ancho": 301.0,
       "alto": 564.0,
@@ -5792,87 +5667,9 @@
       "contorno": []
     },
     {
-      "codigo": "9992609290825",
-      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible arriba",
-      "ancho": 467.0,
-      "alto": 597.0,
-      "espesor": 18.0,
-      "material": "Melamina",
-      "mueble": "A2 Alacena 600 rebatible",
-      "textura": "VERDE 18",
-      "veta": "VERTICAL",
-      "cantidad": 1,
-      "canto_abajo": 1.0,
-      "canto_arriba": 1.0,
-      "canto_izq": 1.0,
-      "canto_der": 1.0,
-      "agujeros": [
-        {
-          "x": 417.0,
-          "y": 362.5,
-          "diametro": 5.0,
-          "profundidad": 18.0,
-          "cara": "A"
-        },
-        {
-          "x": 417.0,
-          "y": 234.5,
-          "diametro": 5.0,
-          "profundidad": 18.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 521.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 473.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 22.5,
-          "y": 497.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 124.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 28.5,
-          "y": 76.0,
-          "diametro": 5.0,
-          "profundidad": 3.0,
-          "cara": "A"
-        },
-        {
-          "x": 22.5,
-          "y": 100.0,
-          "diametro": 35.0,
-          "profundidad": 13.0,
-          "cara": "A"
-        }
-      ],
-      "agujeros_canto": [],
-      "ranuras": [],
-      "ranuras_canto": [],
-      "contorno": []
-    },
-    {
       "codigo": "9992609290832",
-      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible abajo",
-      "ancho": 567.0,
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible arriba",
+      "ancho": 394.0,
       "alto": 597.0,
       "espesor": 18.0,
       "material": "Melamina",
@@ -5886,14 +5683,14 @@
       "canto_der": 1.0,
       "agujeros": [
         {
-          "x": 517.0,
+          "x": 344.0,
           "y": 362.5,
           "diametro": 5.0,
           "profundidad": 18.0,
           "cara": "A"
         },
         {
-          "x": 517.0,
+          "x": 344.0,
           "y": 234.5,
           "diametro": 5.0,
           "profundidad": 18.0,
@@ -5949,20 +5746,77 @@
     },
     {
       "codigo": "9992609290849",
-      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Estante 1",
-      "ancho": 562.0,
-      "alto": 281.0,
+      "nombre": "COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible abajo",
+      "ancho": 640.0,
+      "alto": 597.0,
       "espesor": 18.0,
       "material": "Melamina",
       "mueble": "A2 Alacena 600 rebatible",
-      "textura": "BLANCO 18",
+      "textura": "VERDE 18",
       "veta": "VERTICAL",
       "cantidad": 1,
-      "canto_abajo": 0.0,
+      "canto_abajo": 1.0,
       "canto_arriba": 1.0,
-      "canto_izq": 0.0,
-      "canto_der": 0.0,
-      "agujeros": [],
+      "canto_izq": 1.0,
+      "canto_der": 1.0,
+      "agujeros": [
+        {
+          "x": 590.0,
+          "y": 362.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 590.0,
+          "y": 234.5,
+          "diametro": 5.0,
+          "profundidad": 18.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 521.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 473.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 497.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 124.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 28.5,
+          "y": 76.0,
+          "diametro": 5.0,
+          "profundidad": 3.0,
+          "cara": "A"
+        },
+        {
+          "x": 22.5,
+          "y": 100.0,
+          "diametro": 35.0,
+          "profundidad": 13.0,
+          "cara": "A"
+        }
+      ],
       "agujeros_canto": [],
       "ranuras": [],
       "ranuras_canto": [],

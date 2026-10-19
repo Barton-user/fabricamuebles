@@ -36,7 +36,9 @@ cocina quede como el render de referencia (verde, vitrinas, tiradores de cobre):
     pegada al vidrio. Todo lo perfora la SKH-612 (la ranura con la T11); la
     madera va en lista de corte aparte de la melamina (no es para AutoCUT).
   * A2 (sobre la pileta): DOS hojas rebatibles hacia arriba, con pistones: la
-    de arriba (1/3) colgada del techo, la de abajo del estante fijo (18/10)
+    de arriba (38 %) colgada del techo, la de abajo del estante fijo. SIN PISO:
+    abajo va el ESCURREPLATOS Bronzen LC-560 + cubiertero Hafele colgados de
+    los laterales, y lo que gotea cae a la bacha (18/10)
   * tiradores: barral de cobre 128 entre centros en los bajos (vertical en
     puertas, horizontal en cajones y en la rebatible) y perilla en alacenas.
     Agujeros O5 PASANTES.
@@ -118,6 +120,15 @@ BACHA = {"nombre": "Bacha Tawak Delta Simple 55", "largo": 550.0, "ancho": 460.0
          "corte": (530.0, 440.0), "pestana": 3.0, "desague_d": 90.0,
          "centro_y": 300.0}                 # centro de la bacha medido desde la pared (mesada de 620)
 Z_MESADA = 900.0
+# escurreplatos de alacena (18/10): Bronzen LC-560 (ML MLAU156309472), 564 x 270, 2 rejillas, inox;
+# + cubiertero colgante de 3 compartimentos Toly Poken (MLA2121276022). Alturas SUPUESTAS hasta tener
+# el herraje: rejilla de platos a 280 bajo el estante fijo, rejilla de vasos 130 mas abajo, cubiertero
+# de 140 colgado de la de abajo. Se atornillan a los laterales a mano (O3, sin CNC).
+ESCURRIDOR = {"nombre": "Escurreplatos Bronzen LC-560", "prof": 270.0, "rejilla": 20.0,
+              "platos": 280.0, "vasos": 130.0, "del_frente": 20.0,
+              "cubiertero": {"nombre": "Cubiertero colgante Toly Poken 3 comp.", "ancho": 240.0, "prof": 120.0,
+                             "alto": 140.0}}      # ML MLA2121276022; medidas SUPUESTAS, la ficha no las trae
+LISTON_FRENTE = 80.0                  # listón que reemplaza al piso en la alacena sin piso (lleva el LED)
 # corredera de bolillas 450 (COCINA MLV): O3 x 10 a 37 y 413 del frente
 CORR = {"d": 3.0, "prof": 10.0, "a": (37.0, 413.0), "largo": 450.0, "juego": 13.0}
 # estante regulable
@@ -899,7 +910,7 @@ def led_piso(piso, nombre, diagonal_geo=None, frente_y=None):
                       "(la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).")
 
 
-def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2):
+def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2, escurridor=False):
     """Alacena normal, estilo COCINA MLV: piso y techo por fuera (a todo el ancho),
     laterales entre ellos, cenefa abajo y cornisa arriba (las dos retiradas 18).
 
@@ -932,26 +943,43 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2):
         b = caja(a0, a1, b0, b1, c0, c1)
         return placa_caja(nombre, nm, b[0], b[1], b[2], b[3], b[4], b[5], A, X, tex, **kw)
 
-    piso = pc("Piso", u0, u1, 0, D, z0, z0 + T, "+Z", U, BLANCO, cantos=(V,))          # y hacia el frente
     tec = pc("Techo", u0, u1, 0, D, z1 - T, z1, "-Z", U, BLANCO, cantos=(V,))          # y hacia atras
-    # lateral en u0 = derecha de quien mira; x desde atras. En u1 = izquierda; x desde el frente.
-    ld = pc("Lateral der", u0, u0 + T, 0, D, z0 + T, z1 - T, U, V, BLANCO, cantos=(V,))
-    li = pc("Lateral izq", u1 - T, u1, 0, D, z0 + T, z1 - T, mU, mV, BLANCO, cantos=(V,))
+    if escurridor:
+        # SIN PISO: abierta abajo sobre la bacha (lo que gotea del escurreplatos cae a la pileta).
+        # Los laterales llegan hasta abajo; entre ellos un liston al frente (lleva el LED, tapado
+        # por la puerta) y otro atras contra la pared; el fondo se atornilla al de atras.
+        ld = pc("Lateral der", u0, u0 + T, 0, D, z0, z1 - T, U, V, BLANCO, cantos=(V, "-Z"))
+        li = pc("Lateral izq", u1 - T, u1, 0, D, z0, z1 - T, mU, mV, BLANCO, cantos=(V, "-Z"))
+        piso = pc("Liston frente", u0 + T, u1 - T, D - LISTON_FRENTE, D, z0, z0 + T, "+Z", U, BLANCO,
+                  cantos=(V, "-Z"))
+        tb = pc("Travesano trasero inferior", u0 + T, u1 - T, 0, T, z0, z0 + LISTON_FRENTE, mV, U, BLANCO,
+                cantos=("-Z",))
+    else:
+        piso = pc("Piso", u0, u1, 0, D, z0, z0 + T, "+Z", U, BLANCO, cantos=(V,))      # y hacia el frente
+        # lateral en u0 = derecha de quien mira; x desde atras. En u1 = izquierda; x desde el frente.
+        ld = pc("Lateral der", u0, u0 + T, 0, D, z0 + T, z1 - T, U, V, BLANCO, cantos=(V,))
+        li = pc("Lateral izq", u1 - T, u1, 0, D, z0 + T, z1 - T, mU, mV, BLANCO, cantos=(V,))
     d = BP["desde_atras"]
     fo = pc("Fondo", u0 + T - 5, u1 - T + 5, d - 2.5, d + 2.5, z0 + T - 5, z1 - T + 5, V, mU, FONDO5,
             rol="FONDO", material=FIB)
     # travesano trasero bajo el techo, contra la pared, detras del fondo: por ahi se cuelga
     # (tornillos a la pared a mano). Cara A = la que mira a la pared (excentricas ocultas).
     tt = pc("Travesano trasero", u0 + T, u1 - T, 0, T, z1 - T - TRAV_ALTO, z1 - T, mV, U, BLANCO)
-    P += [piso, tec, ld, li, fo, tt]
+    P += [piso, tec, ld, li, fo, tt] + ([tb] if escurridor else [])
     # ranuras de fondo (cara A = interior), cortadas a 12,85 de las puntas como MLV
-    piso.ranura(12.85, d, piso.W - 12.85, d, BP["ancho"], BP["prof"], "A", "BP")
+    if not escurridor:
+        piso.ranura(12.85, d, piso.W - 12.85, d, BP["ancho"], BP["prof"], "A", "BP")
     tec.ranura(12.85, tec.H - d, tec.W - 12.85, tec.H - d, BP["ancho"], BP["prof"], "A", "BP")
     ld.ranura(d, 0, d, ld.H, BP["ancho"], BP["prof"], "A", "BP")
     li.ranura(li.W - d, 0, li.W - d, li.H, BP["ancho"], BP["prof"], "A", "BP")
     # uniones: los laterales apoyan en piso y techo (excentrica en la cara interior)
     for l in (ld, li):
-        tres_en_uno(l, piso, "A")
+        if escurridor:
+            # el liston apoya en el lateral; conector adelante (y=65) para no cruzar la ranura del LED (y=35)
+            tres_en_uno(piso, l, "A", en=[LISTON_FRENTE - 15.0])
+            tres_en_uno(tb, l, "A")
+        else:
+            tres_en_uno(l, piso, "A")
         if tipo != "rebatible":
             tres_en_uno(l, tec, "A")           # el rebatible rehace el techo mas abajo y lo une ahi
     tres_en_uno(tt, ld, "A"); tres_en_uno(tt, li, "A")
@@ -965,7 +993,7 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2):
     if tipo == "rebatible":
         # como la Alacena Spar: hoja REBATIBLE arriba (un tercio), colgada del techo con 2 bisagras
         # en su canto de arriba + pistones a gas; abajo 2 puertas comunes. Estante fijo en la junta.
-        HF = round((wb - wa) * 0.45)                    # proporcion del render: ~45 % arriba, 55 % abajo
+        HF = round((wb - wa) * (0.38 if escurridor else 0.45))   # render ~45/55; con escurridor 38/62 para que entre
         zj = wb - HF - JUNTA / 2.0                      # centro de la junta
         # el techo se rehace con X local = profundidad (frente en x = W) para que bisagras() pueda
         # usarlo de soporte; misma ranura de fondo, en coordenadas giradas
@@ -993,9 +1021,30 @@ def alacena(nombre, x0, ancho, eje="X", tipo="vitrina", cols=2, puertas=2):
             tirador(h, h.W - 50.0, h.H / 2.0, (0, 1))          # barral horizontal, 50 del borde de abajo
         AVISOS.append("%s: las dos hojas rebatibles (%g x %g arriba, %g x %g abajo) llevan 2 pistones a gas "
                       "cada una, atornillados a mano (sin CNC, sin dibujar)." % (nombre, pa_.H, pa_.W, pb_.H, pb_.W))
-        # un estante regulable en el compartimiento de abajo
-        zs = inner0 + (zj - T / 2.0 - inner0) / 2.0
-        estantes = [zs]
+        if escurridor:
+            # escurreplatos colgado de los laterales bajo el estante fijo; sin estante regulable
+            E = ESCURRIDOR
+            o = ((u0 + u1) / 2.0, D - E["del_frente"] - E["prof"] / 2.0) if eje == "X" else \
+                (D - E["del_frente"] - E["prof"] / 2.0, -(u0 + u1) / 2.0)
+            o = (o[0], o[1], zj - T)
+            herraje(nombre, E["nombre"], o, (0, 0, -1), AX[U], "escurreplatos", ancho=u1 - u0 - 2 * T - 4.0,
+                    prof=E["prof"], rejilla=E["rejilla"], z_platos=E["platos"], z_vasos=E["platos"] + E["vasos"])
+            C = E["cubiertero"]
+            zc = E["platos"] + E["vasos"] + E["rejilla"]
+            oc = add(o, mul(AX[U], (u1 - u0 - 2 * T) / 2.0 - 20.0 - C["ancho"] / 2.0))
+            herraje(nombre, C["nombre"], oc, (0, 0, -1), AX[U], "cubiertero", ancho=C["ancho"], prof=C["prof"],
+                    alto=C["alto"], z0=zc)
+            fondo_cub = zj - T - zc - C["alto"]
+            AVISOS.append("%s: SIN PISO, abierta sobre la bacha. %s (564 x 270) + %s colgados de los laterales "
+                          "bajo el estante fijo, tornillos O3 a mano. Alturas supuestas (platos %g, vasos %g, "
+                          "cubiertero %g): el cubiertero termina en Z=%g (boca del mueble Z=%g). Confirmar con el "
+                          "herraje real." % (nombre, E["nombre"], C["nombre"], E["platos"], E["vasos"], C["alto"],
+                                             fondo_cub, z0))
+            estantes = []
+        else:
+            # un estante regulable en el compartimiento de abajo
+            zs = inner0 + (zj - T / 2.0 - inner0) / 2.0
+            estantes = [zs]
     elif puertas == 1:
         # una sola puerta vitrina, bisagras en el lateral derecho de quien mira (u0)
         pu = pc("Puerta", ua, ub, D, D + T, wa, wb, mV, U, VERDE, rol="PUERTA", cantos=cant)
@@ -1063,7 +1112,7 @@ def armar():
     panel_terminal("P1 Panel terminal", (X_FIN - T, X_FIN, 0.0, F_BAJO + T, 0.0, Z_BAJO + H_BAJO), "+X", "+Y")
     panel_terminal("P2 Panel cocina", (0.0, F_BAJO + T, Y_FIN - T, Y_FIN, 0.0, Z_BAJO + H_BAJO), "+Y", "-X")
     alacena_esquinero()
-    alacena("A2 Alacena 600 rebatible", 800.0, 600.0, "X", tipo="rebatible")
+    alacena("A2 Alacena 600 rebatible", 800.0, 600.0, "X", tipo="rebatible", escurridor=True)
     alacena("A3 Vitrina 800", 1400.0, 800.0, "X", cols=2)
     alacena("A4 Vitrina 570", 800.0, 570.0, "Y", cols=2, puertas=1)   # una puerta de 567 (con 2 los travesanos quedan < 250)
     zocalos()

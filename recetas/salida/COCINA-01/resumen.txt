@@ -82,16 +82,16 @@ A1 Esquinero alacena        16 placas
     9992609290733 Travesano A                  751.0 x    80.0 x 18.0  BLANCO 18  ag   3  canto  3  ran 0
     9992609290740 Travesano B                  751.0 x    80.0 x 18.0  BLANCO 18  ag   3  canto  3  ran 0
 A2 Alacena 600 rebatible    10 placas
-    9992609290757 Piso                         600.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 2
+    9992609290757 Liston frente                564.0 x    80.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 1
     9992609290764 Techo                        332.0 x   600.0 x 18.0  BLANCO 18  ag   8  canto  0  ran 1
-    9992609290771 Lateral der                  332.0 x  1004.0 x 18.0  BLANCO 18  ag  17  canto  4  ran 1
-    9992609290788 Lateral izq                  332.0 x  1004.0 x 18.0  BLANCO 18  ag  17  canto  4  ran 1
+    9992609290771 Lateral der                  332.0 x  1022.0 x 18.0  BLANCO 18  ag   7  canto  2  ran 1
+    9992609290788 Lateral izq                  332.0 x  1022.0 x 18.0  BLANCO 18  ag   7  canto  2  ran 1
     9992609290795 Fondo                        574.0 x  1014.0 x  5.0  BLANCO 5   ag   0  canto  0  ran 0
     9992609290801 Travesano trasero            564.0 x    80.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
-    9992609290818 Estante fijo                 301.0 x   564.0 x 18.0  BLANCO 18  ag   8  canto  4  ran 0
-    9992609290825 Puerta rebatible arriba      467.0 x   597.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
-    9992609290832 Puerta rebatible abajo       567.0 x   597.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
-    9992609290849 Estante 1                    562.0 x   281.0 x 18.0  BLANCO 18  ag   0  canto  0  ran 0
+    9992609290818 Travesano trasero inferior   564.0 x    80.0 x 18.0  BLANCO 18  ag   2  canto  2  ran 0
+    9992609290825 Estante fijo                 301.0 x   564.0 x 18.0  BLANCO 18  ag   8  canto  4  ran 0
+    9992609290832 Puerta rebatible arriba      394.0 x   597.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
+    9992609290849 Puerta rebatible abajo       640.0 x   597.0 x 18.0  VERDE 18   ag   8  canto  0  ran 0
 A3 Vitrina 800              16 placas
     9992609290856 Piso                         800.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 2
     9992609290863 Techo                        800.0 x   332.0 x 18.0  BLANCO 18  ag   4  canto  0  ran 1
@@ -131,6 +131,8 @@ HERRAJES:
     Bacha Tawak Delta Simple 55     1
     Bisagra O35                    24
     Corredera bolas 450             8
+    Cubiertero colgante Toly Poken 3 comp.    1
+    Escurreplatos Bronzen LC-560    1
     Excentrica O15                120
     Parrilla 277x897 2x3            2
     Parrilla 447x897 2x3            1
@@ -138,7 +140,7 @@ HERRAJES:
     Pata regulable                 17
     Perilla                         4
     Perno O8 x 33                 120
-    Soporte estante O5             32
+    Soporte estante O5             28
     Tira                            4
     Tirador barral 128             10
     Vidrio                          4
@@ -148,7 +150,8 @@ AVISO: A1 Esquinero alacena / Puerta: marco de madera maciza de 4 piezas con Min
 AVISO: A1 Esquinero alacena: se cuelga por los dos travesanos traseros (18 x 80) con 2 tornillos a la pared cada uno, a mano.
 AVISO: A1 Esquinero alacena: la tira LED va PEGADA bajo el piso, sin ranura (la diagonal no es paralela a X/Y y la perforadora no ranura en diagonal).
 AVISO: A2 Alacena 600 rebatible: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.
-AVISO: A2 Alacena 600 rebatible: las dos hojas rebatibles (597 x 467 arriba, 597 x 567 abajo) llevan 2 pistones a gas cada una, atornillados a mano (sin CNC, sin dibujar).
+AVISO: A2 Alacena 600 rebatible: las dos hojas rebatibles (597 x 394 arriba, 597 x 640 abajo) llevan 2 pistones a gas cada una, atornillados a mano (sin CNC, sin dibujar).
+AVISO: A2 Alacena 600 rebatible: SIN PISO, abierta sobre la bacha. Escurreplatos Bronzen LC-560 (564 x 270) + Cubiertero colgante Toly Poken 3 comp. colgados de los laterales bajo el estante fijo, tornillos O3 a mano. Alturas supuestas (platos 280, vasos 130, cubiertero 140): el cubiertero termina en Z=1505 (boca del mueble Z=1450). Confirmar con el herraje real.
 AVISO: A3 Vitrina 800: se cuelga por el travesano trasero (18 x 80, bajo el techo) con 2 tornillos a la pared, a mano.
 AVISO: A3 Vitrina 800 / Puerta der: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 299 x 919 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).
 AVISO: A3 Vitrina 800 / Puerta izq: marco de madera maciza de 4 piezas con Minifix + tarugo O8; vidrio de 4 de 299 x 919 en ranura 12 x 5 (junquillos a mano); cruz de listones 25x8 (2x3) a mano. Piezas de madera: NO van a AutoCUT (lista aparte).

@@ -1,14 +1,14 @@
-<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:05:18" Source="fabrica-muebles" SourceType="BAN">
-<Plane Width="567.00" Height="597.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,1,1,1" Name="COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible abajo" Code="9992609290832">
+<MicroDrawBan_XML Version="3.0" Time="2026/10/19 am 1:28:43" Source="fabrica-muebles" SourceType="BAN">
+<Plane Width="394.00" Height="597.00" PlaneSize="1" Grain="2" Thickness="18" Material="Melamina" EdgeFBLR="1,1,1,1" Name="COCINA-01_A2 Alacena 600 rebatible_Puerta rebatible arriba" Code="9992609290832">
     <Outline>
         <Point Value="0.00 0.00 0"/>
-        <Point Value="567.00 0.00 0"/>
-        <Point Value="567.00 597.00 0"/>
+        <Point Value="394.00 0.00 0"/>
+        <Point Value="394.00 597.00 0"/>
         <Point Value="0.00 597.00 0"/>
         <Point Value="0.00 0.00 0"/>
     </Outline>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="517.00 362.50 0" End="517.00 362.50 -18.00"/>
-    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="517.00 234.50 0" End="517.00 234.50 -18.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="344.00 362.50 0" End="344.00 362.50 -18.00"/>
+    <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="344.00 234.50 0" End="344.00 234.50 -18.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="28.50 521.00 0" End="28.50 521.00 -3.00"/>
     <HoleV Name="" Diameter="5.00" IsCuted="0" Face="A" Start="28.50 473.00 0" End="28.50 473.00 -3.00"/>
     <HoleV Name="" Diameter="35.00" IsCuted="0" Face="A" Start="22.50 497.00 0" End="22.50 497.00 -13.00"/>
