@@ -1943,3 +1943,10 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   Ranuras de fondo de 6 × 6 / 6 × 5,5 (mínimo de máquina 10 → `ajustar_maquina.py`).
 - Decidido: pedir a la diseñadora Ø5 × 3 en tornillos y placa base, cazoleta 13 y placa base vertical
   (37, ±16). Re-armar COCINA MLV en Fusion recién con el render corregido.
+- **Fusion actualizado (misma tarde)**: se vaciaron los 14 muebles viejos del documento `COCINA MLV` (quedó
+  `Herrajes (biblioteca)`) y se corrió `ArmarDesdeRender.armar(render 19/10, nuevo=False)` por el MCP de Fusion:
+  7 s, 13 muebles, **125 placas** (la `Banquina01` del Escobero no tiene geometría en el render) y 618 herrajes
+  (25 bisagras, 283 pernos/excéntricas, 32 correderas, LEDs; **sin receptores** porque ahora son Ø5 y el script
+  los dibuja sólo en Ø10). El render ya no trae `texName` (materiales `NEstructura`/`NPetfrente`/`NFondo`), así
+  que `apariencia_textura` no pinta nada: se pintó por `matCode` con un script suelto. Pendiente: sumar esa
+  paleta por `matCode` a `ArmarDesdeRender`/`PintarMueble`, y el receptor Ø5. Documento quedó **sin guardar**.
