@@ -170,3 +170,37 @@ fuera de medida y no sirven para armar PRUEBA 1.
 - El archivo `etapa2/salida/PRUEBA1/lista_corte.csv` (o el `.xlsx`).
 
 ---
+
+## 20/10/2026 — La HP280 corta 1–2 mm de más: cómo diagnosticarlo y qué hacer mientras tanto
+
+**Síntoma**: piezas de 299 salen 300/301 → en la perforadora salta `202h AEje` (el carro A aprieta al ancho
+programado). Lo vimos el 06–07/10 (Spar: 399 → 400/401) y el 20/10 (cajón del Bandejero).
+
+**Prueba para saber de dónde viene el error** (10 minutos, un retazo largo):
+1. Cortar en `editar` una secuencia **200 · 200 · 200 · 200** de una misma tira, con `Trim` como esté.
+2. Medir cada pieza con calibre en los dos extremos (también dice si el corte sale a escuadra).
+3. Medir el espesor real de la hoja: cortar 10 mm adentro de un retazo sin pasar y medir la ranura (kerf).
+   La máquina tiene `Saw = 4,4`.
+
+| Resultado | Causa | Corrección |
+|---|---|---|
+| Todas iguales y todas +1 (o +2) | **offset del origen del empujador** (cero de la regla) | parámetro de compensación/origen del empujador (menú `parámetro`, con contraseña) o, si no, restar ese valor fijo en AutoCUT/`editar` |
+| La 1ª bien y después crecen (+1, +2, +3…) | **kerf mal cargado** (`Saw` ≠ espesor real de la hoja) | poner en `Saw` el kerf medido |
+| Un extremo distinto del otro | la pieza no está a escuadra: alineador lateral / tope / puente del empujador torcido | escuadrar (ver E13/E06 arriba) y revisar la presión del prensor lateral |
+| La primera pieza de la tira distinta de las demás | `Trim` (5) mal interpretado o el refilado no se hizo | mirar si la primera pieza incluye el refilado |
+
+**El menú `parámetro` pide contraseña que no tenemos** → pedirla a la Sra. Tan (Huahua) junto con el nombre
+exacto del campo de compensación. Mientras tanto hay dos salidas que ya funcionaron:
+
+- **Descontar el error fijo al cortar**: si la sierra siempre da +1, pedirle 298 para obtener 299. En AutoCUT
+  o en `editar`. Es lo más simple si la prueba de arriba da error constante.
+- **Perforar a la medida real** (`etapa2/a_medida_real.py`): medir la pieza con calibre y regenerar el programa
+  con esa medida; el sobrante queda en el borde del canto y los mecanizados quedan referidos al borde opuesto.
+  Sirve para el **ancho** (la medida que mide el carro A). ⚠️ **No sirve para el largo que lleva pernos de
+  3 en 1 en los extremos** (frentes y fondos de cajón, estantes entre laterales): ahí la excéntrica tiene
+  que quedar a 34 del canto, así que ese sobrante se recorta en la sierra.
+
+```
+python3 etapa2/a_medida_real.py piezas_maquina.json -o piezas_real.json --pieza CODIGO=ANCHOxALTO [--pieza ...]
+python3 etapa2/exportar.py piezas_real.json -o salida_real/
+```

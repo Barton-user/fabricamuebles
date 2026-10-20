@@ -1963,3 +1963,14 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   arriba con T187; Ø15 del Frente y del Fondo quedan ABAJO, TypeNo 8 — primera vez Ø15 desde abajo) → `exportar`.
   Sin referencia contra qué validar: control a mano de los XML3 contra los `ocenter` del render (espejo x→W−x OK).
 - **Plano de la bisagra en Figma** (página "Bisagra – medidas para GuiGui" del archivo de herrajes FBehv5P3VSuDUbLplOPRit, nodo 36:2): puerta (cazoleta Ø35 × 13 a 22,5; Ø5 × 3 a 28,5, ±24) y lateral (placa base Ø5 × 3 a 37, ±16, con lo de GuiGui en rojo) + tabla verificado / GuiGui 19/10 / qué cambiar. La entrada del 16/10 decía que ya existía y no era así: corregida.
+
+## 20/10/2026 — Cajón del Bandejero en la máquina · la sierra corta de más
+
+- Programas del cajón: el 2115070657431 (Ø15 abajo + ranura 6 arriba) tiró "error de conversión, diámetro 6"
+  y después, con la ranura a 5 y a 6×6, "diámetro de herramienta demasiado grande". Hipótesis: cuando todos los
+  verticales son de cara trasera (TypeNo 8), MH2026 da vuelta la pieza y la ranura cae a la cara de abajo (T11
+  Ø10). Salida: Frente y Fondo en dos programas sin cara trasera (`XML3_2PASOS/`: …431/…462 sólo agujeros con
+  Ø15 arriba; 9992610019323/330 sólo ranura, pieza dada vuelta). Pendiente confirmar.
+- La HP280 volvió a cortar con 1–2 mm de más. Nuevo `etapa2/a_medida_real.py` (programa a la medida real,
+  sobrante en el borde del canto) y sección de diagnóstico en `docs/SIERRA_AUTOCUT.md` (prueba 200×4 + kerf:
+  error constante = origen del empujador; creciente = kerf). Contraseña de `parámetro`: pedir a la Sra. Tan.

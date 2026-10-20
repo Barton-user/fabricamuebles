@@ -1,6 +1,6 @@
 # FÁBRICA MUEBLES — Contexto del proyecto
 
-_Leiten Com · Pato · Última actualización: **19/10/2026**_
+_Leiten Com · Pato · Última actualización: **20/10/2026**_
 
 > **Cómo se usa este archivo.** Es lo único que hay que leer al empezar una conversación.
 > Dice **qué es cierto hoy**. El detalle de cada tema está en `docs/` (mapa en §7) y la historia
@@ -125,7 +125,7 @@ recetas/ ──(fusion/ArmarReceta)───────────────
 - Biblioteca 3D en `herrajes/biblioteca/` (`CATALOGO.md`): **no volver a modelar herrajes**.
 
 **Sierra / AutoCUT**: el mapeo está **mal** (cantos cruzados → piezas 1 mm mal por lado; código de
-barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al escanear.
+barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al escanear. **La HP280 corta 1–2 mm de más** (06/10 y 20/10): prueba de diagnóstico y salidas en `docs/SIERRA_AUTOCUT.md` (última sección); mientras tanto, medir con calibre y perforar a la medida real con `etapa2/a_medida_real.py` (sólo para el ancho; el largo con pernos se recorta).
 
 ---
 
