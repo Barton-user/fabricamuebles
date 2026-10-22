@@ -1,6 +1,6 @@
 # FÁBRICA MUEBLES — Contexto del proyecto
 
-_Leiten Com · Pato · Última actualización: **20/10/2026**_
+_Leiten Com · Pato · Última actualización: **22/10/2026**_
 
 > **Cómo se usa este archivo.** Es lo único que hay que leer al empezar una conversación.
 > Dice **qué es cierto hoy**. El detalle de cada tema está en `docs/` (mapa en §7) y la historia
@@ -58,6 +58,11 @@ curvado por ranuras (`curvado/`); **manual de armado de 2 hojas desde la receta*
 (`etapa2/manual_armado.py modelo.json -o manual.pdf`: explotada numerada, piezas con código de
 etiqueta, herrajes, pasos dibujados; cajones como sub-armado). Hechos: Alacena Spar y los 10
 muebles de COCINA-01. ⚠️ Los esquineros (piezas a 45°) salen con aviso: revisar los pasos a mano.
+**Planos de fabricación desde GuiGui** (`etapa2/planos.py render.json -o planos.pdf --orden … --guardado …`):
+vistas acotadas (frente, frente sin puertas, corte lateral, planta), explotada con globos, lista de corte,
+herrajes, notas GuiGui-vs-vigente y una lámina por pieza con las dos caras acotadas y la tabla de
+mecanizados. El render se saca del MCP de GuiGui (`project_search_order` → `render_url`) desde el
+navegador integrado. Hecho: Alacena spar de PRUEBA 1 (GuiGui 15/10) en `planos/ALACENA_SPAR_GUIGUI_1015/`.
 
 ---
 
@@ -177,6 +182,7 @@ No se compra: fresa de ranurar Ø9 (se diseña con ranuras de 10).
 | Instructivo con capturas | `instructivo/INDICE.md` |
 | Historia: cómo se llegó a cada cosa | `BITACORA.md` |
 | Diseñar un mueble nuevo | skill **`mueble-nuevo`** |
+| Planos de un mueble de GuiGui | `etapa2/planos.py` (ver `etapa2/README.md`) · salidas en `planos/` |
 
 **Contactos**
 

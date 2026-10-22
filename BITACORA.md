@@ -1974,3 +1974,28 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - La HP280 volvió a cortar con 1–2 mm de más. Nuevo `etapa2/a_medida_real.py` (programa a la medida real,
   sobrante en el borde del canto) y sección de diagnóstico en `docs/SIERRA_AUTOCUT.md` (prueba 200×4 + kerf:
   error constante = origen del empujador; creciente = kerf). Contraseña de `parámetro`: pedir a la Sra. Tan.
+
+
+## 22/10/2026 — Planos de fabricación desde GuiGui (`etapa2/planos.py`)
+
+- Pato preguntó si, además de leer GuiGui, se puede escribir, modelar y hacer planos. Escribir por el MCP es
+  posible pero no probado (`design_create_model`, `design_edit_model`, `cdesign_*`); modelar: Fusion + recetas
+  (camino probado); planos: se decidió generarlos desde el modelo (no desde el Drawing de Fusion).
+- Se leyó por el MCP de GuiGui (navegador integrado, `localhost:8010`) la habitación abierta: **PRUEBA 1**,
+  Alacena spar, guardada el **15/10 01:46** (códigos 37606154609xx, 11 placas). `design_get_room_structure`
+  da cubos y params pero **no agujeros**; el `render.json` (`project_search_order` → `render_url`) trae todo.
+  Bajado a `referencia/GUIGUI_MCP/1022/`. La orden tiene ahora 10 habitaciones (PLACARD P2 MLV, 6U PLACARD
+  HAB1/HAB2, 6U VESTIDOR, 6U GUARDADO, 6U RECIBIDOR nuevas del 22/10).
+- Nuevo **`etapa2/planos.py`**: PDF A4 apaisado de 3 + N láminas (vistas acotadas, explotada con globos, lista
+  de corte + herrajes + notas, una lámina por pieza con cara A/B acotadas y tabla de mecanizados). Reusa
+  `ArmarDesdeRender.leer_render` y `paquete.maestra`. Salida: `planos/ALACENA_SPAR_GUIGUI_1015/planos_alacena_spar.pdf`
+  (14 láminas). Revisadas una por una.
+- Lo que GuiGui (15/10) trae distinto de lo vigente, ahora en la lámina 3 automáticamente: tornillos de bisagra y
+  placa base **Ø2 × 0,5** (vigente Ø5 × 3), placa base **horizontal a 20/52** (vigente 37 / ±16 vertical),
+  perno 3 en 1 de canto **Ø5 × 33** (vigente Ø8 × 33), receptor **Ø5 × 11** (vigente Ø5 × 12), ranuras de
+  fondo **6 × 6** (mínimo de máquina 10), **tira LED en ranura sobre la cara de arriba del techo** (la receta la
+  lleva abajo del piso). Cazoleta Ø35 × 13 a 22,5 y tornillos 48/6 coinciden.
+- Convención confirmada contra el render: cara A (side 1 de GuiGui) = cara con normal −ez del marco de
+  `ArmarDesdeRender`; en el lateral izquierdo los 3 en 1 están en side 1 y esa cara mira adentro.
+- Pendiente: `planos.py` para `modelo.json` de las recetas (mismo PDF por el camino Fusion) y, si se quiere,
+  probar la escritura por el MCP de GuiGui con un mueble de descarte.

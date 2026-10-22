@@ -257,3 +257,29 @@ propio README y la convención de modelado.
 
 **Probado**: un `piezas.json` con el techo de PRUEBA 1 genera un `.ban` idéntico al
 que ya estaba validado contra Bluen. La mitad de abajo del camino nuevo está cerrada.
+
+---
+
+## `planos.py` — planos de fabricación en PDF desde el `render.json` de GuiGui
+
+```bash
+python3 planos.py ../referencia/GUIGUI_MCP/1022/PRUEBA1_<id>.render.json -o ../planos/<MUEBLE>/planos.pdf \
+        --orden 260625-20 --guardado 15/10/2026 [--mueble N]
+```
+
+Lee el render por `fusion/ArmarDesdeRender.leer_render` (geometría, agujeros, ranuras, cantos) y
+`paquete.maestra` (globos, nombres, medidas de corte), así el número de cada pieza es el mismo en
+la explotada, la lista de corte, la etiqueta y su lámina. A4 apaisado, sin dependencias fuera de
+`reportlab`:
+
+| Lámina | Qué |
+|---|---|
+| 1 | Frente (cotas de puertas y luces, símbolo de bisagra), frente sin puertas, corte lateral, planta sin techo, isométrica |
+| 2 | Explotada con globos + lista de piezas |
+| 3 | Lista de corte (terminada y de corte, cantos I/D/Ab/Ar, material, textura, veta, mecanizados), resumen por material, herrajes y **notas: lo que GuiGui trae distinto de CONTEXTO.md** (tornillos Ø2, placa base 20/52, perno Ø5, ranuras de 6, LED arriba del techo…) |
+| 4… | Una por pieza: cara A (side 1) y cara B (side −1, espejada) con cotas acumuladas desde la esquina de origen del marco h/v de GuiGui, agujeros de canto, ranuras, cantos en línea gruesa, veta, dónde va en el mueble, y tabla de mecanizados numerada |
+
+Marco: mundo de `ArmarDesdeRender` (X derecha, Y hacia atrás, Z arriba); por pieza h = ex, v = ey,
+**cara A = side 1 = la cara con normal −ez** (verificado: el lateral izquierdo tiene sus 3 en 1 en side 1
+y esa cara mira adentro). Las piezas con W > H se avisan como "giradas 90° en la perforadora".
+El render se baja desde el navegador integrado con el MCP de GuiGui (`referencia/GUIGUI_MCP/LEEME.md`).
