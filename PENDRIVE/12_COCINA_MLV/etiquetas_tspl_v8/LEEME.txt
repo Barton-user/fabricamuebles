@@ -1,0 +1,36 @@
+ETIQUETAS EN TSPL - MODO CONTINUO (sin sensor de gap)
+Etiqueta 60 x 39 mm, paso 42.8 mm, cabezal-cuchilla 16.4 mm, DIRECTION 1.
+
+Copiar esta carpeta a C:\tsc\mlv en la PC de la sierra. La impresora tiene que estar compartida como TSC
+(ya esta). Cada archivo se manda desde cmd con:
+
+    copy /b C:\tsc\mlv\<archivo> \\localhost\TSC
+
+ALINEACION (una sola vez, y cada vez que se abre la tapa o se mueve el papel):
+  con la tapa cerrada, girar el rollo hasta que el GAP (la separacion entre dos etiquetas)
+  quede justo en la cuchilla de corte. Nada mas. Cada archivo avanza solo hasta la etiqueta siguiente
+  (la primera etiqueta de cada tanda sale en blanco: es el precio de no usar el sensor).
+
+PRUEBA: mandar 00_ALINEAR.txt. Imprime una regla: el "0" tiene que caer en el borde de arriba de la
+  etiqueta. Si cae a N mm del borde, regenerar con --cabezal corregido (+N si la regla empieza
+  tarde, -N si empieza antes). Al terminar deja de nuevo el gap en la cuchilla: cortar ahi.
+
+TANDAS: un archivo por mueble (NN_<mueble>.txt) o TODAS.txt. Al final de cada archivo el papel
+  queda con el gap en la cuchilla: cortar y seguir con el siguiente sin tocar nada.
+  Si en el medio de una tanda se ve corrida mas de 1 mm, cancelar, realinear a mano y repetir
+  desde ese mueble.
+
+Archivos:
+  01_Horno_y_anafe.txt                       6 etiquetas
+  02_Unero.txt                               2 etiquetas
+  03_Alacena_microondas01.txt                9 etiquetas
+  04_Alacena_doble.txt                       9 etiquetas
+  05_Alacena_simple.txt                      8 etiquetas
+  06_Alacena_s_heladera.txt                  6 etiquetas
+  07_Escobero.txt                           16 etiquetas
+  08_Lavarropa.txt                           5 etiquetas
+  09_Bajo_mesada_doble_c_cesto.txt           9 etiquetas
+  10_00_Bandejero.txt                       12 etiquetas
+  11_Cajonera.txt                           24 etiquetas
+  12_Alacena_simple_ajuste.txt               9 etiquetas
+  13_Alacena_spar.txt                       10 etiquetas

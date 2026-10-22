@@ -77,7 +77,7 @@ navegador integrado. Hecho: Alacena spar de PRUEBA 1 (GuiGui 15/10) en `planos/A
 | Router | **SKG-912MZY** (Huahua) | nesting, contornos, almacén de 12 | Syntec + interfaz Huahua | `.nc` (Z0 = mesa, ver doc) | **`docs/ROUTER_SKG912.md`** · encendido y con homing; primera prueba lista en `PENDRIVE/7_ROUTER_PRUEBA/` |
 | Perforadora | **SKH-612HS** (Huahua) | agujeros 6 caras, ranuras, cazoletas | **MH2026** + CncMon32 | **XML3 = KDTXml** (1 archivo por pieza, nombre = código de barras) | **`docs/PERFORADORA_SKH612.md`** |
 | Pegadora de cantos | **HH-509R** | cantos | manual | la etiqueta | manual en `instructivo/manuales/` |
-| Etiquetas | **AIBAO BC-80152T** (= TSC TTP-245C) | térmicas con QR | driver Seagull en la PC de la sierra, papel 60x40, gap 3 mm | `etiquetas_60x40.pdf` | `docs/SIERRA_AUTOCUT.md` (última sección) |
+| Etiquetas | **AIBAO BC-80152T** (= TSC TTP-245C) | térmicas con QR | driver Seagull en la PC de la sierra; etiquetas 60 × 39, paso 42,2. ⚠️ sensor de gap no anda con rollo de 60 | `etiquetas_60x40.pdf` (driver) · `etiquetas_tspl.py` (continuo) | `docs/SIERRA_AUTOCUT.md` (última sección) |
 
 Manuales: perforadora `User Manual_SKH-612 Series_260706_115944.pdf` (raíz); sierra, AutoCUT,
 pegadora y **router (manual + guía de operación Syntec)** en `instructivo/manuales/`. Capturas explicadas de la perforadora: `instructivo/INDICE.md`.
@@ -148,6 +148,7 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 8 | **`ArmarDesdeRender`: el canto de las piezas Lintel (listones) y de los cajones sale del lado equivocado** (listones: arriba en vez de abajo, Spar 05/10; cajón del Bandejero 19/10: DER = borde de la ranura, debía ser IZQ = borde de arriba; en los dos casos corregido a mano en piezas.json) y `ExportarPiezas` da el fondo sin el encastre (564×710,6 en vez de 574×720,6) · COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir, pistones de la rebatible; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
 | 9 | **Router**: primera prueba física (cuadrado 100, decide si los `.nc` de GuiGui necesitan encabezado `G43`), cargar y medir las fresas en el almacén, medir mesa útil. Fresas ya identificadas: 8 × Ø10 rectas de 1/2", Ø6, Ø8 | `docs/ROUTER_SKG912.md` · `PENDRIVE/7_ROUTER_PRUEBA/LEEME.txt` |
 | 10 | Curvado: probetas por material, primera pieza real, cantos en zona curva | `docs/CURVADO.md` |
+| 10b | **Impresora de etiquetas: el sensor de gap queda fuera del papel de 60 mm** (nunca calibra). Correr el rollo a la izquierda o rollo de 80 mm; mientras, modo continuo con `etapa2/etiquetas_tspl.py`. Etiquetas de COCINA MLV sin imprimir | `docs/SIERRA_AUTOCUT.md` (última sección) |
 | 11 | **Cocina de Jujuy (COCINA-01)**: medir en mano y ajustar en la receta: altura real del visor y posición de la salida Ø150 de la SDC-100; alturas de las rejillas del escurreplatos LC-560 y medidas del cubiertero; plantilla de calado de la bacha Tawak 55 (supuesto 530×440); confirmar que el visor banca el frente de madera; comprar pistones 60 N / 80–100 N; `.nc` o caladora para pasos del ducto, escotaduras y rincones; `PonerHerrajes` sigue con placa base 20/52 (recetas ya 37/±16) | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
 
 ---

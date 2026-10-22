@@ -222,3 +222,44 @@ La AIBAO BC-80152T se instala en Windows como **TSC TTP-245C** con driver Seagul
 - **Imprimir**: `etiquetas_60x40.pdf` (una etiqueta por página) desde el visor del navegador, disposición Vertical, papel
   60x40, escala 100 %. Probado con `PENDRIVE/12_COCINA_MLV/etiquetas/PRUEBA_IMPRESORA_1_etiqueta.pdf`: sale entera y nítida
   (2 mm más de margen arriba; si molesta, Material → desplazamiento vertical −2 mm).
+
+### Estado al 22/10 (noche): el sensor de gap no anda — diagnóstico y plan
+
+**Hechos:**
+- Las etiquetas del rollo miden **60 × 39**, gap ~3, paso **42,2** (medido: 20 etiquetas = 841 mm). No 60 × 40.
+- La impresora **nunca calibra el gap**: `GAPDETECT`, `GAPDETECT 320,24`, `BLINEDETECT` y la calibración por botón
+  (FEED al encender, soltar en rojo = calibración + autotest + dump en este firmware; el LED nunca pasa por ámbar)
+  dejan todo igual: autotest con `GAP DAC LEVEL: 0, 3` y comportamiento de papel continuo (avanza SIZE fijo).
+- Con GAP 3 y SIZE 40 se atrasaba ~2-3 mm por etiqueta; con BLINE se adelantaba ~1: avanza una longitud fija,
+  no ve ninguna marca.
+- **Sensores encontrados:** (1) carrito con ventanita sobre una cremallera dentada, en el centro del recorrido:
+  es el de **marca negra**, ajustable (se movió bajo la etiqueta, no cambió nada). (2) Par fijo a la **izquierda**:
+  LED en la tapa (sale **violeta** en la foto = IR encendido) + lente al lado de un tornillo en la base. Es el
+  **sensor de gap** (transmisivo). **El papel de 60 pasa a la derecha de ese par**: el sensor ve luz siempre,
+  "gap permanente", calibración imposible. La BC-80152T está pensada para rollo de 80 mm centrado.
+- El driver Seagull no manda comandos sueltos ("Enviar comando" no hace nada, "Consulta" se cuelga: USB de ida).
+  Lo que sí anda: compartir la impresora (`rundll32 printui.dll,PrintUIEntry /Xs /n "TSC TTP-245C" attributes +Shared sharename TSC`)
+  y `copy /b archivo.txt \\localhost\TSC`. Archivos de prueba en `C:\tsc\` de la PC de la sierra
+  (`test.txt` = `SELFTEST`, `p3.txt` = 3 etiquetas PRUEBA en modo GAP).
+- `BACKFEED` es impreciso y limitado (~20 mm): no usarlo. `FEED` es exacto.
+
+**Pendiente (mañana):**
+1. Medir desde la pared izquierda del recorrido: distancia a la lente del sensor y al borde izquierdo de la tira.
+2. Si la lente queda fuera del papel: abrir las guías del porta-rollo y de la base, correr el rollo contra la
+   izquierda (tapar la lente con ≥ 5 mm de margen), calibrar por botón (soltar en rojo), apagar/prender,
+   `copy /b C:\tsc\p3.txt \\localhost\TSC`: las 3 PRUEBA tienen que salir iguales. Si sí, driver con
+   Tipo = etiquetas con espacios 3 mm y listo.
+3. Si el rollo no se puede correr: comprar rollo de **80 mm de ancho** (60 × 40 sobre soporte de 80, o 80 × 40),
+   o reclamar/cambiar la impresora. Mientras tanto, modo continuo (abajo).
+
+**Parche que funciona (modo continuo, sin sensor): `etapa2/etiquetas_tspl.py`**
+`python3 etiquetas_tspl.py maestra.json -o carpeta --orden 260625-20 --cliente MALVINAS --paso 42.8 --alto 39 --cabezal 16.4`
+- `--paso` es lo que hay que PEDIR para que avance el paso real: con este rollo pidiendo 42 avanzaba 41,4
+  (medido: 10 etiquetas impresas = 414 mm) → 42 × 42,2 / 41,4 = **42,8**. Con 42,8, 5 reglas seguidas salen iguales.
+- `--cabezal` ajusta la fase (avance inicial = paso − cabezal − gap): se calibra con `00_PRUEBA5.txt` (5 reglas)
+  alineando a mano el gap en la cuchilla antes de mandar. Último valor probado: 16.4 (v8, `PENDRIVE/12_COCINA_MLV/etiquetas_tspl_v8/`).
+- En 125 seguidas (`TODAS.txt`) se acumula desfase (décimas por etiqueta): **imprimir por mueble** (13 archivos,
+  máx. 24 etiquetas) realineando el gap en la cuchilla antes de cada archivo. No cortar entre tandas sin realinear:
+  al cortar en la cuchilla el papel se mueve ~5 mm.
+- Para afinar el paso con precisión: en una tira larga impresa medir 40 pasos impresos y 40 pasos de etiqueta;
+  paso_nuevo = paso_pedido × (etiqueta / impreso).

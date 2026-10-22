@@ -2026,3 +2026,17 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - **Impresora de etiquetas probada**: la AIBAO es una TSC TTP-245C con driver Seagull en chino. Idioma, papel 60×40,
   térmica directa + etiquetas con espacio 3 mm, calibración por FEED (rojo). La etiqueta de prueba salió entera y nítida.
   Configuración completa en `docs/SIERRA_AUTOCUT.md` (última sección). Falta: lectura con el lector de la perforadora.
+
+## 22/10/2026 (noche) — Impresora de etiquetas: el sensor de gap no anda; etiquetas en TSPL continuo
+
+- Rollo: etiquetas 60 × **39**, paso 42,2 (no 40). La AIBAO/TSC TTP-245C nunca calibra el gap (`GAP DAC LEVEL 0`):
+  el sensor de gap es un par fijo a la IZQUIERDA (LED IR en la tapa + lente en la base) y el papel de 60 mm centrado
+  pasa a la derecha de él. El carrito ajustable del centro es el de marca negra. Diagnóstico completo y plan en
+  `docs/SIERRA_AUTOCUT.md` (última sección). Mañana: correr el rollo a la izquierda o rollo de 80 mm.
+- Driver Seagull: no sirve para mandar comandos; sí `copy /b archivo \\localhost\TSC` con la impresora compartida como TSC.
+- Nuevo `etapa2/etiquetas_tspl.py`: las 125 etiquetas de COCINA MLV en TSPL (texto, EAN-13, QR, cantos), modo continuo,
+  paso pedido 42,8 (la impresora avanza 41,4 cuando se le pide 42 con este rollo), fase ajustada con una regla impresa
+  (`00_PRUEBA5.txt`). Funciona por tandas cortas; en 125 seguidas se acumula desfase. v8 en
+  `PENDRIVE/12_COCINA_MLV/etiquetas_tspl_v8/`. Se imprimieron ~30 etiquetas de prueba; faltan las 125 buenas.
+- Las etiquetas por driver (`etiquetas_60x40.pdf`) quedan para cuando el sensor ande; el diseño es de 40 de alto y
+  la etiqueta mide 39: bajar el alto a 39 en `etiquetas.py` (pendiente).
