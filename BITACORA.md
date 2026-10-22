@@ -2023,3 +2023,6 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   traducidos (antes salía "NEstructura" en la etiqueta).
 - Códigos raros de la Alacena spar en GuiGui (8041309384202, 3041309384214, 4041309384220…): primer dígito distinto
   en cada pieza, pero todos EAN-13 válidos y únicos. Se usan tal cual.
+- **Impresora de etiquetas probada**: la AIBAO es una TSC TTP-245C con driver Seagull en chino. Idioma, papel 60×40,
+  térmica directa + etiquetas con espacio 3 mm, calibración por FEED (rojo). La etiqueta de prueba salió entera y nítida.
+  Configuración completa en `docs/SIERRA_AUTOCUT.md` (última sección). Falta: lectura con el lector de la perforadora.

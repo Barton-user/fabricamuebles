@@ -204,3 +204,21 @@ exacto del campo de compensación. Mientras tanto hay dos salidas que ya funcion
 python3 etapa2/a_medida_real.py piezas_maquina.json -o piezas_real.json --pieza CODIGO=ANCHOxALTO [--pieza ...]
 python3 etapa2/exportar.py piezas_real.json -o salida_real/
 ```
+
+## Impresora de etiquetas (PC de la sierra) — configuración que anda (22/10/2026)
+
+La AIBAO BC-80152T se instala en Windows como **TSC TTP-245C** con driver Seagull (BarTender) v7.x, firmware V2.4F.
+
+- **Idioma del driver**: venía en chino porque toma el formato regional de Windows. Se cambia en *Propiedades de impresora*
+  (no Preferencias) → Herramientas → Opciones de controlador → Opciones regionales → Idioma: Español, Unidad: mm.
+  Ojo: en Región de Windows **no tocar "Administrativo / idioma para programas no Unicode"**: AutoCUT y HHcnc lo necesitan en chino.
+- **Papel**: Preferencias de impresión → Preparar página → Material → Nuevo: `60x40`, ancho 60, alto 40 (los 1,3 mm de
+  soporte expuesto quedan). Orientación Vertical.
+- **Material**: Método **Térmica directa**, Tipo **Etiquetas con espacios**, altura del espacio **3 mm**, post-impresión Rasgar.
+  Con "Usar valor de impresora actual" la impresora quedaba en gap 0 (continuo) y arrancaba en cualquier lado.
+- **Calibrar el sensor de gap**: FEED apretado al encender y soltar cuando el LED parpadea **rojo** (primer estado). Ámbar
+  = autotest y deja la impresora en modo dump (apagar y prender para salir); verde = reset de fábrica (evitar).
+  El USB es sólo de ida: "Consulta" del driver se queda en "Solicitando información" (no es un error).
+- **Imprimir**: `etiquetas_60x40.pdf` (una etiqueta por página) desde el visor del navegador, disposición Vertical, papel
+  60x40, escala 100 %. Probado con `PENDRIVE/12_COCINA_MLV/etiquetas/PRUEBA_IMPRESORA_1_etiqueta.pdf`: sale entera y nítida
+  (2 mm más de margen arriba; si molesta, Material → desplazamiento vertical −2 mm).

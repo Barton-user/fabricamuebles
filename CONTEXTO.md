@@ -77,7 +77,7 @@ navegador integrado. Hecho: Alacena spar de PRUEBA 1 (GuiGui 15/10) en `planos/A
 | Router | **SKG-912MZY** (Huahua) | nesting, contornos, almacén de 12 | Syntec + interfaz Huahua | `.nc` (Z0 = mesa, ver doc) | **`docs/ROUTER_SKG912.md`** · encendido y con homing; primera prueba lista en `PENDRIVE/7_ROUTER_PRUEBA/` |
 | Perforadora | **SKH-612HS** (Huahua) | agujeros 6 caras, ranuras, cazoletas | **MH2026** + CncMon32 | **XML3 = KDTXml** (1 archivo por pieza, nombre = código de barras) | **`docs/PERFORADORA_SKH612.md`** |
 | Pegadora de cantos | **HH-509R** | cantos | manual | la etiqueta | manual en `instructivo/manuales/` |
-| Etiquetas | **AIBAO BC-80152T** | térmicas con QR | driver Windows, en la PC de la sierra | — | — |
+| Etiquetas | **AIBAO BC-80152T** (= TSC TTP-245C) | térmicas con QR | driver Seagull en la PC de la sierra, papel 60x40, gap 3 mm | `etiquetas_60x40.pdf` | `docs/SIERRA_AUTOCUT.md` (última sección) |
 
 Manuales: perforadora `User Manual_SKH-612 Series_260706_115944.pdf` (raíz); sierra, AutoCUT,
 pegadora y **router (manual + guía de operación Syntec)** en `instructivo/manuales/`. Capturas explicadas de la perforadora: `instructivo/INDICE.md`.
