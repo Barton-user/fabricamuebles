@@ -1999,3 +1999,27 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   `ArmarDesdeRender`; en el lateral izquierdo los 3 en 1 están en side 1 y esa cara mira adentro.
 - Pendiente: `planos.py` para `modelo.json` de las recetas (mismo PDF por el camino Fusion) y, si se quiere,
   probar la escritura por el MCP de GuiGui con un mueble de descarte.
+
+
+## 22/10/2026 (tarde) — COCINA MLV: planos de IDEE verificados y etiquetas
+
+- IDEE mandó `Despiece_por_modulo_Cocina_MLV.pdf` (14 pág.) y `Planos_de_fabricacion_Cocina_MLV.pdf` (139 pág.),
+  generados el 22/10 11:14 desde GuiGui por su MCP ("Orden PRUEBA · Obra Malvinas · 13 módulos · 125 piezas").
+  Guardados en `PENDRIVE/12_COCINA_MLV/IDEE_*.pdf`.
+- Se bajó el render de COCINA MLV (room 117131062, guardado 22/10 20:39 China = 09:39 ARG) a
+  `referencia/GUIGUI_MCP/1022/` y se comparó pieza por pieza (script en la sesión, por `plankNum`): **125/125**
+  coinciden en código, medida terminada, medida de corte (`cutSize`), espesor, material, color, cantos (lados y
+  largos) y cantidad de agujeros/ranuras por hoja. Las únicas diferencias son redondeos (840,5 → 840; 145,36 → 145,4)
+  y nombres traducidos (Back panel → Fondo, Vertical Partition → Partición vertical, puertas "(hoja)"). Los planos
+  de IDEE no traen posiciones de agujeros, sólo la cantidad: el mecanizado sigue saliendo de nuestros XML3.
+- GuiGui COCINA MLV 22/10 **sigue con los herrajes viejos** (igual que el 19/10): tornillos Ø3 × 0,5 (50 + 50),
+  placa base horizontal 20/52 (25 pares), cazoleta Ø35 × 12 (25), perno Ø8 × 34 (283), receptor Ø5 × 11 (279),
+  ranuras BP 6 × 6 / 6 × 5,5, lightSlot 18 × 11 (11), correderas Ø3 × 2 (48). La diseñadora no aplicó lo pedido.
+- Etiquetas: `paquete.py` → `PENDRIVE/12_COCINA_MLV/maestra.json` (125 piezas, 125 EAN-13 válidos) →
+  `etiquetas.py --orden 260625-20 --cliente MALVINAS` → `etiquetas/etiquetas_60x40.pdf` (125 páginas de 60 × 40)
+  y `etiquetas_A4.pdf`. `PRUEBA_IMPRESORA_1_etiqueta.pdf` = una sola (pdfseparate de la primera) para probar la
+  AIBAO. QR verificado por decodificación (opencv); el EAN-13 es el mismo widget de reportlab de siempre.
+- `etiquetas.py`: nombres de material NEstructura / NPetfrente / NFondo / STRUCTURE / PETFRONT / BACKGROUND
+  traducidos (antes salía "NEstructura" en la etiqueta).
+- Códigos raros de la Alacena spar en GuiGui (8041309384202, 3041309384214, 4041309384220…): primer dígito distinto
+  en cada pieza, pero todos EAN-13 válidos y únicos. Se usan tal cual.

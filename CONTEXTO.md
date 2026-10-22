@@ -183,6 +183,7 @@ No se compra: fresa de ranurar Ø9 (se diseña con ranuras de 10).
 | Historia: cómo se llegó a cada cosa | `BITACORA.md` |
 | Diseñar un mueble nuevo | skill **`mueble-nuevo`** |
 | Planos de un mueble de GuiGui | `etapa2/planos.py` (ver `etapa2/README.md`) · salidas en `planos/` |
+| COCINA MLV para fabricar (etiquetas, maestra, planos de IDEE) | `PENDRIVE/12_COCINA_MLV/LEEME.md` |
 
 **Contactos**
 

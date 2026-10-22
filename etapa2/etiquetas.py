@@ -29,7 +29,10 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfgen import canvas
 
 TEXTURAS = {u"白麻面": "blanco lino", u"暖白": "blanco cálido", u"玛雅灰": "gris maya", u"拉丝胡桃": "nogal"}
-MATERIALES = {u"多层实木": "multilaminado", u"装饰板": "fondo 5 mm"}
+MATERIALES = {u"多层实木": "multilaminado", u"装饰板": "fondo 5 mm",
+              "NEstructura": "estructura 18", "STRUCTURE": "estructura 18",
+              "NPetfrente": "PET frente 18", "PETFRONT": "PET frente 18", "18PETFRONT": "PET frente 18 (?)",
+              "NFondo": "fondo 5", "BACKGROUND": "fondo 5"}
 CJK = "STSong-Light"
 
 

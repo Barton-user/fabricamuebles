@@ -1,0 +1,7463 @@
+{
+ "ambiente": "COCINA MLV",
+ "orden": "30346169",
+ "version": "5.0.0.5global-4",
+ "muebles": [
+  {
+   "indice": 0,
+   "nombre": "Horno y anafe",
+   "piezas": [
+    {
+     "codigo": "1956217421314",
+     "nombre": "Lateral 780x580x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Horno y anafe_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       350,
+       -580,
+       90
+      ],
+      [
+       368,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "1956217421307",
+     "nombre": "Lateral 780x580x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Horno y anafe_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       932,
+       -580,
+       90
+      ],
+      [
+       950,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "1956217421345",
+     "nombre": "Piso 564x562x18",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "Horno y anafe_Base01",
+     "tipo": "Piso",
+     "W": 562,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 562,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 561,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       368,
+       -562,
+       90
+      ],
+      [
+       932,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "1956217421352",
+     "nombre": "Zócalo 564x59x18",
+     "nombre_guigui": "Listón inferior delantero01",
+     "nombre_largo": "Horno y anafe_Listón inferior delantero01",
+     "tipo": "Zócalo",
+     "W": 564,
+     "H": 59,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 59,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 57,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -580,
+       90
+      ],
+      [
+       932,
+       -562,
+       149
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "1956217421321",
+     "nombre": "Travesaño 564x150x18",
+     "nombre_guigui": "Listón superior trasero01",
+     "nombre_largo": "Horno y anafe_Listón superior trasero01",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 148,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -18,
+       720
+      ],
+      [
+       932,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "1956217421338",
+     "nombre": "Travesaño 564x51x18",
+     "nombre_guigui": "Listón superior delantero01",
+     "nombre_largo": "Horno y anafe_Listón superior delantero01",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 51,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 51,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 49,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -580,
+       749
+      ],
+      [
+       932,
+       -562,
+       800
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    }
+   ],
+   "herrajes": {
+    "excentricas": 18,
+    "pernos": 18,
+    "receptores": 0,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     350.0,
+     -580.0,
+     90.0
+    ],
+    [
+     950.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 780,
+   "prof": 580
+  },
+  {
+   "indice": 1,
+   "nombre": "Uñero",
+   "piezas": [
+    {
+     "codigo": "1956217421420",
+     "nombre": "Uñero 2482x50x18",
+     "nombre_guigui": "Listón02",
+     "nombre_largo": "Uñero_Listón02",
+     "tipo": "Uñero",
+     "W": 50,
+     "H": 2482,
+     "T": 18,
+     "dibujo_W": 50,
+     "dibujo_H": 2482,
+     "aviso": "",
+     "corte_W": 48,
+     "corte_H": 2480,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       68,
+       -580,
+       800
+      ],
+      [
+       2550,
+       -530,
+       818
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      -1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "1956217421413",
+     "nombre": "Uñero 2482x52x18",
+     "nombre_guigui": "Listón01",
+     "nombre_largo": "Uñero_Listón01",
+     "tipo": "Uñero",
+     "W": 52,
+     "H": 2482,
+     "T": 18,
+     "dibujo_W": 52,
+     "dibujo_H": 2482,
+     "aviso": "",
+     "corte_W": 51,
+     "corte_H": 2480,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       68,
+       -580,
+       818
+      ],
+      [
+       2550,
+       -562,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    }
+   ],
+   "herrajes": {
+    "excentricas": 6,
+    "pernos": 6,
+    "receptores": 0,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     68.0,
+     -580.0,
+     800.0
+    ],
+    [
+     2550.0,
+     -530.0,
+     870.0
+    ]
+   ],
+   "ancho": 2482,
+   "alto": 70,
+   "prof": 50
+  },
+  {
+   "indice": 2,
+   "nombre": "Alacena microondas01",
+   "piezas": [
+    {
+     "codigo": "2112206381727",
+     "nombre": "Lateral 840.5x400x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Alacena microondas01_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       950,
+       -400,
+       1531.5
+      ],
+      [
+       968,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2112206381734",
+     "nombre": "Lateral 840.5x400x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Alacena microondas01_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1532,
+       -400,
+       1531.5
+      ],
+      [
+       1550,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2112206381741",
+     "nombre": "Piso 600x400x18",
+     "nombre_guigui": "Tapa inferior01",
+     "nombre_largo": "Alacena microondas01_Tapa inferior01",
+     "tipo": "Piso",
+     "W": 400,
+     "H": 600,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 600,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 598,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       950,
+       -400,
+       1513.5
+      ],
+      [
+       1550,
+       0,
+       1531.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       600
+      ]
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2112206381802",
+     "nombre": "Estante 564x377x18",
+     "nombre_guigui": "Estante01",
+     "nombre_largo": "Alacena microondas01_Estante01",
+     "tipo": "Estante",
+     "W": 377,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 377,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 376,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       968,
+       -400,
+       1857.21
+      ],
+      [
+       1532,
+       -23,
+       1875.21
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2112206381772",
+     "nombre": "Estante 564x367x18",
+     "nombre_guigui": "Estante02",
+     "nombre_largo": "Alacena microondas01_Estante02",
+     "tipo": "Estante",
+     "W": 367,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 367,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 366,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       968,
+       -390,
+       2137.87
+      ],
+      [
+       1532,
+       -23,
+       2155.87
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2112206381710",
+     "nombre": "Techo 600x400x18",
+     "nombre_guigui": "Tapa superior01",
+     "nombre_largo": "Alacena microondas01_Tapa superior01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 600,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 600,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 598,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       950,
+       -400,
+       2372
+      ],
+      [
+       1550,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       600
+      ]
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "2112206381796",
+     "nombre": "Travesaño 564x146.36x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "Alacena microondas01_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 146.36,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 146.36,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 145.36,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       968,
+       -18,
+       1531.5
+      ],
+      [
+       1532,
+       0,
+       1677.86
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "2112206381789",
+     "nombre": "Fondo 850.5x574x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "Alacena microondas01_Back panel01",
+     "tipo": "Fondo",
+     "W": 574,
+     "H": 850.5,
+     "T": 5,
+     "dibujo_W": 564,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 574,
+     "corte_H": 850.5,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       968,
+       -23,
+       1531.5
+      ],
+      [
+       1532,
+       -18,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "2112206381758",
+     "nombre": "Puerta 597x554.79x18",
+     "nombre_guigui": "Unica",
+     "nombre_largo": "Alacena microondas01_Unica",
+     "tipo": "Puerta",
+     "W": 597,
+     "H": 554.79,
+     "T": 18,
+     "dibujo_W": 597,
+     "dibujo_H": 554.79,
+     "aviso": "",
+     "corte_W": 595,
+     "corte_H": 552.79,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       951.5,
+       -418,
+       1833.71
+      ],
+      [
+       1548.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    }
+   ],
+   "herrajes": {
+    "excentricas": 22,
+    "pernos": 22,
+    "receptores": 0,
+    "bisagras": 2,
+    "tornillos_bisagra": 8,
+    "led": [
+     600,
+     600
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     950.0,
+     -418.0,
+     1513.5
+    ],
+    [
+     1550.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 876.5,
+   "prof": 418
+  },
+  {
+   "indice": 3,
+   "nombre": "Alacena doble",
+   "piezas": [
+    {
+     "codigo": "2112485522354",
+     "nombre": "Lateral 840.5x400x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Alacena doble_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1550,
+       -400,
+       1531.5
+      ],
+      [
+       1568,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2112485522361",
+     "nombre": "Lateral 840.5x400x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Alacena doble_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       2532,
+       -400,
+       1531.5
+      ],
+      [
+       2550,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2112485522378",
+     "nombre": "Piso 1000x400x18",
+     "nombre_guigui": "Tapa inferior01",
+     "nombre_largo": "Alacena doble_Tapa inferior01",
+     "tipo": "Piso",
+     "W": 400,
+     "H": 1000,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 1000,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 998,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1550,
+       -400,
+       1513.5
+      ],
+      [
+       2550,
+       0,
+       1531.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       1000
+      ]
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2112485522422",
+     "nombre": "Estante 964x370x18",
+     "nombre_guigui": "Estante01",
+     "nombre_largo": "Alacena doble_Estante01",
+     "tipo": "Estante",
+     "W": 370,
+     "H": 964,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 964,
+     "aviso": "GuiGui dibuja 400x964 pero corta 370x964 (spec)",
+     "corte_W": 369,
+     "corte_H": 964,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1568,
+       -400,
+       1942.75
+      ],
+      [
+       2532,
+       0,
+       1960.75
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2112485522347",
+     "nombre": "Techo 1000x400x18",
+     "nombre_guigui": "Tapa superior01",
+     "nombre_largo": "Alacena doble_Tapa superior01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 1000,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 1000,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 998,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1550,
+       -400,
+       2372
+      ],
+      [
+       2550,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       1000
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2112485522446",
+     "nombre": "Travesaño 964x146.78x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "Alacena doble_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 964,
+     "H": 146.78,
+     "T": 18,
+     "dibujo_W": 964,
+     "dibujo_H": 146.78,
+     "aviso": "",
+     "corte_W": 964,
+     "corte_H": 145.78,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       1568,
+       -18,
+       1531.5
+      ],
+      [
+       2532,
+       0,
+       1678.28
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 7,
+      "pernos": 7,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "2112485522439",
+     "nombre": "Fondo 964x840.5x5",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Alacena doble_Fondo01",
+     "tipo": "Fondo",
+     "W": 964,
+     "H": 840.5,
+     "T": 5,
+     "dibujo_W": 964,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 964,
+     "corte_H": 840.5,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       1568,
+       -23,
+       1531.5
+      ],
+      [
+       2532,
+       -18,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "2112485522385",
+     "nombre": "Puerta 898.5x497x18 A",
+     "nombre_guigui": "Izquierda",
+     "nombre_largo": "Alacena doble_Izquierda",
+     "tipo": "Puerta",
+     "W": 497,
+     "H": 898.5,
+     "T": 18,
+     "dibujo_W": 497,
+     "dibujo_H": 898.5,
+     "aviso": "",
+     "corte_W": 495,
+     "corte_H": 896.5,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       1551.5,
+       -418,
+       1490
+      ],
+      [
+       2048.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "2112485522408",
+     "nombre": "Puerta 898.5x497x18 B",
+     "nombre_guigui": "Derecha",
+     "nombre_largo": "Alacena doble_Derecha",
+     "tipo": "Puerta",
+     "W": 497,
+     "H": 898.5,
+     "T": 18,
+     "dibujo_W": 497,
+     "dibujo_H": 898.5,
+     "aviso": "",
+     "corte_W": 495,
+     "corte_H": 896.5,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       2051.5,
+       -418,
+       1490
+      ],
+      [
+       2548.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    }
+   ],
+   "herrajes": {
+    "excentricas": 19,
+    "pernos": 19,
+    "receptores": 0,
+    "bisagras": 4,
+    "tornillos_bisagra": 16,
+    "led": [
+     1000,
+     1000
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     1550.0,
+     -418.0,
+     1490.0
+    ],
+    [
+     2550.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 1000,
+   "alto": 900,
+   "prof": 418
+  },
+  {
+   "indice": 4,
+   "nombre": "Alacena simple",
+   "piezas": [
+    {
+     "codigo": "2113263803658",
+     "nombre": "Lateral 840.5x400x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Alacena simple_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       2550,
+       -400,
+       1531.5
+      ],
+      [
+       2568,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2113263803665",
+     "nombre": "Lateral 840.5x400x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Alacena simple_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3182,
+       -400,
+       1531.5
+      ],
+      [
+       3200,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2113263803672",
+     "nombre": "Piso 650x400x18",
+     "nombre_guigui": "Tapa inferior01",
+     "nombre_largo": "Alacena simple_Tapa inferior01",
+     "tipo": "Piso",
+     "W": 400,
+     "H": 650,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 650,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 648,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       2550,
+       -400,
+       1513.5
+      ],
+      [
+       3200,
+       0,
+       1531.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       650
+      ]
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2113263803702",
+     "nombre": "Estante 614x367x18",
+     "nombre_guigui": "Estante01",
+     "nombre_largo": "Alacena simple_Estante01",
+     "tipo": "Estante",
+     "W": 367,
+     "H": 614,
+     "T": 18,
+     "dibujo_W": 367,
+     "dibujo_H": 614,
+     "aviso": "",
+     "corte_W": 366,
+     "corte_H": 614,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       2568,
+       -390,
+       1942.75
+      ],
+      [
+       3182,
+       -23,
+       1960.75
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2113263803641",
+     "nombre": "Techo 650x400x18",
+     "nombre_guigui": "Tapa superior01",
+     "nombre_largo": "Alacena simple_Tapa superior01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 650,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 650,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 648,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       2550,
+       -400,
+       2372
+      ],
+      [
+       3200,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       650
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2113263803726",
+     "nombre": "Travesaño 614x146.78x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "Alacena simple_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 614,
+     "H": 146.78,
+     "T": 18,
+     "dibujo_W": 614,
+     "dibujo_H": 146.78,
+     "aviso": "",
+     "corte_W": 614,
+     "corte_H": 145.78,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       2568,
+       -18,
+       1531.5
+      ],
+      [
+       3182,
+       0,
+       1678.28
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 7,
+      "pernos": 7,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "2113263803719",
+     "nombre": "Fondo 850.5x624x5",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Alacena simple_Fondo01",
+     "tipo": "Fondo",
+     "W": 624,
+     "H": 850.5,
+     "T": 5,
+     "dibujo_W": 614,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 624,
+     "corte_H": 850.5,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       2568,
+       -23,
+       1531.5
+      ],
+      [
+       3182,
+       -18,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "2113263803689",
+     "nombre": "Puerta 898.5x647x18",
+     "nombre_guigui": "Derecha",
+     "nombre_largo": "Alacena simple_Derecha",
+     "tipo": "Puerta",
+     "W": 647,
+     "H": 898.5,
+     "T": 18,
+     "dibujo_W": 647,
+     "dibujo_H": 898.5,
+     "aviso": "",
+     "corte_W": 645,
+     "corte_H": 896.5,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       2551.5,
+       -418,
+       1490
+      ],
+      [
+       3198.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    }
+   ],
+   "herrajes": {
+    "excentricas": 19,
+    "pernos": 19,
+    "receptores": 0,
+    "bisagras": 2,
+    "tornillos_bisagra": 8,
+    "led": [
+     650,
+     650
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     2550.0,
+     -418.0,
+     1490.0
+    ],
+    [
+     3200.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 650,
+   "alto": 900,
+   "prof": 418
+  },
+  {
+   "indice": 5,
+   "nombre": "Alacena s/heladera",
+   "piezas": [
+    {
+     "codigo": "2113802794676",
+     "nombre": "Lateral 600x388x18",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Alacena s/heladera_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 600,
+     "H": 388.0,
+     "T": 18,
+     "dibujo_W": 600,
+     "dibujo_H": 388.0,
+     "aviso": "",
+     "corte_W": 599,
+     "corte_H": 388.0,
+     "material": "PETFRONT",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3200,
+       -600,
+       2002.0
+      ],
+      [
+       3218,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2113802794683",
+     "nombre": "Lateral 600x370x18",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Alacena s/heladera_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 600,
+     "H": 370.0,
+     "T": 18,
+     "dibujo_W": 600,
+     "dibujo_H": 370.0,
+     "aviso": "",
+     "corte_W": 599,
+     "corte_H": 370.0,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3882,
+       -600,
+       2002.0
+      ],
+      [
+       3900,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 3,
+      "pernos": 3,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2113802794690",
+     "nombre": "Piso 664x600x18",
+     "nombre_guigui": "Tapa inferior01",
+     "nombre_largo": "Alacena s/heladera_Tapa inferior01",
+     "tipo": "Piso",
+     "W": 600,
+     "H": 664,
+     "T": 18,
+     "dibujo_W": 600,
+     "dibujo_H": 664,
+     "aviso": "",
+     "corte_W": 599,
+     "corte_H": 664,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3218,
+       -600,
+       2002.0
+      ],
+      [
+       3882,
+       0,
+       2020.0
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2113802794669",
+     "nombre": "Techo 682x600x18",
+     "nombre_guigui": "Tapa superior01",
+     "nombre_largo": "Alacena s/heladera_Tapa superior01",
+     "tipo": "Techo",
+     "W": 600,
+     "H": 682,
+     "T": 18,
+     "dibujo_W": 600,
+     "dibujo_H": 682,
+     "aviso": "",
+     "corte_W": 599,
+     "corte_H": 681,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3218,
+       -600,
+       2372
+      ],
+      [
+       3900,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 3,
+      "pernos": 3,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       682
+      ]
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2113802794720",
+     "nombre": "Fondo 674x362x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "Alacena s/heladera_Back panel01",
+     "tipo": "Fondo",
+     "W": 674,
+     "H": 362,
+     "T": 5,
+     "dibujo_W": 664,
+     "dibujo_H": 352.0,
+     "aviso": "",
+     "corte_W": 674,
+     "corte_H": 362,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       3218,
+       -23,
+       2020.0
+      ],
+      [
+       3882,
+       -18,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2113802794706",
+     "nombre": "Puerta 697x410x18",
+     "nombre_guigui": "Superior",
+     "nombre_largo": "Alacena s/heladera_Superior",
+     "tipo": "Puerta",
+     "W": 697,
+     "H": 410.0,
+     "T": 18,
+     "dibujo_W": 697,
+     "dibujo_H": 410.0,
+     "aviso": "",
+     "corte_W": 695,
+     "corte_H": 408.0,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       3201.5,
+       -618,
+       1978.5
+      ],
+      [
+       3898.5,
+       -600,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    }
+   ],
+   "herrajes": {
+    "excentricas": 12,
+    "pernos": 12,
+    "receptores": 0,
+    "bisagras": 2,
+    "tornillos_bisagra": 8,
+    "led": [
+     682
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     3200.0,
+     -618.0,
+     1978.5001220703125
+    ],
+    [
+     3900.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 700,
+   "alto": 411.5,
+   "prof": 618
+  },
+  {
+   "indice": 6,
+   "nombre": "Escobero",
+   "piezas": [
+    {
+     "codigo": "2114155255005",
+     "nombre": "Zócalo 482x90x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Escobero_Banquina01_Lateral izquierdo01",
+     "tipo": "Zócalo",
+     "W": 482.0,
+     "H": 90,
+     "T": 18,
+     "dibujo_W": 482.0,
+     "dibujo_H": 90,
+     "aviso": "",
+     "corte_W": 482.0,
+     "corte_H": 90,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3900,
+       -500.0,
+       0
+      ],
+      [
+       3918,
+       -18,
+       90
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2114155255012",
+     "nombre": "Zócalo 482x90x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Escobero_Banquina01_Lateral derecho01",
+     "tipo": "Zócalo",
+     "W": 482.0,
+     "H": 90,
+     "T": 18,
+     "dibujo_W": 482.0,
+     "dibujo_H": 90,
+     "aviso": "",
+     "corte_W": 482.0,
+     "corte_H": 90,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       4232,
+       -500.0,
+       0
+      ],
+      [
+       4250,
+       -18,
+       90
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2114155254923",
+     "nombre": "Lateral 2282x600x18",
+     "nombre_guigui": "Listón izquierdo01",
+     "nombre_largo": "Escobero_Listón izquierdo01",
+     "tipo": "Lateral",
+     "W": 600.0,
+     "H": 2282,
+     "T": 18,
+     "dibujo_W": 600.0,
+     "dibujo_H": 2282,
+     "aviso": "",
+     "corte_W": 599.0,
+     "corte_H": 2282,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3900,
+       -600.0,
+       90
+      ],
+      [
+       3918,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 5,
+      "pernos": 5,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2114155254930",
+     "nombre": "Parante 2264x600x18",
+     "nombre_guigui": "Listón derecho01",
+     "nombre_largo": "Escobero_Listón derecho01",
+     "tipo": "Parante",
+     "W": 600.0,
+     "H": 2264,
+     "T": 18,
+     "dibujo_W": 600.0,
+     "dibujo_H": 2264,
+     "aviso": "",
+     "corte_W": 599.0,
+     "corte_H": 2264,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       4182,
+       -600.0,
+       108
+      ],
+      [
+       4200,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 10,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2114155255029",
+     "nombre": "Estante 600x332x18",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "Escobero_Base01",
+     "tipo": "Estante",
+     "W": 600.0,
+     "H": 332,
+     "T": 18,
+     "dibujo_W": 600.0,
+     "dibujo_H": 332,
+     "aviso": "",
+     "corte_W": 599.0,
+     "corte_H": 331,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3918,
+       -600.0,
+       90
+      ],
+      [
+       4250,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 3,
+      "pernos": 3,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2114155255081",
+     "nombre": "Estante 577x264x18 A",
+     "nombre_guigui": "Estante01",
+     "nombre_largo": "Escobero_Estante01",
+     "tipo": "Estante",
+     "W": 577.0,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 577.0,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 576.0,
+     "corte_H": 264,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3918,
+       -600.0,
+       1508.1
+      ],
+      [
+       4182,
+       -23,
+       1526.1
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "2114155255050",
+     "nombre": "Estante 577x264x18 B",
+     "nombre_guigui": "Estante02",
+     "nombre_largo": "Escobero_Estante02",
+     "tipo": "Estante",
+     "W": 577.0,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 577.0,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 576.0,
+     "corte_H": 264,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3918,
+       -600.0,
+       1526.1
+      ],
+      [
+       4182,
+       -23,
+       1544.1
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "2114155255043",
+     "nombre": "Estante 577x264x18 C",
+     "nombre_guigui": "Estante03",
+     "nombre_largo": "Escobero_Estante03",
+     "tipo": "Estante",
+     "W": 577.0,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 577.0,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 576.0,
+     "corte_H": 264,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3918,
+       -600.0,
+       1948.75
+      ],
+      [
+       4182,
+       -23,
+       1966.75
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "2114155254916",
+     "nombre": "Techo 600x350x18",
+     "nombre_guigui": "Tapa superior01",
+     "nombre_largo": "Escobero_Tapa superior01",
+     "tipo": "Techo",
+     "W": 600.0,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 600.0,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 599.0,
+     "corte_H": 348,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       3900,
+       -600.0,
+       2372
+      ],
+      [
+       4250,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       350
+      ]
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "2114155254992",
+     "nombre": "Zócalo 350x90x18 A",
+     "nombre_guigui": "Frente01",
+     "nombre_largo": "Escobero_Banquina01_Frente01",
+     "tipo": "Zócalo",
+     "W": 90,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 90,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 90,
+     "corte_H": 350,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       3900,
+       -518.0,
+       0
+      ],
+      [
+       4250,
+       -500.0,
+       90
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    },
+    {
+     "codigo": "2114155254985",
+     "nombre": "Zócalo 350x90x18 B",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Escobero_Banquina01_Fondo01",
+     "tipo": "Zócalo",
+     "W": 90,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 90,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 90,
+     "corte_H": 350,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       3900,
+       -18,
+       0
+      ],
+      [
+       4250,
+       0,
+       90
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 11
+    },
+    {
+     "codigo": "2114155255098",
+     "nombre": "Tapa 2264x50x18",
+     "nombre_guigui": "Ajuste01",
+     "nombre_largo": "Escobero_Listón01_Ajuste01",
+     "tipo": "Tapa",
+     "W": 50,
+     "H": 2264,
+     "T": 18,
+     "dibujo_W": 50,
+     "dibujo_H": 2264,
+     "aviso": "",
+     "corte_W": 49,
+     "corte_H": 2264,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       4200,
+       -600.0,
+       108
+      ],
+      [
+       4250,
+       -582.0,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 9,
+      "pernos": 9,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 12
+    },
+    {
+     "codigo": "2114155254961",
+     "nombre": "Travesaño 264x154.97x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "Escobero_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 264,
+     "H": 154.97,
+     "T": 18,
+     "dibujo_W": 264,
+     "dibujo_H": 154.97,
+     "aviso": "",
+     "corte_W": 264,
+     "corte_H": 152.97,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       3918,
+       -18,
+       1160.44
+      ],
+      [
+       4182,
+       0,
+       1315.41
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 13
+    },
+    {
+     "codigo": "2114155255036",
+     "nombre": "Fondo 2274x274x5",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Escobero_Fondo01",
+     "tipo": "Fondo",
+     "W": 274,
+     "H": 2274,
+     "T": 5,
+     "dibujo_W": 264,
+     "dibujo_H": 2264,
+     "aviso": "",
+     "corte_W": 274,
+     "corte_H": 2274,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       3918,
+       -23,
+       108
+      ],
+      [
+       4182,
+       -18,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 14
+    },
+    {
+     "codigo": "2114155255067",
+     "nombre": "Puerta 1433.1x297x18",
+     "nombre_guigui": "Derecha",
+     "nombre_largo": "Escobero_Derecha",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 1433.1,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 1433.1,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 1431.1,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       3901.5,
+       -618.0,
+       91.5
+      ],
+      [
+       4198.5,
+       -600.0,
+       1524.6
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 3,
+      "tornillos_bisagra": 6,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 15
+    },
+    {
+     "codigo": "2114155254947",
+     "nombre": "Puerta 860.9x297x18",
+     "nombre_guigui": "Derecha",
+     "nombre_largo": "Escobero_Derecha",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 860.9,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 860.9,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 858.9,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       3901.5,
+       -618.0,
+       1527.6
+      ],
+      [
+       4198.5,
+       -600.0,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 16
+    }
+   ],
+   "herrajes": {
+    "excentricas": 53,
+    "pernos": 53,
+    "receptores": 0,
+    "bisagras": 5,
+    "tornillos_bisagra": 20,
+    "led": [
+     350
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     3900.0,
+     -618.000244140625,
+     0.0
+    ],
+    [
+     4250.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 350,
+   "alto": 2390,
+   "prof": 618.0
+  },
+  {
+   "indice": 7,
+   "nombre": "Lavarropa",
+   "piezas": [
+    {
+     "codigo": "2114601905492",
+     "nombre": "Lateral 870x580x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Lavarropa_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 870,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 870,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 870,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       2550,
+       -580,
+       0
+      ],
+      [
+       2568,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2114601905508",
+     "nombre": "Lateral 870x580x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Lavarropa_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 870,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 870,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 870,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       3182,
+       -580,
+       0
+      ],
+      [
+       3200,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2114601905539",
+     "nombre": "Travesaño 614x150x18 C",
+     "nombre_guigui": "Listón superior horizontal01",
+     "nombre_largo": "Lavarropa_Listón superior horizontal01",
+     "tipo": "Travesaño",
+     "W": 150,
+     "H": 614,
+     "T": 18,
+     "dibujo_W": 150,
+     "dibujo_H": 614,
+     "aviso": "",
+     "corte_W": 149,
+     "corte_H": 614,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       2568,
+       -580,
+       852
+      ],
+      [
+       3182,
+       -430,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2114601905522",
+     "nombre": "Travesaño 614x150x18 A",
+     "nombre_guigui": "Listón inferior trasero01",
+     "nombre_largo": "Lavarropa_Listón inferior trasero01",
+     "tipo": "Travesaño",
+     "W": 614,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 614,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 614,
+     "corte_H": 148,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       2568,
+       -18,
+       0
+      ],
+      [
+       3182,
+       0,
+       150
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2114601905515",
+     "nombre": "Travesaño 614x150x18 B",
+     "nombre_guigui": "Listón superior trasero01",
+     "nombre_largo": "Lavarropa_Listón superior trasero01",
+     "tipo": "Travesaño",
+     "W": 614,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 614,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 614,
+     "corte_H": 148,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       2568,
+       -18,
+       720
+      ],
+      [
+       3182,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    }
+   ],
+   "herrajes": {
+    "excentricas": 12,
+    "pernos": 12,
+    "receptores": 0,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     2550.0,
+     -580.0,
+     0.0
+    ],
+    [
+     3200.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 650,
+   "alto": 870,
+   "prof": 580
+  },
+  {
+   "indice": 8,
+   "nombre": "Bajo mesada doble c/cesto",
+   "piezas": [
+    {
+     "codigo": "2114715075951",
+     "nombre": "Lateral 780x580x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Bajo mesada doble c/cesto_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1550,
+       -580,
+       90
+      ],
+      [
+       1568,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2114715075968",
+     "nombre": "Lateral 780x580x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Bajo mesada doble c/cesto_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       2532,
+       -580,
+       90
+      ],
+      [
+       2550,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2114715075975",
+     "nombre": "Piso 964x580x18",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "Bajo mesada doble c/cesto_Base01",
+     "tipo": "Piso",
+     "W": 580,
+     "H": 964,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 964,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 964,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1568,
+       -580,
+       90
+      ],
+      [
+       2532,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2114715075982",
+     "nombre": "Estante 964x580x18",
+     "nombre_guigui": "Estante01",
+     "nombre_largo": "Bajo mesada doble c/cesto_Estante01",
+     "tipo": "Estante",
+     "W": 580,
+     "H": 964,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 964,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 964,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       1568,
+       -580,
+       480
+      ],
+      [
+       2532,
+       0,
+       498
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 5,
+      "pernos": 5,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2114715076057",
+     "nombre": "Travesaño 964x150x18",
+     "nombre_guigui": "Listón superior01",
+     "nombre_largo": "Bajo mesada doble c/cesto_Listón superior01",
+     "tipo": "Travesaño",
+     "W": 964,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 964,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 964,
+     "corte_H": 149,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       1568,
+       -18,
+       720
+      ],
+      [
+       2532,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2114715076040",
+     "nombre": "Fondo 974x382x5",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Bajo mesada doble c/cesto_Fondo01",
+     "tipo": "Fondo",
+     "W": 974,
+     "H": 382,
+     "T": 5,
+     "dibujo_W": 964,
+     "dibujo_H": 372,
+     "aviso": "",
+     "corte_W": 974,
+     "corte_H": 382,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       1568,
+       -10,
+       108
+      ],
+      [
+       2532,
+       -5,
+       480
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "2114715076033",
+     "nombre": "Fondo 974x232x5",
+     "nombre_guigui": "Fondo02",
+     "nombre_largo": "Bajo mesada doble c/cesto_Fondo02",
+     "tipo": "Fondo",
+     "W": 974,
+     "H": 232,
+     "T": 5,
+     "dibujo_W": 964,
+     "dibujo_H": 222,
+     "aviso": "",
+     "corte_W": 974,
+     "corte_H": 232,
+     "material": "装饰板",
+     "textura": "d02白麻面",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       1568,
+       -10,
+       498
+      ],
+      [
+       2532,
+       -5,
+       720
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "2114715075999",
+     "nombre": "Puerta 744x497x18 A",
+     "nombre_guigui": "Izquierda",
+     "nombre_largo": "Bajo mesada doble c/cesto_Izquierda",
+     "tipo": "Puerta",
+     "W": 497,
+     "H": 744,
+     "T": 18,
+     "dibujo_W": 497,
+     "dibujo_H": 744,
+     "aviso": "",
+     "corte_W": 495,
+     "corte_H": 742,
+     "material": "NPetfrente",
+     "textura": "PET Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       1551.5,
+       -598,
+       91.5
+      ],
+      [
+       2048.5,
+       -580,
+       835.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "2114715076019",
+     "nombre": "Puerta 744x497x18 B",
+     "nombre_guigui": "Derecha",
+     "nombre_largo": "Bajo mesada doble c/cesto_Derecha",
+     "tipo": "Puerta",
+     "W": 497,
+     "H": 744,
+     "T": 18,
+     "dibujo_W": 497,
+     "dibujo_H": 744,
+     "aviso": "",
+     "corte_W": 495,
+     "corte_H": 742,
+     "material": "NPetfrente",
+     "textura": "PET Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       2051.5,
+       -598,
+       91.5
+      ],
+      [
+       2548.5,
+       -580,
+       835.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    }
+   ],
+   "herrajes": {
+    "excentricas": 15,
+    "pernos": 15,
+    "receptores": 0,
+    "bisagras": 4,
+    "tornillos_bisagra": 16,
+    "led": [],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     1550.0,
+     -598.0,
+     90.0
+    ],
+    [
+     2550.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 1000,
+   "alto": 780,
+   "prof": 598
+  },
+  {
+   "indice": 9,
+   "nombre": "00-Bandejero",
+   "piezas": [
+    {
+     "codigo": "2115070657400",
+     "nombre": "Parante 780x562x18",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "00-Bandejero_Lateral izquierdo01",
+     "tipo": "Parante",
+     "W": 562,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 562,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 561,
+     "corte_H": 778,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       50,
+       -562,
+       90
+      ],
+      [
+       68,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 3,
+      "pernos": 3,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2115070657394",
+     "nombre": "Lateral 780x580x18",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "00-Bandejero_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       332,
+       -580,
+       90
+      ],
+      [
+       350,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2115070657455",
+     "nombre": "Parante 450x300x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "00-Bandejero_Cajón01_Lateral izquierdo01",
+     "tipo": "Parante",
+     "W": 300,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       81,
+       -580,
+       133
+      ],
+      [
+       99,
+       -130,
+       433
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2115070657448",
+     "nombre": "Parante 450x300x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "00-Bandejero_Cajón01_Lateral derecho01",
+     "tipo": "Parante",
+     "W": 300,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       301,
+       -580,
+       133
+      ],
+      [
+       319,
+       -130,
+       433
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2115070657387",
+     "nombre": "Piso 580x264x18",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "00-Bandejero_Base01",
+     "tipo": "Piso",
+     "W": 580,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 264,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       68,
+       -580,
+       90
+      ],
+      [
+       332,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 5,
+      "pernos": 5,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2115070657493",
+     "nombre": "Tapa 780x68x18",
+     "nombre_guigui": "Listón de ajuste01",
+     "nombre_largo": "00-Bandejero_Listón de ajuste01",
+     "tipo": "Tapa",
+     "W": 68,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 68,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 67,
+     "corte_H": 778,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       0,
+       -580,
+       90
+      ],
+      [
+       68,
+       -562,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "2115070657424",
+     "nombre": "Tapa 745x297x18",
+     "nombre_guigui": "Tapa01",
+     "nombre_largo": "00-Bandejero_Cajón01_Tapa01",
+     "tipo": "Tapa",
+     "W": 745,
+     "H": 297,
+     "T": 18,
+     "dibujo_W": 745,
+     "dibujo_H": 297,
+     "aviso": "",
+     "corte_W": 743,
+     "corte_H": 295,
+     "material": "NPetfrente",
+     "textura": "PET Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       51.5,
+       -598,
+       91.5
+      ],
+      [
+       348.5,
+       -580,
+       836.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "2115070657431",
+     "nombre": "Tapa 300x202x18 A",
+     "nombre_guigui": "Frente01",
+     "nombre_largo": "00-Bandejero_Cajón01_Frente01",
+     "tipo": "Tapa",
+     "W": 300,
+     "H": 202,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 202,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 202,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       99,
+       -580,
+       133
+      ],
+      [
+       301,
+       -562,
+       433
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "2115070657462",
+     "nombre": "Tapa 300x202x18 B",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "00-Bandejero_Cajón01_Fondo01",
+     "tipo": "Tapa",
+     "W": 300,
+     "H": 202,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 202,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 202,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       99,
+       -148,
+       133
+      ],
+      [
+       301,
+       -130,
+       433
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "2115070657417",
+     "nombre": "Travesaño 264x150x18",
+     "nombre_guigui": "Listón superior01",
+     "nombre_largo": "00-Bandejero_Listón superior01",
+     "tipo": "Travesaño",
+     "W": 264,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 264,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 264,
+     "corte_H": 148,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       68,
+       -18,
+       720
+      ],
+      [
+       332,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    },
+    {
+     "codigo": "2115070657486",
+     "nombre": "Fondo 617x274x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Bandejero_Back panel01",
+     "tipo": "Fondo",
+     "W": 274,
+     "H": 617,
+     "T": 5,
+     "dibujo_W": 264,
+     "dibujo_H": 612,
+     "aviso": "",
+     "corte_W": 274,
+     "corte_H": 617,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       68,
+       -23,
+       108
+      ],
+      [
+       332,
+       -18,
+       720
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 11
+    },
+    {
+     "codigo": "2115070657479",
+     "nombre": "Fondo caja 424x212x5",
+     "nombre_guigui": "Drawer base board01",
+     "nombre_largo": "00-Bandejero_Cajón01_Drawer base board01",
+     "tipo": "Fondo caja",
+     "W": 424,
+     "H": 212,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 202,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 212,
+     "material": "装饰板",
+     "textura": "01暖白",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       99,
+       -562,
+       148
+      ],
+      [
+       301,
+       -148,
+       153
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 12
+    }
+   ],
+   "herrajes": {
+    "excentricas": 20,
+    "pernos": 20,
+    "receptores": 0,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 1,
+    "correderas_largo": "450mm",
+    "tornillos_corredera": 12
+   },
+   "caja": [
+    [
+     0.0,
+     -598.0,
+     90.0
+    ],
+    [
+     350.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 350,
+   "alto": 780,
+   "prof": 598
+  },
+  {
+   "indice": 10,
+   "nombre": "Cajonera",
+   "piezas": [
+    {
+     "codigo": "2196217048046",
+     "nombre": "Lateral 780x580x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Cajonera_Lateral izquierdo01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       950,
+       -580,
+       90
+      ],
+      [
+       968,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "2196217048039",
+     "nombre": "Lateral 780x580x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Cajonera_Lateral derecho01",
+     "tipo": "Lateral",
+     "W": 580,
+     "H": 780,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 780,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 780,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1532,
+       -580,
+       90
+      ],
+      [
+       1550,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "2196217048206",
+     "nombre": "Travesaño 450x152x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Cajonera_Cajón01_Lateral izquierdo01",
+     "tipo": "Travesaño",
+     "W": 152,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       981,
+       -580,
+       128
+      ],
+      [
+       999,
+       -130,
+       280
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "2196217048190",
+     "nombre": "Travesaño 450x152x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Cajonera_Cajón01_Lateral derecho01",
+     "tipo": "Travesaño",
+     "W": 152,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1501,
+       -580,
+       128
+      ],
+      [
+       1519,
+       -130,
+       280
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2196217048145",
+     "nombre": "Travesaño 450x130x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Cajonera_Cajón02_Lateral izquierdo01",
+     "tipo": "Travesaño",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       981,
+       -580,
+       485
+      ],
+      [
+       999,
+       -130,
+       615
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2196217048138",
+     "nombre": "Travesaño 450x130x18 C",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Cajonera_Cajón02_Lateral derecho01",
+     "tipo": "Travesaño",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1501,
+       -580,
+       485
+      ],
+      [
+       1519,
+       -130,
+       615
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "2196217048084",
+     "nombre": "Travesaño 450x130x18 B",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Cajonera_Cajón03_Lateral izquierdo01",
+     "tipo": "Travesaño",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       981,
+       -580,
+       665
+      ],
+      [
+       999,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "2196217048077",
+     "nombre": "Travesaño 450x130x18 D",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Cajonera_Cajón03_Lateral derecho01",
+     "tipo": "Travesaño",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       1501,
+       -580,
+       665
+      ],
+      [
+       1519,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "2196217048022",
+     "nombre": "Piso 580x564x18",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "Cajonera_Base01",
+     "tipo": "Piso",
+     "W": 580,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 580,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 579,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       968,
+       -580,
+       90
+      ],
+      [
+       1532,
+       0,
+       108
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "2196217048244",
+     "nombre": "Travesaño 564x58x18",
+     "nombre_guigui": "Listón uñero01",
+     "nombre_largo": "Cajonera_Listón uñero01",
+     "tipo": "Travesaño",
+     "W": 58,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 58,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 57,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       968,
+       -580,
+       372
+      ],
+      [
+       1532,
+       -522,
+       390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    },
+    {
+     "codigo": "2196217048176",
+     "nombre": "Tapa 597x315x18",
+     "nombre_guigui": "Tapa01",
+     "nombre_largo": "Cajonera_Cajón01_Tapa01",
+     "tipo": "Tapa",
+     "W": 315,
+     "H": 597,
+     "T": 18,
+     "dibujo_W": 315,
+     "dibujo_H": 597,
+     "aviso": "",
+     "corte_W": 313,
+     "corte_H": 595,
+     "material": "NPetfrente",
+     "textura": "PET Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       951.5,
+       -598,
+       91.5
+      ],
+      [
+       1548.5,
+       -580,
+       406.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 11
+    },
+    {
+     "codigo": "2196217048183",
+     "nombre": "Travesaño 502x152x18 A",
+     "nombre_guigui": "Frente01",
+     "nombre_largo": "Cajonera_Cajón01_Frente01",
+     "tipo": "Travesaño",
+     "W": 152,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       999,
+       -580,
+       128
+      ],
+      [
+       1501,
+       -562,
+       280
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 12
+    },
+    {
+     "codigo": "2196217048213",
+     "nombre": "Travesaño 502x152x18 B",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Cajonera_Cajón01_Fondo01",
+     "tipo": "Travesaño",
+     "W": 152,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       999,
+       -148,
+       128
+      ],
+      [
+       1501,
+       -130,
+       280
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 13
+    },
+    {
+     "codigo": "2196217048251",
+     "nombre": "Travesaño 564x68x18",
+     "nombre_guigui": "Listón uñero02",
+     "nombre_largo": "Cajonera_Listón uñero02",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 68,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 68,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 67,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       968,
+       -540,
+       390
+      ],
+      [
+       1532,
+       -522,
+       458
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 14
+    },
+    {
+     "codigo": "2196217048114",
+     "nombre": "Travesaño 597x195x18 A",
+     "nombre_guigui": "Tapa01",
+     "nombre_largo": "Cajonera_Cajón02_Tapa01",
+     "tipo": "Travesaño",
+     "W": 195,
+     "H": 597,
+     "T": 18,
+     "dibujo_W": 195,
+     "dibujo_H": 597,
+     "aviso": "",
+     "corte_W": 193,
+     "corte_H": 595,
+     "material": "NPetfrente",
+     "textura": "PET Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       951.5,
+       -598,
+       443.5
+      ],
+      [
+       1548.5,
+       -580,
+       638.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 15
+    },
+    {
+     "codigo": "2196217048121",
+     "nombre": "Travesaño 502x130x18 A",
+     "nombre_guigui": "Frente01",
+     "nombre_largo": "Cajonera_Cajón02_Frente01",
+     "tipo": "Travesaño",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       999,
+       -580,
+       485
+      ],
+      [
+       1501,
+       -562,
+       615
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 16
+    },
+    {
+     "codigo": "2196217048152",
+     "nombre": "Travesaño 502x130x18 B",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Cajonera_Cajón02_Fondo01",
+     "tipo": "Travesaño",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       999,
+       -148,
+       485
+      ],
+      [
+       1501,
+       -130,
+       615
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 17
+    },
+    {
+     "codigo": "2196217048053",
+     "nombre": "Travesaño 597x195x18 B",
+     "nombre_guigui": "Tapa01",
+     "nombre_largo": "Cajonera_Cajón03_Tapa01",
+     "tipo": "Travesaño",
+     "W": 195,
+     "H": 597,
+     "T": 18,
+     "dibujo_W": 195,
+     "dibujo_H": 597,
+     "aviso": "",
+     "corte_W": 193,
+     "corte_H": 595,
+     "material": "NPetfrente",
+     "textura": "PET Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       951.5,
+       -598,
+       641.5
+      ],
+      [
+       1548.5,
+       -580,
+       836.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 18
+    },
+    {
+     "codigo": "2196217048060",
+     "nombre": "Travesaño 502x130x18 C",
+     "nombre_guigui": "Frente01",
+     "nombre_largo": "Cajonera_Cajón03_Frente01",
+     "tipo": "Travesaño",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       999,
+       -580,
+       665
+      ],
+      [
+       1501,
+       -562,
+       795
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 19
+    },
+    {
+     "codigo": "2196217048091",
+     "nombre": "Travesaño 502x130x18 D",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Cajonera_Cajón03_Fondo01",
+     "tipo": "Travesaño",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       999,
+       -148,
+       665
+      ],
+      [
+       1501,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 20
+    },
+    {
+     "codigo": "2196217048237",
+     "nombre": "Travesaño 564x150x18",
+     "nombre_guigui": "Listón superior01",
+     "nombre_largo": "Cajonera_Listón superior01",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 148,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       968,
+       -18,
+       720
+      ],
+      [
+       1532,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 21
+    },
+    {
+     "codigo": "2196217048220",
+     "nombre": "Fondo 512x424x5 A",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "Cajonera_Cajón01_Base01",
+     "tipo": "Fondo",
+     "W": 424,
+     "H": 512,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 512,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       999,
+       -562,
+       143
+      ],
+      [
+       1501,
+       -148,
+       148
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 22
+    },
+    {
+     "codigo": "2196217048169",
+     "nombre": "Fondo 512x424x5 B",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "Cajonera_Cajón02_Base01",
+     "tipo": "Fondo",
+     "W": 424,
+     "H": 512,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 512,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       999,
+       -562,
+       500
+      ],
+      [
+       1501,
+       -148,
+       505
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 23
+    },
+    {
+     "codigo": "2196217048107",
+     "nombre": "Fondo 512x424x5 C",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "Cajonera_Cajón03_Base01",
+     "tipo": "Fondo",
+     "W": 424,
+     "H": 512,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 512,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       999,
+       -562,
+       680
+      ],
+      [
+       1501,
+       -148,
+       685
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 24
+    }
+   ],
+   "herrajes": {
+    "excentricas": 44,
+    "pernos": 44,
+    "receptores": 0,
+    "bisagras": 0,
+    "tornillos_bisagra": 0,
+    "led": [],
+    "correderas_pares": 3,
+    "correderas_largo": "450mm",
+    "tornillos_corredera": 36
+   },
+   "caja": [
+    [
+     950.0,
+     -598.0,
+     90.0
+    ],
+    [
+     1550.0,
+     0.0,
+     870.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 780,
+   "prof": 598
+  },
+  {
+   "indice": 11,
+   "nombre": "Alacena simple ajuste",
+   "piezas": [
+    {
+     "codigo": "3717179022593",
+     "nombre": "Parante 840.5x400x18",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Alacena simple ajuste_Lateral izquierdo01",
+     "tipo": "Parante",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "NPetfrente",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       50,
+       -400,
+       1531.5
+      ],
+      [
+       68,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "3717179022609",
+     "nombre": "Lateral 840.5x400x18",
+     "nombre_guigui": "Lateral derecha01",
+     "nombre_largo": "Alacena simple ajuste_Lateral derecha01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 840.5,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 840.5,
+     "material": "NPetfrente",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       332,
+       -400,
+       1531.5
+      ],
+      [
+       350,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "3717179022678",
+     "nombre": "Piso 400x350x18",
+     "nombre_guigui": "Tapa inferior01",
+     "nombre_largo": "Alacena simple ajuste_Tapa inferior01",
+     "tipo": "Piso",
+     "W": 400,
+     "H": 350,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 350,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 348,
+     "material": "NPetfrente",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       0,
+       -400,
+       1513.5
+      ],
+      [
+       350,
+       0,
+       1531.5
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       350
+      ]
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "3717179022630",
+     "nombre": "Estante 367x264x18",
+     "nombre_guigui": "Estante01",
+     "nombre_largo": "Alacena simple ajuste_Estante01",
+     "tipo": "Estante",
+     "W": 367,
+     "H": 264,
+     "T": 18,
+     "dibujo_W": 367,
+     "dibujo_H": 264,
+     "aviso": "",
+     "corte_W": 366,
+     "corte_H": 264,
+     "material": "NPetfrente",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       68,
+       -390,
+       1942.75
+      ],
+      [
+       332,
+       -23,
+       1960.75
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "3717179022586",
+     "nombre": "Techo 400x300x18",
+     "nombre_guigui": "Tapa superior01",
+     "nombre_largo": "Alacena simple ajuste_Tapa superior01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 300,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 300,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 299,
+     "material": "NPetfrente",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       50,
+       -400,
+       2372
+      ],
+      [
+       350,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       300
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "3717179022661",
+     "nombre": "Tapa 876.5x50x18",
+     "nombre_guigui": "Listón de ajuste01",
+     "nombre_largo": "Alacena simple ajuste_Listón de ajuste01",
+     "tipo": "Tapa",
+     "W": 50,
+     "H": 876.5,
+     "T": 18,
+     "dibujo_W": 50,
+     "dibujo_H": 876.5,
+     "aviso": "",
+     "corte_W": 49,
+     "corte_H": 874.5,
+     "material": "NPetfrente",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       0,
+       -400,
+       1513.5
+      ],
+      [
+       50,
+       -382,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 3,
+      "pernos": 3,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "3717179022654",
+     "nombre": "Travesaño 264x140x18",
+     "nombre_guigui": "Vertical Partition01",
+     "nombre_largo": "Alacena simple ajuste_Vertical Partition01",
+     "tipo": "Travesaño",
+     "W": 264,
+     "H": 140,
+     "T": 18,
+     "dibujo_W": 264,
+     "dibujo_H": 140,
+     "aviso": "",
+     "corte_W": 264,
+     "corte_H": 138,
+     "material": "多层实木",
+     "textura": "13玛雅灰",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       68,
+       -18,
+       1531.5
+      ],
+      [
+       332,
+       0,
+       1671.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "3717179022647",
+     "nombre": "Fondo 845.5x274x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "Alacena simple ajuste_Back panel01",
+     "tipo": "Fondo",
+     "W": 274,
+     "H": 845.5,
+     "T": 5,
+     "dibujo_W": 264,
+     "dibujo_H": 840.5,
+     "aviso": "",
+     "corte_W": 274,
+     "corte_H": 845.5,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       68,
+       -23,
+       1531.5
+      ],
+      [
+       332,
+       -18,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "3717179022616",
+     "nombre": "Puerta 898.5x297x18",
+     "nombre_guigui": "Izquierda",
+     "nombre_largo": "Alacena simple ajuste_Izquierda",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 898.5,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 898.5,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 896.5,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       51.5,
+       -418,
+       1490
+      ],
+      [
+       348.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    }
+   ],
+   "herrajes": {
+    "excentricas": 19,
+    "pernos": 19,
+    "receptores": 0,
+    "bisagras": 2,
+    "tornillos_bisagra": 8,
+    "led": [
+     350,
+     300
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     0.0,
+     -418.0,
+     1490.0
+    ],
+    [
+     350.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 350,
+   "alto": 900,
+   "prof": 418
+  },
+  {
+   "indice": 12,
+   "nombre": "Alacena spar",
+   "piezas": [
+    {
+     "codigo": "3041309384214",
+     "nombre": "Lateral 776.02x400x18 A",
+     "nombre_guigui": "Lateral izquierda01",
+     "nombre_largo": "Alacena spar_Lateral izquierda01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 776.02,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 776.02,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 776.02,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       350,
+       -400,
+       1595.98
+      ],
+      [
+       368,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 1
+    },
+    {
+     "codigo": "4041309384220",
+     "nombre": "Lateral 776.02x400x18 B",
+     "nombre_guigui": "Lateral derecha01",
+     "nombre_largo": "Alacena spar_Lateral derecha01",
+     "tipo": "Lateral",
+     "W": 400,
+     "H": 776.02,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 776.02,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 776.02,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 10,
+     "caja": [
+      [
+       932,
+       -400,
+       1595.98
+      ],
+      [
+       950,
+       0,
+       2372
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 2,
+      "pernos": 2,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 2
+    },
+    {
+     "codigo": "7041309384289",
+     "nombre": "Estante 564x400x18",
+     "nombre_guigui": "Tapa inferior01",
+     "nombre_largo": "Alacena spar_Tapa inferior01",
+     "tipo": "Estante",
+     "W": 400,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       368,
+       -400,
+       1700.82
+      ],
+      [
+       932,
+       0,
+       1718.82
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 3
+    },
+    {
+     "codigo": "6041309384273",
+     "nombre": "Estante 564x390x18",
+     "nombre_guigui": "Estante01",
+     "nombre_largo": "Alacena spar_Estante01",
+     "tipo": "Estante",
+     "W": 390,
+     "H": 564,
+     "T": 18,
+     "dibujo_W": 390,
+     "dibujo_H": 564,
+     "aviso": "",
+     "corte_W": 389,
+     "corte_H": 564,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 1.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       368,
+       -400,
+       2036.41
+      ],
+      [
+       932,
+       -10,
+       2054.41
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "8041309384202",
+     "nombre": "Techo 600x400x18",
+     "nombre_guigui": "Tapa superior01",
+     "nombre_largo": "Alacena spar_Tapa superior01",
+     "tipo": "Techo",
+     "W": 400,
+     "H": 600,
+     "T": 18,
+     "dibujo_W": 400,
+     "dibujo_H": 600,
+     "aviso": "",
+     "corte_W": 399,
+     "corte_H": 598,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 20,
+     "caja": [
+      [
+       350,
+       -400,
+       2372
+      ],
+      [
+       950,
+       0,
+       2390
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": [
+       600
+      ]
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2041309384307",
+     "nombre": "Zócalo 564x104.84x18 A",
+     "nombre_guigui": "Listón01",
+     "nombre_largo": "Alacena spar_Listón01",
+     "tipo": "Zócalo",
+     "W": 564,
+     "H": 104.84,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 104.84,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 103.84,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -400,
+       1595.98
+      ],
+      [
+       932,
+       -382,
+       1700.82
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
+    },
+    {
+     "codigo": "5041309384311",
+     "nombre": "Zócalo 564x104.84x18 B",
+     "nombre_guigui": "Listón02",
+     "nombre_largo": "Alacena spar_Listón02",
+     "tipo": "Zócalo",
+     "W": 564,
+     "H": 104.84,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 104.84,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 103.84,
+     "material": "NEstructura",
+     "textura": "Gris",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       368,
+       -18,
+       1595.98
+      ],
+      [
+       932,
+       0,
+       1700.82
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 7
+    },
+    {
+     "codigo": "1041309384292",
+     "nombre": "Fondo 663.18x574x5",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Alacena spar_Fondo01",
+     "tipo": "Fondo",
+     "W": 574,
+     "H": 663.18,
+     "T": 5,
+     "dibujo_W": 564,
+     "dibujo_H": 653.18,
+     "aviso": "",
+     "corte_W": 574,
+     "corte_H": 663.18,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       368,
+       -10,
+       1718.82
+      ],
+      [
+       932,
+       -5,
+       2372
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "8041309384233",
+     "nombre": "Puerta 711.18x297x18 A",
+     "nombre_guigui": "Izquierda",
+     "nombre_largo": "Alacena spar_Izquierda",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 711.18,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 711.18,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 709.18,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       351.5,
+       -418,
+       1677.32
+      ],
+      [
+       648.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "5041309384250",
+     "nombre": "Puerta 711.18x297x18 B",
+     "nombre_guigui": "Derecha",
+     "nombre_largo": "Alacena spar_Derecha",
+     "tipo": "Puerta",
+     "W": 297,
+     "H": 711.18,
+     "T": 18,
+     "dibujo_W": 297,
+     "dibujo_H": 711.18,
+     "aviso": "",
+     "corte_W": 295,
+     "corte_H": 709.18,
+     "material": "NPetfrente",
+     "textura": "PET Gris",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "rol": "PUERTA",
+     "categoria": 40,
+     "caja": [
+      [
+       651.5,
+       -418,
+       1677.32
+      ],
+      [
+       948.5,
+       -400,
+       2388.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 2,
+      "tornillos_bisagra": 4,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
+    }
+   ],
+   "herrajes": {
+    "excentricas": 24,
+    "pernos": 24,
+    "receptores": 0,
+    "bisagras": 4,
+    "tornillos_bisagra": 16,
+    "led": [
+     600
+    ],
+    "correderas_pares": 0,
+    "correderas_largo": "",
+    "tornillos_corredera": 0
+   },
+   "caja": [
+    [
+     350.0,
+     -418.0,
+     1595.980702543046
+    ],
+    [
+     950.0,
+     0.0,
+     2390.0
+    ]
+   ],
+   "ancho": 600,
+   "alto": 794.02,
+   "prof": 418
+  }
+ ]
+}
