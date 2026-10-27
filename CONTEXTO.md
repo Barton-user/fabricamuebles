@@ -154,7 +154,8 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 9 | **Router**: primera prueba física (cuadrado 100, decide si los `.nc` de GuiGui necesitan encabezado `G43`), cargar y medir las fresas en el almacén, medir mesa útil. Fresas ya identificadas: 8 × Ø10 rectas de 1/2", Ø6, Ø8 | `docs/ROUTER_SKG912.md` · `PENDRIVE/7_ROUTER_PRUEBA/LEEME.txt` |
 | 10 | Curvado: probetas por material, primera pieza real, cantos en zona curva | `docs/CURVADO.md` |
 | 10b | **Impresora de etiquetas: el sensor de gap de la AIBAO no funciona** (diagnóstico 26/10, ver bitácora). Reclamo o impresora de marca; mientras, modo continuo por módulo con `etapa2/etiquetas_tspl.py` | `docs/SIERRA_AUTOCUT.md` · `BITACORA.md` 26–27/10 |
-| 10c | **COCINA MLV a producción** (paquete listo 27/10): cortar, probar en la máquina las 13 piezas en dos pasos (o un paso con `XML3_PRUEBA_UN_PASO/`), la ranura LED 18 × 11 por abajo, perforar a mano las 4 piezas de menos de 50, ranura de canto y recortes a mano, banquina del Escobero sin geometría. Avisar a la diseñadora: materiales de muestra (多层实木, 装饰板, PETFRONT) y herrajes viejos. Web de cada pieza en `leiten.vercel.app/p/<codigo>` (funcionando) | `PENDRIVE/12_COCINA_MLV/LEEME.md` · `docs/CURVADO.md` |
+| 10c | **COCINA MLV a producción** (paquete listo 27/10): cortar, probar en la máquina las 13 piezas en dos pasos (o un paso con `XML3_PRUEBA_UN_PASO/`), la ranura LED 18 × 11 por abajo, perforar a mano las 4 piezas de menos de 50, ranura de canto y recortes a mano, banquina del Escobero sin geometría. Avisar a la diseñadora: materiales de muestra (多层实木, 装饰板, PETFRONT) y herrajes viejos. Web de cada pieza en `leiten.vercel.app/p/<codigo>` (funcionando, queda hasta que la reemplace el portal) |
+| 10d | **Portal de ingeniería**: los muebles van al portal (Hemma, un proyecto por ambiente, carga automática por API, etiquetas y ficha por QR generadas en el portal). Acá: paquete listo (`etapa2/paquete_portal.py`, `PENDRIVE/12_COCINA_MLV/portal/`); falta `subir_portal.py` cuando el portal tenga el endpoint y la API key | `docs/PORTAL_INGENIERIA.md` | `PENDRIVE/12_COCINA_MLV/LEEME.md` · `docs/CURVADO.md` |
 | 11 | **Cocina de Jujuy (COCINA-01)**: medir en mano y ajustar en la receta: altura real del visor y posición de la salida Ø150 de la SDC-100; alturas de las rejillas del escurreplatos LC-560 y medidas del cubiertero; plantilla de calado de la bacha Tawak 55 (supuesto 530×440); confirmar que el visor banca el frente de madera; comprar pistones 60 N / 80–100 N; `.nc` o caladora para pasos del ducto, escotaduras y rincones; `PonerHerrajes` sigue con placa base 20/52 (recetas ya 37/±16) | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
 
 ---
@@ -191,6 +192,7 @@ No se compra: fresa de ranurar Ø9 (se diseña con ranuras de 10).
 | Diseñar un mueble nuevo | skill **`mueble-nuevo`** |
 | Planos de un mueble de GuiGui | `etapa2/planos.py` (ver `etapa2/README.md`) · salidas en `planos/` |
 | Paquete de producción desde el render de GuiGui (sin Fusion) | `etapa2/generar_desde_render.sh` (ver `etapa2/README.md`) |
+| **Portal de ingeniería** (ingenieria.leiten.com.ar, empresa Hemma): qué le manda FABRICA MUEBLES | `docs/PORTAL_INGENIERIA.md` · `etapa2/paquete_portal.py`. El código del portal se trabaja en otra conversación, no desde acá |
 | COCINA MLV para fabricar (etiquetas, maestra, planos de IDEE) | `PENDRIVE/12_COCINA_MLV/LEEME.md` |
 
 **Contactos**

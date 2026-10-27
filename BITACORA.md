@@ -2081,3 +2081,18 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - Todo junto en `etapa2/generar_desde_render.sh`. Salida y lista de lo que queda a mano en
   `PENDRIVE/12_COCINA_MLV/LEEME.md`: 4 piezas de menos de 50 de ancho, 1 ranura de canto, 9 piezas con recorte,
   ranura LED 18×11 por abajo (11 piezas, primera vez), banquina del Escobero sin geometría en GuiGui.
+
+## 27/10/2026 (noche) — Integración con el portal de ingeniería (Documentacion-grupo-leiten)
+
+- Analizado el portal (`~/Downloads/BARTON IRAM/Documentacion-grupo-leiten`, copia local del 27/09; no se tocó
+  código): Next.js en ingenieria.leiten.com.ar, multiempresa con Hemma, maestro de códigos con árbol, revisiones
+  liberadas, portal de fabricación por pieza y máquina, avance y reportes. Falta: entrada por código (QR),
+  login que vuelva a la pieza, ficha de celular, carga automática, máquina perforadora 6 caras.
+- Decidido con Pato: Hemma, un proyecto por ambiente, carga automática por API, planos IDEE + mecanizado,
+  etiquetas generadas en el portal, QR mixto (básico sin login, el resto por permisos). leiten.vercel.app queda
+  hasta que ande el portal. **El portal se programa en otra conversación; desde acá sólo FABRICA MUEBLES.**
+- `docs/PORTAL_INGENIERIA.md`: especificación para la otra conversación (mapeo al modelo, formato del paquete
+  `fabrica-muebles/paquete@1`, qué tiene que hacer el portal, etiqueta, máquinas, qué se ve sin login).
+- `etapa2/paquete_portal.py`: arma el ZIP. COCINA MLV: 13 módulos, 125 piezas, 697 archivos, 17 MB; planos de
+  IDEE partidos por hoja y vinculados por código (125/125), planos de mecanizado verificados por código (125/125).
+- `id_etiqueta` (= `plkId` de GuiGui, el "ID" de los planos de IDEE) agregado a la maestra: coincide en las 125.

@@ -314,6 +314,7 @@ def _pieza_de(nodo, datos, anchor_abs, hdv, mueble, ambiente):
     pz.ez = cruz(pz.ex, pz.ey)
     pz.nombre = datos.get("name") or nodo.get("name") or "placa"
     pz.codigo = str(datos.get("plankNum") or "")
+    pz.plkId = datos.get("plkId") or nodo.get("plkId")     # "ID etiqueta" de GuiGui / planos de IDEE (1448)
     pz.plankName = datos.get("plankName") or ("%s_%s" % (mueble, pz.nombre))
     pz.textura = datos.get("texImg") or ""
     pz.spec = datos.get("spec") or ""

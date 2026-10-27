@@ -263,7 +263,7 @@ def maestra(ruta_render, modelos=None):
             except Exception:
                 pass
             piezas.append(dict(
-                codigo=pz.codigo, nombre=pz.nombre, nombre_guigui=pz.nombre, nombre_largo=pz.plankName,
+                codigo=pz.codigo, id_etiqueta=getattr(pz, "plkId", None), nombre=pz.nombre, nombre_guigui=pz.nombre, nombre_largo=pz.plankName,
                 tipo=_tipo(pz, es_cajon, caja_m, bmin, bmax),
                 W=_n(W), H=_n(H), T=_n(pz.T), dibujo_W=_n(pz.W), dibujo_H=_n(pz.H), aviso=aviso,
                 corte_W=_n(W - izq - der), corte_H=_n(H - ab - ar),

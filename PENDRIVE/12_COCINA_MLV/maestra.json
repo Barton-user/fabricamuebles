@@ -9,6 +9,7 @@
    "piezas": [
     {
      "codigo": "1956217421314",
+     "id_etiqueta": 1442,
      "nombre": "Lateral 780x580x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Horno y anafe_Lateral izquierdo01",
@@ -66,6 +67,7 @@
     },
     {
      "codigo": "1956217421307",
+     "id_etiqueta": 1441,
      "nombre": "Lateral 780x580x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Horno y anafe_Lateral derecho01",
@@ -123,6 +125,7 @@
     },
     {
      "codigo": "1956217421345",
+     "id_etiqueta": 1448,
      "nombre": "Piso 564x562x18",
      "nombre_guigui": "Base01",
      "nombre_largo": "Horno y anafe_Base01",
@@ -180,6 +183,7 @@
     },
     {
      "codigo": "1956217421352",
+     "id_etiqueta": 1451,
      "nombre": "Zócalo 564x59x18",
      "nombre_guigui": "Listón inferior delantero01",
      "nombre_largo": "Horno y anafe_Listón inferior delantero01",
@@ -237,6 +241,7 @@
     },
     {
      "codigo": "1956217421321",
+     "id_etiqueta": 1443,
      "nombre": "Travesaño 564x150x18",
      "nombre_guigui": "Listón superior trasero01",
      "nombre_largo": "Horno y anafe_Listón superior trasero01",
@@ -294,6 +299,7 @@
     },
     {
      "codigo": "1956217421338",
+     "id_etiqueta": 1446,
      "nombre": "Travesaño 564x51x18",
      "nombre_guigui": "Listón superior delantero01",
      "nombre_largo": "Horno y anafe_Listón superior delantero01",
@@ -383,6 +389,7 @@
    "piezas": [
     {
      "codigo": "1956217421420",
+     "id_etiqueta": 996,
      "nombre": "Uñero 2482x50x18",
      "nombre_guigui": "Listón02",
      "nombre_largo": "Uñero_Listón02",
@@ -440,6 +447,7 @@
     },
     {
      "codigo": "1956217421413",
+     "id_etiqueta": 995,
      "nombre": "Uñero 2482x52x18",
      "nombre_guigui": "Listón01",
      "nombre_largo": "Uñero_Listón01",
@@ -529,6 +537,7 @@
    "piezas": [
     {
      "codigo": "2112206381727",
+     "id_etiqueta": 1782,
      "nombre": "Lateral 840.5x400x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Alacena microondas01_Lateral izquierdo01",
@@ -586,6 +595,7 @@
     },
     {
      "codigo": "2112206381734",
+     "id_etiqueta": 1783,
      "nombre": "Lateral 840.5x400x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Alacena microondas01_Lateral derecho01",
@@ -643,6 +653,7 @@
     },
     {
      "codigo": "2112206381741",
+     "id_etiqueta": 1784,
      "nombre": "Piso 600x400x18",
      "nombre_guigui": "Tapa inferior01",
      "nombre_largo": "Alacena microondas01_Tapa inferior01",
@@ -702,6 +713,7 @@
     },
     {
      "codigo": "2112206381802",
+     "id_etiqueta": 1735,
      "nombre": "Estante 564x377x18",
      "nombre_guigui": "Estante01",
      "nombre_largo": "Alacena microondas01_Estante01",
@@ -759,6 +771,7 @@
     },
     {
      "codigo": "2112206381772",
+     "id_etiqueta": 1787,
      "nombre": "Estante 564x367x18",
      "nombre_guigui": "Estante02",
      "nombre_largo": "Alacena microondas01_Estante02",
@@ -816,6 +829,7 @@
     },
     {
      "codigo": "2112206381710",
+     "id_etiqueta": 1781,
      "nombre": "Techo 600x400x18",
      "nombre_guigui": "Tapa superior01",
      "nombre_largo": "Alacena microondas01_Tapa superior01",
@@ -875,6 +889,7 @@
     },
     {
      "codigo": "2112206381796",
+     "id_etiqueta": 1789,
      "nombre": "Travesaño 564x146.36x18",
      "nombre_guigui": "Vertical Partition01",
      "nombre_largo": "Alacena microondas01_Vertical Partition01",
@@ -932,6 +947,7 @@
     },
     {
      "codigo": "2112206381789",
+     "id_etiqueta": 1788,
      "nombre": "Fondo 850.5x574x5",
      "nombre_guigui": "Back panel01",
      "nombre_largo": "Alacena microondas01_Back panel01",
@@ -989,6 +1005,7 @@
     },
     {
      "codigo": "2112206381758",
+     "id_etiqueta": 1785,
      "nombre": "Puerta 597x554.79x18",
      "nombre_guigui": "Unica",
      "nombre_largo": "Alacena microondas01_Unica",
@@ -1081,6 +1098,7 @@
    "piezas": [
     {
      "codigo": "2112485522354",
+     "id_etiqueta": 1018,
      "nombre": "Lateral 840.5x400x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Alacena doble_Lateral izquierdo01",
@@ -1138,6 +1156,7 @@
     },
     {
      "codigo": "2112485522361",
+     "id_etiqueta": 1019,
      "nombre": "Lateral 840.5x400x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Alacena doble_Lateral derecho01",
@@ -1195,6 +1214,7 @@
     },
     {
      "codigo": "2112485522378",
+     "id_etiqueta": 1020,
      "nombre": "Piso 1000x400x18",
      "nombre_guigui": "Tapa inferior01",
      "nombre_largo": "Alacena doble_Tapa inferior01",
@@ -1254,6 +1274,7 @@
     },
     {
      "codigo": "2112485522422",
+     "id_etiqueta": 1055,
      "nombre": "Estante 964x370x18",
      "nombre_guigui": "Estante01",
      "nombre_largo": "Alacena doble_Estante01",
@@ -1311,6 +1332,7 @@
     },
     {
      "codigo": "2112485522347",
+     "id_etiqueta": 1017,
      "nombre": "Techo 1000x400x18",
      "nombre_guigui": "Tapa superior01",
      "nombre_largo": "Alacena doble_Tapa superior01",
@@ -1370,6 +1392,7 @@
     },
     {
      "codigo": "2112485522446",
+     "id_etiqueta": 1284,
      "nombre": "Travesaño 964x146.78x18",
      "nombre_guigui": "Vertical Partition01",
      "nombre_largo": "Alacena doble_Vertical Partition01",
@@ -1427,6 +1450,7 @@
     },
     {
      "codigo": "2112485522439",
+     "id_etiqueta": 1247,
      "nombre": "Fondo 964x840.5x5",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Alacena doble_Fondo01",
@@ -1484,6 +1508,7 @@
     },
     {
      "codigo": "2112485522385",
+     "id_etiqueta": 1790,
      "nombre": "Puerta 898.5x497x18 A",
      "nombre_guigui": "Izquierda",
      "nombre_largo": "Alacena doble_Izquierda",
@@ -1541,6 +1566,7 @@
     },
     {
      "codigo": "2112485522408",
+     "id_etiqueta": 1287,
      "nombre": "Puerta 898.5x497x18 B",
      "nombre_guigui": "Derecha",
      "nombre_largo": "Alacena doble_Derecha",
@@ -1633,6 +1659,7 @@
    "piezas": [
     {
      "codigo": "2113263803658",
+     "id_etiqueta": 1027,
      "nombre": "Lateral 840.5x400x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Alacena simple_Lateral izquierdo01",
@@ -1690,6 +1717,7 @@
     },
     {
      "codigo": "2113263803665",
+     "id_etiqueta": 1028,
      "nombre": "Lateral 840.5x400x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Alacena simple_Lateral derecho01",
@@ -1747,6 +1775,7 @@
     },
     {
      "codigo": "2113263803672",
+     "id_etiqueta": 1029,
      "nombre": "Piso 650x400x18",
      "nombre_guigui": "Tapa inferior01",
      "nombre_largo": "Alacena simple_Tapa inferior01",
@@ -1806,6 +1835,7 @@
     },
     {
      "codigo": "2113263803702",
+     "id_etiqueta": 1057,
      "nombre": "Estante 614x367x18",
      "nombre_guigui": "Estante01",
      "nombre_largo": "Alacena simple_Estante01",
@@ -1863,6 +1893,7 @@
     },
     {
      "codigo": "2113263803641",
+     "id_etiqueta": 1026,
      "nombre": "Techo 650x400x18",
      "nombre_guigui": "Tapa superior01",
      "nombre_largo": "Alacena simple_Tapa superior01",
@@ -1922,6 +1953,7 @@
     },
     {
      "codigo": "2113263803726",
+     "id_etiqueta": 1285,
      "nombre": "Travesaño 614x146.78x18",
      "nombre_guigui": "Vertical Partition01",
      "nombre_largo": "Alacena simple_Vertical Partition01",
@@ -1979,6 +2011,7 @@
     },
     {
      "codigo": "2113263803719",
+     "id_etiqueta": 1245,
      "nombre": "Fondo 850.5x624x5",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Alacena simple_Fondo01",
@@ -2036,6 +2069,7 @@
     },
     {
      "codigo": "2113263803689",
+     "id_etiqueta": 1031,
      "nombre": "Puerta 898.5x647x18",
      "nombre_guigui": "Derecha",
      "nombre_largo": "Alacena simple_Derecha",
@@ -2128,6 +2162,7 @@
    "piezas": [
     {
      "codigo": "2113802794676",
+     "id_etiqueta": 1068,
      "nombre": "Lateral 600x388x18",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Alacena s/heladera_Lateral izquierdo01",
@@ -2185,6 +2220,7 @@
     },
     {
      "codigo": "2113802794683",
+     "id_etiqueta": 1069,
      "nombre": "Lateral 600x370x18",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Alacena s/heladera_Lateral derecho01",
@@ -2242,6 +2278,7 @@
     },
     {
      "codigo": "2113802794690",
+     "id_etiqueta": 1070,
      "nombre": "Piso 664x600x18",
      "nombre_guigui": "Tapa inferior01",
      "nombre_largo": "Alacena s/heladera_Tapa inferior01",
@@ -2299,6 +2336,7 @@
     },
     {
      "codigo": "2113802794669",
+     "id_etiqueta": 1067,
      "nombre": "Techo 682x600x18",
      "nombre_guigui": "Tapa superior01",
      "nombre_largo": "Alacena s/heladera_Tapa superior01",
@@ -2358,6 +2396,7 @@
     },
     {
      "codigo": "2113802794720",
+     "id_etiqueta": 1079,
      "nombre": "Fondo 674x362x5",
      "nombre_guigui": "Back panel01",
      "nombre_largo": "Alacena s/heladera_Back panel01",
@@ -2415,6 +2454,7 @@
     },
     {
      "codigo": "2113802794706",
+     "id_etiqueta": 1419,
      "nombre": "Puerta 697x410x18",
      "nombre_guigui": "Superior",
      "nombre_largo": "Alacena s/heladera_Superior",
@@ -2506,6 +2546,7 @@
    "piezas": [
     {
      "codigo": "2114155255005",
+     "id_etiqueta": 1712,
      "nombre": "Zócalo 482x90x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Escobero_Banquina01_Lateral izquierdo01",
@@ -2563,6 +2604,7 @@
     },
     {
      "codigo": "2114155255012",
+     "id_etiqueta": 1713,
      "nombre": "Zócalo 482x90x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Escobero_Banquina01_Lateral derecho01",
@@ -2620,6 +2662,7 @@
     },
     {
      "codigo": "2114155254923",
+     "id_etiqueta": 1048,
      "nombre": "Lateral 2282x600x18",
      "nombre_guigui": "Listón izquierdo01",
      "nombre_largo": "Escobero_Listón izquierdo01",
@@ -2677,6 +2720,7 @@
     },
     {
      "codigo": "2114155254930",
+     "id_etiqueta": 1064,
      "nombre": "Parante 2264x600x18",
      "nombre_guigui": "Listón derecho01",
      "nombre_largo": "Escobero_Listón derecho01",
@@ -2734,6 +2778,7 @@
     },
     {
      "codigo": "2114155255029",
+     "id_etiqueta": 1387,
      "nombre": "Estante 600x332x18",
      "nombre_guigui": "Base01",
      "nombre_largo": "Escobero_Base01",
@@ -2791,6 +2836,7 @@
     },
     {
      "codigo": "2114155255081",
+     "id_etiqueta": 1395,
      "nombre": "Estante 577x264x18 A",
      "nombre_guigui": "Estante01",
      "nombre_largo": "Escobero_Estante01",
@@ -2848,6 +2894,7 @@
     },
     {
      "codigo": "2114155255050",
+     "id_etiqueta": 1392,
      "nombre": "Estante 577x264x18 B",
      "nombre_guigui": "Estante02",
      "nombre_largo": "Escobero_Estante02",
@@ -2905,6 +2952,7 @@
     },
     {
      "codigo": "2114155255043",
+     "id_etiqueta": 1391,
      "nombre": "Estante 577x264x18 C",
      "nombre_guigui": "Estante03",
      "nombre_largo": "Escobero_Estante03",
@@ -2962,6 +3010,7 @@
     },
     {
      "codigo": "2114155254916",
+     "id_etiqueta": 1047,
      "nombre": "Techo 600x350x18",
      "nombre_guigui": "Tapa superior01",
      "nombre_largo": "Escobero_Tapa superior01",
@@ -3021,6 +3070,7 @@
     },
     {
      "codigo": "2114155254992",
+     "id_etiqueta": 1711,
      "nombre": "Zócalo 350x90x18 A",
      "nombre_guigui": "Frente01",
      "nombre_largo": "Escobero_Banquina01_Frente01",
@@ -3078,6 +3128,7 @@
     },
     {
      "codigo": "2114155254985",
+     "id_etiqueta": 1388,
      "nombre": "Zócalo 350x90x18 B",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Escobero_Banquina01_Fondo01",
@@ -3135,6 +3186,7 @@
     },
     {
      "codigo": "2114155255098",
+     "id_etiqueta": 1658,
      "nombre": "Tapa 2264x50x18",
      "nombre_guigui": "Ajuste01",
      "nombre_largo": "Escobero_Listón01_Ajuste01",
@@ -3192,6 +3244,7 @@
     },
     {
      "codigo": "2114155254961",
+     "id_etiqueta": 1384,
      "nombre": "Travesaño 264x154.97x18",
      "nombre_guigui": "Vertical Partition01",
      "nombre_largo": "Escobero_Vertical Partition01",
@@ -3249,6 +3302,7 @@
     },
     {
      "codigo": "2114155255036",
+     "id_etiqueta": 1390,
      "nombre": "Fondo 2274x274x5",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Escobero_Fondo01",
@@ -3306,6 +3360,7 @@
     },
     {
      "codigo": "2114155255067",
+     "id_etiqueta": 1393,
      "nombre": "Puerta 1433.1x297x18",
      "nombre_guigui": "Derecha",
      "nombre_largo": "Escobero_Derecha",
@@ -3363,6 +3418,7 @@
     },
     {
      "codigo": "2114155254947",
+     "id_etiqueta": 1256,
      "nombre": "Puerta 860.9x297x18",
      "nombre_guigui": "Derecha",
      "nombre_largo": "Escobero_Derecha",
@@ -3454,6 +3510,7 @@
    "piezas": [
     {
      "codigo": "2114601905492",
+     "id_etiqueta": 983,
      "nombre": "Lateral 870x580x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Lavarropa_Lateral izquierdo01",
@@ -3511,6 +3568,7 @@
     },
     {
      "codigo": "2114601905508",
+     "id_etiqueta": 984,
      "nombre": "Lateral 870x580x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Lavarropa_Lateral derecho01",
@@ -3568,6 +3626,7 @@
     },
     {
      "codigo": "2114601905539",
+     "id_etiqueta": 1282,
      "nombre": "Travesaño 614x150x18 C",
      "nombre_guigui": "Listón superior horizontal01",
      "nombre_largo": "Lavarropa_Listón superior horizontal01",
@@ -3625,6 +3684,7 @@
     },
     {
      "codigo": "2114601905522",
+     "id_etiqueta": 1793,
      "nombre": "Travesaño 614x150x18 A",
      "nombre_guigui": "Listón inferior trasero01",
      "nombre_largo": "Lavarropa_Listón inferior trasero01",
@@ -3682,6 +3742,7 @@
     },
     {
      "codigo": "2114601905515",
+     "id_etiqueta": 1792,
      "nombre": "Travesaño 614x150x18 B",
      "nombre_guigui": "Listón superior trasero01",
      "nombre_largo": "Lavarropa_Listón superior trasero01",
@@ -3771,6 +3832,7 @@
    "piezas": [
     {
      "codigo": "2114715075951",
+     "id_etiqueta": 866,
      "nombre": "Lateral 780x580x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Bajo mesada doble c/cesto_Lateral izquierdo01",
@@ -3828,6 +3890,7 @@
     },
     {
      "codigo": "2114715075968",
+     "id_etiqueta": 867,
      "nombre": "Lateral 780x580x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Bajo mesada doble c/cesto_Lateral derecho01",
@@ -3885,6 +3948,7 @@
     },
     {
      "codigo": "2114715075975",
+     "id_etiqueta": 868,
      "nombre": "Piso 964x580x18",
      "nombre_guigui": "Base01",
      "nombre_largo": "Bajo mesada doble c/cesto_Base01",
@@ -3942,6 +4006,7 @@
     },
     {
      "codigo": "2114715075982",
+     "id_etiqueta": 869,
      "nombre": "Estante 964x580x18",
      "nombre_guigui": "Estante01",
      "nombre_largo": "Bajo mesada doble c/cesto_Estante01",
@@ -3999,6 +4064,7 @@
     },
     {
      "codigo": "2114715076057",
+     "id_etiqueta": 1277,
      "nombre": "Travesaño 964x150x18",
      "nombre_guigui": "Listón superior01",
      "nombre_largo": "Bajo mesada doble c/cesto_Listón superior01",
@@ -4056,6 +4122,7 @@
     },
     {
      "codigo": "2114715076040",
+     "id_etiqueta": 1004,
      "nombre": "Fondo 974x382x5",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Bajo mesada doble c/cesto_Fondo01",
@@ -4113,6 +4180,7 @@
     },
     {
      "codigo": "2114715076033",
+     "id_etiqueta": 1003,
      "nombre": "Fondo 974x232x5",
      "nombre_guigui": "Fondo02",
      "nombre_largo": "Bajo mesada doble c/cesto_Fondo02",
@@ -4170,6 +4238,7 @@
     },
     {
      "codigo": "2114715075999",
+     "id_etiqueta": 1278,
      "nombre": "Puerta 744x497x18 A",
      "nombre_guigui": "Izquierda",
      "nombre_largo": "Bajo mesada doble c/cesto_Izquierda",
@@ -4227,6 +4296,7 @@
     },
     {
      "codigo": "2114715076019",
+     "id_etiqueta": 1280,
      "nombre": "Puerta 744x497x18 B",
      "nombre_guigui": "Derecha",
      "nombre_largo": "Bajo mesada doble c/cesto_Derecha",
@@ -4316,6 +4386,7 @@
    "piezas": [
     {
      "codigo": "2115070657400",
+     "id_etiqueta": 1464,
      "nombre": "Parante 780x562x18",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "00-Bandejero_Lateral izquierdo01",
@@ -4373,6 +4444,7 @@
     },
     {
      "codigo": "2115070657394",
+     "id_etiqueta": 1463,
      "nombre": "Lateral 780x580x18",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "00-Bandejero_Lateral derecho01",
@@ -4430,6 +4502,7 @@
     },
     {
      "codigo": "2115070657387",
+     "id_etiqueta": 1462,
      "nombre": "Piso 580x264x18",
      "nombre_guigui": "Base01",
      "nombre_largo": "00-Bandejero_Base01",
@@ -4487,6 +4560,7 @@
     },
     {
      "codigo": "2115070657493",
+     "id_etiqueta": 1708,
      "nombre": "Tapa 780x68x18",
      "nombre_guigui": "Listón de ajuste01",
      "nombre_largo": "00-Bandejero_Listón de ajuste01",
@@ -4544,6 +4618,7 @@
     },
     {
      "codigo": "2115070657417",
+     "id_etiqueta": 1465,
      "nombre": "Travesaño 264x150x18",
      "nombre_guigui": "Listón superior01",
      "nombre_largo": "00-Bandejero_Listón superior01",
@@ -4601,6 +4676,7 @@
     },
     {
      "codigo": "2115070657486",
+     "id_etiqueta": 1475,
      "nombre": "Fondo 617x274x5",
      "nombre_guigui": "Back panel01",
      "nombre_largo": "00-Bandejero_Back panel01",
@@ -4658,6 +4734,7 @@
     },
     {
      "codigo": "2115070657424",
+     "id_etiqueta": 1470,
      "nombre": "Frente cajón 745x297x18",
      "nombre_guigui": "Tapa01",
      "nombre_largo": "00-Bandejero_Cajón01_Tapa01",
@@ -4715,6 +4792,7 @@
     },
     {
      "codigo": "2115070657455",
+     "id_etiqueta": 1473,
      "nombre": "Lateral caja 450x300x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "00-Bandejero_Cajón01_Lateral izquierdo01",
@@ -4772,6 +4850,7 @@
     },
     {
      "codigo": "2115070657431",
+     "id_etiqueta": 1471,
      "nombre": "Frente caja 300x202x18",
      "nombre_guigui": "Frente01",
      "nombre_largo": "00-Bandejero_Cajón01_Frente01",
@@ -4829,6 +4908,7 @@
     },
     {
      "codigo": "2115070657479",
+     "id_etiqueta": 1469,
      "nombre": "Fondo caja 424x212x5",
      "nombre_guigui": "Drawer base board01",
      "nombre_largo": "00-Bandejero_Cajón01_Drawer base board01",
@@ -4886,6 +4966,7 @@
     },
     {
      "codigo": "2115070657462",
+     "id_etiqueta": 1474,
      "nombre": "Trasera caja 300x202x18",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "00-Bandejero_Cajón01_Fondo01",
@@ -4943,6 +5024,7 @@
     },
     {
      "codigo": "2115070657448",
+     "id_etiqueta": 1472,
      "nombre": "Lateral caja 450x300x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "00-Bandejero_Cajón01_Lateral derecho01",
@@ -5032,6 +5114,7 @@
    "piezas": [
     {
      "codigo": "2196217048046",
+     "id_etiqueta": 1607,
      "nombre": "Lateral 780x580x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Cajonera_Lateral izquierdo01",
@@ -5089,6 +5172,7 @@
     },
     {
      "codigo": "2196217048039",
+     "id_etiqueta": 1606,
      "nombre": "Lateral 780x580x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Cajonera_Lateral derecho01",
@@ -5146,6 +5230,7 @@
     },
     {
      "codigo": "2196217048022",
+     "id_etiqueta": 1605,
      "nombre": "Piso 580x564x18",
      "nombre_guigui": "Base01",
      "nombre_largo": "Cajonera_Base01",
@@ -5203,6 +5288,7 @@
     },
     {
      "codigo": "2196217048244",
+     "id_etiqueta": 1628,
      "nombre": "Travesaño 564x58x18",
      "nombre_guigui": "Listón uñero01",
      "nombre_largo": "Cajonera_Listón uñero01",
@@ -5260,6 +5346,7 @@
     },
     {
      "codigo": "2196217048251",
+     "id_etiqueta": 1629,
      "nombre": "Travesaño 564x68x18",
      "nombre_guigui": "Listón uñero02",
      "nombre_largo": "Cajonera_Listón uñero02",
@@ -5317,6 +5404,7 @@
     },
     {
      "codigo": "2196217048237",
+     "id_etiqueta": 1604,
      "nombre": "Travesaño 564x150x18",
      "nombre_guigui": "Listón superior01",
      "nombre_largo": "Cajonera_Listón superior01",
@@ -5374,6 +5462,7 @@
     },
     {
      "codigo": "2196217048176",
+     "id_etiqueta": 1623,
      "nombre": "Frente cajón 597x315x18",
      "nombre_guigui": "Tapa01",
      "nombre_largo": "Cajonera_Cajón01_Tapa01",
@@ -5431,6 +5520,7 @@
     },
     {
      "codigo": "2196217048114",
+     "id_etiqueta": 1617,
      "nombre": "Frente cajón 597x195x18 A",
      "nombre_guigui": "Tapa01",
      "nombre_largo": "Cajonera_Cajón02_Tapa01",
@@ -5488,6 +5578,7 @@
     },
     {
      "codigo": "2196217048053",
+     "id_etiqueta": 1611,
      "nombre": "Frente cajón 597x195x18 B",
      "nombre_guigui": "Tapa01",
      "nombre_largo": "Cajonera_Cajón03_Tapa01",
@@ -5545,6 +5636,7 @@
     },
     {
      "codigo": "2196217048206",
+     "id_etiqueta": 1626,
      "nombre": "Lateral caja 450x152x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Cajonera_Cajón01_Lateral izquierdo01",
@@ -5602,6 +5694,7 @@
     },
     {
      "codigo": "2196217048183",
+     "id_etiqueta": 1624,
      "nombre": "Frente caja 502x152x18",
      "nombre_guigui": "Frente01",
      "nombre_largo": "Cajonera_Cajón01_Frente01",
@@ -5659,6 +5752,7 @@
     },
     {
      "codigo": "2196217048220",
+     "id_etiqueta": 1622,
      "nombre": "Fondo caja 512x424x5 A",
      "nombre_guigui": "Base01",
      "nombre_largo": "Cajonera_Cajón01_Base01",
@@ -5716,6 +5810,7 @@
     },
     {
      "codigo": "2196217048213",
+     "id_etiqueta": 1627,
      "nombre": "Trasera caja 502x152x18",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Cajonera_Cajón01_Fondo01",
@@ -5773,6 +5868,7 @@
     },
     {
      "codigo": "2196217048190",
+     "id_etiqueta": 1625,
      "nombre": "Lateral caja 450x152x18 B",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Cajonera_Cajón01_Lateral derecho01",
@@ -5830,6 +5926,7 @@
     },
     {
      "codigo": "2196217048145",
+     "id_etiqueta": 1620,
      "nombre": "Lateral caja 450x130x18 A",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Cajonera_Cajón02_Lateral izquierdo01",
@@ -5887,6 +5984,7 @@
     },
     {
      "codigo": "2196217048121",
+     "id_etiqueta": 1618,
      "nombre": "Frente caja 502x130x18 A",
      "nombre_guigui": "Frente01",
      "nombre_largo": "Cajonera_Cajón02_Frente01",
@@ -5944,6 +6042,7 @@
     },
     {
      "codigo": "2196217048169",
+     "id_etiqueta": 1616,
      "nombre": "Fondo caja 512x424x5 B",
      "nombre_guigui": "Base01",
      "nombre_largo": "Cajonera_Cajón02_Base01",
@@ -6001,6 +6100,7 @@
     },
     {
      "codigo": "2196217048152",
+     "id_etiqueta": 1621,
      "nombre": "Trasera caja 502x130x18 A",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Cajonera_Cajón02_Fondo01",
@@ -6058,6 +6158,7 @@
     },
     {
      "codigo": "2196217048138",
+     "id_etiqueta": 1619,
      "nombre": "Lateral caja 450x130x18 C",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Cajonera_Cajón02_Lateral derecho01",
@@ -6115,6 +6216,7 @@
     },
     {
      "codigo": "2196217048084",
+     "id_etiqueta": 1614,
      "nombre": "Lateral caja 450x130x18 B",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Cajonera_Cajón03_Lateral izquierdo01",
@@ -6172,6 +6274,7 @@
     },
     {
      "codigo": "2196217048060",
+     "id_etiqueta": 1612,
      "nombre": "Frente caja 502x130x18 B",
      "nombre_guigui": "Frente01",
      "nombre_largo": "Cajonera_Cajón03_Frente01",
@@ -6229,6 +6332,7 @@
     },
     {
      "codigo": "2196217048091",
+     "id_etiqueta": 1615,
      "nombre": "Trasera caja 502x130x18 B",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Cajonera_Cajón03_Fondo01",
@@ -6286,6 +6390,7 @@
     },
     {
      "codigo": "2196217048077",
+     "id_etiqueta": 1613,
      "nombre": "Lateral caja 450x130x18 D",
      "nombre_guigui": "Lateral derecho01",
      "nombre_largo": "Cajonera_Cajón03_Lateral derecho01",
@@ -6343,6 +6448,7 @@
     },
     {
      "codigo": "2196217048107",
+     "id_etiqueta": 1610,
      "nombre": "Fondo caja 512x424x5 C",
      "nombre_guigui": "Base01",
      "nombre_largo": "Cajonera_Cajón03_Base01",
@@ -6432,6 +6538,7 @@
    "piezas": [
     {
      "codigo": "3717179022593",
+     "id_etiqueta": 1647,
      "nombre": "Parante 840.5x400x18",
      "nombre_guigui": "Lateral izquierdo01",
      "nombre_largo": "Alacena simple ajuste_Lateral izquierdo01",
@@ -6489,6 +6596,7 @@
     },
     {
      "codigo": "3717179022609",
+     "id_etiqueta": 1648,
      "nombre": "Lateral 840.5x400x18",
      "nombre_guigui": "Lateral derecha01",
      "nombre_largo": "Alacena simple ajuste_Lateral derecha01",
@@ -6546,6 +6654,7 @@
     },
     {
      "codigo": "3717179022678",
+     "id_etiqueta": 1707,
      "nombre": "Piso 400x350x18",
      "nombre_guigui": "Tapa inferior01",
      "nombre_largo": "Alacena simple ajuste_Tapa inferior01",
@@ -6605,6 +6714,7 @@
     },
     {
      "codigo": "3717179022630",
+     "id_etiqueta": 1652,
      "nombre": "Estante 367x264x18",
      "nombre_guigui": "Estante01",
      "nombre_largo": "Alacena simple ajuste_Estante01",
@@ -6662,6 +6772,7 @@
     },
     {
      "codigo": "3717179022586",
+     "id_etiqueta": 1646,
      "nombre": "Techo 400x300x18",
      "nombre_guigui": "Tapa superior01",
      "nombre_largo": "Alacena simple ajuste_Tapa superior01",
@@ -6721,6 +6832,7 @@
     },
     {
      "codigo": "3717179022661",
+     "id_etiqueta": 1706,
      "nombre": "Tapa 876.5x50x18",
      "nombre_guigui": "Listón de ajuste01",
      "nombre_largo": "Alacena simple ajuste_Listón de ajuste01",
@@ -6778,6 +6890,7 @@
     },
     {
      "codigo": "3717179022654",
+     "id_etiqueta": 1654,
      "nombre": "Travesaño 264x140x18",
      "nombre_guigui": "Vertical Partition01",
      "nombre_largo": "Alacena simple ajuste_Vertical Partition01",
@@ -6835,6 +6948,7 @@
     },
     {
      "codigo": "3717179022647",
+     "id_etiqueta": 1653,
      "nombre": "Fondo 845.5x274x5",
      "nombre_guigui": "Back panel01",
      "nombre_largo": "Alacena simple ajuste_Back panel01",
@@ -6892,6 +7006,7 @@
     },
     {
      "codigo": "3717179022616",
+     "id_etiqueta": 1650,
      "nombre": "Puerta 898.5x297x18",
      "nombre_guigui": "Izquierda",
      "nombre_largo": "Alacena simple ajuste_Izquierda",
@@ -6984,6 +7099,7 @@
    "piezas": [
     {
      "codigo": "3041309384214",
+     "id_etiqueta": 998,
      "nombre": "Lateral 776.02x400x18 A",
      "nombre_guigui": "Lateral izquierda01",
      "nombre_largo": "Alacena spar_Lateral izquierda01",
@@ -7041,6 +7157,7 @@
     },
     {
      "codigo": "4041309384220",
+     "id_etiqueta": 999,
      "nombre": "Lateral 776.02x400x18 B",
      "nombre_guigui": "Lateral derecha01",
      "nombre_largo": "Alacena spar_Lateral derecha01",
@@ -7098,6 +7215,7 @@
     },
     {
      "codigo": "7041309384289",
+     "id_etiqueta": 1375,
      "nombre": "Estante 564x400x18",
      "nombre_guigui": "Tapa inferior01",
      "nombre_largo": "Alacena spar_Tapa inferior01",
@@ -7155,6 +7273,7 @@
     },
     {
      "codigo": "6041309384273",
+     "id_etiqueta": 1054,
      "nombre": "Estante 564x390x18",
      "nombre_guigui": "Estante01",
      "nombre_largo": "Alacena spar_Estante01",
@@ -7212,6 +7331,7 @@
     },
     {
      "codigo": "8041309384202",
+     "id_etiqueta": 997,
      "nombre": "Techo 600x400x18",
      "nombre_guigui": "Tapa superior01",
      "nombre_largo": "Alacena spar_Tapa superior01",
@@ -7271,6 +7391,7 @@
     },
     {
      "codigo": "2041309384307",
+     "id_etiqueta": 1511,
      "nombre": "Zócalo 564x104.84x18 A",
      "nombre_guigui": "Listón01",
      "nombre_largo": "Alacena spar_Listón01",
@@ -7328,6 +7449,7 @@
     },
     {
      "codigo": "5041309384311",
+     "id_etiqueta": 1512,
      "nombre": "Zócalo 564x104.84x18 B",
      "nombre_guigui": "Listón02",
      "nombre_largo": "Alacena spar_Listón02",
@@ -7385,6 +7507,7 @@
     },
     {
      "codigo": "1041309384292",
+     "id_etiqueta": 1500,
      "nombre": "Fondo 663.18x574x5",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Alacena spar_Fondo01",
@@ -7442,6 +7565,7 @@
     },
     {
      "codigo": "8041309384233",
+     "id_etiqueta": 1507,
      "nombre": "Puerta 711.18x297x18 A",
      "nombre_guigui": "Izquierda",
      "nombre_largo": "Alacena spar_Izquierda",
@@ -7499,6 +7623,7 @@
     },
     {
      "codigo": "5041309384250",
+     "id_etiqueta": 1509,
      "nombre": "Puerta 711.18x297x18 B",
      "nombre_guigui": "Derecha",
      "nombre_largo": "Alacena spar_Derecha",
