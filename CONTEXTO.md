@@ -63,6 +63,11 @@ vistas acotadas (frente, frente sin puertas, corte lateral, planta), explotada c
 herrajes, notas GuiGui-vs-vigente y una lámina por pieza con las dos caras acotadas y la tabla de
 mecanizados. El render se saca del MCP de GuiGui (`project_search_order` → `render_url`) desde el
 navegador integrado. Hecho: Alacena spar de PRUEBA 1 (GuiGui 15/10) en `planos/ALACENA_SPAR_GUIGUI_1015/`.
+**Paquete completo desde el render de GuiGui, sin Fusion** (`etapa2/generar_desde_render.sh render.json carpeta orden
+cliente guardado`): lista de corte, XML3 por pieza con los herrajes vigentes (`render_piezas.py --herrajes-vigentes`),
+piezas en dos pasos, hojas, etiquetas con QR, manual de armado por mueble y página web de cada pieza. Validado contra
+el export de Fusion de la Alacena spar (11/11, la que se perforó) y el cajón del Bandejero. Hecho: **COCINA MLV**
+(`PENDRIVE/12_COCINA_MLV/LEEME.md`), sin cortar todavía.
 
 ---
 
@@ -143,13 +148,13 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 3 | **Pruebas de la Etapa 0 sin resultado**: medida terminada vs. de corte (⚠️ los XML3 de `PENDRIVE/4_ALACENA_SPAR` vienen en medida **terminada**, p. ej. puertas 297 × 390, y la lista de corte las corta a 295 × 388: no perforar piezas crudas con esos hasta resolverlo), ¿lee `EdgeFBLR`?, Fusion vs. GuiGui (mismas 10 piezas), pieza curva R50, veta en AutoCUT, **espejado** | `MAÑANA_EN_LA_MAQUINA.md` · `docs/PERFORADORA_SKH612.md` §14 |
 | 4 | **Perforadora**: velocidad por herramienta desde la PC, campana que no baja (M64), T187 ¿fresa o mecha?, T190, T186, filas 15–27, login, backup, lubricación vencida | `docs/PERFORADORA_SKH612.md` §14 (22 ítems) |
 | 5 | **Ranura de canto**: no sabemos el formato (¿"SlotH"?) ni si la hace la SKH-612HS; el generador se niega a escribirla | `docs/FORMATOS.md` · pregunta a Huahua |
-| 6 | Armar PRUEBA 1 completo (cantos HH-509R + armado). **Manual de armado**: ya sale de la receta (`etapa2/manual_armado.py`, ver §2); falta probarlo armando la Alacena Spar con el manual en la mano, y que también salga por el camino GuiGui | `docs/FUSION_RECETAS.md` |
+| 6 | Armar PRUEBA 1 completo (cantos HH-509R + armado). **Manual de armado**: ya sale de la receta (`etapa2/manual_armado.py`, ver §2); falta probarlo armando la Alacena Spar con el manual en la mano. Por el camino GuiGui sale con `etapa2/render_modelo.py` (COCINA MLV, 27/10), sin probar | `docs/FUSION_RECETAS.md` |
 | 7 | **Perno del 3 en 1: 33 o 34** (con el herraje Grupo Euro real) · canto real (¿1 mm?) · kerf real de la sierra | `docs/HERRAJES.md` |
-| 8 | **`ArmarDesdeRender`: el canto de las piezas Lintel (listones) y de los cajones sale del lado equivocado** (listones: arriba en vez de abajo, Spar 05/10; cajón del Bandejero 19/10: DER = borde de la ranura, debía ser IZQ = borde de arriba; en los dos casos corregido a mano en piezas.json) y `ExportarPiezas` da el fondo sin el encastre (564×710,6 en vez de 574×720,6) · COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir, pistones de la rebatible; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
+| 8 | `ExportarPiezas` da el fondo sin el encastre (564×710,6 en vez de 574×720,6) y no espeja el canto de los cajones (el canto de listones y cajones de `ArmarDesdeRender` quedó corregido el 27/10: flechas ↑↓ y espejo; el camino `render_piezas.py` no pasa por Fusion) · COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir, pistones de la rebatible; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
 | 9 | **Router**: primera prueba física (cuadrado 100, decide si los `.nc` de GuiGui necesitan encabezado `G43`), cargar y medir las fresas en el almacén, medir mesa útil. Fresas ya identificadas: 8 × Ø10 rectas de 1/2", Ø6, Ø8 | `docs/ROUTER_SKG912.md` · `PENDRIVE/7_ROUTER_PRUEBA/LEEME.txt` |
 | 10 | Curvado: probetas por material, primera pieza real, cantos en zona curva | `docs/CURVADO.md` |
 | 10b | **Impresora de etiquetas: el sensor de gap de la AIBAO no funciona** (diagnóstico 26/10, ver bitácora). Reclamo o impresora de marca; mientras, modo continuo por módulo con `etapa2/etiquetas_tspl.py` | `docs/SIERRA_AUTOCUT.md` · `BITACORA.md` 26–27/10 |
-| 10c | **Página web de pieza (QR)**: hecha en el proyecto Vercel `curvado` (`/p/<codigo>`); falta poner el dominio en las etiquetas (`--url-base`) y hacer push | `docs/CURVADO.md` (última sección) |
+| 10c | **COCINA MLV a producción** (paquete listo 27/10): cortar, probar en la máquina las 13 piezas en dos pasos (o un paso con `XML3_PRUEBA_UN_PASO/`), la ranura LED 18 × 11 por abajo, perforar a mano las 4 piezas de menos de 50, ranura de canto y recortes a mano, banquina del Escobero sin geometría. Avisar a la diseñadora: materiales de muestra (多层实木, 装饰板, PETFRONT) y herrajes viejos. Web de cada pieza en `leiten.vercel.app/p/<codigo>` (funcionando) | `PENDRIVE/12_COCINA_MLV/LEEME.md` · `docs/CURVADO.md` |
 | 11 | **Cocina de Jujuy (COCINA-01)**: medir en mano y ajustar en la receta: altura real del visor y posición de la salida Ø150 de la SDC-100; alturas de las rejillas del escurreplatos LC-560 y medidas del cubiertero; plantilla de calado de la bacha Tawak 55 (supuesto 530×440); confirmar que el visor banca el frente de madera; comprar pistones 60 N / 80–100 N; `.nc` o caladora para pasos del ducto, escotaduras y rincones; `PonerHerrajes` sigue con placa base 20/52 (recetas ya 37/±16) | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
 
 ---
@@ -185,6 +190,7 @@ No se compra: fresa de ranurar Ø9 (se diseña con ranuras de 10).
 | Historia: cómo se llegó a cada cosa | `BITACORA.md` |
 | Diseñar un mueble nuevo | skill **`mueble-nuevo`** |
 | Planos de un mueble de GuiGui | `etapa2/planos.py` (ver `etapa2/README.md`) · salidas en `planos/` |
+| Paquete de producción desde el render de GuiGui (sin Fusion) | `etapa2/generar_desde_render.sh` (ver `etapa2/README.md`) |
 | COCINA MLV para fabricar (etiquetas, maestra, planos de IDEE) | `PENDRIVE/12_COCINA_MLV/LEEME.md` |
 
 **Contactos**

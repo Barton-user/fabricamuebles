@@ -30,6 +30,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -86,6 +87,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -142,6 +144,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -198,6 +201,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -254,6 +258,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -310,6 +315,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -398,6 +404,7 @@
       "arriba": 1.0
      },
      "veta": "HORIZONTAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -454,6 +461,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -542,6 +550,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -598,6 +607,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -654,6 +664,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -712,6 +723,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -768,6 +780,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -824,6 +837,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -877,11 +891,12 @@
      "textura": "13玛雅灰",
      "cantos": {
       "izq": 0.0,
-      "abajo": 1.0,
+      "abajo": 0.0,
       "der": 0.0,
-      "arriba": 0.0
+      "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -938,6 +953,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -994,6 +1010,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -1085,6 +1102,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -1141,6 +1159,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -1197,6 +1216,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -1255,6 +1275,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -1311,6 +1332,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -1364,11 +1386,12 @@
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
-      "abajo": 1.0,
+      "abajo": 0.0,
       "der": 0.0,
-      "arriba": 0.0
+      "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -1425,6 +1448,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -1481,6 +1505,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -1537,6 +1562,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -1628,6 +1654,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -1684,6 +1711,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -1740,6 +1768,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -1798,6 +1827,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -1854,6 +1884,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -1907,11 +1938,12 @@
      "textura": "13玛雅灰",
      "cantos": {
       "izq": 0.0,
-      "abajo": 1.0,
+      "abajo": 0.0,
       "der": 0.0,
-      "arriba": 0.0
+      "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -1968,6 +2000,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -2024,6 +2057,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -2115,6 +2149,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -2171,6 +2206,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -2227,6 +2263,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -2278,11 +2315,12 @@
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
-      "abajo": 1.0,
+      "abajo": 0.0,
       "der": 1.0,
-      "arriba": 0.0
+      "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -2341,6 +2379,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -2397,6 +2436,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -2487,6 +2527,7 @@
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -2543,6 +2584,7 @@
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -2599,6 +2641,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -2655,6 +2698,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -2706,11 +2750,12 @@
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
-      "abajo": 1.0,
+      "abajo": 0.0,
       "der": 1.0,
-      "arriba": 0.0
+      "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -2767,6 +2812,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -2823,6 +2869,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -2879,6 +2926,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -2935,6 +2983,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -2993,6 +3042,7 @@
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -3049,6 +3099,7 @@
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -3105,6 +3156,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -3161,6 +3213,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -3217,6 +3270,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -3273,6 +3327,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -3329,6 +3384,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -3419,6 +3475,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -3475,6 +3532,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -3531,6 +3589,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -3587,6 +3646,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -3643,6 +3703,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -3731,6 +3792,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -3787,6 +3849,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -3843,6 +3906,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -3899,6 +3963,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -3950,11 +4015,12 @@
      "textura": "Blanco",
      "cantos": {
       "izq": 0.0,
-      "abajo": 1.0,
+      "abajo": 0.0,
       "der": 0.0,
-      "arriba": 0.0
+      "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -4011,6 +4077,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -4067,6 +4134,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -4123,6 +4191,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -4179,6 +4248,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -4267,6 +4337,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -4323,6 +4394,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -4357,118 +4429,6 @@
      "globo": 2
     },
     {
-     "codigo": "2115070657455",
-     "nombre": "Parante 450x300x18 A",
-     "nombre_guigui": "Lateral izquierdo01",
-     "nombre_largo": "00-Bandejero_Cajón01_Lateral izquierdo01",
-     "tipo": "Parante",
-     "W": 300,
-     "H": 450,
-     "T": 18,
-     "dibujo_W": 300,
-     "dibujo_H": 450,
-     "aviso": "",
-     "corte_W": 299,
-     "corte_H": 450,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 10,
-     "caja": [
-      [
-       81,
-       -580,
-       133
-      ],
-      [
-       99,
-       -130,
-       433
-      ]
-     ],
-     "normal": [
-      -1,
-      0,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 3
-    },
-    {
-     "codigo": "2115070657448",
-     "nombre": "Parante 450x300x18 B",
-     "nombre_guigui": "Lateral derecho01",
-     "nombre_largo": "00-Bandejero_Cajón01_Lateral derecho01",
-     "tipo": "Parante",
-     "W": 300,
-     "H": 450,
-     "T": 18,
-     "dibujo_W": 300,
-     "dibujo_H": 450,
-     "aviso": "",
-     "corte_W": 299,
-     "corte_H": 450,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 10,
-     "caja": [
-      [
-       301,
-       -580,
-       133
-      ],
-      [
-       319,
-       -130,
-       433
-      ]
-     ],
-     "normal": [
-      -1,
-      0,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 4
-    },
-    {
      "codigo": "2115070657387",
      "nombre": "Piso 580x264x18",
      "nombre_guigui": "Base01",
@@ -4491,6 +4451,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -4522,7 +4483,7 @@
       "led": []
      },
      "ean_ok": true,
-     "globo": 5
+     "globo": 3
     },
     {
      "codigo": "2115070657493",
@@ -4547,6 +4508,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -4578,14 +4540,128 @@
       "led": []
      },
      "ean_ok": true,
+     "globo": 4
+    },
+    {
+     "codigo": "2115070657417",
+     "nombre": "Travesaño 264x150x18",
+     "nombre_guigui": "Listón superior01",
+     "nombre_largo": "00-Bandejero_Listón superior01",
+     "tipo": "Travesaño",
+     "W": 264,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 264,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 264,
+     "corte_H": 148,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "cajon": 0,
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       68,
+       -18,
+       720
+      ],
+      [
+       332,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2115070657486",
+     "nombre": "Fondo 617x274x5",
+     "nombre_guigui": "Back panel01",
+     "nombre_largo": "00-Bandejero_Back panel01",
+     "tipo": "Fondo",
+     "W": 274,
+     "H": 617,
+     "T": 5,
+     "dibujo_W": 264,
+     "dibujo_H": 612,
+     "aviso": "",
+     "corte_W": 274,
+     "corte_H": 617,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "cajon": 0,
+     "rol": "FONDO",
+     "categoria": 35,
+     "caja": [
+      [
+       68,
+       -23,
+       108
+      ],
+      [
+       332,
+       -18,
+       720
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
      "globo": 6
     },
     {
      "codigo": "2115070657424",
-     "nombre": "Tapa 745x297x18",
+     "nombre": "Frente cajón 745x297x18",
      "nombre_guigui": "Tapa01",
      "nombre_largo": "00-Bandejero_Cajón01_Tapa01",
-     "tipo": "Tapa",
+     "tipo": "Frente cajón",
      "W": 745,
      "H": 297,
      "T": 18,
@@ -4603,8 +4679,9 @@
       "arriba": 1.0
      },
      "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "cajon": 1,
+     "rol": "FRENTE",
+     "categoria": 40,
      "caja": [
       [
        51.5,
@@ -4637,11 +4714,68 @@
      "globo": 7
     },
     {
+     "codigo": "2115070657455",
+     "nombre": "Lateral caja 450x300x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "00-Bandejero_Cajón01_Lateral izquierdo01",
+     "tipo": "Lateral caja",
+     "W": 300,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 299,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       81,
+       -580,
+       133
+      ],
+      [
+       99,
+       -130,
+       433
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
      "codigo": "2115070657431",
-     "nombre": "Tapa 300x202x18 A",
+     "nombre": "Frente caja 300x202x18",
      "nombre_guigui": "Frente01",
      "nombre_largo": "00-Bandejero_Cajón01_Frente01",
-     "tipo": "Tapa",
+     "tipo": "Frente caja",
      "W": 300,
      "H": 202,
      "T": 18,
@@ -4653,14 +4787,15 @@
      "material": "NEstructura",
      "textura": "Blanco",
      "cantos": {
-      "izq": 0.0,
+      "izq": 1.0,
       "abajo": 0.0,
-      "der": 1.0,
+      "der": 0.0,
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
        99,
@@ -4690,14 +4825,71 @@
       "led": []
      },
      "ean_ok": true,
-     "globo": 8
+     "globo": 9
+    },
+    {
+     "codigo": "2115070657479",
+     "nombre": "Fondo caja 424x212x5",
+     "nombre_guigui": "Drawer base board01",
+     "nombre_largo": "00-Bandejero_Cajón01_Drawer base board01",
+     "tipo": "Fondo caja",
+     "W": 424,
+     "H": 212,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 202,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 212,
+     "material": "装饰板",
+     "textura": "01暖白",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       99,
+       -562,
+       148
+      ],
+      [
+       301,
+       -148,
+       153
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
     },
     {
      "codigo": "2115070657462",
-     "nombre": "Tapa 300x202x18 B",
+     "nombre": "Trasera caja 300x202x18",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "00-Bandejero_Cajón01_Fondo01",
-     "tipo": "Tapa",
+     "tipo": "Trasera caja",
      "W": 300,
      "H": 202,
      "T": 18,
@@ -4709,14 +4901,15 @@
      "material": "NEstructura",
      "textura": "Blanco",
      "cantos": {
-      "izq": 0.0,
+      "izq": 1.0,
       "abajo": 0.0,
-      "der": 1.0,
+      "der": 0.0,
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
        99,
@@ -4746,163 +4939,52 @@
       "led": []
      },
      "ean_ok": true,
-     "globo": 9
-    },
-    {
-     "codigo": "2115070657417",
-     "nombre": "Travesaño 264x150x18",
-     "nombre_guigui": "Listón superior01",
-     "nombre_largo": "00-Bandejero_Listón superior01",
-     "tipo": "Travesaño",
-     "W": 264,
-     "H": 150,
-     "T": 18,
-     "dibujo_W": 264,
-     "dibujo_H": 150,
-     "aviso": "",
-     "corte_W": 264,
-     "corte_H": 148,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 1.0,
-      "der": 0.0,
-      "arriba": 1.0
-     },
-     "veta": "VERTICAL",
-     "rol": "PLACA",
-     "categoria": 30,
-     "caja": [
-      [
-       68,
-       -18,
-       720
-      ],
-      [
-       332,
-       0,
-       870
-      ]
-     ],
-     "normal": [
-      0,
-      -1,
-      0
-     ],
-     "espejada": false,
-     "herrajes": {
-      "excentricas": 4,
-      "pernos": 4,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 10
-    },
-    {
-     "codigo": "2115070657486",
-     "nombre": "Fondo 617x274x5",
-     "nombre_guigui": "Back panel01",
-     "nombre_largo": "00-Bandejero_Back panel01",
-     "tipo": "Fondo",
-     "W": 274,
-     "H": 617,
-     "T": 5,
-     "dibujo_W": 264,
-     "dibujo_H": 612,
-     "aviso": "",
-     "corte_W": 274,
-     "corte_H": 617,
-     "material": "NFondo",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 0.0,
-      "arriba": 0.0
-     },
-     "veta": "VERTICAL",
-     "rol": "FONDO",
-     "categoria": 35,
-     "caja": [
-      [
-       68,
-       -23,
-       108
-      ],
-      [
-       332,
-       -18,
-       720
-      ]
-     ],
-     "normal": [
-      0,
-      -1,
-      0
-     ],
-     "espejada": false,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
      "globo": 11
     },
     {
-     "codigo": "2115070657479",
-     "nombre": "Fondo caja 424x212x5",
-     "nombre_guigui": "Drawer base board01",
-     "nombre_largo": "00-Bandejero_Cajón01_Drawer base board01",
-     "tipo": "Fondo caja",
-     "W": 424,
-     "H": 212,
-     "T": 5,
-     "dibujo_W": 414,
-     "dibujo_H": 202,
+     "codigo": "2115070657448",
+     "nombre": "Lateral caja 450x300x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "00-Bandejero_Cajón01_Lateral derecho01",
+     "tipo": "Lateral caja",
+     "W": 300,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 300,
+     "dibujo_H": 450,
      "aviso": "",
-     "corte_W": 424,
-     "corte_H": 212,
-     "material": "装饰板",
-     "textura": "01暖白",
+     "corte_W": 299,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
      "cantos": {
-      "izq": 0.0,
+      "izq": 1.0,
       "abajo": 0.0,
       "der": 0.0,
       "arriba": 0.0
      },
-     "veta": "VERTICAL",
+     "veta": "HORIZONTAL",
+     "cajon": 1,
      "rol": "CAJON",
      "categoria": 50,
      "caja": [
       [
-       99,
-       -562,
-       148
+       301,
+       -580,
+       133
       ],
       [
-       301,
-       -148,
-       153
+       319,
+       -130,
+       433
       ]
      ],
      "normal": [
+      -1,
       0,
-      0,
-      1
+      0
      ],
-     "espejada": false,
+     "espejada": true,
      "herrajes": {
       "excentricas": 0,
       "pernos": 0,
@@ -4971,6 +5053,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -5027,6 +5110,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -5061,342 +5145,6 @@
      "globo": 2
     },
     {
-     "codigo": "2196217048206",
-     "nombre": "Travesaño 450x152x18 A",
-     "nombre_guigui": "Lateral izquierdo01",
-     "nombre_largo": "Cajonera_Cajón01_Lateral izquierdo01",
-     "tipo": "Travesaño",
-     "W": 152,
-     "H": 450,
-     "T": 18,
-     "dibujo_W": 152,
-     "dibujo_H": 450,
-     "aviso": "",
-     "corte_W": 151,
-     "corte_H": 450,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 10,
-     "caja": [
-      [
-       981,
-       -580,
-       128
-      ],
-      [
-       999,
-       -130,
-       280
-      ]
-     ],
-     "normal": [
-      -1,
-      0,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 3
-    },
-    {
-     "codigo": "2196217048190",
-     "nombre": "Travesaño 450x152x18 B",
-     "nombre_guigui": "Lateral derecho01",
-     "nombre_largo": "Cajonera_Cajón01_Lateral derecho01",
-     "tipo": "Travesaño",
-     "W": 152,
-     "H": 450,
-     "T": 18,
-     "dibujo_W": 152,
-     "dibujo_H": 450,
-     "aviso": "",
-     "corte_W": 151,
-     "corte_H": 450,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 10,
-     "caja": [
-      [
-       1501,
-       -580,
-       128
-      ],
-      [
-       1519,
-       -130,
-       280
-      ]
-     ],
-     "normal": [
-      -1,
-      0,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 4
-    },
-    {
-     "codigo": "2196217048145",
-     "nombre": "Travesaño 450x130x18 A",
-     "nombre_guigui": "Lateral izquierdo01",
-     "nombre_largo": "Cajonera_Cajón02_Lateral izquierdo01",
-     "tipo": "Travesaño",
-     "W": 130,
-     "H": 450,
-     "T": 18,
-     "dibujo_W": 130,
-     "dibujo_H": 450,
-     "aviso": "",
-     "corte_W": 129,
-     "corte_H": 450,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 10,
-     "caja": [
-      [
-       981,
-       -580,
-       485
-      ],
-      [
-       999,
-       -130,
-       615
-      ]
-     ],
-     "normal": [
-      -1,
-      0,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 5
-    },
-    {
-     "codigo": "2196217048138",
-     "nombre": "Travesaño 450x130x18 C",
-     "nombre_guigui": "Lateral derecho01",
-     "nombre_largo": "Cajonera_Cajón02_Lateral derecho01",
-     "tipo": "Travesaño",
-     "W": 130,
-     "H": 450,
-     "T": 18,
-     "dibujo_W": 130,
-     "dibujo_H": 450,
-     "aviso": "",
-     "corte_W": 129,
-     "corte_H": 450,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 10,
-     "caja": [
-      [
-       1501,
-       -580,
-       485
-      ],
-      [
-       1519,
-       -130,
-       615
-      ]
-     ],
-     "normal": [
-      -1,
-      0,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 6
-    },
-    {
-     "codigo": "2196217048084",
-     "nombre": "Travesaño 450x130x18 B",
-     "nombre_guigui": "Lateral izquierdo01",
-     "nombre_largo": "Cajonera_Cajón03_Lateral izquierdo01",
-     "tipo": "Travesaño",
-     "W": 130,
-     "H": 450,
-     "T": 18,
-     "dibujo_W": 130,
-     "dibujo_H": 450,
-     "aviso": "",
-     "corte_W": 129,
-     "corte_H": 450,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 10,
-     "caja": [
-      [
-       981,
-       -580,
-       665
-      ],
-      [
-       999,
-       -130,
-       795
-      ]
-     ],
-     "normal": [
-      -1,
-      0,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 7
-    },
-    {
-     "codigo": "2196217048077",
-     "nombre": "Travesaño 450x130x18 D",
-     "nombre_guigui": "Lateral derecho01",
-     "nombre_largo": "Cajonera_Cajón03_Lateral derecho01",
-     "tipo": "Travesaño",
-     "W": 130,
-     "H": 450,
-     "T": 18,
-     "dibujo_W": 130,
-     "dibujo_H": 450,
-     "aviso": "",
-     "corte_W": 129,
-     "corte_H": 450,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 10,
-     "caja": [
-      [
-       1501,
-       -580,
-       665
-      ],
-      [
-       1519,
-       -130,
-       795
-      ]
-     ],
-     "normal": [
-      -1,
-      0,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 8
-    },
-    {
      "codigo": "2196217048022",
      "nombre": "Piso 580x564x18",
      "nombre_guigui": "Base01",
@@ -5419,6 +5167,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -5450,7 +5199,7 @@
       "led": []
      },
      "ean_ok": true,
-     "globo": 9
+     "globo": 3
     },
     {
      "codigo": "2196217048244",
@@ -5475,6 +5224,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -5506,14 +5256,128 @@
       "led": []
      },
      "ean_ok": true,
-     "globo": 10
+     "globo": 4
+    },
+    {
+     "codigo": "2196217048251",
+     "nombre": "Travesaño 564x68x18",
+     "nombre_guigui": "Listón uñero02",
+     "nombre_largo": "Cajonera_Listón uñero02",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 68,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 68,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 67,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "cajon": 0,
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       968,
+       -540,
+       390
+      ],
+      [
+       1532,
+       -522,
+       458
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 6,
+      "pernos": 6,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 5
+    },
+    {
+     "codigo": "2196217048237",
+     "nombre": "Travesaño 564x150x18",
+     "nombre_guigui": "Listón superior01",
+     "nombre_largo": "Cajonera_Listón superior01",
+     "tipo": "Travesaño",
+     "W": 564,
+     "H": 150,
+     "T": 18,
+     "dibujo_W": 564,
+     "dibujo_H": 150,
+     "aviso": "",
+     "corte_W": 564,
+     "corte_H": 148,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 1.0,
+      "der": 0.0,
+      "arriba": 1.0
+     },
+     "veta": "VERTICAL",
+     "cajon": 0,
+     "rol": "PLACA",
+     "categoria": 30,
+     "caja": [
+      [
+       968,
+       -18,
+       720
+      ],
+      [
+       1532,
+       0,
+       870
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 6
     },
     {
      "codigo": "2196217048176",
-     "nombre": "Tapa 597x315x18",
+     "nombre": "Frente cajón 597x315x18",
      "nombre_guigui": "Tapa01",
      "nombre_largo": "Cajonera_Cajón01_Tapa01",
-     "tipo": "Tapa",
+     "tipo": "Frente cajón",
      "W": 315,
      "H": 597,
      "T": 18,
@@ -5531,8 +5395,9 @@
       "arriba": 1.0
      },
      "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "cajon": 1,
+     "rol": "FRENTE",
+     "categoria": 40,
      "caja": [
       [
        951.5,
@@ -5562,14 +5427,185 @@
       "led": []
      },
      "ean_ok": true,
-     "globo": 11
+     "globo": 7
+    },
+    {
+     "codigo": "2196217048114",
+     "nombre": "Frente cajón 597x195x18 A",
+     "nombre_guigui": "Tapa01",
+     "nombre_largo": "Cajonera_Cajón02_Tapa01",
+     "tipo": "Frente cajón",
+     "W": 195,
+     "H": 597,
+     "T": 18,
+     "dibujo_W": 195,
+     "dibujo_H": 597,
+     "aviso": "",
+     "corte_W": 193,
+     "corte_H": 595,
+     "material": "NPetfrente",
+     "textura": "PET Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 2,
+     "rol": "FRENTE",
+     "categoria": 40,
+     "caja": [
+      [
+       951.5,
+       -598,
+       443.5
+      ],
+      [
+       1548.5,
+       -580,
+       638.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 8
+    },
+    {
+     "codigo": "2196217048053",
+     "nombre": "Frente cajón 597x195x18 B",
+     "nombre_guigui": "Tapa01",
+     "nombre_largo": "Cajonera_Cajón03_Tapa01",
+     "tipo": "Frente cajón",
+     "W": 195,
+     "H": 597,
+     "T": 18,
+     "dibujo_W": 195,
+     "dibujo_H": 597,
+     "aviso": "",
+     "corte_W": 193,
+     "corte_H": 595,
+     "material": "NPetfrente",
+     "textura": "PET Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 1.0,
+      "der": 1.0,
+      "arriba": 1.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 3,
+     "rol": "FRENTE",
+     "categoria": 40,
+     "caja": [
+      [
+       951.5,
+       -598,
+       641.5
+      ],
+      [
+       1548.5,
+       -580,
+       836.5
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 9
+    },
+    {
+     "codigo": "2196217048206",
+     "nombre": "Lateral caja 450x152x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Cajonera_Cajón01_Lateral izquierdo01",
+     "tipo": "Lateral caja",
+     "W": 152,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 152,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 151,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       981,
+       -580,
+       128
+      ],
+      [
+       999,
+       -130,
+       280
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 10
     },
     {
      "codigo": "2196217048183",
-     "nombre": "Travesaño 502x152x18 A",
+     "nombre": "Frente caja 502x152x18",
      "nombre_guigui": "Frente01",
      "nombre_largo": "Cajonera_Cajón01_Frente01",
-     "tipo": "Travesaño",
+     "tipo": "Frente caja",
      "W": 152,
      "H": 502,
      "T": 18,
@@ -5581,14 +5617,15 @@
      "material": "NEstructura",
      "textura": "Blanco",
      "cantos": {
-      "izq": 0.0,
+      "izq": 1.0,
       "abajo": 0.0,
-      "der": 1.0,
+      "der": 0.0,
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
        999,
@@ -5618,14 +5655,71 @@
       "led": []
      },
      "ean_ok": true,
+     "globo": 11
+    },
+    {
+     "codigo": "2196217048220",
+     "nombre": "Fondo caja 512x424x5 A",
+     "nombre_guigui": "Base01",
+     "nombre_largo": "Cajonera_Cajón01_Base01",
+     "tipo": "Fondo caja",
+     "W": 424,
+     "H": 512,
+     "T": 5,
+     "dibujo_W": 414,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 424,
+     "corte_H": 512,
+     "material": "NFondo",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 0.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "VERTICAL",
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -562,
+       143
+      ],
+      [
+       1501,
+       -148,
+       148
+      ]
+     ],
+     "normal": [
+      0,
+      0,
+      1
+     ],
+     "espejada": false,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
      "globo": 12
     },
     {
      "codigo": "2196217048213",
-     "nombre": "Travesaño 502x152x18 B",
+     "nombre": "Trasera caja 502x152x18",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Cajonera_Cajón01_Fondo01",
-     "tipo": "Travesaño",
+     "tipo": "Trasera caja",
      "W": 152,
      "H": 502,
      "T": 18,
@@ -5637,14 +5731,15 @@
      "material": "NEstructura",
      "textura": "Blanco",
      "cantos": {
-      "izq": 0.0,
+      "izq": 1.0,
       "abajo": 0.0,
-      "der": 1.0,
+      "der": 0.0,
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
        999,
@@ -5677,51 +5772,52 @@
      "globo": 13
     },
     {
-     "codigo": "2196217048251",
-     "nombre": "Travesaño 564x68x18",
-     "nombre_guigui": "Listón uñero02",
-     "nombre_largo": "Cajonera_Listón uñero02",
-     "tipo": "Travesaño",
-     "W": 564,
-     "H": 68,
+     "codigo": "2196217048190",
+     "nombre": "Lateral caja 450x152x18 B",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Cajonera_Cajón01_Lateral derecho01",
+     "tipo": "Lateral caja",
+     "W": 152,
+     "H": 450,
      "T": 18,
-     "dibujo_W": 564,
-     "dibujo_H": 68,
+     "dibujo_W": 152,
+     "dibujo_H": 450,
      "aviso": "",
-     "corte_W": 564,
-     "corte_H": 67,
+     "corte_W": 151,
+     "corte_H": 450,
      "material": "NEstructura",
      "textura": "Blanco",
      "cantos": {
-      "izq": 0.0,
-      "abajo": 1.0,
+      "izq": 1.0,
+      "abajo": 0.0,
       "der": 0.0,
       "arriba": 0.0
      },
-     "veta": "VERTICAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "veta": "HORIZONTAL",
+     "cajon": 1,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
-       968,
-       -540,
-       390
+       1501,
+       -580,
+       128
       ],
       [
-       1532,
-       -522,
-       458
+       1519,
+       -130,
+       280
       ]
      ],
      "normal": [
-      0,
       -1,
+      0,
       0
      ],
-     "espejada": false,
+     "espejada": true,
      "herrajes": {
-      "excentricas": 6,
-      "pernos": 6,
+      "excentricas": 0,
+      "pernos": 0,
       "receptores": 0,
       "bisagras": 0,
       "tornillos_bisagra": 0,
@@ -5733,48 +5829,49 @@
      "globo": 14
     },
     {
-     "codigo": "2196217048114",
-     "nombre": "Travesaño 597x195x18 A",
-     "nombre_guigui": "Tapa01",
-     "nombre_largo": "Cajonera_Cajón02_Tapa01",
-     "tipo": "Travesaño",
-     "W": 195,
-     "H": 597,
+     "codigo": "2196217048145",
+     "nombre": "Lateral caja 450x130x18 A",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Cajonera_Cajón02_Lateral izquierdo01",
+     "tipo": "Lateral caja",
+     "W": 130,
+     "H": 450,
      "T": 18,
-     "dibujo_W": 195,
-     "dibujo_H": 597,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
      "aviso": "",
-     "corte_W": 193,
-     "corte_H": 595,
-     "material": "NPetfrente",
-     "textura": "PET Blanco",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
      "cantos": {
       "izq": 1.0,
-      "abajo": 1.0,
-      "der": 1.0,
-      "arriba": 1.0
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
      },
      "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "cajon": 2,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
-       951.5,
-       -598,
-       443.5
+       981,
+       -580,
+       485
       ],
       [
-       1548.5,
-       -580,
-       638.5
+       999,
+       -130,
+       615
       ]
      ],
      "normal": [
-      0,
       -1,
+      0,
       0
      ],
-     "espejada": false,
+     "espejada": true,
      "herrajes": {
       "excentricas": 0,
       "pernos": 0,
@@ -5790,10 +5887,10 @@
     },
     {
      "codigo": "2196217048121",
-     "nombre": "Travesaño 502x130x18 A",
+     "nombre": "Frente caja 502x130x18 A",
      "nombre_guigui": "Frente01",
      "nombre_largo": "Cajonera_Cajón02_Frente01",
-     "tipo": "Travesaño",
+     "tipo": "Frente caja",
      "W": 130,
      "H": 502,
      "T": 18,
@@ -5805,14 +5902,15 @@
      "material": "NEstructura",
      "textura": "Blanco",
      "cantos": {
-      "izq": 0.0,
+      "izq": 1.0,
       "abajo": 0.0,
-      "der": 1.0,
+      "der": 0.0,
       "arriba": 0.0
      },
      "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
+     "cajon": 2,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
        999,
@@ -5845,347 +5943,11 @@
      "globo": 16
     },
     {
-     "codigo": "2196217048152",
-     "nombre": "Travesaño 502x130x18 B",
-     "nombre_guigui": "Fondo01",
-     "nombre_largo": "Cajonera_Cajón02_Fondo01",
-     "tipo": "Travesaño",
-     "W": 130,
-     "H": 502,
-     "T": 18,
-     "dibujo_W": 130,
-     "dibujo_H": 502,
-     "aviso": "",
-     "corte_W": 129,
-     "corte_H": 502,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
-     "caja": [
-      [
-       999,
-       -148,
-       485
-      ],
-      [
-       1501,
-       -130,
-       615
-      ]
-     ],
-     "normal": [
-      0,
-      -1,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 4,
-      "pernos": 4,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 17
-    },
-    {
-     "codigo": "2196217048053",
-     "nombre": "Travesaño 597x195x18 B",
-     "nombre_guigui": "Tapa01",
-     "nombre_largo": "Cajonera_Cajón03_Tapa01",
-     "tipo": "Travesaño",
-     "W": 195,
-     "H": 597,
-     "T": 18,
-     "dibujo_W": 195,
-     "dibujo_H": 597,
-     "aviso": "",
-     "corte_W": 193,
-     "corte_H": 595,
-     "material": "NPetfrente",
-     "textura": "PET Blanco",
-     "cantos": {
-      "izq": 1.0,
-      "abajo": 1.0,
-      "der": 1.0,
-      "arriba": 1.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
-     "caja": [
-      [
-       951.5,
-       -598,
-       641.5
-      ],
-      [
-       1548.5,
-       -580,
-       836.5
-      ]
-     ],
-     "normal": [
-      0,
-      -1,
-      0
-     ],
-     "espejada": false,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 18
-    },
-    {
-     "codigo": "2196217048060",
-     "nombre": "Travesaño 502x130x18 C",
-     "nombre_guigui": "Frente01",
-     "nombre_largo": "Cajonera_Cajón03_Frente01",
-     "tipo": "Travesaño",
-     "W": 130,
-     "H": 502,
-     "T": 18,
-     "dibujo_W": 130,
-     "dibujo_H": 502,
-     "aviso": "",
-     "corte_W": 129,
-     "corte_H": 502,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
-     "caja": [
-      [
-       999,
-       -580,
-       665
-      ],
-      [
-       1501,
-       -562,
-       795
-      ]
-     ],
-     "normal": [
-      0,
-      -1,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 4,
-      "pernos": 4,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 19
-    },
-    {
-     "codigo": "2196217048091",
-     "nombre": "Travesaño 502x130x18 D",
-     "nombre_guigui": "Fondo01",
-     "nombre_largo": "Cajonera_Cajón03_Fondo01",
-     "tipo": "Travesaño",
-     "W": 130,
-     "H": 502,
-     "T": 18,
-     "dibujo_W": 130,
-     "dibujo_H": 502,
-     "aviso": "",
-     "corte_W": 129,
-     "corte_H": 502,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 1.0,
-      "arriba": 0.0
-     },
-     "veta": "HORIZONTAL",
-     "rol": "PLACA",
-     "categoria": 30,
-     "caja": [
-      [
-       999,
-       -148,
-       665
-      ],
-      [
-       1501,
-       -130,
-       795
-      ]
-     ],
-     "normal": [
-      0,
-      -1,
-      0
-     ],
-     "espejada": true,
-     "herrajes": {
-      "excentricas": 4,
-      "pernos": 4,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 20
-    },
-    {
-     "codigo": "2196217048237",
-     "nombre": "Travesaño 564x150x18",
-     "nombre_guigui": "Listón superior01",
-     "nombre_largo": "Cajonera_Listón superior01",
-     "tipo": "Travesaño",
-     "W": 564,
-     "H": 150,
-     "T": 18,
-     "dibujo_W": 564,
-     "dibujo_H": 150,
-     "aviso": "",
-     "corte_W": 564,
-     "corte_H": 148,
-     "material": "NEstructura",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 1.0,
-      "der": 0.0,
-      "arriba": 1.0
-     },
-     "veta": "VERTICAL",
-     "rol": "PLACA",
-     "categoria": 30,
-     "caja": [
-      [
-       968,
-       -18,
-       720
-      ],
-      [
-       1532,
-       0,
-       870
-      ]
-     ],
-     "normal": [
-      0,
-      -1,
-      0
-     ],
-     "espejada": false,
-     "herrajes": {
-      "excentricas": 4,
-      "pernos": 4,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 21
-    },
-    {
-     "codigo": "2196217048220",
-     "nombre": "Fondo 512x424x5 A",
-     "nombre_guigui": "Base01",
-     "nombre_largo": "Cajonera_Cajón01_Base01",
-     "tipo": "Fondo",
-     "W": 424,
-     "H": 512,
-     "T": 5,
-     "dibujo_W": 414,
-     "dibujo_H": 502,
-     "aviso": "",
-     "corte_W": 424,
-     "corte_H": 512,
-     "material": "NFondo",
-     "textura": "Blanco",
-     "cantos": {
-      "izq": 0.0,
-      "abajo": 0.0,
-      "der": 0.0,
-      "arriba": 0.0
-     },
-     "veta": "VERTICAL",
-     "rol": "FONDO",
-     "categoria": 35,
-     "caja": [
-      [
-       999,
-       -562,
-       143
-      ],
-      [
-       1501,
-       -148,
-       148
-      ]
-     ],
-     "normal": [
-      0,
-      0,
-      1
-     ],
-     "espejada": false,
-     "herrajes": {
-      "excentricas": 0,
-      "pernos": 0,
-      "receptores": 0,
-      "bisagras": 0,
-      "tornillos_bisagra": 0,
-      "correderas": 0,
-      "tornillos_corredera": 0,
-      "led": []
-     },
-     "ean_ok": true,
-     "globo": 22
-    },
-    {
      "codigo": "2196217048169",
-     "nombre": "Fondo 512x424x5 B",
+     "nombre": "Fondo caja 512x424x5 B",
      "nombre_guigui": "Base01",
      "nombre_largo": "Cajonera_Cajón02_Base01",
-     "tipo": "Fondo",
+     "tipo": "Fondo caja",
      "W": 424,
      "H": 512,
      "T": 5,
@@ -6203,8 +5965,9 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
-     "rol": "FONDO",
-     "categoria": 35,
+     "cajon": 2,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
        999,
@@ -6234,14 +5997,356 @@
       "led": []
      },
      "ean_ok": true,
+     "globo": 17
+    },
+    {
+     "codigo": "2196217048152",
+     "nombre": "Trasera caja 502x130x18 A",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Cajonera_Cajón02_Fondo01",
+     "tipo": "Trasera caja",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 2,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -148,
+       485
+      ],
+      [
+       1501,
+       -130,
+       615
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 18
+    },
+    {
+     "codigo": "2196217048138",
+     "nombre": "Lateral caja 450x130x18 C",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Cajonera_Cajón02_Lateral derecho01",
+     "tipo": "Lateral caja",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 2,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       1501,
+       -580,
+       485
+      ],
+      [
+       1519,
+       -130,
+       615
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 19
+    },
+    {
+     "codigo": "2196217048084",
+     "nombre": "Lateral caja 450x130x18 B",
+     "nombre_guigui": "Lateral izquierdo01",
+     "nombre_largo": "Cajonera_Cajón03_Lateral izquierdo01",
+     "tipo": "Lateral caja",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 3,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       981,
+       -580,
+       665
+      ],
+      [
+       999,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 20
+    },
+    {
+     "codigo": "2196217048060",
+     "nombre": "Frente caja 502x130x18 B",
+     "nombre_guigui": "Frente01",
+     "nombre_largo": "Cajonera_Cajón03_Frente01",
+     "tipo": "Frente caja",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 3,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -580,
+       665
+      ],
+      [
+       1501,
+       -562,
+       795
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 21
+    },
+    {
+     "codigo": "2196217048091",
+     "nombre": "Trasera caja 502x130x18 B",
+     "nombre_guigui": "Fondo01",
+     "nombre_largo": "Cajonera_Cajón03_Fondo01",
+     "tipo": "Trasera caja",
+     "W": 130,
+     "H": 502,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 502,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 502,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 3,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       999,
+       -148,
+       665
+      ],
+      [
+       1501,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      0,
+      -1,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 4,
+      "pernos": 4,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
+     "globo": 22
+    },
+    {
+     "codigo": "2196217048077",
+     "nombre": "Lateral caja 450x130x18 D",
+     "nombre_guigui": "Lateral derecho01",
+     "nombre_largo": "Cajonera_Cajón03_Lateral derecho01",
+     "tipo": "Lateral caja",
+     "W": 130,
+     "H": 450,
+     "T": 18,
+     "dibujo_W": 130,
+     "dibujo_H": 450,
+     "aviso": "",
+     "corte_W": 129,
+     "corte_H": 450,
+     "material": "NEstructura",
+     "textura": "Blanco",
+     "cantos": {
+      "izq": 1.0,
+      "abajo": 0.0,
+      "der": 0.0,
+      "arriba": 0.0
+     },
+     "veta": "HORIZONTAL",
+     "cajon": 3,
+     "rol": "CAJON",
+     "categoria": 50,
+     "caja": [
+      [
+       1501,
+       -580,
+       665
+      ],
+      [
+       1519,
+       -130,
+       795
+      ]
+     ],
+     "normal": [
+      -1,
+      0,
+      0
+     ],
+     "espejada": true,
+     "herrajes": {
+      "excentricas": 0,
+      "pernos": 0,
+      "receptores": 0,
+      "bisagras": 0,
+      "tornillos_bisagra": 0,
+      "correderas": 0,
+      "tornillos_corredera": 0,
+      "led": []
+     },
+     "ean_ok": true,
      "globo": 23
     },
     {
      "codigo": "2196217048107",
-     "nombre": "Fondo 512x424x5 C",
+     "nombre": "Fondo caja 512x424x5 C",
      "nombre_guigui": "Base01",
      "nombre_largo": "Cajonera_Cajón03_Base01",
-     "tipo": "Fondo",
+     "tipo": "Fondo caja",
      "W": 424,
      "H": 512,
      "T": 5,
@@ -6259,8 +6364,9 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
-     "rol": "FONDO",
-     "categoria": 35,
+     "cajon": 3,
+     "rol": "CAJON",
+     "categoria": 50,
      "caja": [
       [
        999,
@@ -6347,6 +6453,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -6403,6 +6510,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -6459,6 +6567,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -6517,6 +6626,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -6568,11 +6678,12 @@
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
-      "abajo": 1.0,
+      "abajo": 0.0,
       "der": 1.0,
-      "arriba": 0.0
+      "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -6631,6 +6742,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -6687,6 +6799,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -6743,6 +6856,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -6799,6 +6913,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -6890,6 +7005,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -6946,6 +7062,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 10,
      "caja": [
@@ -7002,6 +7119,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -7058,6 +7176,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -7114,6 +7233,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 20,
      "caja": [
@@ -7167,11 +7287,12 @@
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
-      "abajo": 0.0,
+      "abajo": 1.0,
       "der": 0.0,
-      "arriba": 1.0
+      "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -7223,11 +7344,12 @@
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
-      "abajo": 0.0,
+      "abajo": 1.0,
       "der": 0.0,
-      "arriba": 1.0
+      "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PLACA",
      "categoria": 30,
      "caja": [
@@ -7284,6 +7406,7 @@
       "arriba": 0.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "FONDO",
      "categoria": 35,
      "caja": [
@@ -7340,6 +7463,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [
@@ -7396,6 +7520,7 @@
       "arriba": 1.0
      },
      "veta": "VERTICAL",
+     "cajon": 0,
      "rol": "PUERTA",
      "categoria": 40,
      "caja": [

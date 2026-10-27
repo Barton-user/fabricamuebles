@@ -1,0 +1,125 @@
+1956217421314 Lateral 780x580x18 A (corte) VOLTEADA (cara de trabajo arriba)
+1956217421307 Lateral 780x580x18 B (corte) sin cambios
+1956217421345 Piso 564x562x18 (corte) VOLTEADA (cara de trabajo arriba)
+1956217421352 Zócalo 564x59x18 (corte) VOLTEADA (cara de trabajo arriba)
+1956217421321 Travesaño 564x150x18 (corte) sin cambios
+1956217421338 Travesaño 564x51x18 (corte) VOLTEADA (cara de trabajo arriba)
+1956217421420 Uñero 2482x50x18 (corte) sin cambios
+1956217421413 Uñero 2482x52x18 (corte) VOLTEADA (cara de trabajo arriba)
+2112206381727 Lateral 840.5x400x18 A (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2112206381734 Lateral 840.5x400x18 B (corte) queda ABAJO: O15
+2112206381741 Piso 600x400x18 (corte) queda ABAJO: ranura 18x11
+2112206381802 Estante 564x377x18 (corte) VOLTEADA (cara de trabajo arriba)
+2112206381772 Estante 564x367x18 (corte) VOLTEADA (cara de trabajo arriba)
+2112206381710 Techo 600x400x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 18x11
+2112206381796 Travesaño 564x146.36x18 (corte) VOLTEADA (cara de trabajo arriba)
+2112206381789 Fondo 850.5x574x5    sin cambios
+2112206381758 Puerta 597x554.79x18 (corte) VOLTEADA (cara de trabajo arriba)
+2112485522354 Lateral 840.5x400x18 A (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2112485522361 Lateral 840.5x400x18 B (corte) queda ABAJO: O15
+2112485522378 Piso 1000x400x18 (corte) queda ABAJO: ranura 18x11
+2112485522422 Estante 964x370x18 (corte) VOLTEADA (cara de trabajo arriba)
+2112485522347 Techo 1000x400x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 18x11
+2112485522446 Travesaño 964x146.78x18 (corte) VOLTEADA (cara de trabajo arriba)
+2112485522439 Fondo 964x840.5x5    sin cambios
+2112485522385 Puerta 898.5x497x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2112485522408 Puerta 898.5x497x18 B (corte) VOLTEADA (cara de trabajo arriba)
+2113263803658 Lateral 840.5x400x18 A (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2113263803665 Lateral 840.5x400x18 B (corte) queda ABAJO: O15
+2113263803672 Piso 650x400x18 (corte) queda ABAJO: ranura 18x11
+2113263803702 Estante 614x367x18 (corte) VOLTEADA (cara de trabajo arriba)
+2113263803641 Techo 650x400x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 18x11
+2113263803726 Travesaño 614x146.78x18 (corte) VOLTEADA (cara de trabajo arriba)
+2113263803719 Fondo 850.5x624x5    sin cambios
+2113263803689 Puerta 898.5x647x18 (corte) VOLTEADA (cara de trabajo arriba)
+2113802794676 Lateral 600x388x18 (corte) VOLTEADA (cara de trabajo arriba)
+2113802794683 Lateral 600x370x18 (corte) sin cambios
+2113802794690 Piso 664x600x18 (corte) queda ABAJO: O15
+2113802794669 Techo 682x600x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 18x11
+2113802794720 Fondo 674x362x5      sin cambios
+2113802794706 Puerta 697x410x18 (corte) VOLTEADA (cara de trabajo arriba)
+2114155255005 Zócalo 482x90x18 A   VOLTEADA (cara de trabajo arriba)
+2114155255012 Zócalo 482x90x18 B   sin cambios
+2114155254923 Lateral 2282x600x18 (corte) VOLTEADA (cara de trabajo arriba)
+2114155254930 Parante 2264x600x18 (corte) queda ABAJO: O5
+2114155255029 Estante 600x332x18 (corte) queda ABAJO: O15, O5
+2114155255081 Estante 577x264x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2114155255050 Estante 577x264x18 B (corte) sin cambios
+2114155255043 Estante 577x264x18 C (corte) VOLTEADA (cara de trabajo arriba)
+2114155254916 Techo 600x350x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 18x11
+2114155254992 Zócalo 350x90x18 A   sin cambios
+2114155254985 Zócalo 350x90x18 B   VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2114155255098 Tapa 2264x50x18 (corte) VOLTEADA (cara de trabajo arriba)
+2114155254961 Travesaño 264x154.97x18 (corte) VOLTEADA (cara de trabajo arriba)
+2114155255036 Fondo 2274x274x5     sin cambios
+2114155255067 Puerta 1433.1x297x18 (corte) VOLTEADA (cara de trabajo arriba)
+2114155254947 Puerta 860.9x297x18 (corte) VOLTEADA (cara de trabajo arriba)
+2114601905492 Lateral 870x580x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2114601905508 Lateral 870x580x18 B (corte) sin cambios
+2114601905539 Travesaño 614x150x18 C (corte) VOLTEADA (cara de trabajo arriba)
+2114601905522 Travesaño 614x150x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2114601905515 Travesaño 614x150x18 B (corte) VOLTEADA (cara de trabajo arriba)
+2114715075951 Lateral 780x580x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2114715075968 Lateral 780x580x18 B (corte) sin cambios
+2114715075975 Piso 964x580x18 (corte) queda ABAJO: O15
+2114715075982 Estante 964x580x18 (corte) CONFLICTO: las dos caras necesitan ir arriba; queda ABAJO: O15, ranura 6x6
+2114715076057 Travesaño 964x150x18 (corte) sin cambios
+2114715076040 Fondo 974x382x5      sin cambios
+2114715076033 Fondo 974x232x5      sin cambios
+2114715075999 Puerta 744x497x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2114715076019 Puerta 744x497x18 B (corte) VOLTEADA (cara de trabajo arriba)
+2115070657400 Parante 780x562x18 (corte) VOLTEADA (cara de trabajo arriba)
+2115070657394 Lateral 780x580x18 (corte) sin cambios
+2115070657387 Piso 580x264x18 (corte) queda ABAJO: O15
+2115070657493 Tapa 780x68x18 (corte) VOLTEADA (cara de trabajo arriba)
+2115070657417 Travesaño 264x150x18 (corte) sin cambios
+2115070657486 Fondo 617x274x5      sin cambios
+2115070657424 Frente cajón 745x297x18 (corte) sin cambios
+2115070657455 Lateral caja 450x300x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2115070657431 Frente caja 300x202x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2115070657479 Fondo caja 424x212x5 sin cambios
+2115070657462 Trasera caja 300x202x18 (corte) queda ABAJO: O15
+2115070657448 Lateral caja 450x300x18 B (corte) sin cambios
+2196217048046 Lateral 780x580x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2196217048039 Lateral 780x580x18 B (corte) sin cambios
+2196217048022 Piso 580x564x18 (corte) VOLTEADA (cara de trabajo arriba)
+2196217048244 Travesaño 564x58x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O5
+2196217048251 Travesaño 564x68x18 (corte) VOLTEADA (cara de trabajo arriba)
+2196217048237 Travesaño 564x150x18 (corte) sin cambios
+2196217048176 Frente cajón 597x315x18 (corte) sin cambios
+2196217048114 Frente cajón 597x195x18 A (corte) sin cambios
+2196217048053 Frente cajón 597x195x18 B (corte) sin cambios
+2196217048206 Lateral caja 450x152x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2196217048183 Frente caja 502x152x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2196217048220 Fondo caja 512x424x5 A sin cambios
+2196217048213 Trasera caja 502x152x18 (corte) queda ABAJO: O15
+2196217048190 Lateral caja 450x152x18 B (corte) sin cambios
+2196217048145 Lateral caja 450x130x18 A (corte) VOLTEADA (cara de trabajo arriba)
+2196217048121 Frente caja 502x130x18 A (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2196217048169 Fondo caja 512x424x5 B sin cambios
+2196217048152 Trasera caja 502x130x18 A (corte) queda ABAJO: O15
+2196217048138 Lateral caja 450x130x18 C (corte) sin cambios
+2196217048084 Lateral caja 450x130x18 B (corte) VOLTEADA (cara de trabajo arriba)
+2196217048060 Frente caja 502x130x18 B (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
+2196217048091 Trasera caja 502x130x18 B (corte) queda ABAJO: O15
+2196217048077 Lateral caja 450x130x18 D (corte) sin cambios
+2196217048107 Fondo caja 512x424x5 C sin cambios
+3717179022593 Parante 840.5x400x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15, O5
+3717179022609 Lateral 840.5x400x18 (corte) queda ABAJO: O15
+3717179022678 Piso 400x350x18 (corte) queda ABAJO: ranura 18x11
+3717179022630 Estante 367x264x18 (corte) VOLTEADA (cara de trabajo arriba)
+3717179022586 Techo 400x300x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 18x11
+3717179022661 Tapa 876.5x50x18 (corte) VOLTEADA (cara de trabajo arriba)
+3717179022654 Travesaño 264x140x18 (corte) VOLTEADA (cara de trabajo arriba)
+3717179022647 Fondo 845.5x274x5    sin cambios
+3717179022616 Puerta 898.5x297x18 (corte) VOLTEADA (cara de trabajo arriba)
+3041309384214 Lateral 776.02x400x18 A (corte) VOLTEADA (cara de trabajo arriba)
+4041309384220 Lateral 776.02x400x18 B (corte) sin cambios
+7041309384289 Estante 564x400x18 (corte) queda ABAJO: O15, O5
+6041309384273 Estante 564x390x18 (corte) VOLTEADA (cara de trabajo arriba)
+8041309384202 Techo 600x400x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 18x11
+2041309384307 Zócalo 564x104.84x18 A (corte) VOLTEADA (cara de trabajo arriba)
+5041309384311 Zócalo 564x104.84x18 B (corte) VOLTEADA (cara de trabajo arriba)
+1041309384292 Fondo 663.18x574x5   sin cambios
+8041309384233 Puerta 711.18x297x18 A (corte) VOLTEADA (cara de trabajo arriba)
+5041309384250 Puerta 711.18x297x18 B (corte) VOLTEADA (cara de trabajo arriba)

@@ -97,7 +97,19 @@ def cantos_txt(c):
     return lados
 
 
-def generar(render, salida, orden, guardado, modulos=None):
+def _manual(dir_manuales, mueble, dir_o, carpeta, idx):
+    """Copia manuales/manual_<mueble>.pdf (salida de manual_armado.py) a la web; devuelve la URL."""
+    if not dir_manuales:
+        return None
+    src = os.path.join(dir_manuales, "manual_%s.pdf" % mueble.replace(" ", "_").replace("/", "-"))
+    if not os.path.exists(src):
+        return None
+    import shutil
+    shutil.copyfile(src, os.path.join(dir_o, "m%02d_manual.pdf" % (idx + 1)))
+    return "/pz/%s/m%02d_manual.pdf" % (carpeta, idx + 1)
+
+
+def generar(render, salida, orden, guardado, modulos=None, manuales=None):
     ADR = PL.paquete._cargar_adr()
     muebles, d = ADR.leer_render(render, None, None)
     total = len(d["models"])
@@ -116,6 +128,7 @@ def generar(render, salida, orden, guardado, modulos=None):
     for idx in idxs:
         pdf = os.path.join(dir_o, "m%02d.pdf" % (idx + 1))
         piezas, info = PL.planos(render, pdf, idx, orden, guardado)
+        url_manual = _manual(manuales, info["mueble"], dir_o, carpeta, idx)
         lista = [dict(n=p.num, nombre=p.nombre, codigo=p.codigo,
                       medida="%s x %s x %s" % tuple(_n(v) for v in (sorted([p.W, p.H], reverse=True) + [p.T])))
                  for p in piezas]
@@ -135,7 +148,7 @@ def generar(render, salida, orden, guardado, modulos=None):
                             ancho=info["ancho"], alto=info["alto"], prof=info["prof"],
                             piezas=lista,
                             pdf="/pz/%s/m%02d.pdf" % (carpeta, idx + 1),
-                            manual=None),
+                            manual=url_manual),
                 pieza=dict(n=p.num, nombre=p.nombre, nombre_guigui=p.nombre_guigui, tipo=p.tipo,
                            corte="%s x %s" % (_n(a), _n(b)), terminada="%s x %s" % (_n(ta), _n(tb)),
                            espesor=_n(p.T), material=PL.mat_es(p.material), color=PL.tex_es(p.textura),
@@ -164,9 +177,10 @@ def main(argv=None):
     ap.add_argument("--orden", required=True)
     ap.add_argument("--guardado", default="")
     ap.add_argument("--modulos", default="", help="indices de models[] separados por coma (default: todos)")
+    ap.add_argument("--manuales", default="", help="carpeta con manual_<mueble>.pdf (manual_armado.py)")
     a = ap.parse_args(argv)
     mods = [int(x) for x in a.modulos.split(",") if x.strip()] or None
-    generar(a.render, a.salida, a.orden, a.guardado, mods)
+    generar(a.render, a.salida, a.orden, a.guardado, mods, a.manuales or None)
 
 
 if __name__ == "__main__":

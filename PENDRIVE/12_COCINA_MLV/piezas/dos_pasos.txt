@@ -1,0 +1,40 @@
+2113802794690 Alacena s/heladera_Piso 664x600x18 (corte)   (verticales solo abajo y ranura arriba)
+    paso 1 2113802794690: O15 + 6 de canto
+    paso 2 9913802794699: ranura 6x6  (dar vuelta la pieza)
+2114715075975 Bajo mesada doble c/cesto_Piso 964x580x18 (c (verticales solo abajo y ranura arriba)
+    paso 1 2114715075975: O15 + 6 de canto
+    paso 2 9914715075974: ranura 6x6  (dar vuelta la pieza)
+2114715075982 Bajo mesada doble c/cesto_Estante 964x580x18 (ranuras de menos de 10 en las dos caras)
+    paso 1 2114715075982: O15, ranura 6x6 + 5 de canto
+    paso 2 9914715075981: ranura 6x6  (dar vuelta la pieza)
+2115070657387 00-Bandejero_Piso 580x264x18 (corte)         (verticales solo abajo y ranura arriba)
+    paso 1 2115070657387: O15 + 5 de canto
+    paso 2 9915070657386: ranura 6x6  (dar vuelta la pieza)
+2115070657431 00-Bandejero_Frente caja 300x202x18 (corte)  (verticales solo abajo y ranura arriba)
+    paso 1 2115070657431: O15 + 4 de canto
+    paso 2 9915070657430: ranura 6x5.5  (dar vuelta la pieza)
+2115070657462 00-Bandejero_Trasera caja 300x202x18 (corte) (verticales solo abajo y ranura arriba)
+    paso 1 2115070657462: O15 + 4 de canto
+    paso 2 9915070657461: ranura 6x5.5  (dar vuelta la pieza)
+2196217048183 Cajonera_Frente caja 502x152x18 (corte)      (verticales solo abajo y ranura arriba)
+    paso 1 2196217048183: O15 + 4 de canto
+    paso 2 9996217048182: ranura 6x5.5  (dar vuelta la pieza)
+2196217048213 Cajonera_Trasera caja 502x152x18 (corte)     (verticales solo abajo y ranura arriba)
+    paso 1 2196217048213: O15 + 4 de canto
+    paso 2 9996217048212: ranura 6x5.5  (dar vuelta la pieza)
+2196217048121 Cajonera_Frente caja 502x130x18 A (corte)    (verticales solo abajo y ranura arriba)
+    paso 1 2196217048121: O15 + 4 de canto
+    paso 2 9996217048120: ranura 6x5.5  (dar vuelta la pieza)
+2196217048152 Cajonera_Trasera caja 502x130x18 A (corte)   (verticales solo abajo y ranura arriba)
+    paso 1 2196217048152: O15 + 4 de canto
+    paso 2 9996217048151: ranura 6x5.5  (dar vuelta la pieza)
+2196217048060 Cajonera_Frente caja 502x130x18 B (corte)    (verticales solo abajo y ranura arriba)
+    paso 1 2196217048060: O15 + 4 de canto
+    paso 2 9996217048069: ranura 6x5.5  (dar vuelta la pieza)
+2196217048091 Cajonera_Trasera caja 502x130x18 B (corte)   (verticales solo abajo y ranura arriba)
+    paso 1 2196217048091: O15 + 4 de canto
+    paso 2 9996217048090: ranura 6x5.5  (dar vuelta la pieza)
+7041309384289 Alacena spar_Estante 564x400x18 (corte)      (verticales solo abajo y ranura arriba)
+    paso 1 7041309384289: O15, O5 + 4 de canto
+    paso 2 9941309384280: ranura 6x6  (dar vuelta la pieza)
+13 piezas en dos pasos

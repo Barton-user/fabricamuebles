@@ -1,0 +1,25 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>299.00</PanelLength>
+        <PanelWidth>202.00</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>00-Bandejero_Trasera caja 300x202x18 (corte) PASO 2</PanelName>
+        <Params>
+            <Param Key="L" Value="299.00" Comment="板长"/>
+            <Param Key="W" Value="202.00" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+    <CAD>
+        <TypeNo>3</TypeNo>
+        <TypeName>Line</TypeName>
+        <BeginX>281.50</BeginX>
+        <BeginY>202.00</BeginY>
+        <EndX>281.50</EndX>
+        <EndY>0.00</EndY>
+        <Correction>0</Correction>
+        <Width>6.00</Width>
+        <Depth>5.50</Depth>
+        <Enable>1</Enable>
+    </CAD>
+</KDTPanelFormat>

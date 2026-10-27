@@ -275,13 +275,18 @@ class Pieza(object):
 
 
 def _cantos(edge):
-    """'←0↓0→1↑0' -> (izq, abajo, der, arriba)"""
+    """'←0↓0→1↑0' -> (izq, abajo, der, arriba).
+
+    Las flechas de GuiGui estan dibujadas en pantalla Y-ABAJO: ↑ es el borde y=0 del
+    marco h/v (ABAJO aca) y ↓ el borde y=H (ARRIBA). Verificado 27/10/2026 con los
+    listones de la Alacena spar (canto abajo, lejos de los pernos) y los de COCINA MLV
+    (los pernos de y=0 son la union; el canto va en y=H)."""
     out = {"IZQ": "0", "ABAJO": "0", "DER": "0", "ARRIBA": "0"}
     if not edge:
         return out
     s = str(edge)
     import re
-    for flecha, k in ((u"←", "IZQ"), (u"↓", "ABAJO"), (u"→", "DER"), (u"↑", "ARRIBA")):
+    for flecha, k in ((u"←", "IZQ"), (u"↑", "ABAJO"), (u"→", "DER"), (u"↓", "ARRIBA")):
         m = re.search(flecha + r"([0-9.]+)", s)
         if m:
             out[k] = m.group(1)
@@ -426,6 +431,10 @@ def _espejar(pz):
         s["zpos"] = pz.T - s["zpos"]
     if pz.contorno:
         pz.contorno = [(W - x, y) for (x, y) in pz.contorno]
+    # los cantos (edgeInfo2) vienen en el mismo marco que los agujeros: se espejan igual
+    # (antes no: en los cajones el canto quedaba del lado de la ranura del fondo)
+    c = pz.cantos
+    c["IZQ"], c["DER"] = c["DER"], c["IZQ"]
     pz.espejada = not getattr(pz, "espejada", False)
 
 

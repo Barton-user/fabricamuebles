@@ -1,0 +1,1957 @@
+{
+ "version": 1,
+ "origen": "guigui-render",
+ "documento": "COCINA_MLV_207960w11792672732285.render.json",
+ "orden": "260625-20",
+ "cliente": "MALVINAS",
+ "direccion": "",
+ "ambiente": "COCINA MLV",
+ "piezas": [
+  {
+   "codigo": "2113802794690",
+   "nombre": "Alacena s/heladera_Piso 664x600x18 (corte) PASO 1",
+   "globo": 3,
+   "ancho": 599.0,
+   "alto": 664.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Alacena s/heladera",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 549.0,
+     "y": 630.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 299.0,
+     "y": 630.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 49.0,
+     "y": 630.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 549.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 299.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 49.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 549.0,
+     "y": 664.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 299.0,
+     "y": 664.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 49.0,
+     "y": 664.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 549.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 299.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 49.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 6
+  },
+  {
+   "codigo": "9913802794699",
+   "nombre": "Alacena s/heladera_Piso 664x600x18 (corte) PASO 2",
+   "globo": 3,
+   "ancho": 599.0,
+   "alto": 664.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Alacena s/heladera",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 20.5,
+     "y1": 664.0,
+     "x2": 20.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 6
+  },
+  {
+   "codigo": "2114715075975",
+   "nombre": "Bajo mesada doble c/cesto_Piso 964x580x18 (corte) PASO 1",
+   "globo": 3,
+   "ancho": 579.0,
+   "alto": 964.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Bajo mesada doble c/cesto",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 529.0,
+     "y": 930.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 289.0,
+     "y": 930.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 49.0,
+     "y": 930.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 529.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 289.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 49.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 529.0,
+     "y": 964.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 289.0,
+     "y": 964.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 49.0,
+     "y": 964.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 529.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 289.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 49.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 9
+  },
+  {
+   "codigo": "9914715075974",
+   "nombre": "Bajo mesada doble c/cesto_Piso 964x580x18 (corte) PASO 2",
+   "globo": 3,
+   "ancho": 579.0,
+   "alto": 964.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Bajo mesada doble c/cesto",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 7.5,
+     "y1": 964.0,
+     "x2": 7.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 9
+  },
+  {
+   "codigo": "2114715075982",
+   "nombre": "Bajo mesada doble c/cesto_Estante 964x580x18 (corte) PASO 1",
+   "globo": 4,
+   "ancho": 579.0,
+   "alto": 964.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Bajo mesada doble c/cesto",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 529.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 289.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 49.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 529.0,
+     "y": 930.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 349.0,
+     "y": 930.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 529.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 289.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 49.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 529.0,
+     "y": 964.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 349.0,
+     "y": 964.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [
+    {
+     "x1": 571.5,
+     "y1": 964.0,
+     "x2": 571.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [
+    "pieza con recorte (no es rectangular): el programa es el rectangulo; el recorte va a mano o en el router"
+   ],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 9
+  },
+  {
+   "codigo": "9914715075981",
+   "nombre": "Bajo mesada doble c/cesto_Estante 964x580x18 (corte) PASO 2",
+   "globo": 4,
+   "ancho": 579.0,
+   "alto": 964.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Bajo mesada doble c/cesto",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 7.5,
+     "y1": 964.0,
+     "x2": 7.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [
+    "pieza con recorte (no es rectangular): el programa es el rectangulo; el recorte va a mano o en el router"
+   ],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 9
+  },
+  {
+   "codigo": "2115070657387",
+   "nombre": "00-Bandejero_Piso 580x264x18 (corte) PASO 1",
+   "globo": 3,
+   "ancho": 579.0,
+   "alto": 264.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 529.0,
+     "y": 230.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 289.0,
+     "y": 230.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 49.0,
+     "y": 230.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 529.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 67.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 529.0,
+     "y": 264.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 289.0,
+     "y": 264.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 49.0,
+     "y": 264.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 529.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 67.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 10
+  },
+  {
+   "codigo": "9915070657386",
+   "nombre": "00-Bandejero_Piso 580x264x18 (corte) PASO 2",
+   "globo": 3,
+   "ancho": 579.0,
+   "alto": 264.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 20.5,
+     "y1": 264.0,
+     "x2": 20.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 10
+  },
+  {
+   "codigo": "2115070657431",
+   "nombre": "00-Bandejero_Frente caja 300x202x18 (corte) PASO 1",
+   "globo": 9,
+   "ancho": 299.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 267.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 31.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 267.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 31.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 267.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 31.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 267.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 31.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 10
+  },
+  {
+   "codigo": "9915070657430",
+   "nombre": "00-Bandejero_Frente caja 300x202x18 (corte) PASO 2",
+   "globo": 9,
+   "ancho": 299.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 17.5,
+     "y1": 202.0,
+     "x2": 17.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 10
+  },
+  {
+   "codigo": "2115070657462",
+   "nombre": "00-Bandejero_Trasera caja 300x202x18 (corte) PASO 1",
+   "globo": 11,
+   "ancho": 299.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 32.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 268.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 32.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 268.0,
+     "y": 168.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 32.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 268.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 32.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 268.0,
+     "y": 202.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 10
+  },
+  {
+   "codigo": "9915070657461",
+   "nombre": "00-Bandejero_Trasera caja 300x202x18 (corte) PASO 2",
+   "globo": 11,
+   "ancho": 299.0,
+   "alto": 202.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "00-Bandejero",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 281.5,
+     "y1": 202.0,
+     "x2": 281.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 10
+  },
+  {
+   "codigo": "2196217048183",
+   "nombre": "Cajonera_Frente caja 502x152x18 (corte) PASO 1",
+   "globo": 11,
+   "ancho": 151.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 119.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 31.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 119.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 31.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 119.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 31.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 119.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 31.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "9996217048182",
+   "nombre": "Cajonera_Frente caja 502x152x18 (corte) PASO 2",
+   "globo": 11,
+   "ancho": 151.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 17.5,
+     "y1": 502.0,
+     "x2": 17.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "2196217048213",
+   "nombre": "Cajonera_Trasera caja 502x152x18 (corte) PASO 1",
+   "globo": 13,
+   "ancho": 151.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 32.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 120.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 32.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 120.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 32.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 120.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 32.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 120.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "9996217048212",
+   "nombre": "Cajonera_Trasera caja 502x152x18 (corte) PASO 2",
+   "globo": 13,
+   "ancho": 151.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 133.5,
+     "y1": 502.0,
+     "x2": 133.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "2196217048121",
+   "nombre": "Cajonera_Frente caja 502x130x18 A (corte) PASO 1",
+   "globo": 16,
+   "ancho": 129.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 97.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 31.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 97.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 31.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 97.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 31.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 97.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 31.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "9996217048120",
+   "nombre": "Cajonera_Frente caja 502x130x18 A (corte) PASO 2",
+   "globo": 16,
+   "ancho": 129.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 17.5,
+     "y1": 502.0,
+     "x2": 17.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "2196217048152",
+   "nombre": "Cajonera_Trasera caja 502x130x18 A (corte) PASO 1",
+   "globo": 18,
+   "ancho": 129.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 32.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 98.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 32.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 98.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 32.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 98.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 32.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 98.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "9996217048151",
+   "nombre": "Cajonera_Trasera caja 502x130x18 A (corte) PASO 2",
+   "globo": 18,
+   "ancho": 129.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 111.5,
+     "y1": 502.0,
+     "x2": 111.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "2196217048060",
+   "nombre": "Cajonera_Frente caja 502x130x18 B (corte) PASO 1",
+   "globo": 21,
+   "ancho": 129.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 97.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 31.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 97.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 31.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 97.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 31.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 97.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 31.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "9996217048069",
+   "nombre": "Cajonera_Frente caja 502x130x18 B (corte) PASO 2",
+   "globo": 21,
+   "ancho": 129.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 17.5,
+     "y1": 502.0,
+     "x2": 17.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "2196217048091",
+   "nombre": "Cajonera_Trasera caja 502x130x18 B (corte) PASO 1",
+   "globo": 22,
+   "ancho": 129.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 32.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 98.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 32.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 98.0,
+     "y": 468.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 32.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 98.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 32.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 98.0,
+     "y": 502.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "9996217048090",
+   "nombre": "Cajonera_Trasera caja 502x130x18 B (corte) PASO 2",
+   "globo": 22,
+   "ancho": 129.0,
+   "alto": 502.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Cajonera",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 111.5,
+     "y1": 502.0,
+     "x2": 111.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 5.5,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 11
+  },
+  {
+   "codigo": "7041309384289",
+   "nombre": "Alacena spar_Estante 564x400x18 (corte) PASO 1",
+   "globo": 3,
+   "ancho": 399.0,
+   "alto": 564.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Alacena spar",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [
+    {
+     "x": 349.0,
+     "y": 530.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 49.0,
+     "y": 530.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 349.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 49.0,
+     "y": 34.0,
+     "diametro": 15.0,
+     "profundidad": 13.5,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "bigHole"
+    },
+    {
+     "x": 8.0,
+     "y": 50.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "preHole"
+    },
+    {
+     "x": 8.0,
+     "y": 514.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "preHole"
+    },
+    {
+     "x": 390.0,
+     "y": 50.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "preHole"
+    },
+    {
+     "x": 390.0,
+     "y": 514.0,
+     "diametro": 5.0,
+     "profundidad": 12.0,
+     "cara": "A",
+     "herraje": "3in1Lock",
+     "tipo": "preHole"
+    }
+   ],
+   "agujeros_canto": [
+    {
+     "x": 349.0,
+     "y": 564.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 49.0,
+     "y": 564.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "U",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 349.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    },
+    {
+     "x": 49.0,
+     "y": 0.0,
+     "z": 9.0,
+     "diametro": 8.0,
+     "profundidad": 33.0,
+     "canto": "D",
+     "herraje": "3in1Lock",
+     "tipo": "sideHole"
+    }
+   ],
+   "ranuras": [],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 1.0,
+   "canto_der": 0.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 13
+  },
+  {
+   "codigo": "9941309384280",
+   "nombre": "Alacena spar_Estante 564x400x18 (corte) PASO 2",
+   "globo": 3,
+   "ancho": 399.0,
+   "alto": 564.0,
+   "espesor": 18.0,
+   "material": "NEstructura",
+   "mueble": "Alacena spar",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "cantidad": 1,
+   "agujeros": [],
+   "agujeros_canto": [],
+   "ranuras": [
+    {
+     "x1": 7.5,
+     "y1": 564.0,
+     "x2": 7.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
+   "ranuras_canto": [],
+   "contorno": [],
+   "avisos": [],
+   "canto_izq": 0.0,
+   "canto_der": 1.0,
+   "canto_abajo": 0.0,
+   "canto_arriba": 0.0,
+   "modulo": 13
+  }
+ ]
+}

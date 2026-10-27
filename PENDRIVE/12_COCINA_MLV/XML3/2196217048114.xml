@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>193.00</PanelLength>
+        <PanelWidth>595.00</PanelWidth>
+        <PanelThickness>18.00</PanelThickness>
+        <PanelName>Cajonera_Frente cajón 597x195x18 A (corte)</PanelName>
+        <Params>
+            <Param Key="L" Value="193.00" Comment="板长"/>
+            <Param Key="W" Value="595.00" Comment="板宽"/>
+            <Param Key="T" Value="18.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

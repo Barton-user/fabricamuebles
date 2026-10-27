@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>974.00</PanelLength>
+        <PanelWidth>232.00</PanelWidth>
+        <PanelThickness>5.00</PanelThickness>
+        <PanelName>Bajo mesada doble c/cesto_Fondo 974x232x5</PanelName>
+        <Params>
+            <Param Key="L" Value="974.00" Comment="板长"/>
+            <Param Key="W" Value="232.00" Comment="板宽"/>
+            <Param Key="T" Value="5.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

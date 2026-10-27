@@ -1,0 +1,13 @@
+<KDTPanelFormat>
+    <PANEL>
+        <PanelLength>274.00</PanelLength>
+        <PanelWidth>2274.00</PanelWidth>
+        <PanelThickness>5.00</PanelThickness>
+        <PanelName>Escobero_Fondo 2274x274x5</PanelName>
+        <Params>
+            <Param Key="L" Value="274.00" Comment="板长"/>
+            <Param Key="W" Value="2274.00" Comment="板宽"/>
+            <Param Key="T" Value="5.00" Comment="板厚"/>
+        </Params>
+    </PANEL>
+</KDTPanelFormat>

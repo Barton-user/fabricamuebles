@@ -2056,3 +2056,28 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   `etiquetas.py` / `etiquetas_tspl.py` con `--url-base`: QR → `<dominio>/p/<codigo>`. Falta el dominio de Vercel
   y el push. `planos.py`: margen de vistas corregido para módulos muy bajos (Uñero).
 - Pendiente: nombres de las piezas de cajón (salen "Travesaño"), manual de armado por el camino GuiGui.
+
+## 27/10/2026 (tarde) — COCINA MLV: paquete de producción completo desde el render, sin Fusion
+
+- Web de pieza: Pato agregó `leiten.vercel.app` como dominio de producción de `fabricamuebles`; el QR abre la
+  página desde el celular (antes daba `DEPLOYMENT_NOT_FOUND`: el dominio no existía, no era un permiso).
+- GuiGui (MCP): COCINA MLV sigue guardada el 22/10 20:39 (China) → mismo render que las etiquetas.
+- Nuevo camino **render → piezas.json directo** (`etapa2/render_piezas.py`), sin `ArmarDesdeRender` en Fusion ni
+  `ExportarPiezas`. Regla deducida y validada: coordenadas del render tal cual, side −1 = cara A. Contra la Alacena
+  spar perforada (export de Fusion 05/10): 11/11 iguales; contra el cajón del Bandejero corregido a mano: 4/4.
+- Dos errores de `ArmarDesdeRender` encontrados al comparar y corregidos: ↑/↓ de `edgeInfo2` al revés (era el
+  "canto de los listones arriba" de la Spar: en COCINA MLV cambian 10 piezas, travesaños y techos) y `_espejar`
+  sin espejar los cantos (los 16 de cajón tenían el canto del lado de la ranura). Etiquetas, web y planos regenerados.
+- `paquete.py`: cajones de GuiGui en castellano reconocidos por el `plankName` → "Lateral caja", "Frente caja",
+  "Trasera caja", "Fondo caja", "Frente cajón" (antes "Travesaño"/"Tapa"). Cambian los globos de Bandejero y Cajonera.
+- `--herrajes-vigentes`: tornillos de bisagra Ø3×0,5 → Ø5×3, cazoleta 12 → 13, placa base → 37 / ±16 (25),
+  receptor Ø5×11 → ×12, perno 34 → 33, correderas Ø3 sacadas (48). Materiales de muestra (多层实木 ×4, 装饰板 ×3,
+  PETFRONT ×1) → Gris 18 / Blanco 5 / PET Gris.
+- `ajustar_maquina`: 1 conflicto (estante 964×580 del Bajo mesada doble: ranura 6 en las dos caras) y 12 piezas con
+  el patrón que falló el 19/10 (Ø15 sólo abajo + ranura arriba) → `dos_pasos.py`: `XML3/` lleva el paso 1 y
+  `XML3_2PASOS/` el paso 2 (códigos 99…); `XML3_PRUEBA_UN_PASO/` para probar si en un paso anda.
+- Manual de armado por el camino GuiGui: `render_modelo.py` → `manual_armado.py`, 13 PDFs (uno por mueble), también
+  en la web (botón "Manual de armado"). Revisados a ojo Alacena doble y Cajonera: bien; sin probar armando.
+- Todo junto en `etapa2/generar_desde_render.sh`. Salida y lista de lo que queda a mano en
+  `PENDRIVE/12_COCINA_MLV/LEEME.md`: 4 piezas de menos de 50 de ancho, 1 ranura de canto, 9 piezas con recorte,
+  ranura LED 18×11 por abajo (11 piezas, primera vez), banquina del Escobero sin geometría en GuiGui.

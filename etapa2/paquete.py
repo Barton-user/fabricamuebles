@@ -73,7 +73,7 @@ def _categoria(pz, es_cajon):
     """Orden de armado. Menor = antes."""
     nz = [abs(c) for c in pz.ez]           # normal en Fusion: x, y(=profundidad), z(=altura)
     eje = nz.index(max(nz))
-    if pz.es_puerta or "drawer panels" in pz.nombre.lower():
+    if pz.es_puerta or _es_frente_cajon(pz):
         return 40
     if es_cajon:
         return 50
@@ -86,8 +86,23 @@ def _categoria(pz, es_cajon):
     return 30                              # travesaños, zocalos, frentes fijos
 
 
+def numero_cajon(pz):
+    """N de cajon si la pieza es de un cajon de GuiGui en castellano ("<mueble>_Cajón02_Frente01"),
+    si no 0. En ingles el cajon se reconoce por el nombre de la pieza (draw box, drawer ...)."""
+    import re
+    m = re.search(r"_caj[oó]n\s*(\d+)_", (getattr(pz, "plankName", "") or "").lower())
+    return int(m.group(1)) if m else 0
+
+
+def _es_frente_cajon(pz):
+    n = pz.nombre.lower()
+    return "drawer panels" in n or (numero_cajon(pz) > 0 and n.startswith("tapa"))
+
+
 def _es_cajon(pz):
     n = pz.nombre.lower()
+    if numero_cajon(pz) and not _es_frente_cajon(pz):
+        return True
     return ("draw box" in n or "drawer back" in n or "drawer base" in n
             or "drawer panel01" in n and "drawer panels" not in n
             or ("drawer panel" in n and "panels" not in n))
@@ -133,14 +148,14 @@ def _tipo(pz, es_cajon, caja_m, bmin, bmax):
     alto = bmax[2] - bmin[2]
     if pz.es_puerta:
         return "Puerta"
-    if "drawer panels" in n:
+    if _es_frente_cajon(pz):
         return "Frente cajón"
     if es_cajon:
         if "base" in n:
             return "Fondo caja"
-        if "front" in n:
+        if "front" in n or n.startswith("frente"):
             return "Frente caja"
-        if "back" in n:
+        if "back" in n or n.startswith("fondo"):
             return "Trasera caja"
         return "Lateral caja"
     if pz.mueble.lower().find("uñero") >= 0 or pz.mueble.lower().find("unero") >= 0:
@@ -225,7 +240,7 @@ def maestra(ruta_render, modelos=None):
         piezas = []
         cajas = [_caja_mundo(ADR, pz) for pz in mu["piezas"]]
         estr = [c for pz, c in zip(mu["piezas"], cajas)
-                if not (pz.es_puerta or _es_cajon(pz) or "drawer panels" in pz.nombre.lower())] or cajas
+                if not (pz.es_puerta or _es_cajon(pz) or _es_frente_cajon(pz))] or cajas
         caja_m = ([min(c[0][i] for c in estr) for i in range(3)],
                   [max(c[1][i] for c in estr) for i in range(3)]) if cajas else ([0, 0, 0], [0, 0, 0])
         for pz, (bmin, bmax) in zip(mu["piezas"], cajas):
@@ -255,7 +270,8 @@ def maestra(ruta_render, modelos=None):
                 material=pz.material, textura=pz.textura,
                 cantos=dict(izq=izq, abajo=ab, der=der, arriba=ar),
                 veta="VERTICAL" if pz.texDir in ("normal", "", None) else "HORIZONTAL",
-                rol=("PUERTA" if pz.es_puerta else "FRENTE" if "drawer panels" in pz.nombre.lower()
+                cajon=numero_cajon(pz),
+                rol=("PUERTA" if pz.es_puerta else "FRENTE" if _es_frente_cajon(pz)
                      else "CAJON" if es_cajon else "FONDO" if pz.T < 8 else "PLACA"),
                 categoria=_categoria(pz, es_cajon),
                 caja=[[_n(v) for v in bmin], [_n(v) for v in bmax]],

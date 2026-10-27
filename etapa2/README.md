@@ -283,3 +283,36 @@ Marco: mundo de `ArmarDesdeRender` (X derecha, Y hacia atrás, Z arriba); por pi
 **cara A = side 1 = la cara con normal −ez** (verificado: el lateral izquierdo tiene sus 3 en 1 en side 1
 y esa cara mira adentro). Las piezas con W > H se avisan como "giradas 90° en la perforadora".
 El render se baja desde el navegador integrado con el MCP de GuiGui (`referencia/GUIGUI_MCP/LEEME.md`).
+
+---
+
+## Paquete de producción desde el `render.json` de GuiGui, sin Fusion (27/10/2026)
+
+```bash
+cd etapa2
+./generar_desde_render.sh <render.json> <carpeta> <orden> <cliente> <guardado dd/mm/aaaa> [url-base]
+```
+
+Hace todo en una pasada (~50 s para 125 piezas): `paquete.py` (maestra) → `render_piezas.py --herrajes-vigentes`
+(piezas.json, medida terminada) → `a_medida_corte.py` → `ajustar_maquina.py` → `exportar.py --formatos xml3` →
+`dos_pasos.py` → `listacorte.py` → `hojas.py` → `etiquetas.py --url-base` → `render_modelo.py` + `manual_armado.py`
+→ `web_piezas.py --manuales`. Qué deja en la carpeta: ver el encabezado del script o
+`PENDRIVE/12_COCINA_MLV/LEEME.md`.
+
+| Script | Qué hace |
+|---|---|
+| `render_piezas.py` | render → `piezas.json` (esquema de Fusion). Marco = h/v de `ArmarDesdeRender`; `ocenter`/`opt1`/`opt2` tal cual; **side −1 → cara A, side 1 → cara B**; canto del agujero lateral por la coordenada; cantos de `edgeInfo2` (**← izq, → der, ↑ abajo (y=0), ↓ arriba (y=H)**: las flechas están dibujadas Y-abajo); piezas `espejada` (cajones) se espejan como en `ArmarDesdeRender`. `--herrajes-vigentes`: bisagra, placa base, receptor, perno y correderas según `herrajes/medidas.json`; materiales de muestra de GuiGui → placa vigente (`MATERIAL_VIGENTE`). Las ranuras de canto van a `ranuras_canto_aparte` (si no, `exportar.py` descarta la pieza). Escribe `<salida>_informe.txt` |
+| `dos_pasos.py` | parte en dos programas las piezas con verticales sólo abajo y ranura arriba (falló el 19/10) o con ranuras < 10 en las dos caras. Paso 1 = código original; paso 2 = `99` + dígitos 3–12 + verificador |
+| `render_modelo.py` | render → `modelo.json` de `manual_armado.py` (mundo de ADR girado 180° en Z al de las recetas; pernos, excéntricas, bisagras, LED, una corredera por cajón; piezas de cajón "Cajón N …") |
+| `generar_desde_render.sh` | todo lo anterior |
+
+**Validación (27/10):** contra `fusion/EXPORT_SPAR_GUIGUI_O5/piezas.json` (la Alacena spar que se perforó):
+11/11 piezas iguales en agujeros, agujeros de canto, ranuras, cantos y medida (incluidos los dos arreglos que se
+habían hecho a mano: canto de los listones abajo y fondo 574 × 720,6). Contra el cajón del Bandejero
+(`fusion/EXPORT_BANDEJERO_CAJON/piezas.json`, corregido a mano): 4/4 iguales, canto IZQ incluido.
+
+**Corregido en `ArmarDesdeRender` (y por lo tanto en maestra, etiquetas, planos y web):** las flechas ↑/↓ de
+`edgeInfo2` estaban al revés (canto de listones y travesaños del lado de la unión) y `_espejar` no cambiaba los
+cantos izq/der (cajones con el canto del lado de la ranura). `paquete.py` reconoce los cajones de GuiGui en
+castellano por el `plankName` (`<mueble>_Cajón02_Frente01`): Lateral caja / Frente caja / Trasera caja /
+Fondo caja / Frente cajón, y guarda `cajon` = número.

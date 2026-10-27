@@ -1,0 +1,12778 @@
+{
+ "version": 1,
+ "origen": "guigui-render",
+ "documento": "COCINA_MLV_207960w11792672732285.render.json",
+ "orden": "260625-20",
+ "cliente": "",
+ "direccion": "",
+ "ambiente": "COCINA MLV",
+ "piezas": [
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Horno y anafe_Lateral 780x580x18 B",
+   "pieza": "Lateral B",
+   "codigo": "1956217421307",
+   "rol": "",
+   "W": 580.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -932.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Horno y anafe_Lateral 780x580x18 A",
+   "pieza": "Lateral A",
+   "codigo": "1956217421314",
+   "rol": "",
+   "W": 580.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -350.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Horno y anafe_Travesaño 564x150x18",
+   "pieza": "Travesaño",
+   "codigo": "1956217421321",
+   "rol": "",
+   "W": 564.0,
+   "H": 150.0,
+   "T": 18.0,
+   "O": [
+    -368.0,
+    18.0,
+    720.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Horno y anafe_Travesaño 564x51x18",
+   "pieza": "Travesaño",
+   "codigo": "1956217421338",
+   "rol": "",
+   "W": 564.0,
+   "H": 51.0,
+   "T": 18.0,
+   "O": [
+    -368.0,
+    580.0,
+    749.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Horno y anafe_Piso 564x562x18",
+   "pieza": "Piso",
+   "codigo": "1956217421345",
+   "rol": "",
+   "W": 562.0,
+   "H": 564.0,
+   "T": 18.0,
+   "O": [
+    -368.0,
+    -0.0,
+    108.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Horno y anafe_Zócalo 564x59x18",
+   "pieza": "Zócalo",
+   "codigo": "1956217421352",
+   "rol": "",
+   "W": 564.0,
+   "H": 59.0,
+   "T": 18.0,
+   "O": [
+    -368.0,
+    580.0,
+    90.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Uñero_Uñero 2482x52x18",
+   "pieza": "Uñero",
+   "codigo": "1956217421413",
+   "rol": "",
+   "W": 52.0,
+   "H": 2482.0,
+   "T": 18.0,
+   "O": [
+    -2550.0,
+    562.0,
+    870.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Uñero_Uñero 2482x50x18",
+   "pieza": "Uñero",
+   "codigo": "1956217421420",
+   "rol": "",
+   "W": 50.0,
+   "H": 2482.0,
+   "T": 18.0,
+   "O": [
+    -2550.0,
+    530.0,
+    800.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Techo 600x400x18",
+   "pieza": "Techo",
+   "codigo": "2112206381710",
+   "rol": "",
+   "W": 400.0,
+   "H": 600.0,
+   "T": 18.0,
+   "O": [
+    -950.0,
+    -0.0,
+    2390.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Lateral 840.5x400x18 A",
+   "pieza": "Lateral A",
+   "codigo": "2112206381727",
+   "rol": "",
+   "W": 400.0,
+   "H": 840.5,
+   "T": 18.0,
+   "O": [
+    -950.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Lateral 840.5x400x18 B",
+   "pieza": "Lateral B",
+   "codigo": "2112206381734",
+   "rol": "",
+   "W": 400.0,
+   "H": 840.5,
+   "T": 18.0,
+   "O": [
+    -1532.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Piso 600x400x18",
+   "pieza": "Piso",
+   "codigo": "2112206381741",
+   "rol": "",
+   "W": 400.0,
+   "H": 600.0,
+   "T": 18.0,
+   "O": [
+    -950.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Puerta 597x554.79x18",
+   "pieza": "Puerta",
+   "codigo": "2112206381758",
+   "rol": "PUERTA",
+   "W": 597.0,
+   "H": 554.7914979757084,
+   "T": 18.0,
+   "O": [
+    -951.5,
+    418.0,
+    1833.7085020242916
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 9
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Estante 564x367x18",
+   "pieza": "Estante",
+   "codigo": "2112206381772",
+   "rol": "",
+   "W": 367.0,
+   "H": 564.0,
+   "T": 18.0,
+   "O": [
+    -968.0,
+    23.0,
+    2155.869144013881
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Fondo 850.5x574x5",
+   "pieza": "Fondo",
+   "codigo": "2112206381789",
+   "rol": "FONDO",
+   "W": 564.0,
+   "H": 840.5,
+   "T": 5.0,
+   "O": [
+    -968.0,
+    23.0,
+    1531.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 8
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Travesaño 564x146.36x18",
+   "pieza": "Travesaño",
+   "codigo": "2112206381796",
+   "rol": "",
+   "W": 564.0,
+   "H": 146.3644413927084,
+   "T": 18.0,
+   "O": [
+    -968.0,
+    18.0,
+    1531.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "多层实木",
+   "textura": "13玛雅灰",
+   "veta": "VERTICAL",
+   "globo": 7
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Alacena microondas01_Estante 564x377x18",
+   "pieza": "Estante",
+   "codigo": "2112206381802",
+   "rol": "",
+   "W": 377.0,
+   "H": 564.0,
+   "T": 18.0,
+   "O": [
+    -968.0,
+    23.0,
+    1875.2085020242916
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Techo 1000x400x18",
+   "pieza": "Techo",
+   "codigo": "2112485522347",
+   "rol": "",
+   "W": 400.0,
+   "H": 1000.0,
+   "T": 18.0,
+   "O": [
+    -1550.0,
+    -0.0,
+    2390.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Lateral 840.5x400x18 A",
+   "pieza": "Lateral A",
+   "codigo": "2112485522354",
+   "rol": "",
+   "W": 400.0,
+   "H": 840.5,
+   "T": 18.0,
+   "O": [
+    -1550.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Lateral 840.5x400x18 B",
+   "pieza": "Lateral B",
+   "codigo": "2112485522361",
+   "rol": "",
+   "W": 400.0,
+   "H": 840.5,
+   "T": 18.0,
+   "O": [
+    -2532.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Piso 1000x400x18",
+   "pieza": "Piso",
+   "codigo": "2112485522378",
+   "rol": "",
+   "W": 400.0,
+   "H": 1000.0,
+   "T": 18.0,
+   "O": [
+    -1550.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Puerta 898.5x497x18 A",
+   "pieza": "Puerta A",
+   "codigo": "2112485522385",
+   "rol": "PUERTA",
+   "W": 497.0,
+   "H": 898.5,
+   "T": 18.0,
+   "O": [
+    -1551.5,
+    418.0,
+    1490.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 8
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Puerta 898.5x497x18 B",
+   "pieza": "Puerta B",
+   "codigo": "2112485522408",
+   "rol": "PUERTA",
+   "W": 497.0,
+   "H": 898.5,
+   "T": 18.0,
+   "O": [
+    -2051.5,
+    418.0,
+    1490.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 9
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Estante 964x370x18",
+   "pieza": "Estante",
+   "codigo": "2112485522422",
+   "rol": "",
+   "W": 400.0,
+   "H": 964.0,
+   "T": 18.0,
+   "O": [
+    -1568.0,
+    -0.0,
+    1960.75
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Fondo 964x840.5x5",
+   "pieza": "Fondo",
+   "codigo": "2112485522439",
+   "rol": "FONDO",
+   "W": 964.0,
+   "H": 840.5,
+   "T": 5.0,
+   "O": [
+    -1568.0,
+    23.0,
+    1531.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 7
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Alacena doble_Travesaño 964x146.78x18",
+   "pieza": "Travesaño",
+   "codigo": "2112485522446",
+   "rol": "",
+   "W": 964.0,
+   "H": 146.78138942001283,
+   "T": 18.0,
+   "O": [
+    -1568.0,
+    18.0,
+    1531.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Alacena simple_Techo 650x400x18",
+   "pieza": "Techo",
+   "codigo": "2113263803641",
+   "rol": "",
+   "W": 400.0,
+   "H": 650.0,
+   "T": 18.0,
+   "O": [
+    -2550.0,
+    -0.0,
+    2390.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Alacena simple_Lateral 840.5x400x18 A",
+   "pieza": "Lateral A",
+   "codigo": "2113263803658",
+   "rol": "",
+   "W": 400.0,
+   "H": 840.5,
+   "T": 18.0,
+   "O": [
+    -2550.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Alacena simple_Lateral 840.5x400x18 B",
+   "pieza": "Lateral B",
+   "codigo": "2113263803665",
+   "rol": "",
+   "W": 400.0,
+   "H": 840.5,
+   "T": 18.0,
+   "O": [
+    -3182.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Alacena simple_Piso 650x400x18",
+   "pieza": "Piso",
+   "codigo": "2113263803672",
+   "rol": "",
+   "W": 400.0,
+   "H": 650.0,
+   "T": 18.0,
+   "O": [
+    -2550.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Alacena simple_Puerta 898.5x647x18",
+   "pieza": "Puerta",
+   "codigo": "2113263803689",
+   "rol": "PUERTA",
+   "W": 647.0,
+   "H": 898.5,
+   "T": 18.0,
+   "O": [
+    -2551.5,
+    418.0,
+    1490.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 8
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Alacena simple_Estante 614x367x18",
+   "pieza": "Estante",
+   "codigo": "2113263803702",
+   "rol": "",
+   "W": 367.0,
+   "H": 614.0,
+   "T": 18.0,
+   "O": [
+    -2568.0,
+    23.0,
+    1960.75
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Alacena simple_Fondo 850.5x624x5",
+   "pieza": "Fondo",
+   "codigo": "2113263803719",
+   "rol": "FONDO",
+   "W": 614.0,
+   "H": 840.5,
+   "T": 5.0,
+   "O": [
+    -2568.0,
+    23.0,
+    1531.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 7
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Alacena simple_Travesaño 614x146.78x18",
+   "pieza": "Travesaño",
+   "codigo": "2113263803726",
+   "rol": "",
+   "W": 614.0,
+   "H": 146.78138942001283,
+   "T": 18.0,
+   "O": [
+    -2568.0,
+    18.0,
+    1531.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "多层实木",
+   "textura": "13玛雅灰",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Alacena s/heladera_Techo 682x600x18",
+   "pieza": "Techo",
+   "codigo": "2113802794669",
+   "rol": "",
+   "W": 600.0,
+   "H": 682.0,
+   "T": 18.0,
+   "O": [
+    -3218.0,
+    -0.0,
+    2390.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Alacena s/heladera_Lateral 600x388x18",
+   "pieza": "Lateral",
+   "codigo": "2113802794676",
+   "rol": "",
+   "W": 600.0,
+   "H": 387.9998779296875,
+   "T": 18.0,
+   "O": [
+    -3200.0,
+    -0.0,
+    2002.0001220703125
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "PETFRONT",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Alacena s/heladera_Lateral 600x370x18",
+   "pieza": "Lateral",
+   "codigo": "2113802794683",
+   "rol": "",
+   "W": 600.0,
+   "H": 369.9998779296875,
+   "T": 18.0,
+   "O": [
+    -3882.0,
+    -0.0,
+    2002.0001220703125
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Alacena s/heladera_Piso 664x600x18",
+   "pieza": "Piso",
+   "codigo": "2113802794690",
+   "rol": "",
+   "W": 600.0,
+   "H": 664.0,
+   "T": 18.0,
+   "O": [
+    -3218.0,
+    -0.0,
+    2020.0001220703125
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Alacena s/heladera_Puerta 697x410x18",
+   "pieza": "Puerta",
+   "codigo": "2113802794706",
+   "rol": "PUERTA",
+   "W": 697.0,
+   "H": 409.9998779296875,
+   "T": 18.0,
+   "O": [
+    -3201.5,
+    618.0,
+    1978.5001220703125
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Alacena s/heladera_Fondo 674x362x5",
+   "pieza": "Fondo",
+   "codigo": "2113802794720",
+   "rol": "FONDO",
+   "W": 664.0,
+   "H": 351.9998779296875,
+   "T": 5.0,
+   "O": [
+    -3218.0,
+    23.0,
+    2020.0001220703125
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Techo 600x350x18",
+   "pieza": "Techo",
+   "codigo": "2114155254916",
+   "rol": "",
+   "W": 600.000244140625,
+   "H": 350.0,
+   "T": 18.000000000000455,
+   "O": [
+    -3900.0,
+    -0.0,
+    2390.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 9
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Lateral 2282x600x18",
+   "pieza": "Lateral",
+   "codigo": "2114155254923",
+   "rol": "",
+   "W": 600.000244140625,
+   "H": 2281.9999999999995,
+   "T": 18.0,
+   "O": [
+    -3900.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Parante 2264x600x18",
+   "pieza": "Parante",
+   "codigo": "2114155254930",
+   "rol": "",
+   "W": 600.000244140625,
+   "H": 2263.9999999999995,
+   "T": 18.0,
+   "O": [
+    -4182.0,
+    -0.0,
+    108.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Puerta 860.9x297x18",
+   "pieza": "Puerta",
+   "codigo": "2114155254947",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 860.9048295454545,
+   "T": 18.0,
+   "O": [
+    -3901.5,
+    618.000244140625,
+    1527.595170454545
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 16
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Travesaño 264x154.97x18",
+   "pieza": "Travesaño",
+   "codigo": "2114155254961",
+   "rol": "",
+   "W": 264.0,
+   "H": 154.97159090909076,
+   "T": 18.0,
+   "O": [
+    -3918.0,
+    18.0,
+    1160.4422348484845
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "多层实木",
+   "textura": "13玛雅灰",
+   "veta": "VERTICAL",
+   "globo": 13
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Zócalo 350x90x18 B",
+   "pieza": "Zócalo B",
+   "codigo": "2114155254985",
+   "rol": "",
+   "W": 90.0,
+   "H": 350.0,
+   "T": 18.0,
+   "O": [
+    -3900.0,
+    18.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "HORIZONTAL",
+   "globo": 11
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Zócalo 350x90x18 A",
+   "pieza": "Zócalo A",
+   "codigo": "2114155254992",
+   "rol": "",
+   "W": 90.0,
+   "H": 350.0,
+   "T": 17.999999999999943,
+   "O": [
+    -3900.0,
+    518.000244140625,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "HORIZONTAL",
+   "globo": 10
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Zócalo 482x90x18 A",
+   "pieza": "Zócalo A",
+   "codigo": "2114155255005",
+   "rol": "",
+   "W": 482.000244140625,
+   "H": 90.0,
+   "T": 18.0,
+   "O": [
+    -3900.0,
+    18.0,
+    0.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "HORIZONTAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Zócalo 482x90x18 B",
+   "pieza": "Zócalo B",
+   "codigo": "2114155255012",
+   "rol": "",
+   "W": 482.000244140625,
+   "H": 90.0,
+   "T": 18.0,
+   "O": [
+    -4232.0,
+    18.0,
+    0.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "HORIZONTAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Estante 600x332x18",
+   "pieza": "Estante",
+   "codigo": "2114155255029",
+   "rol": "",
+   "W": 600.000244140625,
+   "H": 332.0,
+   "T": 18.0,
+   "O": [
+    -3918.0,
+    -0.0,
+    108.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Fondo 2274x274x5",
+   "pieza": "Fondo",
+   "codigo": "2114155255036",
+   "rol": "FONDO",
+   "W": 264.0,
+   "H": 2263.9999999999995,
+   "T": 5.0,
+   "O": [
+    -3918.0,
+    23.0,
+    108.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 14
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Estante 577x264x18 C",
+   "pieza": "Estante C",
+   "codigo": "2114155255043",
+   "rol": "",
+   "W": 577.000244140625,
+   "H": 264.0,
+   "T": 18.0,
+   "O": [
+    -3918.0,
+    23.0,
+    1966.7492897727268
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 8
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Estante 577x264x18 B",
+   "pieza": "Estante B",
+   "codigo": "2114155255050",
+   "rol": "",
+   "W": 577.000244140625,
+   "H": 264.0,
+   "T": 18.0,
+   "O": [
+    -3918.0,
+    23.0,
+    1544.095170454545
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 7
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Puerta 1433.1x297x18",
+   "pieza": "Puerta",
+   "codigo": "2114155255067",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 1433.095170454545,
+   "T": 18.0,
+   "O": [
+    -3901.5,
+    618.000244140625,
+    91.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 15
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Estante 577x264x18 A",
+   "pieza": "Estante A",
+   "codigo": "2114155255081",
+   "rol": "",
+   "W": 577.000244140625,
+   "H": 264.0,
+   "T": 18.0,
+   "O": [
+    -3918.0,
+    23.0,
+    1526.095170454545
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Escobero_Tapa 2264x50x18",
+   "pieza": "Tapa",
+   "codigo": "2114155255098",
+   "rol": "",
+   "W": 50.0,
+   "H": 2263.9999999999995,
+   "T": 18.0,
+   "O": [
+    -4200.0,
+    600.000244140625,
+    108.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 12
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Lavarropa_Lateral 870x580x18 A",
+   "pieza": "Lateral A",
+   "codigo": "2114601905492",
+   "rol": "",
+   "W": 580.0,
+   "H": 870.0,
+   "T": 18.0,
+   "O": [
+    -2550.0,
+    -0.0,
+    0.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Lavarropa_Lateral 870x580x18 B",
+   "pieza": "Lateral B",
+   "codigo": "2114601905508",
+   "rol": "",
+   "W": 580.0,
+   "H": 870.0,
+   "T": 18.0,
+   "O": [
+    -3182.0,
+    -0.0,
+    0.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Lavarropa_Travesaño 614x150x18 B",
+   "pieza": "Travesaño B",
+   "codigo": "2114601905515",
+   "rol": "",
+   "W": 614.0,
+   "H": 150.0,
+   "T": 18.0,
+   "O": [
+    -2568.0,
+    18.0,
+    720.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Lavarropa_Travesaño 614x150x18 A",
+   "pieza": "Travesaño A",
+   "codigo": "2114601905522",
+   "rol": "",
+   "W": 614.0,
+   "H": 150.0,
+   "T": 18.0,
+   "O": [
+    -2568.0,
+    18.0,
+    0.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Lavarropa_Travesaño 614x150x18 C",
+   "pieza": "Travesaño C",
+   "codigo": "2114601905539",
+   "rol": "",
+   "W": 150.0,
+   "H": 614.0,
+   "T": 18.0,
+   "O": [
+    -2568.0,
+    430.0,
+    870.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Lateral 780x580x18 A",
+   "pieza": "Lateral A",
+   "codigo": "2114715075951",
+   "rol": "",
+   "W": 580.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -1550.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Lateral 780x580x18 B",
+   "pieza": "Lateral B",
+   "codigo": "2114715075968",
+   "rol": "",
+   "W": 580.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -2532.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Piso 964x580x18",
+   "pieza": "Piso",
+   "codigo": "2114715075975",
+   "rol": "",
+   "W": 580.0,
+   "H": 964.0,
+   "T": 18.0,
+   "O": [
+    -1568.0,
+    -0.0,
+    108.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Estante 964x580x18",
+   "pieza": "Estante",
+   "codigo": "2114715075982",
+   "rol": "",
+   "W": 580.0,
+   "H": 964.0,
+   "T": 18.0,
+   "O": [
+    -1568.0,
+    -0.0,
+    498.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Puerta 744x497x18 A",
+   "pieza": "Puerta A",
+   "codigo": "2114715075999",
+   "rol": "PUERTA",
+   "W": 497.0,
+   "H": 744.0,
+   "T": 18.0,
+   "O": [
+    -1551.5,
+    598.0,
+    91.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Blanco",
+   "veta": "VERTICAL",
+   "globo": 8
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Puerta 744x497x18 B",
+   "pieza": "Puerta B",
+   "codigo": "2114715076019",
+   "rol": "PUERTA",
+   "W": 497.0,
+   "H": 744.0,
+   "T": 18.0,
+   "O": [
+    -2051.5,
+    598.0,
+    91.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Blanco",
+   "veta": "VERTICAL",
+   "globo": 9
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Fondo 974x232x5",
+   "pieza": "Fondo",
+   "codigo": "2114715076033",
+   "rol": "FONDO",
+   "W": 964.0,
+   "H": 222.0,
+   "T": 5.0,
+   "O": [
+    -1568.0,
+    10.0,
+    498.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "装饰板",
+   "textura": "d02白麻面",
+   "veta": "VERTICAL",
+   "globo": 7
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Fondo 974x382x5",
+   "pieza": "Fondo",
+   "codigo": "2114715076040",
+   "rol": "FONDO",
+   "W": 964.0,
+   "H": 372.0,
+   "T": 5.0,
+   "O": [
+    -1568.0,
+    10.0,
+    108.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "装饰板",
+   "textura": "d02白麻面",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bajo mesada doble c/cesto_Travesaño 964x150x18",
+   "pieza": "Travesaño",
+   "codigo": "2114715076057",
+   "rol": "",
+   "W": 964.0,
+   "H": 150.0,
+   "T": 18.0,
+   "O": [
+    -1568.0,
+    18.0,
+    720.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Piso 580x264x18",
+   "pieza": "Piso",
+   "codigo": "2115070657387",
+   "rol": "",
+   "W": 580.0,
+   "H": 264.0,
+   "T": 18.0,
+   "O": [
+    -68.0,
+    -0.0,
+    108.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Lateral 780x580x18",
+   "pieza": "Lateral",
+   "codigo": "2115070657394",
+   "rol": "",
+   "W": 580.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -332.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Parante 780x562x18",
+   "pieza": "Parante",
+   "codigo": "2115070657400",
+   "rol": "",
+   "W": 562.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -50.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Travesaño 264x150x18",
+   "pieza": "Travesaño",
+   "codigo": "2115070657417",
+   "rol": "",
+   "W": 264.0,
+   "H": 150.0,
+   "T": 18.0,
+   "O": [
+    -68.0,
+    18.0,
+    720.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Frente cajón 745x297x18",
+   "pieza": "Frente cajón 1",
+   "codigo": "2115070657424",
+   "rol": "",
+   "W": 745.0,
+   "H": 297.0,
+   "T": 18.0,
+   "O": [
+    -51.5,
+    598.0,
+    836.5
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 7
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Frente caja 300x202x18",
+   "pieza": "Cajón 1 frente caja",
+   "codigo": "2115070657431",
+   "rol": "",
+   "W": 300.0,
+   "H": 202.0,
+   "T": 18.0,
+   "O": [
+    -99.0,
+    580.0,
+    433.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 9
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Lateral caja 450x300x18 B",
+   "pieza": "Cajón 1 lateral caja b",
+   "codigo": "2115070657448",
+   "rol": "",
+   "W": 300.0,
+   "H": 450.0,
+   "T": 18.0,
+   "O": [
+    -301.0,
+    130.0,
+    433.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 12
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Lateral caja 450x300x18 A",
+   "pieza": "Cajón 1 lateral caja a",
+   "codigo": "2115070657455",
+   "rol": "",
+   "W": 300.0,
+   "H": 450.0,
+   "T": 18.0,
+   "O": [
+    -81.0,
+    130.0,
+    433.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 8
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Trasera caja 300x202x18",
+   "pieza": "Cajón 1 trasera caja",
+   "codigo": "2115070657462",
+   "rol": "",
+   "W": 300.0,
+   "H": 202.0,
+   "T": 18.0,
+   "O": [
+    -99.0,
+    148.0,
+    433.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 11
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Fondo caja 424x212x5",
+   "pieza": "Cajón 1 fondo caja",
+   "codigo": "2115070657479",
+   "rol": "",
+   "W": 414.0,
+   "H": 202.0,
+   "T": 5.0,
+   "O": [
+    -99.0,
+    148.0,
+    153.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "装饰板",
+   "textura": "01暖白",
+   "veta": "VERTICAL",
+   "globo": 10
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Fondo 617x274x5",
+   "pieza": "Fondo",
+   "codigo": "2115070657486",
+   "rol": "FONDO",
+   "W": 264.0,
+   "H": 612.0,
+   "T": 5.0,
+   "O": [
+    -68.0,
+    23.0,
+    108.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "00-Bandejero_Tapa 780x68x18",
+   "pieza": "Tapa",
+   "codigo": "2115070657493",
+   "rol": "",
+   "W": 68.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -0.0,
+    580.0,
+    90.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Piso 580x564x18",
+   "pieza": "Piso",
+   "codigo": "2196217048022",
+   "rol": "",
+   "W": 580.0,
+   "H": 564.0,
+   "T": 18.0,
+   "O": [
+    -968.0,
+    -0.0,
+    108.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Lateral 780x580x18 B",
+   "pieza": "Lateral B",
+   "codigo": "2196217048039",
+   "rol": "",
+   "W": 580.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -1532.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Lateral 780x580x18 A",
+   "pieza": "Lateral A",
+   "codigo": "2196217048046",
+   "rol": "",
+   "W": 580.0,
+   "H": 780.0,
+   "T": 18.0,
+   "O": [
+    -950.0,
+    -0.0,
+    90.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Frente cajón 597x195x18 B",
+   "pieza": "Frente cajón 3",
+   "codigo": "2196217048053",
+   "rol": "",
+   "W": 195.0,
+   "H": 597.0,
+   "T": 18.0,
+   "O": [
+    -951.5,
+    598.0,
+    836.5
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 9
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Frente caja 502x130x18 B",
+   "pieza": "Cajón 3 frente caja b",
+   "codigo": "2196217048060",
+   "rol": "",
+   "W": 130.0,
+   "H": 502.0,
+   "T": 18.0,
+   "O": [
+    -999.0,
+    580.0,
+    795.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 21
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Lateral caja 450x130x18 D",
+   "pieza": "Cajón 3 lateral caja d",
+   "codigo": "2196217048077",
+   "rol": "",
+   "W": 130.0,
+   "H": 450.0,
+   "T": 18.0,
+   "O": [
+    -1501.0,
+    130.0,
+    795.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 23
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Lateral caja 450x130x18 B",
+   "pieza": "Cajón 3 lateral caja b",
+   "codigo": "2196217048084",
+   "rol": "",
+   "W": 130.0,
+   "H": 450.0,
+   "T": 18.0,
+   "O": [
+    -981.0,
+    130.0,
+    795.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 20
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Trasera caja 502x130x18 B",
+   "pieza": "Cajón 3 trasera caja b",
+   "codigo": "2196217048091",
+   "rol": "",
+   "W": 130.0,
+   "H": 502.0,
+   "T": 18.0,
+   "O": [
+    -999.0,
+    148.0,
+    795.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 22
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Fondo caja 512x424x5 C",
+   "pieza": "Cajón 3 fondo caja c",
+   "codigo": "2196217048107",
+   "rol": "",
+   "W": 414.0,
+   "H": 502.0,
+   "T": 5.0,
+   "O": [
+    -999.0,
+    148.0,
+    685.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 24
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Frente cajón 597x195x18 A",
+   "pieza": "Frente cajón 2",
+   "codigo": "2196217048114",
+   "rol": "",
+   "W": 195.0,
+   "H": 597.0,
+   "T": 18.0,
+   "O": [
+    -951.5,
+    598.0,
+    638.5
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 8
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Frente caja 502x130x18 A",
+   "pieza": "Cajón 2 frente caja a",
+   "codigo": "2196217048121",
+   "rol": "",
+   "W": 130.0,
+   "H": 502.0,
+   "T": 18.0,
+   "O": [
+    -999.0,
+    580.0,
+    615.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 16
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Lateral caja 450x130x18 C",
+   "pieza": "Cajón 2 lateral caja c",
+   "codigo": "2196217048138",
+   "rol": "",
+   "W": 130.0,
+   "H": 450.0,
+   "T": 18.0,
+   "O": [
+    -1501.0,
+    130.0,
+    615.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 19
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Lateral caja 450x130x18 A",
+   "pieza": "Cajón 2 lateral caja a",
+   "codigo": "2196217048145",
+   "rol": "",
+   "W": 130.0,
+   "H": 450.0,
+   "T": 18.0,
+   "O": [
+    -981.0,
+    130.0,
+    615.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 15
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Trasera caja 502x130x18 A",
+   "pieza": "Cajón 2 trasera caja a",
+   "codigo": "2196217048152",
+   "rol": "",
+   "W": 130.0,
+   "H": 502.0,
+   "T": 18.0,
+   "O": [
+    -999.0,
+    148.0,
+    615.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 18
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Fondo caja 512x424x5 B",
+   "pieza": "Cajón 2 fondo caja b",
+   "codigo": "2196217048169",
+   "rol": "",
+   "W": 414.0,
+   "H": 502.0,
+   "T": 5.0,
+   "O": [
+    -999.0,
+    148.0,
+    505.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 17
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Frente cajón 597x315x18",
+   "pieza": "Frente cajón 1",
+   "codigo": "2196217048176",
+   "rol": "",
+   "W": 315.0,
+   "H": 597.0,
+   "T": 18.0,
+   "O": [
+    -951.5,
+    598.0,
+    406.5
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 7
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Frente caja 502x152x18",
+   "pieza": "Cajón 1 frente caja",
+   "codigo": "2196217048183",
+   "rol": "",
+   "W": 152.0,
+   "H": 502.0,
+   "T": 18.0,
+   "O": [
+    -999.0,
+    580.0,
+    280.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 11
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Lateral caja 450x152x18 B",
+   "pieza": "Cajón 1 lateral caja b",
+   "codigo": "2196217048190",
+   "rol": "",
+   "W": 152.0,
+   "H": 450.0,
+   "T": 18.0,
+   "O": [
+    -1501.0,
+    130.0,
+    280.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 14
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Lateral caja 450x152x18 A",
+   "pieza": "Cajón 1 lateral caja a",
+   "codigo": "2196217048206",
+   "rol": "",
+   "W": 152.0,
+   "H": 450.0,
+   "T": 18.0,
+   "O": [
+    -981.0,
+    130.0,
+    280.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 10
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Trasera caja 502x152x18",
+   "pieza": "Cajón 1 trasera caja",
+   "codigo": "2196217048213",
+   "rol": "",
+   "W": 152.0,
+   "H": 502.0,
+   "T": 18.0,
+   "O": [
+    -999.0,
+    148.0,
+    280.0
+   ],
+   "ex": [
+    -0.0,
+    -0.0,
+    -1.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "HORIZONTAL",
+   "globo": 13
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Fondo caja 512x424x5 A",
+   "pieza": "Cajón 1 fondo caja a",
+   "codigo": "2196217048220",
+   "rol": "",
+   "W": 414.0,
+   "H": 502.0,
+   "T": 5.0,
+   "O": [
+    -999.0,
+    148.0,
+    148.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 12
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Travesaño 564x150x18",
+   "pieza": "Travesaño",
+   "codigo": "2196217048237",
+   "rol": "",
+   "W": 564.0,
+   "H": 150.0,
+   "T": 18.0,
+   "O": [
+    -968.0,
+    18.0,
+    720.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Travesaño 564x58x18",
+   "pieza": "Travesaño",
+   "codigo": "2196217048244",
+   "rol": "",
+   "W": 58.0,
+   "H": 564.0,
+   "T": 18.0,
+   "O": [
+    -968.0,
+    522.0,
+    390.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Cajonera_Travesaño 564x68x18",
+   "pieza": "Travesaño",
+   "codigo": "2196217048251",
+   "rol": "",
+   "W": 564.0,
+   "H": 68.0,
+   "T": 18.0,
+   "O": [
+    -968.0,
+    540.0,
+    390.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Techo 400x300x18",
+   "pieza": "Techo",
+   "codigo": "3717179022586",
+   "rol": "",
+   "W": 400.0,
+   "H": 300.0,
+   "T": 18.0,
+   "O": [
+    -50.0,
+    -0.0,
+    2390.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NPetfrente",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Parante 840.5x400x18",
+   "pieza": "Parante",
+   "codigo": "3717179022593",
+   "rol": "",
+   "W": 400.0,
+   "H": 840.5,
+   "T": 18.0,
+   "O": [
+    -50.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Lateral 840.5x400x18",
+   "pieza": "Lateral",
+   "codigo": "3717179022609",
+   "rol": "",
+   "W": 400.0,
+   "H": 840.5,
+   "T": 18.0,
+   "O": [
+    -332.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Puerta 898.5x297x18",
+   "pieza": "Puerta",
+   "codigo": "3717179022616",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 898.5,
+   "T": 18.0,
+   "O": [
+    -51.5,
+    418.0,
+    1490.0
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 9
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Estante 367x264x18",
+   "pieza": "Estante",
+   "codigo": "3717179022630",
+   "rol": "",
+   "W": 367.0,
+   "H": 264.0,
+   "T": 18.0,
+   "O": [
+    -68.0,
+    23.0,
+    1960.7500639916175
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NPetfrente",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Fondo 845.5x274x5",
+   "pieza": "Fondo",
+   "codigo": "3717179022647",
+   "rol": "FONDO",
+   "W": 264.0,
+   "H": 840.4986718750001,
+   "T": 5.0,
+   "O": [
+    -68.0,
+    23.0,
+    1531.5013281249999
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 8
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Travesaño 264x140x18",
+   "pieza": "Travesaño",
+   "codigo": "3717179022654",
+   "rol": "",
+   "W": 264.0,
+   "H": 140.0,
+   "T": 18.0,
+   "O": [
+    -68.0,
+    18.0,
+    1531.5013281249999
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "多层实木",
+   "textura": "13玛雅灰",
+   "veta": "VERTICAL",
+   "globo": 7
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Tapa 876.5x50x18",
+   "pieza": "Tapa",
+   "codigo": "3717179022661",
+   "rol": "",
+   "W": 50.0,
+   "H": 876.5,
+   "T": 18.0,
+   "O": [
+    -0.0,
+    400.0,
+    1513.5
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Alacena simple ajuste_Piso 400x350x18",
+   "pieza": "Piso",
+   "codigo": "3717179022678",
+   "rol": "",
+   "W": 400.0,
+   "H": 350.0,
+   "T": 18.0,
+   "O": [
+    -0.0,
+    -0.0,
+    1531.5
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NPetfrente",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Techo 600x400x18",
+   "pieza": "Techo",
+   "codigo": "8041309384202",
+   "rol": "",
+   "W": 400.0,
+   "H": 600.0,
+   "T": 18.0,
+   "O": [
+    -350.0,
+    -0.0,
+    2390.0
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 5
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Lateral 776.02x400x18 A",
+   "pieza": "Lateral A",
+   "codigo": "3041309384214",
+   "rol": "",
+   "W": 400.0,
+   "H": 776.0192974569541,
+   "T": 18.0,
+   "O": [
+    -350.0,
+    -0.0,
+    1595.980702543046
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 1
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Lateral 776.02x400x18 B",
+   "pieza": "Lateral B",
+   "codigo": "4041309384220",
+   "rol": "",
+   "W": 400.0,
+   "H": 776.0192974569541,
+   "T": 18.0,
+   "O": [
+    -932.0,
+    -0.0,
+    1595.980702543046
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 2
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Puerta 711.18x297x18 A",
+   "pieza": "Puerta A",
+   "codigo": "8041309384233",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 711.1754478712307,
+   "T": 18.0,
+   "O": [
+    -351.5,
+    418.0,
+    1677.3245521287693
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 9
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Puerta 711.18x297x18 B",
+   "pieza": "Puerta B",
+   "codigo": "5041309384250",
+   "rol": "PUERTA",
+   "W": 297.0,
+   "H": 711.1754478712307,
+   "T": 18.0,
+   "O": [
+    -651.5,
+    418.0,
+    1677.3245521287693
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NPetfrente",
+   "textura": "PET Gris",
+   "veta": "VERTICAL",
+   "globo": 10
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Estante 564x390x18",
+   "pieza": "Estante",
+   "codigo": "6041309384273",
+   "rol": "",
+   "W": 390.0,
+   "H": 564.0,
+   "T": 17.999999999999773,
+   "O": [
+    -368.0,
+    10.0,
+    2054.412212072777
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 4
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Estante 564x400x18",
+   "pieza": "Estante",
+   "codigo": "7041309384289",
+   "rol": "",
+   "W": 400.0,
+   "H": 564.0,
+   "T": 18.0,
+   "O": [
+    -368.0,
+    -0.0,
+    1718.8245521287693
+   ],
+   "ex": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "ey": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 3
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Fondo 663.18x574x5",
+   "pieza": "Fondo",
+   "codigo": "1041309384292",
+   "rol": "FONDO",
+   "W": 564.0,
+   "H": 653.1754478712307,
+   "T": 5.0,
+   "O": [
+    -368.0,
+    10.0,
+    1718.8245521287693
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NFondo",
+   "textura": "Blanco",
+   "veta": "VERTICAL",
+   "globo": 8
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Zócalo 564x104.84x18 A",
+   "pieza": "Zócalo A",
+   "codigo": "2041309384307",
+   "rol": "",
+   "W": 564.0,
+   "H": 104.84384958572332,
+   "T": 18.0,
+   "O": [
+    -368.0,
+    400.0,
+    1595.980702543046
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 6
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Alacena spar_Zócalo 564x104.84x18 B",
+   "pieza": "Zócalo B",
+   "codigo": "5041309384311",
+   "rol": "",
+   "W": 564.0,
+   "H": 104.84384958572332,
+   "T": 18.0,
+   "O": [
+    -368.0,
+    18.0,
+    1595.980702543046
+   ],
+   "ex": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "ey": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "material": "NEstructura",
+   "textura": "Gris",
+   "veta": "VERTICAL",
+   "globo": 7
+  }
+ ],
+ "herrajes": [
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    18.0,
+    770.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    18.0,
+    820.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    18.0,
+    770.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    18.0,
+    820.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    571.0,
+    761.9985
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    571.0,
+    786.9985
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    571.0,
+    761.9985
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    571.0,
+    786.9985
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    562.0,
+    761.9985
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    562.0,
+    786.9985
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    562.0,
+    761.9985
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    562.0,
+    786.9985
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -418.0,
+    562.0,
+    99.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -882.0,
+    562.0,
+    99.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    512.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    512.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -418.0,
+    528.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -882.0,
+    528.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    512.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    512.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    571.0,
+    107.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    571.0,
+    132.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    571.0,
+    107.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    571.0,
+    132.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    562.0,
+    107.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    562.0,
+    132.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    562.0,
+    107.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Horno y anafe",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    562.0,
+    132.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -118.0,
+    571.0,
+    870.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -594.4000000000001,
+    571.0,
+    870.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1070.8000000000002,
+    571.0,
+    870.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1547.2,
+    571.0,
+    870.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2023.6,
+    571.0,
+    870.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2500.0,
+    571.0,
+    870.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -118.0,
+    580.0,
+    836.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -594.4000000000001,
+    580.0,
+    836.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1070.8000000000002,
+    580.0,
+    836.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1547.2,
+    580.0,
+    836.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2023.6,
+    580.0,
+    836.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Uñero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2500.0,
+    580.0,
+    836.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Tira LED 600",
+   "forma": "led",
+   "origen": [
+    -1250.0,
+    99.0,
+    2390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 600
+   }
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -959.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -959.0,
+    350.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -959.0,
+    50.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -959.0,
+    350.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -950.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -950.0,
+    350.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -950.0,
+    50.0,
+    1565.5
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -950.0,
+    350.0,
+    1565.5
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1541.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1541.0,
+    350.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1541.0,
+    50.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1541.0,
+    350.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1550.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1550.0,
+    350.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1550.0,
+    50.0,
+    1565.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1550.0,
+    350.0,
+    1565.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Tira LED 600",
+   "forma": "led",
+   "origen": [
+    -1250.0,
+    99.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 600
+   }
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -974.0,
+    400.0,
+    1933.7085020242914
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -974.0,
+    400.0,
+    2288.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    73.0,
+    2146.869144013881
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    340.0,
+    2146.869144013881
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    73.0,
+    2146.869144013881
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    340.0,
+    2146.869144013881
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    73.0,
+    2137.869144013881
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    340.0,
+    2137.869144013881
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    73.0,
+    2137.869144013881
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    340.0,
+    2137.869144013881
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    9.0,
+    1581.50000023737
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    9.0,
+    1627.8644411553387
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    9.0,
+    1581.50000023737
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    9.0,
+    1627.8644411553387
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1018.0,
+    9.0,
+    1531.50000023737
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1482.0,
+    9.0,
+    1531.50000023737
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    -0.0,
+    1581.50000023737
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    -0.0,
+    1627.8644411553387
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    -0.0,
+    1581.50000023737
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    -0.0,
+    1627.8644411553387
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1018.0,
+    -0.0,
+    1565.50000023737
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1482.0,
+    -0.0,
+    1565.50000023737
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    73.0,
+    1866.2085020242916
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    350.0,
+    1866.2085020242916
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    73.0,
+    1866.2085020242916
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    350.0,
+    1866.2085020242916
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    73.0,
+    1857.2085020242916
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    350.0,
+    1857.2085020242916
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    73.0,
+    1857.2085020242916
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena microondas01",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    350.0,
+    1857.2085020242916
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Tira LED 1000",
+   "forma": "led",
+   "origen": [
+    -2050.0,
+    99.0,
+    2390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 1000
+   }
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1559.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1559.0,
+    350.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1559.0,
+    50.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1559.0,
+    350.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1550.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1550.0,
+    350.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1550.0,
+    50.0,
+    1565.5
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1550.0,
+    350.0,
+    1565.5
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2541.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2541.0,
+    350.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2541.0,
+    50.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2541.0,
+    350.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2550.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2550.0,
+    350.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2550.0,
+    50.0,
+    1565.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2550.0,
+    350.0,
+    1565.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Tira LED 1000",
+   "forma": "led",
+   "origen": [
+    -2050.0,
+    99.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 1000
+   }
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -1574.0,
+    400.0,
+    1590.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -1574.0,
+    400.0,
+    2288.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -2526.0,
+    400.0,
+    1590.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -2526.0,
+    400.0,
+    2288.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    80.0,
+    1951.75
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    350.0,
+    1951.75
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    80.0,
+    1951.75
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    350.0,
+    1951.75
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    80.0,
+    1942.75
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    350.0,
+    1942.75
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    80.0,
+    1942.75
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    350.0,
+    1942.75
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    9.0,
+    1581.5000010454555
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    9.0,
+    1628.281388374557
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    9.0,
+    1581.5000010454555
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    9.0,
+    1628.281388374557
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1618.0,
+    9.0,
+    1531.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2050.0,
+    9.0,
+    1531.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2482.0,
+    9.0,
+    1531.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    -0.0,
+    1581.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    -0.0,
+    1628.281388374557
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    -0.0,
+    1581.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    -0.0,
+    1628.281388374557
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1618.0,
+    -0.0,
+    1565.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2050.0,
+    -0.0,
+    1565.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena doble",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2482.0,
+    -0.0,
+    1565.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Tira LED 650",
+   "forma": "led",
+   "origen": [
+    -2875.0,
+    99.0,
+    2390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 650
+   }
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2559.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2559.0,
+    350.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2559.0,
+    50.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2559.0,
+    350.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2550.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2550.0,
+    350.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2550.0,
+    50.0,
+    1565.5
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2550.0,
+    350.0,
+    1565.5
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3191.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3191.0,
+    350.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3191.0,
+    50.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3191.0,
+    350.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3200.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3200.0,
+    350.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3200.0,
+    50.0,
+    1565.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3200.0,
+    350.0,
+    1565.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Tira LED 650",
+   "forma": "led",
+   "origen": [
+    -2875.0,
+    99.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 650
+   }
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -3176.0,
+    400.0,
+    1590.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -3176.0,
+    400.0,
+    2288.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    73.0,
+    1951.75
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    340.0,
+    1951.75
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    73.0,
+    1951.75
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    340.0,
+    1951.75
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    73.0,
+    1942.75
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    340.0,
+    1942.75
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    73.0,
+    1942.75
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    340.0,
+    1942.75
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    9.0,
+    1581.5000010454555
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    9.0,
+    1628.281388374557
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    9.0,
+    1581.5000010454555
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    9.0,
+    1628.281388374557
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2618.0,
+    9.0,
+    1531.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2875.0,
+    9.0,
+    1531.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3132.0,
+    9.0,
+    1531.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    -0.0,
+    1581.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    -0.0,
+    1628.281388374557
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    -0.0,
+    1581.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    -0.0,
+    1628.281388374557
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2618.0,
+    -0.0,
+    1565.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2875.0,
+    -0.0,
+    1565.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3132.0,
+    -0.0,
+    1565.5000010454555
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3218.0,
+    50.0,
+    2381.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3218.0,
+    300.0,
+    2381.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3218.0,
+    550.0,
+    2381.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3252.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3252.0,
+    300.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3252.0,
+    550.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Tira LED 682",
+   "forma": "led",
+   "origen": [
+    -3559.0,
+    99.0,
+    2390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 682
+   }
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3891.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3891.0,
+    300.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3891.0,
+    550.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3882.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3882.0,
+    300.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3882.0,
+    550.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3882.0,
+    50.0,
+    2011.0001220703125
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3882.0,
+    300.0,
+    2011.0001220703125
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3882.0,
+    550.0,
+    2011.0001220703125
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3218.0,
+    50.0,
+    2011.0001220703125
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3218.0,
+    300.0,
+    2011.0001220703125
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3218.0,
+    550.0,
+    2011.0001220703125
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3848.0,
+    50.0,
+    2002.0001220703125
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3848.0,
+    300.0,
+    2002.0001220703125
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3848.0,
+    550.0,
+    2002.0001220703125
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3252.0,
+    50.0,
+    2002.0001220703125
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3252.0,
+    300.0,
+    2002.0001220703125
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3252.0,
+    550.0,
+    2002.0001220703125
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -3301.5,
+    600.0,
+    2366.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena s/heladera",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -3798.5,
+    600.0,
+    2366.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Tira LED 350",
+   "forma": "led",
+   "origen": [
+    -4075.0,
+    99.0,
+    2390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 350
+   }
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    50.0,
+    2371.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    300.0001220703125,
+    2371.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    550.000244140625,
+    2371.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    68.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    450.000244140625,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    300.0001220703125,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    550.000244140625,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    68.0,
+    123.99999999999977
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    450.000244140625,
+    123.99999999999977
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4191.0,
+    50.0,
+    2371.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4191.0,
+    300.0001220703125,
+    2371.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4191.0,
+    550.000244140625,
+    2371.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4191.0,
+    50.0,
+    108.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4191.0,
+    300.0001220703125,
+    108.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4191.0,
+    550.000244140625,
+    108.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4182.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4182.0,
+    300.0001220703125,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4182.0,
+    550.000244140625,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4182.0,
+    50.0,
+    141.99999999999977
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4182.0,
+    300.0001220703125,
+    141.99999999999977
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4182.0,
+    550.000244140625,
+    141.99999999999977
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -4176.0,
+    600.000244140625,
+    1627.595170454545
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -4176.0,
+    600.000244140625,
+    2288.4999999999995
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    9.0,
+    1210.4422362356472
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    9.0,
+    1265.4138243704128
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4182.0,
+    9.0,
+    1210.4422362356472
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4182.0,
+    9.0,
+    1265.4138243704128
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    -0.0,
+    1210.4422362356472
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    -0.0,
+    1265.4138243704128
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4148.0,
+    -0.0,
+    1210.4422362356472
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4148.0,
+    -0.0,
+    1265.4138243704128
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4018.0,
+    9.0,
+    0.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4150.0,
+    9.0,
+    0.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4018.0,
+    18.0,
+    34.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4150.0,
+    18.0,
+    34.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4018.0,
+    509.000244140625,
+    0.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4150.0,
+    509.000244140625,
+    0.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4018.0,
+    518.000244140625,
+    34.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4150.0,
+    518.000244140625,
+    34.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    500.000244140625,
+    29.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    500.000244140625,
+    61.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    18.0,
+    29.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    18.0,
+    61.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    100.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3909.0,
+    418.000244140625,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    466.000244140625,
+    29.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    466.000244140625,
+    61.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    52.0,
+    29.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    52.0,
+    61.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    100.0,
+    56.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3918.0,
+    418.000244140625,
+    56.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4241.0,
+    500.000244140625,
+    29.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4241.0,
+    500.000244140625,
+    61.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4241.0,
+    18.0,
+    29.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4241.0,
+    18.0,
+    61.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4232.0,
+    466.000244140625,
+    29.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4232.0,
+    466.000244140625,
+    61.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4232.0,
+    52.0,
+    29.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4232.0,
+    52.0,
+    61.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    300.0001220703125,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    550.000244140625,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    300.0001220703125,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    550.000244140625,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4182.0,
+    73.0,
+    1957.7492897727268
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4182.0,
+    550.000244140625,
+    1957.7492897727268
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    73.0,
+    1957.7492897727268
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    550.000244140625,
+    1957.7492897727268
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4148.0,
+    73.0,
+    1948.7492897727268
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4148.0,
+    550.000244140625,
+    1948.7492897727268
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    73.0,
+    1948.7492897727268
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    550.000244140625,
+    1948.7492897727268
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4182.0,
+    73.0,
+    1535.095170454545
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4182.0,
+    550.000244140625,
+    1535.095170454545
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    73.0,
+    1535.095170454545
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    550.000244140625,
+    1535.095170454545
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4148.0,
+    73.0,
+    1544.095170454545
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4148.0,
+    550.000244140625,
+    1544.095170454545
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    73.0,
+    1544.095170454545
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    550.000244140625,
+    1544.095170454545
+   ],
+   "ez": [
+    0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -4176.0,
+    600.000244140625,
+    191.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -4176.0,
+    600.000244140625,
+    808.0475852272725
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -4176.0,
+    600.000244140625,
+    1424.595170454545
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4182.0,
+    73.0,
+    1517.095170454545
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4182.0,
+    550.000244140625,
+    1517.095170454545
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    73.0,
+    1517.095170454545
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3918.0,
+    550.000244140625,
+    1517.095170454545
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4148.0,
+    73.0,
+    1508.095170454545
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4148.0,
+    550.000244140625,
+    1508.095170454545
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    73.0,
+    1508.095170454545
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3952.0,
+    550.000244140625,
+    1508.095170454545
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4200.0,
+    591.000244140625,
+    158.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4200.0,
+    591.000244140625,
+    699.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4200.0,
+    591.000244140625,
+    1239.9999999999998
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4200.0,
+    591.000244140625,
+    1780.9999999999995
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4200.0,
+    591.000244140625,
+    2321.9999999999995
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4212.5,
+    591.000244140625,
+    2371.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4237.5,
+    591.000244140625,
+    2371.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4212.5,
+    591.000244140625,
+    108.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -4237.5,
+    591.000244140625,
+    108.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4234.0,
+    582.000244140625,
+    158.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4234.0,
+    582.000244140625,
+    699.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4234.0,
+    582.000244140625,
+    1239.9999999999998
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4234.0,
+    582.000244140625,
+    1780.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4234.0,
+    582.000244140625,
+    2321.9999999999995
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4212.5,
+    582.000244140625,
+    2338.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4237.5,
+    582.000244140625,
+    2338.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4212.5,
+    582.000244140625,
+    141.99999999999977
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Escobero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -4237.5,
+    582.000244140625,
+    141.99999999999977
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    -0.0,
+    770.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    -0.0,
+    820.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    -0.0,
+    770.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    -0.0,
+    820.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    9.0,
+    50.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    9.0,
+    100.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    9.0,
+    50.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    9.0,
+    100.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    -0.0,
+    50.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    -0.0,
+    100.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    -0.0,
+    50.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    -0.0,
+    100.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    480.0,
+    861.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -3182.0,
+    530.0,
+    861.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    480.0,
+    861.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2568.0,
+    530.0,
+    861.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    480.0,
+    852.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -3148.0,
+    530.0,
+    852.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    480.0,
+    852.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Lavarropa",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2602.0,
+    530.0,
+    852.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    290.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    530.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    290.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    530.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    290.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    530.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    290.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    530.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    50.0,
+    489.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    290.0,
+    489.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    530.0,
+    489.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    50.0,
+    489.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    230.0,
+    489.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    50.0,
+    480.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    290.0,
+    480.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    530.0,
+    480.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    50.0,
+    480.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    230.0,
+    480.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -1574.0,
+    580.0,
+    191.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -1574.0,
+    580.0,
+    735.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -2526.0,
+    580.0,
+    191.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -2526.0,
+    580.0,
+    735.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1568.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -2532.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    18.0,
+    770.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1602.0,
+    18.0,
+    820.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    18.0,
+    770.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Bajo mesada doble c/cesto",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -2498.0,
+    18.0,
+    820.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    290.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    530.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -68.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -68.0,
+    512.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    290.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    530.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -102.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -102.0,
+    512.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -59.0,
+    562.0,
+    140.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -59.0,
+    562.0,
+    480.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -59.0,
+    562.0,
+    820.0
+   ],
+   "ez": [
+    -0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -68.0,
+    528.0,
+    140.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -68.0,
+    528.0,
+    480.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -68.0,
+    528.0,
+    820.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -68.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -68.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -102.0,
+    18.0,
+    770.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -102.0,
+    18.0,
+    820.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    18.0,
+    770.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    18.0,
+    820.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -99.0,
+    571.0,
+    165.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -99.0,
+    571.0,
+    401.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -301.0,
+    571.0,
+    165.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -301.0,
+    571.0,
+    401.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -133.0,
+    580.0,
+    165.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -133.0,
+    580.0,
+    401.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -267.0,
+    580.0,
+    165.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -267.0,
+    580.0,
+    401.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -99.0,
+    139.0,
+    165.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -99.0,
+    139.0,
+    401.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -301.0,
+    139.0,
+    165.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -301.0,
+    139.0,
+    401.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -133.0,
+    130.0,
+    165.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -133.0,
+    130.0,
+    401.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -267.0,
+    130.0,
+    165.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -267.0,
+    130.0,
+    401.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "00-Bandejero",
+   "nombre": "Corredera",
+   "forma": "corredera",
+   "origen": [
+    0,
+    0,
+    0
+   ],
+   "ez": [
+    0,
+    0,
+    1
+   ],
+   "args": {
+    "largo": 450.0
+   }
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    290.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    530.0,
+    99.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    50.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    290.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    530.0,
+    99.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    290.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    530.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    50.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    290.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    530.0,
+    90.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    571.0,
+    697.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    571.0,
+    763.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    571.0,
+    697.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    571.0,
+    763.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    580.0,
+    697.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    580.0,
+    763.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    580.0,
+    697.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    580.0,
+    763.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    139.0,
+    697.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    139.0,
+    763.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    139.0,
+    697.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    139.0,
+    763.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    130.0,
+    697.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    130.0,
+    763.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    130.0,
+    697.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    130.0,
+    763.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    571.0,
+    517.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    571.0,
+    583.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    571.0,
+    517.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    571.0,
+    583.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    580.0,
+    517.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    580.0,
+    583.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    580.0,
+    517.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    580.0,
+    583.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    139.0,
+    517.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    139.0,
+    583.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    139.0,
+    517.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    139.0,
+    583.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    130.0,
+    517.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    130.0,
+    583.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    130.0,
+    517.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    130.0,
+    583.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    571.0,
+    160.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    571.0,
+    248.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    571.0,
+    160.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    571.0,
+    248.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    580.0,
+    160.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    580.0,
+    248.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    580.0,
+    160.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    580.0,
+    248.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    139.0,
+    160.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -999.0,
+    139.0,
+    248.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    139.0,
+    160.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1501.0,
+    139.0,
+    248.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    130.0,
+    160.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1033.0,
+    130.0,
+    248.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    130.0,
+    160.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1467.0,
+    130.0,
+    248.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    9.0,
+    770.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    9.0,
+    820.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    18.0,
+    770.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    18.0,
+    820.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    18.0,
+    770.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    18.0,
+    820.0
+   ],
+   "ez": [
+    0.0,
+    -1.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    538.5,
+    381.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    563.5,
+    381.0
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    538.5,
+    381.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    563.5,
+    381.0
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    538.5,
+    372.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    563.5,
+    372.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    538.5,
+    372.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    563.5,
+    372.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    531.0,
+    411.5
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -968.0,
+    531.0,
+    436.5
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    531.0,
+    411.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1532.0,
+    531.0,
+    436.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1018.0,
+    531.0,
+    390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -1482.0,
+    531.0,
+    390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    522.0,
+    411.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1002.0,
+    522.0,
+    436.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    522.0,
+    411.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1498.0,
+    522.0,
+    436.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1018.0,
+    522.0,
+    424.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -1482.0,
+    522.0,
+    424.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Corredera",
+   "forma": "corredera",
+   "origen": [
+    0,
+    0,
+    0
+   ],
+   "ez": [
+    0,
+    0,
+    1
+   ],
+   "args": {
+    "largo": 450.0
+   }
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Corredera",
+   "forma": "corredera",
+   "origen": [
+    0,
+    0,
+    0
+   ],
+   "ez": [
+    0,
+    0,
+    1
+   ],
+   "args": {
+    "largo": 450.0
+   }
+  },
+  {
+   "mueble": "Cajonera",
+   "nombre": "Corredera",
+   "forma": "corredera",
+   "origen": [
+    0,
+    0,
+    0
+   ],
+   "ez": [
+    0,
+    0,
+    1
+   ],
+   "args": {
+    "largo": 450.0
+   }
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Tira LED 300",
+   "forma": "led",
+   "origen": [
+    -200.0,
+    99.0,
+    2390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 300
+   }
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -59.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -59.0,
+    350.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -59.0,
+    50.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -59.0,
+    350.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -50.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -50.0,
+    350.0,
+    2338.0
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -50.0,
+    50.0,
+    1565.5
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -50.0,
+    350.0,
+    1565.5
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -341.0,
+    50.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -341.0,
+    350.0,
+    2372.0
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -341.0,
+    50.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -341.0,
+    350.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -350.0,
+    50.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -350.0,
+    350.0,
+    2338.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -350.0,
+    50.0,
+    1565.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -350.0,
+    350.0,
+    1565.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -74.0,
+    400.0,
+    1590.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -74.0,
+    400.0,
+    2288.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    73.0,
+    1951.7500639916175
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    340.0,
+    1951.7500639916175
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -68.0,
+    73.0,
+    1951.7500639916175
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -68.0,
+    340.0,
+    1951.7500639916175
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    73.0,
+    1942.7500639916175
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    340.0,
+    1942.7500639916175
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -102.0,
+    73.0,
+    1942.7500639916175
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -102.0,
+    340.0,
+    1942.7500639916175
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -68.0,
+    9.0,
+    1581.5013281249999
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -68.0,
+    9.0,
+    1621.5013281249999
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    9.0,
+    1581.5013281249999
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -332.0,
+    9.0,
+    1621.5013281249999
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -102.0,
+    -0.0,
+    1581.5013281249999
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -102.0,
+    -0.0,
+    1621.5013281249999
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    -0.0,
+    1581.5013281249999
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -298.0,
+    -0.0,
+    1621.5013281249999
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -50.0,
+    391.0,
+    1581.5
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -50.0,
+    391.0,
+    1951.75
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -50.0,
+    391.0,
+    2322.0
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -16.0,
+    382.0,
+    1581.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -16.0,
+    382.0,
+    1951.75
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -16.0,
+    382.0,
+    2322.0
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena simple ajuste",
+   "nombre": "Tira LED 350",
+   "forma": "led",
+   "origen": [
+    -175.0,
+    99.0,
+    1531.5
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 350
+   }
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Tira LED 600",
+   "forma": "led",
+   "origen": [
+    -650.0,
+    99.0,
+    2390.0
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ],
+   "args": {
+    "largo": 600
+   }
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -359.0,
+    50.0,
+    2371.9999948262102
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -359.0,
+    350.0,
+    2371.9999948262102
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -368.0,
+    50.0,
+    2337.9999948262102
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -368.0,
+    350.0,
+    2337.9999948262102
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -941.0,
+    50.0,
+    2371.9999948262102
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -941.0,
+    350.0,
+    2371.9999948262102
+   ],
+   "ez": [
+    -0.0,
+    0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -932.0,
+    50.0,
+    2337.9999948262102
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -932.0,
+    350.0,
+    2337.9999948262102
+   ],
+   "ez": [
+    -1.0,
+    0.0,
+    -0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -374.0,
+    400.0,
+    1777.3245521287695
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -374.0,
+    400.0,
+    2288.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -926.0,
+    400.0,
+    1777.3245521287695
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Bisagra",
+   "forma": "bisagra",
+   "origen": [
+    -926.0,
+    400.0,
+    2288.5
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    60.0,
+    2045.412212072777
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    350.0,
+    2045.412212072777
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    60.0,
+    2045.412212072777
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    350.0,
+    2045.412212072777
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    60.0,
+    2036.4122120727773
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    350.0,
+    2036.4122120727773
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    60.0,
+    2036.4122120727773
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    350.0,
+    2036.4122120727773
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    50.0,
+    1709.8245521287693
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    350.0,
+    1709.8245521287693
+   ],
+   "ez": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    50.0,
+    1709.8245521287693
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    350.0,
+    1709.8245521287693
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    50.0,
+    1700.8245521287693
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    350.0,
+    1700.8245521287693
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    50.0,
+    1700.8245521287693
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    350.0,
+    1700.8245521287693
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    391.0,
+    1635.9026273359077
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    391.0,
+    1660.9026273359077
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -418.0,
+    391.0,
+    1700.8245519269722
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -882.0,
+    391.0,
+    1700.8245519269722
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    391.0,
+    1635.9026273359077
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    391.0,
+    1660.9026273359077
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    382.0,
+    1635.9026273359077
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    382.0,
+    1660.9026273359077
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -418.0,
+    382.0,
+    1666.8245519269722
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -882.0,
+    382.0,
+    1666.8245519269722
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    382.0,
+    1635.9026273359077
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    382.0,
+    1660.9026273359077
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    9.0,
+    1635.9026273359077
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -368.0,
+    9.0,
+    1660.9026273359077
+   ],
+   "ez": [
+    -1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -418.0,
+    9.0,
+    1700.8245519269722
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -882.0,
+    9.0,
+    1700.8245519269722
+   ],
+   "ez": [
+    -0.0,
+    -0.0,
+    -1.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    9.0,
+    1635.9026273359077
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Perno",
+   "forma": "perno",
+   "origen": [
+    -932.0,
+    9.0,
+    1660.9026273359077
+   ],
+   "ez": [
+    1.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    -0.0,
+    1635.9026273359077
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -402.0,
+    -0.0,
+    1660.9026273359077
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -418.0,
+    -0.0,
+    1666.8245519269722
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -882.0,
+    -0.0,
+    1666.8245519269722
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    -0.0,
+    1635.9026273359077
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  },
+  {
+   "mueble": "Alacena spar",
+   "nombre": "Excentrica O15",
+   "forma": "excentrica",
+   "origen": [
+    -898.0,
+    -0.0,
+    1660.9026273359077
+   ],
+   "ez": [
+    -0.0,
+    1.0,
+    0.0
+   ]
+  }
+ ],
+ "avisos": [
+  "00-Bandejero: correderas 450mm; los agujeros de la corredera no vienen de la máquina: atornillarlas con la plantilla.",
+  "Cajonera: correderas 450mm; los agujeros de la corredera no vienen de la máquina: atornillarlas con la plantilla."
+ ],
+ "referencia": []
+}
