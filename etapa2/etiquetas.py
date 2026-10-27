@@ -87,6 +87,13 @@ def _mat(mt):
     return MATERIALES.get(mt, mt)
 
 
+URL_BASE = ""   # si se define, el QR lleva URL_BASE + "/p/" + codigo (pagina web de la pieza)
+
+
+def qr_texto(codigo):
+    return (URL_BASE.rstrip("/") + "/p/" + codigo) if URL_BASE else codigo
+
+
 def _n(v):
     return str(int(v)) if abs(v - round(v)) < 1e-9 else ("%.1f" % v)
 
@@ -143,7 +150,7 @@ def dibujar_etiqueta(c, x0, y0, W, H, mu, p, orden, cliente, cjk):
     c.drawCentredString(ex + cw / 2, ey + ch + 1.2 * mm, "cantos")
     # --- QR (derecha, arriba de los cantos)
     qw = 12 * mm
-    qd = qr.QrCodeWidget(p["codigo"])
+    qd = qr.QrCodeWidget(qr_texto(p["codigo"]))
     b = qd.getBounds()
     d = Drawing(qw, qw, transform=[qw / (b[2] - b[0]), 0, 0, qw / (b[3] - b[1]), 0, 0])
     d.add(qd)
@@ -208,7 +215,10 @@ def main(argv=None):
     ap.add_argument("--cliente", default="")
     ap.add_argument("--ancho", type=float, default=60.0)
     ap.add_argument("--alto", type=float, default=40.0)
+    ap.add_argument("--url-base", default="", help="dominio de la web de piezas (QR -> <url>/p/<codigo>); vacio = QR con el codigo solo")
     a = ap.parse_args(argv)
+    global URL_BASE
+    URL_BASE = a.url_base
     with open(a.maestra, "r", encoding="utf-8") as f:
         m = json.load(f)
     escribir(m, a.salida, a.mueble, a.orden, a.cliente, a.ancho, a.alto)

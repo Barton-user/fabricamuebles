@@ -1,6 +1,6 @@
 # FÁBRICA MUEBLES — Contexto del proyecto
 
-_Leiten Com · Pato · Última actualización: **22/10/2026**_
+_Leiten Com · Pato · Última actualización: **27/10/2026**_
 
 > **Cómo se usa este archivo.** Es lo único que hay que leer al empezar una conversación.
 > Dice **qué es cierto hoy**. El detalle de cada tema está en `docs/` (mapa en §7) y la historia
@@ -148,7 +148,8 @@ barras sale `P01`). Hasta corregirlo, la perforadora no encuentra el archivo al 
 | 8 | **`ArmarDesdeRender`: el canto de las piezas Lintel (listones) y de los cajones sale del lado equivocado** (listones: arriba en vez de abajo, Spar 05/10; cajón del Bandejero 19/10: DER = borde de la ranura, debía ser IZQ = borde de arriba; en los dos casos corregido a mano en piezas.json) y `ExportarPiezas` da el fondo sin el encastre (564×710,6 en vez de 574×720,6) · COCINA-01: Ø3 de corredera (no hay en la máquina), colgadores sin medir, pistones de la rebatible; Alacena Spar: pistones Bronze, salida de cable LED | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
 | 9 | **Router**: primera prueba física (cuadrado 100, decide si los `.nc` de GuiGui necesitan encabezado `G43`), cargar y medir las fresas en el almacén, medir mesa útil. Fresas ya identificadas: 8 × Ø10 rectas de 1/2", Ø6, Ø8 | `docs/ROUTER_SKG912.md` · `PENDRIVE/7_ROUTER_PRUEBA/LEEME.txt` |
 | 10 | Curvado: probetas por material, primera pieza real, cantos en zona curva | `docs/CURVADO.md` |
-| 10b | **Impresora de etiquetas: el sensor de gap queda fuera del papel de 60 mm** (nunca calibra). Correr el rollo a la izquierda o rollo de 80 mm; mientras, modo continuo con `etapa2/etiquetas_tspl.py`. Etiquetas de COCINA MLV sin imprimir | `docs/SIERRA_AUTOCUT.md` (última sección) |
+| 10b | **Impresora de etiquetas: el sensor de gap de la AIBAO no funciona** (diagnóstico 26/10, ver bitácora). Reclamo o impresora de marca; mientras, modo continuo por módulo con `etapa2/etiquetas_tspl.py` | `docs/SIERRA_AUTOCUT.md` · `BITACORA.md` 26–27/10 |
+| 10c | **Página web de pieza (QR)**: hecha en el proyecto Vercel `curvado` (`/p/<codigo>`); falta poner el dominio en las etiquetas (`--url-base`) y hacer push | `docs/CURVADO.md` (última sección) |
 | 11 | **Cocina de Jujuy (COCINA-01)**: medir en mano y ajustar en la receta: altura real del visor y posición de la salida Ø150 de la SDC-100; alturas de las rejillas del escurreplatos LC-560 y medidas del cubiertero; plantilla de calado de la bacha Tawak 55 (supuesto 530×440); confirmar que el visor banca el frente de madera; comprar pistones 60 N / 80–100 N; `.nc` o caladora para pasos del ducto, escotaduras y rincones; `PonerHerrajes` sigue con placa base 20/52 (recetas ya 37/±16) | `fusion/EXPORT_COCINA-01/LEEME.md` · `docs/FUSION_RECETAS.md` §25.2 |
 
 ---

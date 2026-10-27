@@ -64,44 +64,80 @@ def q(s):
     return '"' + ascii_(s).replace('"', "'") + '"'
 
 
-def cabecera(ancho, paso, direction, density=8, speed=3):
-    return ["SIZE %g mm,%g mm" % (ancho, paso), "GAP 0 mm,0 mm", "DIRECTION %d,0" % direction,
-            "REFERENCE 0,0", "SHIFT 0", "OFFSET 0 mm", "SET TEAR OFF", "SET PEEL OFF",
+def cabecera(ancho, paso, direction, density=8, speed=3, gap=0.0, ref_y=0):
+    return ["SIZE %g mm,%g mm" % (ancho, paso), "GAP %g mm,0 mm" % gap, "DIRECTION %d,0" % direction,
+            "REFERENCE 0,%d" % ref_y, "SHIFT 0", "OFFSET 0 mm", "SET TEAR OFF", "SET PEEL OFF",
             "DENSITY %d" % density, "SPEED %d" % speed, "CODEPAGE 437"]
 
 
-def etiqueta(mu, p, orden, cliente, ancho, alto):
-    """Comandos TSPL de una etiqueta (origen arriba a la izquierda, en dots)."""
+URL_BASE = ""
+
+
+def qr_texto(codigo):
+    return (URL_BASE.rstrip("/") + "/p/" + codigo) if URL_BASE else codigo
+
+
+DY = 0   # corrimiento vertical del dibujo en dots (negativo = hacia arriba); se fija desde main
+
+
+def _dy(L):
+    """Aplica DY a las coordenadas y de los comandos de dibujo de una lista TSPL."""
+    import re as _re
+    out = []
+    for c in L:
+        m = _re.match(r"^(TEXT|QRCODE|BARCODE|BAR|BOX|CIRCLE) (-?\d+),(-?\d+)(.*)$", c)
+        if m:
+            y = int(m.group(3)) + DY
+            c = "%s %s,%d%s" % (m.group(1), m.group(2), y, m.group(4))
+            if m.group(1) == "BOX":
+                mm2 = _re.match(r"^(BOX -?\d+,-?\d+,-?\d+,)(-?\d+)(.*)$", c)
+                c = "%s%d%s" % (mm2.group(1), int(mm2.group(2)) + DY, mm2.group(3))
+        out.append(c)
+    return out
+
+
+def etiqueta(mu, p, orden, cliente, ancho, alto, alto_util=None):
+    """Comandos TSPL de una etiqueta (origen arriba a la izquierda, en dots).
+    alto_util: mm disponibles desde donde la impresora arranca (si arranca tarde, menos que alto)."""
     W, H = ancho * MM, alto * MM
+    Hu = int(round((alto_util or alto) * MM))
+    compacto = Hu < 36 * MM
     m = 2 * MM
     L = ["CLS"]
-    # cabecera: orden - cliente (izq) y mueble (der)
-    L.append("TEXT %d,%d,\"2\",0,1,1,%s" % (m, 10, q("%s - %s" % (orden, cliente))))
-    mueble = ascii_(mu["nombre"])[:22]
-    L.append("TEXT %d,%d,\"1\",0,1,1,%s" % (W - m - 8 * len(mueble), 14, q(mueble)))
+    if not compacto:
+        # cabecera: orden - cliente (izq) y mueble (der)
+        L.append("TEXT %d,%d,\"2\",0,1,1,%s" % (m, 10, q("%s - %s" % (orden, cliente))))
+        mueble = ascii_(mu["nombre"])[:22]
+        L.append("TEXT %d,%d,\"1\",0,1,1,%s" % (W - m - 8 * len(mueble), 14, q(mueble)))
+        y0 = 36
+    else:
+        # compacto: mueble chico arriba a la derecha, sin linea de orden
+        mueble = ascii_(mu["nombre"])[:22]
+        L.append("TEXT %d,%d,\"1\",0,1,1,%s" % (W - m - 8 * len(mueble), 4, q(mueble)))
+        y0 = 4
     # globo
     d = 64
-    gx, gy = m, 36
+    gx, gy = m, y0
     L.append("CIRCLE %d,%d,%d,3" % (gx, gy, d))
     num = str(p["globo"])
     fnt, fw, fh = ("5", 32, 48) if len(num) < 3 else ("4", 24, 32)
     L.append("TEXT %d,%d,\"%s\",0,1,1,%s" % (gx + d // 2 - fw * len(num) // 2, gy + d // 2 - fh // 2, fnt, q(num)))
     # nombre, medida de corte, terminada
     tx = gx + d + 10
-    L.append("TEXT %d,%d,\"3\",0,1,1,%s" % (tx, 34, q(ascii_(p["nombre"])[:23])))
+    L.append("TEXT %d,%d,\"3\",0,1,1,%s" % (tx, y0 - 2, q(ascii_(p["nombre"])[:23])))
     a, b = sorted((p["corte_H"], p["corte_W"]), reverse=True)
     ta, tb = sorted((p["H"], p["W"]), reverse=True)
-    L.append("TEXT %d,%d,\"4\",0,1,1,%s" % (tx, 62, q("%s x %s x %s" % (_n(a), _n(b), _n(p["T"])))))
-    L.append("TEXT %d,%d,\"1\",0,1,1,%s" % (tx, 98, q("corte - terminada %s x %s" % (_n(ta), _n(tb)))))
+    L.append("TEXT %d,%d,\"4\",0,1,1,%s" % (tx, y0 + 26, q("%s x %s x %s" % (_n(a), _n(b), _n(p["T"])))))
+    L.append("TEXT %d,%d,\"1\",0,1,1,%s" % (tx, y0 + 62, q("corte - terminada %s x %s" % (_n(ta), _n(tb)))))
     # material - textura
-    L.append("TEXT %d,%d,\"2\",0,1,1,%s" % (m, 122, q("%s - %s" % (_mat(p["material"]), _tex(p["textura"])))))
-    # QR (derecha)
-    qx, qy = W - m - 84, 112
-    L.append("QRCODE %d,%d,M,3,A,0,%s" % (qx, qy, q(p["codigo"])))
-    # cantos (abajo a la derecha)
-    cw, ch = 52, 34
-    ex, ey = W - m - cw, H - m - ch
-    L.append("TEXT %d,%d,\"1\",0,1,1,\"cantos\"" % (ex + 2, ey - 14))
+    ym = y0 + 86
+    L.append("TEXT %d,%d,\"2\",0,1,1,%s" % (m, ym, q("%s - %s" % (_mat(p["material"]), _tex(p["textura"])))))
+    # QR (derecha) y cantos (abajo a la derecha)
+    cw, ch = 52, 30
+    ex, ey = W - m - cw, Hu - m - ch
+    qy = ey - 14 - 76
+    L.append("QRCODE %d,%d,M,%d,A,0,%s" % (W - m - 84, qy, 2 if URL_BASE else 3, q(qr_texto(p["codigo"]))))
+    L.append("TEXT %d,%d,\"1\",0,1,1,\"cantos\"" % (ex + 2, ey - 12))
     L.append("BOX %d,%d,%d,%d,1" % (ex, ey, ex + cw, ey + ch))
     k = p["cantos"]
     t = 4
@@ -113,11 +149,14 @@ def etiqueta(mu, p, orden, cliente, ancho, alto):
         L.append("BAR %d,%d,%d,%d" % (ex, ey, t, ch))
     if k["der"]:
         L.append("BAR %d,%d,%d,%d" % (ex + cw - t, ey, t, ch))
-    # EAN-13 (abajo a la izquierda): 12 digitos, la impresora calcula el digito de control
+    # EAN-13 (abajo a la izquierda): 12 digitos, la impresora calcula el digito de control.
+    # alto de barras: lo que quede entre material y el borde util (menos los digitos, ~24 dots)
     cod = p["codigo"]
-    L.append("BARCODE %d,%d,\"EAN13\",%d,1,0,3,3,%s" % (m, 164, 80, q(cod[:12])))
+    yb = ym + 22
+    hb = max(40, Hu - m - 24 - yb)
+    L.append("BARCODE %d,%d,\"EAN13\",%d,1,0,3,3,%s" % (m, yb, hb, q(cod[:12])))
     L.append("PRINT 1,1")
-    return L
+    return _dy(L)
 
 
 def regla(ancho, alto):
@@ -132,7 +171,7 @@ def regla(ancho, alto):
         if k % 5 == 0:
             L.append("TEXT %d,%d,\"1\",0,1,1,\"%d\"" % (ln + 6, max(y - 5, 0), k))
     L.append("PRINT 1,1")
-    return L
+    return _dy(L)
 
 
 def main(argv=None):
@@ -146,25 +185,40 @@ def main(argv=None):
     ap.add_argument("--paso", type=float, default=42.0, help="etiqueta + gap, medido")
     ap.add_argument("--cabezal", type=float, default=12.0, help="distancia cabezal-cuchilla en mm")
     ap.add_argument("--direction", type=int, default=1)
+    ap.add_argument("--gap", type=float, default=0.0, help="modo GAP con sensor: altura del gap en mm (0 = continuo)")
+    ap.add_argument("--ref-y", type=float, default=0.0, help="corrimiento del dibujo en mm (negativo = hacia arriba)")
+    ap.add_argument("--url-base", default="", help="dominio de la web de piezas (QR -> <url>/p/<codigo>)")
+    ap.add_argument("--alto-util", type=float, default=None, help="mm utiles desde donde arranca la impresora (diseno compacto si < 36)")
     a = ap.parse_args(argv)
     m = json.load(open(a.maestra, encoding="utf-8"))
     os.makedirs(a.salida, exist_ok=True)
     gap = a.paso - a.alto
     back = int(round((a.cabezal + gap) * MM))
-    cab = cabecera(a.ancho, a.paso, a.direction)
+    global DY, URL_BASE
+    DY = int(round(a.ref_y * MM))
+    URL_BASE = a.url_base
+    if a.gap > 0:
+        # modo GAP: SIZE = alto de la etiqueta, el sensor posiciona; no hace falta FEED de fase.
+        # El corrimiento va en las coordenadas (DY), no en REFERENCE: el clon lo recorta.
+        cab = cabecera(a.ancho, a.alto, a.direction, gap=a.gap, ref_y=0)
+    else:
+        cab = cabecera(a.ancho, a.paso, a.direction)
     # El BACKFEED de la AIBAO es impreciso (y limitado): en vez de retroceder (cabezal + gap) se
     # AVANZA hasta el borde de la etiqueta siguiente (paso - cabezal - gap), sacrificando una
     # etiqueta en blanco por tanda. Al final se avanza (cabezal + gap) para dejar el gap en la
     # cuchilla; el total por tanda es multiplo del paso, asi que la fase se conserva.
     adelante = int(round(a.paso * MM)) - back
-    pre = cab + ["FEED %d" % adelante]
-    post = ["FEED %d" % back]
+    if a.gap > 0:
+        pre, post = cab, []
+    else:
+        pre = cab + ["FEED %d" % adelante]
+        post = ["FEED %d" % back]
     archivos = []
     todas = []
     for i, mu in enumerate(m["muebles"], 1):
         L = []
         for p in mu["piezas"]:
-            L += etiqueta(mu, p, a.orden, a.cliente, a.ancho, a.alto)
+            L += etiqueta(mu, p, a.orden, a.cliente, a.ancho, a.alto, a.alto_util)
         nombre = "%02d_%s.txt" % (i, re.sub(r"[^A-Za-z0-9]+", "_", ascii_(mu["nombre"])).strip("_"))
         with open(os.path.join(a.salida, nombre), "w", encoding="ascii", newline="\r\n") as f:
             f.write("\r\n".join(pre + L + post) + "\r\n")

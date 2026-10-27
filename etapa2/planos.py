@@ -246,7 +246,7 @@ def vista(cv, piezas, x0, y0, w, h, proy, titulo, excluir=lambda p: False, swing
     umin = min(i[1] for i in items); umax = max(i[2] for i in items)
     vmin = min(i[3] for i in items); vmax = max(i[4] for i in items)
     ML, MB, MT, MR = 44.0, 34.0, 46.0, 36.0          # lugar para cotas
-    sc = min((w - ML - MR) / (umax - umin), (h - MB - MT) / (vmax - vmin))
+    sc = min((w - ML - MR) / max(umax - umin, 1e-6), max(h - MB - MT, 10.0) / max(vmax - vmin, 1e-6))
     ox = x0 + ML
     oy = y0 + MB
     X = lambda u: ox + (u - umin) * sc
@@ -689,7 +689,7 @@ def lamina_vistas(cv, piezas, info, lam, total):
     ancho, alto, prof = float(info["ancho"]), float(info["alto"]), float(info["prof"])
     # dos filas: arriba frente / frente sin puertas / corte lateral; abajo planta + isometrica.
     # Escala comun, la mayor que entra.
-    MX, MY = 80.0, 68.0                      # margenes para cotas (vista() los reserva)
+    MX, MY = 80.0, 86.0                      # margenes para cotas (vista() reserva 80 + titulo)
     s = min((H - 2 * MY - 10) / (alto + prof), (W - 3 * MX - 12) / (2 * ancho + prof))
     h1 = alto * s + MY; h2 = prof * s + MY
     wf, wl, wp = ancho * s + MX, prof * s + MX, ancho * s + MX

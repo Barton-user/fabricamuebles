@@ -1,5 +1,22 @@
 {
   "framework": "vite",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/p/:codigo",
+      "destination": "/p/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/pz/c/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    }
+  ]
 }

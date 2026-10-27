@@ -2040,3 +2040,19 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
   `PENDRIVE/12_COCINA_MLV/etiquetas_tspl_v8/`. Se imprimieron ~30 etiquetas de prueba; faltan las 125 buenas.
 - Las etiquetas por driver (`etiquetas_60x40.pdf`) quedan para cuando el sensor ande; el diseño es de 40 de alto y
   la etiqueta mide 39: bajar el alto a 39 en `etiquetas.py` (pendiente).
+
+
+## 26–27/10/2026 — Sensor de la AIBAO: diagnóstico final; página web de pieza para el QR
+
+- Impresora: con el papel contra la izquierda la calibración midió la etiqueta (SIZE 37) pero FEED para en lugares
+  al azar, el autotest se imprime cruzando etiquetas y `GAP DAC LEVEL` quedó en 0 tras ~15 calibraciones.
+  Probado GAP 0 / 0,5 / 1 / 2 / 3 / 11 y SIZE 36 / 37 / 37,5 / 39 por `copy /b`: siempre avance fijo, nunca
+  detección. **Conclusión: el sensor de gap de esta unidad no funciona en operación** (defecto, no configuración).
+  La impresora cuelga de un CH340 (COM4); DiagTool 1.63 abre el puerto pero el clon no contesta
+  ("Data Receiving Error") y sin lectura no deja mandar nada. Opciones: reclamo/cambio o impresora de marca
+  (TSC TE210, Zebra ZD220…); mientras, modo continuo por módulo (`etiquetas_tspl.py`).
+- `etapa2/web_piezas.py` + `curvado/public/p/index.html`: página por pieza en el proyecto Vercel (`/p/<codigo>`):
+  datos, plano, ubicación en el módulo, PDF de planos del módulo y lista de piezas. Datos de COCINA MLV generados.
+  `etiquetas.py` / `etiquetas_tspl.py` con `--url-base`: QR → `<dominio>/p/<codigo>`. Falta el dominio de Vercel
+  y el push. `planos.py`: margen de vistas corregido para módulos muy bajos (Uñero).
+- Pendiente: nombres de las piezas de cajón (salen "Travesaño"), manual de armado por el camino GuiGui.

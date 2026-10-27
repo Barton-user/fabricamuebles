@@ -81,3 +81,21 @@ Vite. Cada push a `main` que toque `curvado/` se publica solo.
 > suele quedar un `.git/index.lock` vacío. Antes de commitear: `rm -f .git/index.lock`.
 
 ---
+
+
+## Página de pieza (QR de la etiqueta) — en el mismo proyecto de Vercel
+
+`curvado/public/p/index.html` (estática, sin dependencias) + datos en `curvado/public/pz/`. `vercel.json`
+reescribe `/p/<codigo>` a esa página, que lee el código de la URL y trae `/pz/c/<codigo>.json`.
+Muestra: módulo (n de N, medidas), pieza (globo, nombre, código, medida de corte y terminada, material,
+color, veta, cantos dibujados, mecanizados), **dónde va** (isométrica del módulo con la pieza en naranja),
+**plano** de la pieza (lámina de `planos.py` en PNG, tocando se abre para zoom), **planos del módulo en PDF**,
+manual de armado (pendiente para el camino GuiGui) y la lista de piezas del módulo con links entre ellas.
+
+Datos: `python3 etapa2/web_piezas.py <render.json> --orden 260625-20 --guardado 22/10/2026` (escribe en
+`curvado/public/pz/`; COCINA MLV = 125 piezas, 6,9 MB). Es público: no lleva cliente ni dirección.
+Después, commit + push a `main` y Vercel lo publica.
+
+Etiquetas con el QR a la página: `etiquetas.py ... --url-base https://<dominio>` (y lo mismo en
+`etiquetas_tspl.py`). El EAN-13 sigue siendo el código solo, para la perforadora: si la pistola es 2D,
+apuntarle al código de barras, no al QR.
