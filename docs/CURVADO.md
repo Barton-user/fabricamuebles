@@ -99,3 +99,8 @@ Después, commit + push a `main` y Vercel lo publica.
 Etiquetas con el QR a la página: `etiquetas.py ... --url-base https://<dominio>` (y lo mismo en
 `etiquetas_tspl.py`). El EAN-13 sigue siendo el código solo, para la perforadora: si la pistola es 2D,
 apuntarle al código de barras, no al QR.
+
+**Dominio (27/10):** el proyecto de Vercel se llama `fabricamuebles` (equipo leiten-team). Sus direcciones
+`*-leiten-team.vercel.app` piden login (Deployment Protection), así que el QR apunta a **`https://leiten.vercel.app`**,
+que hay que agregar en Vercel → proyecto → Settings → Domains. Etiquetas de COCINA MLV con ese QR:
+`PENDRIVE/12_COCINA_MLV/etiquetas_qr_web/`.
