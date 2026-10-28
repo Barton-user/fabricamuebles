@@ -1,7 +1,7 @@
 {
  "version": 1,
  "origen": "guigui-render",
- "documento": "COCINA_MLV_207960w11792672732285.render.json",
+ "documento": "COCINA_MLV_207960w91793191966033.render.json",
  "orden": "260625-20",
  "cliente": "MALVINAS",
  "direccion": "",
@@ -1777,9 +1777,7 @@
    "ranuras": [],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "material de GuiGui 多层实木 13玛雅灰 -> se corta en NEstructura Gris"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 0.0,
    "canto_abajo": 0.0,
@@ -2053,7 +2051,18 @@
      "tipo": "sideHole"
     }
    ],
-   "ranuras": [],
+   "ranuras": [
+    {
+     "x1": 20.5,
+     "y1": 840.5,
+     "x2": 20.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "B",
+     "herraje": "BP"
+    }
+   ],
    "ranuras_canto": [],
    "contorno": [],
    "avisos": [],
@@ -2227,7 +2236,18 @@
      "tipo": "sideHole"
     }
    ],
-   "ranuras": [],
+   "ranuras": [
+    {
+     "x1": 20.5,
+     "y1": 840.5,
+     "x2": 20.5,
+     "y2": 0.0,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A",
+     "herraje": "BP"
+    }
+   ],
    "ranuras_canto": [],
    "contorno": [],
    "avisos": [],
@@ -2316,6 +2336,16 @@
    ],
    "agujeros_canto": [],
    "ranuras": [
+    {
+     "x1": 20.5,
+     "y1": 987.15,
+     "x2": 20.5,
+     "y2": 12.85,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "A",
+     "herraje": "BP"
+    },
     {
      "x1": 99.0,
      "y1": 1000.0,
@@ -2492,6 +2522,16 @@
    ],
    "agujeros_canto": [],
    "ranuras": [
+    {
+     "x1": 20.5,
+     "y1": 987.15,
+     "x2": 20.5,
+     "y2": 12.85,
+     "ancho": 6.0,
+     "profundidad": 6.0,
+     "cara": "B",
+     "herraje": "BP"
+    },
     {
      "x1": 99.0,
      "y1": 1000.0,
@@ -2673,10 +2713,10 @@
   },
   {
    "codigo": "2112485522439",
-   "nombre": "Alacena doble_Fondo 964x840.5x5",
+   "nombre": "Alacena doble_Fondo 974x850.5x5",
    "globo": 7,
-   "ancho": 964.0,
-   "alto": 840.5,
+   "ancho": 974.0,
+   "alto": 850.5,
    "espesor": 5.0,
    "material": "NFondo",
    "mueble": "Alacena doble",
@@ -3632,9 +3672,7 @@
    "ranuras": [],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "material de GuiGui 多层实木 13玛雅灰 -> se corta en NEstructura Gris"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 0.0,
    "canto_abajo": 0.0,
@@ -3827,9 +3865,7 @@
    ],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "material de GuiGui PETFRONT PET Gris -> se corta en NPetfrente PET Gris"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 1.0,
    "canto_abajo": 0.0,
@@ -6340,9 +6376,7 @@
    "ranuras": [],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "material de GuiGui 多层实木 13玛雅灰 -> se corta en NEstructura Gris"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 0.0,
    "canto_abajo": 1.0,
@@ -7147,9 +7181,9 @@
    "agujeros_canto": [],
    "ranuras": [
     {
-     "x1": 7.5,
-     "y1": 635.15,
-     "x2": 7.5,
+     "x1": 20.5,
+     "y1": 630.15,
+     "x2": 20.5,
      "y2": 402.85,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -7157,9 +7191,9 @@
      "herraje": "BP"
     },
     {
-     "x1": 7.5,
+     "x1": 20.5,
      "y1": 395.15,
-     "x2": 7.5,
+     "x2": 20.5,
      "y2": 12.85,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -7294,9 +7328,9 @@
    "agujeros_canto": [],
    "ranuras": [
     {
-     "x1": 7.5,
-     "y1": 635.15,
-     "x2": 7.5,
+     "x1": 20.5,
+     "y1": 630.15,
+     "x2": 20.5,
      "y2": 402.85,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -7304,9 +7338,9 @@
      "herraje": "BP"
     },
     {
-     "x1": 7.5,
+     "x1": 20.5,
      "y1": 395.15,
-     "x2": 7.5,
+     "x2": 20.5,
      "y2": 12.85,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -7457,9 +7491,9 @@
    ],
    "ranuras": [
     {
-     "x1": 7.5,
+     "x1": 20.5,
      "y1": 964.0,
-     "x2": 7.5,
+     "x2": 20.5,
      "y2": 0.0,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -7589,9 +7623,9 @@
    ],
    "ranuras": [
     {
-     "x1": 7.5,
+     "x1": 20.5,
      "y1": 964.0,
-     "x2": 7.5,
+     "x2": 20.5,
      "y2": 0.0,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -7599,9 +7633,9 @@
      "herraje": "BP"
     },
     {
-     "x1": 7.5,
+     "x1": 20.5,
      "y1": 964.0,
-     "x2": 7.5,
+     "x2": 20.5,
      "y2": 0.0,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -7715,24 +7749,11 @@
    "ranuras": [],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "ranura de canto 6x6 (largo 964): NO esta en el programa; hacerla aparte (tupi/router de mano)"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 0.0,
-   "canto_abajo": 0.0,
+   "canto_abajo": 1.0,
    "canto_arriba": 1.0,
-   "ranuras_canto_aparte": [
-    {
-     "x1": 964.0,
-     "y1": 0.0,
-     "x2": 0.0,
-     "y2": 0.0,
-     "ancho": 6.0,
-     "profundidad": 6.0,
-     "herraje": "BP"
-    }
-   ],
    "modulo": 9
   },
   {
@@ -7752,9 +7773,7 @@
    "ranuras": [],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "material de GuiGui 装饰板 d02白麻面 -> se corta en NFondo Blanco"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 0.0,
    "canto_abajo": 0.0,
@@ -7763,10 +7782,10 @@
   },
   {
    "codigo": "2114715076033",
-   "nombre": "Bajo mesada doble c/cesto_Fondo 974x232x5",
+   "nombre": "Bajo mesada doble c/cesto_Fondo 974x227x5",
    "globo": 7,
    "ancho": 974.0,
-   "alto": 232.0,
+   "alto": 227.0,
    "espesor": 5.0,
    "material": "NFondo",
    "mueble": "Bajo mesada doble c/cesto",
@@ -7778,9 +7797,7 @@
    "ranuras": [],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "material de GuiGui 装饰板 d02白麻面 -> se corta en NFondo Blanco"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 0.0,
    "canto_abajo": 0.0,
@@ -8694,9 +8711,7 @@
    "ranuras": [],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "material de GuiGui 装饰板 01暖白 -> se corta en NFondo Blanco"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 0.0,
    "canto_abajo": 0.0,
@@ -10867,7 +10882,7 @@
    "ancho": 400.0,
    "alto": 840.5,
    "espesor": 18.0,
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "mueble": "Alacena simple ajuste",
    "textura": "Gris",
    "veta": "VERTICAL",
@@ -11079,7 +11094,7 @@
    "ancho": 400.0,
    "alto": 840.5,
    "espesor": 18.0,
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "mueble": "Alacena simple ajuste",
    "textura": "Gris",
    "veta": "VERTICAL",
@@ -11228,7 +11243,7 @@
    "ancho": 400.0,
    "alto": 350.0,
    "espesor": 18.0,
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "mueble": "Alacena simple ajuste",
    "textura": "Gris",
    "veta": "VERTICAL",
@@ -11302,7 +11317,7 @@
    "ancho": 367.0,
    "alto": 264.0,
    "espesor": 18.0,
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "mueble": "Alacena simple ajuste",
    "textura": "Gris",
    "veta": "VERTICAL",
@@ -11404,7 +11419,7 @@
    "ancho": 400.0,
    "alto": 300.0,
    "espesor": 18.0,
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "mueble": "Alacena simple ajuste",
    "textura": "Gris",
    "veta": "VERTICAL",
@@ -11486,7 +11501,7 @@
    "ancho": 50.0,
    "alto": 876.5,
    "espesor": 18.0,
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "mueble": "Alacena simple ajuste",
    "textura": "Gris",
    "veta": "VERTICAL",
@@ -11657,9 +11672,7 @@
    "ranuras": [],
    "ranuras_canto": [],
    "contorno": [],
-   "avisos": [
-    "material de GuiGui 多层实木 13玛雅灰 -> se corta en NEstructura Gris"
-   ],
+   "avisos": [],
    "canto_izq": 0.0,
    "canto_der": 0.0,
    "canto_abajo": 1.0,

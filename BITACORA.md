@@ -2096,3 +2096,17 @@ falta que Huahua diga qué códigos y qué cableado usa el MS300.
 - `etapa2/paquete_portal.py`: arma el ZIP. COCINA MLV: 13 módulos, 125 piezas, 697 archivos, 17 MB; planos de
   IDEE partidos por hoja y vinculados por código (125/125), planos de mecanizado verificados por código (125/125).
 - `id_etiqueta` (= `plkId` de GuiGui, el "ID" de los planos de IDEE) agregado a la maestra: coincide en las 125.
+
+## 28/10/2026 — COCINA MLV: cambios de la diseñadora en GuiGui (guardado 28/10 20:53 China)
+
+- Render nuevo en `referencia/GUIGUI_MCP/1028/`. Mismos 125 códigos y mismos globos. Paquete regenerado completo.
+- Cambian en la etiqueta 15 piezas (`PENDRIVE/12_COCINA_MLV/etiquetas_reimprimir_2810/`): materiales de muestra →
+  estructura/fondo (1789, 1285, 1384, 1654, 1003, 1004, 1469), Alacena simple ajuste de PET a estructura (1646,
+  1647, 1648, 1652, 1706, 1707), fondo de la Alacena doble 964×840,5 → 974×850,5 (1247), fondo de arriba del
+  Bajo mesada doble 974×232 → 974×227 (1003) y listón superior 1277 con canto arriba y abajo (corte 149 → 148).
+- De la lista de la diseñadora: 1068 cambió de PETFRONT a NPetfrente pero la etiqueta dice lo mismo (PET frente 18);
+  1658 ya estaba en estructura; **el colgador del listón izquierdo del Escobero no aparece cambiado en GuiGui**.
+- Cambian programas sin cambiar la etiqueta: Alacena doble techo, piso y laterales (1017–1020) ahora con ranura de
+  fondo 6×6 a 20,5; Bajo mesada doble laterales, piso y estante (866–869) con la ranura del fondo de 7,5 a 20,5.
+- `generar_desde_render.sh` ya no borra carpetas (en la Mac borrar pide permiso): genera aparte y copia encima;
+  avisa si quedan programas de códigos que ya no existen.

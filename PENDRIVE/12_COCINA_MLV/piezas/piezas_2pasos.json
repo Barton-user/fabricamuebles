@@ -1,7 +1,7 @@
 {
  "version": 1,
  "origen": "guigui-render",
- "documento": "COCINA_MLV_207960w11792672732285.render.json",
+ "documento": "COCINA_MLV_207960w91793191966033.render.json",
  "orden": "260625-20",
  "cliente": "MALVINAS",
  "direccion": "",
@@ -338,9 +338,9 @@
    "agujeros_canto": [],
    "ranuras": [
     {
-     "x1": 7.5,
+     "x1": 20.5,
      "y1": 964.0,
-     "x2": 7.5,
+     "x2": 20.5,
      "y2": 0.0,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -470,9 +470,9 @@
    ],
    "ranuras": [
     {
-     "x1": 571.5,
+     "x1": 558.5,
      "y1": 964.0,
-     "x2": 571.5,
+     "x2": 558.5,
      "y2": 0.0,
      "ancho": 6.0,
      "profundidad": 6.0,
@@ -507,9 +507,9 @@
    "agujeros_canto": [],
    "ranuras": [
     {
-     "x1": 7.5,
+     "x1": 20.5,
      "y1": 964.0,
-     "x2": 7.5,
+     "x2": 20.5,
      "y2": 0.0,
      "ancho": 6.0,
      "profundidad": 6.0,

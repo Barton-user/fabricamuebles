@@ -1,12 +1,12 @@
 # COCINA MLV (Malvinas) — paquete de producción
 
-GuiGui: orden **260625-20**, habitación COCINA MLV (room 117131062), **guardado 22/10 20:39 (China)**.
+GuiGui: orden **260625-20**, habitación COCINA MLV (room 117131062), **guardado 28/10 20:53 (China)** (antes 22/10; cambios y etiquetas a reimprimir en `etiquetas_reimprimir_2810/`).
 13 muebles, **125 piezas**. Generado el 27/10/2026 directo del `render.json`, sin pasar por Fusion:
 
 ```
 cd etapa2
-./generar_desde_render.sh ../referencia/GUIGUI_MCP/1022/COCINA_MLV_207960w11792672732285.render.json \
-    ../PENDRIVE/12_COCINA_MLV 260625-20 MALVINAS 22/10/2026
+./generar_desde_render.sh ../referencia/GUIGUI_MCP/1028/COCINA_MLV_207960w91793191966033.render.json \
+    ../PENDRIVE/12_COCINA_MLV 260625-20 MALVINAS 28/10/2026
 ```
 
 Si la diseñadora cambia algo en GuiGui: bajar el render nuevo (MCP, `docs/GUIGUI.md`) y volver a correr esa línea.

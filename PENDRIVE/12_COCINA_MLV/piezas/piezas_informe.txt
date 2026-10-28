@@ -1,4 +1,4 @@
-render_piezas COCINA_MLV_207960w11792672732285.render.json
+render_piezas COCINA_MLV_207960w91793191966033.render.json
 
 ## Horno y anafe
  1 1956217421314 Lateral 780x580x18 A           8 receptores 3 en 1 -> O5 x 12; ⚠ pieza con recorte (no es rectangular): el programa es el rectangulo; el recorte va a mano o en el router
@@ -19,7 +19,7 @@ render_piezas COCINA_MLV_207960w11792672732285.render.json
  4 2112206381802 Estante 564x377x18             4 pernos de canto -> prof 33
  5 2112206381772 Estante 564x367x18             4 pernos de canto -> prof 33
  6 2112206381710 Techo 600x400x18               4 receptores 3 en 1 -> O5 x 12
- 7 2112206381796 Travesaño 564x146.36x18        6 pernos de canto -> prof 33; ⚠ material de GuiGui 多层实木 13玛雅灰 -> se corta en NEstructura Gris
+ 7 2112206381796 Travesaño 564x146.36x18        6 pernos de canto -> prof 33
  8 2112206381789 Fondo 850.5x574x5              sin cambios
  9 2112206381758 Puerta 597x554.79x18           4 tornillos de bisagra -> O5 x 3; 2 cazoletas -> prof 13
 
@@ -30,7 +30,7 @@ render_piezas COCINA_MLV_207960w11792672732285.render.json
  4 2112485522422 Estante 964x370x18             4 pernos de canto -> prof 33; ⚠ GuiGui dibuja 400x964 pero corta 370x964 (spec)
  5 2112485522347 Techo 1000x400x18              4 receptores 3 en 1 -> O5 x 12
  6 2112485522446 Travesaño 964x146.78x18        7 pernos de canto -> prof 33
- 7 2112485522439 Fondo 964x840.5x5              sin cambios
+ 7 2112485522439 Fondo 974x850.5x5              sin cambios
  8 2112485522385 Puerta 898.5x497x18 A          4 tornillos de bisagra -> O5 x 3; 2 cazoletas -> prof 13
  9 2112485522408 Puerta 898.5x497x18 B          4 tornillos de bisagra -> O5 x 3; 2 cazoletas -> prof 13
 
@@ -40,12 +40,12 @@ render_piezas COCINA_MLV_207960w11792672732285.render.json
  3 2113263803672 Piso 650x400x18                7 receptores 3 en 1 -> O5 x 12
  4 2113263803702 Estante 614x367x18             4 pernos de canto -> prof 33
  5 2113263803641 Techo 650x400x18               4 receptores 3 en 1 -> O5 x 12
- 6 2113263803726 Travesaño 614x146.78x18        7 pernos de canto -> prof 33; ⚠ material de GuiGui 多层实木 13玛雅灰 -> se corta en NEstructura Gris
+ 6 2113263803726 Travesaño 614x146.78x18        7 pernos de canto -> prof 33
  7 2113263803719 Fondo 850.5x624x5              sin cambios
  8 2113263803689 Puerta 898.5x647x18            4 tornillos de bisagra -> O5 x 3; 2 cazoletas -> prof 13
 
 ## Alacena s/heladera
- 1 2113802794676 Lateral 600x388x18             6 receptores 3 en 1 -> O5 x 12; ⚠ material de GuiGui PETFRONT PET Gris -> se corta en NPetfrente PET Gris
+ 1 2113802794676 Lateral 600x388x18             6 receptores 3 en 1 -> O5 x 12
  2 2113802794683 Lateral 600x370x18             3 receptores 3 en 1 -> O5 x 12; 3 pernos de canto -> prof 33
  3 2113802794690 Piso 664x600x18                6 pernos de canto -> prof 33
  4 2113802794669 Techo 682x600x18               2 placas base -> 2 x O5 x 3 a 37 del frente, +-16; 3 receptores 3 en 1 -> O5 x 12; 3 pernos de canto -> prof 33
@@ -65,7 +65,7 @@ render_piezas COCINA_MLV_207960w11792672732285.render.json
 10 2114155254992 Zócalo 350x90x18 A             4 receptores 3 en 1 -> O5 x 12; 2 pernos de canto -> prof 33
 11 2114155254985 Zócalo 350x90x18 B             4 receptores 3 en 1 -> O5 x 12; 2 pernos de canto -> prof 33
 12 2114155255098 Tapa 2264x50x18                9 pernos de canto -> prof 33
-13 2114155254961 Travesaño 264x154.97x18        4 pernos de canto -> prof 33; ⚠ material de GuiGui 多层实木 13玛雅灰 -> se corta en NEstructura Gris
+13 2114155254961 Travesaño 264x154.97x18        4 pernos de canto -> prof 33
 14 2114155255036 Fondo 2274x274x5               sin cambios
 15 2114155255067 Puerta 1433.1x297x18           6 tornillos de bisagra -> O5 x 3; 3 cazoletas -> prof 13
 16 2114155254947 Puerta 860.9x297x18            4 tornillos de bisagra -> O5 x 3; 2 cazoletas -> prof 13
@@ -82,9 +82,9 @@ render_piezas COCINA_MLV_207960w11792672732285.render.json
  2 2114715075968 Lateral 780x580x18 B           2 placas base -> 2 x O5 x 3 a 37 del frente, +-16; 7 receptores 3 en 1 -> O5 x 12; ⚠ pieza con recorte (no es rectangular): el programa es el rectangulo; el recorte va a mano o en el router
  3 2114715075975 Piso 964x580x18                6 pernos de canto -> prof 33
  4 2114715075982 Estante 964x580x18             5 pernos de canto -> prof 33; ⚠ pieza con recorte (no es rectangular): el programa es el rectangulo; el recorte va a mano o en el router
- 5 2114715076057 Travesaño 964x150x18           4 pernos de canto -> prof 33; ⚠ ranura de canto 6x6 (largo 964): NO esta en el programa; hacerla aparte (tupi/router de mano)
- 6 2114715076040 Fondo 974x382x5                ⚠ material de GuiGui 装饰板 d02白麻面 -> se corta en NFondo Blanco
- 7 2114715076033 Fondo 974x232x5                ⚠ material de GuiGui 装饰板 d02白麻面 -> se corta en NFondo Blanco
+ 5 2114715076057 Travesaño 964x150x18           4 pernos de canto -> prof 33
+ 6 2114715076040 Fondo 974x382x5                sin cambios
+ 7 2114715076033 Fondo 974x227x5                sin cambios
  8 2114715075999 Puerta 744x497x18 A            4 tornillos de bisagra -> O5 x 3; 2 cazoletas -> prof 13
  9 2114715076019 Puerta 744x497x18 B            4 tornillos de bisagra -> O5 x 3; 2 cazoletas -> prof 13
 
@@ -98,7 +98,7 @@ render_piezas COCINA_MLV_207960w11792672732285.render.json
  7 2115070657424 Frente cajón 745x297x18        sin cambios
  8 2115070657455 Lateral caja 450x300x18 A      4 receptores 3 en 1 -> O5 x 12; 3 tornillos de corredera O3 sacados (atornillar con plantilla)
  9 2115070657431 Frente caja 300x202x18         4 pernos de canto -> prof 33
-10 2115070657479 Fondo caja 424x212x5           ⚠ material de GuiGui 装饰板 01暖白 -> se corta en NFondo Blanco
+10 2115070657479 Fondo caja 424x212x5           sin cambios
 11 2115070657462 Trasera caja 300x202x18        4 pernos de canto -> prof 33
 12 2115070657448 Lateral caja 450x300x18 B      4 receptores 3 en 1 -> O5 x 12; 3 tornillos de corredera O3 sacados (atornillar con plantilla)
 
@@ -135,7 +135,7 @@ render_piezas COCINA_MLV_207960w11792672732285.render.json
  4 3717179022630 Estante 367x264x18             4 pernos de canto -> prof 33
  5 3717179022586 Techo 400x300x18               4 receptores 3 en 1 -> O5 x 12
  6 3717179022661 Tapa 876.5x50x18               3 pernos de canto -> prof 33
- 7 3717179022654 Travesaño 264x140x18           4 pernos de canto -> prof 33; ⚠ material de GuiGui 多层实木 13玛雅灰 -> se corta en NEstructura Gris
+ 7 3717179022654 Travesaño 264x140x18           4 pernos de canto -> prof 33
  8 3717179022647 Fondo 845.5x274x5              sin cambios
  9 3717179022616 Puerta 898.5x297x18            4 tornillos de bisagra -> O5 x 3; 2 cazoletas -> prof 13
 

@@ -1,7 +1,7 @@
 {
  "version": 1,
  "origen": "guigui-render",
- "documento": "COCINA_MLV_207960w11792672732285.render.json",
+ "documento": "COCINA_MLV_207960w91793191966033.render.json",
  "orden": "260625-20",
  "cliente": "",
  "direccion": "",
@@ -466,8 +466,8 @@
     -0.0,
     1.0
    ],
-   "material": "多层实木",
-   "textura": "13玛雅灰",
+   "material": "NEstructura",
+   "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 7
   },
@@ -705,7 +705,7 @@
   },
   {
    "mueble": "Alacena doble",
-   "nombre": "Alacena doble_Fondo 964x840.5x5",
+   "nombre": "Alacena doble_Fondo 974x850.5x5",
    "pieza": "Fondo",
    "codigo": "2112485522439",
    "rol": "FONDO",
@@ -988,8 +988,8 @@
     -0.0,
     1.0
    ],
-   "material": "多层实木",
-   "textura": "13玛雅灰",
+   "material": "NEstructura",
+   "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 6
   },
@@ -1046,7 +1046,7 @@
     -0.0,
     1.0
    ],
-   "material": "PETFRONT",
+   "material": "NPetfrente",
    "textura": "PET Gris",
    "veta": "VERTICAL",
    "globo": 1
@@ -1307,8 +1307,8 @@
     -0.0,
     1.0
    ],
-   "material": "多层实木",
-   "textura": "13玛雅灰",
+   "material": "NEstructura",
+   "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 13
   },
@@ -1952,7 +1952,7 @@
   },
   {
    "mueble": "Bajo mesada doble c/cesto",
-   "nombre": "Bajo mesada doble c/cesto_Fondo 974x232x5",
+   "nombre": "Bajo mesada doble c/cesto_Fondo 974x227x5",
    "pieza": "Fondo",
    "codigo": "2114715076033",
    "rol": "FONDO",
@@ -1961,7 +1961,7 @@
    "T": 5.0,
    "O": [
     -1568.0,
-    10.0,
+    23.0,
     498.0
    ],
    "ex": [
@@ -1974,8 +1974,8 @@
     -0.0,
     1.0
    ],
-   "material": "装饰板",
-   "textura": "d02白麻面",
+   "material": "NFondo",
+   "textura": "Blanco",
    "veta": "VERTICAL",
    "globo": 7
   },
@@ -1990,7 +1990,7 @@
    "T": 5.0,
    "O": [
     -1568.0,
-    10.0,
+    23.0,
     108.0
    ],
    "ex": [
@@ -2003,8 +2003,8 @@
     -0.0,
     1.0
    ],
-   "material": "装饰板",
-   "textura": "d02白麻面",
+   "material": "NFondo",
+   "textura": "Blanco",
    "veta": "VERTICAL",
    "globo": 6
   },
@@ -2322,8 +2322,8 @@
     -0.0,
     0.0
    ],
-   "material": "装饰板",
-   "textura": "01暖白",
+   "material": "NFondo",
+   "textura": "Blanco",
    "veta": "VERTICAL",
    "globo": 10
   },
@@ -3105,7 +3105,7 @@
     -0.0,
     0.0
    ],
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 5
@@ -3134,7 +3134,7 @@
     -0.0,
     1.0
    ],
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 1
@@ -3163,7 +3163,7 @@
     -0.0,
     1.0
    ],
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 2
@@ -3221,7 +3221,7 @@
     -0.0,
     0.0
    ],
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 4
@@ -3279,8 +3279,8 @@
     -0.0,
     1.0
    ],
-   "material": "多层实木",
-   "textura": "13玛雅灰",
+   "material": "NEstructura",
+   "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 7
   },
@@ -3308,7 +3308,7 @@
     -0.0,
     1.0
    ],
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 6
@@ -3337,7 +3337,7 @@
     -0.0,
     0.0
    ],
-   "material": "NPetfrente",
+   "material": "NEstructura",
    "textura": "Gris",
    "veta": "VERTICAL",
    "globo": 3

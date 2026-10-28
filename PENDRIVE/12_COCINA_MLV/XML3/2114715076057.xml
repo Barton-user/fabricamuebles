@@ -1,12 +1,12 @@
 <KDTPanelFormat>
     <PANEL>
         <PanelLength>964.00</PanelLength>
-        <PanelWidth>149.00</PanelWidth>
+        <PanelWidth>148.00</PanelWidth>
         <PanelThickness>18.00</PanelThickness>
         <PanelName>Bajo mesada doble c/cesto_Travesaño 964x150x18 (corte)</PanelName>
         <Params>
             <Param Key="L" Value="964.00" Comment="板长"/>
-            <Param Key="W" Value="149.00" Comment="板宽"/>
+            <Param Key="W" Value="148.00" Comment="板宽"/>
             <Param Key="T" Value="18.00" Comment="板厚"/>
         </Params>
     </PANEL>
@@ -14,7 +14,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>34.00</X1>
-        <Y1>50.00</Y1>
+        <Y1>49.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
         <Enable>1</Enable>
@@ -26,7 +26,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>34.00</X1>
-        <Y1>100.00</Y1>
+        <Y1>99.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
         <Enable>1</Enable>
@@ -38,7 +38,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>930.00</X1>
-        <Y1>50.00</Y1>
+        <Y1>49.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
         <Enable>1</Enable>
@@ -50,7 +50,7 @@
         <TypeNo>1</TypeNo>
         <TypeName>Vertical Hole</TypeName>
         <X1>930.00</X1>
-        <Y1>100.00</Y1>
+        <Y1>99.00</Y1>
         <Depth>13.50</Depth>
         <Diameter>15.00</Diameter>
         <Enable>1</Enable>
@@ -62,7 +62,7 @@
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
         <X1>0.00</X1>
-        <Y1>50.00</Y1>
+        <Y1>49.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>2</Quadrant>
         <Depth>33.00</Depth>
@@ -77,7 +77,7 @@
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
         <X1>0.00</X1>
-        <Y1>100.00</Y1>
+        <Y1>99.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>2</Quadrant>
         <Depth>33.00</Depth>
@@ -92,7 +92,7 @@
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
         <X1>964.00</X1>
-        <Y1>50.00</Y1>
+        <Y1>49.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>1</Quadrant>
         <Depth>33.00</Depth>
@@ -107,7 +107,7 @@
         <TypeNo>2</TypeNo>
         <TypeName>Horizontal Hole</TypeName>
         <X1>964.00</X1>
-        <Y1>100.00</Y1>
+        <Y1>99.00</Y1>
         <Z1>9.00</Z1>
         <Quadrant>1</Quadrant>
         <Depth>33.00</Depth>

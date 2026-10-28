@@ -24,8 +24,10 @@ python3 render_piezas.py "$R" -o "$P/piezas/piezas.json" --orden "$ORDEN" --clie
 python3 a_medida_corte.py "$P/piezas/piezas.json" -o "$P/piezas/piezas_corte.json" > /dev/null
 python3 ajustar_maquina.py "$P/piezas/piezas_corte.json" -o "$P/piezas/piezas_maquina.json" > "$P/piezas/ajustes_maquina.txt"
 TMP="$(mktemp -d)"
-rm -rf "$P/XML3" "$P/XML3_2PASOS" "$P/XML3_PRUEBA_UN_PASO"
-python3 exportar.py "$P/piezas/piezas_maquina.json" -o "$P" --formatos xml3 | tail -1
+# Sin borrar nada en la carpeta (en la Mac borrar pide permiso): se genera en TMP y se copia encima.
+python3 exportar.py "$P/piezas/piezas_maquina.json" -o "$TMP/uno" --formatos xml3 | tail -1
+mkdir -p "$P/XML3" "$P/XML3_2PASOS" "$P/XML3_PRUEBA_UN_PASO"
+cp -f "$TMP/uno/XML3/"*.xml "$P/XML3/"
 python3 dos_pasos.py "$P/piezas/piezas_maquina.json" -o "$P/piezas/piezas_2pasos.json" > "$P/piezas/dos_pasos.txt"
 tail -1 "$P/piezas/dos_pasos.txt"
 python3 exportar.py "$P/piezas/piezas_2pasos.json" -o "$TMP" --formatos xml3 > /dev/null
@@ -44,12 +46,23 @@ for p in json.load(open(os.path.join(P, "piezas", "piezas_2pasos.json"), encodin
     else:
         shutil.copy(os.path.join(X2, c + ".xml"), os.path.join(P, "XML3_2PASOS", c + ".xml"))
 PY
+python3 - "$P" <<'PY'
+import json, os, sys
+P = sys.argv[1]
+d = json.load(open(os.path.join(P, "piezas", "piezas_2pasos.json"), encoding="utf-8"))["piezas"]
+quedan = {"XML3": {p["codigo"] for p in json.load(open(os.path.join(P, "piezas", "piezas_maquina.json"), encoding="utf-8"))["piezas"]},
+          "XML3_2PASOS": {p["codigo"] for p in d if p["nombre"].endswith("PASO 2")},
+          "XML3_PRUEBA_UN_PASO": {p["codigo"] for p in d if p["nombre"].endswith("PASO 1")}}
+for carpeta, codigos in quedan.items():
+    viejos = [f for f in os.listdir(os.path.join(P, carpeta)) if f.endswith(".xml") and f[:-4] not in codigos]
+    if viejos:
+        print("ATENCION: en %s quedaron programas que ya no corresponden (borrarlos): %s" % (carpeta, ", ".join(sorted(viejos))))
+PY
 rm -rf "$TMP"
 python3 listacorte.py "$P/piezas/piezas.json" -o "$P" | tail -1
 python3 hojas.py "$P/piezas/piezas_maquina.json" -o "$P/HOJAS_VERIFICACION.html" --titulo "Perforadora: cara A arriba" | tail -1
 python3 hojas.py "$P/piezas/piezas_2pasos.json" -o "$P/HOJAS_2PASOS.html" --titulo "Piezas en dos pasos" | tail -1
 python3 etiquetas.py "$P/maestra.json" -o "$P/etiquetas_qr_web" --orden "$ORDEN" --cliente "$CLIENTE" --alto 39 --url-base "$URL" | tail -1
 python3 render_modelo.py "$R" -o "$P/piezas/modelo.json" --orden "$ORDEN"
-rm -f "$P"/manuales/*.pdf
 python3 manual_armado.py "$P/piezas/modelo.json" -o "$P/manuales/manual.pdf" | sed 's/ ->.*//'
 python3 web_piezas.py "$R" --orden "$ORDEN" --guardado "$GUARDADO" -o ../curvado/public --manuales "$P/manuales" | tail -1

@@ -1,0 +1,19 @@
+ETIQUETAS PARA REIMPRIMIR - COCINA MLV (cambios de GuiGui del 28/10)
+
+Tirar las etiquetas viejas de estas piezas y pegar estas. Mismo codigo de barras: los programas se cargan igual.
+
+ID 1789  2112206381796  Alacena microondas01     Travesaño 564x146.36x18      corte 564x145.36
+ID 1247  2112485522439  Alacena doble            Fondo 974x850.5x5            corte 974x850.5
+ID 1285  2113263803726  Alacena simple           Travesaño 614x146.78x18      corte 614x145.78
+ID 1384  2114155254961  Escobero                 Travesaño 264x154.97x18      corte 264x152.97
+ID 1277  2114715076057  Bajo mesada doble c/cest Travesaño 964x150x18         corte 964x148
+ID 1004  2114715076040  Bajo mesada doble c/cest Fondo 974x382x5              corte 974x382
+ID 1003  2114715076033  Bajo mesada doble c/cest Fondo 974x227x5              corte 974x227
+ID 1469  2115070657479  00-Bandejero             Fondo caja 424x212x5         corte 424x212
+ID 1647  3717179022593  Alacena simple ajuste    Parante 840.5x400x18         corte 399x840.5
+ID 1648  3717179022609  Alacena simple ajuste    Lateral 840.5x400x18         corte 399x840.5
+ID 1707  3717179022678  Alacena simple ajuste    Piso 400x350x18              corte 399x348
+ID 1652  3717179022630  Alacena simple ajuste    Estante 367x264x18           corte 366x264
+ID 1646  3717179022586  Alacena simple ajuste    Techo 400x300x18             corte 399x299
+ID 1706  3717179022661  Alacena simple ajuste    Tapa 876.5x50x18             corte 49x874.5
+ID 1654  3717179022654  Alacena simple ajuste    Travesaño 264x140x18         corte 264x138

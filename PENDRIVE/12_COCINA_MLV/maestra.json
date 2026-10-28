@@ -1,7 +1,7 @@
 {
  "ambiente": "COCINA MLV",
  "orden": "30346169",
- "version": "5.0.0.5global-4",
+ "version": "5.0.0.5global-6",
  "muebles": [
   {
    "indice": 0,
@@ -902,8 +902,8 @@
      "aviso": "",
      "corte_W": 564,
      "corte_H": 145.36,
-     "material": "多层实木",
-     "textura": "13玛雅灰",
+     "material": "NEstructura",
+     "textura": "Gris",
      "cantos": {
       "izq": 0.0,
       "abajo": 0.0,
@@ -1451,18 +1451,18 @@
     {
      "codigo": "2112485522439",
      "id_etiqueta": 1247,
-     "nombre": "Fondo 964x840.5x5",
+     "nombre": "Fondo 974x850.5x5",
      "nombre_guigui": "Fondo01",
      "nombre_largo": "Alacena doble_Fondo01",
      "tipo": "Fondo",
-     "W": 964,
-     "H": 840.5,
+     "W": 974,
+     "H": 850.5,
      "T": 5,
      "dibujo_W": 964,
      "dibujo_H": 840.5,
      "aviso": "",
-     "corte_W": 964,
-     "corte_H": 840.5,
+     "corte_W": 974,
+     "corte_H": 850.5,
      "material": "NFondo",
      "textura": "Blanco",
      "cantos": {
@@ -1966,8 +1966,8 @@
      "aviso": "",
      "corte_W": 614,
      "corte_H": 145.78,
-     "material": "多层实木",
-     "textura": "13玛雅灰",
+     "material": "NEstructura",
+     "textura": "Gris",
      "cantos": {
       "izq": 0.0,
       "abajo": 0.0,
@@ -2175,7 +2175,7 @@
      "aviso": "",
      "corte_W": 599,
      "corte_H": 388.0,
-     "material": "PETFRONT",
+     "material": "NPetfrente",
      "textura": "PET Gris",
      "cantos": {
       "izq": 0.0,
@@ -3257,8 +3257,8 @@
      "aviso": "",
      "corte_W": 264,
      "corte_H": 152.97,
-     "material": "多层实木",
-     "textura": "13玛雅灰",
+     "material": "NEstructura",
+     "textura": "Gris",
      "cantos": {
       "izq": 0.0,
       "abajo": 1.0,
@@ -4076,12 +4076,12 @@
      "dibujo_H": 150,
      "aviso": "",
      "corte_W": 964,
-     "corte_H": 149,
+     "corte_H": 148,
      "material": "NEstructura",
      "textura": "Blanco",
      "cantos": {
       "izq": 0.0,
-      "abajo": 0.0,
+      "abajo": 1.0,
       "der": 0.0,
       "arriba": 1.0
      },
@@ -4135,8 +4135,8 @@
      "aviso": "",
      "corte_W": 974,
      "corte_H": 382,
-     "material": "装饰板",
-     "textura": "d02白麻面",
+     "material": "NFondo",
+     "textura": "Blanco",
      "cantos": {
       "izq": 0.0,
       "abajo": 0.0,
@@ -4150,12 +4150,12 @@
      "caja": [
       [
        1568,
-       -10,
+       -23,
        108
       ],
       [
        2532,
-       -5,
+       -18,
        480
       ]
      ],
@@ -4181,20 +4181,20 @@
     {
      "codigo": "2114715076033",
      "id_etiqueta": 1003,
-     "nombre": "Fondo 974x232x5",
+     "nombre": "Fondo 974x227x5",
      "nombre_guigui": "Fondo02",
      "nombre_largo": "Bajo mesada doble c/cesto_Fondo02",
      "tipo": "Fondo",
      "W": 974,
-     "H": 232,
+     "H": 227,
      "T": 5,
      "dibujo_W": 964,
      "dibujo_H": 222,
      "aviso": "",
      "corte_W": 974,
-     "corte_H": 232,
-     "material": "装饰板",
-     "textura": "d02白麻面",
+     "corte_H": 227,
+     "material": "NFondo",
+     "textura": "Blanco",
      "cantos": {
       "izq": 0.0,
       "abajo": 0.0,
@@ -4208,12 +4208,12 @@
      "caja": [
       [
        1568,
-       -10,
+       -23,
        498
       ],
       [
        2532,
-       -5,
+       -18,
        720
       ]
      ],
@@ -4921,8 +4921,8 @@
      "aviso": "",
      "corte_W": 424,
      "corte_H": 212,
-     "material": "装饰板",
-     "textura": "01暖白",
+     "material": "NFondo",
+     "textura": "Blanco",
      "cantos": {
       "izq": 0.0,
       "abajo": 0.0,
@@ -6551,7 +6551,7 @@
      "aviso": "",
      "corte_W": 399,
      "corte_H": 840.5,
-     "material": "NPetfrente",
+     "material": "NEstructura",
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
@@ -6609,7 +6609,7 @@
      "aviso": "",
      "corte_W": 399,
      "corte_H": 840.5,
-     "material": "NPetfrente",
+     "material": "NEstructura",
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
@@ -6667,7 +6667,7 @@
      "aviso": "",
      "corte_W": 399,
      "corte_H": 348,
-     "material": "NPetfrente",
+     "material": "NEstructura",
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
@@ -6727,7 +6727,7 @@
      "aviso": "",
      "corte_W": 366,
      "corte_H": 264,
-     "material": "NPetfrente",
+     "material": "NEstructura",
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
@@ -6785,7 +6785,7 @@
      "aviso": "",
      "corte_W": 399,
      "corte_H": 299,
-     "material": "NPetfrente",
+     "material": "NEstructura",
      "textura": "Gris",
      "cantos": {
       "izq": 0.0,
@@ -6845,7 +6845,7 @@
      "aviso": "",
      "corte_W": 49,
      "corte_H": 874.5,
-     "material": "NPetfrente",
+     "material": "NEstructura",
      "textura": "Gris",
      "cantos": {
       "izq": 1.0,
@@ -6903,8 +6903,8 @@
      "aviso": "",
      "corte_W": 264,
      "corte_H": 138,
-     "material": "多层实木",
-     "textura": "13玛雅灰",
+     "material": "NEstructura",
+     "textura": "Gris",
      "cantos": {
       "izq": 0.0,
       "abajo": 1.0,

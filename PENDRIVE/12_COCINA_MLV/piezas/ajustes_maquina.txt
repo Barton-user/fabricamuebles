@@ -21,7 +21,7 @@
 2112485522422 Estante 964x370x18 (corte) VOLTEADA (cara de trabajo arriba)
 2112485522347 Techo 1000x400x18 (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: ranura 18x11
 2112485522446 Travesaño 964x146.78x18 (corte) VOLTEADA (cara de trabajo arriba)
-2112485522439 Fondo 964x840.5x5    sin cambios
+2112485522439 Fondo 974x850.5x5    sin cambios
 2112485522385 Puerta 898.5x497x18 A (corte) VOLTEADA (cara de trabajo arriba)
 2112485522408 Puerta 898.5x497x18 B (corte) VOLTEADA (cara de trabajo arriba)
 2113263803658 Lateral 840.5x400x18 A (corte) VOLTEADA (cara de trabajo arriba); queda ABAJO: O15
@@ -65,7 +65,7 @@
 2114715075982 Estante 964x580x18 (corte) CONFLICTO: las dos caras necesitan ir arriba; queda ABAJO: O15, ranura 6x6
 2114715076057 Travesaño 964x150x18 (corte) sin cambios
 2114715076040 Fondo 974x382x5      sin cambios
-2114715076033 Fondo 974x232x5      sin cambios
+2114715076033 Fondo 974x227x5      sin cambios
 2114715075999 Puerta 744x497x18 A (corte) VOLTEADA (cara de trabajo arriba)
 2114715076019 Puerta 744x497x18 B (corte) VOLTEADA (cara de trabajo arriba)
 2115070657400 Parante 780x562x18 (corte) VOLTEADA (cara de trabajo arriba)
